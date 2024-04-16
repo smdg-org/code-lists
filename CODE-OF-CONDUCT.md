@@ -2,7 +2,7 @@
 
 ## Preamble
 
-The SMDG Code Lists were crafted with the vision of nurturing an environment that champions openness, innovation, and inclusivity within our community. In order to provide clear guidance on expected conduct within our communities, we have embraced the principles outlined in the [Contributor Covenant](https://www.contributor-covenant.org/).This code of conduct has been embraced from [DotNet Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct), and it resonates deeply with our own values.
+The SMDG Code Lists were crafted with the vision of nurturing an environment that champions openness, innovation, and inclusivity within our community. In order to provide clear guidance on expected conduct within our communities, we have embraced the principles outlined in the [Contributor Covenant](https://www.contributor-covenant.org/).This code of conduct has been embraced from [.NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct), and it resonates deeply with our own values.
 
 ## Our Pledge
 
@@ -36,4 +36,4 @@ Community leaders have the right and responsibility to remove, edit, or reject c
 
 ## Attribution
 
-This Code of Conduct is taken from [DotNet Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct), which itself was adapted from the [Contributor Covenant, version 2.0](https://www.contributor-covenant.org/version/2/0/code_of_conduct.html).
+This Code of Conduct is taken from [.NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct), which itself was adapted from the [Contributor Covenant, version 2.0](https://www.contributor-covenant.org/version/2/0/code_of_conduct.html).
