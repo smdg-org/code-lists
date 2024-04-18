@@ -15,7 +15,6 @@ Mark 'x' for data pieces that has been changed
 Data:
 
 - [ ] Liner information has been changed
-- [ ] Terminal information has been changed
 
 Development:
 
