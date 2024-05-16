@@ -5,7 +5,7 @@
       "commandName": "Project",
       "environmentVariables": {
       },
-      "commandLineArgs": "convert liners -o ./data/liner-codes"
+      "commandLineArgs": "convert liners -o ./../../../../../../data/liner-codes"
     }
   }
 }

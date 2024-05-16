@@ -2,10 +2,11 @@ namespace SmdgCli.Services;
 
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using Schemas.Liners;
 
 public class FileListWriter : IFileListWriter
 {
-    public Task WriteAsync<T>(
+    public async Task WriteAsync<T>(
         IEnumerable<T> records,
         string outputDirectory,
         Func<T, string> fileNameSelector,
@@ -26,12 +27,20 @@ public class FileListWriter : IFileListWriter
             Converters = { new JsonStringEnumConverter() }
         };
 
-        return Task.WhenAll(records.Select(record =>
+        var recordFiles = records
+            .Select(record => (FileName: fileNameSelector(record), Record: record))
+            .ToList();
+
+        await Task.WhenAll(recordFiles.Select(t =>
         {
-            var fileName = fileNameSelector(record);
-            var filePath = Path.Combine(outputDirectory, fileName);
-            var json = JsonSerializer.Serialize(record, jsonSerializerOptions);
+            var filePath = Path.Combine(outputDirectory, t.FileName);
+            var json = JsonSerializer.Serialize(t.Record, jsonSerializerOptions);
             return File.WriteAllTextAsync(filePath, json, cancellationToken);
         }));
+
+        var indexFilePath = Path.Combine(outputDirectory, "index.json");
+        var indexContent = new LinerCodeIndex(recordFiles.Select(t => t.FileName));
+        var indexJson = JsonSerializer.Serialize(indexContent, jsonSerializerOptions);
+        await File.WriteAllTextAsync(indexFilePath, indexJson, cancellationToken);
     }
 }
