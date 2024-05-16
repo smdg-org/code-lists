@@ -1,0 +1,67 @@
+name: Update GitHub PR
+
+description: Composite action to update a GitHub PR with the comment
+
+inputs:
+  status:
+    required: true
+    description: Status of the terraform init
+  title:
+    required: true
+    description: Title of the PR comment
+  details:
+    required: true
+    description: Details of the PR comment
+  githubToken:
+    required: true
+    description: GitHub Token to publish plan as a comment
+
+runs:
+  using: composite
+  steps:
+    - name: Update Pull Request
+      uses: actions/github-script@v6
+      with:
+        github-token:  ${{ inputs.githubToken }}
+        script: |
+          // 1. Retrieve existing bot comments for the PR
+          const { data: comments } = await github.rest.issues.listComments({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            issue_number: context.issue.number,
+          })
+          const botComment = comments.find(comment => {
+            return comment.user.type === 'Bot' && comment.body.includes('${{ inputs.title }}')
+          })
+
+          // 2. Prepare format of the comment
+          const output = `
+          ### ${{ inputs.title }}
+          
+          **Staus: ${{ inputs.status }}**
+
+          Pusher: *@${{ github.actor }}*
+          Action: *${{ github.event_name }}*
+          Workflow: *${{ github.workflow }}*
+
+          \`\`\`\n
+          ${{ inputs.details }}
+          \`\`\`
+          `;
+
+          // 3. If we have a comment, update it, otherwise create a new one
+          if (botComment) {
+            github.rest.issues.updateComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              comment_id: botComment.id,
+              body: output
+            })
+          } else {
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: output
+            })
+          }
