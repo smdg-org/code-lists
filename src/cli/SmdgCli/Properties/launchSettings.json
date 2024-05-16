@@ -4,7 +4,6 @@
     "SmdgCli": {
       "commandName": "Project",
       "environmentVariables": {
-        "DOTNET_ENVIRONMENT": "Development"
       },
       "commandLineArgs": "convert liners -o ./data/liner-codes"
     }
