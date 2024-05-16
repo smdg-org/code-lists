@@ -397,5 +397,4 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 .DS_Store
-src/cli/.idea/.idea.SMDG/.idea/encodings.xml
 /src/cli/.idea
