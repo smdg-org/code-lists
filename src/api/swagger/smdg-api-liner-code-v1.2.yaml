@@ -1,0 +1,448 @@
+openapi: 3.0.3
+info:
+  title: SMDG Liner Code API
+  description: |-
+    API to manage SMDG Liner Code Lists (LCL) which consist of unique codes for shipping companies in the container liner business.  
+    For more details please refer to [SMDG website](https://smdg.org/documents/smdg-code-lists/)
+
+  version: 1.0.0
+
+servers:
+  - url: https://smdg-host/referential/codelists/v1
+    description: SMDG PROD 
+
+tags:
+- name: LCL
+  description: Liner Code List management
+
+paths:
+  '/linercodes':
+    get:
+      tags:
+        - LCL
+      operationId: listLinerCodes
+      summary: list liner codes
+      description:
+        Search for liner codes using criteria.
+      parameters:
+        - name: smdgLinerCode
+          in: query
+          description: |-
+            Filter on exact match of SMDG liner code
+          schema:
+            type: string
+            minLength: 3
+        - name: linerNameContains
+          in: query
+          description: |-
+            Filter on liner codes having name that contains query value
+          schema:
+              type: string
+        - name: parentCompanyCode
+          in: query
+          description: |-
+            Filter on exact match of liner's parent company code
+          schema:
+              type: string      
+        - name: parentCompanyNameContains
+          in: query
+          description: |-
+            Filter on liner codes having Parent company name that contains query value
+          schema:
+              type: string
+        - name: carrierType
+          in: query
+          description: |-
+            Filter on exact match of liner's carrier type (ex: NVOCC)
+          schema:
+              type: string
+        - name: country
+          in: query
+          description: |-
+            Filter on liner codes having address located in the indicated country 
+          schema:
+              type: string
+        - name: UNLocationCode
+          in: query
+          description: |-
+            Filter on liner codes having address UNLocationCode matching query value
+          schema:
+              type: string
+        - name: codeStatus
+          in: query
+          description: |-
+            Filter on exact match of SMDG liner code status (ex: Active)
+          schema:
+              type: string
+        - name: validDate
+          in: query
+          description: |-
+            Filter on liner codes active as of the indicated date: having validFrom<=asOfDate and (validTo null or validTo>=asOfDate). Default value is today date
+          schema:
+              type: string
+              format: date
+        - name: includeDeleted
+          in: query
+          description: |-
+            Include deleted liner codes if true
+          schema:
+              type: boolean
+              default: false
+        - name: includeChangeLog
+          in: query
+          description: |-
+            Include change log of liner code if true
+          schema:
+              type: boolean
+              default: false
+        - name: range
+          in: header
+          schema:
+            type: string
+            default: 0-49
+          description: Pagination parameter. default 0-49. Maximum rows to return 50
+      responses:
+        '200':
+          description: Successful Operation
+          headers:
+            Content-Range:
+              $ref: '#/components/headers/Content-Range'
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/LinerCode'
+        '206':
+          description: Successful Operation but partial content
+          headers:
+            Content-Range:
+              $ref: '#/components/headers/Content-Range'
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/LinerCode'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '416':
+          $ref: '#/components/responses/BadRange'
+        '500':
+          $ref: '#/components/responses/InternalError'
+        default:
+          $ref: '#/components/responses/Default'
+      security:
+        - APIKey: []
+
+components:
+  securitySchemes:
+    APIKey:
+      type: apiKey
+      in: header
+      name: KeyId
+
+  responses:
+    NotFound:
+      description: |
+        Unknown resource code, Reason - 404 Not Found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Fault'
+    BadRequest:
+      description: |
+        Fault datatype description,  Reason - 400 Bad request
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Fault'
+    InternalError:
+      description: Internal issue,  Reason - 500 Internal error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Fault'
+    BadRange:
+      description: |
+        The provided range is not satisfiable,  Reason - 416 Range Not Satisfiable
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Fault'
+    Default:
+      description: Unexpected error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Fault'
+  
+  headers:
+    Content-Range:
+      schema:
+        type: string
+      description: 'Returned range.'
+      
+  schemas:
+    LinerCode:
+      type: object
+      required:
+      - smdgLinerID
+      - linerCodeVersion
+      - linerSMDGCode
+      - carrierType
+      - adressLocation
+      - validFrom
+      - codeStatus
+      properties:
+        smdgLinerID:
+          type: string
+          description: The identifier for a liner code
+          format: uuid
+          example: d9c69bc8-294d-46d1-807c-654598341374
+        linerCodeVersion:
+          $ref: '#/components/schemas/LinerCodeVersion'
+        linerSMDGCode:
+          type: string
+          description: Unique code for a shipping line, created and maintained by SMDG for each of the lines
+          maxLength: 3
+          example: 'TSH'
+        linerName:
+          type: string
+          description: Line name provided a part of the line code creation request and approved by SMDG
+          maxLength: 100
+          example: 'Tailwind Shipping Lines'
+        parentCompanyCode:
+          type: string
+          description: Parent company code (when already codified as per SMDG)
+          maxLength: 3
+          example: 'MSK'
+        parentCompanyName:
+          type: string
+          description: Parent company name of a subsidiary company. The parent company is only listed if the inclusion rules for this list apply and it is also listed here.
+          maxLength: 100
+          example: 'MSK'
+        carrierType:
+          type: string
+          description: Carrier type.
+          maxLength: 10
+          example: 'NVOCC'
+        adressLocation:
+          $ref: '#/components/schemas/AddressLocation'
+        validFrom:
+          type: string
+          description: Validity start of liner code
+          format: date
+          example: '2021-01-01'
+        validTo:
+          type: string
+          description: Validity end of liner code
+          format: date
+        codeStatus:
+          type: string
+          description: |
+            The status of the liner code.
+          example: ACTIVE
+          enum:
+          - ACTIVE
+          - EXPIRED
+          - DELETED
+          - MARQUED FOR DELETION
+        changeLog:
+          $ref: '#/components/schemas/ChangeLog'
+        website:
+          type: string
+          description: |
+            Line website, provided by the liner coder requestor and confirmed by SMDG
+          maxLength: 50
+          example: 'www.tailwind-shipping.com'
+        remarks:
+          type: string
+          description: |
+            Additional remarks
+          maxLength: 500
+    LinerCodeVersion:
+      type: string
+      description: The version of the given Liner code as per SMDG updates
+      maxLength: 2
+      example: '2'
+    ChangeLog:
+      type: object
+      required:
+      - linerCodeVersion
+      - lastUpdateDate
+      - actionCode
+      - reason
+      description: |
+        Change log indicating the different changes per version
+      properties:
+        linerCodeVersion:
+          $ref: '#/components/schemas/LinerCodeVersion'
+        lastUpdateDate:
+          type: string
+          description: |
+            latest updated date
+          format: date
+          example: '2021-01-01'
+        updateRequestedBy:
+          type: string
+          description: |
+            User/group responsible for requesting the update
+          example: 'Tailwind Shipping Lines'
+          maxLength: 50
+        linkedLinerCode:
+          type: string
+          description: |
+            Previous or new Liner code related to this liner code version
+          example: "TWH"
+          maxLength: 3
+        actionCode:
+          type: string
+          description: |
+            Represents the performed action (UPDATE/CODE CHANGE...)
+          example: UPDATE
+          maxLength: 50
+          enum:
+          - UPDATE
+          - DELETE
+        reason:
+          type: string
+          description: |
+            Brief description of the reason for the performed action
+          maxLength: 100
+          example: 'code change from TWS to TSH , change of address'
+        comments:
+          type: string
+          description: |
+            Any additional comments needed
+          maxLength: 100
+          example: 'change requested by Tailwind (code and address)'
+    AddressLocation:
+      required:
+      - locationName
+      type: object
+      description: |
+        Address location of the liner code
+      allOf:
+      - type: object
+        properties:
+          UNLocationCode:
+            $ref: '#/components/schemas/UNLocationCode'
+      - type: object
+        properties:
+          locationName:
+            $ref: '#/components/schemas/LocationName'
+      - type: object
+        properties:
+          address:
+            description: Address related information
+            allOf:
+            - $ref: '#/components/schemas/Address'
+    LocationName:
+      maxLength: 100
+      type: string
+      description: The name of the location.
+      example: Hamburg
+    Address:
+      type: object
+      required:
+      - name
+      description: |
+        An object for storing address related information
+      allOf:
+      - type: object
+        properties:
+          name:
+            $ref: '#/components/schemas/AddressName'
+      - type: object
+        properties:
+          street:
+            $ref: '#/components/schemas/StreetName'
+      - type: object
+        properties:
+          streetNumber:
+            $ref: '#/components/schemas/StreetNumber'
+      - type: object
+        properties:
+          floor:
+            $ref: '#/components/schemas/Floor'
+      - type: object
+        properties:
+          postCode:
+            $ref: '#/components/schemas/PostCode'
+      - type: object
+        properties:
+          city:
+            $ref: '#/components/schemas/CityName'
+      - type: object
+        properties:
+          stateRegion:
+            $ref: '#/components/schemas/StateRegion'
+      - type: object
+        properties:
+          country:
+            $ref: '#/components/schemas/Country'
+    AddressName:
+      maxLength: 100
+      type: string
+      description: Name of the address
+      example: Hamburg address
+    StreetName:
+      maxLength: 100
+      type: string
+      description: The name of the street of the party’s address.
+      example: Trostbrücke
+    StreetNumber:
+      maxLength: 50
+      type: string
+      description: The number of the street of the party’s address.
+      example: "1"
+    Floor:
+      maxLength: 50
+      type: string
+      description: The floor of the party’s street number.
+      example: "2nd"
+    PostCode:
+      maxLength: 50
+      type: string
+      description: The post code of the party’s address.
+      example: "D-20457"
+    CityName:
+      maxLength: 65
+      type: string
+      description: The city name of the party’s address.
+      example: "Hamburg"
+    StateRegion:
+      maxLength: 65
+      type: string
+      description: The state/region of the party’s address.
+      example: "Hamburg-Altstadt"
+    Country:
+      maxLength: 75
+      type: string
+      description: The country name of the party’s address.
+      example: Germany
+    UNLocationCode:
+      maxLength: 5
+      type: string
+      description: The UN Location code specifying where the place is located.
+      example: DEHAM
+    Fault:
+      type: object
+      properties:
+        reason:
+          type: string
+          description:
+            HTTP error or Free text such as  Database Not Available , Invalid
+            Credential, Mandatory, Invalid Format,  Invalid Length,
+            ForbiddenValue, Invalid Data,...
+          example: "500"
+        code:
+          type: string
+          description: 'Error Id,  Server Application error ID, Oracle error Id, ....'
+          example: "Server Error"
+        description:
+          type: string
+          description: "Human-readable error description including Data and Value"
+          example: "Server Error"
+      required:
+        - reason

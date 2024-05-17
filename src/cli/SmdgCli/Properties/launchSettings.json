@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "SmdgCli": {
+      "commandName": "Project",
+      "environmentVariables": {
+      },
+      "commandLineArgs": "convert liners -o ./../../../../../../data/liner-codes"
+    }
+  }
+}
