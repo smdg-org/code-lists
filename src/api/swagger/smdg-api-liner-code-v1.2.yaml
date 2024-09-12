@@ -62,10 +62,10 @@ paths:
             Filter on liner codes having address located in the indicated country 
           schema:
               type: string
-        - name: UNLocationCode
+        - name: unLocode
           in: query
           description: |-
-            Filter on liner codes having address UNLocationCode matching query value
+            Filter on liner codes having address UN/LOCODE matching query value
           schema:
               type: string
         - name: codeStatus
@@ -325,8 +325,8 @@ components:
       allOf:
       - type: object
         properties:
-          UNLocationCode:
-            $ref: '#/components/schemas/UNLocationCode'
+          unLocode:
+            $ref: '#/components/schemas/UnLocode'
       - type: object
         properties:
           locationName:
@@ -356,7 +356,7 @@ components:
       - type: object
         properties:
           street:
-            $ref: '#/components/schemas/StreetName'
+            $ref: '#/components/schemas/Street'
       - type: object
         properties:
           streetNumber:
@@ -372,11 +372,11 @@ components:
       - type: object
         properties:
           city:
-            $ref: '#/components/schemas/CityName'
+            $ref: '#/components/schemas/City'
       - type: object
         properties:
-          stateRegion:
-            $ref: '#/components/schemas/StateRegion'
+          state:
+            $ref: '#/components/schemas/State'
       - type: object
         properties:
           country:
@@ -386,7 +386,7 @@ components:
       type: string
       description: Name of the address
       example: Hamburg address
-    StreetName:
+    Street:
       maxLength: 100
       type: string
       description: The name of the street of the party’s address.
@@ -406,12 +406,12 @@ components:
       type: string
       description: The post code of the party’s address.
       example: "D-20457"
-    CityName:
+    City:
       maxLength: 65
       type: string
       description: The city name of the party’s address.
       example: "Hamburg"
-    StateRegion:
+    State:
       maxLength: 65
       type: string
       description: The state/region of the party’s address.
@@ -421,7 +421,7 @@ components:
       type: string
       description: The country name of the party’s address.
       example: Germany
-    UNLocationCode:
+    UnLocode:
       maxLength: 5
       type: string
       description: The UN Location code specifying where the place is located.
