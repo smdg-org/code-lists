@@ -7,9 +7,6 @@ info:
 
   version: 1.0.0
 
-servers:
-  - url: https://smdg-host/referential/codelists/v1
-    description: SMDG PROD 
 
 tags:
 - name: LCL
