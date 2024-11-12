@@ -8,8 +8,13 @@ public record AddressLocation
 {
     [MaxLength(5)]
     [Description("The UN Location code specifying where the place is located.")]
-    [JsonPropertyName("UNLocationCode")]
-    public required string UnLocationCode { get; set; }
+    [JsonPropertyName("UnLocode")]
+    public required string UnLocode { get; set; }
+
+    [MaxLength(2)]
+    [Description("The UN Country code specifying where the place is located.")]
+    [JsonPropertyName("UnCountryCode")]
+    public required string UnCountryCode { get; set; }
 
     [MaxLength(100)]
     [Description("The name of the location.")]

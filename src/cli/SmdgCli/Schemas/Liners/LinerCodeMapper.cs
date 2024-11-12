@@ -52,6 +52,7 @@ public partial class LinerCodeMapper : IMapper<LinerCode, LinerCodeExcel, LinerC
             ParentCompanyCode = string.Empty,
             ParentCompanyName = source.ParentCompany,
             CarrierType = string.Empty,
+            IsActive = source.IsActive,
             ValidFrom = validFrom,
             ValidTo = validTo,
             Website = source.Website,
@@ -59,18 +60,19 @@ public partial class LinerCodeMapper : IMapper<LinerCode, LinerCodeExcel, LinerC
             ChangeLogs = changeLogs,
             AddressLocation = new AddressLocation
             {
-                UnLocationCode = string.Empty,
+                UnLocode = source.UnLocationCode,
+                UnCountryCode = source.UnCountryCode,
                 LocationName = string.Empty,
                 Address = new Address
                 {
                     Name = source.Address,
-                    Street = string.Empty,
-                    StreetNumber = string.Empty,
-                    Floor = string.Empty,
-                    PostCode = string.Empty,
-                    City = string.Empty,
-                    StateRegion = string.Empty,
-                    Country = string.Empty,
+                    Street = source.Street,
+                    StreetNumber = source.StreetNumber,
+                    Floor = source.Floor,
+                    PostCode = source.ZipCode,
+                    City = source.City,
+                    State = source.StateRegion,
+                    Country = source.Country,
                 },
             },
         };

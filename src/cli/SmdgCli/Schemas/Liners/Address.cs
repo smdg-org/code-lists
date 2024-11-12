@@ -38,8 +38,8 @@ public record Address
 
     [MaxLength(65)]
     [Description("The state/region of the party’s address.")]
-    [JsonPropertyName("stateRegion")]
-    public required string StateRegion { get; set; }
+    [JsonPropertyName("state")]
+    public required string State { get; set; }
 
     [MaxLength(75)]
     [Description("The country name of the party’s address.")]

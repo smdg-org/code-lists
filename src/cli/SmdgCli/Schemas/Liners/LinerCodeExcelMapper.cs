@@ -20,7 +20,7 @@ public class LinerCodeExcelMapper : IExcelMapper<LinerCodeExcel>
 
         return new LinerCodeExcel
         {
-            Code = source["Code"],
+            Code = source["Code"].Trim()[..3],
             Line = source["Line"],
             ParentCompany = source["Parent company"], 
             Nvocc = source["NVOCC"].Trim().Contains('x', StringComparison.InvariantCultureIgnoreCase),

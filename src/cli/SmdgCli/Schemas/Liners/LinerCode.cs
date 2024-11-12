@@ -25,6 +25,9 @@ public record LinerCode
     [Description("Line name provided a part of the line code creation request and approved by SMDG.")]
     [JsonPropertyName("linerName")]
     public required string LinerName { get; set; }
+    
+    [JsonPropertyName("isActive")]
+    public required bool IsActive { get; set; }
 
     [Description("Validity start of liner code.")]
     [JsonPropertyName("validFrom")]
