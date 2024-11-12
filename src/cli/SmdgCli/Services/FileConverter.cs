@@ -24,7 +24,7 @@ public partial class FileConverter : IFileConverter
     {
         try
         {
-            AnsiConsole.MarkupLine($"Converting source: [deeppink3]{source.Url}[/]");
+            AnsiConsole.MarkupLine($"Converting source: [deeppink3]{source.Address}[/]");
 
             var stream = await GetStream(source, dataDirectory);
 
@@ -69,12 +69,25 @@ public partial class FileConverter : IFileConverter
 
     public async Task<Stream> GetStream(DataSource source, string dataDirectory)
     {
-        var cacheFolder = Path.Join(dataDirectory, "cache");
-        var cacheFullPath = Path.Join(cacheFolder, $"_{source.FileName}");
+        if (source.Address.StartsWith("http"))
+        {
+            var cacheFolder = Path.Join(dataDirectory, "cache");
+            var cacheFullPath = Path.Join(cacheFolder, $"_{source.FileName}");
 
-        var stream = await _remoteFileReader.GetFile(cacheFullPath, source.Url);
-
-        return stream;
+            var stream = await _remoteFileReader.GetFile(cacheFullPath, source.Address);
+            return stream;
+        }
+        
+        // Local file, no need to cache
+        var fileFullPath = Path.Join(dataDirectory, source.Address);
+        if (!File.Exists(fileFullPath))
+        {
+            AnsiConsole.MarkupLine($"[red]Reading the local file failed: {fileFullPath}[/]");
+            throw new InvalidDataException();
+        }
+        
+        AnsiConsole.MarkupLine("Reading the xlsx file from: [deeppink3]Local store[/]");
+        return File.Open(fileFullPath, FileMode.Open, FileAccess.ReadWrite);
     }
 
     private List<Dictionary<string, string>> GetData(IXLWorksheet worksheet, IEnumerable<string> expectedHeaders)

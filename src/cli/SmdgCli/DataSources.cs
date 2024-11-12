@@ -12,7 +12,7 @@ public class DataSources
 
 public class DataSource
 {
-    public string Url { get; set; } = null!;
+    public string Address { get; set; } = null!;
 
     public string FileName { get; set; } = null!;
 

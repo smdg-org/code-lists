@@ -63,14 +63,14 @@ public class ConvertLinerCodesCommand: AsyncCommand<ConvertLinerCodesSettings>
             Directory.CreateDirectory(cacheDirectory);
         }
 
-        AnsiConsole.MarkupLine($"Converting excel to intermediate json files: [deeppink3]{cacheDirectory}[/]");
+        AnsiConsole.MarkupLine($"Converting excel to intermediate json files: [deeppink3]{settings.OutputDirectory}[/]");
 
         var jsonMain = await _fileConverter.ExcelToJson(
             latestDataSource,
             latestDataSource.Version,
             ExpectedHeadersForMain,
             _codeExcelMapper,
-            cacheDirectory);
+            settings.OutputDirectory!);
         if (jsonMain is null)
         {
             AnsiConsole.MarkupLine("[red]Failed to convert Liner Codes[/]");
@@ -89,7 +89,7 @@ public class ConvertLinerCodesCommand: AsyncCommand<ConvertLinerCodesSettings>
             "Change Log",
             ExpectedHeadersForChanges,
             _changeExcelMapper,
-            cacheDirectory);
+            settings.OutputDirectory!);
         if (jsonChanges is null)
         {
             AnsiConsole.MarkupLine("[red]Failed to convert Liner Code changes[/]");
