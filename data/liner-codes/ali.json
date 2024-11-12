@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "ali",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "ALI",
+  "linerName": "Alianca Navegacao Ltd., Brasil",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "MSK",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SAO",
+    "UnCountryCode": "BR",
+    "locationName": "",
+    "address": {
+      "name": "Alian\u00E7a Navega\u00E7\u00E3o e Log\u00EDstica Ltda.\nRua Verbo Divino, 1547\nBairro Ch\u00E1cara Santo Ant\u00F4nio",
+      "street": "Rua Verbo Divino",
+      "streetNumber": "1547",
+      "floor": "",
+      "postCode": "",
+      "city": "Sao Paulo",
+      "state": "",
+      "country": "Brazil"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.alianca.com.br",
+  "remarks": ""
+}

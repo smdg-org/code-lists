@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "htn",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "HTN",
+  "linerName": "Hastin Container Line Pte Ltd.",
+  "isActive": true,
+  "validFrom": "2023-07-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "HTN",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "99 DUXTON ROAD, 089543, SINGAPORE",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2023-07-17",
+      "updateRequestedBy": "Hastin",
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": "requested by Hastin"
+    }
+  ],
+  "website": "https://www.hastin-container.com/",
+  "remarks": ""
+}

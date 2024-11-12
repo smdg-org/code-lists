@@ -1,0 +1,50 @@
+{
+  "codeStatus": "Expired",
+  "smdgLinerID": "npl",
+  "linerCodeVersion": "V2",
+  "linerSMDGCode": "NPL",
+  "linerName": "Neptune Pacific Line",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "2023-06-30",
+  "parentCompanyCode": "",
+  "parentCompanyName": "NPD",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "AU",
+    "locationName": "",
+    "address": {
+      "name": "Neptune Pacific Agency Australia Pty Limited\nLevel 12\n45-47 York St\nSydney NSW\nPO Box 3813\nSydney NSW 2001",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "NSW 2001",
+      "city": "",
+      "state": "",
+      "country": "Australia"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2023-04-11",
+      "updateRequestedBy": "Neptune Pacific Direct Line",
+      "linkedLinerCode": "",
+      "reason": "to be deleted",
+      "comments": "requested by Neptune Pacific Direct Line"
+    }
+  ],
+  "website": "https://www.neptunepacific.com/",
+  "remarks": ""
+}

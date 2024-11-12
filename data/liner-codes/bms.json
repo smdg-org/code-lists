@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "bms",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BMS",
+  "linerName": "Bintang Mas Shipping",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "Bintang Mas Shipping Pte. Ltd.\n2 Boon Leat Terrace,\n#08-02 HarbourSide Building 2,\nSingapore 119844",
+      "street": "Boon Leat Terrace\n",
+      "streetNumber": "2",
+      "floor": "",
+      "postCode": "119844",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.bintangmas.com.sg/",
+  "remarks": ""
+}

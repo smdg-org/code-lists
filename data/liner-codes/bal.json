@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "bal",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BAL",
+  "linerName": "BAL Container Line Co.Limited",
+  "isActive": true,
+  "validFrom": "2021-04-21",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "HKG",
+    "UnCountryCode": "HK",
+    "locationName": "",
+    "address": {
+      "name": "Unit 503\n5/F,Silvercord Tower 2\n30 Canton Road, \nTsimshatsuil HK, Hong Kong",
+      "street": "Canton Road",
+      "streetNumber": "30",
+      "floor": "5/F,Silvercord Tower 2",
+      "postCode": "",
+      "city": "Hong Kong",
+      "state": "",
+      "country": "China"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "http://www.bal.cn/index.html",
+  "remarks": ""
+}

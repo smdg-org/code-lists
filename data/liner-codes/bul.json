@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "bul",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BUL",
+  "linerName": "Bulcon",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "BG",
+    "locationName": "",
+    "address": {
+      "name": "Main Office - Varna, Bulgaria\nNavibulgar House,\n1, Primorski Boulevard,\n9000 Varna, Bulgaria\ntel.: \u002B359 52 633 100\nfax: \u002B359 52 633 033",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Bulgaria"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.navbul.com/",
+  "remarks": ""
+}

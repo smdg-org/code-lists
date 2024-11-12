@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "csf",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CSF",
+  "linerName": "Cathay Shipping \u0026 Freight Services",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "CATHAY SHIPPING \u0026 FREIGHT SERVICES PTE LTD\nBlock 211 Henderson Road, #05-02, Henderson Industrial Park, Singapore 159552\n",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.cathayshpg.com/aboutus.html",
+  "remarks": ""
+}

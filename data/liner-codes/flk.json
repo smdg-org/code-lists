@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "flk",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "FLK",
+  "linerName": "Folk Maritime",
+  "isActive": true,
+  "validFrom": "2024-05-02",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "Folk Maritime Services Company",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "RUH",
+    "UnCountryCode": "SA",
+    "locationName": "",
+    "address": {
+      "name": "Building No. 2217, Abdulwahid Bin Ahmad,\nAl Nakheel Dist. Riyadh 12385\nKingdom of Saudi Arabia",
+      "street": "Abdulwahid Bin Ahmad",
+      "streetNumber": "2217",
+      "floor": "",
+      "postCode": "12385",
+      "city": "Riyadh",
+      "state": "",
+      "country": "Saudi Arabia"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2024-05-02",
+      "updateRequestedBy": "Folk Maritime Services Company",
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": "requested by Folk Maritime Services Company"
+    }
+  ],
+  "website": "https://folkmaritime.com/",
+  "remarks": ""
+}

@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "sml",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SML",
+  "linerName": "Seaboard Marine Ltd.",
+  "isActive": true,
+  "validFrom": "2021-06-08",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "MIA",
+    "UnCountryCode": "US",
+    "locationName": "",
+    "address": {
+      "name": "Seaboard Marine\n8001 NW 79th Avenue, Miami, Florida, 33166, USA",
+      "street": "NW 79th Avenue",
+      "streetNumber": "8001",
+      "floor": "",
+      "postCode": "33166",
+      "city": "Miami",
+      "state": "Florida",
+      "country": "USA"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.seaboardmarine.com",
+  "remarks": ""
+}

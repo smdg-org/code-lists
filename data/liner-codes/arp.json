@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "arp",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "ARP",
+  "linerName": "ARPEZ",
+  "isActive": true,
+  "validFrom": "2015-12-08",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIS",
+    "UnCountryCode": "AR",
+    "locationName": "",
+    "address": {
+      "name": "Martin Lezica 3083,  2\u00BA Floor\nB1642GJA - San Isidro\nBuenos Aires - Argentina",
+      "street": "Martin Lezica",
+      "streetNumber": "3083",
+      "floor": "",
+      "postCode": "",
+      "city": "B1642GJA - San Isidro",
+      "state": "",
+      "country": "Argentina"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "http://www.arpez.com.ar",
+  "remarks": ""
+}

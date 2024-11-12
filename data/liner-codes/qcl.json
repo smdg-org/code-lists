@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "qcl",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "QCL",
+  "linerName": "Quest Container Line",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "MAA",
+    "UnCountryCode": "IN",
+    "locationName": "",
+    "address": {
+      "name": "Quest Container Line Pvt Ltd\nNo.325 (Old No.158) 3rd Floor,\nLinghi Chetty Street,\nChennai 600 001, India",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "600 001",
+      "city": "Chennai",
+      "state": "",
+      "country": "India"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://qcline.com/",
+  "remarks": ""
+}

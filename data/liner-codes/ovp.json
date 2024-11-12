@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "ovp",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "OVP",
+  "linerName": "OVP Shipping",
+  "isActive": true,
+  "validFrom": "2024-01-24",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "HKG",
+    "UnCountryCode": "HK",
+    "locationName": "",
+    "address": {
+      "name": "Flat/RMD38/F Boton Tech Innovation Tower\n368 Kwun Tong Road, Hong Kong",
+      "street": "Kwun Tong Road",
+      "streetNumber": "368",
+      "floor": "Flat/RMD38/F Boton Tech Innovation Tower",
+      "postCode": "",
+      "city": "Hong Kong",
+      "state": "",
+      "country": "China"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2024-01-25",
+      "updateRequestedBy": "Starline Agencies Asia PTE LTD",
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": "requested by Starline Agencies Asia PTE LTD"
+    }
+  ],
+  "website": "http://www.ovpshipping.com/en/",
+  "remarks": ""
+}

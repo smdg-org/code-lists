@@ -1,0 +1,50 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "djs",
+  "linerCodeVersion": "V2",
+  "linerSMDGCode": "DJS",
+  "linerName": "Dongjin Shipping Co, Pusan, Korea",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SEL",
+    "UnCountryCode": "KR",
+    "locationName": "",
+    "address": {
+      "name": "Head office: \n201A,Paiknam Bldg., 16Eulji-Ro, Jung-Gu, Seoul, Korea",
+      "street": "Eulji-Ro",
+      "streetNumber": "16",
+      "floor": "201A,Paiknam Bldg",
+      "postCode": "",
+      "city": "Seoul",
+      "state": "",
+      "country": "Republic of Korea (South Korea)"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2021-07-21",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "weblink added, address updated",
+      "comments": ""
+    }
+  ],
+  "website": "http://korea.djship.co.kr/",
+  "remarks": ""
+}

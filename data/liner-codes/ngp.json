@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "ngp",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "NGP",
+  "linerName": "New Guinea Pacific Line",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "SWI",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "Swire Shipping Pte. Ltd., 300 Beach Road, #27-01 The Councourse, Singapore 199555, Singapore",
+      "street": "Beach Road",
+      "streetNumber": "300",
+      "floor": "#27-01 The Concourse",
+      "postCode": "199555",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.ngpline.com/",
+  "remarks": ""
+}

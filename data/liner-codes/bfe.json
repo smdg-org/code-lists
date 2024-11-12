@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "bfe",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BFE",
+  "linerName": "Baja Ferries Sapi De C.V.",
+  "isActive": true,
+  "validFrom": "2024-08-09",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "n/a",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "LAP",
+    "UnCountryCode": "MX",
+    "locationName": "",
+    "address": {
+      "name": "IGNACIO ALLENDE 1025, COLONIA CENTRO, C.P. 23000  LA PAZ, BAJA CALIFORNIA SUR, MEXICO.",
+      "street": "IGNACIO ALLENDE",
+      "streetNumber": "1025",
+      "floor": "",
+      "postCode": "23000",
+      "city": "La Paz",
+      "state": "",
+      "country": "Mexico"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2024-08-09",
+      "updateRequestedBy": "HLC",
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": "requested by HLC"
+    }
+  ],
+  "website": "https://www.bajaferries.com.mx/maritimo",
+  "remarks": ""
+}

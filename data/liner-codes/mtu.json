@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "mtu",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "MTU",
+  "linerName": "Maritime Tunisian Lines",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "ES",
+    "locationName": "",
+    "address": {
+      "name": "Calle Consell de cent, 106 - 108 PLT 5 OF 4 Y 5, Barcelona, 08015, Spain",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Spain"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "http://www.mtlfeeder.com/",
+  "remarks": ""
+}

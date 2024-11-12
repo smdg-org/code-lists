@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "ncl",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "NCL",
+  "linerName": "North Sea Container Line",
+  "isActive": true,
+  "validFrom": "2015-08-04",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "HAU",
+    "UnCountryCode": "NO",
+    "locationName": "",
+    "address": {
+      "name": "M\u00F8llerveien 22, 5523 Haugesund, Norway",
+      "street": "M\u00F8llerveien",
+      "streetNumber": "22",
+      "floor": "",
+      "postCode": "5523",
+      "city": "Haugesund",
+      "state": "",
+      "country": "Norway"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.ncl.no/",
+  "remarks": ""
+}

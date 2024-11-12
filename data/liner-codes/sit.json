@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "sit",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SIT",
+  "linerName": "SITC Container Lines Co., Ltd",
+  "isActive": true,
+  "validFrom": "2016-07-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "HKG",
+    "UnCountryCode": "HK",
+    "locationName": "",
+    "address": {
+      "name": "SITC Hong Kong\nSITC Line Hong Kong",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Hong Kong",
+      "state": "",
+      "country": "China"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.sitc.com",
+  "remarks": ""
+}

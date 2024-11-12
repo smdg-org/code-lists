@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "ssc",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SSC",
+  "linerName": "SSC Shipping Agencies Pte Ltd",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "200 Cantonment Road, #09-01 South Point, Singapore 089763, Singapore",
+      "street": "Cantonment Road",
+      "streetNumber": "200",
+      "floor": "#09-01 Southpoint",
+      "postCode": "089763",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://singaporeshipping.listedcompany.com/",
+  "remarks": ""
+}

@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "irc",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "IRC",
+  "linerName": "I CARRY CONTAINERS PTE LTD",
+  "isActive": true,
+  "validFrom": "2023-01-17",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "NO. 2 HAVELOCK ROAD, HAVELOCK 2 #04-04, SINGAPORE 059763",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2023-01-17",
+      "updateRequestedBy": "I Carry Containers",
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": "requested by I Carry Containers"
+    }
+  ],
+  "website": "https://www.icarrycontainers.com",
+  "remarks": ""
+}

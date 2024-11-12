@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "tiz",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "TIZ",
+  "linerName": "Ti2 logistics pte ltd",
+  "isActive": true,
+  "validFrom": "2022-12-23",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "TIZ",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "2 International Business Park, #11-06\nThe Strategy Tower 1, Singapore 609930",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-12-23",
+      "updateRequestedBy": "Ti2",
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": "requested by Ti2"
+    }
+  ],
+  "website": "https://www.ti2shipping.com",
+  "remarks": ""
+}

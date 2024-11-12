@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "wss",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "WSS",
+  "linerName": "WINSPEC Shipping Pte Ltd",
+  "isActive": true,
+  "validFrom": "2023-10-18",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "WINSPEC Shipping",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "10 TUAS AVENUE 6 SINGAPORE 639298",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2023-11-09",
+      "updateRequestedBy": "WSS",
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": "requested by WSS"
+    }
+  ],
+  "website": "https://www.winspecgroup.com/",
+  "remarks": ""
+}

@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "cas",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CAS",
+  "linerName": "Caucedo Services Inc.",
+  "isActive": true,
+  "validFrom": "2022-05-06",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "RAD",
+    "UnCountryCode": "VG",
+    "locationName": "",
+    "address": {
+      "name": "Level 1 Palm Grove House, Wickhams Cay 1, Road Town, Tortola, British Virgin Islands",
+      "street": "Wickhams Cay",
+      "streetNumber": "1",
+      "floor": "",
+      "postCode": "",
+      "city": "Road Town (Tortula)",
+      "state": "",
+      "country": "British Virgin Islands"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-05-06",
+      "updateRequestedBy": "DP World",
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": "requested by DP World"
+    }
+  ],
+  "website": "not available",
+  "remarks": ""
+}

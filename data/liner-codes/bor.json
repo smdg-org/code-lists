@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "bor",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BOR",
+  "linerName": "Borchard",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "LON",
+    "UnCountryCode": "GB",
+    "locationName": "",
+    "address": {
+      "name": "10 Chiswell Street, London EC1Y 4XY, United Kingdom",
+      "street": "Chiswell Street",
+      "streetNumber": "10",
+      "floor": "",
+      "postCode": "EC1Y 4XY",
+      "city": "London",
+      "state": "",
+      "country": "United Kingdom"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.borlines.com/",
+  "remarks": ""
+}

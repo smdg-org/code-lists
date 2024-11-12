@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "pks",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "PKS",
+  "linerName": "Perkins Shipping",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "DRW",
+    "UnCountryCode": "AU",
+    "locationName": "",
+    "address": {
+      "name": "Frances Bay Drive, Darwin NT 0800, Australia",
+      "street": "Frances Bay Drive",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "NT 0800",
+      "city": "Darwin",
+      "state": "",
+      "country": "Australia"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.tollgroup.com/industries/energy",
+  "remarks": ""
+}

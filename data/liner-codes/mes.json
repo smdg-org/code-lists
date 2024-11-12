@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "mes",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "MES",
+  "linerName": "Messina Lines, Genoa",
+  "isActive": true,
+  "validFrom": "2016-09-15",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "MSC",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "GOA",
+    "UnCountryCode": "IT",
+    "locationName": "",
+    "address": {
+      "name": "Via G. D\u0027Annunzio 91, 16121 Genova GE, Italy",
+      "street": "Via G. D\u0027Annunzio",
+      "streetNumber": "91",
+      "floor": "",
+      "postCode": "16121",
+      "city": "Genoa",
+      "state": "GE",
+      "country": "Italy"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.messinaline.it/wps/wcm/connect/internet/messina_en/home",
+  "remarks": ""
+}

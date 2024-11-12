@@ -1,0 +1,50 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "hea",
+  "linerCodeVersion": "V2",
+  "linerSMDGCode": "HEA",
+  "linerName": "Heung-A Shipping",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SEL",
+    "UnCountryCode": "KR",
+    "locationName": "",
+    "address": {
+      "name": "3/F Haenam 2 Bldg. 12 Sejong-daero 12-gil, Jung-gu Seoul, Seoul, 04526 Republic Of Korea",
+      "street": "Sejong-daero 12-gil",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "04526",
+      "city": "Seoul",
+      "state": "",
+      "country": "Republic of Korea (South Korea)"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2022-12-21",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "updated: weblink, address and applicant (no change of code)",
+      "comments": "updated by Heung-A Shipping"
+    }
+  ],
+  "website": "http://www.heungaline.com/",
+  "remarks": ""
+}

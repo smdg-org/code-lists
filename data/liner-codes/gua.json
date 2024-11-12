@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "gua",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "GUA",
+  "linerName": "Guaran Feeder",
+  "isActive": true,
+  "validFrom": "2020-09-04",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "PY",
+    "locationName": "",
+    "address": {
+      "name": "Av. Gral. Jos\u00E9 Gervasio Artigas 3443, Asunci\u00F3n 001517, Paraguay",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Asuncion",
+      "state": "",
+      "country": "Paraguay"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "",
+  "remarks": ""
+}

@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "rsl",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "RSL",
+  "linerName": "RSL Shipping Pte Ltd",
+  "isActive": true,
+  "validFrom": "2022-12-23",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "MEGASTAR SHIPPING PTE LTD",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "SIS Building\n4 Leng Kee Road #02-06/07\nSingapore 159088",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2023-01-24",
+      "updateRequestedBy": "Megastar",
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": "requested by Megastar (parent company)"
+    }
+  ],
+  "website": "https://www.rsl.com.sg/",
+  "remarks": ""
+}

@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "ttr",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "TTR",
+  "linerName": "Tru-Trans Malaysia",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "PKG",
+    "UnCountryCode": "MY",
+    "locationName": "",
+    "address": {
+      "name": "Pandamaran, 42000 Port Klang, Selangor, Malaysia",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "42000",
+      "city": "Port Klang",
+      "state": "",
+      "country": "Malaysia"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "",
+  "remarks": ""
+}

@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "psl",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "PSL",
+  "linerName": "PSL Navegacao, S.A.",
+  "isActive": true,
+  "validFrom": "2015-02-17",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "PT",
+    "locationName": "",
+    "address": {
+      "name": "Av. D. Carlos I, 44-8\u00BA\n1200-649 Lisboa, Portugal\n",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Portugal"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://pslnavegacao.com/",
+  "remarks": ""
+}

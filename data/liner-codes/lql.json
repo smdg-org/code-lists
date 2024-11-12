@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "lql",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "LQL",
+  "linerName": "Liquid line",
+  "isActive": true,
+  "validFrom": "2021-02-19",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "AE",
+    "locationName": "",
+    "address": {
+      "name": "Head Quarters\nSharjah Media City, Sharja, UAE\n",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Sharja",
+      "state": "",
+      "country": "United Arab Emirates"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.liquid-line.com/",
+  "remarks": ""
+}

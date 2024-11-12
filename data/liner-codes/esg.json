@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "esg",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "ESG",
+  "linerName": "Eshipping Gateway",
+  "isActive": true,
+  "validFrom": "2021-06-30",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "CN",
+    "locationName": "",
+    "address": {
+      "name": "1901 Block A, Horoy Center, No.5059 Tinghai Road, Nanshan District, Shenzhen",
+      "street": "Tinghai Road",
+      "streetNumber": "5059",
+      "floor": "",
+      "postCode": "",
+      "city": "Shenzen",
+      "state": "",
+      "country": "China"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "",
+  "remarks": ""
+}

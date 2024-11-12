@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "jfh",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "JFH",
+  "linerName": "J.F.Hillebrand Singapore Pte Ltd",
+  "isActive": true,
+  "validFrom": "2022-08-09",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "J.F. Hillebrand Group AG",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "1 Kim Seng Promenade, #11-01 to #11-06 Great World City East Tower, Singapore 237994, Singapore",
+      "street": "Kim Seng Promenade",
+      "streetNumber": "1",
+      "floor": "#11-01 to #11-06 Great World City East Tower",
+      "postCode": "237994",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-08-09",
+      "updateRequestedBy": "J.F.Hillebrand Singapore Pte Ltd",
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": "requested by J.F.Hillebrand Singapore Pte Ltd"
+    }
+  ],
+  "website": "https://hillebrand.com/",
+  "remarks": ""
+}

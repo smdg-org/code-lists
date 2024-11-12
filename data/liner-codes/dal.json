@@ -1,0 +1,50 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "dal",
+  "linerCodeVersion": "V2",
+  "linerSMDGCode": "DAL",
+  "linerName": "Deutsche Afrika Line",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "HLC",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "HAM",
+    "UnCountryCode": "DE",
+    "locationName": "",
+    "address": {
+      "name": "Palmaille 45, 22767 Hamburg, Germany",
+      "street": "Palmaille",
+      "streetNumber": "45",
+      "floor": "",
+      "postCode": "22767",
+      "city": "Hamburg",
+      "state": "",
+      "country": "Germany"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2023-04-27",
+      "updateRequestedBy": "HLC",
+      "linkedLinerCode": "",
+      "reason": "add: HLC as parent company ",
+      "comments": "requested by HLC (DAL acquired by HLC in 2022)"
+    }
+  ],
+  "website": "https://www.rantzau.de/",
+  "remarks": ""
+}

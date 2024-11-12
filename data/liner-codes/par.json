@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "par",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "PAR",
+  "linerName": "Paranave, Paraguay, Asuncion",
+  "isActive": true,
+  "validFrom": "2017-12-20",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "PY",
+    "locationName": "",
+    "address": {
+      "name": "Avda. Republica Argentina 1412\nAsunci\u00F3n, Paraguay, 1885 \u2014 P.O. BOX: 27024",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Paraguay"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.navemar.com.py/english/paranave.php",
+  "remarks": ""
+}

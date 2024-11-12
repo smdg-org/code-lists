@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "mxn",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "MXN",
+  "linerName": "Maxicon Shipping Agencies Pte Ltd",
+  "isActive": true,
+  "validFrom": "2022-12-21",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "MXN",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "200 Cantonment Road, #14-01A South Point, Singapore 089763, Singapore",
+      "street": "Cantonment Road",
+      "streetNumber": "200",
+      "floor": "#14-01A Southpoint",
+      "postCode": "089763",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-12-21",
+      "updateRequestedBy": "Maxicon",
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": "requested by Maxicon"
+    }
+  ],
+  "website": "https://www.maxiconline.com/",
+  "remarks": ""
+}

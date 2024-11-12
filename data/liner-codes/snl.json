@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "snl",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SNL",
+  "linerName": "Sinotrans Container Lines Co Ltd",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SGH",
+    "UnCountryCode": "CN",
+    "locationName": "",
+    "address": {
+      "name": "Sinotrans Mansion 20F-25F, No.188 Fujian Road (C), Shanghai, 200001, China",
+      "street": "Fujian Rd.",
+      "streetNumber": "188",
+      "floor": "",
+      "postCode": "200001",
+      "city": "Shanghai",
+      "state": "",
+      "country": "China"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "http://www.sinolines.com/",
+  "remarks": ""
+}

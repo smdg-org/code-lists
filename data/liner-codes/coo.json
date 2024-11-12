@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "coo",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "COO",
+  "linerName": "Cool Carriers",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "STO",
+    "UnCountryCode": "SE",
+    "locationName": "",
+    "address": {
+      "name": "Cool Carriers AB, Barnhusgatan 16, 111 23 Stockholm, Sweden",
+      "street": "Barnhusgatan",
+      "streetNumber": "16",
+      "floor": "",
+      "postCode": "111 23",
+      "city": "Stockholm",
+      "state": "",
+      "country": "Sweden"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.cool.se/",
+  "remarks": ""
+}

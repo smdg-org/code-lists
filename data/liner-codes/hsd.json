@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "hsd",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "HSD",
+  "linerName": "Hamburg Sud",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "MSK",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "HAM",
+    "UnCountryCode": "DE",
+    "locationName": "",
+    "address": {
+      "name": "Willy-Brandt-Stra\u00DFe 59\u201365, 20457 Hamburg, Germany\nMailing Address: Postfach 11 15 33, 20415 Hamburg, Germany",
+      "street": "Willy-Brandt-Str.",
+      "streetNumber": "59-61",
+      "floor": "",
+      "postCode": "20457",
+      "city": "Hamburg",
+      "state": "",
+      "country": "Germany"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.hamburgsud.com/",
+  "remarks": ""
+}

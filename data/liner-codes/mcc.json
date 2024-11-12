@@ -1,0 +1,50 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "mcc",
+  "linerCodeVersion": "V2",
+  "linerSMDGCode": "MCC",
+  "linerName": "Sealand - A Maersk Company, Asia",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "MSK",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "CPH",
+    "UnCountryCode": "DK",
+    "locationName": "",
+    "address": {
+      "name": "Esplanaden 50, 1098 K\u00F8benhavn K, Denmark",
+      "street": "Esplanaden",
+      "streetNumber": "50",
+      "floor": "",
+      "postCode": "1098",
+      "city": "Copenhagen",
+      "state": "",
+      "country": "Denmark"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2021-09-13",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "Change of name from  \u0022MCC Transport\u0022 to \u0022Sealand \u2013 A Maersk Company, Asia\u0022",
+      "comments": "update based on information provided by Maersk (e-mail)"
+    }
+  ],
+  "website": "https://www.mcc.com.sg/",
+  "remarks": ""
+}

@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "med",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "MED",
+  "linerName": "MEDKON Lines, Turkey",
+  "isActive": true,
+  "validFrom": "2017-09-21",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "TR",
+    "locationName": "",
+    "address": {
+      "name": "Ye\u015Filba\u011Flar Mah. Cafer Kuyusu Mevkii Kat : 5-6-7  Royal Marin Plaza Pendik/\u0130STANBUL / TURKEY",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Turkey"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.medkonlines.com/",
+  "remarks": ""
+}

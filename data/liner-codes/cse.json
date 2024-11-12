@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "cse",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CSE",
+  "linerName": "COSCO South East Asia Pte. Ltd.",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "COS",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "HAM",
+    "UnCountryCode": "DE",
+    "locationName": "",
+    "address": {
+      "name": "Logistics Service, Am Sandtorkai 60, 20457 Hamburg, Germany",
+      "street": "Am Sandtorkai",
+      "streetNumber": "60",
+      "floor": "",
+      "postCode": "20457",
+      "city": "Hamburg",
+      "state": "",
+      "country": "Germany"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://lines.coscoshipping.com/",
+  "remarks": ""
+}

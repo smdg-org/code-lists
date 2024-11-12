@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "chl",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CHL",
+  "linerName": "Consortium Hispania Lines SA",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "MAD",
+    "UnCountryCode": "ES",
+    "locationName": "",
+    "address": {
+      "name": "Paseo de la Castellana, 141 Planta 21-B, 28046 Madrid, Spain\n",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Spain"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.chl.es/",
+  "remarks": ""
+}

@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "btl",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BTL",
+  "linerName": "Bengal Tiger Line Singapore",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "Bengal Tiger Line Pte Ltd, 200 Cantonment Road, #13-01 Southpoint,\nSingapore 089763, Singapore",
+      "street": "Cantonment Road",
+      "streetNumber": "200",
+      "floor": "#13-01 Southpoint",
+      "postCode": "089763",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.btl-feeders.com/",
+  "remarks": ""
+}

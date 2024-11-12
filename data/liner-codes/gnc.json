@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "gnc",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "GNC",
+  "linerName": "Grimaldi Lines",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "GNC",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "NAP",
+    "UnCountryCode": "IT",
+    "locationName": "",
+    "address": {
+      "name": "Via Marchese Campodisola 13, 80133 Napoli NA, Italy",
+      "street": "Via Marchese Campodisola",
+      "streetNumber": "13",
+      "floor": "",
+      "postCode": "80133",
+      "city": "Naples",
+      "state": "NA",
+      "country": "Italy"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.grimaldi.napoli.it/en/index.html",
+  "remarks": ""
+}

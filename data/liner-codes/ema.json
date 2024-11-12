@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "ema",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "EMA",
+  "linerName": "Evergreen Marine (Asia) Pte. Ltd.",
+  "isActive": true,
+  "validFrom": "2021-05-17",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "EMC",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "200 Cantonment Road, #12-01 Southpoint, Singapore 089763, Singapore",
+      "street": "Cantonment Road",
+      "streetNumber": "200",
+      "floor": "#12-01 Southpoint",
+      "postCode": "089763",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.evergreen-marine.com/",
+  "remarks": ""
+}

@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "cnp",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CNP",
+  "linerName": "Consorcio Naviero Peruano",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "PE",
+    "locationName": "",
+    "address": {
+      "name": "Company Name : Consorcio Naviero Peruano S.A.\nRUC : 20100120403\nAv. Republica de Colombia 643 7\u00B0 y 8\u00B0 Piso \u2013 San Isidro (Lima 27), Peru",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Lima",
+      "state": "",
+      "country": "Peru"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "http://www.gruporomero.com.pe/en-GB/empresas/cnp/",
+  "remarks": ""
+}

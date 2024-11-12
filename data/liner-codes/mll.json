@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "mll",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "MLL",
+  "linerName": "Maersk Line, Limited",
+  "isActive": true,
+  "validFrom": "2019-06-18",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "MSK",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "CPH",
+    "UnCountryCode": "DK",
+    "locationName": "",
+    "address": {
+      "name": "Esplanaden 50, 1098 K\u00F8benhavn K, Denmark",
+      "street": "Esplanaden",
+      "streetNumber": "50",
+      "floor": "",
+      "postCode": "1098",
+      "city": "Copenhagen",
+      "state": "",
+      "country": "Denmark"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "",
+  "remarks": "US Government Cargo"
+}

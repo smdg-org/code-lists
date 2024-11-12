@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "kma",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "KMA",
+  "linerName": "Coastal Shipping",
+  "isActive": true,
+  "validFrom": "2016-12-20",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "TT",
+    "locationName": "",
+    "address": {
+      "name": "General Manager\nCoastal Shipping Ltd\n#57 La Plaisance\nLa Romaine, San Fernando\nTrinidad West Indies",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Trinidad and Tobago"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "http://www.coastalshippingltd.com/",
+  "remarks": ""
+}

@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "tra",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "TRA",
+  "linerName": "Transvoy Logistics Pte. Ltd.",
+  "isActive": true,
+  "validFrom": "2023-08-21",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "3, Shenton Way #12-04A, Shenton House Singapore 068805",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2023-08-21",
+      "updateRequestedBy": "TRA",
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": "requested by TRA"
+    }
+  ],
+  "website": "https://www.transvoy.sg/",
+  "remarks": ""
+}

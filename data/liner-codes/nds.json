@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "nds",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "NDS",
+  "linerName": "Nile Dutch Africa Lines",
+  "isActive": true,
+  "validFrom": "2017-07-31",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "HLC",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "NL",
+    "locationName": "",
+    "address": {
+      "name": "NileDutch, Westblaak 95, 3012 KG Rotterdam, The Netherlands\nPO Box 21032, 3001 AA Rotterdam, The Netherlands",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "The Netherlands"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "http://www.niledutch.com",
+  "remarks": ""
+}

@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "pas",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "PAS",
+  "linerName": "Pasha Lines, Hawaii",
+  "isActive": true,
+  "validFrom": "2016-01-20",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "HNL",
+    "UnCountryCode": "US",
+    "locationName": "",
+    "address": {
+      "name": "Topa Financial Center, Fort Street Tower, 745 Fort Street, Suite 315, Honolulu, HI 96813-3806, USA",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "United States of America"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.pashahawaii.com/",
+  "remarks": ""
+}

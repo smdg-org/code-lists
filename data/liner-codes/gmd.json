@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "gmd",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "GMD",
+  "linerName": "Gemadept Singapore",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "VN",
+    "locationName": "",
+    "address": {
+      "name": "Gemadept Corporation, 21st Floor, 6 Le Thanh Ton St., Ben Nghe Ward, Dist.1., Ho Chi Minh City, Vietnam",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Ho Chi Minh city",
+      "state": "",
+      "country": "Vietnam"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.gemadept.com.vn/en/index.html",
+  "remarks": ""
+}

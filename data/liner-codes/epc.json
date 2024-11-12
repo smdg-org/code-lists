@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "epc",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "EPC",
+  "linerName": "EP Carriers",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "EPS SINGAPORE HEADQUARTERS, 1 Temasek Avenue, #38-01 Millenia Tower, Singapore 039192, Singapore",
+      "street": "Temasek Avenue",
+      "streetNumber": "1",
+      "floor": "#38-01 Millenia Tower",
+      "postCode": "039192",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.epshipping.com.sg/",
+  "remarks": ""
+}

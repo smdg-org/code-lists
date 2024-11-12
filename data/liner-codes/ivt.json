@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "ivt",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "IVT",
+  "linerName": "InviCont OU",
+  "isActive": true,
+  "validFrom": "2022-12-21",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "IVT",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "EE",
+    "locationName": "",
+    "address": {
+      "name": "P\u00E4rnu mnt 102-15, Tallinn, 11312, Estonia\n",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Tallinn",
+      "state": "",
+      "country": "Estonia"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-12-21",
+      "updateRequestedBy": "Invicont",
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": "requested by Invicont"
+    }
+  ],
+  "website": "https://invicont.ee/",
+  "remarks": ""
+}

@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "oac",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "OAC",
+  "linerName": "Ocean Africa Container Lines (Durban)",
+  "isActive": true,
+  "validFrom": "2017-05-24",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "ZA",
+    "locationName": "",
+    "address": {
+      "name": "5th Floor, Grindrod House,\n108 Margaret Mncadi Avenue,\nDurban, 4001, South Africa",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "South Africa"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "http://www.oceanafrica.co.za/",
+  "remarks": ""
+}

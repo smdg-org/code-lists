@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "ags",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "AGS",
+  "linerName": "AGS Shipping",
+  "isActive": true,
+  "validFrom": "2022-01-17",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "LED",
+    "UnCountryCode": "RU",
+    "locationName": "",
+    "address": {
+      "name": "DVINSKAYA STR 16 2,7TH FLOOR, ST.PETERSBURG, 198035",
+      "street": "DVINSKAYA STR",
+      "streetNumber": "162",
+      "floor": "",
+      "postCode": "198035",
+      "city": "ST.PETERSBURG",
+      "state": "",
+      "country": "Russia"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-01-17",
+      "updateRequestedBy": "PSA Antwerp",
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": "requested by PSA Antwerp"
+    }
+  ],
+  "website": "not available",
+  "remarks": ""
+}

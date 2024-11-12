@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "bcn",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BCN",
+  "linerName": "Bermuda Container Line",
+  "isActive": true,
+  "validFrom": "2016-05-18",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "BDA",
+    "UnCountryCode": "BM",
+    "locationName": "",
+    "address": {
+      "name": "Suite 1140, 48 Par-La-Ville  Road, Hamilton HM 11, Bermuda",
+      "street": "Par-La-Ville  Road",
+      "streetNumber": "48",
+      "floor": "",
+      "postCode": "",
+      "city": "Hamilton",
+      "state": "",
+      "country": "Bermuda"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://neptunebermuda.com/",
+  "remarks": ""
+}

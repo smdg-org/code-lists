@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "cul",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CUL",
+  "linerName": "China United Lines",
+  "isActive": true,
+  "validFrom": "2021-02-10",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "CN",
+    "locationName": "",
+    "address": {
+      "name": "Building 12, Lane 706 Wuxing Street, Pudong District, Shanghai 20120, China",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Shanghai",
+      "state": "",
+      "country": "China"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.culines.com/en/",
+  "remarks": ""
+}

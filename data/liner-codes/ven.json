@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "ven",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "VEN",
+  "linerName": "Venavega Venezuela",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "VE",
+    "locationName": "",
+    "address": {
+      "name": "Avenida Caron\u00ED, Caracas 1080, Miranda, Venezuela\nAvenida Caron\u00ED entre calle Par\u00EDs y Londres, edificio Luisiana, piso 3, Urb. Las Mercedes Caracas-1060",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Venezuela"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "http://venavega.com.ve/",
+  "remarks": ""
+}

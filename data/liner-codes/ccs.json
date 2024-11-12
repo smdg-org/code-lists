@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "ccs",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CCS",
+  "linerName": "Chief Container Services",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SYD",
+    "UnCountryCode": "AU",
+    "locationName": "",
+    "address": {
+      "name": "Lvl 3 8 Spring St, Sydney NSW 2000\n",
+      "street": "Lvl 3 8 Spring St",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "NSW 2000",
+      "city": "Sydney",
+      "state": "",
+      "country": "Australia"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "",
+  "remarks": ""
+}

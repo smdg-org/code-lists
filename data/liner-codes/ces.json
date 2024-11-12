@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "ces",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CES",
+  "linerName": "Crosseast Shipping",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
+    "locationName": "",
+    "address": {
+      "name": "Office #803, 8th Floor, MM Tower, Maktoum Road, Near Emirates Concorde Hotel Deira, Dubai, UAE",
+      "street": "Maktoum Road",
+      "streetNumber": "",
+      "floor": "8th Floor, MM Tower",
+      "postCode": "",
+      "city": "Dubai",
+      "state": "",
+      "country": "United Arab Emirates"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "",
+  "remarks": ""
+}

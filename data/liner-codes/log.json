@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "log",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "LOG",
+  "linerName": "Log-In Logistica Intermodal S.A.",
+  "isActive": true,
+  "validFrom": "2021-09-06",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "BR",
+    "locationName": "",
+    "address": {
+      "name": "Av. General Justo,375 - 6\u00BA andar - Centro, Rio de Janeiro, RJ, Brazil zipcode: 20021-130",
+      "street": "Av. General Justo",
+      "streetNumber": "375",
+      "floor": "",
+      "postCode": "20021-130",
+      "city": "Rio de Janeiro",
+      "state": "",
+      "country": "Brazil"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-09-06",
+      "updateRequestedBy": "Mercosul",
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": "requested by Mercosul"
+    }
+  ],
+  "website": "https://www.loginlogistica.com.br/",
+  "remarks": ""
+}

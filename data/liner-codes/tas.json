@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "tas",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "TAS",
+  "linerName": "Trans Asian Shipping Services PTE LTD.",
+  "isActive": true,
+  "validFrom": "2023-01-03",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "TAS",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "HQ: Trans Asian Shipping Services Private Ltd,\nTrans Asia Corporate Park  XIV/396-C  SEAPORT AIRPORT ROAD, Chittethukara,  Cochin - 682037 \nBranch Office: Trans Asian Shipping Services PTE LTD, 60 Albert Street  08-10 OG, Albert Complex  Singapore 189969",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2023-01-03",
+      "updateRequestedBy": "TAS",
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": "requested by TAS"
+    }
+  ],
+  "website": "https://www.tassgroup.com/",
+  "remarks": ""
+}

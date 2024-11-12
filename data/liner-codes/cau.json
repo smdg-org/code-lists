@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "cau",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CAU",
+  "linerName": "CSAV Austral SpA",
+  "isActive": true,
+  "validFrom": "2015-07-13",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "HLC",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SCL",
+    "UnCountryCode": "CL",
+    "locationName": "",
+    "address": {
+      "name": "Santiago de Chile",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "7550268",
+      "city": "Santiago de Chile",
+      "state": "",
+      "country": "Chile"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://csav.com/",
+  "remarks": ""
+}

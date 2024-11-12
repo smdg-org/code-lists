@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "eme",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "EME",
+  "linerName": "EMES Feedering, Monaco",
+  "isActive": true,
+  "validFrom": "2017-05-10",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "ARK",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "",
+    "locationName": "",
+    "address": {
+      "name": "see Arkas",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": ""
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://emesfeedering.com/schedules/",
+  "remarks": ""
+}

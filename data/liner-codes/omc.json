@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "omc",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "OMC",
+  "linerName": "Orix Maritime Corp",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "JP",
+    "locationName": "",
+    "address": {
+      "name": "2-4-1, HAMAMATSUCHO. SEKAIBOUEKI CENTER BLDG. MINATO-KU, TOKYO, 105-0013 Japan\nORIX Corporation\nCorporate Planning Department",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Japan"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.orix.co.jp/grp/en/",
+  "remarks": ""
+}

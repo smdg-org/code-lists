@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "isc",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "ISC",
+  "linerName": "ISCONT",
+  "isActive": true,
+  "validFrom": "2016-01-27",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "TLV",
+    "UnCountryCode": "IL",
+    "locationName": "",
+    "address": {
+      "name": "Tel Aviv\nAddress: 2 Hashlosha St. Tel-aviv\n",
+      "street": "2 Hashlosha St",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Tel Aviv",
+      "state": "",
+      "country": "Israel"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.allalouf.com/",
+  "remarks": ""
+}

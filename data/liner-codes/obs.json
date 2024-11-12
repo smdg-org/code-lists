@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "obs",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "OBS",
+  "linerName": "Ocean Bridge Shipping",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "NZ",
+    "locationName": "",
+    "address": {
+      "name": "25 Anzac Street, Takapuna 0622\nP.O. Box 33-1439, Auckland, New Zealand\nPhone: 09 489 6070",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "New Zealand"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.oceanbridge.co.nz/",
+  "remarks": ""
+}

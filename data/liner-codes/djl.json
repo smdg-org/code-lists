@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "djl",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "DJL",
+  "linerName": "PT Jakarta Lloyd",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "JKT",
+    "UnCountryCode": "ID",
+    "locationName": "",
+    "address": {
+      "name": "PT Djakarta LLoyd (Persero)\nDlloyd Building,\nJl Raden Saleh Raya No. 51,\nJakarta Pusat 10330, Indonesia",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Indonesia"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://djakartalloyd.co.id/",
+  "remarks": ""
+}

@@ -1,0 +1,50 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "iri",
+  "linerCodeVersion": "V2",
+  "linerSMDGCode": "IRI",
+  "linerName": "IRISL Korea Co. Ltd",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "ISL",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "",
+    "locationName": "",
+    "address": {
+      "name": "see ISL",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": ""
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2021-07-21",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "correction of reference to the address of IRISL to \u0022ISL\u0022",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.irisl.net/en",
+  "remarks": ""
+}

@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "dps",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "DPS",
+  "linerName": "Delphis",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "CMB",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "ANR",
+    "UnCountryCode": "BE",
+    "locationName": "",
+    "address": {
+      "name": "De Gerlachekaai 20\nBE 2000 Antwerpen, Belgium",
+      "street": "De Gerlachekaai",
+      "streetNumber": "20",
+      "floor": "",
+      "postCode": "2000",
+      "city": "Antwerp",
+      "state": "",
+      "country": "Belgium"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.cmb.be/en/division/delphis",
+  "remarks": ""
+}

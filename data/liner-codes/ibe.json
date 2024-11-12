@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "ibe",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "IBE",
+  "linerName": "i-Be Shipping International Pte Ltd",
+  "isActive": true,
+  "validFrom": "2024-03-19",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "IBE",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "2S JALAN PAPAN SINGAPORE 619413",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2024-03-19",
+      "updateRequestedBy": "i-Be",
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": "requested by i-Be"
+    }
+  ],
+  "website": "",
+  "remarks": " "
+}

@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "mlm",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "MLM",
+  "linerName": "Mann Lines, UK",
+  "isActive": true,
+  "validFrom": "2016-01-10",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "GB",
+    "locationName": "",
+    "address": {
+      "name": "The Naval House, Kings Quay Street\nHarwich, Essex CO12 3JJ, United Kingdom",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Harwich",
+      "state": "",
+      "country": "United Kingdom"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.mannlines.ee/ro-ro.html",
+  "remarks": ""
+}

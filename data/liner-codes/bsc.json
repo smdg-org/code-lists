@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "bsc",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BSC",
+  "linerName": "Bangladesh Shipping Corporation",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "BD",
+    "locationName": "",
+    "address": {
+      "name": "BSC Bhaban, CHITTAGONG, Chittagong 4100, Bangladesh\n",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "4100",
+      "city": "Chittagong",
+      "state": "",
+      "country": "Bangladesh"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://bsc.portal.gov.bd/",
+  "remarks": ""
+}

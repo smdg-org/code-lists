@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "aws",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "AWS",
+  "linerName": "Andrew Weir Shipping",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "LON",
+    "UnCountryCode": "GB",
+    "locationName": "",
+    "address": {
+      "name": "AW Ship Management Ltd.\n9 Alie Street, London, E1 8DE\nUnited Kingdom",
+      "street": "Alie Street",
+      "streetNumber": "9",
+      "floor": "",
+      "postCode": "",
+      "city": " London",
+      "state": "",
+      "country": "United Kingdom"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://awshipmanagement.com/",
+  "remarks": ""
+}

@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "tmi",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "TMI",
+  "linerName": "Transportes Maritimos Insulares, Lisbon",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "PT",
+    "locationName": "",
+    "address": {
+      "name": "Transportes Mar\u00EDtimos Insulares, S.A.\nEdif\u00EDcio Gon\u00E7alves Zarco\nDoca de Alc\u00E2ntara (lado Norte)\n1399-015 LISBOA\nPortugal",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Portugal"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://transinsular.pt/",
+  "remarks": ""
+}

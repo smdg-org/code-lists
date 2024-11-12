@@ -1,0 +1,50 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "zim",
+  "linerCodeVersion": "V2",
+  "linerSMDGCode": "ZIM",
+  "linerName": "ZIM Integrated Shipping Services Ltd.",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "ZIM",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "HFA",
+    "UnCountryCode": "IL",
+    "locationName": "",
+    "address": {
+      "name": "ZIM Integrated Shipping Services Ltd.\n9 Andrei Sakharov St. - Floor 3, Haifa 31016 Israel Israel P.O.B. 1723 Haifa Israel",
+      "street": "Andrei Sakharov St",
+      "streetNumber": "9",
+      "floor": "",
+      "postCode": "1723",
+      "city": "Haifa",
+      "state": "",
+      "country": "Israel"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2024-01-09",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "Modification of company name from \u0022Zim Israel Navigation Company\u0022 to \u0022ZIM Integrated Shipping Services Ltd.\u0022",
+      "comments": "Correction sent by email from ZIM"
+    }
+  ],
+  "website": "https://www.zim.com/",
+  "remarks": ""
+}

@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "blp",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BLP",
+  "linerName": "BLPL Singapore",
+  "isActive": true,
+  "validFrom": "2016-12-20",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "BLPL SINGAPORE PTE LTD, 120 Lower Delta Road, #06-11 Cendex Centre, Singapore 169208, Singapore",
+      "street": "Lower Delta Road",
+      "streetNumber": "120",
+      "floor": "#06-11 Cendex Centre",
+      "postCode": "169208",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://tgsblpl.com/",
+  "remarks": ""
+}

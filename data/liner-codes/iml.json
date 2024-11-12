@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "iml",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "IML",
+  "linerName": "Intermarine",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "ZEM",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "HAM",
+    "UnCountryCode": "DE",
+    "locationName": "",
+    "address": {
+      "name": "Ludwig-Erhard-Str. 22, 20459 Hamburg, Germany",
+      "street": "Ludwig-Erhardt-Str.",
+      "streetNumber": "22",
+      "floor": "",
+      "postCode": "20459",
+      "city": "Hamburg",
+      "state": "",
+      "country": "Germany"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://intermarine.com/",
+  "remarks": ""
+}

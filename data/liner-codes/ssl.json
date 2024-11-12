@@ -1,0 +1,50 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "ssl",
+  "linerCodeVersion": "V2",
+  "linerSMDGCode": "SSL",
+  "linerName": "Samudera Shipping Line",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "SSL",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "6 Raffles Quay #25-01 Singapore, 048580 Singapore",
+      "street": "Raffles Quay",
+      "streetNumber": "6",
+      "floor": "",
+      "postCode": "048580",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2021-09-06",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "change of address and website",
+      "comments": "update based on information provided by Samudera (by e-mail)"
+    }
+  ],
+  "website": "https://www.samudera.id/samuderashippinglineltd/en",
+  "remarks": ""
+}

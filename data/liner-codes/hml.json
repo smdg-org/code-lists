@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "hml",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "HML",
+  "linerName": "Hub Line",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "KCH",
+    "UnCountryCode": "MY",
+    "locationName": "",
+    "address": {
+      "name": "Wisma Hubline,\nLease No.3815 (Lot 10914), Section 64, KTLD\nJln Datuk Abang Abdul Rahim, 93450 Kuching, Sarawak, Malaysia.",
+      "street": "Jalan Datuk Abang Abdul Rahim",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "93450",
+      "city": "Kuching",
+      "state": "",
+      "country": "Malaysia"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.hubline.com/",
+  "remarks": ""
+}

@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "acs",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "ACS",
+  "linerName": "Atlanticargo Service",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "LED",
+    "UnCountryCode": "RU",
+    "locationName": "",
+    "address": {
+      "name": "Moscow, 18 Andropova Ave., Building 5\n",
+      "street": "Andropova Ave",
+      "streetNumber": "18",
+      "floor": "",
+      "postCode": "",
+      "city": "Moscow",
+      "state": "",
+      "country": "Russia"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://atlanticcargo.ru",
+  "remarks": ""
+}

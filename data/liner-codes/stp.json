@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "stp",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "STP",
+  "linerName": "S\u0026T PACIFIC PTE. LTD.",
+  "isActive": true,
+  "validFrom": "2024-09-27",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "STP",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG ",
+    "locationName": "",
+    "address": {
+      "name": "16 Raffles Quay 19-03 (Hong Leong Building), Singapore 048581",
+      "street": "Raffles Quay ",
+      "streetNumber": "16",
+      "floor": "Hong Leong Building",
+      "postCode": "48581",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2024-09-27",
+      "updateRequestedBy": "STP",
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": "requested by STP"
+    }
+  ],
+  "website": "http://st-logistics.cn/en/",
+  "remarks": ""
+}

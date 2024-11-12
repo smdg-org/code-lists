@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "euc",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "EUC",
+  "linerName": "Eucon",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "DUB",
+    "UnCountryCode": "IE",
+    "locationName": "",
+    "address": {
+      "name": "Eucon Dublin\nBreakwater Road South\nFerryport, Dublin 1\nIreland\n",
+      "street": "Breakwater Road (South)",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "1",
+      "city": "Dublin",
+      "state": "",
+      "country": "Ireland"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.eucon.ie/",
+  "remarks": ""
+}

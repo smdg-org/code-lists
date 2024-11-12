@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "whl",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "WHL",
+  "linerName": "Wan Hai Lines",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "WHL",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "TPE",
+    "UnCountryCode": "TW",
+    "locationName": "",
+    "address": {
+      "name": "10th floor, No. 136, SongJiang Rd, Zhongshan District, Taipei City 10491, Taiwan (R.O.C.)",
+      "street": "SongJiang Rd",
+      "streetNumber": "No. 136",
+      "floor": "10th floor",
+      "postCode": "10491",
+      "city": "Taipei City",
+      "state": "",
+      "country": "Taiwan (R.O.C.)"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.wanhai.com/",
+  "remarks": ""
+}

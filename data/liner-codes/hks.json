@@ -1,0 +1,41 @@
+{
+  "codeStatus": "Active",
+  "smdgLinerID": "hks",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "HKS",
+  "linerName": "OY Hacklin Seatrans Ltd.",
+  "isActive": true,
+  "validFrom": "2018-02-27",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "FI",
+    "locationName": "",
+    "address": {
+      "name": "M\u00E4ntyluoto (Port of Pori) M\u00E4ntyluoto, FI-28880 Pori, Finland",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "M\u00E4ntyilupto",
+      "state": "",
+      "country": "Finland"
+    }
+  },
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "linkedLinerCode": "",
+      "reason": "new request",
+      "comments": ""
+    }
+  ],
+  "website": "https://www.hacklin.fi",
+  "remarks": ""
+}
