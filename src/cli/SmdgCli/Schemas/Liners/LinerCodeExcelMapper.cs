@@ -30,7 +30,18 @@ public class LinerCodeExcelMapper : IExcelMapper<LinerCodeExcel>
             ValidUntil = validTo,
             Website = source["Website"],
             Address = source["Address"],
-            Remarks = source["Remarks"]
+            Remarks = source["Remarks"],
+            // New data model
+            Street = source["Street"],
+            StreetNumber = source["No."],
+            Floor = source["Building/Suite/Floor"],
+            ZipCode = source["Zip code"],
+            City = source["City"],
+            StateRegion = source["State/Region"],
+            Country = source["Country"],
+            UnCountryCode = source["UN Country Code"],
+            UnLocationCode = source["UN Location Code"],
+            IsActive = source["Active"].Trim().Contains("active", StringComparison.InvariantCultureIgnoreCase)
         };
     }
 }

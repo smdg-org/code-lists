@@ -1,4 +1,4 @@
-namespace SmdgCli.Infrastructure;
+namespace SmdgCli.Services;
 
 public interface IRemoteFileReader
 {

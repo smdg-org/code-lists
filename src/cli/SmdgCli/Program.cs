@@ -4,7 +4,6 @@ using Microsoft.Extensions.Hosting;
 using Serilog;
 using SmdgCli;
 using SmdgCli.Commands;
-using SmdgCli.Infrastructure;
 using SmdgCli.Schemas.Liners;
 using SmdgCli.Services;
 using Spectre.Console;

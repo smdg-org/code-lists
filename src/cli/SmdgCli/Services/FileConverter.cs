@@ -1,6 +1,5 @@
 namespace SmdgCli.Services;
 
-using Infrastructure;
 using System.Text.Json;
 using System.Text.RegularExpressions;
 using ClosedXML.Excel;
@@ -21,15 +20,13 @@ public partial class FileConverter : IFileConverter
         string sheetName,
         IEnumerable<string> expectedHeaders,
         IExcelMapper<TResult> excelMapper,
-        string outputDirectory)
+        string dataDirectory)
     {
         try
         {
             AnsiConsole.MarkupLine($"Converting source: [deeppink3]{source.Url}[/]");
 
-            var cacheFullPath = Path.Join(outputDirectory, source.CacheFile);
-
-            var stream = await _remoteFileReader.GetFile(cacheFullPath, source.Url);
+            var stream = await GetStream(source, dataDirectory);
 
             using var xls = stream.OpenWorkbook();
             var worksheets = xls.Worksheets;
@@ -44,9 +41,9 @@ public partial class FileConverter : IFileConverter
 
             var data = GetData(worksheet, expectedHeaders);
             
-            var outputFileName = $"{Path.GetFileNameWithoutExtension(cacheFullPath)}_{sheetName}.json";
+            var outputFileName = $"{Path.GetFileNameWithoutExtension(source.FileName)}_{sheetName}.json";
 
-            var outputFullPath = Path.Join(outputDirectory, outputFileName);
+            var outputFullPath = Path.Join(dataDirectory, outputFileName);
 
             AnsiConsole.MarkupLine($"Output file: [deeppink3]{outputFullPath}[/]");
 
@@ -69,7 +66,17 @@ public partial class FileConverter : IFileConverter
             return null;
         }
     }
-    
+
+    public async Task<Stream> GetStream(DataSource source, string dataDirectory)
+    {
+        var cacheFolder = Path.Join(dataDirectory, "cache");
+        var cacheFullPath = Path.Join(cacheFolder, $"_{source.FileName}");
+
+        var stream = await _remoteFileReader.GetFile(cacheFullPath, source.Url);
+
+        return stream;
+    }
+
     private List<Dictionary<string, string>> GetData(IXLWorksheet worksheet, IEnumerable<string> expectedHeaders)
     {
         var (headers, headerLineNumber) = IdentifyHeader(worksheet, expectedHeaders);
