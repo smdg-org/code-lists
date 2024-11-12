@@ -38,9 +38,14 @@ public class FileListWriter : IFileListWriter
             return File.WriteAllTextAsync(filePath, json, cancellationToken);
         }));
 
-        var indexFilePath = Path.Combine(outputDirectory, "index.json");
+        var indexFilePath = Path.Combine(outputDirectory, "_index.json");
         var indexContent = new LinerCodeIndex(recordFiles.Select(t => t.FileName));
         var indexJson = JsonSerializer.Serialize(indexContent, jsonSerializerOptions);
         await File.WriteAllTextAsync(indexFilePath, indexJson, cancellationToken);
+        
+        var combinedFilePath = Path.Combine(outputDirectory, "_combined.json");
+        var combinedJson = JsonSerializer.Serialize(records, jsonSerializerOptions);
+        await File.WriteAllTextAsync(combinedFilePath, combinedJson, cancellationToken);
+
     }
 }
