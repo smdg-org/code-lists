@@ -1,0 +1,161 @@
+name: Liner code data change request
+description: This template is used to request liner code data changes
+title: 'Liner code data change request: [Code]'
+labels: [ "data", "liner-code" ]
+assignees: 'data-reviewers'
+body:
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: "Change Type"
+      description: Type of change to be made
+      options:
+        - "Add"
+        - "Update"
+        - "Delete"
+    validations:
+      required: true
+  - type: input
+    id: requester
+    attributes:
+      label: "Requester"
+      description: Entity requesting the change
+      placeholder: "Example: Maersk"
+    validations:
+      required: true
+  - type: input
+    id: liner_code
+    attributes:
+      label: "Liner Code"
+      description: Liner code to be changed
+      placeholder: "Example: MSK"
+    validations:
+      required: true
+  - type: input
+    id: liner_name
+    attributes:
+      label: "Liner name"
+      description: Name of the liner
+      placeholder: "Example: Maersk"
+    validations:
+      required: false
+  - type: input
+    id: parent_company_code
+    attributes:
+      label: "Parent Company Code"
+      description: Parent company code
+      placeholder: "Example: MSK"
+    validations:
+      required: false
+  - type: input
+    id: parent_company_name
+    attributes:
+      label: "Parent Company Name"
+      description: Parent company name
+      placeholder: "Example: Maersk"
+    validations:
+      required: false
+  - type: input
+    id: carrier_type
+    attributes:
+      label: "Carrier Type"
+      description: Type of carrier
+      placeholder: "Example: Ocean"
+    validations:
+      required: false
+  - type: input
+    id: un_locode
+    attributes:
+      label: "UN/LOCODE"
+      description: UN/LOCODE of the liner
+      placeholder: "Example: NYC"
+    validations:
+      required: true
+  - type: input
+    id: un_country_code
+    attributes:
+      label: "UN Country Code"
+      description: UN country code of the liner
+      placeholder: "Example: US"
+    validations:
+      required: true
+  - type: input
+    id: address_name
+    attributes:
+      label: "Address"
+      description: Address of the liner
+      placeholder: "Example: Headquarters"
+    validations:
+      required: true
+  - type: input
+    id: address_street
+    attributes:
+      label: "Street"
+      description: Street address of the liner
+      placeholder: "Example: 123 Main St"
+    validations:
+      required: true
+  - type: input
+    id: address_street_number
+    attributes:
+      label: "Street Number"
+      description: Street number of the liner
+      placeholder: "Example: 123"
+    validations:
+      required: true
+  - type: input
+    id: address_floor
+    attributes:
+      label: "floor"
+      description: Building/Floor of the liner
+      placeholder: "Example: 1"
+    validations:
+      required: true
+  - type: input
+    id: address_postal_code
+    attributes:
+      label: "Postal Code"
+      description: Postal code of the liner
+      placeholder: "Example: 10001"
+    validations:
+      required: true
+  - type: input
+    id: address_city
+    attributes:
+      label: "City"
+      description: City of the liner
+      placeholder: "Example: New York"
+    validations:
+      required: true
+  - type: input
+    id: address_state
+    attributes:
+      label: "State"
+      description: State of the liner
+      placeholder: "Example: NY"
+    validations:
+      required: true
+  - type: input
+    id: address_country
+    attributes:
+      label: "Country"
+      description: Country of the liner
+      placeholder: "Example: USA"
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: "Website"
+      description: Provide a link to the website
+      placeholder: "https://www.example.com"
+    validations:
+      required: false
+  - type: textarea
+    id: comments
+    attributes:
+      label: "Comments"
+      description: Additional comments
+      placeholder: "Add any additional comments here"
+    validations:
+      required: false
