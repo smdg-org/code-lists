@@ -1,0 +1,45 @@
+name: Liner code data change request (Excel)
+description: This template is used to request liner code data changes from excel form
+title: 'Liner code data change request: [Code]'
+labels: [ "data", "liner-code" ]
+assignees: 'jasmindroenner-smdg'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        *Please note that the data provided below is considered public, do not include any sensitive information.*
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: "Change Type"
+      description: Type of change to be made
+      options:
+        - "Add"
+        - "Update"
+        - "Delete"
+    validations:
+      required: true
+  - type: input
+    id: requester
+    attributes:
+      label: "Requester"
+      description: Entity requesting the change
+      placeholder: "Example: Maersk"
+    validations:
+      required: true
+  - type: input
+    id: liner_code
+    attributes:
+      label: "Liner code"
+      description: Code of the liner
+      placeholder: "Example: MSK"
+    validations:
+      required: true
+  - type: textarea
+    id: excel_file
+    attributes:
+      label: "Form attachment"
+      description: Form Attachment
+      placeholder: "Example: Click paperclip icon to attach the form in excel format"
+    validations:
+      required: true
