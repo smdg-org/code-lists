@@ -2,8 +2,12 @@ name: Liner code data change request
 description: This template is used to request liner code data changes
 title: 'Liner code data change request: [Code]'
 labels: [ "data", "liner-code" ]
-assignees: 'data-reviewers'
+assignees: 'jasmindroenner-smdg'
 body:
+  - type: markdown
+    attributes:
+      value: |
+        *Please note that the data provided below is considered public, do not include any sensitive information.*
   - type: dropdown
     id: change_type
     attributes:
