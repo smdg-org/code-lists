@@ -4,7 +4,6 @@ using Microsoft.Extensions.Hosting;
 using Serilog;
 using SmdgCli;
 using SmdgCli.Commands;
-using SmdgCli.Infrastructure;
 using SmdgCli.Schemas.Liners;
 using SmdgCli.Services;
 using Spectre.Console;
@@ -47,12 +46,12 @@ app.Configure(config =>
 
     config.AddBranch("convert", convert =>
     {
-        convert.AddCommand<ConvertLinerCodesCommand>("liners");
+        convert.AddCommand<ConvertLinerCodesCommand>("liner-codes");
     });
 
     config.AddBranch("verify", verify =>
     {
-        verify.AddCommand<VerifyLinerCodesCommand>("liners");
+        verify.AddCommand<VerifyLinerCodesCommand>("liner-codes");
     });
 });
 

@@ -1,7 +1,7 @@
+namespace SmdgCli.Services;
+
 using Microsoft.Extensions.Hosting;
 using Spectre.Console.Cli;
-
-namespace SmdgCli.Services;
 
 public sealed class TypeResolver : ITypeResolver, IDisposable
 {

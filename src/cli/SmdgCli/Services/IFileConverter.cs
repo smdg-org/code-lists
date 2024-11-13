@@ -1,7 +1,5 @@
 namespace SmdgCli.Services;
 
-using Schemas.Liners;
-
 public interface IFileConverter
 {
     Task<(string File, string Content)?> ExcelToJson<TResult>(
@@ -9,5 +7,5 @@ public interface IFileConverter
         string sheetName,
         IEnumerable<string> expectedHeaders,
         IExcelMapper<TResult> excelMapper,
-        string outputDirectory);
+        string dataDirectory);
 }

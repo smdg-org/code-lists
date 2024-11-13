@@ -1,13 +1,10 @@
-using System.Text.Json;
-using Microsoft.Extensions.Logging;
-using SmdgCli.Schemas;
-using Spectre.Console;
-using Spectre.Console.Cli;
-
 namespace SmdgCli;
 
-using Schemas;
+using System.Text.Json;
+using Microsoft.Extensions.Logging;
 using Schemas.Liners;
+using Spectre.Console;
+using Spectre.Console.Cli;
 
 public class VerifyLinerCodesCommand : AsyncCommand<DefaultSettings>
 {

@@ -12,9 +12,9 @@ public class DataSources
 
 public class DataSource
 {
-    public string Url { get; set; } = null!;
+    public string Address { get; set; } = null!;
 
-    public string CacheFile { get; set; } = null!;
+    public string FileName { get; set; } = null!;
 
     public string Version { get; set; } = null!;
 }
