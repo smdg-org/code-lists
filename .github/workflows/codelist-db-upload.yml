@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - cicd-pipeline
+      - patch-2
 
 jobs:
   upload-to-s3:
@@ -35,7 +35,7 @@ jobs:
         AWS_DEFAULT_REGION: eu-west-1
       run: |
         FILE="code-lists/data/liner-codes/_combined.json"
-        BUCKET="smdg-liner-codes"
+        BUCKET="dev-smdg-codelists-linercodes"
 
         if [ -f "$FILE" ]; then
           aws s3 cp "$FILE" "s3://$BUCKET/_combined.json" --region $AWS_DEFAULT_REGION
