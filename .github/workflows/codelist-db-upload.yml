@@ -34,7 +34,7 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_DEFAULT_REGION: eu-west-1
       run: |
-        FILE="code-lists/data/liner-codes/_combined.json"
+        FILE="data/liner-codes/_combined.json"
         BUCKET="dev-smdg-codelists-linercodes"
 
         if [ -f "$FILE" ]; then
