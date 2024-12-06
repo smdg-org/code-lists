@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "hrl",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "HRL",
   "linerName": "HR Lines Limited",
-  "isActive": true,
-  "validFrom": "2022-11-16",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": true,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "BD",
@@ -25,17 +24,20 @@
       "country": "Bangladesh"
     }
   },
+  "website": "https://www.hrlinesbd.com",
+  "remarks": "",
+  "validFrom": "2022-11-16",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-11-16",
       "updateRequestedBy": "Starline Agencies Asia PTE LTD",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by Starline Agencies Asia PTE LTD (confirmed by HRL)"
     }
-  ],
-  "website": "https://www.hrlinesbd.com",
-  "remarks": ""
+  ]
 }

@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "ssl",
   "linerCodeVersion": "V2",
   "linerSMDGCode": "SSL",
   "linerName": "Samudera Shipping Line",
-  "isActive": true,
-  "validFrom": "2003-09-01",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "SSL",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,26 +24,30 @@
       "country": "Singapore"
     }
   },
+  "website": "https://www.samudera.id/samuderashippinglineltd/en",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2021-01-01",
       "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
       "linkedLinerCode": "",
-      "reason": "new request",
-      "comments": ""
+      "comments": "Added by SMDG without a specific request."
     },
     {
       "actionCode": "Updated",
       "linerCodeVersion": "V2",
       "lastUpdateDate": "2021-09-06",
       "updateRequestedBy": null,
-      "linkedLinerCode": "",
       "reason": "change of address and website",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "update based on information provided by Samudera (by e-mail)"
     }
-  ],
-  "website": "https://www.samudera.id/samuderashippinglineltd/en",
-  "remarks": ""
+  ]
 }

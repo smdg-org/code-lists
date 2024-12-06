@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "hed",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "HED",
   "linerName": "HEDE (Hongkong) International Shipping Limited",
-  "isActive": true,
-  "validFrom": "2024-01-01",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "BEN",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "",
@@ -25,17 +24,20 @@
       "country": ""
     }
   },
+  "website": "http://en.hedehk.com/",
+  "remarks": "Ben Line as agent only on behalf of\nHEDE (HONGKONG) INTERNATIONAL SHIPPING LIMITED ",
+  "validFrom": "2024-01-01",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2023-12-27",
       "updateRequestedBy": "BEN Lines Agencies",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by BEN Lines Agencies"
     }
-  ],
-  "website": "http://en.hedehk.com/",
-  "remarks": "Ben Line as agent only on behalf of\nHEDE (HONGKONG) INTERNATIONAL SHIPPING LIMITED "
+  ]
 }

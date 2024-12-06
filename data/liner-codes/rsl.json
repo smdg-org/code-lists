@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "rsl",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "RSL",
   "linerName": "RSL Shipping Pte Ltd",
-  "isActive": true,
-  "validFrom": "2022-12-23",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "MEGASTAR SHIPPING PTE LTD",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "https://www.rsl.com.sg/",
+  "remarks": "",
+  "validFrom": "2022-12-23",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2023-01-24",
       "updateRequestedBy": "Megastar",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by Megastar (parent company)"
     }
-  ],
-  "website": "https://www.rsl.com.sg/",
-  "remarks": ""
+  ]
 }

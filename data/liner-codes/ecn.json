@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "ecn",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ECN",
   "linerName": "Econship Marine Pte Ltd",
-  "isActive": true,
-  "validFrom": "2022-12-21",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "https://www.econshipping.com/",
+  "remarks": "",
+  "validFrom": "2022-12-21",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-12-21",
       "updateRequestedBy": "ECON",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by ECON"
     }
-  ],
-  "website": "https://www.econshipping.com/",
-  "remarks": ""
+  ]
 }

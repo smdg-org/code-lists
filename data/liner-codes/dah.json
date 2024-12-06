@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "dah",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "DAH",
   "linerName": "DahNAY Lines PTE LTD",
-  "isActive": true,
-  "validFrom": "2022-07-04",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "DAH",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "https://www.dahnay.com/",
+  "remarks": "",
+  "validFrom": "2022-07-04",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-07-06",
       "updateRequestedBy": "DahNAY Logistics Lanka",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by DahNAY Logistics Lanka"
     }
-  ],
-  "website": "https://www.dahnay.com/",
-  "remarks": ""
+  ]
 }

@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "fcl",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "FCL",
   "linerName": "Federated Cargo Line Pte Ltd",
-  "isActive": true,
-  "validFrom": "2023-01-26",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "https://fedxline.com/",
+  "remarks": "",
+  "validFrom": "2023-01-26",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2023-01-26",
       "updateRequestedBy": "Federated Cargo Line",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by Federated Cargo Line"
     }
-  ],
-  "website": "https://fedxline.com/",
-  "remarks": ""
+  ]
 }

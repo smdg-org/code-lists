@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "bsa",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BSA",
   "linerName": "BSA Transportation",
-  "isActive": true,
-  "validFrom": "2003-09-01",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "JKT",
     "UnCountryCode": "ID",
@@ -25,17 +24,20 @@
       "country": "Indonesia"
     }
   },
+  "website": "https://bsa-logistics.co.id/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2021-01-01",
       "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
       "linkedLinerCode": "",
-      "reason": "new request",
-      "comments": ""
+      "comments": "Added by SMDG without a specific request."
     }
-  ],
-  "website": "https://bsa-logistics.co.id/",
-  "remarks": ""
+  ]
 }

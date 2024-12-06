@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "smt",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SMT",
   "linerName": "Summit Shipping PTE LTD",
-  "isActive": true,
-  "validFrom": "2022-06-23",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "https://www.summitshipping.sg/",
+  "remarks": "",
+  "validFrom": "2022-06-23",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-06-29",
       "updateRequestedBy": "FMT",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by FMT/SMT"
     }
-  ],
-  "website": "https://www.summitshipping.sg/",
-  "remarks": ""
+  ]
 }

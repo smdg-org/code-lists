@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "oac",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "OAC",
   "linerName": "Ocean Africa Container Lines (Durban)",
-  "isActive": true,
-  "validFrom": "2017-05-24",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "ZA",
@@ -25,17 +24,20 @@
       "country": "South Africa"
     }
   },
+  "website": "http://www.oceanafrica.co.za/",
+  "remarks": "",
+  "validFrom": "2017-05-24",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2021-01-01",
       "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
       "linkedLinerCode": "",
-      "reason": "new request",
-      "comments": ""
+      "comments": "Added by SMDG without a specific request."
     }
-  ],
-  "website": "http://www.oceanafrica.co.za/",
-  "remarks": ""
+  ]
 }

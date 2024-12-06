@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "fth",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "FTH",
   "linerName": "Feedertech",
-  "isActive": true,
-  "validFrom": "2019-12-28",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "UFE",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "https://www.feedertech.sg/",
+  "remarks": "",
+  "validFrom": "2019-12-28",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2021-01-01",
       "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
       "linkedLinerCode": "",
-      "reason": "new request",
-      "comments": ""
+      "comments": "Added by SMDG without a specific request."
     }
-  ],
-  "website": "https://www.feedertech.sg/",
-  "remarks": ""
+  ]
 }

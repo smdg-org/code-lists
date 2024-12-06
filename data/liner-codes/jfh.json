@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "jfh",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "JFH",
   "linerName": "J.F.Hillebrand Singapore Pte Ltd",
-  "isActive": true,
-  "validFrom": "2022-08-09",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "J.F. Hillebrand Group AG",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "https://hillebrand.com/",
+  "remarks": "",
+  "validFrom": "2022-08-09",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-08-09",
       "updateRequestedBy": "J.F.Hillebrand Singapore Pte Ltd",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by J.F.Hillebrand Singapore Pte Ltd"
     }
-  ],
-  "website": "https://hillebrand.com/",
-  "remarks": ""
+  ]
 }

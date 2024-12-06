@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "yqn",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "YQN",
   "linerName": "YQN LINK International Logistics (SG) Pte. Ltd.",
-  "isActive": true,
-  "validFrom": "2023-06-15",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "https://www.yqnlink.com",
+  "remarks": "",
+  "validFrom": "2023-06-15",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2023-06-13",
       "updateRequestedBy": "YQN Link",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by YQN Link"
     }
-  ],
-  "website": "https://www.yqnlink.com",
-  "remarks": ""
+  ]
 }

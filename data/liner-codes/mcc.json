@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "mcc",
   "linerCodeVersion": "V2",
   "linerSMDGCode": "MCC",
   "linerName": "Sealand - A Maersk Company, Asia",
-  "isActive": true,
-  "validFrom": "2003-09-01",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "MSK",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "CPH",
     "UnCountryCode": "DK",
@@ -25,26 +24,30 @@
       "country": "Denmark"
     }
   },
+  "website": "https://www.mcc.com.sg/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2021-01-01",
       "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
       "linkedLinerCode": "",
-      "reason": "new request",
-      "comments": ""
+      "comments": "Added by SMDG without a specific request."
     },
     {
       "actionCode": "Updated",
       "linerCodeVersion": "V2",
       "lastUpdateDate": "2021-09-13",
       "updateRequestedBy": null,
-      "linkedLinerCode": "",
       "reason": "Change of name from  \u0022MCC Transport\u0022 to \u0022Sealand \u2013 A Maersk Company, Asia\u0022",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "update based on information provided by Maersk (e-mail)"
     }
-  ],
-  "website": "https://www.mcc.com.sg/",
-  "remarks": ""
+  ]
 }

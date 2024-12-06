@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "tiz",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "TIZ",
   "linerName": "Ti2 logistics pte ltd",
-  "isActive": true,
-  "validFrom": "2022-12-23",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "TIZ",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "https://www.ti2shipping.com",
+  "remarks": "",
+  "validFrom": "2022-12-23",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-12-23",
       "updateRequestedBy": "Ti2",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by Ti2"
     }
-  ],
-  "website": "https://www.ti2shipping.com",
-  "remarks": ""
+  ]
 }

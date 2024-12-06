@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "g2o",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "G2O",
   "linerName": "G2 Ocean AS",
-  "isActive": true,
-  "validFrom": "2022-01-17",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": true,
   "parentCompanyCode": "",
   "parentCompanyName": "Grieg Star \u0026 Gearbulk",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "BGO",
     "UnCountryCode": "NO",
@@ -25,17 +24,20 @@
       "country": "Norway"
     }
   },
+  "website": "https://www.g2ocean.com",
+  "remarks": "",
+  "validFrom": "2022-01-17",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-01-17",
       "updateRequestedBy": "G2ocean",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by G2ocean"
     }
-  ],
-  "website": "https://www.g2ocean.com",
-  "remarks": ""
+  ]
 }

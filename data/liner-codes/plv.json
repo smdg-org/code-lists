@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "plv",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "PLV",
   "linerName": "Penex Container Lines Pte Ltd",
-  "isActive": true,
-  "validFrom": "2022-12-23",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "Penex",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "not available",
+  "remarks": "",
+  "validFrom": "2022-12-23",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-12-23",
       "updateRequestedBy": "Penex",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by Penex"
     }
-  ],
-  "website": "not available",
-  "remarks": ""
+  ]
 }

@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "win",
   "linerCodeVersion": "V2",
   "linerSMDGCode": "WIN",
   "linerName": "WINWIN Lines Limited",
-  "isActive": true,
-  "validFrom": "2022-05-06",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "AMD",
     "UnCountryCode": "IN",
@@ -25,14 +24,19 @@
       "country": "India"
     }
   },
+  "website": "https://winwinmaritime.com/",
+  "remarks": "",
+  "validFrom": "2022-05-06",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-05-18",
       "updateRequestedBy": "STARLINE AGENCIES ASIA",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by STARLINE AGENCIES ASIA"
     },
     {
@@ -40,11 +44,10 @@
       "linerCodeVersion": "V2",
       "lastUpdateDate": "2022-05-20",
       "updateRequestedBy": null,
-      "linkedLinerCode": "",
       "reason": "Correction of website from www.winwinlines.com/  to www.winwinmaritime.com/",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "Correction"
     }
-  ],
-  "website": "https://winwinmaritime.com/",
-  "remarks": ""
+  ]
 }

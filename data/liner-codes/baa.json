@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "baa",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BAA",
   "linerName": "Bulk Oil \u0026 Liquid Transport Pte Ltd",
-  "isActive": true,
-  "validFrom": "2023-07-17",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "https://www.bolt-tanks.com",
+  "remarks": "",
+  "validFrom": "2023-07-17",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2023-07-17",
       "updateRequestedBy": "Bulk Oil \u0026 Liquid Transport Pte Ltd",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by Bulk Oil \u0026 Liquid Transport Pte Ltd"
     }
-  ],
-  "website": "https://www.bolt-tanks.com",
-  "remarks": ""
+  ]
 }

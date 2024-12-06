@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "bvc",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BVC",
   "linerName": "Bon Voyage Container Trans Lines Pte Ltd",
-  "isActive": true,
-  "validFrom": "2024-05-20",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "not available",
+  "remarks": "",
+  "validFrom": "2024-05-20",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2024-05-21",
       "updateRequestedBy": "BVC",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by BVC"
     }
-  ],
-  "website": "not available",
-  "remarks": ""
+  ]
 }

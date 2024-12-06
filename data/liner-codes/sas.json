@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "sas",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SAS",
   "linerName": "Shahaziz Shipping (SASL) Private Limited",
-  "isActive": true,
-  "validFrom": "2024-03-19",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "SAS",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "https://www.sasl.sg",
+  "remarks": "",
+  "validFrom": "2024-03-19",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2024-03-19",
       "updateRequestedBy": "SASL",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by SASL"
     }
-  ],
-  "website": "https://www.sasl.sg",
-  "remarks": ""
+  ]
 }

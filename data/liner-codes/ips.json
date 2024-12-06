@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "ips",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "IPS",
   "linerName": "INSPIRE SHIPS AND PROJECTS (S) PTE LTD",
-  "isActive": true,
-  "validFrom": "2022-05-30",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "IPS",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "http://inspireships.com",
+  "remarks": "",
+  "validFrom": "2022-05-30",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-05-30",
       "updateRequestedBy": "Inspire Ships",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by Inspire Ships"
     }
-  ],
-  "website": "http://inspireships.com",
-  "remarks": ""
+  ]
 }

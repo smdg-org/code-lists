@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "zim",
   "linerCodeVersion": "V2",
   "linerSMDGCode": "ZIM",
   "linerName": "ZIM Integrated Shipping Services Ltd.",
-  "isActive": true,
-  "validFrom": "2003-09-01",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": true,
   "parentCompanyCode": "",
   "parentCompanyName": "ZIM",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "HFA",
     "UnCountryCode": "IL",
@@ -25,26 +24,30 @@
       "country": "Israel"
     }
   },
+  "website": "https://www.zim.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2021-01-01",
       "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
       "linkedLinerCode": "",
-      "reason": "new request",
-      "comments": ""
+      "comments": "Added by SMDG without a specific request."
     },
     {
       "actionCode": "Updated",
       "linerCodeVersion": "V2",
       "lastUpdateDate": "2024-01-09",
       "updateRequestedBy": null,
-      "linkedLinerCode": "",
       "reason": "Modification of company name from \u0022Zim Israel Navigation Company\u0022 to \u0022ZIM Integrated Shipping Services Ltd.\u0022",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "Correction sent by email from ZIM"
     }
-  ],
-  "website": "https://www.zim.com/",
-  "remarks": ""
+  ]
 }

@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "ckl",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CKL",
   "linerName": "CK LINE CO LTD",
-  "isActive": true,
-  "validFrom": "2022-12-21",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": true,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SEL",
     "UnCountryCode": "KR",
@@ -25,17 +24,20 @@
       "country": "Republic of Korea (South Korea)"
     }
   },
+  "website": "https://www.ckline.com/en/",
+  "remarks": "",
+  "validFrom": "2022-12-21",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-12-21",
       "updateRequestedBy": "Starline Agencies Asia PTE LTD",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by Starline Agencies Asia PTE LTD (CKL informed by SMDG)"
     }
-  ],
-  "website": "https://www.ckline.com/en/",
-  "remarks": ""
+  ]
 }

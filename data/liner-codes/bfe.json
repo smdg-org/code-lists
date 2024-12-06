@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "bfe",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BFE",
   "linerName": "Baja Ferries Sapi De C.V.",
-  "isActive": true,
-  "validFrom": "2024-08-09",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": true,
   "parentCompanyCode": "",
   "parentCompanyName": "n/a",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "LAP",
     "UnCountryCode": "MX",
@@ -25,17 +24,20 @@
       "country": "Mexico"
     }
   },
+  "website": "https://www.bajaferries.com.mx/maritimo",
+  "remarks": "",
+  "validFrom": "2024-08-09",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2024-08-09",
       "updateRequestedBy": "HLC",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by HLC"
     }
-  ],
-  "website": "https://www.bajaferries.com.mx/maritimo",
-  "remarks": ""
+  ]
 }

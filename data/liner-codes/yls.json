@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "yls",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "YLS",
   "linerName": "Yasuda Logistics Singapore Pte. Ltd.",
-  "isActive": true,
-  "validFrom": "2023-09-22",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "https://www.yasuda-soko.co.jp",
+  "remarks": "",
+  "validFrom": "2023-09-22",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2021-01-01",
       "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
       "linkedLinerCode": "",
-      "reason": "new request",
-      "comments": ""
+      "comments": "Added by SMDG without a specific request."
     }
-  ],
-  "website": "https://www.yasuda-soko.co.jp",
-  "remarks": ""
+  ]
 }

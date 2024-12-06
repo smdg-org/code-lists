@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "npd",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "NPD",
   "linerName": "Neptune Pacific Direct Line",
-  "isActive": true,
-  "validFrom": "2023-07-01",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": true,
   "parentCompanyCode": "",
   "parentCompanyName": "NPD",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "https://www.npdlship.com/",
+  "remarks": "",
+  "validFrom": "2023-07-01",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2023-04-11",
       "updateRequestedBy": "Neptune Pacific Direct Line",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by Neptune Pacific Direct Line "
     }
-  ],
-  "website": "https://www.npdlship.com/",
-  "remarks": ""
+  ]
 }

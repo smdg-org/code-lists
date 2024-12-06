@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "flk",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "FLK",
   "linerName": "Folk Maritime",
-  "isActive": true,
-  "validFrom": "2024-05-02",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": true,
   "parentCompanyCode": "",
   "parentCompanyName": "Folk Maritime Services Company",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "RUH",
     "UnCountryCode": "SA",
@@ -25,17 +24,20 @@
       "country": "Saudi Arabia"
     }
   },
+  "website": "https://folkmaritime.com/",
+  "remarks": "",
+  "validFrom": "2024-05-02",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2024-05-02",
       "updateRequestedBy": "Folk Maritime Services Company",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by Folk Maritime Services Company"
     }
-  ],
-  "website": "https://folkmaritime.com/",
-  "remarks": ""
+  ]
 }

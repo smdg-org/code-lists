@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "bmy",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BMY",
   "linerName": "BMY Shipping Lines (S) PTE LTD",
-  "isActive": true,
-  "validFrom": "2023-04-10",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "not available",
+  "remarks": "",
+  "validFrom": "2023-04-10",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2023-04-27",
       "updateRequestedBy": "BMY",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by BMY"
     }
-  ],
-  "website": "not available",
-  "remarks": ""
+  ]
 }

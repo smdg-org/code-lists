@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "cas",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CAS",
   "linerName": "Caucedo Services Inc.",
-  "isActive": true,
-  "validFrom": "2022-05-06",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": true,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "RAD",
     "UnCountryCode": "VG",
@@ -25,17 +24,20 @@
       "country": "British Virgin Islands"
     }
   },
+  "website": "not available",
+  "remarks": "",
+  "validFrom": "2022-05-06",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-05-06",
       "updateRequestedBy": "DP World",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by DP World"
     }
-  ],
-  "website": "not available",
-  "remarks": ""
+  ]
 }

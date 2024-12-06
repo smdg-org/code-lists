@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "mxn",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MXN",
   "linerName": "Maxicon Shipping Agencies Pte Ltd",
-  "isActive": true,
-  "validFrom": "2022-12-21",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "MXN",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "https://www.maxiconline.com/",
+  "remarks": "",
+  "validFrom": "2022-12-21",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-12-21",
       "updateRequestedBy": "Maxicon",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by Maxicon"
     }
-  ],
-  "website": "https://www.maxiconline.com/",
-  "remarks": ""
+  ]
 }

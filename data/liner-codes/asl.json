@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "asl",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ASL",
   "linerName": "A.A.SHIPPING LTD",
-  "isActive": true,
-  "validFrom": "2021-07-22",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "TLV",
     "UnCountryCode": "IL",
@@ -25,17 +24,20 @@
       "country": "Israel"
     }
   },
+  "website": "https://wlsltd.com/",
+  "remarks": "Subsidiary of W Group shipping",
+  "validFrom": "2021-07-22",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-07-22",
       "updateRequestedBy": "A.A. Shipping",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by A.A. Shipping"
     }
-  ],
-  "website": "https://wlsltd.com/",
-  "remarks": "Subsidiary of W Group shipping"
+  ]
 }

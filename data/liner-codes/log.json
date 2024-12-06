@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "log",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "LOG",
   "linerName": "Log-In Logistica Intermodal S.A.",
-  "isActive": true,
-  "validFrom": "2021-09-06",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "BR",
@@ -25,17 +24,20 @@
       "country": "Brazil"
     }
   },
+  "website": "https://www.loginlogistica.com.br/",
+  "remarks": "",
+  "validFrom": "2021-09-06",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-09-06",
       "updateRequestedBy": "Mercosul",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by Mercosul"
     }
-  ],
-  "website": "https://www.loginlogistica.com.br/",
-  "remarks": ""
+  ]
 }

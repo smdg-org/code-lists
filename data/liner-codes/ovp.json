@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "ovp",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "OVP",
   "linerName": "OVP Shipping",
-  "isActive": true,
-  "validFrom": "2024-01-24",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": true,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "HKG",
     "UnCountryCode": "HK",
@@ -25,17 +24,20 @@
       "country": "China"
     }
   },
+  "website": "http://www.ovpshipping.com/en/",
+  "remarks": "",
+  "validFrom": "2024-01-24",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2024-01-25",
       "updateRequestedBy": "Starline Agencies Asia PTE LTD",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by Starline Agencies Asia PTE LTD"
     }
-  ],
-  "website": "http://www.ovpshipping.com/en/",
-  "remarks": ""
+  ]
 }

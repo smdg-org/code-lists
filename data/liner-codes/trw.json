@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "trw",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "TRW",
   "linerName": "Transworld Feeders FZCO, Dubai",
-  "isActive": true,
-  "validFrom": "2017-08-11",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SZE",
     "UnCountryCode": "AE",
@@ -25,17 +24,20 @@
       "country": "United Arab Emirates"
     }
   },
+  "website": "https://www.transworld.com/feeders/index.html",
+  "remarks": "",
+  "validFrom": "2017-08-11",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2021-01-01",
       "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
       "linkedLinerCode": "",
-      "reason": "new request",
-      "comments": ""
+      "comments": "Added by SMDG without a specific request."
     }
-  ],
-  "website": "https://www.transworld.com/feeders/index.html",
-  "remarks": ""
+  ]
 }

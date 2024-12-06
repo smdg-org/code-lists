@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "mil",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MIL",
   "linerName": "Milaha (Qatar Navigation QPSC)",
-  "isActive": true,
-  "validFrom": "2020-09-03",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "QA",
@@ -25,17 +24,20 @@
       "country": "Qatar"
     }
   },
+  "website": "https://www.milaha.com/",
+  "remarks": "",
+  "validFrom": "2020-09-03",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2021-01-01",
       "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
       "linkedLinerCode": "",
-      "reason": "new request",
-      "comments": ""
+      "comments": "Added by SMDG without a specific request."
     }
-  ],
-  "website": "https://www.milaha.com/",
-  "remarks": ""
+  ]
 }

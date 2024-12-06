@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "bal",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BAL",
   "linerName": "BAL Container Line Co.Limited",
-  "isActive": true,
-  "validFrom": "2021-04-21",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": true,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "HKG",
     "UnCountryCode": "HK",
@@ -25,17 +24,20 @@
       "country": "China"
     }
   },
+  "website": "http://www.bal.cn/index.html",
+  "remarks": "",
+  "validFrom": "2021-04-21",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2021-01-01",
       "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
       "linkedLinerCode": "",
-      "reason": "new request",
-      "comments": ""
+      "comments": "Added by SMDG without a specific request."
     }
-  ],
-  "website": "http://www.bal.cn/index.html",
-  "remarks": ""
+  ]
 }

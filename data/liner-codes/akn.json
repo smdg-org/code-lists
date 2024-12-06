@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "akn",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "AKN",
   "linerName": "AKKON Lines",
-  "isActive": true,
-  "validFrom": "2021-12-15",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": true,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "IST",
     "UnCountryCode": "TR",
@@ -25,17 +24,20 @@
       "country": "Turkey"
     }
   },
+  "website": "https://akkonlines.com/",
+  "remarks": "",
+  "validFrom": "2021-12-15",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-12-15",
       "updateRequestedBy": "Hapag-Lloyd",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by Hapag-Lloyd"
     }
-  ],
-  "website": "https://akkonlines.com/",
-  "remarks": ""
+  ]
 }

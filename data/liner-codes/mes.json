@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "mes",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MES",
   "linerName": "Messina Lines, Genoa",
-  "isActive": true,
-  "validFrom": "2016-09-15",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "MSC",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "GOA",
     "UnCountryCode": "IT",
@@ -25,17 +24,20 @@
       "country": "Italy"
     }
   },
+  "website": "https://www.messinaline.it/wps/wcm/connect/internet/messina_en/home",
+  "remarks": "",
+  "validFrom": "2016-09-15",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2021-01-01",
       "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
       "linkedLinerCode": "",
-      "reason": "new request",
-      "comments": ""
+      "comments": "Added by SMDG without a specific request."
     }
-  ],
-  "website": "https://www.messinaline.it/wps/wcm/connect/internet/messina_en/home",
-  "remarks": ""
+  ]
 }

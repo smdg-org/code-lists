@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "hxs",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "HXS",
   "linerName": "HUI XIN SHIPPING PTE LTD",
-  "isActive": true,
-  "validFrom": "2024-09-27",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "HXS",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "www.huixinshipping.com",
+  "remarks": "\u00A0",
+  "validFrom": "2024-09-27",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2024-10-10",
       "updateRequestedBy": "HXS",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by HXS"
     }
-  ],
-  "website": "www.huixinshipping.com",
-  "remarks": "\u00A0"
+  ]
 }

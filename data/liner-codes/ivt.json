@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "ivt",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "IVT",
   "linerName": "InviCont OU",
-  "isActive": true,
-  "validFrom": "2022-12-21",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": true,
   "parentCompanyCode": "",
   "parentCompanyName": "IVT",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "EE",
@@ -25,17 +24,20 @@
       "country": "Estonia"
     }
   },
+  "website": "https://invicont.ee/",
+  "remarks": "",
+  "validFrom": "2022-12-21",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-12-21",
       "updateRequestedBy": "Invicont",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by Invicont"
     }
-  ],
-  "website": "https://invicont.ee/",
-  "remarks": ""
+  ]
 }

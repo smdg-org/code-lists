@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "tar",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "TAR",
   "linerName": "Tarros, La Spezia",
-  "isActive": true,
-  "validFrom": "2017-09-29",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SPE",
     "UnCountryCode": "IT",
@@ -25,17 +24,20 @@
       "country": "Italy"
     }
   },
+  "website": "https://www.tarros.it/",
+  "remarks": "",
+  "validFrom": "2017-09-29",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2021-01-01",
       "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
       "linkedLinerCode": "",
-      "reason": "new request",
-      "comments": ""
+      "comments": "Added by SMDG without a specific request."
     }
-  ],
-  "website": "https://www.tarros.it/",
-  "remarks": ""
+  ]
 }

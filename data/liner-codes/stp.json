@@ -1,15 +1,14 @@
 {
+  "isActive": true,
   "codeStatus": "Active",
-  "smdgLinerID": "stp",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "STP",
   "linerName": "S\u0026T PACIFIC PTE. LTD.",
-  "isActive": true,
-  "validFrom": "2024-09-27",
-  "validTo": "9999-12-31",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
   "parentCompanyCode": "",
   "parentCompanyName": "STP",
-  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG ",
@@ -25,17 +24,20 @@
       "country": "Singapore"
     }
   },
+  "website": "http://st-logistics.cn/en/",
+  "remarks": "",
+  "validFrom": "2024-09-27",
+  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2024-09-27",
       "updateRequestedBy": "STP",
-      "linkedLinerCode": "",
       "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
       "comments": "requested by STP"
     }
-  ],
-  "website": "http://st-logistics.cn/en/",
-  "remarks": ""
+  ]
 }
