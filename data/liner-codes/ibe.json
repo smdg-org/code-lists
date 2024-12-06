@@ -1,0 +1,43 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "IBE",
+  "linerName": "i-Be Shipping International Pte Ltd",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompanyCode": "",
+  "parentCompanyName": "IBE",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "2S JALAN PAPAN SINGAPORE 619413",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "website": "",
+  "remarks": " ",
+  "validFrom": "2024-03-19",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2024-03-19",
+      "updateRequestedBy": "i-Be",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by i-Be"
+    }
+  ]
+}

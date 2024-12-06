@@ -1,0 +1,43 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "MAR",
+  "linerName": "Maruba Line",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "addressLocation": {
+    "UnLocode": "BUE",
+    "UnCountryCode": "AR",
+    "locationName": "",
+    "address": {
+      "name": "MAIPU 535 1P [C1006ACE] CABA",
+      "street": "Maipu",
+      "streetNumber": "535",
+      "floor": "",
+      "postCode": "7160",
+      "city": "Buenos Aires / Caba",
+      "state": "",
+      "country": "Argentina"
+    }
+  },
+  "website": "https://www.maruba.com.ar/en/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

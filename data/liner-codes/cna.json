@@ -1,0 +1,43 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CNA",
+  "linerName": "Compagnie Nationale Alg\u00E9rienne de Navigation S.p.a",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "addressLocation": {
+    "UnLocode": "KOB",
+    "UnCountryCode": "DZ",
+    "locationName": "",
+    "address": {
+      "name": "Villa 219 Parc Ben Omar, Kouba 16006, Algeria",
+      "street": "Villa 219 Parc Ben Omar",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "16006",
+      "city": "Kouba",
+      "state": "",
+      "country": "Algeria"
+    }
+  },
+  "website": "https://www.cnan-nord.com/",
+  "remarks": "",
+  "validFrom": "2015-04-15",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

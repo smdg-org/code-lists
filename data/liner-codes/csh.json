@@ -1,0 +1,43 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CSH",
+  "linerName": "Containerships \u2013 CMA CGM GmbH",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompanyCode": "",
+  "parentCompanyName": "CMA",
+  "addressLocation": {
+    "UnLocode": "HAM",
+    "UnCountryCode": "DE",
+    "locationName": "",
+    "address": {
+      "name": "Chilehaus A, Fischertwiete 2, 20095 Hamburg, Germany",
+      "street": "Fischertwiete",
+      "streetNumber": "2",
+      "floor": "",
+      "postCode": "20095",
+      "city": "Hamburg",
+      "state": "",
+      "country": "Germany"
+    }
+  },
+  "website": "https://www.containerships.eu/",
+  "remarks": "",
+  "validFrom": "2019-08-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

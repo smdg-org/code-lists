@@ -1,0 +1,43 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "HMS",
+  "linerName": "Holland Maas Shipping",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompanyCode": "",
+  "parentCompanyName": "WEC",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "NL",
+    "locationName": "",
+    "address": {
+      "name": "See WEC",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Netherlands"
+    }
+  },
+  "website": "https://weclines.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "VSS",
+  "linerName": "VASI Shipping Pte Ltd.",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "locationName": "",
+    "address": {
+      "name": "91 BENCOOLEN STREET # 10-02 SUNSHINE PLAZA\nZip Code 189652\nCity Singapore\nState \nCountry Singapore",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "website": "https://www.vasishipping.com",
+  "remarks": "",
+  "validFrom": "2019-09-05",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

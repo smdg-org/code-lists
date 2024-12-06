@@ -1,0 +1,43 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "PNS",
+  "linerName": "Pakistan National Shipping Co.",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "PK",
+    "locationName": "",
+    "address": {
+      "name": "Head Office Address: PNSC Building, M.T. Khan Road, P.O. BOX No.5350, Karachi-74000, PAKISTAN.",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Pakistan"
+    }
+  },
+  "website": "https://www.pnsc.com.pk/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

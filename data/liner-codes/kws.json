@@ -1,0 +1,43 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "KWS",
+  "linerName": "Kyowa Shipping Co., Tokyo",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "JP",
+    "locationName": "",
+    "address": {
+      "name": "Hibiya Building, 4th Floor, 1-1, Shimbashi 1-Chome, Minato-Ku, Tokyo 105-0004, Japan\n",
+      "street": "Chome Shinbashi",
+      "streetNumber": "1",
+      "floor": "",
+      "postCode": "105-0004",
+      "city": "Tokyo",
+      "state": "",
+      "country": "Japan"
+    }
+  },
+  "website": "https://www.kyowa-line.co.jp/en/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

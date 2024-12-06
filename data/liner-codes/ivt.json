@@ -1,0 +1,43 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "IVT",
+  "linerName": "InviCont OU",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompanyCode": "",
+  "parentCompanyName": "IVT",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "EE",
+    "locationName": "",
+    "address": {
+      "name": "P\u00E4rnu mnt 102-15, Tallinn, 11312, Estonia\n",
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Tallinn",
+      "state": "",
+      "country": "Estonia"
+    }
+  },
+  "website": "https://invicont.ee/",
+  "remarks": "",
+  "validFrom": "2022-12-21",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-12-21",
+      "updateRequestedBy": "Invicont",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by Invicont"
+    }
+  ]
+}

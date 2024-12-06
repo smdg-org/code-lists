@@ -1,0 +1,43 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "WFL",
+  "linerName": "Winfast Lines SDN. BHD. ",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompanyCode": "",
+  "parentCompanyName": "WFL",
+  "addressLocation": {
+    "UnLocode": "KLA",
+    "UnCountryCode": "MY",
+    "locationName": "",
+    "address": {
+      "name": "52 \u002652A, LORONG SENTOSA 4A, TAMAN BAYU TINGGI, 41200 KLANG, SELANGOR",
+      "street": "LORONG SENTOSA 4A",
+      "streetNumber": "52\u002652A",
+      "floor": "",
+      "postCode": "41200",
+      "city": "Klang",
+      "state": "",
+      "country": "Malaysia"
+    }
+  },
+  "website": "http://www.win-fl.com/",
+  "remarks": "",
+  "validFrom": "2024-08-07",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2024-08-07",
+      "updateRequestedBy": "WFL",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by WFL"
+    }
+  ]
+}

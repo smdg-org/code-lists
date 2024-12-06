@@ -1,0 +1,43 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "VEL",
+  "linerName": "Agencia Maritima Velmaren SA",
+  "carrierType": "Ocean",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompanyCode": "",
+  "parentCompanyName": "\u00A0",
+  "addressLocation": {
+    "UnLocode": "MVD",
+    "UnCountryCode": "UY",
+    "locationName": "",
+    "address": {
+      "name": "25 DE AGOSTO 18 25 OF 301, Montevideo",
+      "street": "25 DE AGOSTO",
+      "streetNumber": "\u00A0",
+      "floor": "",
+      "postCode": "11000",
+      "city": "Montevideo",
+      "state": "",
+      "country": "Uruguay"
+    }
+  },
+  "website": "https://www.velmaren.com.uy",
+  "remarks": "\u00A0",
+  "validFrom": "2024-08-07",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2024-08-07",
+      "updateRequestedBy": "HLC",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by HLC"
+    }
+  ]
+}

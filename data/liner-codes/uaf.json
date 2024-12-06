@@ -1,0 +1,43 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "UAF",
+  "linerName": "United Africa Feeder Line (Mauritius)",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "addressLocation": {
+    "UnLocode": "MAP",
+    "UnCountryCode": "MU",
+    "locationName": "",
+    "address": {
+      "name": "HEAD OFFICE\nUAFL HOUSE\nDomaine de Labourdonnais,\nMapou 31803, Mauritius",
+      "street": "Rue de Labourdonnais",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "31803",
+      "city": "Mapou",
+      "state": "",
+      "country": "Mauritius"
+    }
+  },
+  "website": "https://www.uaflshipping.com/",
+  "remarks": "",
+  "validFrom": "2017-04-03",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

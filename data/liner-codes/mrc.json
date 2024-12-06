@@ -1,0 +1,43 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "MRC",
+  "linerName": "Mercosul",
+  "carrierType": "Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "addressLocation": {
+    "UnLocode": "SSZ",
+    "UnCountryCode": "BR",
+    "locationName": "",
+    "address": {
+      "name": "R. Guaia\u00F3, 66 - 21\u00BA Andar - Aparecida, Santos - SP, Brazil zipcode: 11030-000",
+      "street": "R. Guaia\u00F3",
+      "streetNumber": "66",
+      "floor": "",
+      "postCode": "11030-000",
+      "city": "Santos",
+      "state": "",
+      "country": "Brazil"
+    }
+  },
+  "website": "https://www.mercosul-line.com.br/index.php",
+  "remarks": "",
+  "validFrom": "2021-09-06",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-09-06",
+      "updateRequestedBy": "Mercosul",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by Mercosul"
+    }
+  ]
+}
