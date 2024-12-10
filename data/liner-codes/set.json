@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SET",
   "linerName": "Setramar",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Via Classicana 99, 48122 Ravenna RA, Italy",
   "addressLocation": {
     "UnLocode": "RAN",
     "UnCountryCode": "IT",
-    "locationName": "",
     "address": {
-      "name": "Via Classicana 99, 48122 Ravenna RA, Italy",
       "street": "Via Classicana",
       "streetNumber": "99",
       "floor": "",

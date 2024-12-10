@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "TYS",
   "linerName": "Tai Young Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "RM603, Hanjin BlDG (new), 88 Sogong ro , Jung-Gu, Seoul, Korea ",
   "addressLocation": {
     "UnLocode": "SEL",
     "UnCountryCode": "KR",
-    "locationName": "",
     "address": {
-      "name": "RM603, Hanjin BlDG (new), 88 Sogong ro , Jung-Gu, Seoul, Korea ",
       "street": "Sogong ro",
       "streetNumber": "88",
       "floor": "Hanjin BlDG (new)",

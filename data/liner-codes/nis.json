@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "NIS",
   "linerName": "Nisa Maritima, Valencia, Spain",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "C/Fuente Podrida, 17, 46011 Valencia, Spain",
   "addressLocation": {
     "UnLocode": "VLC",
     "UnCountryCode": "ES",
-    "locationName": "",
     "address": {
-      "name": "C/Fuente Podrida, 17, 46011 Valencia, Spain",
       "street": "",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "WEC",
   "linerName": "WEC",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "WEC",
+  "address": "W.E.C. Lines B.V.\nAlbert Plesmanweg 59\n3088 GB Rotterdam\nP.O. Box 59230\n3008 PE Rotterdam\nThe Netherlands",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "NL",
-    "locationName": "",
     "address": {
-      "name": "W.E.C. Lines B.V.\nAlbert Plesmanweg 59\n3088 GB Rotterdam\nP.O. Box 59230\n3008 PE Rotterdam\nThe Netherlands",
       "street": "",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SPS",
   "linerName": "South Pacific Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Auckland Office\n(Sales, Shipping, Commercial)\nLevel 6, 35 High St,\nAuckland, New Zealand\nPO Box 597, Shortland St,\nAuckland, New Zealand",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "NZ",
-    "locationName": "",
     "address": {
-      "name": "Auckland Office\n(Sales, Shipping, Commercial)\nLevel 6, 35 High St,\nAuckland, New Zealand\nPO Box 597, Shortland St,\nAuckland, New Zealand",
       "street": "High Street",
       "streetNumber": "35",
       "floor": "",

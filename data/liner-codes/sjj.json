@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SJJ",
   "linerName": "Shanghai Jinjiang Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "SJJ",
+  "address": "Floor 15, Golden Bell Plaza, No.98. Huai Hai Road(Middle), Shanghai 200021, China",
   "addressLocation": {
     "UnLocode": "SGH",
     "UnCountryCode": "CN",
-    "locationName": "",
     "address": {
-      "name": "Floor 15, Golden Bell Plaza, No.98. Huai Hai Road(Middle), Shanghai 200021, China",
       "street": "Golden Bell Plaza",
       "streetNumber": "98",
       "floor": "",

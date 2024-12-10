@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CLN",
   "linerName": "Cheng Lie Navigation Co., Ltd.",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "CMA",
+  "address": "CNC Head Office\n9 North Buona Vista Drive\n#14-01 The Metropolis Tower 1\nSingapore ",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "CNC Head Office\n9 North Buona Vista Drive\n#14-01 The Metropolis Tower 1\nSingapore ",
       "street": "",
       "streetNumber": "",
       "floor": "",

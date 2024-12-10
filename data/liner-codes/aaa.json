@@ -2,26 +2,26 @@
   "isActive": true,
   "codeStatus": "Active",
   "linerCodeVersion": "V1",
-  "linerSMDGCode": "IPS",
-  "linerName": "INSPIRE SHIPS AND PROJECTS (S) PTE LTD",
+  "linerSMDGCode": "AAA",
+  "linerName": "AWATAC Singapore Pte Ltd",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "IPS",
-  "address": " 1 PAYA LBEAR LINK, #04-01 PAYA LEBAR QUARTERS, \nSINGAPORE 408533",
+  "parentCompanyName": "AWATAC Container  Line  ",
+  "address": "105 Cecil Street, #16-01 (SUITE -1614) The Octagon, Singapore 069534, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
     "address": {
-      "street": "",
-      "streetNumber": "",
-      "floor": "",
-      "postCode": "",
+      "street": "Cecil Street",
+      "streetNumber": "105",
+      "floor": "#16-01 The Octagon",
+      "postCode": "069534",
       "city": "Singapore",
       "state": "",
       "country": "Singapore"
     }
   },
-  "website": "http://inspireships.com",
+  "website": "https://www.awatacgroup.com/",
   "remarks": "",
   "validFrom": "2022-05-30",
   "validTo": null,
@@ -30,11 +30,11 @@
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-05-30",
-      "updateRequestedBy": "Inspire Ships",
+      "updateRequestedBy": "AWATAC",
       "reason": "new request",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "requested by Inspire Ships"
+      "comments": "requested by AWATAC"
     }
   ]
 }

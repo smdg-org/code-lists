@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CSL",
   "linerName": "Canada States Africa Line, Montreal",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "CSAL Montreal, 478 McGill Street, Montreal, Quebec H2Y 2H2, Canada",
   "addressLocation": {
     "UnLocode": "MTR",
     "UnCountryCode": "CA",
-    "locationName": "",
     "address": {
-      "name": "CSAL Montreal, 478 McGill Street, Montreal, Quebec H2Y 2H2, Canada",
       "street": "McGill Street",
       "streetNumber": "478",
       "floor": "",

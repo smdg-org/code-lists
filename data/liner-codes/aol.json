@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "AOL",
   "linerName": "Apollo Line",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Apollo Shipping GmbH \u0026 Co. KG, Sachsenbergstra\u00DFe 5, 21614 Buxtehude, Germany",
   "addressLocation": {
     "UnLocode": "BUX",
     "UnCountryCode": "DE",
-    "locationName": "",
     "address": {
-      "name": "Apollo Shipping GmbH \u0026 Co. KG, Sachsenbergstra\u00DFe 5, 21614 Buxtehude, Germany",
       "street": "Sachsenbergstr.",
       "streetNumber": "5",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CAS",
   "linerName": "Caucedo Services Inc.",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Level 1 Palm Grove House, Wickhams Cay 1, Road Town, Tortola, British Virgin Islands",
   "addressLocation": {
     "UnLocode": "RAD",
     "UnCountryCode": "VG",
-    "locationName": "",
     "address": {
-      "name": "Level 1 Palm Grove House, Wickhams Cay 1, Road Town, Tortola, British Virgin Islands",
       "street": "Wickhams Cay",
       "streetNumber": "1",
       "floor": "",

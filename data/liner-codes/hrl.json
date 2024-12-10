@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "HRL",
   "linerName": "HR Lines Limited",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "HR BHABAN, 26/1 KAKRAIL, DHAKA-1000, BANGLADESH",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "BD",
-    "locationName": "",
     "address": {
-      "name": "HR BHABAN, 26/1 KAKRAIL, DHAKA-1000, BANGLADESH",
       "street": "",
       "streetNumber": "",
       "floor": "",

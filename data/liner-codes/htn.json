@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "HTN",
   "linerName": "Hastin Container Line Pte Ltd.",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "HTN",
+  "address": "99 DUXTON ROAD, 089543, SINGAPORE",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "99 DUXTON ROAD, 089543, SINGAPORE",
       "street": "",
       "streetNumber": "",
       "floor": "",

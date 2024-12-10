@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MAC",
   "linerName": "MACS Maritime Carrier Shipping GmbH \u0026 Co.",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "MOC",
+  "address": "MACS MARITIME CARRIER SHIPPING GMBH \u0026 CO, GROSSE ELBSTRASSE 138, 22767 HAMBURG, Germany",
   "addressLocation": {
     "UnLocode": "HAM",
     "UnCountryCode": "DE",
-    "locationName": "",
     "address": {
-      "name": "MACS MARITIME CARRIER SHIPPING GMBH \u0026 CO, GROSSE ELBSTRASSE 138, 22767 HAMBURG, Germany",
       "street": "Grosse Elbstr.",
       "streetNumber": "138",
       "floor": "",

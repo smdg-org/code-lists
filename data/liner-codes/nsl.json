@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "NSL",
   "linerName": "NAMSUNG Shipping Co. Ltd.",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "363, Samil-daero, Jung-gu, Seoul, Korea (Janggyo Bldg,17th)",
   "addressLocation": {
     "UnLocode": "SEL",
     "UnCountryCode": "KR",
-    "locationName": "",
     "address": {
-      "name": "363, Samil-daero, Jung-gu, Seoul, Korea (Janggyo Bldg,17th)",
       "street": "Samil-daero",
       "streetNumber": "363",
       "floor": "Janggyo Bldg,17th",

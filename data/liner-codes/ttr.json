@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "TTR",
   "linerName": "Tru-Trans Malaysia",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Pandamaran, 42000 Port Klang, Selangor, Malaysia",
   "addressLocation": {
     "UnLocode": "PKG",
     "UnCountryCode": "MY",
-    "locationName": "",
     "address": {
-      "name": "Pandamaran, 42000 Port Klang, Selangor, Malaysia",
       "street": "",
       "streetNumber": "",
       "floor": "",

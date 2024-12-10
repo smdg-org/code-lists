@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CES",
   "linerName": "Crosseast Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Office #803, 8th Floor, MM Tower, Maktoum Road, Near Emirates Concorde Hotel Deira, Dubai, UAE",
   "addressLocation": {
     "UnLocode": "DXB",
     "UnCountryCode": "AE",
-    "locationName": "",
     "address": {
-      "name": "Office #803, 8th Floor, MM Tower, Maktoum Road, Near Emirates Concorde Hotel Deira, Dubai, UAE",
       "street": "Maktoum Road",
       "streetNumber": "",
       "floor": "8th Floor, MM Tower",

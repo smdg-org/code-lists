@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "PLS",
   "linerName": "PNS Logistics",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "",
-    "locationName": "",
     "address": {
-      "name": "",
       "street": "",
       "streetNumber": "",
       "floor": "",

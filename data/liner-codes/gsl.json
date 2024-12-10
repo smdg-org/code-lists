@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "GSL",
   "linerName": "Gold Star Line",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "ZIM",
+  "address": "5/F Pioneer Place 33 Hoi Yuen Road Kwuntong\nZip Code 865C\u002BPW\nCity Kowloon, Hong Kong",
   "addressLocation": {
     "UnLocode": "HKG",
     "UnCountryCode": "HK",
-    "locationName": "",
     "address": {
-      "name": "5/F Pioneer Place 33 Hoi Yuen Road Kwuntong\nZip Code 865C\u002BPW\nCity Kowloon, Hong Kong",
       "street": "",
       "streetNumber": "",
       "floor": "",

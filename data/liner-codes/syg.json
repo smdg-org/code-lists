@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SYG",
   "linerName": "Shin Yang Shipping Malaysia",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Sublot 153 (Parent Lot 70), Jalan Kuala Baram,              \nKuala Baram, 98100 Miri, Sarawak, Malaysia",
   "addressLocation": {
     "UnLocode": "MYY",
     "UnCountryCode": "MY",
-    "locationName": "",
     "address": {
-      "name": "Sublot 153 (Parent Lot 70), Jalan Kuala Baram,              \nKuala Baram, 98100 Miri, Sarawak, Malaysia",
       "street": "Sublot 153 (Parent Lot 70), Jalan Kuala Baram",
       "streetNumber": "",
       "floor": "",

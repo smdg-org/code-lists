@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CSF",
   "linerName": "Cathay Shipping \u0026 Freight Services",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "CATHAY SHIPPING \u0026 FREIGHT SERVICES PTE LTD\nBlock 211 Henderson Road, #05-02, Henderson Industrial Park, Singapore 159552\n",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "CATHAY SHIPPING \u0026 FREIGHT SERVICES PTE LTD\nBlock 211 Henderson Road, #05-02, Henderson Industrial Park, Singapore 159552\n",
       "street": "",
       "streetNumber": "",
       "floor": "",

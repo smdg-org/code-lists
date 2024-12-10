@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BFE",
   "linerName": "Baja Ferries Sapi De C.V.",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "n/a",
+  "address": "IGNACIO ALLENDE 1025, COLONIA CENTRO, C.P. 23000  LA PAZ, BAJA CALIFORNIA SUR, MEXICO.",
   "addressLocation": {
     "UnLocode": "LAP",
     "UnCountryCode": "MX",
-    "locationName": "",
     "address": {
-      "name": "IGNACIO ALLENDE 1025, COLONIA CENTRO, C.P. 23000  LA PAZ, BAJA CALIFORNIA SUR, MEXICO.",
       "street": "IGNACIO ALLENDE",
       "streetNumber": "1025",
       "floor": "",

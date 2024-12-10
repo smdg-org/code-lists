@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "RHE",
   "linerName": "Rhenus Logistics",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "Rhenus Logistics                     ",
+  "address": "Headquarter: Rhenus SE \u0026 Co. KG\nRhenus-Platz 1, 59439 Holzwickede, Germany\nAsia headquarter: 17 Changi Business Park Central 1, Honeywell Building #06-08, Singapore 486073",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "Headquarter: Rhenus SE \u0026 Co. KG\nRhenus-Platz 1, 59439 Holzwickede, Germany\nAsia headquarter: 17 Changi Business Park Central 1, Honeywell Building #06-08, Singapore 486073",
       "street": "",
       "streetNumber": "",
       "floor": "",

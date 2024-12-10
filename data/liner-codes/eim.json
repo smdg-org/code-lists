@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "EIM",
   "linerName": "Eimskip",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Eimskip Iceland\nKorngardar 2\n104 Reykjavik, Iceland\nTel: \u002B354 525-7000",
   "addressLocation": {
     "UnLocode": "REY",
     "UnCountryCode": "IS",
-    "locationName": "",
     "address": {
-      "name": "Eimskip Iceland\nKorngardar 2\n104 Reykjavik, Iceland\nTel: \u002B354 525-7000",
       "street": "Korngardar",
       "streetNumber": "2",
       "floor": "",

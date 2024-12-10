@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SIM",
   "linerName": "Simatech Shipping Dubai",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Simatech Shipping \u0026 Forwarding L.L.C.\n18th Floor, Regal Tower, Business Bay\nP.O. Box 23743,\nDubai \u2013 United Arab Emirates",
   "addressLocation": {
     "UnLocode": "DXB",
     "UnCountryCode": "AE",
-    "locationName": "",
     "address": {
-      "name": "Simatech Shipping \u0026 Forwarding L.L.C.\n18th Floor, Regal Tower, Business Bay\nP.O. Box 23743,\nDubai \u2013 United Arab Emirates",
       "street": "",
       "streetNumber": "",
       "floor": "18th Floor, Regal Tower",

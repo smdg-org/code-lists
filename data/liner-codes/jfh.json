@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "JFH",
   "linerName": "J.F.Hillebrand Singapore Pte Ltd",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "J.F. Hillebrand Group AG",
+  "address": "1 Kim Seng Promenade, #11-01 to #11-06 Great World City East Tower, Singapore 237994, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "1 Kim Seng Promenade, #11-01 to #11-06 Great World City East Tower, Singapore 237994, Singapore",
       "street": "Kim Seng Promenade",
       "streetNumber": "1",
       "floor": "#11-01 to #11-06 Great World City East Tower",

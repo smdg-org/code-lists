@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "POR",
   "linerName": "Portlink",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "152 Beach Road #14-04, Gateway East, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "152 Beach Road #14-04, Gateway East, Singapore",
       "street": "",
       "streetNumber": "",
       "floor": "",

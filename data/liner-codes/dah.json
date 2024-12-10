@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "DAH",
   "linerName": "DahNAY Lines PTE LTD",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "DAH",
+  "address": "No 111, NORTH BRIDGE ROAD, #08 - 04 PENINSULA PLAZA, SINGAPORE - 179098",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "No 111, NORTH BRIDGE ROAD, #08 - 04 PENINSULA PLAZA, SINGAPORE - 179098",
       "street": "",
       "streetNumber": "",
       "floor": "",

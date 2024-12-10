@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "NCL",
   "linerName": "North Sea Container Line",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "M\u00F8llerveien 22, 5523 Haugesund, Norway",
   "addressLocation": {
     "UnLocode": "HAU",
     "UnCountryCode": "NO",
-    "locationName": "",
     "address": {
-      "name": "M\u00F8llerveien 22, 5523 Haugesund, Norway",
       "street": "M\u00F8llerveien",
       "streetNumber": "22",
       "floor": "",

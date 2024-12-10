@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "DJL",
   "linerName": "PT Jakarta Lloyd",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "PT Djakarta LLoyd (Persero)\nDlloyd Building,\nJl Raden Saleh Raya No. 51,\nJakarta Pusat 10330, Indonesia",
   "addressLocation": {
     "UnLocode": "JKT",
     "UnCountryCode": "ID",
-    "locationName": "",
     "address": {
-      "name": "PT Djakarta LLoyd (Persero)\nDlloyd Building,\nJl Raden Saleh Raya No. 51,\nJakarta Pusat 10330, Indonesia",
       "street": "",
       "streetNumber": "",
       "floor": "",

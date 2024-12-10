@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CMA",
   "linerName": "CMA CGM",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "CMA",
+  "address": "Boulevard Jacques Saad\u00E9, 4 Quai d\u0027Arenc 13235 Marseille cedex 02 France",
   "addressLocation": {
     "UnLocode": "MRS",
     "UnCountryCode": "FR",
-    "locationName": "",
     "address": {
-      "name": "Boulevard Jacques Saad\u00E9, 4 Quai d\u0027Arenc 13235 Marseille cedex 02 France",
       "street": "Boulevard Jacques Saad\u00E9",
       "streetNumber": "4",
       "floor": "",

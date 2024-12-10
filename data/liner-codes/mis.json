@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MIS",
   "linerName": "Malaysian International Shipping Company",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "LNG Business Unit MISC Berhad, Level 30, Menara Dayabumi, Jalan Sultan Hishamuddin, 50050 Kuala Lumpur, Malaysia",
   "addressLocation": {
     "UnLocode": "KUL",
     "UnCountryCode": "MY",
-    "locationName": "",
     "address": {
-      "name": "LNG Business Unit MISC Berhad, Level 30, Menara Dayabumi, Jalan Sultan Hishamuddin, 50050 Kuala Lumpur, Malaysia",
       "street": "Jalan Sultan Hishamuddin",
       "streetNumber": "",
       "floor": "",

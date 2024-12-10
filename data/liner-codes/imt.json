@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "IMT",
   "linerName": "IMOTO Lines",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Kobe Asahi Bldg , 59 Naniwamachi, Chuo-ku, Kobe 650-0035, Japan\n",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "JP",
-    "locationName": "",
     "address": {
-      "name": "Kobe Asahi Bldg , 59 Naniwamachi, Chuo-ku, Kobe 650-0035, Japan\n",
       "street": "",
       "streetNumber": "",
       "floor": "",

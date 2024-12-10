@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "GMD",
   "linerName": "Gemadept Singapore",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Gemadept Corporation, 21st Floor, 6 Le Thanh Ton St., Ben Nghe Ward, Dist.1., Ho Chi Minh City, Vietnam",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "VN",
-    "locationName": "",
     "address": {
-      "name": "Gemadept Corporation, 21st Floor, 6 Le Thanh Ton St., Ben Nghe Ward, Dist.1., Ho Chi Minh City, Vietnam",
       "street": "",
       "streetNumber": "",
       "floor": "",

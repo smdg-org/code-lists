@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SLA",
   "linerName": "SeaLead Shipping PTE LTD",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "19, Keppel Road, #06-02,\nJit Poh Building, Singapore 079058",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "19, Keppel Road, #06-02,\nJit Poh Building, Singapore 079058",
       "street": "",
       "streetNumber": "",
       "floor": "",

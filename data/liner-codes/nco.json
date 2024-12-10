@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "NCO",
   "linerName": "Northern Coastal Transport LTDA",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "AVENIDA DAS NACOES UNIDAS, 14.261 ALA B - 28 ANDAR - CONJ B 04794-000 SAO PAULO, Brazil",
   "addressLocation": {
     "UnLocode": "SAO",
     "UnCountryCode": "BR",
-    "locationName": "",
     "address": {
-      "name": "AVENIDA DAS NACOES UNIDAS, 14.261 ALA B - 28 ANDAR - CONJ B 04794-000 SAO PAULO, Brazil",
       "street": "",
       "streetNumber": "",
       "floor": "",

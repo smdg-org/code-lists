@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "LBA",
   "linerName": "Companhia Libra de Navegacao, Rio de Janeiro",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "HLC",
+  "address": "Rua Gil Stein Ferreira, 258 - Centro - Itajai - SC - CEP 88301-210",
   "addressLocation": {
     "UnLocode": "ITJ",
     "UnCountryCode": "BR",
-    "locationName": "",
     "address": {
-      "name": "Rua Gil Stein Ferreira, 258 - Centro - Itajai - SC - CEP 88301-210",
       "street": "Rua Gil Stein Ferreira",
       "streetNumber": "258",
       "floor": "",

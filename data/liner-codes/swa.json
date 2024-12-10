@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SWA",
   "linerName": "Swan Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "SCL Swan Container Lines GmbH, Alter Wall 55, 20457 Hamburg, Germany",
   "addressLocation": {
     "UnLocode": "HAM",
     "UnCountryCode": "DE",
-    "locationName": "",
     "address": {
-      "name": "SCL Swan Container Lines GmbH, Alter Wall 55, 20457 Hamburg, Germany",
       "street": "Alter Wall",
       "streetNumber": "55",
       "floor": "",

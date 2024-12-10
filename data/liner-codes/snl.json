@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SNL",
   "linerName": "Sinotrans Container Lines Co Ltd",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Sinotrans Mansion 20F-25F, No.188 Fujian Road (C), Shanghai, 200001, China",
   "addressLocation": {
     "UnLocode": "SGH",
     "UnCountryCode": "CN",
-    "locationName": "",
     "address": {
-      "name": "Sinotrans Mansion 20F-25F, No.188 Fujian Road (C), Shanghai, 200001, China",
       "street": "Fujian Rd.",
       "streetNumber": "188",
       "floor": "",

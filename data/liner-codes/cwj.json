@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CWJ",
   "linerName": "PT Cumawis Jakarta",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "SSL",
+  "address": "c/o PT Samudera Shipping Servi, 1st Floor, Samudera Indonesia Building, Jalan Letjen S Parman 35, Kel Palmerah, Jakarta 11480, Indonesia",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "ID",
-    "locationName": "",
     "address": {
-      "name": "c/o PT Samudera Shipping Servi, 1st Floor, Samudera Indonesia Building, Jalan Letjen S Parman 35, Kel Palmerah, Jakarta 11480, Indonesia",
       "street": "",
       "streetNumber": "",
       "floor": "",

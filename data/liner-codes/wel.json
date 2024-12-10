@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "WEL",
   "linerName": "Worldgate Express Lines",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Singapore (Worldgate Group Head Office)\nWorldgate Express Lines Pte Ltd\n180, Telok Ayer Street\nThe Worldgate\nSingapore 068628",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "Singapore (Worldgate Group Head Office)\nWorldgate Express Lines Pte Ltd\n180, Telok Ayer Street\nThe Worldgate\nSingapore 068628",
       "street": "",
       "streetNumber": "",
       "floor": "",

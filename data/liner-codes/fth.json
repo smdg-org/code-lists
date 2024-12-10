@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "FTH",
   "linerName": "Feedertech",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "UFE",
+  "address": "3 Temasek Avenue,\n#15-01, Centennial Tower,\nSingapore 039190\n",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "3 Temasek Avenue,\n#15-01, Centennial Tower,\nSingapore 039190\n",
       "street": "",
       "streetNumber": "",
       "floor": "",

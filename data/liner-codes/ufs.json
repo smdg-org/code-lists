@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "UFS",
   "linerName": "Unimed Feeder Services Limassol",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "C/o Unifeeder A/S, Tangen 6, 8200 Aarhus N, Denmark\n",
   "addressLocation": {
     "UnLocode": "AAR",
     "UnCountryCode": "DK",
-    "locationName": "",
     "address": {
-      "name": "C/o Unifeeder A/S, Tangen 6, 8200 Aarhus N, Denmark\n",
       "street": "Tangen",
       "streetNumber": "6",
       "floor": "",

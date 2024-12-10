@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ONE",
   "linerName": "Ocean Network Express Pte. Ltd.",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "ONE",
+  "address": "7 Straits View,\n#16-01 Marina One East Tower,\nSingapore 018936",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "7 Straits View,\n#16-01 Marina One East Tower,\nSingapore 018936",
       "street": "",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "COO",
   "linerName": "Cool Carriers",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Cool Carriers AB, Barnhusgatan 16, 111 23 Stockholm, Sweden",
   "addressLocation": {
     "UnLocode": "STO",
     "UnCountryCode": "SE",
-    "locationName": "",
     "address": {
-      "name": "Cool Carriers AB, Barnhusgatan 16, 111 23 Stockholm, Sweden",
       "street": "Barnhusgatan",
       "streetNumber": "16",
       "floor": "",

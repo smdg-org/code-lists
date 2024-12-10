@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CFS",
   "linerName": "Caribbean Feeder Service Ltd., Kingston",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Caribbean Feeder Service\n4765 SW 148th Ave, Suite 503\nDavie, FL 33330, USA",
   "addressLocation": {
     "UnLocode": "DVF",
     "UnCountryCode": "US",
-    "locationName": "",
     "address": {
-      "name": "Caribbean Feeder Service\n4765 SW 148th Ave, Suite 503\nDavie, FL 33330, USA",
       "street": "148th Ave",
       "streetNumber": "4765 SW",
       "floor": "",

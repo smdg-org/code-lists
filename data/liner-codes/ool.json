@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "OOL",
   "linerName": "Orient Overseas Container Line",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "COS",
+  "address": "31/F, Harbour Centre 25 Harbour Road, Wanchai, Hong Kong",
   "addressLocation": {
     "UnLocode": "HKG",
     "UnCountryCode": "HK",
-    "locationName": "",
     "address": {
-      "name": "31/F, Harbour Centre 25 Harbour Road, Wanchai, Hong Kong",
       "street": "Harbour Road",
       "streetNumber": "25",
       "floor": "31/F, Harbour Centre",

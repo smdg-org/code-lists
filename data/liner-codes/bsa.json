@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BSA",
   "linerName": "BSA Transportation",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "BSA Logistics Head Office\nJl. Raya Cakung Cilincing Km 3\nJakarta 13910, Indonesia.",
   "addressLocation": {
     "UnLocode": "JKT",
     "UnCountryCode": "ID",
-    "locationName": "",
     "address": {
-      "name": "BSA Logistics Head Office\nJl. Raya Cakung Cilincing Km 3\nJakarta 13910, Indonesia.",
       "street": "Jl. Raya Cakung Cilincing",
       "streetNumber": "Km 3",
       "floor": "",

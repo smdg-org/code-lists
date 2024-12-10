@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BCN",
   "linerName": "Bermuda Container Line",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Suite 1140, 48 Par-La-Ville  Road, Hamilton HM 11, Bermuda",
   "addressLocation": {
     "UnLocode": "BDA",
     "UnCountryCode": "BM",
-    "locationName": "",
     "address": {
-      "name": "Suite 1140, 48 Par-La-Ville  Road, Hamilton HM 11, Bermuda",
       "street": "Par-La-Ville  Road",
       "streetNumber": "48",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "VEN",
   "linerName": "Venavega Venezuela",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Avenida Caron\u00ED, Caracas 1080, Miranda, Venezuela\nAvenida Caron\u00ED entre calle Par\u00EDs y Londres, edificio Luisiana, piso 3, Urb. Las Mercedes Caracas-1060",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "VE",
-    "locationName": "",
     "address": {
-      "name": "Avenida Caron\u00ED, Caracas 1080, Miranda, Venezuela\nAvenida Caron\u00ED entre calle Par\u00EDs y Londres, edificio Luisiana, piso 3, Urb. Las Mercedes Caracas-1060",
       "street": "",
       "streetNumber": "",
       "floor": "",

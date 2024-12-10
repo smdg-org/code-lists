@@ -4,17 +4,14 @@
   "linerCodeVersion": "V2",
   "linerSMDGCode": "KMT",
   "linerName": "Korea Marine Transport",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "15F Hanjin Building 63 Namdaemun-Ro Jung-Gu Seoul, 04532 Korea, Republic of (South)",
   "addressLocation": {
     "UnLocode": "SEL",
     "UnCountryCode": "KR",
-    "locationName": "",
     "address": {
-      "name": "15F Hanjin Building 63 Namdaemun-Ro Jung-Gu Seoul, 04532 Korea, Republic of (South)",
       "street": "Namdaemun-Ro",
       "streetNumber": "63",
       "floor": "15F Hanjin Building",

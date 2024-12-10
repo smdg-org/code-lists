@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "HXS",
   "linerName": "HUI XIN SHIPPING PTE LTD",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "HXS",
+  "address": "22 Malacca Street #14-01A, RB Capital Building Singapore 048980",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "22 Malacca Street #14-01A, RB Capital Building Singapore 048980",
       "street": "Malacca Street",
       "streetNumber": "22",
       "floor": "RB Capital Building",

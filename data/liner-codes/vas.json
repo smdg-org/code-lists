@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "VAS",
   "linerName": "Vasco Maritime Line Singapore",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "BLK 511 KAMPONG BAHRU RD #02-05 KEPPEL DISTRIPARK\nZip Code 099 447\nCity Singapore",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "BLK 511 KAMPONG BAHRU RD #02-05 KEPPEL DISTRIPARK\nZip Code 099 447\nCity Singapore",
       "street": "KAMPONG BAHRU RD",
       "streetNumber": "02-05",
       "floor": "",

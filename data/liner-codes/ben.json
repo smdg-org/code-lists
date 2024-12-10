@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BEN",
   "linerName": "Ben Line Containers",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "200 Cantonment Road, #13-05 Southpoint, Singapore 089763, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "200 Cantonment Road, #13-05 Southpoint, Singapore 089763, Singapore",
       "street": "Cantonment Road",
       "streetNumber": "200",
       "floor": "#13-05 Southpoint",

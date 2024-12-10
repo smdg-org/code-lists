@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CSI",
   "linerName": "Cosiarma, Costa Rica",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Via Operai 20, 16149 Genova GE, Italy",
   "addressLocation": {
     "UnLocode": "GOA",
     "UnCountryCode": "IT",
-    "locationName": "",
     "address": {
-      "name": "Via Operai 20, 16149 Genova GE, Italy",
       "street": "Via Operai",
       "streetNumber": "20",
       "floor": "",

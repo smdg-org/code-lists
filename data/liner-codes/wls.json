@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "WLS",
   "linerName": "White Line Shipping, UAE",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "White Line Shipping \u0026 Cargo LLC\nOffice Address Al Owais Tower Office 305-306 Baniyas Street - Deira, Dubai - UAE\nP.O Box 32064 Dubai - UAE",
   "addressLocation": {
     "UnLocode": "DER",
     "UnCountryCode": "AE",
-    "locationName": "",
     "address": {
-      "name": "White Line Shipping \u0026 Cargo LLC\nOffice Address Al Owais Tower Office 305-306 Baniyas Street - Deira, Dubai - UAE\nP.O Box 32064 Dubai - UAE",
       "street": "Baniyas Street",
       "streetNumber": "",
       "floor": "Al Owais Tower",

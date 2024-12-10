@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SWI",
   "linerName": "Swire Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "SWI",
+  "address": "The China Navigation Co\nPte. Ltd.\n300 Beach Road\n#27-01, The Concourse\nSingapore 199555",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "The China Navigation Co\nPte. Ltd.\n300 Beach Road\n#27-01, The Concourse\nSingapore 199555",
       "street": "",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ITS",
   "linerName": "Italia Maritima SPA",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "EMC",
+  "address": "Passeggio Sant\u2019Andrea 4, 34123 Trieste, Italy",
   "addressLocation": {
     "UnLocode": "TRS",
     "UnCountryCode": "IT",
-    "locationName": "",
     "address": {
-      "name": "Passeggio Sant\u2019Andrea 4, 34123 Trieste, Italy",
       "street": "Passeggio Sant\u2019Andrea",
       "streetNumber": "4",
       "floor": "",

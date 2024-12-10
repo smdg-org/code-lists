@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "OBS",
   "linerName": "Ocean Bridge Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "25 Anzac Street, Takapuna 0622\nP.O. Box 33-1439, Auckland, New Zealand\nPhone: 09 489 6070",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "NZ",
-    "locationName": "",
     "address": {
-      "name": "25 Anzac Street, Takapuna 0622\nP.O. Box 33-1439, Auckland, New Zealand\nPhone: 09 489 6070",
       "street": "",
       "streetNumber": "",
       "floor": "",

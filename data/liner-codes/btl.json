@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BTL",
   "linerName": "Bengal Tiger Line Singapore",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Bengal Tiger Line Pte Ltd, 200 Cantonment Road, #13-01 Southpoint,\nSingapore 089763, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "Bengal Tiger Line Pte Ltd, 200 Cantonment Road, #13-01 Southpoint,\nSingapore 089763, Singapore",
       "street": "Cantonment Road",
       "streetNumber": "200",
       "floor": "#13-01 Southpoint",

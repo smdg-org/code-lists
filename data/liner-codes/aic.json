@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "AIC",
   "linerName": "African Independent Coastal Services",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Adj. Petroleum Dennis Hse.\nCommunity 1\nTema, Ghana\n",
   "addressLocation": {
     "UnLocode": "TEM",
     "UnCountryCode": "GH",
-    "locationName": "",
     "address": {
-      "name": "Adj. Petroleum Dennis Hse.\nCommunity 1\nTema, Ghana\n",
       "street": "",
       "streetNumber": "",
       "floor": "",

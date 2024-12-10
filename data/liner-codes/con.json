@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CON",
   "linerName": "Contcharters",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "CON",
+  "address": "Ajeltake Road, Ajeltake Island, Majure MH96960, Marshall Islands",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "MH",
-    "locationName": "",
     "address": {
-      "name": "Ajeltake Road, Ajeltake Island, Majure MH96960, Marshall Islands",
       "street": "",
       "streetNumber": "",
       "floor": "",

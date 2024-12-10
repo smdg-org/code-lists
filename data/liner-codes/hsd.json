@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "HSD",
   "linerName": "Hamburg Sud",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "MSK",
+  "address": "Willy-Brandt-Stra\u00DFe 59\u201365, 20457 Hamburg, Germany\nMailing Address: Postfach 11 15 33, 20415 Hamburg, Germany",
   "addressLocation": {
     "UnLocode": "HAM",
     "UnCountryCode": "DE",
-    "locationName": "",
     "address": {
-      "name": "Willy-Brandt-Stra\u00DFe 59\u201365, 20457 Hamburg, Germany\nMailing Address: Postfach 11 15 33, 20415 Hamburg, Germany",
       "street": "Willy-Brandt-Str.",
       "streetNumber": "59-61",
       "floor": "",

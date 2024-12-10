@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "QCL",
   "linerName": "Quest Container Line",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Quest Container Line Pvt Ltd\nNo.325 (Old No.158) 3rd Floor,\nLinghi Chetty Street,\nChennai 600 001, India",
   "addressLocation": {
     "UnLocode": "MAA",
     "UnCountryCode": "IN",
-    "locationName": "",
     "address": {
-      "name": "Quest Container Line Pvt Ltd\nNo.325 (Old No.158) 3rd Floor,\nLinghi Chetty Street,\nChennai 600 001, India",
       "street": "",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CCS",
   "linerName": "Chief Container Services",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Lvl 3 8 Spring St, Sydney NSW 2000\n",
   "addressLocation": {
     "UnLocode": "SYD",
     "UnCountryCode": "AU",
-    "locationName": "",
     "address": {
-      "name": "Lvl 3 8 Spring St, Sydney NSW 2000\n",
       "street": "Lvl 3 8 Spring St",
       "streetNumber": "",
       "floor": "",

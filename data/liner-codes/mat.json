@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MAT",
   "linerName": "Matson Navigation",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "555 12TH STREET-SUITE 700\nZip Code \nCity OAKLAND, CA 94610\nState \nCountry United States",
   "addressLocation": {
     "UnLocode": "OAK",
     "UnCountryCode": "US",
-    "locationName": "",
     "address": {
-      "name": "555 12TH STREET-SUITE 700\nZip Code \nCity OAKLAND, CA 94610\nState \nCountry United States",
       "street": "12th Street",
       "streetNumber": "555",
       "floor": "",

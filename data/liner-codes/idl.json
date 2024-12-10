@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "IDL",
   "linerName": "Indrati Lines",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Indrati Lines Pte Ltd\n6001 Beach Rd #13-01 Golden Mile Tower Singapore 199589\n",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "Indrati Lines Pte Ltd\n6001 Beach Rd #13-01 Golden Mile Tower Singapore 199589\n",
       "street": "",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SOL",
   "linerName": "Strait Orient Lines",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Straits Orient Lines (Singapore) Pte Ltd\n120 Lower Delta Road #06-07 Cendex Centre Singapore - 169 208.",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "Straits Orient Lines (Singapore) Pte Ltd\n120 Lower Delta Road #06-07 Cendex Centre Singapore - 169 208.",
       "street": "",
       "streetNumber": "",
       "floor": "",

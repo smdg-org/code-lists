@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "PAC",
   "linerName": "Pacifica Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "SWI",
+  "address": "Pacifica Shipping - an operating division of The China Navigation Company NZ Limited\nLevel 14, SAP Tower, 151 Queen Street, Auckland 1010, New Zealand.",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "NZ",
-    "locationName": "",
     "address": {
-      "name": "Pacifica Shipping - an operating division of The China Navigation Company NZ Limited\nLevel 14, SAP Tower, 151 Queen Street, Auckland 1010, New Zealand.",
       "street": "",
       "streetNumber": "",
       "floor": "",

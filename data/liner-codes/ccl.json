@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CCL",
   "linerName": "Cordelia Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "134 Archiepiskopou Makariou Avenue, Yiota Court, Apt. 102, 3021 Limassol, CYPRUS",
   "addressLocation": {
     "UnLocode": "LMS",
     "UnCountryCode": "CY",
-    "locationName": "",
     "address": {
-      "name": "134 Archiepiskopou Makariou Avenue, Yiota Court, Apt. 102, 3021 Limassol, CYPRUS",
       "street": "Archiepiskopou Makariou Avenue",
       "streetNumber": "134",
       "floor": "",

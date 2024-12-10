@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "HKS",
   "linerName": "OY Hacklin Seatrans Ltd.",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "M\u00E4ntyluoto (Port of Pori) M\u00E4ntyluoto, FI-28880 Pori, Finland",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "FI",
-    "locationName": "",
     "address": {
-      "name": "M\u00E4ntyluoto (Port of Pori) M\u00E4ntyluoto, FI-28880 Pori, Finland",
       "street": "",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SCI",
   "linerName": "Shipping Corporation of India",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Shipping House 10th floor, 245, Madam Cama Road, Mumbai 400-021, India",
   "addressLocation": {
     "UnLocode": "BOM",
     "UnCountryCode": "IN",
-    "locationName": "",
     "address": {
-      "name": "Shipping House 10th floor, 245, Madam Cama Road, Mumbai 400-021, India",
       "street": "",
       "streetNumber": "",
       "floor": "",

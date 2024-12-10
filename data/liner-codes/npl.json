@@ -4,17 +4,14 @@
   "linerCodeVersion": "V2",
   "linerSMDGCode": "NPL",
   "linerName": "Neptune Pacific Line",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "NPD",
+  "address": "Neptune Pacific Agency Australia Pty Limited\nLevel 12\n45-47 York St\nSydney NSW\nPO Box 3813\nSydney NSW 2001",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "AU",
-    "locationName": "",
     "address": {
-      "name": "Neptune Pacific Agency Australia Pty Limited\nLevel 12\n45-47 York St\nSydney NSW\nPO Box 3813\nSydney NSW 2001",
       "street": "",
       "streetNumber": "",
       "floor": "",

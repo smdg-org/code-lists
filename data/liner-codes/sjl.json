@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SJL",
   "linerName": "Sarjak Container Lines",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Sarjak Container Lines Pvt. Ltd.\n8th Floor, DLH Plaza,Cosmos Building,\nOpp. Shoppers Stop, S V Road, Andheri West,\nMumbai - 400058, India",
   "addressLocation": {
     "UnLocode": "BOM",
     "UnCountryCode": "IN",
-    "locationName": "",
     "address": {
-      "name": "Sarjak Container Lines Pvt. Ltd.\n8th Floor, DLH Plaza,Cosmos Building,\nOpp. Shoppers Stop, S V Road, Andheri West,\nMumbai - 400058, India",
       "street": "",
       "streetNumber": "",
       "floor": "",

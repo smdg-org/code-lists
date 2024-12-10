@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "HIL",
   "linerName": "Head International Logistics Co., Ltd.",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Shenzhen Unifelix International Logistics Co.,Ltd\nAdd\uFF1ARoom1305,Cun jin building,No,3005 Dongmen South Road Luohu Districten,Shenzhen Guangdong, China\n",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "CN",
-    "locationName": "",
     "address": {
-      "name": "Shenzhen Unifelix International Logistics Co.,Ltd\nAdd\uFF1ARoom1305,Cun jin building,No,3005 Dongmen South Road Luohu Districten,Shenzhen Guangdong, China\n",
       "street": "",
       "streetNumber": "",
       "floor": "",

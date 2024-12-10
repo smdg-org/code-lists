@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "XPF",
   "linerName": "X-Press Feeders",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "11 Duxton Hill\nSingapore 089595",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "11 Duxton Hill\nSingapore 089595",
       "street": "",
       "streetNumber": "",
       "floor": "",

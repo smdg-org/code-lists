@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MFS",
   "linerName": "Myanmar Five Star Line",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Bogalay Zay St, Yangon, Myanmar (Burma)",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "MM",
-    "locationName": "",
     "address": {
-      "name": "Bogalay Zay St, Yangon, Myanmar (Burma)",
       "street": "",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "TIZ",
   "linerName": "Ti2 logistics pte ltd",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "TIZ",
+  "address": "2 International Business Park, #11-06\nThe Strategy Tower 1, Singapore 609930",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "2 International Business Park, #11-06\nThe Strategy Tower 1, Singapore 609930",
       "street": "",
       "streetNumber": "",
       "floor": "",

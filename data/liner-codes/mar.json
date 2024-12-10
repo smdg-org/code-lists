@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MAR",
   "linerName": "Maruba Line",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "MAIPU 535 1P [C1006ACE] CABA",
   "addressLocation": {
     "UnLocode": "BUE",
     "UnCountryCode": "AR",
-    "locationName": "",
     "address": {
-      "name": "MAIPU 535 1P [C1006ACE] CABA",
       "street": "Maipu",
       "streetNumber": "535",
       "floor": "",

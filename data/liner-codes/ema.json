@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "EMA",
   "linerName": "Evergreen Marine (Asia) Pte. Ltd.",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "EMC",
+  "address": "200 Cantonment Road, #12-01 Southpoint, Singapore 089763, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "200 Cantonment Road, #12-01 Southpoint, Singapore 089763, Singapore",
       "street": "Cantonment Road",
       "streetNumber": "200",
       "floor": "#12-01 Southpoint",

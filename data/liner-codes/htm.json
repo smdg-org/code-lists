@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "HTM",
   "linerName": "Evergreen Marine (UK) Ltd. (Hatsu Marine)",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "EMC",
+  "address": "Evergreen House, 160 Euston road, London NW1 2DX, United Kingdom",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "GB",
-    "locationName": "",
     "address": {
-      "name": "Evergreen House, 160 Euston road, London NW1 2DX, United Kingdom",
       "street": "",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ARL",
   "linerName": "Arctic Container Line AS",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "ARL",
+  "address": "Fonnes 50, 5953 Fonnes",
   "addressLocation": {
     "UnLocode": "FNN",
     "UnCountryCode": "NO",
-    "locationName": "",
     "address": {
-      "name": "Fonnes 50, 5953 Fonnes",
       "street": "Fonnes",
       "streetNumber": "50",
       "floor": "",

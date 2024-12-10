@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SST",
   "linerName": "Sea-Shore Transportation",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Suite#713-A, 7th Floor, Chapal Plaza Hasrat Mohani Road \nKarachi, Pakistan\n",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "PK",
-    "locationName": "",
     "address": {
-      "name": "Suite#713-A, 7th Floor, Chapal Plaza Hasrat Mohani Road \nKarachi, Pakistan\n",
       "street": "",
       "streetNumber": "",
       "floor": "",

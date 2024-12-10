@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "KJC",
   "linerName": "Kuk Jae Transportation Co.",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Kuk Jae Express \n12407 E Slauson Ave # A \u0026 B\nWhittier, CA 90606, USA",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "US",
-    "locationName": "",
     "address": {
-      "name": "Kuk Jae Express \n12407 E Slauson Ave # A \u0026 B\nWhittier, CA 90606, USA",
       "street": "",
       "streetNumber": "",
       "floor": "",

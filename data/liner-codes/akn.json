@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "AKN",
   "linerName": "AKKON Lines",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "AKKON Denizcilik Nakliyat ve Ticaret A.\u015E./AKKON Maritime Transport and Trade S.A.\nK\u0131s\u0131kl\u0131 Mah. Alemda\u011F Cad. No:17/1\n\u00DCsk\u00FCdar / Istanbul, Turkey",
   "addressLocation": {
     "UnLocode": "IST",
     "UnCountryCode": "TR",
-    "locationName": "",
     "address": {
-      "name": "AKKON Denizcilik Nakliyat ve Ticaret A.\u015E./AKKON Maritime Transport and Trade S.A.\nK\u0131s\u0131kl\u0131 Mah. Alemda\u011F Cad. No:17/1\n\u00DCsk\u00FCdar / Istanbul, Turkey",
       "street": "Alemda\u011F Cad",
       "streetNumber": "417/1",
       "floor": "",

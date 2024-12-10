@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "EMC",
   "linerName": "Evergreen Marine Corporation",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "EMC",
+  "address": "No. 166, Section 2, Minsheng E Rd, Zhongshan District, Taipei City 10491, Taiwan",
   "addressLocation": {
     "UnLocode": "TPE",
     "UnCountryCode": "TW",
-    "locationName": "",
     "address": {
-      "name": "No. 166, Section 2, Minsheng E Rd, Zhongshan District, Taipei City 10491, Taiwan",
       "street": "Section 2, Minsheng E Rd",
       "streetNumber": "166",
       "floor": "",

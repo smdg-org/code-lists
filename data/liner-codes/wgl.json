@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "WGL",
   "linerName": "Welgrow Line",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "HEAD OFFICE\nWelgrow Line (India) Pvt. Ltd.\n520, Maraton Max, 5th Floor,  LBS Road\nMulund (W), Mumbai \u2013 400 080, India",
   "addressLocation": {
     "UnLocode": "BOM",
     "UnCountryCode": "IN",
-    "locationName": "",
     "address": {
-      "name": "HEAD OFFICE\nWelgrow Line (India) Pvt. Ltd.\n520, Maraton Max, 5th Floor,  LBS Road\nMulund (W), Mumbai \u2013 400 080, India",
       "street": "",
       "streetNumber": "",
       "floor": "",

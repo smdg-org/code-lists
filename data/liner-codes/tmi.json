@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "TMI",
   "linerName": "Transportes Maritimos Insulares, Lisbon",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Transportes Mar\u00EDtimos Insulares, S.A.\nEdif\u00EDcio Gon\u00E7alves Zarco\nDoca de Alc\u00E2ntara (lado Norte)\n1399-015 LISBOA\nPortugal",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "PT",
-    "locationName": "",
     "address": {
-      "name": "Transportes Mar\u00EDtimos Insulares, S.A.\nEdif\u00EDcio Gon\u00E7alves Zarco\nDoca de Alc\u00E2ntara (lado Norte)\n1399-015 LISBOA\nPortugal",
       "street": "",
       "streetNumber": "",
       "floor": "",

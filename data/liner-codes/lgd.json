@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "LGD",
   "linerName": "Legend Container Line",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "LGD",
+  "address": "531, Upper Cross Street, #03-71 Hong Lim Complex, Singapore 050531",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "531, Upper Cross Street, #03-71 Hong Lim Complex, Singapore 050531",
       "street": "Upper Cross Street",
       "streetNumber": "531",
       "floor": "",

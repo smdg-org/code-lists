@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "NLS",
   "linerName": "Neptune Lines Shipping, Liberia",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Neptune Lines Shipping \u0026 Managing Enterprises S.A.,\n5-9 Iassonos Street, GR - 18537 Piraeus, Greece",
   "addressLocation": {
     "UnLocode": "PIR",
     "UnCountryCode": "GR",
-    "locationName": "",
     "address": {
-      "name": "Neptune Lines Shipping \u0026 Managing Enterprises S.A.,\n5-9 Iassonos Street, GR - 18537 Piraeus, Greece",
       "street": "",
       "streetNumber": "",
       "floor": "",

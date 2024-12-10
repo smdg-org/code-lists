@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ALI",
   "linerName": "Alianca Navegacao Ltd., Brasil",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "MSK",
+  "address": "Alian\u00E7a Navega\u00E7\u00E3o e Log\u00EDstica Ltda.\nRua Verbo Divino, 1547\nBairro Ch\u00E1cara Santo Ant\u00F4nio",
   "addressLocation": {
     "UnLocode": "SAO",
     "UnCountryCode": "BR",
-    "locationName": "",
     "address": {
-      "name": "Alian\u00E7a Navega\u00E7\u00E3o e Log\u00EDstica Ltda.\nRua Verbo Divino, 1547\nBairro Ch\u00E1cara Santo Ant\u00F4nio",
       "street": "Rua Verbo Divino",
       "streetNumber": "1547",
       "floor": "",

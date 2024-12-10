@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "DPS",
   "linerName": "Delphis",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "CMB",
+  "address": "De Gerlachekaai 20\nBE 2000 Antwerpen, Belgium",
   "addressLocation": {
     "UnLocode": "ANR",
     "UnCountryCode": "BE",
-    "locationName": "",
     "address": {
-      "name": "De Gerlachekaai 20\nBE 2000 Antwerpen, Belgium",
       "street": "De Gerlachekaai",
       "streetNumber": "20",
       "floor": "",

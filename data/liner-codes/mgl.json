@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MGL",
   "linerName": "Monter Global",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "3791 Jalan Bukit Merah, #08-25, E Centre, Singapore 159471",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "3791 Jalan Bukit Merah, #08-25, E Centre, Singapore 159471",
       "street": "Jalan Bukit Merah",
       "streetNumber": "3791",
       "floor": "",

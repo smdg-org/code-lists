@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "APS",
   "linerName": "Alpine Shipping Pte Ltd",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "ZERVEX, 8 UBI ROAD 2 #07-01, S408538",
   "addressLocation": {
     "UnLocode": "SGN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "ZERVEX, 8 UBI ROAD 2 #07-01, S408538",
       "street": "Ubi Road",
       "streetNumber": "8",
       "floor": "",

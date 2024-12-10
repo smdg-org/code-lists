@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CSH",
   "linerName": "Containerships \u2013 CMA CGM GmbH",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "CMA",
+  "address": "Chilehaus A, Fischertwiete 2, 20095 Hamburg, Germany",
   "addressLocation": {
     "UnLocode": "HAM",
     "UnCountryCode": "DE",
-    "locationName": "",
     "address": {
-      "name": "Chilehaus A, Fischertwiete 2, 20095 Hamburg, Germany",
       "street": "Fischertwiete",
       "streetNumber": "2",
       "floor": "",

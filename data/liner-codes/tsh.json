@@ -4,17 +4,14 @@
   "linerCodeVersion": "V2",
   "linerSMDGCode": "TSH",
   "linerName": "Tailwind Shipping Lines",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": " ",
+  "address": "Tailwind Shipping Lines GmbH \u0026 Co. KG, Trostbr\u00FCcke 1, 20457 Hamburg, Germany",
   "addressLocation": {
     "UnLocode": "HAM",
     "UnCountryCode": "DE",
-    "locationName": "",
     "address": {
-      "name": "Tailwind Shipping Lines GmbH \u0026 Co. KG, Trostbr\u00FCcke 1, 20457 Hamburg, Germany",
       "street": "Trostbr\u00FCcke",
       "streetNumber": "1",
       "floor": "",

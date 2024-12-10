@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CHL",
   "linerName": "Consortium Hispania Lines SA",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Paseo de la Castellana, 141 Planta 21-B, 28046 Madrid, Spain\n",
   "addressLocation": {
     "UnLocode": "MAD",
     "UnCountryCode": "ES",
-    "locationName": "",
     "address": {
-      "name": "Paseo de la Castellana, 141 Planta 21-B, 28046 Madrid, Spain\n",
       "street": "",
       "streetNumber": "",
       "floor": "",

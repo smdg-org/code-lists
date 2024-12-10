@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "HST",
   "linerName": "Hugo Stinnes Line (Rostock)",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "MOC",
+  "address": "HUGO STINNES SCHIFFAHRT GmbH\nStrandstra\u00DFe 87\n18055 Rostock",
   "addressLocation": {
     "UnLocode": "HRO",
     "UnCountryCode": "DE",
-    "locationName": "",
     "address": {
-      "name": "HUGO STINNES SCHIFFAHRT GmbH\nStrandstra\u00DFe 87\n18055 Rostock",
       "street": "Strandstr.",
       "streetNumber": "87",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MED",
   "linerName": "MEDKON Lines, Turkey",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Ye\u015Filba\u011Flar Mah. Cafer Kuyusu Mevkii Kat : 5-6-7  Royal Marin Plaza Pendik/\u0130STANBUL / TURKEY",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "TR",
-    "locationName": "",
     "address": {
-      "name": "Ye\u015Filba\u011Flar Mah. Cafer Kuyusu Mevkii Kat : 5-6-7  Royal Marin Plaza Pendik/\u0130STANBUL / TURKEY",
       "street": "",
       "streetNumber": "",
       "floor": "",

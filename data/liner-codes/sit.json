@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SIT",
   "linerName": "SITC Container Lines Co., Ltd",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "SITC Hong Kong\nSITC Line Hong Kong",
   "addressLocation": {
     "UnLocode": "HKG",
     "UnCountryCode": "HK",
-    "locationName": "",
     "address": {
-      "name": "SITC Hong Kong\nSITC Line Hong Kong",
       "street": "",
       "streetNumber": "",
       "floor": "",

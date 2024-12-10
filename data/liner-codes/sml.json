@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SML",
   "linerName": "Seaboard Marine Ltd.",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Seaboard Marine\n8001 NW 79th Avenue, Miami, Florida, 33166, USA",
   "addressLocation": {
     "UnLocode": "MIA",
     "UnCountryCode": "US",
-    "locationName": "",
     "address": {
-      "name": "Seaboard Marine\n8001 NW 79th Avenue, Miami, Florida, 33166, USA",
       "street": "NW 79th Avenue",
       "streetNumber": "8001",
       "floor": "",

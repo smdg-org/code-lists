@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "FCS",
   "linerName": "Fred-Olsen Canary Services (FOCS)",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Edif. Fred. Olsen\nPol\u00EDgono Industrial A\u00F1aza, s/n\n38111 Santa Cruz de Tenerife\n",
   "addressLocation": {
     "UnLocode": "SCT",
     "UnCountryCode": "ES",
-    "locationName": "",
     "address": {
-      "name": "Edif. Fred. Olsen\nPol\u00EDgono Industrial A\u00F1aza, s/n\n38111 Santa Cruz de Tenerife\n",
       "street": "",
       "streetNumber": "",
       "floor": "",

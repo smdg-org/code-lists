@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "FED",
   "linerName": "Fednav",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "1000 de La Gaucheti\u00E8re Street West, Suite 3500, Montreal, Quebec  H3B 4W5, Canada\n",
   "addressLocation": {
     "UnLocode": "MTR",
     "UnCountryCode": "CA",
-    "locationName": "",
     "address": {
-      "name": "1000 de La Gaucheti\u00E8re Street West, Suite 3500, Montreal, Quebec  H3B 4W5, Canada\n",
       "street": "de La Gaucheti\u00E8re Street West",
       "streetNumber": "1000",
       "floor": "Suite 3500",

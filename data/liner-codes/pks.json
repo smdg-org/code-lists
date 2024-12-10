@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "PKS",
   "linerName": "Perkins Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Frances Bay Drive, Darwin NT 0800, Australia",
   "addressLocation": {
     "UnLocode": "DRW",
     "UnCountryCode": "AU",
-    "locationName": "",
     "address": {
-      "name": "Frances Bay Drive, Darwin NT 0800, Australia",
       "street": "Frances Bay Drive",
       "streetNumber": "",
       "floor": "",

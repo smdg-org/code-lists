@@ -4,17 +4,14 @@
   "linerCodeVersion": "V2",
   "linerSMDGCode": "WIN",
   "linerName": "WINWIN Lines Limited",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "B-801 TITANIUM HEIGHTS, NR VODAFONE HOUSE, CORPORATE ROAD, PRAHLADNAGAR, AHMEDABAD, GUJARAT, INDIA",
   "addressLocation": {
     "UnLocode": "AMD",
     "UnCountryCode": "IN",
-    "locationName": "",
     "address": {
-      "name": "B-801 TITANIUM HEIGHTS, NR VODAFONE HOUSE, CORPORATE ROAD, PRAHLADNAGAR, AHMEDABAD, GUJARAT, INDIA",
       "street": "CORPORATE ROAD",
       "streetNumber": "",
       "floor": "B-801 TITANIUM HEIGHTS",

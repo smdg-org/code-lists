@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "TAS",
   "linerName": "Trans Asian Shipping Services PTE LTD.",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "TAS",
+  "address": "HQ: Trans Asian Shipping Services Private Ltd,\nTrans Asia Corporate Park  XIV/396-C  SEAPORT AIRPORT ROAD, Chittethukara,  Cochin - 682037 \nBranch Office: Trans Asian Shipping Services PTE LTD, 60 Albert Street  08-10 OG, Albert Complex  Singapore 189969",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "HQ: Trans Asian Shipping Services Private Ltd,\nTrans Asia Corporate Park  XIV/396-C  SEAPORT AIRPORT ROAD, Chittethukara,  Cochin - 682037 \nBranch Office: Trans Asian Shipping Services PTE LTD, 60 Albert Street  08-10 OG, Albert Complex  Singapore 189969",
       "street": "",
       "streetNumber": "",
       "floor": "",

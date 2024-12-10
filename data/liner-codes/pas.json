@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "PAS",
   "linerName": "Pasha Lines, Hawaii",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Topa Financial Center, Fort Street Tower, 745 Fort Street, Suite 315, Honolulu, HI 96813-3806, USA",
   "addressLocation": {
     "UnLocode": "HNL",
     "UnCountryCode": "US",
-    "locationName": "",
     "address": {
-      "name": "Topa Financial Center, Fort Street Tower, 745 Fort Street, Suite 315, Honolulu, HI 96813-3806, USA",
       "street": "",
       "streetNumber": "",
       "floor": "",

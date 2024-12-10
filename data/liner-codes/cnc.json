@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CNC",
   "linerName": "DONGSUE Shipping Co. Ltd.",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "#72, 10FL,. 1445-3, KUKJE ELECTRONIC CENTER, SEOCHO-GU, SECHO-DONG, SEOUL, KOREA",
   "addressLocation": {
     "UnLocode": "SEL",
     "UnCountryCode": "KR",
-    "locationName": "",
     "address": {
-      "name": "#72, 10FL,. 1445-3, KUKJE ELECTRONIC CENTER, SEOCHO-GU, SECHO-DONG, SEOUL, KOREA",
       "street": "",
       "streetNumber": "",
       "floor": "KUKJE ELECTRONIC CENTER",

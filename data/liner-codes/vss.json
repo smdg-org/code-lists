@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "VSS",
   "linerName": "VASI Shipping Pte Ltd.",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "91 BENCOOLEN STREET # 10-02 SUNSHINE PLAZA\nZip Code 189652\nCity Singapore\nState \nCountry Singapore",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "91 BENCOOLEN STREET # 10-02 SUNSHINE PLAZA\nZip Code 189652\nCity Singapore\nState \nCountry Singapore",
       "street": "",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CLH",
   "linerName": "Clarion Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Clarion Shipping Services L.L.C\nP O Box 43030, Palace Tower1, Office No. 1802 and 1803, Dubai Silicon Oasis, Dubai-UAE.",
   "addressLocation": {
     "UnLocode": "DXB",
     "UnCountryCode": "AE",
-    "locationName": "",
     "address": {
-      "name": "Clarion Shipping Services L.L.C\nP O Box 43030, Palace Tower1, Office No. 1802 and 1803, Dubai Silicon Oasis, Dubai-UAE.",
       "street": "",
       "streetNumber": "",
       "floor": "Palace Tower1",

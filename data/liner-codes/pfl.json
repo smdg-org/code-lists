@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "PFL",
   "linerName": "Pacific Forum Line",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "NPD",
+  "address": "82 Richard Pearse Drive, Mangere, Auckland Airport 2022, New Zealand",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "NZ",
-    "locationName": "",
     "address": {
-      "name": "82 Richard Pearse Drive, Mangere, Auckland Airport 2022, New Zealand",
       "street": "",
       "streetNumber": "",
       "floor": "",

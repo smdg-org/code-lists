@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "TSK",
   "linerName": "Tokyo Senpaku Kaisha",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "HLC",
+  "address": "2-19-6 Yanagibashi Taito-Ku, 111-0052 Japan",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "JP",
-    "locationName": "",
     "address": {
-      "name": "2-19-6 Yanagibashi Taito-Ku, 111-0052 Japan",
       "street": "",
       "streetNumber": "",
       "floor": "",

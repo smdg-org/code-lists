@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MMC",
   "linerName": "Melfi Marine Corporation, Cuba",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Melfi Marine Corp. Main OfficeCountryCubaCityHabana ViejaAddressOficios No.410e / Luz Y Acost, Cuba\n",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "CU",
-    "locationName": "",
     "address": {
-      "name": "Melfi Marine Corp. Main OfficeCountryCubaCityHabana ViejaAddressOficios No.410e / Luz Y Acost, Cuba\n",
       "street": "",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "UFE",
   "linerName": "Unifeeder Aarhus",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "UFE",
+  "address": "C/o Unifeeder A/S, Tangen 6, 8200 Aarhus N, Denmark\n",
   "addressLocation": {
     "UnLocode": "AAR",
     "UnCountryCode": "DK",
-    "locationName": "",
     "address": {
-      "name": "C/o Unifeeder A/S, Tangen 6, 8200 Aarhus N, Denmark\n",
       "street": "Tangen",
       "streetNumber": "6",
       "floor": "",

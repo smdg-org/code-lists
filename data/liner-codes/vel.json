@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "VEL",
   "linerName": "Agencia Maritima Velmaren SA",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "\u00A0",
+  "address": "25 DE AGOSTO 18 25 OF 301, Montevideo",
   "addressLocation": {
     "UnLocode": "MVD",
     "UnCountryCode": "UY",
-    "locationName": "",
     "address": {
-      "name": "25 DE AGOSTO 18 25 OF 301, Montevideo",
       "street": "25 DE AGOSTO",
       "streetNumber": "\u00A0",
       "floor": "",

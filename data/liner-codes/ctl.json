@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CTL",
   "linerName": "Charter Link Pte Ltd",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "336 Smith Street, #05-301\nNew Bridge Centre\nSingapore 050336",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "336 Smith Street, #05-301\nNew Bridge Centre\nSingapore 050336",
       "street": "",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "WWL",
   "linerName": "Wallenius Wilhelmsen Lines AS",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Wallenius Wilhelmsen, Strandveien 20, 1364 Lysaker, Norway",
   "addressLocation": {
     "UnLocode": "LYS",
     "UnCountryCode": "NO",
-    "locationName": "",
     "address": {
-      "name": "Wallenius Wilhelmsen, Strandveien 20, 1364 Lysaker, Norway",
       "street": "Strandveien",
       "streetNumber": "20",
       "floor": "",

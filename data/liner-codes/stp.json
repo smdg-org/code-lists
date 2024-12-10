@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "STP",
   "linerName": "S\u0026T PACIFIC PTE. LTD.",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "STP",
+  "address": "16 Raffles Quay 19-03 (Hong Leong Building), Singapore 048581",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG ",
-    "locationName": "",
     "address": {
-      "name": "16 Raffles Quay 19-03 (Hong Leong Building), Singapore 048581",
       "street": "Raffles Quay ",
       "streetNumber": "16",
       "floor": "Hong Leong Building",

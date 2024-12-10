@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MYS",
   "linerName": "Malaysia Shipping Corporation",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "PIL",
+  "address": "MALAYSIAN SHIPPING CORP. SDN. BHD., A-3A-1, 4Th Floor, South Tower (Tower A), Bbt One The Towers, Lebuh Batu Nilam 1, Bandar Bukit Tinggi, 41200 Klang, Malaysia",
   "addressLocation": {
     "UnLocode": "KLA",
     "UnCountryCode": "MY",
-    "locationName": "",
     "address": {
-      "name": "MALAYSIAN SHIPPING CORP. SDN. BHD., A-3A-1, 4Th Floor, South Tower (Tower A), Bbt One The Towers, Lebuh Batu Nilam 1, Bandar Bukit Tinggi, 41200 Klang, Malaysia",
       "street": "",
       "streetNumber": "",
       "floor": "",

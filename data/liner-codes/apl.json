@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "APL",
   "linerName": "American President Line",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "CMA",
+  "address": "9 North Buona Vista Drive, #14-01 The Metropolis Tower 1, Singapore 138588, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "9 North Buona Vista Drive, #14-01 The Metropolis Tower 1, Singapore 138588, Singapore",
       "street": "North Buona Vista Drive",
       "streetNumber": "9",
       "floor": "",

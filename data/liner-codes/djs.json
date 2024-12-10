@@ -4,17 +4,14 @@
   "linerCodeVersion": "V2",
   "linerSMDGCode": "DJS",
   "linerName": "Dongjin Shipping Co, Pusan, Korea",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Head office: \n201A,Paiknam Bldg., 16Eulji-Ro, Jung-Gu, Seoul, Korea",
   "addressLocation": {
     "UnLocode": "SEL",
     "UnCountryCode": "KR",
-    "locationName": "",
     "address": {
-      "name": "Head office: \n201A,Paiknam Bldg., 16Eulji-Ro, Jung-Gu, Seoul, Korea",
       "street": "Eulji-Ro",
       "streetNumber": "16",
       "floor": "201A,Paiknam Bldg",

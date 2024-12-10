@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "NSS",
   "linerName": "NSCSA The National Shipping Company of Saudi Arabia (Bahri)",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Olaya Towers (Tower B)Floors(12-15), Olaya District, Olaya Street, P.O. Box 8931, Riyadh 11492, Saudi Arabia. Toll Free: 920020007",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "SA",
-    "locationName": "",
     "address": {
-      "name": "Olaya Towers (Tower B)Floors(12-15), Olaya District, Olaya Street, P.O. Box 8931, Riyadh 11492, Saudi Arabia. Toll Free: 920020007",
       "street": "",
       "streetNumber": "",
       "floor": "",

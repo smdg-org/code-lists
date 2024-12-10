@@ -4,17 +4,14 @@
   "linerCodeVersion": "V2",
   "linerSMDGCode": "MCC",
   "linerName": "Sealand - A Maersk Company, Asia",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "MSK",
+  "address": "Esplanaden 50, 1098 K\u00F8benhavn K, Denmark",
   "addressLocation": {
     "UnLocode": "CPH",
     "UnCountryCode": "DK",
-    "locationName": "",
     "address": {
-      "name": "Esplanaden 50, 1098 K\u00F8benhavn K, Denmark",
       "street": "Esplanaden",
       "streetNumber": "50",
       "floor": "",

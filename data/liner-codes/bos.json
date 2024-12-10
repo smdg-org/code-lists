@@ -4,17 +4,14 @@
   "linerCodeVersion": "V2",
   "linerSMDGCode": "BOS",
   "linerName": "Baltic Orient Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "BALTIC ORIENTAL LINES,\nul. Jerzego Waszyngtona 34/36\n81-306 Gdynia, Poland",
   "addressLocation": {
     "UnLocode": "GDY",
     "UnCountryCode": "PL",
-    "locationName": "",
     "address": {
-      "name": "BALTIC ORIENTAL LINES,\nul. Jerzego Waszyngtona 34/36\n81-306 Gdynia, Poland",
       "street": "ul. Jerzego Waszyngtona",
       "streetNumber": "34/36",
       "floor": "",

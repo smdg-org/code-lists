@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "AGS",
   "linerName": "AGS Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "DVINSKAYA STR 16 2,7TH FLOOR, ST.PETERSBURG, 198035",
   "addressLocation": {
     "UnLocode": "LED",
     "UnCountryCode": "RU",
-    "locationName": "",
     "address": {
-      "name": "DVINSKAYA STR 16 2,7TH FLOOR, ST.PETERSBURG, 198035",
       "street": "DVINSKAYA STR",
       "streetNumber": "162",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "AGX",
   "linerName": "Agrexco",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "The Israeli Research and Development Company Ltd. I  HEAD-OFFICEBeit Ampa, 1 Sapir St., Herzliya 4685205, Israel.",
   "addressLocation": {
     "UnLocode": "IHA",
     "UnCountryCode": "IL",
-    "locationName": "",
     "address": {
-      "name": "The Israeli Research and Development Company Ltd. I  HEAD-OFFICEBeit Ampa, 1 Sapir St., Herzliya 4685205, Israel.",
       "street": "Sapir St",
       "streetNumber": "1",
       "floor": "",

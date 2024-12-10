@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MCL",
   "linerName": "MCL Shipping Co",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Mag Container Lines\nPO Box: 29783,\nDubai, UAE",
   "addressLocation": {
     "UnLocode": "DXB",
     "UnCountryCode": "AE",
-    "locationName": "",
     "address": {
-      "name": "Mag Container Lines\nPO Box: 29783,\nDubai, UAE",
       "street": "",
       "streetNumber": "",
       "floor": "",

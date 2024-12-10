@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BGF",
   "linerName": "Bg Freight Line",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Den Hamweg 30\nP.O. Box 54022\n3008 JA Rotterdam\nThe Netherlands",
   "addressLocation": {
     "UnLocode": "RTM",
     "UnCountryCode": "NL",
-    "locationName": "",
     "address": {
-      "name": "Den Hamweg 30\nP.O. Box 54022\n3008 JA Rotterdam\nThe Netherlands",
       "street": "Den Hamweg",
       "streetNumber": "30",
       "floor": "",

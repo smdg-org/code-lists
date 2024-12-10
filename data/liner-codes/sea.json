@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SEA",
   "linerName": "Sea Connect Klaipeda, Lithuania",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": " SEA CONNECT UAB\nJ.Zauerveino 21, LT 92122\nKlaipeda, Lithuania",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "LT",
-    "locationName": "",
     "address": {
-      "name": " SEA CONNECT UAB\nJ.Zauerveino 21, LT 92122\nKlaipeda, Lithuania",
       "street": "",
       "streetNumber": "",
       "floor": "",

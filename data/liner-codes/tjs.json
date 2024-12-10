@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "TJS",
   "linerName": "Tong Joo Shipping Pte Ltd",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "100 Beach Rd, Singapore 189702",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "100 Beach Rd, Singapore 189702",
       "street": "",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MSC",
   "linerName": "Mediterranean Shipping Company",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "MSC",
+  "address": "MSC Mediterranean Shipping Company S.A., Chemin Rieu 12-14, 1208 Geneva, Switzerland",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "CH",
-    "locationName": "",
     "address": {
-      "name": "MSC Mediterranean Shipping Company S.A., Chemin Rieu 12-14, 1208 Geneva, Switzerland",
       "street": "",
       "streetNumber": "",
       "floor": "",

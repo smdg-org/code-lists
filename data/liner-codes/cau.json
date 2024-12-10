@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CAU",
   "linerName": "CSAV Austral SpA",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "HLC",
+  "address": "Santiago de Chile",
   "addressLocation": {
     "UnLocode": "SCL",
     "UnCountryCode": "CL",
-    "locationName": "",
     "address": {
-      "name": "Santiago de Chile",
       "street": "",
       "streetNumber": "",
       "floor": "",

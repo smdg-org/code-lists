@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "KOS",
   "linerName": "King Ocean Services",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "HEADQUARTERS\nKING OCEAN SERVICES, Ltd\n11000 NW 29 Street Suite 201\nDoral, FL. 33172, USA\n",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "US",
-    "locationName": "",
     "address": {
-      "name": "HEADQUARTERS\nKING OCEAN SERVICES, Ltd\n11000 NW 29 Street Suite 201\nDoral, FL. 33172, USA\n",
       "street": "",
       "streetNumber": "",
       "floor": "",

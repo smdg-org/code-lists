@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "GFS",
   "linerName": "Global Feeder Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Global Feeder Shipping LLC.,\n18th Floor, Regal Tower, Business Bay\nP.O. Box 23174,\nDubai \u2013 United Arab Emirates",
   "addressLocation": {
     "UnLocode": "DXB",
     "UnCountryCode": "AE",
-    "locationName": "",
     "address": {
-      "name": "Global Feeder Shipping LLC.,\n18th Floor, Regal Tower, Business Bay\nP.O. Box 23174,\nDubai \u2013 United Arab Emirates",
       "street": "",
       "streetNumber": "",
       "floor": "18th Floor, Regal Tower",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "RSL",
   "linerName": "RSL Shipping Pte Ltd",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "MEGASTAR SHIPPING PTE LTD",
+  "address": "SIS Building\n4 Leng Kee Road #02-06/07\nSingapore 159088",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "SIS Building\n4 Leng Kee Road #02-06/07\nSingapore 159088",
       "street": "",
       "streetNumber": "",
       "floor": "",

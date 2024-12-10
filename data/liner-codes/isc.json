@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ISC",
   "linerName": "ISCONT",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Tel Aviv\nAddress: 2 Hashlosha St. Tel-aviv\n",
   "addressLocation": {
     "UnLocode": "TLV",
     "UnCountryCode": "IL",
-    "locationName": "",
     "address": {
-      "name": "Tel Aviv\nAddress: 2 Hashlosha St. Tel-aviv\n",
       "street": "2 Hashlosha St",
       "streetNumber": "",
       "floor": "",

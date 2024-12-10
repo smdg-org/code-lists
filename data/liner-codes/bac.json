@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BAC",
   "linerName": "Bacoliner",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "CN Shipping Ltd,\nUnit 3, Lakeside Business Village,\nFleming Road,\nChafford Hundred,\nGrays,\nEssex RM16 6EW.",
   "addressLocation": {
     "UnLocode": "GYS",
     "UnCountryCode": "GB",
-    "locationName": "",
     "address": {
-      "name": "CN Shipping Ltd,\nUnit 3, Lakeside Business Village,\nFleming Road,\nChafford Hundred,\nGrays,\nEssex RM16 6EW.",
       "street": "Fleming Road",
       "streetNumber": "",
       "floor": "Unit 3, Lakeside Business Village",

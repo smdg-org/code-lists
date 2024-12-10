@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MGS",
   "linerName": "Megastar Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "4 Leng Kee Road, #02-06/07 SIS Building, Singapore 159088",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "4 Leng Kee Road, #02-06/07 SIS Building, Singapore 159088",
       "street": "Leng Kee Road",
       "streetNumber": "4",
       "floor": "",

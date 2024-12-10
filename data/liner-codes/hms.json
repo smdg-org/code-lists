@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "HMS",
   "linerName": "Holland Maas Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "WEC",
+  "address": "See WEC",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "NL",
-    "locationName": "",
     "address": {
-      "name": "See WEC",
       "street": "",
       "streetNumber": "",
       "floor": "",

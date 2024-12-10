@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "EME",
   "linerName": "EMES Feedering, Monaco",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "ARK",
+  "address": "see Arkas",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "",
-    "locationName": "",
     "address": {
-      "name": "see Arkas",
       "street": "",
       "streetNumber": "",
       "floor": "",

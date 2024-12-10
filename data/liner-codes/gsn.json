@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "GSN",
   "linerName": "GS Lines",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Rua Tom\u00E1s Ribeiro, n\u00BA 412, 1\u00BA \u2013 Apartado 2121\n4450-901 Matosinhos, Portugal\nInternational Routes \nCanary Islands, Cape Verde and Guinea-Bissau",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "PT",
-    "locationName": "",
     "address": {
-      "name": "Rua Tom\u00E1s Ribeiro, n\u00BA 412, 1\u00BA \u2013 Apartado 2121\n4450-901 Matosinhos, Portugal\nInternational Routes \nCanary Islands, Cape Verde and Guinea-Bissau",
       "street": "",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SYM",
   "linerName": "Shandong Yantai Marine Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Kuala Baram, 98100 Miri, Sarawak, Malaysia",
   "addressLocation": {
     "UnLocode": "MYY",
     "UnCountryCode": "MY",
-    "locationName": "",
     "address": {
-      "name": "Kuala Baram, 98100 Miri, Sarawak, Malaysia",
       "street": "",
       "streetNumber": "",
       "floor": "",

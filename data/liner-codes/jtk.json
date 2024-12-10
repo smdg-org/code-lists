@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "JTK",
   "linerName": "P.T. Jasatama Kemasindo",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Jl. Boulevard Kelapa Gading LA3 1\n14240 Jakarta\nJakarta - Indonesia",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "ID",
-    "locationName": "",
     "address": {
-      "name": "Jl. Boulevard Kelapa Gading LA3 1\n14240 Jakarta\nJakarta - Indonesia",
       "street": "",
       "streetNumber": "",
       "floor": "",

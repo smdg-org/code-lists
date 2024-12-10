@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BDS",
   "linerName": "Bien Dong Shipping Co, Ha Noi City",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "No1, Thuy Khue, Tay Ho, Ha Noi",
   "addressLocation": {
     "UnLocode": "HAN",
     "UnCountryCode": "VN",
-    "locationName": "",
     "address": {
-      "name": "No1, Thuy Khue, Tay Ho, Ha Noi",
       "street": "Thuy Khue",
       "streetNumber": "1",
       "floor": "",

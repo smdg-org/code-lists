@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "TRK",
   "linerName": "Turkon Line",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Altunizade Mahallesi, Ord.Prof. Dr Fahrettin Kerim G\u00F6kay Caddesi No:33, 34662, \u00DCsk\u00FCdar / \u0130stanbul, Turkey",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "TR",
-    "locationName": "",
     "address": {
-      "name": "Altunizade Mahallesi, Ord.Prof. Dr Fahrettin Kerim G\u00F6kay Caddesi No:33, 34662, \u00DCsk\u00FCdar / \u0130stanbul, Turkey",
       "street": "",
       "streetNumber": "",
       "floor": "",

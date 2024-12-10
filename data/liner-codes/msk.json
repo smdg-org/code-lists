@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MSK",
   "linerName": "Maersk",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "MSK",
+  "address": "Esplanaden 50, 1098 K\u00F8benhavn K, Denmark",
   "addressLocation": {
     "UnLocode": "CPH",
     "UnCountryCode": "DK",
-    "locationName": "",
     "address": {
-      "name": "Esplanaden 50, 1098 K\u00F8benhavn K, Denmark",
       "street": "Esplanaden",
       "streetNumber": "50",
       "floor": "",

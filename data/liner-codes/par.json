@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "PAR",
   "linerName": "Paranave, Paraguay, Asuncion",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Avda. Republica Argentina 1412\nAsunci\u00F3n, Paraguay, 1885 \u2014 P.O. BOX: 27024",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "PY",
-    "locationName": "",
     "address": {
-      "name": "Avda. Republica Argentina 1412\nAsunci\u00F3n, Paraguay, 1885 \u2014 P.O. BOX: 27024",
       "street": "",
       "streetNumber": "",
       "floor": "",

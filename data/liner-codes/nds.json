@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "NDS",
   "linerName": "Nile Dutch Africa Lines",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "HLC",
+  "address": "NileDutch, Westblaak 95, 3012 KG Rotterdam, The Netherlands\nPO Box 21032, 3001 AA Rotterdam, The Netherlands",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "NL",
-    "locationName": "",
     "address": {
-      "name": "NileDutch, Westblaak 95, 3012 KG Rotterdam, The Netherlands\nPO Box 21032, 3001 AA Rotterdam, The Netherlands",
       "street": "",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SCS",
   "linerName": "Sea Consortium",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "XPF",
+  "address": "11 Duxton Hill\nSingapore 089595",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "11 Duxton Hill\nSingapore 089595",
       "street": "",
       "streetNumber": "",
       "floor": "",

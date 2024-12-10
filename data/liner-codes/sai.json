@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SAI",
   "linerName": "Saigon Shipping Company",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "\u0110\u1ECBa ch\u1EC9 C\u00F4ng ty: S\u1ED1 9 Nguy\u1EC5n C\u00F4ng Tr\u1EE9, P.Nguy\u1EC5n Th\u00E1i B\u00ECnh, Qu\u1EADn 1, TP.HCM, Vietnam",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "VN",
-    "locationName": "",
     "address": {
-      "name": "\u0110\u1ECBa ch\u1EC9 C\u00F4ng ty: S\u1ED1 9 Nguy\u1EC5n C\u00F4ng Tr\u1EE9, P.Nguy\u1EC5n Th\u00E1i B\u00ECnh, Qu\u1EADn 1, TP.HCM, Vietnam",
       "street": "",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "IRC",
   "linerName": "I CARRY CONTAINERS PTE LTD",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "NO. 2 HAVELOCK ROAD, HAVELOCK 2 #04-04, SINGAPORE 059763",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "NO. 2 HAVELOCK ROAD, HAVELOCK 2 #04-04, SINGAPORE 059763",
       "street": "",
       "streetNumber": "",
       "floor": "",

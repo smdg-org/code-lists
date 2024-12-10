@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MIL",
   "linerName": "Milaha (Qatar Navigation QPSC)",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Qatar Navigation, Q.P.S.C.\nEast Industrial Road\nUmm Al Saneem Area\nStreet No. 523, Zone 56\nP.O. Box 153, Doha, QATAR",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "QA",
-    "locationName": "",
     "address": {
-      "name": "Qatar Navigation, Q.P.S.C.\nEast Industrial Road\nUmm Al Saneem Area\nStreet No. 523, Zone 56\nP.O. Box 153, Doha, QATAR",
       "street": "East Industrial Road",
       "streetNumber": "523",
       "floor": "",

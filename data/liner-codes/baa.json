@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BAA",
   "linerName": "Bulk Oil \u0026 Liquid Transport Pte Ltd",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "60 Paya Lebar Road, #05-38 Paya Lebar Square, Singapore 409051",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "60 Paya Lebar Road, #05-38 Paya Lebar Square, Singapore 409051",
       "street": "Paya Lebar Road",
       "streetNumber": "60",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CMN",
   "linerName": "COMANAV",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "CMA",
+  "address": "7 Boulevard Al Moukawama Ex La Resistance, Casablanca, Morocco\n",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "MA",
-    "locationName": "",
     "address": {
-      "name": "7 Boulevard Al Moukawama Ex La Resistance, Casablanca, Morocco\n",
       "street": "",
       "streetNumber": "",
       "floor": "",

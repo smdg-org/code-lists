@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ASL",
   "linerName": "A.A.SHIPPING LTD",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "65 Yigal Alon St,\nTel Aviv , Israel \n",
   "addressLocation": {
     "UnLocode": "TLV",
     "UnCountryCode": "IL",
-    "locationName": "",
     "address": {
-      "name": "65 Yigal Alon St,\nTel Aviv , Israel \n",
       "street": "Yigal Alon St",
       "streetNumber": "65",
       "floor": "",

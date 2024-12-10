@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CMC",
   "linerName": "Crowley Maritime Corp., Jacksonville, Fl.",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Crowley Maritime Corporation, 9487 Regency Square Blvd., Jacksonville, FL 32225, USA",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "US",
-    "locationName": "",
     "address": {
-      "name": "Crowley Maritime Corporation, 9487 Regency Square Blvd., Jacksonville, FL 32225, USA",
       "street": "Regency Square Blvd.",
       "streetNumber": "9487",
       "floor": "",

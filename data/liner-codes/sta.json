@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "STA",
   "linerName": "Star Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "2 Bukit Merah Central\n#04-03\nSingapore 159835",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "2 Bukit Merah Central\n#04-03\nSingapore 159835",
       "street": "",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "TSL",
   "linerName": "T. S. Lines",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "6F, No. 167, Tun-Hwa North Rd., Taipei 105, Taiwan (R.O.C.)",
   "addressLocation": {
     "UnLocode": "TPE",
     "UnCountryCode": "TW",
-    "locationName": "",
     "address": {
-      "name": "6F, No. 167, Tun-Hwa North Rd., Taipei 105, Taiwan (R.O.C.)",
       "street": "Tun-Hwa North Rd.",
       "streetNumber": "No. 167",
       "floor": "6F",

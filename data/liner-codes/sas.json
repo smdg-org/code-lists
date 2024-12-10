@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SAS",
   "linerName": "Shahaziz Shipping (SASL) Private Limited",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "SAS",
+  "address": "120 Robinson Road, #15-01, Singapore (068913)",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "120 Robinson Road, #15-01, Singapore (068913)",
       "street": "",
       "streetNumber": "",
       "floor": "",

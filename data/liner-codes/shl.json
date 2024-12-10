@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SHL",
   "linerName": "Seahawk Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Manila Office\nNo. 1 Multinational Avenue corner Kaingin Road\nMultinational Village, Paranaque City,\nPhilippines\n",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "PH",
-    "locationName": "",
     "address": {
-      "name": "Manila Office\nNo. 1 Multinational Avenue corner Kaingin Road\nMultinational Village, Paranaque City,\nPhilippines\n",
       "street": "",
       "streetNumber": "",
       "floor": "",

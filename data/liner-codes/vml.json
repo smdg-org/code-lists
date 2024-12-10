@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "VML",
   "linerName": "VM Liner Felixstowe",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "R J J House, Haven Exchange, South, Felixstowe IP11 2QE, United Kingdom",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "GB",
-    "locationName": "",
     "address": {
-      "name": "R J J House, Haven Exchange, South, Felixstowe IP11 2QE, United Kingdom",
       "street": "",
       "streetNumber": "",
       "floor": "R J J House",

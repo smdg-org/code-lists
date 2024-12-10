@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "IVT",
   "linerName": "InviCont OU",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "IVT",
+  "address": "P\u00E4rnu mnt 102-15, Tallinn, 11312, Estonia\n",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "EE",
-    "locationName": "",
     "address": {
-      "name": "P\u00E4rnu mnt 102-15, Tallinn, 11312, Estonia\n",
       "street": "",
       "streetNumber": "",
       "floor": "",

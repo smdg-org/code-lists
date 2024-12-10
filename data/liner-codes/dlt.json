@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "DLT",
   "linerName": "Delta Shipping Line",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Delta Shipping \u0026 Trading Inc. Erturk sok. No:5 34810 Kavacik - Beykoz - Istanbul ",
   "addressLocation": {
     "UnLocode": "IST",
     "UnCountryCode": "TR",
-    "locationName": "",
     "address": {
-      "name": "Delta Shipping \u0026 Trading Inc. Erturk sok. No:5 34810 Kavacik - Beykoz - Istanbul ",
       "street": "",
       "streetNumber": "",
       "floor": "",

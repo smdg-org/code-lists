@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "EGY",
   "linerName": "Egyptian Navigation Co.",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Egyptian Navigation Company S.A.E. Building 2\nEl Nasr Street\nAl Gomrok Area\nEgypt\nAlexandria\n21511",
   "addressLocation": {
     "UnLocode": "ALY",
     "UnCountryCode": "EG",
-    "locationName": "",
     "address": {
-      "name": "Egyptian Navigation Company S.A.E. Building 2\nEl Nasr Street\nAl Gomrok Area\nEgypt\nAlexandria\n21511",
       "street": "El Nasr Street",
       "streetNumber": "",
       "floor": "",

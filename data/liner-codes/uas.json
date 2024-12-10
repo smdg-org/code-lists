@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "UAS",
   "linerName": "United Arab Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Ballindamm 25, 20095 Hamburg, Germany",
   "addressLocation": {
     "UnLocode": "HAM",
     "UnCountryCode": "DE",
-    "locationName": "",
     "address": {
-      "name": "Ballindamm 25, 20095 Hamburg, Germany",
       "street": "Ballindamm",
       "streetNumber": "25",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "TNC",
   "linerName": "Transmares, Chile",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Av. El Bosque Norte 500, piso 20, Santiago, Chile",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "CL",
-    "locationName": "",
     "address": {
-      "name": "Av. El Bosque Norte 500, piso 20, Santiago, Chile",
       "street": "",
       "streetNumber": "",
       "floor": "",

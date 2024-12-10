@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "DUE",
   "linerName": "DONGBO Logistics Co. Ltd.",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "136 Mapo-daero, Mapo-gu Seoul, 121803 Korea Rep Of",
   "addressLocation": {
     "UnLocode": "SEL",
     "UnCountryCode": "KR",
-    "locationName": "",
     "address": {
-      "name": "136 Mapo-daero, Mapo-gu Seoul, 121803 Korea Rep Of",
       "street": "Mapo-daero",
       "streetNumber": "136",
       "floor": "",

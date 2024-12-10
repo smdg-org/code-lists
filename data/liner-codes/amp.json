@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "AMP",
   "linerName": "AVISA Maritime Pte.Ltd.",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Avisa Maritime Pte Ltd, 6 Raffles Quay, #14-06 Singapore 048580, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "Avisa Maritime Pte Ltd, 6 Raffles Quay, #14-06 Singapore 048580, Singapore",
       "street": "Raffles Quay ",
       "streetNumber": "6",
       "floor": "",

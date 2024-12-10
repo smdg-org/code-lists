@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "HLM",
   "linerName": "Hai Leck Marine Containers",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Hai Leck Holdings Limited\n47 Tuas View Circuit, Singapore 637357",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "Hai Leck Holdings Limited\n47 Tuas View Circuit, Singapore 637357",
       "street": "Tuas View Circuit",
       "streetNumber": "47",
       "floor": "",

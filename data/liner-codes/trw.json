@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "TRW",
   "linerName": "Transworld Feeders FZCO, Dubai",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "P.O. Box 261844, Plot No. S 20119,\nJebel Ali Free Zone (South),\nDubai, U.A.E.",
   "addressLocation": {
     "UnLocode": "SZE",
     "UnCountryCode": "AE",
-    "locationName": "",
     "address": {
-      "name": "P.O. Box 261844, Plot No. S 20119,\nJebel Ali Free Zone (South),\nDubai, U.A.E.",
       "street": "",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "OVP",
   "linerName": "OVP Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Flat/RMD38/F Boton Tech Innovation Tower\n368 Kwun Tong Road, Hong Kong",
   "addressLocation": {
     "UnLocode": "HKG",
     "UnCountryCode": "HK",
-    "locationName": "",
     "address": {
-      "name": "Flat/RMD38/F Boton Tech Innovation Tower\n368 Kwun Tong Road, Hong Kong",
       "street": "Kwun Tong Road",
       "streetNumber": "368",
       "floor": "Flat/RMD38/F Boton Tech Innovation Tower",

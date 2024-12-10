@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BSC",
   "linerName": "Bangladesh Shipping Corporation",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "BSC Bhaban, CHITTAGONG, Chittagong 4100, Bangladesh\n",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "BD",
-    "locationName": "",
     "address": {
-      "name": "BSC Bhaban, CHITTAGONG, Chittagong 4100, Bangladesh\n",
       "street": "",
       "streetNumber": "",
       "floor": "",

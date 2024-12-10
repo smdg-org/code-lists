@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "FLK",
   "linerName": "Folk Maritime",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "Folk Maritime Services Company",
+  "address": "Building No. 2217, Abdulwahid Bin Ahmad,\nAl Nakheel Dist. Riyadh 12385\nKingdom of Saudi Arabia",
   "addressLocation": {
     "UnLocode": "RUH",
     "UnCountryCode": "SA",
-    "locationName": "",
     "address": {
-      "name": "Building No. 2217, Abdulwahid Bin Ahmad,\nAl Nakheel Dist. Riyadh 12385\nKingdom of Saudi Arabia",
       "street": "Abdulwahid Bin Ahmad",
       "streetNumber": "2217",
       "floor": "",

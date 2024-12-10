@@ -4,17 +4,14 @@
   "linerCodeVersion": "V2",
   "linerSMDGCode": "SSL",
   "linerName": "Samudera Shipping Line",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "SSL",
+  "address": "6 Raffles Quay #25-01 Singapore, 048580 Singapore",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "6 Raffles Quay #25-01 Singapore, 048580 Singapore",
       "street": "Raffles Quay",
       "streetNumber": "6",
       "floor": "",

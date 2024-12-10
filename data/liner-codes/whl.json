@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "WHL",
   "linerName": "Wan Hai Lines",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "WHL",
+  "address": "10th floor, No. 136, SongJiang Rd, Zhongshan District, Taipei City 10491, Taiwan (R.O.C.)",
   "addressLocation": {
     "UnLocode": "TPE",
     "UnCountryCode": "TW",
-    "locationName": "",
     "address": {
-      "name": "10th floor, No. 136, SongJiang Rd, Zhongshan District, Taipei City 10491, Taiwan (R.O.C.)",
       "street": "SongJiang Rd",
       "streetNumber": "No. 136",
       "floor": "10th floor",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BSL",
   "linerName": "Blue Star Line",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "17/240 Queen Street,\nBrisbane, QLD, Australia 4000\n",
   "addressLocation": {
     "UnLocode": "BNE",
     "UnCountryCode": "AU",
-    "locationName": "",
     "address": {
-      "name": "17/240 Queen Street,\nBrisbane, QLD, Australia 4000\n",
       "street": "17/240 Queen Street",
       "streetNumber": "",
       "floor": "",

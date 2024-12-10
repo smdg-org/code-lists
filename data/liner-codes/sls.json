@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SLS",
   "linerName": "SILKargo Logistics (Singapore) Pte Ltd",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "SSL",
+  "address": "6 Raffles Quay #25-02. Singapore 048580",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "6 Raffles Quay #25-02. Singapore 048580",
       "street": "Raffles Quay ",
       "streetNumber": "6",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V2",
   "linerSMDGCode": "DAL",
   "linerName": "Deutsche Afrika Line",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "HLC",
+  "address": "Palmaille 45, 22767 Hamburg, Germany",
   "addressLocation": {
     "UnLocode": "HAM",
     "UnCountryCode": "DE",
-    "locationName": "",
     "address": {
-      "name": "Palmaille 45, 22767 Hamburg, Germany",
       "street": "Palmaille",
       "streetNumber": "45",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CUL",
   "linerName": "China United Lines",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Building 12, Lane 706 Wuxing Street, Pudong District, Shanghai 20120, China",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "CN",
-    "locationName": "",
     "address": {
-      "name": "Building 12, Lane 706 Wuxing Street, Pudong District, Shanghai 20120, China",
       "street": "",
       "streetNumber": "",
       "floor": "",

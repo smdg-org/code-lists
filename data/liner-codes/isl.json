@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ISL",
   "linerName": "Islamic Republic of Iran Shipping Lines",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "ISL",
+  "address": "ISLAMIC REPUBLIC OF IRAN SHIPPING LINES (IRISL)\nNo 37, ASSEMAN TOWER, SHAHID SAYYAD SHIRAZEE SQ. PASDARAN, 19395-1311 TEHRAN, Iran",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "IR",
-    "locationName": "",
     "address": {
-      "name": "ISLAMIC REPUBLIC OF IRAN SHIPPING LINES (IRISL)\nNo 37, ASSEMAN TOWER, SHAHID SAYYAD SHIRAZEE SQ. PASDARAN, 19395-1311 TEHRAN, Iran",
       "street": "",
       "streetNumber": "",
       "floor": "",

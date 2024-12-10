@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "PDZ",
   "linerName": "Perkapalan Dai Zun",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "No.1, Jalan Sungai Aur,\n42000 Port Klang,\nSelangor Darul Ehsan,\nMalaysia.",
   "addressLocation": {
     "UnLocode": "PKG",
     "UnCountryCode": "MY",
-    "locationName": "",
     "address": {
-      "name": "No.1, Jalan Sungai Aur,\n42000 Port Klang,\nSelangor Darul Ehsan,\nMalaysia.",
       "street": "Jalan Sungai Aur",
       "streetNumber": "1",
       "floor": "",

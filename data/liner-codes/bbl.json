@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BBL",
   "linerName": "Barber Wilhelmsen",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Wilh. Wilhelmsen Holding ASA\nPO Box 33 NO-1324\nLysaker, Norway\nVisiting Address\nStrandveien 20 NO-1366\nLysaker, Norway",
   "addressLocation": {
     "UnLocode": "LYS",
     "UnCountryCode": "NO",
-    "locationName": "",
     "address": {
-      "name": "Wilh. Wilhelmsen Holding ASA\nPO Box 33 NO-1324\nLysaker, Norway\nVisiting Address\nStrandveien 20 NO-1366\nLysaker, Norway",
       "street": "Strandveien",
       "streetNumber": "20",
       "floor": "",

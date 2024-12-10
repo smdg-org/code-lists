@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ADM",
   "linerName": "Admiral Container Lines Inc. Ltd.",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "4, Santa Lucia Street, VLT 1188, Valletta - MALTA",
   "addressLocation": {
     "UnLocode": "MLA",
     "UnCountryCode": "MT",
-    "locationName": "",
     "address": {
-      "name": "4, Santa Lucia Street, VLT 1188, Valletta - MALTA",
       "street": "Santa Lucia Street",
       "streetNumber": "4",
       "floor": "",

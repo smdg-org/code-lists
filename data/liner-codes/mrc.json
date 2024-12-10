@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MRC",
   "linerName": "Mercosul",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "R. Guaia\u00F3, 66 - 21\u00BA Andar - Aparecida, Santos - SP, Brazil zipcode: 11030-000",
   "addressLocation": {
     "UnLocode": "SSZ",
     "UnCountryCode": "BR",
-    "locationName": "",
     "address": {
-      "name": "R. Guaia\u00F3, 66 - 21\u00BA Andar - Aparecida, Santos - SP, Brazil zipcode: 11030-000",
       "street": "R. Guaia\u00F3",
       "streetNumber": "66",
       "floor": "",

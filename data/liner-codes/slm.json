@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SLM",
   "linerName": "Salamis Lines, Cyprus",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Salamis Lines Ltd\nAddress: Salamis House 1, G Katsounotos Str. P.O.Box 50531\n3607 Limassol, Cyprus",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "CY",
-    "locationName": "",
     "address": {
-      "name": "Salamis Lines Ltd\nAddress: Salamis House 1, G Katsounotos Str. P.O.Box 50531\n3607 Limassol, Cyprus",
       "street": "G Katsounotos Str.",
       "streetNumber": "1",
       "floor": "Salamis House",

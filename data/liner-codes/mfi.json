@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MFI",
   "linerName": "Med Feeder Italia",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Viale delle Querce 12, 84134 Salerno SA, Italy",
   "addressLocation": {
     "UnLocode": "SAL",
     "UnCountryCode": "IT",
-    "locationName": "",
     "address": {
-      "name": "Viale delle Querce 12, 84134 Salerno SA, Italy",
       "street": "Viale delle Querce",
       "streetNumber": "12",
       "floor": "",

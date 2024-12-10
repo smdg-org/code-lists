@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MLM",
   "linerName": "Mann Lines, UK",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "The Naval House, Kings Quay Street\nHarwich, Essex CO12 3JJ, United Kingdom",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "GB",
-    "locationName": "",
     "address": {
-      "name": "The Naval House, Kings Quay Street\nHarwich, Essex CO12 3JJ, United Kingdom",
       "street": "",
       "streetNumber": "",
       "floor": "",

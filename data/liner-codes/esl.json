@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ESL",
   "linerName": "Emirates Shipping Line",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "ESP",
+  "address": "Emirates Shipping Line DMCEST\nNo.2401-2404, Liwa Heights Building\nJumeirah Lake Towers, P.O.Box 122115,\nDubai, United Arab Emirates",
   "addressLocation": {
     "UnLocode": "DXB",
     "UnCountryCode": "AE",
-    "locationName": "",
     "address": {
-      "name": "Emirates Shipping Line DMCEST\nNo.2401-2404, Liwa Heights Building\nJumeirah Lake Towers, P.O.Box 122115,\nDubai, United Arab Emirates",
       "street": "",
       "streetNumber": "",
       "floor": "No.2401-2404, Liwa Heights Building, Jumeirah Lake Towers",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BAL",
   "linerName": "BAL Container Line Co.Limited",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Unit 503\n5/F,Silvercord Tower 2\n30 Canton Road, \nTsimshatsuil HK, Hong Kong",
   "addressLocation": {
     "UnLocode": "HKG",
     "UnCountryCode": "HK",
-    "locationName": "",
     "address": {
-      "name": "Unit 503\n5/F,Silvercord Tower 2\n30 Canton Road, \nTsimshatsuil HK, Hong Kong",
       "street": "Canton Road",
       "streetNumber": "30",
       "floor": "5/F,Silvercord Tower 2",

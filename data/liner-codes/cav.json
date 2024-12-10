@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CAV",
   "linerName": "Compania Sud Americana De Vapores",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Hendaya 60, Piso 10, Las Condes, Santiago de Chile, Chile",
   "addressLocation": {
     "UnLocode": "SCL",
     "UnCountryCode": "CL",
-    "locationName": "",
     "address": {
-      "name": "Hendaya 60, Piso 10, Las Condes, Santiago de Chile, Chile",
       "street": "",
       "streetNumber": "",
       "floor": "",

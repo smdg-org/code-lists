@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "IML",
   "linerName": "Intermarine",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "ZEM",
+  "address": "Ludwig-Erhard-Str. 22, 20459 Hamburg, Germany",
   "addressLocation": {
     "UnLocode": "HAM",
     "UnCountryCode": "DE",
-    "locationName": "",
     "address": {
-      "name": "Ludwig-Erhard-Str. 22, 20459 Hamburg, Germany",
       "street": "Ludwig-Erhardt-Str.",
       "streetNumber": "22",
       "floor": "",

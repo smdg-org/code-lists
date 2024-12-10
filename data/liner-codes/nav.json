@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "NAV",
   "linerName": "Navio Shipping",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "CORPORATE OFFICE\nNavio Shipping LLC\nSuite 1801, Aspin Commercial Tower,\nSheikh Zayed Road,PO Box : 122147\nDubai, United Arab Emirates.",
   "addressLocation": {
     "UnLocode": "DXB",
     "UnCountryCode": "AE",
-    "locationName": "",
     "address": {
-      "name": "CORPORATE OFFICE\nNavio Shipping LLC\nSuite 1801, Aspin Commercial Tower,\nSheikh Zayed Road,PO Box : 122147\nDubai, United Arab Emirates.",
       "street": "Sheikh Zayed Road",
       "streetNumber": "",
       "floor": "Aspin Commercial Tower, Suite 1801",

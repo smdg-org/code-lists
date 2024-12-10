@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MCM",
   "linerName": "Marfret Compagnie Maritime",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Marfret Fos managed by Marseille, 13 Quai de la joliette, 13002 Marseille, France",
   "addressLocation": {
     "UnLocode": "MRS",
     "UnCountryCode": "FR",
-    "locationName": "",
     "address": {
-      "name": "Marfret Fos managed by Marseille, 13 Quai de la joliette, 13002 Marseille, France",
       "street": "Quai de la Joliette",
       "streetNumber": "13",
       "floor": "",

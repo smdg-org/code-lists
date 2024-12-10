@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BLP",
   "linerName": "BLPL Singapore",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "BLPL SINGAPORE PTE LTD, 120 Lower Delta Road, #06-11 Cendex Centre, Singapore 169208, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "BLPL SINGAPORE PTE LTD, 120 Lower Delta Road, #06-11 Cendex Centre, Singapore 169208, Singapore",
       "street": "Lower Delta Road",
       "streetNumber": "120",
       "floor": "#06-11 Cendex Centre",

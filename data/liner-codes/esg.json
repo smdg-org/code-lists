@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ESG",
   "linerName": "Eshipping Gateway",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "1901 Block A, Horoy Center, No.5059 Tinghai Road, Nanshan District, Shenzhen",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "CN",
-    "locationName": "",
     "address": {
-      "name": "1901 Block A, Horoy Center, No.5059 Tinghai Road, Nanshan District, Shenzhen",
       "street": "Tinghai Road",
       "streetNumber": "5059",
       "floor": "",

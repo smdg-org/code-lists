@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BMC",
   "linerName": "BMC Line Shipping Egypt",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "BMC LINE SHIPPING SERVICES,\nFloor : 23rd, Suite : 2306,Churchill Executive Tower - Dubai - United Arab Emirates",
   "addressLocation": {
     "UnLocode": "DXB",
     "UnCountryCode": "AE",
-    "locationName": "",
     "address": {
-      "name": "BMC LINE SHIPPING SERVICES,\nFloor : 23rd, Suite : 2306,Churchill Executive Tower - Dubai - United Arab Emirates",
       "street": "",
       "streetNumber": "",
       "floor": "Churchill Executive Tower, Floor : 23rd, Suite : 2306",

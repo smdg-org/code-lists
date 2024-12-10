@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SKT",
   "linerName": "Sembawang Kimtrans",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "21 Jln Buroh, Singapore 619478\n",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "21 Jln Buroh, Singapore 619478\n",
       "street": "",
       "streetNumber": "",
       "floor": "",

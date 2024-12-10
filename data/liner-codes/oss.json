@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "OSS",
   "linerName": "Orient Shipping Services",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Sharaf Building,\nP.O.BOX :21886\nDubai, UAE",
   "addressLocation": {
     "UnLocode": "DXB",
     "UnCountryCode": "AE",
-    "locationName": "",
     "address": {
-      "name": "Sharaf Building,\nP.O.BOX :21886\nDubai, UAE",
       "street": "",
       "streetNumber": "",
       "floor": "",

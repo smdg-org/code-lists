@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "DBD",
   "linerName": "Turkish Cargo Lines (Deniz Nakiyata A.S.)",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Fahrettin Kerim G\u00F6kay Cad.\nDenizciler \u0130\u015F Merkezi No:18 / 1 A Blok Kat:1 34662 Altunizade - \u00DCsk\u00FCdar / \u0130STANBUL",
   "addressLocation": {
     "UnLocode": "IST",
     "UnCountryCode": "TR",
-    "locationName": "",
     "address": {
-      "name": "Fahrettin Kerim G\u00F6kay Cad.\nDenizciler \u0130\u015F Merkezi No:18 / 1 A Blok Kat:1 34662 Altunizade - \u00DCsk\u00FCdar / \u0130STANBUL",
       "street": "",
       "streetNumber": "",
       "floor": "",

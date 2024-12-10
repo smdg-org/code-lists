@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "GUA",
   "linerName": "Guaran Feeder",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Av. Gral. Jos\u00E9 Gervasio Artigas 3443, Asunci\u00F3n 001517, Paraguay",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "PY",
-    "locationName": "",
     "address": {
-      "name": "Av. Gral. Jos\u00E9 Gervasio Artigas 3443, Asunci\u00F3n 001517, Paraguay",
       "street": "",
       "streetNumber": "",
       "floor": "",

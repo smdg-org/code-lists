@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "GNC",
   "linerName": "Grimaldi Lines",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyCode": "",
   "parentCompanyName": "GNC",
+  "address": "Via Marchese Campodisola 13, 80133 Napoli NA, Italy",
   "addressLocation": {
     "UnLocode": "NAP",
     "UnCountryCode": "IT",
-    "locationName": "",
     "address": {
-      "name": "Via Marchese Campodisola 13, 80133 Napoli NA, Italy",
       "street": "Via Marchese Campodisola",
       "streetNumber": "13",
       "floor": "",

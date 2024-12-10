@@ -4,17 +4,14 @@
   "linerCodeVersion": "V2",
   "linerSMDGCode": "SLC",
   "linerName": "SM Line Corporation, Seoul",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "85, Gwangnaru-ro 56-gil, Gwangjin-gu, Seoul, Republic of Korea (05116)",
   "addressLocation": {
     "UnLocode": "SEL",
     "UnCountryCode": "KR",
-    "locationName": "",
     "address": {
-      "name": "85, Gwangnaru-ro 56-gil, Gwangjin-gu, Seoul, Republic of Korea (05116)",
       "street": "Gwangnaru-ro",
       "streetNumber": "85",
       "floor": "",

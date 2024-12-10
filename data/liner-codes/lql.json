@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "LQL",
   "linerName": "Liquid line",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Head Quarters\nSharjah Media City, Sharja, UAE\n",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "AE",
-    "locationName": "",
     "address": {
-      "name": "Head Quarters\nSharjah Media City, Sharja, UAE\n",
       "street": "",
       "streetNumber": "",
       "floor": "",

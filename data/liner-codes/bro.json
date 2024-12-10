@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BRO",
   "linerName": "Brointermed Lines",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Brointermed Lines Ltd\nQuayside Court, The Quay,\nHarwich, Essex CO12 3HH, United Kingdom",
   "addressLocation": {
     "UnLocode": "HRW",
     "UnCountryCode": "GB",
-    "locationName": "",
     "address": {
-      "name": "Brointermed Lines Ltd\nQuayside Court, The Quay,\nHarwich, Essex CO12 3HH, United Kingdom",
       "street": "Quayside Court, The Quay",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CNA",
   "linerName": "Compagnie Nationale Alg\u00E9rienne de Navigation S.p.a",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Villa 219 Parc Ben Omar, Kouba 16006, Algeria",
   "addressLocation": {
     "UnLocode": "KOB",
     "UnCountryCode": "DZ",
-    "locationName": "",
     "address": {
-      "name": "Villa 219 Parc Ben Omar, Kouba 16006, Algeria",
       "street": "Villa 219 Parc Ben Omar",
       "streetNumber": "",
       "floor": "",

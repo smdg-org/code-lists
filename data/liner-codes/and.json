@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "AND",
   "linerName": "Andes Operador Multimodal",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "HLC",
+  "address": "Av Das Nacoes Unidas, 14261, Andar 28 Conj B Parte Ala B Cond Wtorre Morumbi\nVila Gertrudes, Sao Paulo, Brazil",
   "addressLocation": {
     "UnLocode": "SAO",
     "UnCountryCode": "BR",
-    "locationName": "",
     "address": {
-      "name": "Av Das Nacoes Unidas, 14261, Andar 28 Conj B Parte Ala B Cond Wtorre Morumbi\nVila Gertrudes, Sao Paulo, Brazil",
       "street": "Av Das Nacoes Unidas",
       "streetNumber": "14261",
       "floor": "",

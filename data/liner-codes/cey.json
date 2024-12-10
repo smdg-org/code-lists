@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CEY",
   "linerName": "Ceylon Shipping Corporation",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Ceylon Shipping Corporation Ltd \nNO 27, MICH Building \nP.O.Box 1718 Fax \u002B 94 11 2449486\nSir Razik Fareed Mawatha (Bristol Street) E-mail: cscl@cscl.lk\nColombo 01 URL: www.cscl.lk\nSri Lanka.",
   "addressLocation": {
     "UnLocode": "CMB",
     "UnCountryCode": "LK",
-    "locationName": "",
     "address": {
-      "name": "Ceylon Shipping Corporation Ltd \nNO 27, MICH Building \nP.O.Box 1718 Fax \u002B 94 11 2449486\nSir Razik Fareed Mawatha (Bristol Street) E-mail: cscl@cscl.lk\nColombo 01 URL: www.cscl.lk\nSri Lanka.",
       "street": "Sir Razik Fareed Mawatha (Bristol Street)",
       "streetNumber": "",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "HYS",
   "linerName": "Hae Yang Shipping Co.",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "429-6 Myeongi 1-ro,Daesan-sup, Seosun-si, Chungcheongnem-do, South Korea\n",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "KR",
-    "locationName": "",
     "address": {
-      "name": "429-6 Myeongi 1-ro,Daesan-sup, Seosun-si, Chungcheongnem-do, South Korea\n",
       "street": "",
       "streetNumber": "",
       "floor": "",

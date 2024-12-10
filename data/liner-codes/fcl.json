@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "FCL",
   "linerName": "Federated Cargo Line Pte Ltd",
-  "carrierType": "Ocean",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "10 Anson Road, International Plaza #20-09, Singapore 079903",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "10 Anson Road, International Plaza #20-09, Singapore 079903",
       "street": "Anson Road",
       "streetNumber": "10",
       "floor": "",

@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "KWS",
   "linerName": "Kyowa Shipping Co., Tokyo",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Hibiya Building, 4th Floor, 1-1, Shimbashi 1-Chome, Minato-Ku, Tokyo 105-0004, Japan\n",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "JP",
-    "locationName": "",
     "address": {
-      "name": "Hibiya Building, 4th Floor, 1-1, Shimbashi 1-Chome, Minato-Ku, Tokyo 105-0004, Japan\n",
       "street": "Chome Shinbashi",
       "streetNumber": "1",
       "floor": "",

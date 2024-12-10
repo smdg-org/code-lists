@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "FSA",
   "linerName": "Far Shipping Agencies Pte Ltd",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "FAR SHIPPING ( SINGAPORE ) PTE. Ltd. ( H.Office )\n1 Coleman St\nSingapore, 179803\nSingapore",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "FAR SHIPPING ( SINGAPORE ) PTE. Ltd. ( H.Office )\n1 Coleman St\nSingapore, 179803\nSingapore",
       "street": "",
       "streetNumber": "",
       "floor": "",

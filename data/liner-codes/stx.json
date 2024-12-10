@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "STX",
   "linerName": "STX Pan Ocean",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": " 7, Jong-ro 5-gil, Jongno-gu, Seoul",
   "addressLocation": {
     "UnLocode": "SEL",
     "UnCountryCode": "KR",
-    "locationName": "",
     "address": {
-      "name": " 7, Jong-ro 5-gil, Jongno-gu, Seoul",
       "street": "Jong-ro 5-gil",
       "streetNumber": "7",
       "floor": "",

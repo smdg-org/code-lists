@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ACS",
   "linerName": "Atlanticargo Service",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Moscow, 18 Andropova Ave., Building 5\n",
   "addressLocation": {
     "UnLocode": "LED",
     "UnCountryCode": "RU",
-    "locationName": "",
     "address": {
-      "name": "Moscow, 18 Andropova Ave., Building 5\n",
       "street": "Andropova Ave",
       "streetNumber": "18",
       "floor": "",

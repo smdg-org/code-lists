@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MGU",
   "linerName": "Marguisa Shipping Lines, S.L.U",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Villanueva n\u00BA5, 1\u00BA, 28001 Madrid, Spain",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "ES",
-    "locationName": "",
     "address": {
-      "name": "Villanueva n\u00BA5, 1\u00BA, 28001 Madrid, Spain",
       "street": "",
       "streetNumber": "",
       "floor": "",

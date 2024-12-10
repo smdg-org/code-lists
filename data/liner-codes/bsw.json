@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BSW",
   "linerName": "Batamindo Shipping \u0026 Warehousing",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "BATAMINDO SHIPPING \u0026 WAREHOUSING PTE LTD\n(Co. Reg. No. 199002977M)\nSingapore\nOffice:\n28 Genting Lane\nPlatinum 28, #07-08\nSingapore 349585",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "BATAMINDO SHIPPING \u0026 WAREHOUSING PTE LTD\n(Co. Reg. No. 199002977M)\nSingapore\nOffice:\n28 Genting Lane\nPlatinum 28, #07-08\nSingapore 349585",
       "street": "Genting Lane\n",
       "streetNumber": "28",
       "floor": "",

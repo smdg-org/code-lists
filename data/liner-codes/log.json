@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "LOG",
   "linerName": "Log-In Logistica Intermodal S.A.",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Av. General Justo,375 - 6\u00BA andar - Centro, Rio de Janeiro, RJ, Brazil zipcode: 20021-130",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "BR",
-    "locationName": "",
     "address": {
-      "name": "Av. General Justo,375 - 6\u00BA andar - Centro, Rio de Janeiro, RJ, Brazil zipcode: 20021-130",
       "street": "Av. General Justo",
       "streetNumber": "375",
       "floor": "",

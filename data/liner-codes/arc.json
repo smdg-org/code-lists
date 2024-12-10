@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ARC",
   "linerName": "ARC Line (Sunmarine Shipping Services)",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "SUNMARINE SHIPPING SERVICES L.L.C,\nP.O.Box 25890,\nRais Hassan Saadi Building,\nAl Mankool Road, Bur Dubai,\nDubai, United Arab Emirates,",
   "addressLocation": {
     "UnLocode": "DXB",
     "UnCountryCode": "AE",
-    "locationName": "",
     "address": {
-      "name": "SUNMARINE SHIPPING SERVICES L.L.C,\nP.O.Box 25890,\nRais Hassan Saadi Building,\nAl Mankool Road, Bur Dubai,\nDubai, United Arab Emirates,",
       "street": "Al Mankool Road",
       "streetNumber": "",
       "floor": "",

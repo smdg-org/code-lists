@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "TAR",
   "linerName": "Tarros, La Spezia",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "Via Privata Enel, 19126 La Spezia SP, Italy",
   "addressLocation": {
     "UnLocode": "SPE",
     "UnCountryCode": "IT",
-    "locationName": "",
     "address": {
-      "name": "Via Privata Enel, 19126 La Spezia SP, Italy",
       "street": "Via Privata Enel",
       "streetNumber": "",
       "floor": "",

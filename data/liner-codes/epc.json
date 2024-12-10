@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "EPC",
   "linerName": "EP Carriers",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "EPS SINGAPORE HEADQUARTERS, 1 Temasek Avenue, #38-01 Millenia Tower, Singapore 039192, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "EPS SINGAPORE HEADQUARTERS, 1 Temasek Avenue, #38-01 Millenia Tower, Singapore 039192, Singapore",
       "street": "Temasek Avenue",
       "streetNumber": "1",
       "floor": "#38-01 Millenia Tower",

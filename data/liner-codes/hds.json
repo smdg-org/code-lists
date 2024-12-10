@@ -4,17 +4,14 @@
   "linerCodeVersion": "V2",
   "linerSMDGCode": "HDS",
   "linerName": "Hafiz Darya Shipping Co",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "ISL",
+  "address": "see ISL",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "",
-    "locationName": "",
     "address": {
-      "name": "see ISL",
       "street": "",
       "streetNumber": "",
       "floor": "",

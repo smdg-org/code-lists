@@ -4,17 +4,14 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BSF",
   "linerName": "Bayswater Shipping and Forwarding",
-  "carrierType": "Ocean",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyCode": "",
   "parentCompanyName": "",
+  "address": "31 Jurong Port Road, #05-10M Jurong Logistics Hub, Singapore 619115, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
-    "locationName": "",
     "address": {
-      "name": "31 Jurong Port Road, #05-10M Jurong Logistics Hub, Singapore 619115, Singapore",
       "street": "Jurong Port Road",
       "streetNumber": "31",
       "floor": " #05-10M Jurong Logistics Hub",
