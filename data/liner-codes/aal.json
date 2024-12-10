@@ -6,7 +6,7 @@
   "linerName": "Austral Asia Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "9 Temasek Boulevard\n#20-01 Suntec Tower 2\nSingapore 038989",
   "addressLocation": {
     "UnLocode": "SIN",

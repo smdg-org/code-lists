@@ -6,7 +6,7 @@
   "linerName": "Delphis",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "CMB",
+  "parentCompany": "CMB",
   "address": "De Gerlachekaai 20\nBE 2000 Antwerpen, Belgium",
   "addressLocation": {
     "UnLocode": "ANR",

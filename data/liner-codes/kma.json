@@ -6,7 +6,7 @@
   "linerName": "Coastal Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "General Manager\nCoastal Shipping Ltd\n#57 La Plaisance\nLa Romaine, San Fernando\nTrinidad West Indies",
   "addressLocation": {
     "UnLocode": "",

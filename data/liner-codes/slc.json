@@ -6,7 +6,7 @@
   "linerName": "SM Line Corporation, Seoul",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "85, Gwangnaru-ro 56-gil, Gwangjin-gu, Seoul, Republic of Korea (05116)",
   "addressLocation": {
     "UnLocode": "SEL",

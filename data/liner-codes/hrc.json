@@ -6,7 +6,7 @@
   "linerName": "HRC Shipping Limited, Dhaka",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Corporate Head Quarters\nHRC Bhaban\n46, Kawran Bazar Commercial Area,\nDhaka - 1215, Bangladesh.",
   "addressLocation": {
     "UnLocode": "",

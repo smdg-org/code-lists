@@ -6,7 +6,7 @@
   "linerName": "Tokyo Senpaku Kaisha",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "HLC",
+  "parentCompany": "HLC",
   "address": "2-19-6 Yanagibashi Taito-Ku, 111-0052 Japan",
   "addressLocation": {
     "UnLocode": "",

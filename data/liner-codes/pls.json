@@ -6,7 +6,7 @@
   "linerName": "PNS Logistics",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "",
   "addressLocation": {
     "UnLocode": "",

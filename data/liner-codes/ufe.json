@@ -6,7 +6,7 @@
   "linerName": "Unifeeder Aarhus",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "UFE",
+  "parentCompany": "UFE",
   "address": "C/o Unifeeder A/S, Tangen 6, 8200 Aarhus N, Denmark\n",
   "addressLocation": {
     "UnLocode": "AAR",

@@ -6,7 +6,7 @@
   "linerName": "Yemen Gulf Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Prince Albert House, 2 Kingsmill Terrace, London NW8 6BN, United Kingdom",
   "addressLocation": {
     "UnLocode": "",

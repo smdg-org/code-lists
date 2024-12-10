@@ -6,7 +6,7 @@
   "linerName": "Deutsche Afrika Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "HLC",
+  "parentCompany": "HLC",
   "address": "Palmaille 45, 22767 Hamburg, Germany",
   "addressLocation": {
     "UnLocode": "HAM",

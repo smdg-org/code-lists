@@ -6,7 +6,7 @@
   "linerName": "Transvoy Logistics Pte. Ltd.",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "3, Shenton Way #12-04A, Shenton House Singapore 068805",
   "addressLocation": {
     "UnLocode": "SIN",

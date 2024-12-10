@@ -6,7 +6,7 @@
   "linerName": "BMY Shipping Lines (S) PTE LTD",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "3791 Jalan Bukit Merah, #09-04 E-Centre@Redhill, Singapore 159471, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

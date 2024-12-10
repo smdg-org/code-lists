@@ -6,7 +6,7 @@
   "linerName": "Barber Wilhelmsen",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Wilh. Wilhelmsen Holding ASA\nPO Box 33 NO-1324\nLysaker, Norway\nVisiting Address\nStrandveien 20 NO-1366\nLysaker, Norway",
   "addressLocation": {
     "UnLocode": "LYS",

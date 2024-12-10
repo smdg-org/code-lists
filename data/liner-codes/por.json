@@ -6,7 +6,7 @@
   "linerName": "Portlink",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "152 Beach Road #14-04, Gateway East, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

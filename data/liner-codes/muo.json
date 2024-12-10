@@ -6,7 +6,7 @@
   "linerName": "Maritime United Operator (Madrid)",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Paseo de la Castellana, 141 Planta 21-B, 28046 Madrid, Spain",
   "addressLocation": {
     "UnLocode": "",

@@ -6,7 +6,7 @@
   "linerName": "Tarros, La Spezia",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Via Privata Enel, 19126 La Spezia SP, Italy",
   "addressLocation": {
     "UnLocode": "SPE",

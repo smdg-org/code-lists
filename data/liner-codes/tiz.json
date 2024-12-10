@@ -6,7 +6,7 @@
   "linerName": "Ti2 logistics pte ltd",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "TIZ",
+  "parentCompany": "TIZ",
   "address": "2 International Business Park, #11-06\nThe Strategy Tower 1, Singapore 609930",
   "addressLocation": {
     "UnLocode": "SIN",

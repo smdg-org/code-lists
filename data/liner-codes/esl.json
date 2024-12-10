@@ -6,7 +6,7 @@
   "linerName": "Emirates Shipping Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "ESP",
+  "parentCompany": "ESP",
   "address": "Emirates Shipping Line DMCEST\nNo.2401-2404, Liwa Heights Building\nJumeirah Lake Towers, P.O.Box 122115,\nDubai, United Arab Emirates",
   "addressLocation": {
     "UnLocode": "DXB",

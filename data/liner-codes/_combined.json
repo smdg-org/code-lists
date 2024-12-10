@@ -7,7 +7,7 @@
     "linerName": "AWATAC Singapore Pte Ltd",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "AWATAC Container  Line  ",
+    "parentCompany": "AWATAC Container  Line  ",
     "address": "105 Cecil Street, #16-01 (SUITE -1614) The Octagon, Singapore 069534, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -47,7 +47,7 @@
     "linerName": "Austral Asia Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "9 Temasek Boulevard\n#20-01 Suntec Tower 2\nSingapore 038989",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -87,7 +87,7 @@
     "linerName": "Atlantic Container Line",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "GNC",
+    "parentCompany": "GNC",
     "address": "ATLANTIC CONTAINER LINE, 50 CARDINAL DRIVE, WESTFIELD, NJ 07090, USA. Telephone \u002B1 908 518 5720",
     "addressLocation": {
       "UnLocode": "",
@@ -127,7 +127,7 @@
     "linerName": "Atlanticargo Service",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Moscow, 18 Andropova Ave., Building 5\n",
     "addressLocation": {
       "UnLocode": "LED",
@@ -167,7 +167,7 @@
     "linerName": "Admiral Container Lines Inc. Ltd.",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "4, Santa Lucia Street, VLT 1188, Valletta - MALTA",
     "addressLocation": {
       "UnLocode": "MLA",
@@ -207,7 +207,7 @@
     "linerName": "Advance Container Lines",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "ADVANCE CONTAINER LINES (PTE) LTD\n140 CECIL STREET #01-00 PIL BUILDING, SINGAPORE 069540\n\nTEL : (65) 6221 2621 FAX : (65) 6221 7780\nBOOKING HOTLINE : 6221 3222",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -247,7 +247,7 @@
     "linerName": "Africa Express Line",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "AEL",
+    "parentCompany": "AEL",
     "address": "30 Tower View, Kings Hill\nWest Malling, Kent\nME19 4UY, England",
     "addressLocation": {
       "UnLocode": "WML",
@@ -287,7 +287,7 @@
     "linerName": "AGS Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "DVINSKAYA STR 16 2,7TH FLOOR, ST.PETERSBURG, 198035",
     "addressLocation": {
       "UnLocode": "LED",
@@ -327,7 +327,7 @@
     "linerName": "Agrexco",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "The Israeli Research and Development Company Ltd. I  HEAD-OFFICEBeit Ampa, 1 Sapir St., Herzliya 4685205, Israel.",
     "addressLocation": {
       "UnLocode": "IHA",
@@ -367,7 +367,7 @@
     "linerName": "African Independent Coastal Services",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Adj. Petroleum Dennis Hse.\nCommunity 1\nTema, Ghana\n",
     "addressLocation": {
       "UnLocode": "TEM",
@@ -407,7 +407,7 @@
     "linerName": "AKKON Lines",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "AKKON Denizcilik Nakliyat ve Ticaret A.\u015E./AKKON Maritime Transport and Trade S.A.\nK\u0131s\u0131kl\u0131 Mah. Alemda\u011F Cad. No:17/1\n\u00DCsk\u00FCdar / Istanbul, Turkey",
     "addressLocation": {
       "UnLocode": "IST",
@@ -447,7 +447,7 @@
     "linerName": "Alianca Navegacao Ltd., Brasil",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "MSK",
+    "parentCompany": "MSK",
     "address": "Alian\u00E7a Navega\u00E7\u00E3o e Log\u00EDstica Ltda.\nRua Verbo Divino, 1547\nBairro Ch\u00E1cara Santo Ant\u00F4nio",
     "addressLocation": {
       "UnLocode": "SAO",
@@ -487,7 +487,7 @@
     "linerName": "AVISA Maritime Pte.Ltd.",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Avisa Maritime Pte Ltd, 6 Raffles Quay, #14-06 Singapore 048580, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -527,7 +527,7 @@
     "linerName": "Andes Operador Multimodal",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "HLC",
+    "parentCompany": "HLC",
     "address": "Av Das Nacoes Unidas, 14261, Andar 28 Conj B Parte Ala B Cond Wtorre Morumbi\nVila Gertrudes, Sao Paulo, Brazil",
     "addressLocation": {
       "UnLocode": "SAO",
@@ -567,7 +567,7 @@
     "linerName": "Australian National Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "CMA",
+    "parentCompany": "CMA",
     "address": "ANL Container Line Pty Limited / East/West network, North/South network\nLvl 11, 30 Convention Centre Place South Wharf Vic. 3006\n3006 MELBOURNE, Australia",
     "addressLocation": {
       "UnLocode": "MEL",
@@ -607,7 +607,7 @@
     "linerName": "Apollo Line",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Apollo Shipping GmbH \u0026 Co. KG, Sachsenbergstra\u00DFe 5, 21614 Buxtehude, Germany",
     "addressLocation": {
       "UnLocode": "BUX",
@@ -647,7 +647,7 @@
     "linerName": "American President Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "CMA",
+    "parentCompany": "CMA",
     "address": "9 North Buona Vista Drive, #14-01 The Metropolis Tower 1, Singapore 138588, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -687,7 +687,7 @@
     "linerName": "Alpine Shipping Pte Ltd",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "ZERVEX, 8 UBI ROAD 2 #07-01, S408538",
     "addressLocation": {
       "UnLocode": "SGN",
@@ -727,7 +727,7 @@
     "linerName": "ARC Line (Sunmarine Shipping Services)",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "SUNMARINE SHIPPING SERVICES L.L.C,\nP.O.Box 25890,\nRais Hassan Saadi Building,\nAl Mankool Road, Bur Dubai,\nDubai, United Arab Emirates,",
     "addressLocation": {
       "UnLocode": "DXB",
@@ -767,7 +767,7 @@
     "linerName": "Arkas Shipping",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "ARK",
+    "parentCompany": "ARK",
     "address": "ARKAS SHIPPING AND TRANSPORT SA\nAddress Esentepe Gazeteciler Mahallesi Matbuat Sokak n\u00B05 Sisli\nZip Code \nCity Istanbul\nState \nCountry Turkey",
     "addressLocation": {
       "UnLocode": "IST",
@@ -807,7 +807,7 @@
     "linerName": "Arctic Container Line AS",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "ARL",
+    "parentCompany": "ARL",
     "address": "Fonnes 50, 5953 Fonnes",
     "addressLocation": {
       "UnLocode": "FNN",
@@ -847,7 +847,7 @@
     "linerName": "ARPEZ",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Martin Lezica 3083,  2\u00BA Floor\nB1642GJA - San Isidro\nBuenos Aires - Argentina",
     "addressLocation": {
       "UnLocode": "SIS",
@@ -887,7 +887,7 @@
     "linerName": "A.A.SHIPPING LTD",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "65 Yigal Alon St,\nTel Aviv , Israel \n",
     "addressLocation": {
       "UnLocode": "TLV",
@@ -927,7 +927,7 @@
     "linerName": "Andrew Weir Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "AW Ship Management Ltd.\n9 Alie Street, London, E1 8DE\nUnited Kingdom",
     "addressLocation": {
       "UnLocode": "LON",
@@ -967,7 +967,7 @@
     "linerName": "Bulk Oil \u0026 Liquid Transport Pte Ltd",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "60 Paya Lebar Road, #05-38 Paya Lebar Square, Singapore 409051",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -1007,7 +1007,7 @@
     "linerName": "Bacoliner",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "CN Shipping Ltd,\nUnit 3, Lakeside Business Village,\nFleming Road,\nChafford Hundred,\nGrays,\nEssex RM16 6EW.",
     "addressLocation": {
       "UnLocode": "GYS",
@@ -1047,7 +1047,7 @@
     "linerName": "BAL Container Line Co.Limited",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Unit 503\n5/F,Silvercord Tower 2\n30 Canton Road, \nTsimshatsuil HK, Hong Kong",
     "addressLocation": {
       "UnLocode": "HKG",
@@ -1087,7 +1087,7 @@
     "linerName": "Barber Wilhelmsen",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Wilh. Wilhelmsen Holding ASA\nPO Box 33 NO-1324\nLysaker, Norway\nVisiting Address\nStrandveien 20 NO-1366\nLysaker, Norway",
     "addressLocation": {
       "UnLocode": "LYS",
@@ -1127,7 +1127,7 @@
     "linerName": "Bermuda Container Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Suite 1140, 48 Par-La-Ville  Road, Hamilton HM 11, Bermuda",
     "addressLocation": {
       "UnLocode": "BDA",
@@ -1167,7 +1167,7 @@
     "linerName": "Bien Dong Shipping Co, Ha Noi City",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "No1, Thuy Khue, Tay Ho, Ha Noi",
     "addressLocation": {
       "UnLocode": "HAN",
@@ -1207,7 +1207,7 @@
     "linerName": "Ben Line Containers",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "200 Cantonment Road, #13-05 Southpoint, Singapore 089763, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -1247,7 +1247,7 @@
     "linerName": "Baja Ferries Sapi De C.V.",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "n/a",
+    "parentCompany": "n/a",
     "address": "IGNACIO ALLENDE 1025, COLONIA CENTRO, C.P. 23000  LA PAZ, BAJA CALIFORNIA SUR, MEXICO.",
     "addressLocation": {
       "UnLocode": "LAP",
@@ -1287,7 +1287,7 @@
     "linerName": "Bg Freight Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Den Hamweg 30\nP.O. Box 54022\n3008 JA Rotterdam\nThe Netherlands",
     "addressLocation": {
       "UnLocode": "RTM",
@@ -1327,7 +1327,7 @@
     "linerName": "BLPL Singapore",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "BLPL SINGAPORE PTE LTD, 120 Lower Delta Road, #06-11 Cendex Centre, Singapore 169208, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -1367,7 +1367,7 @@
     "linerName": "BMC Line Shipping Egypt",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "BMC LINE SHIPPING SERVICES,\nFloor : 23rd, Suite : 2306,Churchill Executive Tower - Dubai - United Arab Emirates",
     "addressLocation": {
       "UnLocode": "DXB",
@@ -1407,7 +1407,7 @@
     "linerName": "Bintang Mas Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Bintang Mas Shipping Pte. Ltd.\n2 Boon Leat Terrace,\n#08-02 HarbourSide Building 2,\nSingapore 119844",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -1447,7 +1447,7 @@
     "linerName": "BMY Shipping Lines (S) PTE LTD",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "3791 Jalan Bukit Merah, #09-04 E-Centre@Redhill, Singapore 159471, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -1487,7 +1487,7 @@
     "linerName": "Bonyad Marine Services",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "No.38, 6th AVE., Gandhi AVE., P.O.Box : 158753794 Tehran 15177, Iran",
     "addressLocation": {
       "UnLocode": "THR",
@@ -1527,7 +1527,7 @@
     "linerName": "Borchard",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "10 Chiswell Street, London EC1Y 4XY, United Kingdom",
     "addressLocation": {
       "UnLocode": "LON",
@@ -1567,7 +1567,7 @@
     "linerName": "Baltic Orient Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "BALTIC ORIENTAL LINES,\nul. Jerzego Waszyngtona 34/36\n81-306 Gdynia, Poland",
     "addressLocation": {
       "UnLocode": "GDY",
@@ -1617,7 +1617,7 @@
     "linerName": "Brointermed Lines",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Brointermed Lines Ltd\nQuayside Court, The Quay,\nHarwich, Essex CO12 3HH, United Kingdom",
     "addressLocation": {
       "UnLocode": "HRW",
@@ -1657,7 +1657,7 @@
     "linerName": "BSA Transportation",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "BSA Logistics Head Office\nJl. Raya Cakung Cilincing Km 3\nJakarta 13910, Indonesia.",
     "addressLocation": {
       "UnLocode": "JKT",
@@ -1697,7 +1697,7 @@
     "linerName": "Bangladesh Shipping Corporation",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "BSC Bhaban, CHITTAGONG, Chittagong 4100, Bangladesh\n",
     "addressLocation": {
       "UnLocode": "",
@@ -1737,7 +1737,7 @@
     "linerName": "Bayswater Shipping and Forwarding",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "31 Jurong Port Road, #05-10M Jurong Logistics Hub, Singapore 619115, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -1777,7 +1777,7 @@
     "linerName": "Blue Star Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "17/240 Queen Street,\nBrisbane, QLD, Australia 4000\n",
     "addressLocation": {
       "UnLocode": "BNE",
@@ -1817,7 +1817,7 @@
     "linerName": "Batamindo Shipping \u0026 Warehousing",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "BATAMINDO SHIPPING \u0026 WAREHOUSING PTE LTD\n(Co. Reg. No. 199002977M)\nSingapore\nOffice:\n28 Genting Lane\nPlatinum 28, #07-08\nSingapore 349585",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -1857,7 +1857,7 @@
     "linerName": "Bengal Tiger Line Singapore",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Bengal Tiger Line Pte Ltd, 200 Cantonment Road, #13-01 Southpoint,\nSingapore 089763, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -1897,7 +1897,7 @@
     "linerName": "Bulcon",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Main Office - Varna, Bulgaria\nNavibulgar House,\n1, Primorski Boulevard,\n9000 Varna, Bulgaria\ntel.: \u002B359 52 633 100\nfax: \u002B359 52 633 033",
     "addressLocation": {
       "UnLocode": "",
@@ -1937,7 +1937,7 @@
     "linerName": "Bon Voyage Container Trans Lines Pte Ltd",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "8B ADMIRALTY STREET, #02-03, 8B@ADMIRALTY, SINGAPORE 757440",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -1977,7 +1977,7 @@
     "linerName": "Caucedo Services Inc.",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Level 1 Palm Grove House, Wickhams Cay 1, Road Town, Tortola, British Virgin Islands",
     "addressLocation": {
       "UnLocode": "RAD",
@@ -2017,7 +2017,7 @@
     "linerName": "CSAV Austral SpA",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "HLC",
+    "parentCompany": "HLC",
     "address": "Santiago de Chile",
     "addressLocation": {
       "UnLocode": "SCL",
@@ -2057,7 +2057,7 @@
     "linerName": "Compania Sud Americana De Vapores",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Hendaya 60, Piso 10, Las Condes, Santiago de Chile, Chile",
     "addressLocation": {
       "UnLocode": "SCL",
@@ -2097,7 +2097,7 @@
     "linerName": "Cordelia Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "134 Archiepiskopou Makariou Avenue, Yiota Court, Apt. 102, 3021 Limassol, CYPRUS",
     "addressLocation": {
       "UnLocode": "LMS",
@@ -2137,7 +2137,7 @@
     "linerName": "Co Chilena De Naveg. Interoceania S.A.",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "MSK",
+    "parentCompany": "MSK",
     "address": "",
     "addressLocation": {
       "UnLocode": "",
@@ -2177,7 +2177,7 @@
     "linerName": "Chief Container Services",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Lvl 3 8 Spring St, Sydney NSW 2000\n",
     "addressLocation": {
       "UnLocode": "SYD",
@@ -2217,7 +2217,7 @@
     "linerName": "Crosseast Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Office #803, 8th Floor, MM Tower, Maktoum Road, Near Emirates Concorde Hotel Deira, Dubai, UAE",
     "addressLocation": {
       "UnLocode": "DXB",
@@ -2257,7 +2257,7 @@
     "linerName": "Ceylon Shipping Corporation",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Ceylon Shipping Corporation Ltd \nNO 27, MICH Building \nP.O.Box 1718 Fax \u002B 94 11 2449486\nSir Razik Fareed Mawatha (Bristol Street) E-mail: cscl@cscl.lk\nColombo 01 URL: www.cscl.lk\nSri Lanka.",
     "addressLocation": {
       "UnLocode": "CMB",
@@ -2297,7 +2297,7 @@
     "linerName": "Caribbean Feeder Service Ltd., Kingston",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Caribbean Feeder Service\n4765 SW 148th Ave, Suite 503\nDavie, FL 33330, USA",
     "addressLocation": {
       "UnLocode": "DVF",
@@ -2337,7 +2337,7 @@
     "linerName": "Consortium Hispania Lines SA",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Paseo de la Castellana, 141 Planta 21-B, 28046 Madrid, Spain\n",
     "addressLocation": {
       "UnLocode": "MAD",
@@ -2377,7 +2377,7 @@
     "linerName": "CK LINE CO LTD",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "EULJIRO-80-1, BOSEUNG BUILDING 7TH FLOOR, 80-1, EULJI-RO, JUNG-GU, SEOUL, REPUBLIC OF KOREA 04538",
     "addressLocation": {
       "UnLocode": "SEL",
@@ -2417,7 +2417,7 @@
     "linerName": "Clarion Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Clarion Shipping Services L.L.C\nP O Box 43030, Palace Tower1, Office No. 1802 and 1803, Dubai Silicon Oasis, Dubai-UAE.",
     "addressLocation": {
       "UnLocode": "DXB",
@@ -2457,7 +2457,7 @@
     "linerName": "Cheng Lie Navigation Co., Ltd.",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "CMA",
+    "parentCompany": "CMA",
     "address": "CNC Head Office\n9 North Buona Vista Drive\n#14-01 The Metropolis Tower 1\nSingapore ",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -2497,7 +2497,7 @@
     "linerName": "CMA CGM",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "CMA",
+    "parentCompany": "CMA",
     "address": "Boulevard Jacques Saad\u00E9, 4 Quai d\u0027Arenc 13235 Marseille cedex 02 France",
     "addressLocation": {
       "UnLocode": "MRS",
@@ -2537,7 +2537,7 @@
     "linerName": "Company Maritim Belgique",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "CMB",
+    "parentCompany": "CMB",
     "address": "De Gerlachekaai 20, 2000 Antwerpen, Belgium",
     "addressLocation": {
       "UnLocode": "ANR",
@@ -2577,7 +2577,7 @@
     "linerName": "Crowley Maritime Corp., Jacksonville, Fl.",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Crowley Maritime Corporation, 9487 Regency Square Blvd., Jacksonville, FL 32225, USA",
     "addressLocation": {
       "UnLocode": "",
@@ -2617,7 +2617,7 @@
     "linerName": "COMANAV",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "CMA",
+    "parentCompany": "CMA",
     "address": "7 Boulevard Al Moukawama Ex La Resistance, Casablanca, Morocco\n",
     "addressLocation": {
       "UnLocode": "",
@@ -2657,7 +2657,7 @@
     "linerName": "Compagnie Nationale Alg\u00E9rienne de Navigation S.p.a",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Villa 219 Parc Ben Omar, Kouba 16006, Algeria",
     "addressLocation": {
       "UnLocode": "KOB",
@@ -2697,7 +2697,7 @@
     "linerName": "DONGSUE Shipping Co. Ltd.",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "#72, 10FL,. 1445-3, KUKJE ELECTRONIC CENTER, SEOCHO-GU, SECHO-DONG, SEOUL, KOREA",
     "addressLocation": {
       "UnLocode": "SEL",
@@ -2737,7 +2737,7 @@
     "linerName": "Consorcio Naviero Peruano",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Company Name : Consorcio Naviero Peruano S.A.\nRUC : 20100120403\nAv. Republica de Colombia 643 7\u00B0 y 8\u00B0 Piso \u2013 San Isidro (Lima 27), Peru",
     "addressLocation": {
       "UnLocode": "",
@@ -2777,7 +2777,7 @@
     "linerName": "COSCO SHIPPING Lines (Europe) GmbH",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "COS",
+    "parentCompany": "COS",
     "address": "Logistics Service, Am Sandtorkai 60, 20457 Hamburg, Germany",
     "addressLocation": {
       "UnLocode": "HAM",
@@ -2817,7 +2817,7 @@
     "linerName": "Contcharters",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "CON",
+    "parentCompany": "CON",
     "address": "Ajeltake Road, Ajeltake Island, Majure MH96960, Marshall Islands",
     "addressLocation": {
       "UnLocode": "",
@@ -2857,7 +2857,7 @@
     "linerName": "Cool Carriers",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Cool Carriers AB, Barnhusgatan 16, 111 23 Stockholm, Sweden",
     "addressLocation": {
       "UnLocode": "STO",
@@ -2897,7 +2897,7 @@
     "linerName": "COSCO SHIPPING Lines Co. Ltd",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "COS",
+    "parentCompany": "COS",
     "address": "5299 Binjiang Dadao, Pudong New District, Shanghai, China\n    Postal Code: 200127\n",
     "addressLocation": {
       "UnLocode": "",
@@ -2937,7 +2937,7 @@
     "linerName": "COSCO South East Asia Pte. Ltd.",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "COS",
+    "parentCompany": "COS",
     "address": "Logistics Service, Am Sandtorkai 60, 20457 Hamburg, Germany",
     "addressLocation": {
       "UnLocode": "HAM",
@@ -2977,7 +2977,7 @@
     "linerName": "Cathay Shipping \u0026 Freight Services",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "CATHAY SHIPPING \u0026 FREIGHT SERVICES PTE LTD\nBlock 211 Henderson Road, #05-02, Henderson Industrial Park, Singapore 159552\n",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -3017,7 +3017,7 @@
     "linerName": "Containerships \u2013 CMA CGM GmbH",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "CMA",
+    "parentCompany": "CMA",
     "address": "Chilehaus A, Fischertwiete 2, 20095 Hamburg, Germany",
     "addressLocation": {
       "UnLocode": "HAM",
@@ -3057,7 +3057,7 @@
     "linerName": "Cosiarma, Costa Rica",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Via Operai 20, 16149 Genova GE, Italy",
     "addressLocation": {
       "UnLocode": "GOA",
@@ -3097,7 +3097,7 @@
     "linerName": "Canada States Africa Line, Montreal",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "CSAL Montreal, 478 McGill Street, Montreal, Quebec H2Y 2H2, Canada",
     "addressLocation": {
       "UnLocode": "MTR",
@@ -3137,7 +3137,7 @@
     "linerName": "Charter Link Pte Ltd",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "336 Smith Street, #05-301\nNew Bridge Centre\nSingapore 050336",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -3177,7 +3177,7 @@
     "linerName": "China United Lines",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Building 12, Lane 706 Wuxing Street, Pudong District, Shanghai 20120, China",
     "addressLocation": {
       "UnLocode": "",
@@ -3217,7 +3217,7 @@
     "linerName": "PT Cumawis Jakarta",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "SSL",
+    "parentCompany": "SSL",
     "address": "c/o PT Samudera Shipping Servi, 1st Floor, Samudera Indonesia Building, Jalan Letjen S Parman 35, Kel Palmerah, Jakarta 11480, Indonesia",
     "addressLocation": {
       "UnLocode": "",
@@ -3257,7 +3257,7 @@
     "linerName": "DahNAY Lines PTE LTD",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "DAH",
+    "parentCompany": "DAH",
     "address": "No 111, NORTH BRIDGE ROAD, #08 - 04 PENINSULA PLAZA, SINGAPORE - 179098",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -3297,7 +3297,7 @@
     "linerName": "Deutsche Afrika Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "HLC",
+    "parentCompany": "HLC",
     "address": "Palmaille 45, 22767 Hamburg, Germany",
     "addressLocation": {
       "UnLocode": "HAM",
@@ -3347,7 +3347,7 @@
     "linerName": "Turkish Cargo Lines (Deniz Nakiyata A.S.)",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Fahrettin Kerim G\u00F6kay Cad.\nDenizciler \u0130\u015F Merkezi No:18 / 1 A Blok Kat:1 34662 Altunizade - \u00DCsk\u00FCdar / \u0130STANBUL",
     "addressLocation": {
       "UnLocode": "IST",
@@ -3387,7 +3387,7 @@
     "linerName": "PT Jakarta Lloyd",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "PT Djakarta LLoyd (Persero)\nDlloyd Building,\nJl Raden Saleh Raya No. 51,\nJakarta Pusat 10330, Indonesia",
     "addressLocation": {
       "UnLocode": "JKT",
@@ -3427,7 +3427,7 @@
     "linerName": "Dongjin Shipping Co, Pusan, Korea",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Head office: \n201A,Paiknam Bldg., 16Eulji-Ro, Jung-Gu, Seoul, Korea",
     "addressLocation": {
       "UnLocode": "SEL",
@@ -3477,7 +3477,7 @@
     "linerName": "Delta Shipping Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Delta Shipping \u0026 Trading Inc. Erturk sok. No:5 34810 Kavacik - Beykoz - Istanbul ",
     "addressLocation": {
       "UnLocode": "IST",
@@ -3517,7 +3517,7 @@
     "linerName": "Delphis",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "CMB",
+    "parentCompany": "CMB",
     "address": "De Gerlachekaai 20\nBE 2000 Antwerpen, Belgium",
     "addressLocation": {
       "UnLocode": "ANR",
@@ -3557,7 +3557,7 @@
     "linerName": "DONGBO Logistics Co. Ltd.",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "136 Mapo-daero, Mapo-gu Seoul, 121803 Korea Rep Of",
     "addressLocation": {
       "UnLocode": "SEL",
@@ -3597,7 +3597,7 @@
     "linerName": "Ellerman City Liner",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Upminster Court\n133 Hall Lane\nEssex\nRM14 1AL",
     "addressLocation": {
       "UnLocode": "UPM",
@@ -3637,7 +3637,7 @@
     "linerName": "Euro Container Lines",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "see Samskip",
     "addressLocation": {
       "UnLocode": "",
@@ -3677,7 +3677,7 @@
     "linerName": "Econship Marine Pte Ltd",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "81, Anson Road Level 8, Suite 8-25\nM Hotel Singapore Singapore 079908",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -3717,7 +3717,7 @@
     "linerName": "Evergreen Marine Hong Kong",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "EMC",
+    "parentCompany": "EMC",
     "address": "Harcourt House 22-23 Floor, 39 Gloucester Road, Wan Chai, Hong Kong.",
     "addressLocation": {
       "UnLocode": "HKG",
@@ -3757,7 +3757,7 @@
     "linerName": "Egyptian Navigation Co.",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Egyptian Navigation Company S.A.E. Building 2\nEl Nasr Street\nAl Gomrok Area\nEgypt\nAlexandria\n21511",
     "addressLocation": {
       "UnLocode": "ALY",
@@ -3797,7 +3797,7 @@
     "linerName": "Eimskip",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Eimskip Iceland\nKorngardar 2\n104 Reykjavik, Iceland\nTel: \u002B354 525-7000",
     "addressLocation": {
       "UnLocode": "REY",
@@ -3837,7 +3837,7 @@
     "linerName": "Eng Lee Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Eng Lee Shipping Co. Pte Ltd, 2 Havelock Road, #05-07 Havelock II, Singapore 059763, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -3877,7 +3877,7 @@
     "linerName": "Evergreen Marine (Asia) Pte. Ltd.",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "EMC",
+    "parentCompany": "EMC",
     "address": "200 Cantonment Road, #12-01 Southpoint, Singapore 089763, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -3917,7 +3917,7 @@
     "linerName": "Evergreen Marine Corporation",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "EMC",
+    "parentCompany": "EMC",
     "address": "No. 166, Section 2, Minsheng E Rd, Zhongshan District, Taipei City 10491, Taiwan",
     "addressLocation": {
       "UnLocode": "TPE",
@@ -3957,7 +3957,7 @@
     "linerName": "EMES Feedering, Monaco",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "ARK",
+    "parentCompany": "ARK",
     "address": "see Arkas",
     "addressLocation": {
       "UnLocode": "",
@@ -3997,7 +3997,7 @@
     "linerName": "Evergreen Marine (Singapore) Pte Ltd",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "EMC",
+    "parentCompany": "EMC",
     "address": "200 Cantonment Road, #12-01 Southpoint, Singapore 089763, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -4037,7 +4037,7 @@
     "linerName": "EP Carriers",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "EPS SINGAPORE HEADQUARTERS, 1 Temasek Avenue, #38-01 Millenia Tower, Singapore 039192, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -4077,7 +4077,7 @@
     "linerName": "Eshipping Gateway",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "1901 Block A, Horoy Center, No.5059 Tinghai Road, Nanshan District, Shenzhen",
     "addressLocation": {
       "UnLocode": "",
@@ -4117,7 +4117,7 @@
     "linerName": "Emirates Shipping Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "ESP",
+    "parentCompany": "ESP",
     "address": "Emirates Shipping Line DMCEST\nNo.2401-2404, Liwa Heights Building\nJumeirah Lake Towers, P.O.Box 122115,\nDubai, United Arab Emirates",
     "addressLocation": {
       "UnLocode": "DXB",
@@ -4157,7 +4157,7 @@
     "linerName": "Eastrans Lines (S) Pte Ltd",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "ETL",
+    "parentCompany": "ETL",
     "address": "100D Pasir Panjang Road #02-01 Singapore 118520",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -4197,7 +4197,7 @@
     "linerName": "Eucon",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Eucon Dublin\nBreakwater Road South\nFerryport, Dublin 1\nIreland\n",
     "addressLocation": {
       "UnLocode": "DUB",
@@ -4237,7 +4237,7 @@
     "linerName": "Federated Cargo Line Pte Ltd",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "10 Anson Road, International Plaza #20-09, Singapore 079903",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -4277,7 +4277,7 @@
     "linerName": "Fred-Olsen Canary Services (FOCS)",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Edif. Fred. Olsen\nPol\u00EDgono Industrial A\u00F1aza, s/n\n38111 Santa Cruz de Tenerife\n",
     "addressLocation": {
       "UnLocode": "SCT",
@@ -4317,7 +4317,7 @@
     "linerName": "Fednav",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "1000 de La Gaucheti\u00E8re Street West, Suite 3500, Montreal, Quebec  H3B 4W5, Canada\n",
     "addressLocation": {
       "UnLocode": "MTR",
@@ -4357,7 +4357,7 @@
     "linerName": "FESCO Lines Vladivostok Ltd",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "15 Aleutskaya Street, Vladivostok, 690090, Russian Federation",
     "addressLocation": {
       "UnLocode": "VVO",
@@ -4397,7 +4397,7 @@
     "linerName": "Finnlines",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "GNC",
+    "parentCompany": "GNC",
     "address": "Finnlines Plc, FinnLink Naantali\nSatamatie 11, 21100 Naantali, Finland",
     "addressLocation": {
       "UnLocode": "NLI",
@@ -4437,7 +4437,7 @@
     "linerName": "Folk Maritime",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "Folk Maritime Services Company",
+    "parentCompany": "Folk Maritime Services Company",
     "address": "Building No. 2217, Abdulwahid Bin Ahmad,\nAl Nakheel Dist. Riyadh 12385\nKingdom of Saudi Arabia",
     "addressLocation": {
       "UnLocode": "RUH",
@@ -4477,7 +4477,7 @@
     "linerName": "FMT International Shipping PTE LTD",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "200 Cantonment Road, #06-05 Southpoint, Singapore 089763, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -4517,7 +4517,7 @@
     "linerName": "Far Shipping Agencies Pte Ltd",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "FAR SHIPPING ( SINGAPORE ) PTE. Ltd. ( H.Office )\n1 Coleman St\nSingapore, 179803\nSingapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -4557,7 +4557,7 @@
     "linerName": "Foong Sun Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "FOONG SUN SHIPPING (PTE) LTD\nBlock 211 Henderson Road\n#03-03 Henderson Industrial Park\nSingapore 159552",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -4597,7 +4597,7 @@
     "linerName": "Feedertech",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "UFE",
+    "parentCompany": "UFE",
     "address": "3 Temasek Avenue,\n#15-01, Centennial Tower,\nSingapore 039190\n",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -4637,7 +4637,7 @@
     "linerName": "Geniki Lines Singapore",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "33 UBI AVENUE 3\n#07-36\nVERTEX\nSINGAPORE (408868)",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -4677,7 +4677,7 @@
     "linerName": "Golden Eagle Maritime",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "5001 Beach Rd, Golden Mile Complex, Singapore 199589",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -4717,7 +4717,7 @@
     "linerName": "Global Feeder Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Global Feeder Shipping LLC.,\n18th Floor, Regal Tower, Business Bay\nP.O. Box 23174,\nDubai \u2013 United Arab Emirates",
     "addressLocation": {
       "UnLocode": "DXB",
@@ -4757,7 +4757,7 @@
     "linerName": "Gemadept Singapore",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Gemadept Corporation, 21st Floor, 6 Le Thanh Ton St., Ben Nghe Ward, Dist.1., Ho Chi Minh City, Vietnam",
     "addressLocation": {
       "UnLocode": "",
@@ -4797,7 +4797,7 @@
     "linerName": "Grimaldi Lines",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "GNC",
+    "parentCompany": "GNC",
     "address": "Via Marchese Campodisola 13, 80133 Napoli NA, Italy",
     "addressLocation": {
       "UnLocode": "NAP",
@@ -4837,7 +4837,7 @@
     "linerName": "Gold Star Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "ZIM",
+    "parentCompany": "ZIM",
     "address": "5/F Pioneer Place 33 Hoi Yuen Road Kwuntong\nZip Code 865C\u002BPW\nCity Kowloon, Hong Kong",
     "addressLocation": {
       "UnLocode": "HKG",
@@ -4877,7 +4877,7 @@
     "linerName": "GS Lines",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Rua Tom\u00E1s Ribeiro, n\u00BA 412, 1\u00BA \u2013 Apartado 2121\n4450-901 Matosinhos, Portugal\nInternational Routes \nCanary Islands, Cape Verde and Guinea-Bissau",
     "addressLocation": {
       "UnLocode": "",
@@ -4917,7 +4917,7 @@
     "linerName": "G2 Ocean AS",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "Grieg Star \u0026 Gearbulk",
+    "parentCompany": "Grieg Star \u0026 Gearbulk",
     "address": "C. Sundtsgt 17, 5004 Bergen, Norway",
     "addressLocation": {
       "UnLocode": "BGO",
@@ -4957,7 +4957,7 @@
     "linerName": "Guaran Feeder",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Av. Gral. Jos\u00E9 Gervasio Artigas 3443, Asunci\u00F3n 001517, Paraguay",
     "addressLocation": {
       "UnLocode": "",
@@ -4997,7 +4997,7 @@
     "linerName": "Great White Fleet / Chiquita Bananas",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "CBF",
+    "parentCompany": "CBF",
     "address": "Great White Fleet Liner Services Ltd., 1855 Griffin Rd, Suite C-436, Dania Beach, FL 33004, USA",
     "addressLocation": {
       "UnLocode": "",
@@ -5037,7 +5037,7 @@
     "linerName": "Hafiz Darya Shipping Co",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "ISL",
+    "parentCompany": "ISL",
     "address": "see ISL",
     "addressLocation": {
       "UnLocode": "",
@@ -5087,7 +5087,7 @@
     "linerName": "Heung-A Shipping",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "3/F Haenam 2 Bldg. 12 Sejong-daero 12-gil, Jung-gu Seoul, Seoul, 04526 Republic Of Korea",
     "addressLocation": {
       "UnLocode": "SEL",
@@ -5137,7 +5137,7 @@
     "linerName": "HEDE (Hongkong) International Shipping Limited",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "BEN",
+    "parentCompany": "BEN",
     "address": "Harbor Development Zone, Tangshan City, Hebei Province | Phone\uFF1A\u002B86-315-2927508",
     "addressLocation": {
       "UnLocode": "",
@@ -5177,7 +5177,7 @@
     "linerName": "Head International Logistics Co., Ltd.",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Shenzhen Unifelix International Logistics Co.,Ltd\nAdd\uFF1ARoom1305,Cun jin building,No,3005 Dongmen South Road Luohu Districten,Shenzhen Guangdong, China\n",
     "addressLocation": {
       "UnLocode": "",
@@ -5217,7 +5217,7 @@
     "linerName": "OY Hacklin Seatrans Ltd.",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "M\u00E4ntyluoto (Port of Pori) M\u00E4ntyluoto, FI-28880 Pori, Finland",
     "addressLocation": {
       "UnLocode": "",
@@ -5257,7 +5257,7 @@
     "linerName": "Hapag-Lloyd",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "HLC",
+    "parentCompany": "HLC",
     "address": "Ballindamm 25, 20095 Hamburg, Germany",
     "addressLocation": {
       "UnLocode": "HAM",
@@ -5297,7 +5297,7 @@
     "linerName": "Hai Leck Marine Containers",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Hai Leck Holdings Limited\n47 Tuas View Circuit, Singapore 637357",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -5337,7 +5337,7 @@
     "linerName": "Hub Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Wisma Hubline,\nLease No.3815 (Lot 10914), Section 64, KTLD\nJln Datuk Abang Abdul Rahim, 93450 Kuching, Sarawak, Malaysia.",
     "addressLocation": {
       "UnLocode": "KCH",
@@ -5377,7 +5377,7 @@
     "linerName": "HMM (Hyundai Merchant Marine)",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "194, YULGOK-RO, SEOUL 03127, KOREA ",
     "addressLocation": {
       "UnLocode": "SEL",
@@ -5417,7 +5417,7 @@
     "linerName": "Holland Maas Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "WEC",
+    "parentCompany": "WEC",
     "address": "See WEC",
     "addressLocation": {
       "UnLocode": "",
@@ -5457,7 +5457,7 @@
     "linerName": "HRC Shipping Limited, Dhaka",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Corporate Head Quarters\nHRC Bhaban\n46, Kawran Bazar Commercial Area,\nDhaka - 1215, Bangladesh.",
     "addressLocation": {
       "UnLocode": "",
@@ -5497,7 +5497,7 @@
     "linerName": "HR Lines Limited",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "HR BHABAN, 26/1 KAKRAIL, DHAKA-1000, BANGLADESH",
     "addressLocation": {
       "UnLocode": "",
@@ -5537,7 +5537,7 @@
     "linerName": "Hamburg Sud",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "MSK",
+    "parentCompany": "MSK",
     "address": "Willy-Brandt-Stra\u00DFe 59\u201365, 20457 Hamburg, Germany\nMailing Address: Postfach 11 15 33, 20415 Hamburg, Germany",
     "addressLocation": {
       "UnLocode": "HAM",
@@ -5577,7 +5577,7 @@
     "linerName": "Hugo Stinnes Line (Rostock)",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "MOC",
+    "parentCompany": "MOC",
     "address": "HUGO STINNES SCHIFFAHRT GmbH\nStrandstra\u00DFe 87\n18055 Rostock",
     "addressLocation": {
       "UnLocode": "HRO",
@@ -5617,7 +5617,7 @@
     "linerName": "Evergreen Marine (UK) Ltd. (Hatsu Marine)",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "EMC",
+    "parentCompany": "EMC",
     "address": "Evergreen House, 160 Euston road, London NW1 2DX, United Kingdom",
     "addressLocation": {
       "UnLocode": "",
@@ -5657,7 +5657,7 @@
     "linerName": "Hastin Container Line Pte Ltd.",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "HTN",
+    "parentCompany": "HTN",
     "address": "99 DUXTON ROAD, 089543, SINGAPORE",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -5697,7 +5697,7 @@
     "linerName": "HUI XIN SHIPPING PTE LTD",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "HXS",
+    "parentCompany": "HXS",
     "address": "22 Malacca Street #14-01A, RB Capital Building Singapore 048980",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -5737,7 +5737,7 @@
     "linerName": "Hae Yang Shipping Co.",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "429-6 Myeongi 1-ro,Daesan-sup, Seosun-si, Chungcheongnem-do, South Korea\n",
     "addressLocation": {
       "UnLocode": "",
@@ -5777,7 +5777,7 @@
     "linerName": "i-Be Shipping International Pte Ltd",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "IBE",
+    "parentCompany": "IBE",
     "address": "2S JALAN PAPAN SINGAPORE 619413",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -5817,7 +5817,7 @@
     "linerName": "Indrati Lines",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Indrati Lines Pte Ltd\n6001 Beach Rd #13-01 Golden Mile Tower Singapore 199589\n",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -5857,7 +5857,7 @@
     "linerName": "Intermarine",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "ZEM",
+    "parentCompany": "ZEM",
     "address": "Ludwig-Erhard-Str. 22, 20459 Hamburg, Germany",
     "addressLocation": {
       "UnLocode": "HAM",
@@ -5897,7 +5897,7 @@
     "linerName": "IMOTO Lines",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Kobe Asahi Bldg , 59 Naniwamachi, Chuo-ku, Kobe 650-0035, Japan\n",
     "addressLocation": {
       "UnLocode": "",
@@ -5937,7 +5937,7 @@
     "linerName": "INSPIRE SHIPS AND PROJECTS (S) PTE LTD",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "IPS",
+    "parentCompany": "IPS",
     "address": " 1 PAYA LBEAR LINK, #04-01 PAYA LEBAR QUARTERS, \nSINGAPORE 408533",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -5977,7 +5977,7 @@
     "linerName": "I CARRY CONTAINERS PTE LTD",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "NO. 2 HAVELOCK ROAD, HAVELOCK 2 #04-04, SINGAPORE 059763",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -6017,7 +6017,7 @@
     "linerName": "IRISL Korea Co. Ltd",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "ISL",
+    "parentCompany": "ISL",
     "address": "see ISL",
     "addressLocation": {
       "UnLocode": "",
@@ -6067,7 +6067,7 @@
     "linerName": "ISCONT",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Tel Aviv\nAddress: 2 Hashlosha St. Tel-aviv\n",
     "addressLocation": {
       "UnLocode": "TLV",
@@ -6107,7 +6107,7 @@
     "linerName": "Islamic Republic of Iran Shipping Lines",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "ISL",
+    "parentCompany": "ISL",
     "address": "ISLAMIC REPUBLIC OF IRAN SHIPPING LINES (IRISL)\nNo 37, ASSEMAN TOWER, SHAHID SAYYAD SHIRAZEE SQ. PASDARAN, 19395-1311 TEHRAN, Iran",
     "addressLocation": {
       "UnLocode": "",
@@ -6147,7 +6147,7 @@
     "linerName": "Italia Maritima SPA",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "EMC",
+    "parentCompany": "EMC",
     "address": "Passeggio Sant\u2019Andrea 4, 34123 Trieste, Italy",
     "addressLocation": {
       "UnLocode": "TRS",
@@ -6187,7 +6187,7 @@
     "linerName": "InviCont OU",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "IVT",
+    "parentCompany": "IVT",
     "address": "P\u00E4rnu mnt 102-15, Tallinn, 11312, Estonia\n",
     "addressLocation": {
       "UnLocode": "",
@@ -6227,7 +6227,7 @@
     "linerName": "J.F.Hillebrand Singapore Pte Ltd",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "J.F. Hillebrand Group AG",
+    "parentCompany": "J.F. Hillebrand Group AG",
     "address": "1 Kim Seng Promenade, #11-01 to #11-06 Great World City East Tower, Singapore 237994, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -6267,7 +6267,7 @@
     "linerName": "P.T. Jasatama Kemasindo",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Jl. Boulevard Kelapa Gading LA3 1\n14240 Jakarta\nJakarta - Indonesia",
     "addressLocation": {
       "UnLocode": "",
@@ -6307,7 +6307,7 @@
     "linerName": "Kuk Jae Transportation Co.",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Kuk Jae Express \n12407 E Slauson Ave # A \u0026 B\nWhittier, CA 90606, USA",
     "addressLocation": {
       "UnLocode": "",
@@ -6347,7 +6347,7 @@
     "linerName": "Coastal Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "General Manager\nCoastal Shipping Ltd\n#57 La Plaisance\nLa Romaine, San Fernando\nTrinidad West Indies",
     "addressLocation": {
       "UnLocode": "",
@@ -6387,7 +6387,7 @@
     "linerName": "Korea Marine Transport",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "15F Hanjin Building 63 Namdaemun-Ro Jung-Gu Seoul, 04532 Korea, Republic of (South)",
     "addressLocation": {
       "UnLocode": "SEL",
@@ -6437,7 +6437,7 @@
     "linerName": "King Ocean Services",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "HEADQUARTERS\nKING OCEAN SERVICES, Ltd\n11000 NW 29 Street Suite 201\nDoral, FL. 33172, USA\n",
     "addressLocation": {
       "UnLocode": "",
@@ -6477,7 +6477,7 @@
     "linerName": "Kyowa Shipping Co., Tokyo",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Hibiya Building, 4th Floor, 1-1, Shimbashi 1-Chome, Minato-Ku, Tokyo 105-0004, Japan\n",
     "addressLocation": {
       "UnLocode": "",
@@ -6517,7 +6517,7 @@
     "linerName": "Companhia Libra de Navegacao, Rio de Janeiro",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "HLC",
+    "parentCompany": "HLC",
     "address": "Rua Gil Stein Ferreira, 258 - Centro - Itajai - SC - CEP 88301-210",
     "addressLocation": {
       "UnLocode": "ITJ",
@@ -6557,7 +6557,7 @@
     "linerName": "Legend Container Line",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "LGD",
+    "parentCompany": "LGD",
     "address": "531, Upper Cross Street, #03-71 Hong Lim Complex, Singapore 050531",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -6597,7 +6597,7 @@
     "linerName": "Log-In Logistica Intermodal S.A.",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Av. General Justo,375 - 6\u00BA andar - Centro, Rio de Janeiro, RJ, Brazil zipcode: 20021-130",
     "addressLocation": {
       "UnLocode": "",
@@ -6637,7 +6637,7 @@
     "linerName": "Liquid line",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Head Quarters\nSharjah Media City, Sharja, UAE\n",
     "addressLocation": {
       "UnLocode": "",
@@ -6677,7 +6677,7 @@
     "linerName": "MACS Maritime Carrier Shipping GmbH \u0026 Co.",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "MOC",
+    "parentCompany": "MOC",
     "address": "MACS MARITIME CARRIER SHIPPING GMBH \u0026 CO, GROSSE ELBSTRASSE 138, 22767 HAMBURG, Germany",
     "addressLocation": {
       "UnLocode": "HAM",
@@ -6717,7 +6717,7 @@
     "linerName": "Maruba Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "MAIPU 535 1P [C1006ACE] CABA",
     "addressLocation": {
       "UnLocode": "BUE",
@@ -6757,7 +6757,7 @@
     "linerName": "Matson Navigation",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "555 12TH STREET-SUITE 700\nZip Code \nCity OAKLAND, CA 94610\nState \nCountry United States",
     "addressLocation": {
       "UnLocode": "OAK",
@@ -6797,7 +6797,7 @@
     "linerName": "MBF Carpenter Shipping Kuala Lumpur",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "HEAD OFFICE, KUALA LUMPUR, MBf Carpenters Shipping Ltd, Level 17, Menara MBf, Jalan Sultan Ismail, 50250 Kuala Lumpur, Malaysia",
     "addressLocation": {
       "UnLocode": "KUL",
@@ -6837,7 +6837,7 @@
     "linerName": "Sealand - A Maersk Company, Asia",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "MSK",
+    "parentCompany": "MSK",
     "address": "Esplanaden 50, 1098 K\u00F8benhavn K, Denmark",
     "addressLocation": {
       "UnLocode": "CPH",
@@ -6887,7 +6887,7 @@
     "linerName": "MCL Shipping Co",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Mag Container Lines\nPO Box: 29783,\nDubai, UAE",
     "addressLocation": {
       "UnLocode": "DXB",
@@ -6927,7 +6927,7 @@
     "linerName": "Marfret Compagnie Maritime",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Marfret Fos managed by Marseille, 13 Quai de la joliette, 13002 Marseille, France",
     "addressLocation": {
       "UnLocode": "MRS",
@@ -6967,7 +6967,7 @@
     "linerName": "MEDKON Lines, Turkey",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Ye\u015Filba\u011Flar Mah. Cafer Kuyusu Mevkii Kat : 5-6-7  Royal Marin Plaza Pendik/\u0130STANBUL / TURKEY",
     "addressLocation": {
       "UnLocode": "",
@@ -7007,7 +7007,7 @@
     "linerName": "Mariana Express Lines, Singapore",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "PIL",
+    "parentCompany": "PIL",
     "address": "Mariana Express Lines Pte. Ltd.\nPrincipal Office\n140 Cecil Street, #09-01 PIL Building, Singapore 069540, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -7047,7 +7047,7 @@
     "linerName": "Messina Lines, Genoa",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "MSC",
+    "parentCompany": "MSC",
     "address": "Via G. D\u0027Annunzio 91, 16121 Genova GE, Italy",
     "addressLocation": {
       "UnLocode": "GOA",
@@ -7087,7 +7087,7 @@
     "linerName": "Med Feeder Italia",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Viale delle Querce 12, 84134 Salerno SA, Italy",
     "addressLocation": {
       "UnLocode": "SAL",
@@ -7127,7 +7127,7 @@
     "linerName": "Myanmar Five Star Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Bogalay Zay St, Yangon, Myanmar (Burma)",
     "addressLocation": {
       "UnLocode": "",
@@ -7167,7 +7167,7 @@
     "linerName": "Monter Global",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "3791 Jalan Bukit Merah, #08-25, E Centre, Singapore 159471",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -7207,7 +7207,7 @@
     "linerName": "Megastar Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "4 Leng Kee Road, #02-06/07 SIS Building, Singapore 159088",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -7247,7 +7247,7 @@
     "linerName": "Marguisa Shipping Lines, S.L.U",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Villanueva n\u00BA5, 1\u00BA, 28001 Madrid, Spain",
     "addressLocation": {
       "UnLocode": "",
@@ -7287,7 +7287,7 @@
     "linerName": "Milaha (Qatar Navigation QPSC)",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Qatar Navigation, Q.P.S.C.\nEast Industrial Road\nUmm Al Saneem Area\nStreet No. 523, Zone 56\nP.O. Box 153, Doha, QATAR",
     "addressLocation": {
       "UnLocode": "",
@@ -7327,7 +7327,7 @@
     "linerName": "Malaysian International Shipping Company",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "LNG Business Unit MISC Berhad, Level 30, Menara Dayabumi, Jalan Sultan Hishamuddin, 50050 Kuala Lumpur, Malaysia",
     "addressLocation": {
       "UnLocode": "KUL",
@@ -7367,7 +7367,7 @@
     "linerName": "Maersk Line, Limited",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "MSK",
+    "parentCompany": "MSK",
     "address": "Esplanaden 50, 1098 K\u00F8benhavn K, Denmark",
     "addressLocation": {
       "UnLocode": "CPH",
@@ -7407,7 +7407,7 @@
     "linerName": "Mann Lines, UK",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "The Naval House, Kings Quay Street\nHarwich, Essex CO12 3JJ, United Kingdom",
     "addressLocation": {
       "UnLocode": "",
@@ -7447,7 +7447,7 @@
     "linerName": "Melfi Marine Corporation, Cuba",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Melfi Marine Corp. Main OfficeCountryCubaCityHabana ViejaAddressOficios No.410e / Luz Y Acost, Cuba\n",
     "addressLocation": {
       "UnLocode": "",
@@ -7487,7 +7487,7 @@
     "linerName": "Montemar",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Ballindamm 25, 20095 Hamburg, Germany",
     "addressLocation": {
       "UnLocode": "HAM",
@@ -7527,7 +7527,7 @@
     "linerName": "Mercosul",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "R. Guaia\u00F3, 66 - 21\u00BA Andar - Aparecida, Santos - SP, Brazil zipcode: 11030-000",
     "addressLocation": {
       "UnLocode": "SSZ",
@@ -7567,7 +7567,7 @@
     "linerName": "Mediterranean Shipping Company",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "MSC",
+    "parentCompany": "MSC",
     "address": "MSC Mediterranean Shipping Company S.A., Chemin Rieu 12-14, 1208 Geneva, Switzerland",
     "addressLocation": {
       "UnLocode": "",
@@ -7607,7 +7607,7 @@
     "linerName": "Maersk",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "MSK",
+    "parentCompany": "MSK",
     "address": "Esplanaden 50, 1098 K\u00F8benhavn K, Denmark",
     "addressLocation": {
       "UnLocode": "CPH",
@@ -7647,7 +7647,7 @@
     "linerName": "Maldives International Shipping Singapore",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "11 International Rd, Singapore 079903\nPhone: \u002B65 6224 2095",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -7687,7 +7687,7 @@
     "linerName": "Maritime Tunisian Lines",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Calle Consell de cent, 106 - 108 PLT 5 OF 4 Y 5, Barcelona, 08015, Spain",
     "addressLocation": {
       "UnLocode": "",
@@ -7727,7 +7727,7 @@
     "linerName": "Maritime United Operator (Madrid)",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Paseo de la Castellana, 141 Planta 21-B, 28046 Madrid, Spain",
     "addressLocation": {
       "UnLocode": "",
@@ -7767,7 +7767,7 @@
     "linerName": "Malaysia Shipping Corporation",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "PIL",
+    "parentCompany": "PIL",
     "address": "MALAYSIAN SHIPPING CORP. SDN. BHD., A-3A-1, 4Th Floor, South Tower (Tower A), Bbt One The Towers, Lebuh Batu Nilam 1, Bandar Bukit Tinggi, 41200 Klang, Malaysia",
     "addressLocation": {
       "UnLocode": "KLA",
@@ -7807,7 +7807,7 @@
     "linerName": "Maxicon Shipping Agencies Pte Ltd",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "MXN",
+    "parentCompany": "MXN",
     "address": "200 Cantonment Road, #14-01A South Point, Singapore 089763, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -7847,7 +7847,7 @@
     "linerName": "Navio Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "CORPORATE OFFICE\nNavio Shipping LLC\nSuite 1801, Aspin Commercial Tower,\nSheikh Zayed Road,PO Box : 122147\nDubai, United Arab Emirates.",
     "addressLocation": {
       "UnLocode": "DXB",
@@ -7887,7 +7887,7 @@
     "linerName": "North Sea Container Line",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "M\u00F8llerveien 22, 5523 Haugesund, Norway",
     "addressLocation": {
       "UnLocode": "HAU",
@@ -7927,7 +7927,7 @@
     "linerName": "Northern Coastal Transport LTDA",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "AVENIDA DAS NACOES UNIDAS, 14.261 ALA B - 28 ANDAR - CONJ B 04794-000 SAO PAULO, Brazil",
     "addressLocation": {
       "UnLocode": "SAO",
@@ -7967,7 +7967,7 @@
     "linerName": "Nile Dutch Africa Lines",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "HLC",
+    "parentCompany": "HLC",
     "address": "NileDutch, Westblaak 95, 3012 KG Rotterdam, The Netherlands\nPO Box 21032, 3001 AA Rotterdam, The Netherlands",
     "addressLocation": {
       "UnLocode": "",
@@ -8007,7 +8007,7 @@
     "linerName": "New Guinea Pacific Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "SWI",
+    "parentCompany": "SWI",
     "address": "Swire Shipping Pte. Ltd., 300 Beach Road, #27-01 The Councourse, Singapore 199555, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -8047,7 +8047,7 @@
     "linerName": "Nisa Maritima, Valencia, Spain",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "C/Fuente Podrida, 17, 46011 Valencia, Spain",
     "addressLocation": {
       "UnLocode": "VLC",
@@ -8087,7 +8087,7 @@
     "linerName": "Neptune Lines Shipping, Liberia",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Neptune Lines Shipping \u0026 Managing Enterprises S.A.,\n5-9 Iassonos Street, GR - 18537 Piraeus, Greece",
     "addressLocation": {
       "UnLocode": "PIR",
@@ -8127,7 +8127,7 @@
     "linerName": "Norasia Container Lines",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Ballindamm 25, 20095 Hamburg, Germany",
     "addressLocation": {
       "UnLocode": "HAM",
@@ -8167,7 +8167,7 @@
     "linerName": "Neptune Pacific Direct Line",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "NPD",
+    "parentCompany": "NPD",
     "address": "NEPTUNE PACIFIC DIRECT LINE\u00A0 PTE. LTD. 78 Shenton Way\n#15-03 Singapore 079120",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -8207,7 +8207,7 @@
     "linerName": "Neptune Pacific Line",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "NPD",
+    "parentCompany": "NPD",
     "address": "Neptune Pacific Agency Australia Pty Limited\nLevel 12\n45-47 York St\nSydney NSW\nPO Box 3813\nSydney NSW 2001",
     "addressLocation": {
       "UnLocode": "",
@@ -8257,7 +8257,7 @@
     "linerName": "NAMSUNG Shipping Co. Ltd.",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "363, Samil-daero, Jung-gu, Seoul, Korea (Janggyo Bldg,17th)",
     "addressLocation": {
       "UnLocode": "SEL",
@@ -8297,7 +8297,7 @@
     "linerName": "NSCSA The National Shipping Company of Saudi Arabia (Bahri)",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Olaya Towers (Tower B)Floors(12-15), Olaya District, Olaya Street, P.O. Box 8931, Riyadh 11492, Saudi Arabia. Toll Free: 920020007",
     "addressLocation": {
       "UnLocode": "",
@@ -8337,7 +8337,7 @@
     "linerName": "Ocean Africa Container Lines (Durban)",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "5th Floor, Grindrod House,\n108 Margaret Mncadi Avenue,\nDurban, 4001, South Africa",
     "addressLocation": {
       "UnLocode": "",
@@ -8377,7 +8377,7 @@
     "linerName": "Oceanblu Shipping (S) PTE LTD",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "OBL",
+    "parentCompany": "OBL",
     "address": "7B Keppel Road, PSA Tanjong Pagar Complex\n#09-11 Tower Block Singapore 089055",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -8417,7 +8417,7 @@
     "linerName": "Ocean Bridge Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "25 Anzac Street, Takapuna 0622\nP.O. Box 33-1439, Auckland, New Zealand\nPhone: 09 489 6070",
     "addressLocation": {
       "UnLocode": "",
@@ -8457,7 +8457,7 @@
     "linerName": "Orix Maritime Corp",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "2-4-1, HAMAMATSUCHO. SEKAIBOUEKI CENTER BLDG. MINATO-KU, TOKYO, 105-0013 Japan\nORIX Corporation\nCorporate Planning Department",
     "addressLocation": {
       "UnLocode": "",
@@ -8497,7 +8497,7 @@
     "linerName": "Ocean Network Express Pte. Ltd.",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "ONE",
+    "parentCompany": "ONE",
     "address": "7 Straits View,\n#16-01 Marina One East Tower,\nSingapore 018936",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -8537,7 +8537,7 @@
     "linerName": "Orient Overseas Container Line",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "COS",
+    "parentCompany": "COS",
     "address": "31/F, Harbour Centre 25 Harbour Road, Wanchai, Hong Kong",
     "addressLocation": {
       "UnLocode": "HKG",
@@ -8577,7 +8577,7 @@
     "linerName": "Orient Shipping Services",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Sharaf Building,\nP.O.BOX :21886\nDubai, UAE",
     "addressLocation": {
       "UnLocode": "DXB",
@@ -8617,7 +8617,7 @@
     "linerName": "OVP Shipping",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Flat/RMD38/F Boton Tech Innovation Tower\n368 Kwun Tong Road, Hong Kong",
     "addressLocation": {
       "UnLocode": "HKG",
@@ -8657,7 +8657,7 @@
     "linerName": "Pacifica Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "SWI",
+    "parentCompany": "SWI",
     "address": "Pacifica Shipping - an operating division of The China Navigation Company NZ Limited\nLevel 14, SAP Tower, 151 Queen Street, Auckland 1010, New Zealand.",
     "addressLocation": {
       "UnLocode": "",
@@ -8697,7 +8697,7 @@
     "linerName": "Pan Continental Shipping Co., Ltd.",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "DONG JU B/D 824-24 YEOK SAM-DONG KANG NAM-KU\nZip Code 135-080\nCity SEOUL\nState \nCountry Korea, Republic of",
     "addressLocation": {
       "UnLocode": "SEL",
@@ -8747,7 +8747,7 @@
     "linerName": "Paranave, Paraguay, Asuncion",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Avda. Republica Argentina 1412\nAsunci\u00F3n, Paraguay, 1885 \u2014 P.O. BOX: 27024",
     "addressLocation": {
       "UnLocode": "",
@@ -8787,7 +8787,7 @@
     "linerName": "Pasha Lines, Hawaii",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Topa Financial Center, Fort Street Tower, 745 Fort Street, Suite 315, Honolulu, HI 96813-3806, USA",
     "addressLocation": {
       "UnLocode": "HNL",
@@ -8827,7 +8827,7 @@
     "linerName": "PACC Container Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "PACC Line\nNo 1, Kim Seng Promenade\n#07-02, Great World City\nSingapore 237994",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -8867,7 +8867,7 @@
     "linerName": "Perkapalan Dai Zun",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "No.1, Jalan Sungai Aur,\n42000 Port Klang,\nSelangor Darul Ehsan,\nMalaysia.",
     "addressLocation": {
       "UnLocode": "PKG",
@@ -8907,7 +8907,7 @@
     "linerName": "Pacific Forum Line",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "NPD",
+    "parentCompany": "NPD",
     "address": "82 Richard Pearse Drive, Mangere, Auckland Airport 2022, New Zealand",
     "addressLocation": {
       "UnLocode": "",
@@ -8947,7 +8947,7 @@
     "linerName": "PHL Containers Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "705 N. Henry Ford Avenue\nWilmington, CA 90744, USA\nAnacostia Rail Holdings Company\n224 S. Michigan Ave., Ste. 330, Chicago, IL 60604",
     "addressLocation": {
       "UnLocode": "CHI",
@@ -8987,7 +8987,7 @@
     "linerName": "Pacific International Lines",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "PIL",
+    "parentCompany": "PIL",
     "address": "PIL Building, 140 Cecil Street, Singapore 069540, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -9027,7 +9027,7 @@
     "linerName": "Perkins Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Frances Bay Drive, Darwin NT 0800, Australia",
     "addressLocation": {
       "UnLocode": "DRW",
@@ -9067,7 +9067,7 @@
     "linerName": "PIL SOC Services",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "PIL",
+    "parentCompany": "PIL",
     "address": "PIL Building, 140 Cecil Street, Singapore 069540, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -9107,7 +9107,7 @@
     "linerName": "PNS Logistics",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "",
     "addressLocation": {
       "UnLocode": "",
@@ -9147,7 +9147,7 @@
     "linerName": "Penex Container Lines Pte Ltd",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "Penex",
+    "parentCompany": "Penex",
     "address": "237 Alexandra Road, #04-08 The Alexcier\nSingapore 159929",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -9187,7 +9187,7 @@
     "linerName": "Pakistan National Shipping Co.",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Head Office Address: PNSC Building, M.T. Khan Road, P.O. BOX No.5350, Karachi-74000, PAKISTAN.",
     "addressLocation": {
       "UnLocode": "",
@@ -9227,7 +9227,7 @@
     "linerName": "Portlink",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "152 Beach Road #14-04, Gateway East, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -9267,7 +9267,7 @@
     "linerName": "PSL Navegacao, S.A.",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Av. D. Carlos I, 44-8\u00BA\n1200-649 Lisboa, Portugal\n",
     "addressLocation": {
       "UnLocode": "",
@@ -9307,7 +9307,7 @@
     "linerName": "Quest Container Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Quest Container Line Pvt Ltd\nNo.325 (Old No.158) 3rd Floor,\nLinghi Chetty Street,\nChennai 600 001, India",
     "addressLocation": {
       "UnLocode": "MAA",
@@ -9347,7 +9347,7 @@
     "linerName": "Regional Container Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "RCL FEEDER PTE LTD\nCode REGU\nAddress 8TH FLOOR, RCL CENTRE 11 KEPPEL ROAD\nZip Code 089057\nCity Singapore\nState \nCountry Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -9387,7 +9387,7 @@
     "linerName": "Rhenus Logistics",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "Rhenus Logistics                     ",
+    "parentCompany": "Rhenus Logistics                     ",
     "address": "Headquarter: Rhenus SE \u0026 Co. KG\nRhenus-Platz 1, 59439 Holzwickede, Germany\nAsia headquarter: 17 Changi Business Park Central 1, Honeywell Building #06-08, Singapore 486073",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -9427,7 +9427,7 @@
     "linerName": "RSL Shipping Pte Ltd",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "MEGASTAR SHIPPING PTE LTD",
+    "parentCompany": "MEGASTAR SHIPPING PTE LTD",
     "address": "SIS Building\n4 Leng Kee Road #02-06/07\nSingapore 159088",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -9467,7 +9467,7 @@
     "linerName": "Richfield Marine Agencies (S) PTE LTD",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "10 Hoe Chiang Road, #10-01 Keppel Towers, Singapore 089315.\nTel: (65) 6880 2900 (Directory)",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -9507,7 +9507,7 @@
     "linerName": "Saigon Shipping Company",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "\u0110\u1ECBa ch\u1EC9 C\u00F4ng ty: S\u1ED1 9 Nguy\u1EC5n C\u00F4ng Tr\u1EE9, P.Nguy\u1EC5n Th\u00E1i B\u00ECnh, Qu\u1EADn 1, TP.HCM, Vietnam",
     "addressLocation": {
       "UnLocode": "",
@@ -9547,7 +9547,7 @@
     "linerName": "Samskip",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "SAM",
+    "parentCompany": "SAM",
     "address": "Head office\nSamskip Multimodal B.V\nWaalhaven Oostzijde 81\n3087 BM Rotterdam, The Netherlands",
     "addressLocation": {
       "UnLocode": "",
@@ -9587,7 +9587,7 @@
     "linerName": "Shahaziz Shipping (SASL) Private Limited",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "SAS",
+    "parentCompany": "SAS",
     "address": "120 Robinson Road, #15-01, Singapore (068913)",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -9627,7 +9627,7 @@
     "linerName": "Shipping Corporation of India",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Shipping House 10th floor, 245, Madam Cama Road, Mumbai 400-021, India",
     "addressLocation": {
       "UnLocode": "BOM",
@@ -9667,7 +9667,7 @@
     "linerName": "Sea Consortium",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "XPF",
+    "parentCompany": "XPF",
     "address": "11 Duxton Hill\nSingapore 089595",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -9707,7 +9707,7 @@
     "linerName": "Sindo Damai",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Beach Centre #04-04, 15 Beach Road (S)189677, Singapore 189677",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -9747,7 +9747,7 @@
     "linerName": "Sea Connect Klaipeda, Lithuania",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": " SEA CONNECT UAB\nJ.Zauerveino 21, LT 92122\nKlaipeda, Lithuania",
     "addressLocation": {
       "UnLocode": "",
@@ -9787,7 +9787,7 @@
     "linerName": "Setramar",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Via Classicana 99, 48122 Ravenna RA, Italy",
     "addressLocation": {
       "UnLocode": "RAN",
@@ -9827,7 +9827,7 @@
     "linerName": "Sealand - A Maersk Company, EUR \u0026 MED",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "MSK",
+    "parentCompany": "MSK",
     "address": "Esplanaden 50, 1098 K\u00F8benhavn K, Denmark",
     "addressLocation": {
       "UnLocode": "CPH",
@@ -9877,7 +9877,7 @@
     "linerName": "Seahawk Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Manila Office\nNo. 1 Multinational Avenue corner Kaingin Road\nMultinational Village, Paranaque City,\nPhilippines\n",
     "addressLocation": {
       "UnLocode": "",
@@ -9917,7 +9917,7 @@
     "linerName": "Simatech Shipping Dubai",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Simatech Shipping \u0026 Forwarding L.L.C.\n18th Floor, Regal Tower, Business Bay\nP.O. Box 23743,\nDubai \u2013 United Arab Emirates",
     "addressLocation": {
       "UnLocode": "DXB",
@@ -9957,7 +9957,7 @@
     "linerName": "SITC Container Lines Co., Ltd",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "SITC Hong Kong\nSITC Line Hong Kong",
     "addressLocation": {
       "UnLocode": "HKG",
@@ -9997,7 +9997,7 @@
     "linerName": "Shanghai Jinjiang Shipping",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "SJJ",
+    "parentCompany": "SJJ",
     "address": "Floor 15, Golden Bell Plaza, No.98. Huai Hai Road(Middle), Shanghai 200021, China",
     "addressLocation": {
       "UnLocode": "SGH",
@@ -10037,7 +10037,7 @@
     "linerName": "Sarjak Container Lines",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Sarjak Container Lines Pvt. Ltd.\n8th Floor, DLH Plaza,Cosmos Building,\nOpp. Shoppers Stop, S V Road, Andheri West,\nMumbai - 400058, India",
     "addressLocation": {
       "UnLocode": "BOM",
@@ -10077,7 +10077,7 @@
     "linerName": "Soon Kiat Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "1 Commonwealth Lane, Singapore 149544, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -10117,7 +10117,7 @@
     "linerName": "Sembawang Kimtrans",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "21 Jln Buroh, Singapore 619478\n",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -10157,7 +10157,7 @@
     "linerName": "SeaLead Shipping PTE LTD",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "19, Keppel Road, #06-02,\nJit Poh Building, Singapore 079058",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -10197,7 +10197,7 @@
     "linerName": "SM Line Corporation, Seoul",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "85, Gwangnaru-ro 56-gil, Gwangjin-gu, Seoul, Republic of Korea (05116)",
     "addressLocation": {
       "UnLocode": "SEL",
@@ -10247,7 +10247,7 @@
     "linerName": "Sealand - A Maersk Company, America",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "MSK",
+    "parentCompany": "MSK",
     "address": "Esplanaden 50, 1098 K\u00F8benhavn K, Denmark",
     "addressLocation": {
       "UnLocode": "CPH",
@@ -10297,7 +10297,7 @@
     "linerName": "Salamis Lines, Cyprus",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Salamis Lines Ltd\nAddress: Salamis House 1, G Katsounotos Str. P.O.Box 50531\n3607 Limassol, Cyprus",
     "addressLocation": {
       "UnLocode": "",
@@ -10337,7 +10337,7 @@
     "linerName": "SILKargo Logistics (Singapore) Pte Ltd",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "SSL",
+    "parentCompany": "SSL",
     "address": "6 Raffles Quay #25-02. Singapore 048580",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -10377,7 +10377,7 @@
     "linerName": "Seaboard Marine Ltd.",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Seaboard Marine\n8001 NW 79th Avenue, Miami, Florida, 33166, USA",
     "addressLocation": {
       "UnLocode": "MIA",
@@ -10417,7 +10417,7 @@
     "linerName": "Sinokor Merchant Marine",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "2nd Fl., Haenam Bldg., 21, Bukchang-dong, Chung-Ku, Seoul, Korea",
     "addressLocation": {
       "UnLocode": "SEL",
@@ -10457,7 +10457,7 @@
     "linerName": "Summit Shipping PTE LTD",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "200 Cantonment Road, #06-01 South Point, Singapore 089763, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -10497,7 +10497,7 @@
     "linerName": "Sinotrans Container Lines Co Ltd",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Sinotrans Mansion 20F-25F, No.188 Fujian Road (C), Shanghai, 200001, China",
     "addressLocation": {
       "UnLocode": "SGH",
@@ -10537,7 +10537,7 @@
     "linerName": "Strait Orient Lines",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Straits Orient Lines (Singapore) Pte Ltd\n120 Lower Delta Road #06-07 Cendex Centre Singapore - 169 208.",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -10577,7 +10577,7 @@
     "linerName": "South Pacific Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Auckland Office\n(Sales, Shipping, Commercial)\nLevel 6, 35 High St,\nAuckland, New Zealand\nPO Box 597, Shortland St,\nAuckland, New Zealand",
     "addressLocation": {
       "UnLocode": "",
@@ -10617,7 +10617,7 @@
     "linerName": "SSC Shipping Agencies Pte Ltd",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "200 Cantonment Road, #09-01 South Point, Singapore 089763, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -10657,7 +10657,7 @@
     "linerName": "Samudera Shipping Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "SSL",
+    "parentCompany": "SSL",
     "address": "6 Raffles Quay #25-01 Singapore, 048580 Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -10707,7 +10707,7 @@
     "linerName": "Sea-Shore Transportation",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Suite#713-A, 7th Floor, Chapal Plaza Hasrat Mohani Road \nKarachi, Pakistan\n",
     "addressLocation": {
       "UnLocode": "",
@@ -10747,7 +10747,7 @@
     "linerName": "Star Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "2 Bukit Merah Central\n#04-03\nSingapore 159835",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -10787,7 +10787,7 @@
     "linerName": "S\u0026T PACIFIC PTE. LTD.",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "STP",
+    "parentCompany": "STP",
     "address": "16 Raffles Quay 19-03 (Hong Leong Building), Singapore 048581",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -10827,7 +10827,7 @@
     "linerName": "STX Pan Ocean",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": " 7, Jong-ro 5-gil, Jongno-gu, Seoul",
     "addressLocation": {
       "UnLocode": "SEL",
@@ -10867,7 +10867,7 @@
     "linerName": "Swan Shipping",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "SCL Swan Container Lines GmbH, Alter Wall 55, 20457 Hamburg, Germany",
     "addressLocation": {
       "UnLocode": "HAM",
@@ -10907,7 +10907,7 @@
     "linerName": "Swire Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "SWI",
+    "parentCompany": "SWI",
     "address": "The China Navigation Co\nPte. Ltd.\n300 Beach Road\n#27-01, The Concourse\nSingapore 199555",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -10947,7 +10947,7 @@
     "linerName": "Seaway Lines PTE. LTD.",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "1, NORTH BRIDGE ROAD, #06-27, HIGH STREET CENTRE, SINGAPORE 179094",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -10987,7 +10987,7 @@
     "linerName": "Shin Yang Shipping Malaysia",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Sublot 153 (Parent Lot 70), Jalan Kuala Baram,              \nKuala Baram, 98100 Miri, Sarawak, Malaysia",
     "addressLocation": {
       "UnLocode": "MYY",
@@ -11027,7 +11027,7 @@
     "linerName": "Shandong Yantai Marine Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Kuala Baram, 98100 Miri, Sarawak, Malaysia",
     "addressLocation": {
       "UnLocode": "MYY",
@@ -11067,7 +11067,7 @@
     "linerName": "Tarros, La Spezia",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Via Privata Enel, 19126 La Spezia SP, Italy",
     "addressLocation": {
       "UnLocode": "SPE",
@@ -11107,7 +11107,7 @@
     "linerName": "Trans Asian Shipping Services PTE LTD.",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "TAS",
+    "parentCompany": "TAS",
     "address": "HQ: Trans Asian Shipping Services Private Ltd,\nTrans Asia Corporate Park  XIV/396-C  SEAPORT AIRPORT ROAD, Chittethukara,  Cochin - 682037 \nBranch Office: Trans Asian Shipping Services PTE LTD, 60 Albert Street  08-10 OG, Albert Complex  Singapore 189969",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -11147,7 +11147,7 @@
     "linerName": "Ti2 logistics pte ltd",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "TIZ",
+    "parentCompany": "TIZ",
     "address": "2 International Business Park, #11-06\nThe Strategy Tower 1, Singapore 609930",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -11187,7 +11187,7 @@
     "linerName": "Tong Joo Shipping Pte Ltd",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "100 Beach Rd, Singapore 189702",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -11227,7 +11227,7 @@
     "linerName": "Transportes Maritimos Insulares, Lisbon",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Transportes Mar\u00EDtimos Insulares, S.A.\nEdif\u00EDcio Gon\u00E7alves Zarco\nDoca de Alc\u00E2ntara (lado Norte)\n1399-015 LISBOA\nPortugal",
     "addressLocation": {
       "UnLocode": "",
@@ -11267,7 +11267,7 @@
     "linerName": "Transmares, Chile",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Av. El Bosque Norte 500, piso 20, Santiago, Chile",
     "addressLocation": {
       "UnLocode": "",
@@ -11307,7 +11307,7 @@
     "linerName": "Tasman Orient Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "SWI",
+    "parentCompany": "SWI",
     "address": "Head Office\nTasman Orient Line C V\nFletcher Challenge Finance Limited\nBuilding \u0022Alexander Poort\u0022\nMarten Meesweg 107\n3068 AV Rotterdam,\nThe Netherlands",
     "addressLocation": {
       "UnLocode": "",
@@ -11347,7 +11347,7 @@
     "linerName": "Transvoy Logistics Pte. Ltd.",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "3, Shenton Way #12-04A, Shenton House Singapore 068805",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -11387,7 +11387,7 @@
     "linerName": "Turkon Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Altunizade Mahallesi, Ord.Prof. Dr Fahrettin Kerim G\u00F6kay Caddesi No:33, 34662, \u00DCsk\u00FCdar / \u0130stanbul, Turkey",
     "addressLocation": {
       "UnLocode": "",
@@ -11427,7 +11427,7 @@
     "linerName": "Transworld Feeders FZCO, Dubai",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "P.O. Box 261844, Plot No. S 20119,\nJebel Ali Free Zone (South),\nDubai, U.A.E.",
     "addressLocation": {
       "UnLocode": "SZE",
@@ -11467,7 +11467,7 @@
     "linerName": "Tailwind Shipping Lines",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": " ",
+    "parentCompany": " ",
     "address": "Tailwind Shipping Lines GmbH \u0026 Co. KG, Trostbr\u00FCcke 1, 20457 Hamburg, Germany",
     "addressLocation": {
       "UnLocode": "HAM",
@@ -11517,7 +11517,7 @@
     "linerName": "Tokyo Senpaku Kaisha",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "HLC",
+    "parentCompany": "HLC",
     "address": "2-19-6 Yanagibashi Taito-Ku, 111-0052 Japan",
     "addressLocation": {
       "UnLocode": "",
@@ -11557,7 +11557,7 @@
     "linerName": "T. S. Lines",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "6F, No. 167, Tun-Hwa North Rd., Taipei 105, Taiwan (R.O.C.)",
     "addressLocation": {
       "UnLocode": "TPE",
@@ -11597,7 +11597,7 @@
     "linerName": "Tru-Trans Malaysia",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Pandamaran, 42000 Port Klang, Selangor, Malaysia",
     "addressLocation": {
       "UnLocode": "PKG",
@@ -11637,7 +11637,7 @@
     "linerName": "Tai Young Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "RM603, Hanjin BlDG (new), 88 Sogong ro , Jung-Gu, Seoul, Korea ",
     "addressLocation": {
       "UnLocode": "SEL",
@@ -11677,7 +11677,7 @@
     "linerName": "United Africa Feeder Line (Mauritius)",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "HEAD OFFICE\nUAFL HOUSE\nDomaine de Labourdonnais,\nMapou 31803, Mauritius",
     "addressLocation": {
       "UnLocode": "MAP",
@@ -11717,7 +11717,7 @@
     "linerName": "United Arab Shipping",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Ballindamm 25, 20095 Hamburg, Germany",
     "addressLocation": {
       "UnLocode": "HAM",
@@ -11757,7 +11757,7 @@
     "linerName": "Unifeeder Aarhus",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "UFE",
+    "parentCompany": "UFE",
     "address": "C/o Unifeeder A/S, Tangen 6, 8200 Aarhus N, Denmark\n",
     "addressLocation": {
       "UnLocode": "AAR",
@@ -11797,7 +11797,7 @@
     "linerName": "Unimed Feeder Services Limassol",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "C/o Unifeeder A/S, Tangen 6, 8200 Aarhus N, Denmark\n",
     "addressLocation": {
       "UnLocode": "AAR",
@@ -11837,7 +11837,7 @@
     "linerName": "Vasco Maritime Line Singapore",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "BLK 511 KAMPONG BAHRU RD #02-05 KEPPEL DISTRIPARK\nZip Code 099 447\nCity Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -11877,7 +11877,7 @@
     "linerName": "Agencia Maritima Velmaren SA",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "\u00A0",
+    "parentCompany": "\u00A0",
     "address": "25 DE AGOSTO 18 25 OF 301, Montevideo",
     "addressLocation": {
       "UnLocode": "MVD",
@@ -11917,7 +11917,7 @@
     "linerName": "Venavega Venezuela",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Avenida Caron\u00ED, Caracas 1080, Miranda, Venezuela\nAvenida Caron\u00ED entre calle Par\u00EDs y Londres, edificio Luisiana, piso 3, Urb. Las Mercedes Caracas-1060",
     "addressLocation": {
       "UnLocode": "",
@@ -11957,7 +11957,7 @@
     "linerName": "VM Liner Felixstowe",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "R J J House, Haven Exchange, South, Felixstowe IP11 2QE, United Kingdom",
     "addressLocation": {
       "UnLocode": "",
@@ -11997,7 +11997,7 @@
     "linerName": "VASI Shipping Pte Ltd.",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "91 BENCOOLEN STREET # 10-02 SUNSHINE PLAZA\nZip Code 189652\nCity Singapore\nState \nCountry Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -12037,7 +12037,7 @@
     "linerName": "WEC",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "WEC",
+    "parentCompany": "WEC",
     "address": "W.E.C. Lines B.V.\nAlbert Plesmanweg 59\n3088 GB Rotterdam\nP.O. Box 59230\n3008 PE Rotterdam\nThe Netherlands",
     "addressLocation": {
       "UnLocode": "",
@@ -12077,7 +12077,7 @@
     "linerName": "Worldgate Express Lines",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Singapore (Worldgate Group Head Office)\nWorldgate Express Lines Pte Ltd\n180, Telok Ayer Street\nThe Worldgate\nSingapore 068628",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -12117,7 +12117,7 @@
     "linerName": "Winfast Lines SDN. BHD. ",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "WFL",
+    "parentCompany": "WFL",
     "address": "52 \u002652A, LORONG SENTOSA 4A, TAMAN BAYU TINGGI, 41200 KLANG, SELANGOR",
     "addressLocation": {
       "UnLocode": "KLA",
@@ -12157,7 +12157,7 @@
     "linerName": "Welgrow Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "HEAD OFFICE\nWelgrow Line (India) Pvt. Ltd.\n520, Maraton Max, 5th Floor,  LBS Road\nMulund (W), Mumbai \u2013 400 080, India",
     "addressLocation": {
       "UnLocode": "BOM",
@@ -12197,7 +12197,7 @@
     "linerName": "Wan Hai Lines",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "WHL",
+    "parentCompany": "WHL",
     "address": "10th floor, No. 136, SongJiang Rd, Zhongshan District, Taipei City 10491, Taiwan (R.O.C.)",
     "addressLocation": {
       "UnLocode": "TPE",
@@ -12237,7 +12237,7 @@
     "linerName": "WINWIN Lines Limited",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "B-801 TITANIUM HEIGHTS, NR VODAFONE HOUSE, CORPORATE ROAD, PRAHLADNAGAR, AHMEDABAD, GUJARAT, INDIA",
     "addressLocation": {
       "UnLocode": "AMD",
@@ -12287,7 +12287,7 @@
     "linerName": "White Line Shipping, UAE",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "White Line Shipping \u0026 Cargo LLC\nOffice Address Al Owais Tower Office 305-306 Baniyas Street - Deira, Dubai - UAE\nP.O Box 32064 Dubai - UAE",
     "addressLocation": {
       "UnLocode": "DER",
@@ -12327,7 +12327,7 @@
     "linerName": "WINSPEC Shipping Pte Ltd",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "WINSPEC Shipping",
+    "parentCompany": "WINSPEC Shipping",
     "address": "10 TUAS AVENUE 6 SINGAPORE 639298",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -12367,7 +12367,7 @@
     "linerName": "Wallenius Wilhelmsen Lines AS",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Wallenius Wilhelmsen, Strandveien 20, 1364 Lysaker, Norway",
     "addressLocation": {
       "UnLocode": "LYS",
@@ -12407,7 +12407,7 @@
     "linerName": "X-Press Feeders",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "11 Duxton Hill\nSingapore 089595",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -12447,7 +12447,7 @@
     "linerName": "Yemen Gulf Line",
     "isNVOCC": false,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "Prince Albert House, 2 Kingsmill Terrace, London NW8 6BN, United Kingdom",
     "addressLocation": {
       "UnLocode": "",
@@ -12487,7 +12487,7 @@
     "linerName": "Yang Ming Marine Transport Corporation",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "No. 271, Ming De 1st Road, Cidu District, Keelung 206006, Taiwan (R.O.C.)",
     "addressLocation": {
       "UnLocode": "KEL",
@@ -12537,7 +12537,7 @@
     "linerName": "YQN LINK International Logistics (SG) Pte. Ltd.",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "390 HAVELOCK ROAD\n#07-01 KING\u0027S CENTRE\nSINGAPORE (169662)",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -12577,7 +12577,7 @@
     "linerName": "Yasuda Logistics Singapore Pte. Ltd.",
     "isNVOCC": true,
     "isVOCC": false,
-    "parentCompanyName": "",
+    "parentCompany": "",
     "address": "3 SHENTON WAY #25-01 SHENTON HOUSE SINGAPORE 068805",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -12617,7 +12617,7 @@
     "linerName": "ZIM Integrated Shipping Services Ltd.",
     "isNVOCC": false,
     "isVOCC": true,
-    "parentCompanyName": "ZIM",
+    "parentCompany": "ZIM",
     "address": "ZIM Integrated Shipping Services Ltd.\n9 Andrei Sakharov St. - Floor 3, Haifa 31016 Israel Israel P.O.B. 1723 Haifa Israel",
     "addressLocation": {
       "UnLocode": "HFA",

@@ -6,7 +6,7 @@
   "linerName": "Megastar Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "4 Leng Kee Road, #02-06/07 SIS Building, Singapore 159088",
   "addressLocation": {
     "UnLocode": "SIN",

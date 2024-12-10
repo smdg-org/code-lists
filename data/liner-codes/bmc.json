@@ -6,7 +6,7 @@
   "linerName": "BMC Line Shipping Egypt",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "BMC LINE SHIPPING SERVICES,\nFloor : 23rd, Suite : 2306,Churchill Executive Tower - Dubai - United Arab Emirates",
   "addressLocation": {
     "UnLocode": "DXB",

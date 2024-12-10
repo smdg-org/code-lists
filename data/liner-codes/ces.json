@@ -6,7 +6,7 @@
   "linerName": "Crosseast Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Office #803, 8th Floor, MM Tower, Maktoum Road, Near Emirates Concorde Hotel Deira, Dubai, UAE",
   "addressLocation": {
     "UnLocode": "DXB",

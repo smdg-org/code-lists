@@ -6,7 +6,7 @@
   "linerName": "Mercosul",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "R. Guaia\u00F3, 66 - 21\u00BA Andar - Aparecida, Santos - SP, Brazil zipcode: 11030-000",
   "addressLocation": {
     "UnLocode": "SSZ",

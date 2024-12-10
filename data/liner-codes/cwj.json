@@ -6,7 +6,7 @@
   "linerName": "PT Cumawis Jakarta",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "SSL",
+  "parentCompany": "SSL",
   "address": "c/o PT Samudera Shipping Servi, 1st Floor, Samudera Indonesia Building, Jalan Letjen S Parman 35, Kel Palmerah, Jakarta 11480, Indonesia",
   "addressLocation": {
     "UnLocode": "",

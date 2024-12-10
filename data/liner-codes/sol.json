@@ -6,7 +6,7 @@
   "linerName": "Strait Orient Lines",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Straits Orient Lines (Singapore) Pte Ltd\n120 Lower Delta Road #06-07 Cendex Centre Singapore - 169 208.",
   "addressLocation": {
     "UnLocode": "SIN",

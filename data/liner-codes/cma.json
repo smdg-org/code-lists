@@ -6,7 +6,7 @@
   "linerName": "CMA CGM",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "CMA",
+  "parentCompany": "CMA",
   "address": "Boulevard Jacques Saad\u00E9, 4 Quai d\u0027Arenc 13235 Marseille cedex 02 France",
   "addressLocation": {
     "UnLocode": "MRS",

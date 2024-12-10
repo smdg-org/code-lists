@@ -6,7 +6,7 @@
   "linerName": "Summit Shipping PTE LTD",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "200 Cantonment Road, #06-01 South Point, Singapore 089763, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

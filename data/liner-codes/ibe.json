@@ -6,7 +6,7 @@
   "linerName": "i-Be Shipping International Pte Ltd",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "IBE",
+  "parentCompany": "IBE",
   "address": "2S JALAN PAPAN SINGAPORE 619413",
   "addressLocation": {
     "UnLocode": "SIN",

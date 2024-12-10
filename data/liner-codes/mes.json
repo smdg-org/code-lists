@@ -6,7 +6,7 @@
   "linerName": "Messina Lines, Genoa",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "MSC",
+  "parentCompany": "MSC",
   "address": "Via G. D\u0027Annunzio 91, 16121 Genova GE, Italy",
   "addressLocation": {
     "UnLocode": "GOA",

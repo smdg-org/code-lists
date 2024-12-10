@@ -6,7 +6,7 @@
   "linerName": "YQN LINK International Logistics (SG) Pte. Ltd.",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "390 HAVELOCK ROAD\n#07-01 KING\u0027S CENTRE\nSINGAPORE (169662)",
   "addressLocation": {
     "UnLocode": "SIN",

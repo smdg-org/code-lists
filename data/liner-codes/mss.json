@@ -6,7 +6,7 @@
   "linerName": "Maldives International Shipping Singapore",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "11 International Rd, Singapore 079903\nPhone: \u002B65 6224 2095",
   "addressLocation": {
     "UnLocode": "SIN",

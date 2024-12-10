@@ -6,7 +6,7 @@
   "linerName": "Ellerman City Liner",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Upminster Court\n133 Hall Lane\nEssex\nRM14 1AL",
   "addressLocation": {
     "UnLocode": "UPM",

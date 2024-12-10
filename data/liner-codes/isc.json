@@ -6,7 +6,7 @@
   "linerName": "ISCONT",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Tel Aviv\nAddress: 2 Hashlosha St. Tel-aviv\n",
   "addressLocation": {
     "UnLocode": "TLV",

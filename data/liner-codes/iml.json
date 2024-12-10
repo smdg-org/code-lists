@@ -6,7 +6,7 @@
   "linerName": "Intermarine",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "ZEM",
+  "parentCompany": "ZEM",
   "address": "Ludwig-Erhard-Str. 22, 20459 Hamburg, Germany",
   "addressLocation": {
     "UnLocode": "HAM",

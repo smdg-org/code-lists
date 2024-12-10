@@ -6,7 +6,7 @@
   "linerName": "Neptune Pacific Direct Line",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "NPD",
+  "parentCompany": "NPD",
   "address": "NEPTUNE PACIFIC DIRECT LINE\u00A0 PTE. LTD. 78 Shenton Way\n#15-03 Singapore 079120",
   "addressLocation": {
     "UnLocode": "SIN",

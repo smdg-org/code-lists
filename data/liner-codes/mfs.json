@@ -6,7 +6,7 @@
   "linerName": "Myanmar Five Star Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Bogalay Zay St, Yangon, Myanmar (Burma)",
   "addressLocation": {
     "UnLocode": "",

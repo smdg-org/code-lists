@@ -6,7 +6,7 @@
   "linerName": "SILKargo Logistics (Singapore) Pte Ltd",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "SSL",
+  "parentCompany": "SSL",
   "address": "6 Raffles Quay #25-02. Singapore 048580",
   "addressLocation": {
     "UnLocode": "SIN",

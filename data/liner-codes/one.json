@@ -6,7 +6,7 @@
   "linerName": "Ocean Network Express Pte. Ltd.",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "ONE",
+  "parentCompany": "ONE",
   "address": "7 Straits View,\n#16-01 Marina One East Tower,\nSingapore 018936",
   "addressLocation": {
     "UnLocode": "SIN",

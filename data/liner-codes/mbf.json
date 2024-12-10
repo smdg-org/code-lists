@@ -6,7 +6,7 @@
   "linerName": "MBF Carpenter Shipping Kuala Lumpur",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "HEAD OFFICE, KUALA LUMPUR, MBf Carpenters Shipping Ltd, Level 17, Menara MBf, Jalan Sultan Ismail, 50250 Kuala Lumpur, Malaysia",
   "addressLocation": {
     "UnLocode": "KUL",

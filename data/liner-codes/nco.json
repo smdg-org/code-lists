@@ -6,7 +6,7 @@
   "linerName": "Northern Coastal Transport LTDA",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "AVENIDA DAS NACOES UNIDAS, 14.261 ALA B - 28 ANDAR - CONJ B 04794-000 SAO PAULO, Brazil",
   "addressLocation": {
     "UnLocode": "SAO",

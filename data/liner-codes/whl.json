@@ -6,7 +6,7 @@
   "linerName": "Wan Hai Lines",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "WHL",
+  "parentCompany": "WHL",
   "address": "10th floor, No. 136, SongJiang Rd, Zhongshan District, Taipei City 10491, Taiwan (R.O.C.)",
   "addressLocation": {
     "UnLocode": "TPE",

@@ -6,7 +6,7 @@
   "linerName": "J.F.Hillebrand Singapore Pte Ltd",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "J.F. Hillebrand Group AG",
+  "parentCompany": "J.F. Hillebrand Group AG",
   "address": "1 Kim Seng Promenade, #11-01 to #11-06 Great World City East Tower, Singapore 237994, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

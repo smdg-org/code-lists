@@ -6,7 +6,7 @@
   "linerName": "North Sea Container Line",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "M\u00F8llerveien 22, 5523 Haugesund, Norway",
   "addressLocation": {
     "UnLocode": "HAU",

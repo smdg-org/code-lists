@@ -6,7 +6,7 @@
   "linerName": "Hae Yang Shipping Co.",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "429-6 Myeongi 1-ro,Daesan-sup, Seosun-si, Chungcheongnem-do, South Korea\n",
   "addressLocation": {
     "UnLocode": "",

@@ -6,7 +6,7 @@
   "linerName": "Eucon",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Eucon Dublin\nBreakwater Road South\nFerryport, Dublin 1\nIreland\n",
   "addressLocation": {
     "UnLocode": "DUB",

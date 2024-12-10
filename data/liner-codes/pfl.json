@@ -6,7 +6,7 @@
   "linerName": "Pacific Forum Line",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "NPD",
+  "parentCompany": "NPD",
   "address": "82 Richard Pearse Drive, Mangere, Auckland Airport 2022, New Zealand",
   "addressLocation": {
     "UnLocode": "",

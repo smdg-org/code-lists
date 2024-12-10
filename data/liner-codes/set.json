@@ -6,7 +6,7 @@
   "linerName": "Setramar",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Via Classicana 99, 48122 Ravenna RA, Italy",
   "addressLocation": {
     "UnLocode": "RAN",

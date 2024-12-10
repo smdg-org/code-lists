@@ -6,7 +6,7 @@
   "linerName": "Shanghai Jinjiang Shipping",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "SJJ",
+  "parentCompany": "SJJ",
   "address": "Floor 15, Golden Bell Plaza, No.98. Huai Hai Road(Middle), Shanghai 200021, China",
   "addressLocation": {
     "UnLocode": "SGH",

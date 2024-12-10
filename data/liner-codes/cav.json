@@ -6,7 +6,7 @@
   "linerName": "Compania Sud Americana De Vapores",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Hendaya 60, Piso 10, Las Condes, Santiago de Chile, Chile",
   "addressLocation": {
     "UnLocode": "SCL",

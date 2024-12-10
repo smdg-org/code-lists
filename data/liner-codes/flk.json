@@ -6,7 +6,7 @@
   "linerName": "Folk Maritime",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "Folk Maritime Services Company",
+  "parentCompany": "Folk Maritime Services Company",
   "address": "Building No. 2217, Abdulwahid Bin Ahmad,\nAl Nakheel Dist. Riyadh 12385\nKingdom of Saudi Arabia",
   "addressLocation": {
     "UnLocode": "RUH",

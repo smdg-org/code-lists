@@ -6,7 +6,7 @@
   "linerName": "HEDE (Hongkong) International Shipping Limited",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "BEN",
+  "parentCompany": "BEN",
   "address": "Harbor Development Zone, Tangshan City, Hebei Province | Phone\uFF1A\u002B86-315-2927508",
   "addressLocation": {
     "UnLocode": "",

@@ -6,7 +6,7 @@
   "linerName": "Contcharters",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "CON",
+  "parentCompany": "CON",
   "address": "Ajeltake Road, Ajeltake Island, Majure MH96960, Marshall Islands",
   "addressLocation": {
     "UnLocode": "",

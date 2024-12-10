@@ -6,7 +6,7 @@
   "linerName": "Hamburg Sud",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "MSK",
+  "parentCompany": "MSK",
   "address": "Willy-Brandt-Stra\u00DFe 59\u201365, 20457 Hamburg, Germany\nMailing Address: Postfach 11 15 33, 20415 Hamburg, Germany",
   "addressLocation": {
     "UnLocode": "HAM",

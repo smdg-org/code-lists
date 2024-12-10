@@ -6,7 +6,7 @@
   "linerName": "Eng Lee Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Eng Lee Shipping Co. Pte Ltd, 2 Havelock Road, #05-07 Havelock II, Singapore 059763, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

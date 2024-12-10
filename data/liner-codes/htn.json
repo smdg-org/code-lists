@@ -6,7 +6,7 @@
   "linerName": "Hastin Container Line Pte Ltd.",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "HTN",
+  "parentCompany": "HTN",
   "address": "99 DUXTON ROAD, 089543, SINGAPORE",
   "addressLocation": {
     "UnLocode": "SIN",

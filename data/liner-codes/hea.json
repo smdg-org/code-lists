@@ -6,7 +6,7 @@
   "linerName": "Heung-A Shipping",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "3/F Haenam 2 Bldg. 12 Sejong-daero 12-gil, Jung-gu Seoul, Seoul, 04526 Republic Of Korea",
   "addressLocation": {
     "UnLocode": "SEL",

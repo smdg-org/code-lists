@@ -6,7 +6,7 @@
   "linerName": "AKKON Lines",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "AKKON Denizcilik Nakliyat ve Ticaret A.\u015E./AKKON Maritime Transport and Trade S.A.\nK\u0131s\u0131kl\u0131 Mah. Alemda\u011F Cad. No:17/1\n\u00DCsk\u00FCdar / Istanbul, Turkey",
   "addressLocation": {
     "UnLocode": "IST",

@@ -6,7 +6,7 @@
   "linerName": "AGS Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "DVINSKAYA STR 16 2,7TH FLOOR, ST.PETERSBURG, 198035",
   "addressLocation": {
     "UnLocode": "LED",

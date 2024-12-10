@@ -6,7 +6,7 @@
   "linerName": "Evergreen Marine (UK) Ltd. (Hatsu Marine)",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "EMC",
+  "parentCompany": "EMC",
   "address": "Evergreen House, 160 Euston road, London NW1 2DX, United Kingdom",
   "addressLocation": {
     "UnLocode": "",

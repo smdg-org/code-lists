@@ -6,7 +6,7 @@
   "linerName": "Shipping Corporation of India",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Shipping House 10th floor, 245, Madam Cama Road, Mumbai 400-021, India",
   "addressLocation": {
     "UnLocode": "BOM",

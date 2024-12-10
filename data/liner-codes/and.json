@@ -6,7 +6,7 @@
   "linerName": "Andes Operador Multimodal",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "HLC",
+  "parentCompany": "HLC",
   "address": "Av Das Nacoes Unidas, 14261, Andar 28 Conj B Parte Ala B Cond Wtorre Morumbi\nVila Gertrudes, Sao Paulo, Brazil",
   "addressLocation": {
     "UnLocode": "SAO",

@@ -6,7 +6,7 @@
   "linerName": "Tai Young Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "RM603, Hanjin BlDG (new), 88 Sogong ro , Jung-Gu, Seoul, Korea ",
   "addressLocation": {
     "UnLocode": "SEL",

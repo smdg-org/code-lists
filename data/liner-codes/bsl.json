@@ -6,7 +6,7 @@
   "linerName": "Blue Star Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "17/240 Queen Street,\nBrisbane, QLD, Australia 4000\n",
   "addressLocation": {
     "UnLocode": "BNE",

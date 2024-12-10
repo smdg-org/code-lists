@@ -6,7 +6,7 @@
   "linerName": "Perkapalan Dai Zun",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "No.1, Jalan Sungai Aur,\n42000 Port Klang,\nSelangor Darul Ehsan,\nMalaysia.",
   "addressLocation": {
     "UnLocode": "PKG",

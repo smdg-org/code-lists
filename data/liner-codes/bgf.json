@@ -6,7 +6,7 @@
   "linerName": "Bg Freight Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Den Hamweg 30\nP.O. Box 54022\n3008 JA Rotterdam\nThe Netherlands",
   "addressLocation": {
     "UnLocode": "RTM",

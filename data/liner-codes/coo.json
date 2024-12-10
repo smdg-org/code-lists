@@ -6,7 +6,7 @@
   "linerName": "Cool Carriers",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Cool Carriers AB, Barnhusgatan 16, 111 23 Stockholm, Sweden",
   "addressLocation": {
     "UnLocode": "STO",

@@ -6,7 +6,7 @@
   "linerName": "Legend Container Line",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "LGD",
+  "parentCompany": "LGD",
   "address": "531, Upper Cross Street, #03-71 Hong Lim Complex, Singapore 050531",
   "addressLocation": {
     "UnLocode": "SIN",

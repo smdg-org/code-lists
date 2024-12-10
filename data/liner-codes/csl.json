@@ -6,7 +6,7 @@
   "linerName": "Canada States Africa Line, Montreal",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "CSAL Montreal, 478 McGill Street, Montreal, Quebec H2Y 2H2, Canada",
   "addressLocation": {
     "UnLocode": "MTR",

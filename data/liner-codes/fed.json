@@ -6,7 +6,7 @@
   "linerName": "Fednav",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "1000 de La Gaucheti\u00E8re Street West, Suite 3500, Montreal, Quebec  H3B 4W5, Canada\n",
   "addressLocation": {
     "UnLocode": "MTR",

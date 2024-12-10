@@ -6,7 +6,7 @@
   "linerName": "Kyowa Shipping Co., Tokyo",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Hibiya Building, 4th Floor, 1-1, Shimbashi 1-Chome, Minato-Ku, Tokyo 105-0004, Japan\n",
   "addressLocation": {
     "UnLocode": "",

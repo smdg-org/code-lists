@@ -6,7 +6,7 @@
   "linerName": "Feedertech",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "UFE",
+  "parentCompany": "UFE",
   "address": "3 Temasek Avenue,\n#15-01, Centennial Tower,\nSingapore 039190\n",
   "addressLocation": {
     "UnLocode": "SIN",

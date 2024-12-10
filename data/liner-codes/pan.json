@@ -6,7 +6,7 @@
   "linerName": "Pan Continental Shipping Co., Ltd.",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "DONG JU B/D 824-24 YEOK SAM-DONG KANG NAM-KU\nZip Code 135-080\nCity SEOUL\nState \nCountry Korea, Republic of",
   "addressLocation": {
     "UnLocode": "SEL",

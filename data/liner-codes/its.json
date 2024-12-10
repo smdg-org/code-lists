@@ -6,7 +6,7 @@
   "linerName": "Italia Maritima SPA",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "EMC",
+  "parentCompany": "EMC",
   "address": "Passeggio Sant\u2019Andrea 4, 34123 Trieste, Italy",
   "addressLocation": {
     "UnLocode": "TRS",

@@ -6,7 +6,7 @@
   "linerName": "Monter Global",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "3791 Jalan Bukit Merah, #08-25, E Centre, Singapore 159471",
   "addressLocation": {
     "UnLocode": "SIN",

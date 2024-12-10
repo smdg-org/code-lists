@@ -6,7 +6,7 @@
   "linerName": "G2 Ocean AS",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "Grieg Star \u0026 Gearbulk",
+  "parentCompany": "Grieg Star \u0026 Gearbulk",
   "address": "C. Sundtsgt 17, 5004 Bergen, Norway",
   "addressLocation": {
     "UnLocode": "BGO",

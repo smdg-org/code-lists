@@ -6,7 +6,7 @@
   "linerName": "Hugo Stinnes Line (Rostock)",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "MOC",
+  "parentCompany": "MOC",
   "address": "HUGO STINNES SCHIFFAHRT GmbH\nStrandstra\u00DFe 87\n18055 Rostock",
   "addressLocation": {
     "UnLocode": "HRO",

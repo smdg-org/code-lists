@@ -6,7 +6,7 @@
   "linerName": "OVP Shipping",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Flat/RMD38/F Boton Tech Innovation Tower\n368 Kwun Tong Road, Hong Kong",
   "addressLocation": {
     "UnLocode": "HKG",

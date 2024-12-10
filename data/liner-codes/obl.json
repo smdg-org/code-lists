@@ -6,7 +6,7 @@
   "linerName": "Oceanblu Shipping (S) PTE LTD",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "OBL",
+  "parentCompany": "OBL",
   "address": "7B Keppel Road, PSA Tanjong Pagar Complex\n#09-11 Tower Block Singapore 089055",
   "addressLocation": {
     "UnLocode": "SIN",

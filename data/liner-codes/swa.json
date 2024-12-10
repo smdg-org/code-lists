@@ -6,7 +6,7 @@
   "linerName": "Swan Shipping",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "SCL Swan Container Lines GmbH, Alter Wall 55, 20457 Hamburg, Germany",
   "addressLocation": {
     "UnLocode": "HAM",

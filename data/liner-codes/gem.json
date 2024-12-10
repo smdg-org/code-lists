@@ -6,7 +6,7 @@
   "linerName": "Golden Eagle Maritime",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "5001 Beach Rd, Golden Mile Complex, Singapore 199589",
   "addressLocation": {
     "UnLocode": "SIN",

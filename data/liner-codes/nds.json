@@ -6,7 +6,7 @@
   "linerName": "Nile Dutch Africa Lines",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "HLC",
+  "parentCompany": "HLC",
   "address": "NileDutch, Westblaak 95, 3012 KG Rotterdam, The Netherlands\nPO Box 21032, 3001 AA Rotterdam, The Netherlands",
   "addressLocation": {
     "UnLocode": "",

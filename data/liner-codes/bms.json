@@ -6,7 +6,7 @@
   "linerName": "Bintang Mas Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Bintang Mas Shipping Pte. Ltd.\n2 Boon Leat Terrace,\n#08-02 HarbourSide Building 2,\nSingapore 119844",
   "addressLocation": {
     "UnLocode": "SIN",

@@ -6,7 +6,7 @@
   "linerName": "Eastrans Lines (S) Pte Ltd",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "ETL",
+  "parentCompany": "ETL",
   "address": "100D Pasir Panjang Road #02-01 Singapore 118520",
   "addressLocation": {
     "UnLocode": "SIN",

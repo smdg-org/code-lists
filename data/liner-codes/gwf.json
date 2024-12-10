@@ -6,7 +6,7 @@
   "linerName": "Great White Fleet / Chiquita Bananas",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "CBF",
+  "parentCompany": "CBF",
   "address": "Great White Fleet Liner Services Ltd., 1855 Griffin Rd, Suite C-436, Dania Beach, FL 33004, USA",
   "addressLocation": {
     "UnLocode": "",

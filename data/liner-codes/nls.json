@@ -6,7 +6,7 @@
   "linerName": "Neptune Lines Shipping, Liberia",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Neptune Lines Shipping \u0026 Managing Enterprises S.A.,\n5-9 Iassonos Street, GR - 18537 Piraeus, Greece",
   "addressLocation": {
     "UnLocode": "PIR",

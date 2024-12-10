@@ -6,7 +6,7 @@
   "linerName": "NAMSUNG Shipping Co. Ltd.",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "363, Samil-daero, Jung-gu, Seoul, Korea (Janggyo Bldg,17th)",
   "addressLocation": {
     "UnLocode": "SEL",

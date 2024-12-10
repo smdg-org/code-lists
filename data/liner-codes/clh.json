@@ -6,7 +6,7 @@
   "linerName": "Clarion Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Clarion Shipping Services L.L.C\nP O Box 43030, Palace Tower1, Office No. 1802 and 1803, Dubai Silicon Oasis, Dubai-UAE.",
   "addressLocation": {
     "UnLocode": "DXB",

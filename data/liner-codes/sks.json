@@ -6,7 +6,7 @@
   "linerName": "Soon Kiat Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "1 Commonwealth Lane, Singapore 149544, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

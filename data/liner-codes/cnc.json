@@ -6,7 +6,7 @@
   "linerName": "DONGSUE Shipping Co. Ltd.",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "#72, 10FL,. 1445-3, KUKJE ELECTRONIC CENTER, SEOCHO-GU, SECHO-DONG, SEOUL, KOREA",
   "addressLocation": {
     "UnLocode": "SEL",

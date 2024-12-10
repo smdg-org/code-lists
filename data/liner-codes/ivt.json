@@ -6,7 +6,7 @@
   "linerName": "InviCont OU",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "IVT",
+  "parentCompany": "IVT",
   "address": "P\u00E4rnu mnt 102-15, Tallinn, 11312, Estonia\n",
   "addressLocation": {
     "UnLocode": "",

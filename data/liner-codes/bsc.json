@@ -6,7 +6,7 @@
   "linerName": "Bangladesh Shipping Corporation",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "BSC Bhaban, CHITTAGONG, Chittagong 4100, Bangladesh\n",
   "addressLocation": {
     "UnLocode": "",

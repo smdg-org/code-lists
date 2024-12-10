@@ -6,7 +6,7 @@
   "linerName": "Maxicon Shipping Agencies Pte Ltd",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "MXN",
+  "parentCompany": "MXN",
   "address": "200 Cantonment Road, #14-01A South Point, Singapore 089763, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

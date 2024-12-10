@@ -6,7 +6,7 @@
   "linerName": "FESCO Lines Vladivostok Ltd",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "15 Aleutskaya Street, Vladivostok, 690090, Russian Federation",
   "addressLocation": {
     "UnLocode": "VVO",

@@ -6,7 +6,7 @@
   "linerName": "CK LINE CO LTD",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "EULJIRO-80-1, BOSEUNG BUILDING 7TH FLOOR, 80-1, EULJI-RO, JUNG-GU, SEOUL, REPUBLIC OF KOREA 04538",
   "addressLocation": {
     "UnLocode": "SEL",

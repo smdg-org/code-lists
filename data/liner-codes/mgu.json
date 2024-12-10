@@ -6,7 +6,7 @@
   "linerName": "Marguisa Shipping Lines, S.L.U",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Villanueva n\u00BA5, 1\u00BA, 28001 Madrid, Spain",
   "addressLocation": {
     "UnLocode": "",

@@ -6,7 +6,7 @@
   "linerName": "Tailwind Shipping Lines",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": " ",
+  "parentCompany": " ",
   "address": "Tailwind Shipping Lines GmbH \u0026 Co. KG, Trostbr\u00FCcke 1, 20457 Hamburg, Germany",
   "addressLocation": {
     "UnLocode": "HAM",

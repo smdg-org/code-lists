@@ -6,7 +6,7 @@
   "linerName": "Vasco Maritime Line Singapore",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "BLK 511 KAMPONG BAHRU RD #02-05 KEPPEL DISTRIPARK\nZip Code 099 447\nCity Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

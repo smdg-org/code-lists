@@ -6,7 +6,7 @@
   "linerName": "Rhenus Logistics",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "Rhenus Logistics                     ",
+  "parentCompany": "Rhenus Logistics                     ",
   "address": "Headquarter: Rhenus SE \u0026 Co. KG\nRhenus-Platz 1, 59439 Holzwickede, Germany\nAsia headquarter: 17 Changi Business Park Central 1, Honeywell Building #06-08, Singapore 486073",
   "addressLocation": {
     "UnLocode": "SIN",

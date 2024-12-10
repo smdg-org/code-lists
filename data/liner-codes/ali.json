@@ -6,7 +6,7 @@
   "linerName": "Alianca Navegacao Ltd., Brasil",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "MSK",
+  "parentCompany": "MSK",
   "address": "Alian\u00E7a Navega\u00E7\u00E3o e Log\u00EDstica Ltda.\nRua Verbo Divino, 1547\nBairro Ch\u00E1cara Santo Ant\u00F4nio",
   "addressLocation": {
     "UnLocode": "SAO",

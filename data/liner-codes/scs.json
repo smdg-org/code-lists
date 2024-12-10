@@ -6,7 +6,7 @@
   "linerName": "Sea Consortium",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "XPF",
+  "parentCompany": "XPF",
   "address": "11 Duxton Hill\nSingapore 089595",
   "addressLocation": {
     "UnLocode": "SIN",

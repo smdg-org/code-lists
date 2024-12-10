@@ -6,7 +6,7 @@
   "linerName": "Marfret Compagnie Maritime",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Marfret Fos managed by Marseille, 13 Quai de la joliette, 13002 Marseille, France",
   "addressLocation": {
     "UnLocode": "MRS",

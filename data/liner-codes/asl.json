@@ -6,7 +6,7 @@
   "linerName": "A.A.SHIPPING LTD",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "65 Yigal Alon St,\nTel Aviv , Israel \n",
   "addressLocation": {
     "UnLocode": "TLV",

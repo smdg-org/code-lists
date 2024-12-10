@@ -6,7 +6,7 @@
   "linerName": "United Africa Feeder Line (Mauritius)",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "HEAD OFFICE\nUAFL HOUSE\nDomaine de Labourdonnais,\nMapou 31803, Mauritius",
   "addressLocation": {
     "UnLocode": "MAP",

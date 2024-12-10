@@ -6,7 +6,7 @@
   "linerName": "HUI XIN SHIPPING PTE LTD",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "HXS",
+  "parentCompany": "HXS",
   "address": "22 Malacca Street #14-01A, RB Capital Building Singapore 048980",
   "addressLocation": {
     "UnLocode": "SIN",

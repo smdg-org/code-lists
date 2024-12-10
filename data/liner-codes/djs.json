@@ -6,7 +6,7 @@
   "linerName": "Dongjin Shipping Co, Pusan, Korea",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Head office: \n201A,Paiknam Bldg., 16Eulji-Ro, Jung-Gu, Seoul, Korea",
   "addressLocation": {
     "UnLocode": "SEL",

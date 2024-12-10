@@ -6,7 +6,7 @@
   "linerName": "Global Feeder Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Global Feeder Shipping LLC.,\n18th Floor, Regal Tower, Business Bay\nP.O. Box 23174,\nDubai \u2013 United Arab Emirates",
   "addressLocation": {
     "UnLocode": "DXB",

@@ -6,7 +6,7 @@
   "linerName": "BSA Transportation",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "BSA Logistics Head Office\nJl. Raya Cakung Cilincing Km 3\nJakarta 13910, Indonesia.",
   "addressLocation": {
     "UnLocode": "JKT",

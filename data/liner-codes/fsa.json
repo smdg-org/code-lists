@@ -6,7 +6,7 @@
   "linerName": "Far Shipping Agencies Pte Ltd",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "FAR SHIPPING ( SINGAPORE ) PTE. Ltd. ( H.Office )\n1 Coleman St\nSingapore, 179803\nSingapore",
   "addressLocation": {
     "UnLocode": "SIN",

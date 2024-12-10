@@ -6,7 +6,7 @@
   "linerName": "Pakistan National Shipping Co.",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Head Office Address: PNSC Building, M.T. Khan Road, P.O. BOX No.5350, Karachi-74000, PAKISTAN.",
   "addressLocation": {
     "UnLocode": "",

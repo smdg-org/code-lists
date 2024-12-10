@@ -6,7 +6,7 @@
   "linerName": "EP Carriers",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "EPS SINGAPORE HEADQUARTERS, 1 Temasek Avenue, #38-01 Millenia Tower, Singapore 039192, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

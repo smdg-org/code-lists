@@ -6,7 +6,7 @@
   "linerName": "Unimed Feeder Services Limassol",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "C/o Unifeeder A/S, Tangen 6, 8200 Aarhus N, Denmark\n",
   "addressLocation": {
     "UnLocode": "AAR",

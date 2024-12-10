@@ -6,7 +6,7 @@
   "linerName": "CSAV Austral SpA",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "HLC",
+  "parentCompany": "HLC",
   "address": "Santiago de Chile",
   "addressLocation": {
     "UnLocode": "SCL",

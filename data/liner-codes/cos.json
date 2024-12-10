@@ -6,7 +6,7 @@
   "linerName": "COSCO SHIPPING Lines Co. Ltd",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "COS",
+  "parentCompany": "COS",
   "address": "5299 Binjiang Dadao, Pudong New District, Shanghai, China\n    Postal Code: 200127\n",
   "addressLocation": {
     "UnLocode": "",

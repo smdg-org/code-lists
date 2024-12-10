@@ -6,7 +6,7 @@
   "linerName": "Winfast Lines SDN. BHD. ",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "WFL",
+  "parentCompany": "WFL",
   "address": "52 \u002652A, LORONG SENTOSA 4A, TAMAN BAYU TINGGI, 41200 KLANG, SELANGOR",
   "addressLocation": {
     "UnLocode": "KLA",

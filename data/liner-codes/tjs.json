@@ -6,7 +6,7 @@
   "linerName": "Tong Joo Shipping Pte Ltd",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "100 Beach Rd, Singapore 189702",
   "addressLocation": {
     "UnLocode": "SIN",

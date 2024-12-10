@@ -6,7 +6,7 @@
   "linerName": "Yang Ming Marine Transport Corporation",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "No. 271, Ming De 1st Road, Cidu District, Keelung 206006, Taiwan (R.O.C.)",
   "addressLocation": {
     "UnLocode": "KEL",

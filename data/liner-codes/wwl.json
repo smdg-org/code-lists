@@ -6,7 +6,7 @@
   "linerName": "Wallenius Wilhelmsen Lines AS",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Wallenius Wilhelmsen, Strandveien 20, 1364 Lysaker, Norway",
   "addressLocation": {
     "UnLocode": "LYS",

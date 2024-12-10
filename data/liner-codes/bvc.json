@@ -6,7 +6,7 @@
   "linerName": "Bon Voyage Container Trans Lines Pte Ltd",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "8B ADMIRALTY STREET, #02-03, 8B@ADMIRALTY, SINGAPORE 757440",
   "addressLocation": {
     "UnLocode": "SIN",

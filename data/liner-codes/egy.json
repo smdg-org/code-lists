@@ -6,7 +6,7 @@
   "linerName": "Egyptian Navigation Co.",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Egyptian Navigation Company S.A.E. Building 2\nEl Nasr Street\nAl Gomrok Area\nEgypt\nAlexandria\n21511",
   "addressLocation": {
     "UnLocode": "ALY",

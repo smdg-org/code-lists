@@ -6,7 +6,7 @@
   "linerName": "Atlantic Container Line",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "GNC",
+  "parentCompany": "GNC",
   "address": "ATLANTIC CONTAINER LINE, 50 CARDINAL DRIVE, WESTFIELD, NJ 07090, USA. Telephone \u002B1 908 518 5720",
   "addressLocation": {
     "UnLocode": "",

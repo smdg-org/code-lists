@@ -6,7 +6,7 @@
   "linerName": "Med Feeder Italia",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Viale delle Querce 12, 84134 Salerno SA, Italy",
   "addressLocation": {
     "UnLocode": "SAL",

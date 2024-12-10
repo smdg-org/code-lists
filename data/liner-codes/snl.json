@@ -6,7 +6,7 @@
   "linerName": "Sinotrans Container Lines Co Ltd",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Sinotrans Mansion 20F-25F, No.188 Fujian Road (C), Shanghai, 200001, China",
   "addressLocation": {
     "UnLocode": "SGH",

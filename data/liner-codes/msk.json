@@ -6,7 +6,7 @@
   "linerName": "Maersk",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "MSK",
+  "parentCompany": "MSK",
   "address": "Esplanaden 50, 1098 K\u00F8benhavn K, Denmark",
   "addressLocation": {
     "UnLocode": "CPH",

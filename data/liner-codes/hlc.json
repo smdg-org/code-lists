@@ -6,7 +6,7 @@
   "linerName": "Hapag-Lloyd",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "HLC",
+  "parentCompany": "HLC",
   "address": "Ballindamm 25, 20095 Hamburg, Germany",
   "addressLocation": {
     "UnLocode": "HAM",

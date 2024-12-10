@@ -6,7 +6,7 @@
   "linerName": "Andrew Weir Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "AW Ship Management Ltd.\n9 Alie Street, London, E1 8DE\nUnited Kingdom",
   "addressLocation": {
     "UnLocode": "LON",

@@ -6,7 +6,7 @@
   "linerName": "Salamis Lines, Cyprus",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Salamis Lines Ltd\nAddress: Salamis House 1, G Katsounotos Str. P.O.Box 50531\n3607 Limassol, Cyprus",
   "addressLocation": {
     "UnLocode": "",

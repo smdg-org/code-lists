@@ -6,7 +6,7 @@
   "linerName": "MCL Shipping Co",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Mag Container Lines\nPO Box: 29783,\nDubai, UAE",
   "addressLocation": {
     "UnLocode": "DXB",

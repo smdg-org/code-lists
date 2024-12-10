@@ -6,7 +6,7 @@
   "linerName": "SSC Shipping Agencies Pte Ltd",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "200 Cantonment Road, #09-01 South Point, Singapore 089763, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

@@ -6,7 +6,7 @@
   "linerName": "Delta Shipping Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Delta Shipping \u0026 Trading Inc. Erturk sok. No:5 34810 Kavacik - Beykoz - Istanbul ",
   "addressLocation": {
     "UnLocode": "IST",

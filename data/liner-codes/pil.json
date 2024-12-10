@@ -6,7 +6,7 @@
   "linerName": "Pacific International Lines",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "PIL",
+  "parentCompany": "PIL",
   "address": "PIL Building, 140 Cecil Street, Singapore 069540, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

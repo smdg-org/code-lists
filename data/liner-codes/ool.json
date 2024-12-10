@@ -6,7 +6,7 @@
   "linerName": "Orient Overseas Container Line",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "COS",
+  "parentCompany": "COS",
   "address": "31/F, Harbour Centre 25 Harbour Road, Wanchai, Hong Kong",
   "addressLocation": {
     "UnLocode": "HKG",

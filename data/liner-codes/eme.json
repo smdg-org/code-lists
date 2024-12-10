@@ -6,7 +6,7 @@
   "linerName": "EMES Feedering, Monaco",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "ARK",
+  "parentCompany": "ARK",
   "address": "see Arkas",
   "addressLocation": {
     "UnLocode": "",

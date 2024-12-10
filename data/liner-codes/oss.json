@@ -6,7 +6,7 @@
   "linerName": "Orient Shipping Services",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Sharaf Building,\nP.O.BOX :21886\nDubai, UAE",
   "addressLocation": {
     "UnLocode": "DXB",

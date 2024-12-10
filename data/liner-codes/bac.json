@@ -6,7 +6,7 @@
   "linerName": "Bacoliner",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "CN Shipping Ltd,\nUnit 3, Lakeside Business Village,\nFleming Road,\nChafford Hundred,\nGrays,\nEssex RM16 6EW.",
   "addressLocation": {
     "UnLocode": "GYS",

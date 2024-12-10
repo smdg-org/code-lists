@@ -6,7 +6,7 @@
   "linerName": "INSPIRE SHIPS AND PROJECTS (S) PTE LTD",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "IPS",
+  "parentCompany": "IPS",
   "address": " 1 PAYA LBEAR LINK, #04-01 PAYA LEBAR QUARTERS, \nSINGAPORE 408533",
   "addressLocation": {
     "UnLocode": "SIN",

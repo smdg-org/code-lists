@@ -6,7 +6,7 @@
   "linerName": "Tru-Trans Malaysia",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Pandamaran, 42000 Port Klang, Selangor, Malaysia",
   "addressLocation": {
     "UnLocode": "PKG",

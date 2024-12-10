@@ -6,7 +6,7 @@
   "linerName": "IRISL Korea Co. Ltd",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "ISL",
+  "parentCompany": "ISL",
   "address": "see ISL",
   "addressLocation": {
     "UnLocode": "",

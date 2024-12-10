@@ -6,7 +6,7 @@
   "linerName": "Guaran Feeder",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Av. Gral. Jos\u00E9 Gervasio Artigas 3443, Asunci\u00F3n 001517, Paraguay",
   "addressLocation": {
     "UnLocode": "",

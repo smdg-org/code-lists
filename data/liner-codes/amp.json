@@ -6,7 +6,7 @@
   "linerName": "AVISA Maritime Pte.Ltd.",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Avisa Maritime Pte Ltd, 6 Raffles Quay, #14-06 Singapore 048580, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

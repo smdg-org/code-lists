@@ -6,7 +6,7 @@
   "linerName": "Matson Navigation",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "555 12TH STREET-SUITE 700\nZip Code \nCity OAKLAND, CA 94610\nState \nCountry United States",
   "addressLocation": {
     "UnLocode": "OAK",

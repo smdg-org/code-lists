@@ -6,7 +6,7 @@
   "linerName": "Seaboard Marine Ltd.",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Seaboard Marine\n8001 NW 79th Avenue, Miami, Florida, 33166, USA",
   "addressLocation": {
     "UnLocode": "MIA",

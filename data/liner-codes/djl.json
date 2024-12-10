@@ -6,7 +6,7 @@
   "linerName": "PT Jakarta Lloyd",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "PT Djakarta LLoyd (Persero)\nDlloyd Building,\nJl Raden Saleh Raya No. 51,\nJakarta Pusat 10330, Indonesia",
   "addressLocation": {
     "UnLocode": "JKT",

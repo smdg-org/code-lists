@@ -6,7 +6,7 @@
   "linerName": "X-Press Feeders",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "11 Duxton Hill\nSingapore 089595",
   "addressLocation": {
     "UnLocode": "SIN",

@@ -6,7 +6,7 @@
   "linerName": "Borchard",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "10 Chiswell Street, London EC1Y 4XY, United Kingdom",
   "addressLocation": {
     "UnLocode": "LON",

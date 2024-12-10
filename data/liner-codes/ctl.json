@@ -6,7 +6,7 @@
   "linerName": "Charter Link Pte Ltd",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "336 Smith Street, #05-301\nNew Bridge Centre\nSingapore 050336",
   "addressLocation": {
     "UnLocode": "SIN",

@@ -6,7 +6,7 @@
   "linerName": "Co Chilena De Naveg. Interoceania S.A.",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "MSK",
+  "parentCompany": "MSK",
   "address": "",
   "addressLocation": {
     "UnLocode": "",

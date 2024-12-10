@@ -6,7 +6,7 @@
   "linerName": "Malaysia Shipping Corporation",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "PIL",
+  "parentCompany": "PIL",
   "address": "MALAYSIAN SHIPPING CORP. SDN. BHD., A-3A-1, 4Th Floor, South Tower (Tower A), Bbt One The Towers, Lebuh Batu Nilam 1, Bandar Bukit Tinggi, 41200 Klang, Malaysia",
   "addressLocation": {
     "UnLocode": "KLA",

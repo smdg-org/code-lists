@@ -6,7 +6,7 @@
   "linerName": "Agencia Maritima Velmaren SA",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "\u00A0",
+  "parentCompany": "\u00A0",
   "address": "25 DE AGOSTO 18 25 OF 301, Montevideo",
   "addressLocation": {
     "UnLocode": "MVD",

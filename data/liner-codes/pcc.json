@@ -6,7 +6,7 @@
   "linerName": "PACC Container Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "PACC Line\nNo 1, Kim Seng Promenade\n#07-02, Great World City\nSingapore 237994",
   "addressLocation": {
     "UnLocode": "SIN",

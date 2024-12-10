@@ -6,7 +6,7 @@
   "linerName": "Containerships \u2013 CMA CGM GmbH",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "CMA",
+  "parentCompany": "CMA",
   "address": "Chilehaus A, Fischertwiete 2, 20095 Hamburg, Germany",
   "addressLocation": {
     "UnLocode": "HAM",

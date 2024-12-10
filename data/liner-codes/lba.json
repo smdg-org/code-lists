@@ -6,7 +6,7 @@
   "linerName": "Companhia Libra de Navegacao, Rio de Janeiro",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "HLC",
+  "parentCompany": "HLC",
   "address": "Rua Gil Stein Ferreira, 258 - Centro - Itajai - SC - CEP 88301-210",
   "addressLocation": {
     "UnLocode": "ITJ",

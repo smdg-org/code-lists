@@ -6,7 +6,7 @@
   "linerName": "Seaway Lines PTE. LTD.",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "1, NORTH BRIDGE ROAD, #06-27, HIGH STREET CENTRE, SINGAPORE 179094",
   "addressLocation": {
     "UnLocode": "SIN",

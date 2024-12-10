@@ -6,7 +6,7 @@
   "linerName": "Grimaldi Lines",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "GNC",
+  "parentCompany": "GNC",
   "address": "Via Marchese Campodisola 13, 80133 Napoli NA, Italy",
   "addressLocation": {
     "UnLocode": "NAP",

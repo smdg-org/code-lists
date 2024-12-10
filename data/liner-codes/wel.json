@@ -6,7 +6,7 @@
   "linerName": "Worldgate Express Lines",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Singapore (Worldgate Group Head Office)\nWorldgate Express Lines Pte Ltd\n180, Telok Ayer Street\nThe Worldgate\nSingapore 068628",
   "addressLocation": {
     "UnLocode": "SIN",

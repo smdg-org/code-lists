@@ -6,7 +6,7 @@
   "linerName": "COSCO SHIPPING Lines (Europe) GmbH",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "COS",
+  "parentCompany": "COS",
   "address": "Logistics Service, Am Sandtorkai 60, 20457 Hamburg, Germany",
   "addressLocation": {
     "UnLocode": "HAM",

@@ -6,7 +6,7 @@
   "linerName": "MACS Maritime Carrier Shipping GmbH \u0026 Co.",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "MOC",
+  "parentCompany": "MOC",
   "address": "MACS MARITIME CARRIER SHIPPING GMBH \u0026 CO, GROSSE ELBSTRASSE 138, 22767 HAMBURG, Germany",
   "addressLocation": {
     "UnLocode": "HAM",

@@ -6,7 +6,7 @@
   "linerName": "COMANAV",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "CMA",
+  "parentCompany": "CMA",
   "address": "7 Boulevard Al Moukawama Ex La Resistance, Casablanca, Morocco\n",
   "addressLocation": {
     "UnLocode": "",

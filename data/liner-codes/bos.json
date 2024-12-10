@@ -6,7 +6,7 @@
   "linerName": "Baltic Orient Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "BALTIC ORIENTAL LINES,\nul. Jerzego Waszyngtona 34/36\n81-306 Gdynia, Poland",
   "addressLocation": {
     "UnLocode": "GDY",

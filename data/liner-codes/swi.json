@@ -6,7 +6,7 @@
   "linerName": "Swire Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "SWI",
+  "parentCompany": "SWI",
   "address": "The China Navigation Co\nPte. Ltd.\n300 Beach Road\n#27-01, The Concourse\nSingapore 199555",
   "addressLocation": {
     "UnLocode": "SIN",

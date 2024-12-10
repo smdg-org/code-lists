@@ -6,7 +6,7 @@
   "linerName": "Finnlines",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "GNC",
+  "parentCompany": "GNC",
   "address": "Finnlines Plc, FinnLink Naantali\nSatamatie 11, 21100 Naantali, Finland",
   "addressLocation": {
     "UnLocode": "NLI",

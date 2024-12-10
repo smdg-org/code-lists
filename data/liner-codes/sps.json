@@ -6,7 +6,7 @@
   "linerName": "South Pacific Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Auckland Office\n(Sales, Shipping, Commercial)\nLevel 6, 35 High St,\nAuckland, New Zealand\nPO Box 597, Shortland St,\nAuckland, New Zealand",
   "addressLocation": {
     "UnLocode": "",

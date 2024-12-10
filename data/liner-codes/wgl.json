@@ -6,7 +6,7 @@
   "linerName": "Welgrow Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "HEAD OFFICE\nWelgrow Line (India) Pvt. Ltd.\n520, Maraton Max, 5th Floor,  LBS Road\nMulund (W), Mumbai \u2013 400 080, India",
   "addressLocation": {
     "UnLocode": "BOM",

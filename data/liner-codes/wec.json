@@ -6,7 +6,7 @@
   "linerName": "WEC",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "WEC",
+  "parentCompany": "WEC",
   "address": "W.E.C. Lines B.V.\nAlbert Plesmanweg 59\n3088 GB Rotterdam\nP.O. Box 59230\n3008 PE Rotterdam\nThe Netherlands",
   "addressLocation": {
     "UnLocode": "",

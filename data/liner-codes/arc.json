@@ -6,7 +6,7 @@
   "linerName": "ARC Line (Sunmarine Shipping Services)",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "SUNMARINE SHIPPING SERVICES L.L.C,\nP.O.Box 25890,\nRais Hassan Saadi Building,\nAl Mankool Road, Bur Dubai,\nDubai, United Arab Emirates,",
   "addressLocation": {
     "UnLocode": "DXB",

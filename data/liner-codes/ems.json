@@ -6,7 +6,7 @@
   "linerName": "Evergreen Marine (Singapore) Pte Ltd",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "EMC",
+  "parentCompany": "EMC",
   "address": "200 Cantonment Road, #12-01 Southpoint, Singapore 089763, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

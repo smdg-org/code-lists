@@ -6,7 +6,7 @@
   "linerName": "Sealand - A Maersk Company, Asia",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "MSK",
+  "parentCompany": "MSK",
   "address": "Esplanaden 50, 1098 K\u00F8benhavn K, Denmark",
   "addressLocation": {
     "UnLocode": "CPH",

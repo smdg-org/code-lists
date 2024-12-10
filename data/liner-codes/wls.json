@@ -6,7 +6,7 @@
   "linerName": "White Line Shipping, UAE",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "White Line Shipping \u0026 Cargo LLC\nOffice Address Al Owais Tower Office 305-306 Baniyas Street - Deira, Dubai - UAE\nP.O Box 32064 Dubai - UAE",
   "addressLocation": {
     "UnLocode": "DER",

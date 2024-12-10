@@ -6,7 +6,7 @@
   "linerName": "PHL Containers Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "705 N. Henry Ford Avenue\nWilmington, CA 90744, USA\nAnacostia Rail Holdings Company\n224 S. Michigan Ave., Ste. 330, Chicago, IL 60604",
   "addressLocation": {
     "UnLocode": "CHI",

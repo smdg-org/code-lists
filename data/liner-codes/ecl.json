@@ -6,7 +6,7 @@
   "linerName": "Euro Container Lines",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "see Samskip",
   "addressLocation": {
     "UnLocode": "",

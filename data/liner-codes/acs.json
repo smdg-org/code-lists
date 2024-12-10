@@ -6,7 +6,7 @@
   "linerName": "Atlanticargo Service",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Moscow, 18 Andropova Ave., Building 5\n",
   "addressLocation": {
     "UnLocode": "LED",

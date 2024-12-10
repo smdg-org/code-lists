@@ -6,7 +6,7 @@
   "linerName": "Gold Star Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "ZIM",
+  "parentCompany": "ZIM",
   "address": "5/F Pioneer Place 33 Hoi Yuen Road Kwuntong\nZip Code 865C\u002BPW\nCity Kowloon, Hong Kong",
   "addressLocation": {
     "UnLocode": "HKG",

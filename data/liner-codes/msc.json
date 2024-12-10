@@ -6,7 +6,7 @@
   "linerName": "Mediterranean Shipping Company",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "MSC",
+  "parentCompany": "MSC",
   "address": "MSC Mediterranean Shipping Company S.A., Chemin Rieu 12-14, 1208 Geneva, Switzerland",
   "addressLocation": {
     "UnLocode": "",

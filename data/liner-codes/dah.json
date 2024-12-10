@@ -6,7 +6,7 @@
   "linerName": "DahNAY Lines PTE LTD",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "DAH",
+  "parentCompany": "DAH",
   "address": "No 111, NORTH BRIDGE ROAD, #08 - 04 PENINSULA PLAZA, SINGAPORE - 179098",
   "addressLocation": {
     "UnLocode": "SIN",

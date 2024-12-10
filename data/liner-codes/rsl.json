@@ -6,7 +6,7 @@
   "linerName": "RSL Shipping Pte Ltd",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "MEGASTAR SHIPPING PTE LTD",
+  "parentCompany": "MEGASTAR SHIPPING PTE LTD",
   "address": "SIS Building\n4 Leng Kee Road #02-06/07\nSingapore 159088",
   "addressLocation": {
     "UnLocode": "SIN",

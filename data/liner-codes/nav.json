@@ -6,7 +6,7 @@
   "linerName": "Navio Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "CORPORATE OFFICE\nNavio Shipping LLC\nSuite 1801, Aspin Commercial Tower,\nSheikh Zayed Road,PO Box : 122147\nDubai, United Arab Emirates.",
   "addressLocation": {
     "UnLocode": "DXB",

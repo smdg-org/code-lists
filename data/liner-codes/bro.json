@@ -6,7 +6,7 @@
   "linerName": "Brointermed Lines",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Brointermed Lines Ltd\nQuayside Court, The Quay,\nHarwich, Essex CO12 3HH, United Kingdom",
   "addressLocation": {
     "UnLocode": "HRW",

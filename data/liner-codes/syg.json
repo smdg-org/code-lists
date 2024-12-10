@@ -6,7 +6,7 @@
   "linerName": "Shin Yang Shipping Malaysia",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Sublot 153 (Parent Lot 70), Jalan Kuala Baram,              \nKuala Baram, 98100 Miri, Sarawak, Malaysia",
   "addressLocation": {
     "UnLocode": "MYY",

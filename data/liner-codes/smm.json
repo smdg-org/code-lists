@@ -6,7 +6,7 @@
   "linerName": "Sinokor Merchant Marine",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "2nd Fl., Haenam Bldg., 21, Bukchang-dong, Chung-Ku, Seoul, Korea",
   "addressLocation": {
     "UnLocode": "SEL",

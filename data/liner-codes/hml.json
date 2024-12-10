@@ -6,7 +6,7 @@
   "linerName": "Hub Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Wisma Hubline,\nLease No.3815 (Lot 10914), Section 64, KTLD\nJln Datuk Abang Abdul Rahim, 93450 Kuching, Sarawak, Malaysia.",
   "addressLocation": {
     "UnLocode": "KCH",

@@ -6,7 +6,7 @@
   "linerName": "American President Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "CMA",
+  "parentCompany": "CMA",
   "address": "9 North Buona Vista Drive, #14-01 The Metropolis Tower 1, Singapore 138588, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

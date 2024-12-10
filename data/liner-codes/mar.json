@@ -6,7 +6,7 @@
   "linerName": "Maruba Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "MAIPU 535 1P [C1006ACE] CABA",
   "addressLocation": {
     "UnLocode": "BUE",

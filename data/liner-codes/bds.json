@@ -6,7 +6,7 @@
   "linerName": "Bien Dong Shipping Co, Ha Noi City",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "No1, Thuy Khue, Tay Ho, Ha Noi",
   "addressLocation": {
     "UnLocode": "HAN",

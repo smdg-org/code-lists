@@ -6,7 +6,7 @@
   "linerName": "PIL SOC Services",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "PIL",
+  "parentCompany": "PIL",
   "address": "PIL Building, 140 Cecil Street, Singapore 069540, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

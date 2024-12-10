@@ -6,7 +6,7 @@
   "linerName": "New Guinea Pacific Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "SWI",
+  "parentCompany": "SWI",
   "address": "Swire Shipping Pte. Ltd., 300 Beach Road, #27-01 The Councourse, Singapore 199555, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

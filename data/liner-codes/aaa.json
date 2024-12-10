@@ -6,7 +6,7 @@
   "linerName": "AWATAC Singapore Pte Ltd",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "AWATAC Container  Line  ",
+  "parentCompany": "AWATAC Container  Line  ",
   "address": "105 Cecil Street, #16-01 (SUITE -1614) The Octagon, Singapore 069534, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

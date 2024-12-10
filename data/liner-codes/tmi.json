@@ -6,7 +6,7 @@
   "linerName": "Transportes Maritimos Insulares, Lisbon",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Transportes Mar\u00EDtimos Insulares, S.A.\nEdif\u00EDcio Gon\u00E7alves Zarco\nDoca de Alc\u00E2ntara (lado Norte)\n1399-015 LISBOA\nPortugal",
   "addressLocation": {
     "UnLocode": "",

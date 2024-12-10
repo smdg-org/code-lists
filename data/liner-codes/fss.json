@@ -6,7 +6,7 @@
   "linerName": "Foong Sun Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "FOONG SUN SHIPPING (PTE) LTD\nBlock 211 Henderson Road\n#03-03 Henderson Industrial Park\nSingapore 159552",
   "addressLocation": {
     "UnLocode": "SIN",

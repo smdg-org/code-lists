@@ -6,7 +6,7 @@
   "linerName": "SeaLead Shipping PTE LTD",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "19, Keppel Road, #06-02,\nJit Poh Building, Singapore 079058",
   "addressLocation": {
     "UnLocode": "SIN",

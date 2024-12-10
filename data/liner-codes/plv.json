@@ -6,7 +6,7 @@
   "linerName": "Penex Container Lines Pte Ltd",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "Penex",
+  "parentCompany": "Penex",
   "address": "237 Alexandra Road, #04-08 The Alexcier\nSingapore 159929",
   "addressLocation": {
     "UnLocode": "SIN",

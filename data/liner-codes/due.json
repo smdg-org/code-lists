@@ -6,7 +6,7 @@
   "linerName": "DONGBO Logistics Co. Ltd.",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "136 Mapo-daero, Mapo-gu Seoul, 121803 Korea Rep Of",
   "addressLocation": {
     "UnLocode": "SEL",

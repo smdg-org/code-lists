@@ -6,7 +6,7 @@
   "linerName": "ZIM Integrated Shipping Services Ltd.",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "ZIM",
+  "parentCompany": "ZIM",
   "address": "ZIM Integrated Shipping Services Ltd.\n9 Andrei Sakharov St. - Floor 3, Haifa 31016 Israel Israel P.O.B. 1723 Haifa Israel",
   "addressLocation": {
     "UnLocode": "HFA",

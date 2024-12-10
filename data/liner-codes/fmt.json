@@ -6,7 +6,7 @@
   "linerName": "FMT International Shipping PTE LTD",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "200 Cantonment Road, #06-05 Southpoint, Singapore 089763, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

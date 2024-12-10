@@ -6,7 +6,7 @@
   "linerName": "Mariana Express Lines, Singapore",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "PIL",
+  "parentCompany": "PIL",
   "address": "Mariana Express Lines Pte. Ltd.\nPrincipal Office\n140 Cecil Street, #09-01 PIL Building, Singapore 069540, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

@@ -6,7 +6,7 @@
   "linerName": "HR Lines Limited",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "HR BHABAN, 26/1 KAKRAIL, DHAKA-1000, BANGLADESH",
   "addressLocation": {
     "UnLocode": "",

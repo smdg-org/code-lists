@@ -6,7 +6,7 @@
   "linerName": "Africa Express Line",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "AEL",
+  "parentCompany": "AEL",
   "address": "30 Tower View, Kings Hill\nWest Malling, Kent\nME19 4UY, England",
   "addressLocation": {
     "UnLocode": "WML",

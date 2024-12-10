@@ -6,7 +6,7 @@
   "linerName": "Company Maritim Belgique",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "CMB",
+  "parentCompany": "CMB",
   "address": "De Gerlachekaai 20, 2000 Antwerpen, Belgium",
   "addressLocation": {
     "UnLocode": "ANR",

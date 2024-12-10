@@ -6,7 +6,7 @@
   "linerName": "Neptune Pacific Line",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "NPD",
+  "parentCompany": "NPD",
   "address": "Neptune Pacific Agency Australia Pty Limited\nLevel 12\n45-47 York St\nSydney NSW\nPO Box 3813\nSydney NSW 2001",
   "addressLocation": {
     "UnLocode": "",

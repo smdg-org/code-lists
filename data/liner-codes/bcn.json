@@ -6,7 +6,7 @@
   "linerName": "Bermuda Container Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Suite 1140, 48 Par-La-Ville  Road, Hamilton HM 11, Bermuda",
   "addressLocation": {
     "UnLocode": "BDA",

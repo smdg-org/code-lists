@@ -6,7 +6,7 @@
   "linerName": "BAL Container Line Co.Limited",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Unit 503\n5/F,Silvercord Tower 2\n30 Canton Road, \nTsimshatsuil HK, Hong Kong",
   "addressLocation": {
     "UnLocode": "HKG",

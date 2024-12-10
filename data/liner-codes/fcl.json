@@ -6,7 +6,7 @@
   "linerName": "Federated Cargo Line Pte Ltd",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "10 Anson Road, International Plaza #20-09, Singapore 079903",
   "addressLocation": {
     "UnLocode": "SIN",

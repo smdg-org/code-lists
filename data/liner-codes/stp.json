@@ -6,7 +6,7 @@
   "linerName": "S\u0026T PACIFIC PTE. LTD.",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "STP",
+  "parentCompany": "STP",
   "address": "16 Raffles Quay 19-03 (Hong Leong Building), Singapore 048581",
   "addressLocation": {
     "UnLocode": "SIN",

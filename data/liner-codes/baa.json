@@ -6,7 +6,7 @@
   "linerName": "Bulk Oil \u0026 Liquid Transport Pte Ltd",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "60 Paya Lebar Road, #05-38 Paya Lebar Square, Singapore 409051",
   "addressLocation": {
     "UnLocode": "SIN",

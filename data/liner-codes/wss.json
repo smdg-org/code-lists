@@ -6,7 +6,7 @@
   "linerName": "WINSPEC Shipping Pte Ltd",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "WINSPEC Shipping",
+  "parentCompany": "WINSPEC Shipping",
   "address": "10 TUAS AVENUE 6 SINGAPORE 639298",
   "addressLocation": {
     "UnLocode": "SIN",

@@ -6,7 +6,7 @@
   "linerName": "Perkins Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Frances Bay Drive, Darwin NT 0800, Australia",
   "addressLocation": {
     "UnLocode": "DRW",

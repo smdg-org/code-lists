@@ -6,7 +6,7 @@
   "linerName": "Malaysian International Shipping Company",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "LNG Business Unit MISC Berhad, Level 30, Menara Dayabumi, Jalan Sultan Hishamuddin, 50050 Kuala Lumpur, Malaysia",
   "addressLocation": {
     "UnLocode": "KUL",

@@ -6,7 +6,7 @@
   "linerName": "Simatech Shipping Dubai",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Simatech Shipping \u0026 Forwarding L.L.C.\n18th Floor, Regal Tower, Business Bay\nP.O. Box 23743,\nDubai \u2013 United Arab Emirates",
   "addressLocation": {
     "UnLocode": "DXB",

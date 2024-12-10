@@ -6,7 +6,7 @@
   "linerName": "Regional Container Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "RCL FEEDER PTE LTD\nCode REGU\nAddress 8TH FLOOR, RCL CENTRE 11 KEPPEL ROAD\nZip Code 089057\nCity Singapore\nState \nCountry Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

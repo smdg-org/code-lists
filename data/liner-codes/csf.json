@@ -6,7 +6,7 @@
   "linerName": "Cathay Shipping \u0026 Freight Services",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "CATHAY SHIPPING \u0026 FREIGHT SERVICES PTE LTD\nBlock 211 Henderson Road, #05-02, Henderson Industrial Park, Singapore 159552\n",
   "addressLocation": {
     "UnLocode": "SIN",

@@ -6,7 +6,7 @@
   "linerName": "Arkas Shipping",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "ARK",
+  "parentCompany": "ARK",
   "address": "ARKAS SHIPPING AND TRANSPORT SA\nAddress Esentepe Gazeteciler Mahallesi Matbuat Sokak n\u00B05 Sisli\nZip Code \nCity Istanbul\nState \nCountry Turkey",
   "addressLocation": {
     "UnLocode": "IST",

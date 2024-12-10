@@ -6,7 +6,7 @@
   "linerName": "HMM (Hyundai Merchant Marine)",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "194, YULGOK-RO, SEOUL 03127, KOREA ",
   "addressLocation": {
     "UnLocode": "SEL",

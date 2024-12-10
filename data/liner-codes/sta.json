@@ -6,7 +6,7 @@
   "linerName": "Star Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "2 Bukit Merah Central\n#04-03\nSingapore 159835",
   "addressLocation": {
     "UnLocode": "SIN",

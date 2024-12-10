@@ -6,7 +6,7 @@
   "linerName": "Eshipping Gateway",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "1901 Block A, Horoy Center, No.5059 Tinghai Road, Nanshan District, Shenzhen",
   "addressLocation": {
     "UnLocode": "",

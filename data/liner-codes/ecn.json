@@ -6,7 +6,7 @@
   "linerName": "Econship Marine Pte Ltd",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "81, Anson Road Level 8, Suite 8-25\nM Hotel Singapore Singapore 079908",
   "addressLocation": {
     "UnLocode": "SIN",

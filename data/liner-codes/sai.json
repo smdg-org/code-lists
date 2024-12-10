@@ -6,7 +6,7 @@
   "linerName": "Saigon Shipping Company",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "\u0110\u1ECBa ch\u1EC9 C\u00F4ng ty: S\u1ED1 9 Nguy\u1EC5n C\u00F4ng Tr\u1EE9, P.Nguy\u1EC5n Th\u00E1i B\u00ECnh, Qu\u1EADn 1, TP.HCM, Vietnam",
   "addressLocation": {
     "UnLocode": "",

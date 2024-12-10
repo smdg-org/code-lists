@@ -6,7 +6,7 @@
   "linerName": "Baja Ferries Sapi De C.V.",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "n/a",
+  "parentCompany": "n/a",
   "address": "IGNACIO ALLENDE 1025, COLONIA CENTRO, C.P. 23000  LA PAZ, BAJA CALIFORNIA SUR, MEXICO.",
   "addressLocation": {
     "UnLocode": "LAP",

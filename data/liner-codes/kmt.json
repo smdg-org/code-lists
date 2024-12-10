@@ -6,7 +6,7 @@
   "linerName": "Korea Marine Transport",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "15F Hanjin Building 63 Namdaemun-Ro Jung-Gu Seoul, 04532 Korea, Republic of (South)",
   "addressLocation": {
     "UnLocode": "SEL",

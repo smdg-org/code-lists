@@ -6,7 +6,7 @@
   "linerName": "China United Lines",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Building 12, Lane 706 Wuxing Street, Pudong District, Shanghai 20120, China",
   "addressLocation": {
     "UnLocode": "",

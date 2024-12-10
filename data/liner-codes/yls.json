@@ -6,7 +6,7 @@
   "linerName": "Yasuda Logistics Singapore Pte. Ltd.",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "3 SHENTON WAY #25-01 SHENTON HOUSE SINGAPORE 068805",
   "addressLocation": {
     "UnLocode": "SIN",

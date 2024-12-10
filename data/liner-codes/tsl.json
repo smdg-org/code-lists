@@ -6,7 +6,7 @@
   "linerName": "T. S. Lines",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "6F, No. 167, Tun-Hwa North Rd., Taipei 105, Taiwan (R.O.C.)",
   "addressLocation": {
     "UnLocode": "TPE",

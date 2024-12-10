@@ -6,7 +6,7 @@
   "linerName": "Tasman Orient Line",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "SWI",
+  "parentCompany": "SWI",
   "address": "Head Office\nTasman Orient Line C V\nFletcher Challenge Finance Limited\nBuilding \u0022Alexander Poort\u0022\nMarten Meesweg 107\n3068 AV Rotterdam,\nThe Netherlands",
   "addressLocation": {
     "UnLocode": "",

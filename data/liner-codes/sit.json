@@ -6,7 +6,7 @@
   "linerName": "SITC Container Lines Co., Ltd",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "SITC Hong Kong\nSITC Line Hong Kong",
   "addressLocation": {
     "UnLocode": "HKG",

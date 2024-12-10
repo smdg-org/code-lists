@@ -6,7 +6,7 @@
   "linerName": "Caribbean Feeder Service Ltd., Kingston",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Caribbean Feeder Service\n4765 SW 148th Ave, Suite 503\nDavie, FL 33330, USA",
   "addressLocation": {
     "UnLocode": "DVF",

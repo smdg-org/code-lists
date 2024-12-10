@@ -6,7 +6,7 @@
   "linerName": "BLPL Singapore",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "BLPL SINGAPORE PTE LTD, 120 Lower Delta Road, #06-11 Cendex Centre, Singapore 169208, Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

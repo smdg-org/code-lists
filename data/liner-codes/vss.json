@@ -6,7 +6,7 @@
   "linerName": "VASI Shipping Pte Ltd.",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "91 BENCOOLEN STREET # 10-02 SUNSHINE PLAZA\nZip Code 189652\nCity Singapore\nState \nCountry Singapore",
   "addressLocation": {
     "UnLocode": "SIN",

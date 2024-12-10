@@ -6,7 +6,7 @@
   "linerName": "Cordelia Shipping",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "134 Archiepiskopou Makariou Avenue, Yiota Court, Apt. 102, 3021 Limassol, CYPRUS",
   "addressLocation": {
     "UnLocode": "LMS",

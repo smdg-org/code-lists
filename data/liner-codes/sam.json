@@ -6,7 +6,7 @@
   "linerName": "Samskip",
   "isNVOCC": false,
   "isVOCC": true,
-  "parentCompanyName": "SAM",
+  "parentCompany": "SAM",
   "address": "Head office\nSamskip Multimodal B.V\nWaalhaven Oostzijde 81\n3087 BM Rotterdam, The Netherlands",
   "addressLocation": {
     "UnLocode": "",

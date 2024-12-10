@@ -6,7 +6,7 @@
   "linerName": "Evergreen Marine Hong Kong",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "EMC",
+  "parentCompany": "EMC",
   "address": "Harcourt House 22-23 Floor, 39 Gloucester Road, Wan Chai, Hong Kong.",
   "addressLocation": {
     "UnLocode": "HKG",

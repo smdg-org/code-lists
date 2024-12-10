@@ -6,7 +6,7 @@
   "linerName": "Consorcio Naviero Peruano",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Company Name : Consorcio Naviero Peruano S.A.\nRUC : 20100120403\nAv. Republica de Colombia 643 7\u00B0 y 8\u00B0 Piso \u2013 San Isidro (Lima 27), Peru",
   "addressLocation": {
     "UnLocode": "",

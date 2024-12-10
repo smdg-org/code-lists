@@ -6,7 +6,7 @@
   "linerName": "Maritime Tunisian Lines",
   "isNVOCC": false,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "Calle Consell de cent, 106 - 108 PLT 5 OF 4 Y 5, Barcelona, 08015, Spain",
   "addressLocation": {
     "UnLocode": "",

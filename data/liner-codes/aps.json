@@ -6,7 +6,7 @@
   "linerName": "Alpine Shipping Pte Ltd",
   "isNVOCC": true,
   "isVOCC": false,
-  "parentCompanyName": "",
+  "parentCompany": "",
   "address": "ZERVEX, 8 UBI ROAD 2 #07-01, S408538",
   "addressLocation": {
     "UnLocode": "SGN",
