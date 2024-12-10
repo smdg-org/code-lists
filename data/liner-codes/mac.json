@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "MAC",
+  "linerName": "MACS Maritime Carrier Shipping GmbH \u0026 Co.",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "MOC",
+  "address": "MACS MARITIME CARRIER SHIPPING GMBH \u0026 CO, GROSSE ELBSTRASSE 138, 22767 HAMBURG, Germany",
+  "addressLocation": {
+    "UnLocode": "HAM",
+    "UnCountryCode": "DE",
+    "address": {
+      "street": "Grosse Elbstr.",
+      "streetNumber": "138",
+      "floor": "",
+      "postCode": "22767",
+      "city": "Hamburg",
+      "state": "",
+      "country": "Germany"
+    }
+  },
+  "website": "https://www.macship.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

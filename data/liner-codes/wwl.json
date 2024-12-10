@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "WWL",
+  "linerName": "Wallenius Wilhelmsen Lines AS",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Wallenius Wilhelmsen, Strandveien 20, 1364 Lysaker, Norway",
+  "addressLocation": {
+    "UnLocode": "LYS",
+    "UnCountryCode": "NO",
+    "address": {
+      "street": "Strandveien",
+      "streetNumber": "20",
+      "floor": "",
+      "postCode": "1364",
+      "city": "Lysaker",
+      "state": "",
+      "country": "Norway"
+    }
+  },
+  "website": "https://www.walleniuswilhelmsen.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

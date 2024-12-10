@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "VML",
+  "linerName": "VM Liner Felixstowe",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "R J J House, Haven Exchange, South, Felixstowe IP11 2QE, United Kingdom",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "GB",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "R J J House",
+      "postCode": " IP11 2QE",
+      "city": "Felixstowe",
+      "state": "",
+      "country": "United Kingdom"
+    }
+  },
+  "website": "http://www.vmliner.com/",
+  "remarks": "",
+  "validFrom": "2015-02-18",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

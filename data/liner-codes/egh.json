@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "EGH",
+  "linerName": "Evergreen Marine Hong Kong",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "EMC",
+  "address": "Harcourt House 22-23 Floor, 39 Gloucester Road, Wan Chai, Hong Kong.",
+  "addressLocation": {
+    "UnLocode": "HKG",
+    "UnCountryCode": "HK",
+    "address": {
+      "street": "Gloucester Road",
+      "streetNumber": "39",
+      "floor": "Harcourt House",
+      "postCode": "",
+      "city": "Hong Kong",
+      "state": "",
+      "country": "China"
+    }
+  },
+  "website": "https://www.evergreen-marine.com/",
+  "remarks": "",
+  "validFrom": "2016-08-12",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

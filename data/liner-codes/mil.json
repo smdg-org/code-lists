@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "MIL",
+  "linerName": "Milaha (Qatar Navigation QPSC)",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Qatar Navigation, Q.P.S.C.\nEast Industrial Road\nUmm Al Saneem Area\nStreet No. 523, Zone 56\nP.O. Box 153, Doha, QATAR",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "QA",
+    "address": {
+      "street": "East Industrial Road",
+      "streetNumber": "523",
+      "floor": "",
+      "postCode": "",
+      "city": "Qatar",
+      "state": "",
+      "country": "Qatar"
+    }
+  },
+  "website": "https://www.milaha.com/",
+  "remarks": "",
+  "validFrom": "2020-09-03",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

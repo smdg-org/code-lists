@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "YQN",
+  "linerName": "YQN LINK International Logistics (SG) Pte. Ltd.",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "390 HAVELOCK ROAD\n#07-01 KING\u0027S CENTRE\nSINGAPORE (169662)",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "website": "https://www.yqnlink.com",
+  "remarks": "",
+  "validFrom": "2023-06-15",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2023-06-13",
+      "updateRequestedBy": "YQN Link",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by YQN Link"
+    }
+  ]
+}

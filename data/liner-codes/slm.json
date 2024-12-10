@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SLM",
+  "linerName": "Salamis Lines, Cyprus",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "",
+  "address": "Salamis Lines Ltd\nAddress: Salamis House 1, G Katsounotos Str. P.O.Box 50531\n3607 Limassol, Cyprus",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "CY",
+    "address": {
+      "street": "G Katsounotos Str.",
+      "streetNumber": "1",
+      "floor": "Salamis House",
+      "postCode": "3607",
+      "city": "Limassol",
+      "state": "",
+      "country": "Cyprus"
+    }
+  },
+  "website": "https://www.salamisshipping.com",
+  "remarks": "",
+  "validFrom": "2017-01-17",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

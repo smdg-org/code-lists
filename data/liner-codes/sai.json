@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SAI",
+  "linerName": "Saigon Shipping Company",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "\u0110\u1ECBa ch\u1EC9 C\u00F4ng ty: S\u1ED1 9 Nguy\u1EC5n C\u00F4ng Tr\u1EE9, P.Nguy\u1EC5n Th\u00E1i B\u00ECnh, Qu\u1EADn 1, TP.HCM, Vietnam",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "VN",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Vietnam"
+    }
+  },
+  "website": "https://saigonship.com.vn/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

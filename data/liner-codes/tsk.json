@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "TSK",
+  "linerName": "Tokyo Senpaku Kaisha",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "HLC",
+  "address": "2-19-6 Yanagibashi Taito-Ku, 111-0052 Japan",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "JP",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Japan"
+    }
+  },
+  "website": "",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

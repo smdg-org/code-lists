@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BMC",
+  "linerName": "BMC Line Shipping Egypt",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "BMC LINE SHIPPING SERVICES,\nFloor : 23rd, Suite : 2306,Churchill Executive Tower - Dubai - United Arab Emirates",
+  "addressLocation": {
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "Churchill Executive Tower, Floor : 23rd, Suite : 2306",
+      "postCode": "",
+      "city": "Dubai",
+      "state": "",
+      "country": "United Arab Emirates"
+    }
+  },
+  "website": "https://www.bmclines.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

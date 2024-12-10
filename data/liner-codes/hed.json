@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "HED",
+  "linerName": "HEDE (Hongkong) International Shipping Limited",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompany": "BEN",
+  "address": "Harbor Development Zone, Tangshan City, Hebei Province | Phone\uFF1A\u002B86-315-2927508",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Tangshan City",
+      "state": "",
+      "country": ""
+    }
+  },
+  "website": "http://en.hedehk.com/",
+  "remarks": "Ben Line as agent only on behalf of\nHEDE (HONGKONG) INTERNATIONAL SHIPPING LIMITED ",
+  "validFrom": "2024-01-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2023-12-27",
+      "updateRequestedBy": "BEN Lines Agencies",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by BEN Lines Agencies"
+    }
+  ]
+}

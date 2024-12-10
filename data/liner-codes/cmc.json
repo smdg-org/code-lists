@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CMC",
+  "linerName": "Crowley Maritime Corp., Jacksonville, Fl.",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Crowley Maritime Corporation, 9487 Regency Square Blvd., Jacksonville, FL 32225, USA",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "US",
+    "address": {
+      "street": "Regency Square Blvd.",
+      "streetNumber": "9487",
+      "floor": "",
+      "postCode": "32225",
+      "city": "Jacksonville",
+      "state": "FL",
+      "country": "United Staes of America"
+    }
+  },
+  "website": "https://www.crowley.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

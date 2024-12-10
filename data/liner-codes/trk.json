@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "TRK",
+  "linerName": "Turkon Line",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Altunizade Mahallesi, Ord.Prof. Dr Fahrettin Kerim G\u00F6kay Caddesi No:33, 34662, \u00DCsk\u00FCdar / \u0130stanbul, Turkey",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "TR",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Turkey"
+    }
+  },
+  "website": "https://turkon.com/en/",
+  "remarks": "",
+  "validFrom": "2016-12-06",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

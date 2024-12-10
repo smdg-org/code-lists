@@ -1,0 +1,50 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V2",
+  "linerSMDGCode": "SGL",
+  "linerName": "Sealand - A Maersk Company, EUR \u0026 MED",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "MSK",
+  "address": "Esplanaden 50, 1098 K\u00F8benhavn K, Denmark",
+  "addressLocation": {
+    "UnLocode": "CPH",
+    "UnCountryCode": "DK",
+    "address": {
+      "street": "Esplanaden",
+      "streetNumber": "50",
+      "floor": "",
+      "postCode": "1098",
+      "city": "Copenhagen",
+      "state": "",
+      "country": "Denmark"
+    }
+  },
+  "website": "https://www.seagoline.com/company",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2021-09-13",
+      "updateRequestedBy": null,
+      "reason": "Change of name from  \u0022Seago Line Copenhagen/ Sealand Europe Med\u0022 to \u0022Sealand - A Maersk Company,EUR \u0026 MED\u0022",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "update based on information provided by Maersk (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "HLC",
+  "linerName": "Hapag-Lloyd",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "HLC",
+  "address": "Ballindamm 25, 20095 Hamburg, Germany",
+  "addressLocation": {
+    "UnLocode": "HAM",
+    "UnCountryCode": "DE",
+    "address": {
+      "street": "Ballindamm",
+      "streetNumber": "25",
+      "floor": "",
+      "postCode": "20095",
+      "city": "Hamburg",
+      "state": "",
+      "country": "Germany"
+    }
+  },
+  "website": "https://www.hapag-lloyd.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

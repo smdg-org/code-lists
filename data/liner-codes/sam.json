@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SAM",
+  "linerName": "Samskip",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "SAM",
+  "address": "Head office\nSamskip Multimodal B.V\nWaalhaven Oostzijde 81\n3087 BM Rotterdam, The Netherlands",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "NL",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "The Netherlands"
+    }
+  },
+  "website": "https://www.samskip.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "FED",
+  "linerName": "Fednav",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "1000 de La Gaucheti\u00E8re Street West, Suite 3500, Montreal, Quebec  H3B 4W5, Canada\n",
+  "addressLocation": {
+    "UnLocode": "MTR",
+    "UnCountryCode": "CA",
+    "address": {
+      "street": "de La Gaucheti\u00E8re Street West",
+      "streetNumber": "1000",
+      "floor": "Suite 3500",
+      "postCode": "H3B 4W5",
+      "city": "Montreal",
+      "state": "Quebec",
+      "country": "Canada"
+    }
+  },
+  "website": "https://www.fednav.com/en",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "WSS",
+  "linerName": "WINSPEC Shipping Pte Ltd",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompany": "WINSPEC Shipping",
+  "address": "10 TUAS AVENUE 6 SINGAPORE 639298",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "website": "https://www.winspecgroup.com/",
+  "remarks": "",
+  "validFrom": "2023-10-18",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2023-11-09",
+      "updateRequestedBy": "WSS",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by WSS"
+    }
+  ]
+}

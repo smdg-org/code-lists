@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "HRL",
+  "linerName": "HR Lines Limited",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "",
+  "address": "HR BHABAN, 26/1 KAKRAIL, DHAKA-1000, BANGLADESH",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "BD",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Dhaka",
+      "state": "",
+      "country": "Bangladesh"
+    }
+  },
+  "website": "https://www.hrlinesbd.com",
+  "remarks": "",
+  "validFrom": "2022-11-16",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-11-16",
+      "updateRequestedBy": "Starline Agencies Asia PTE LTD",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by Starline Agencies Asia PTE LTD (confirmed by HRL)"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "MYS",
+  "linerName": "Malaysia Shipping Corporation",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "PIL",
+  "address": "MALAYSIAN SHIPPING CORP. SDN. BHD., A-3A-1, 4Th Floor, South Tower (Tower A), Bbt One The Towers, Lebuh Batu Nilam 1, Bandar Bukit Tinggi, 41200 Klang, Malaysia",
+  "addressLocation": {
+    "UnLocode": "KLA",
+    "UnCountryCode": "MY",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "41200",
+      "city": "Klang",
+      "state": "",
+      "country": "Malaysia"
+    }
+  },
+  "website": "",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

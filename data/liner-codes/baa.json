@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BAA",
+  "linerName": "Bulk Oil \u0026 Liquid Transport Pte Ltd",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "60 Paya Lebar Road, #05-38 Paya Lebar Square, Singapore 409051",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "address": {
+      "street": "Paya Lebar Road",
+      "streetNumber": "60",
+      "floor": "",
+      "postCode": "409051",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "website": "https://www.bolt-tanks.com",
+  "remarks": "",
+  "validFrom": "2023-07-17",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2023-07-17",
+      "updateRequestedBy": "Bulk Oil \u0026 Liquid Transport Pte Ltd",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by Bulk Oil \u0026 Liquid Transport Pte Ltd"
+    }
+  ]
+}

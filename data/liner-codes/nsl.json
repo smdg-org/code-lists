@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "NSL",
+  "linerName": "NAMSUNG Shipping Co. Ltd.",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "363, Samil-daero, Jung-gu, Seoul, Korea (Janggyo Bldg,17th)",
+  "addressLocation": {
+    "UnLocode": "SEL",
+    "UnCountryCode": "KR",
+    "address": {
+      "street": "Samil-daero",
+      "streetNumber": "363",
+      "floor": "Janggyo Bldg,17th",
+      "postCode": "135-080",
+      "city": "Seoul",
+      "state": "",
+      "country": "Republic of Korea (South Korea)"
+    }
+  },
+  "website": "https://www.namsung.co.kr/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SJL",
+  "linerName": "Sarjak Container Lines",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Sarjak Container Lines Pvt. Ltd.\n8th Floor, DLH Plaza,Cosmos Building,\nOpp. Shoppers Stop, S V Road, Andheri West,\nMumbai - 400058, India",
+  "addressLocation": {
+    "UnLocode": "BOM",
+    "UnCountryCode": "IN",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "400058",
+      "city": "Mumbai",
+      "state": "",
+      "country": "India"
+    }
+  },
+  "website": "https://www.sarjak.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

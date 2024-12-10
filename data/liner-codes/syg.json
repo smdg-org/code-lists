@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SYG",
+  "linerName": "Shin Yang Shipping Malaysia",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Sublot 153 (Parent Lot 70), Jalan Kuala Baram,              \nKuala Baram, 98100 Miri, Sarawak, Malaysia",
+  "addressLocation": {
+    "UnLocode": "MYY",
+    "UnCountryCode": "MY",
+    "address": {
+      "street": "Sublot 153 (Parent Lot 70), Jalan Kuala Baram",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "98100",
+      "city": "Miri",
+      "state": "",
+      "country": "Malaysia"
+    }
+  },
+  "website": "https://www.shinyanggroup.com.my/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

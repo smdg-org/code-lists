@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "MIS",
+  "linerName": "Malaysian International Shipping Company",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "LNG Business Unit MISC Berhad, Level 30, Menara Dayabumi, Jalan Sultan Hishamuddin, 50050 Kuala Lumpur, Malaysia",
+  "addressLocation": {
+    "UnLocode": "KUL",
+    "UnCountryCode": "MY",
+    "address": {
+      "street": "Jalan Sultan Hishamuddin",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "50050",
+      "city": "Kuala Lumpur",
+      "state": "",
+      "country": "Malaysia"
+    }
+  },
+  "website": "https://www.misc.com.my/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CFS",
+  "linerName": "Caribbean Feeder Service Ltd., Kingston",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Caribbean Feeder Service\n4765 SW 148th Ave, Suite 503\nDavie, FL 33330, USA",
+  "addressLocation": {
+    "UnLocode": "DVF",
+    "UnCountryCode": "US",
+    "address": {
+      "street": "148th Ave",
+      "streetNumber": "4765 SW",
+      "floor": "",
+      "postCode": "FL 33330",
+      "city": "Davie",
+      "state": "Florida",
+      "country": "United States of America"
+    }
+  },
+  "website": "https://www.caribbeanfeeder.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

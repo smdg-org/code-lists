@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "GWF",
+  "linerName": "Great White Fleet / Chiquita Bananas",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "CBF",
+  "address": "Great White Fleet Liner Services Ltd., 1855 Griffin Rd, Suite C-436, Dania Beach, FL 33004, USA",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "US",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "United States of America"
+    }
+  },
+  "website": "https://greatwhitefleet.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

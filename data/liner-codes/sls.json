@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SLS",
+  "linerName": "SILKargo Logistics (Singapore) Pte Ltd",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompany": "SSL",
+  "address": "6 Raffles Quay #25-02. Singapore 048580",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "address": {
+      "street": "Raffles Quay ",
+      "streetNumber": "6",
+      "floor": "",
+      "postCode": "",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "website": "https://www.samudera.id/samuderashippinglineltd/en",
+  "remarks": "",
+  "validFrom": "2021-09-06",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-09-06",
+      "updateRequestedBy": "Samudera",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by Samudera"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BSA",
+  "linerName": "BSA Transportation",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "BSA Logistics Head Office\nJl. Raya Cakung Cilincing Km 3\nJakarta 13910, Indonesia.",
+  "addressLocation": {
+    "UnLocode": "JKT",
+    "UnCountryCode": "ID",
+    "address": {
+      "street": "Jl. Raya Cakung Cilincing",
+      "streetNumber": "Km 3",
+      "floor": "",
+      "postCode": "13910",
+      "city": "Jakarta",
+      "state": "",
+      "country": "Indonesia"
+    }
+  },
+  "website": "https://bsa-logistics.co.id/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

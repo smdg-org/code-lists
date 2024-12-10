@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "AGX",
+  "linerName": "Agrexco",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "The Israeli Research and Development Company Ltd. I  HEAD-OFFICEBeit Ampa, 1 Sapir St., Herzliya 4685205, Israel.",
+  "addressLocation": {
+    "UnLocode": "IHA",
+    "UnCountryCode": "IL",
+    "address": {
+      "street": "Sapir St",
+      "streetNumber": "1",
+      "floor": "",
+      "postCode": "4685205",
+      "city": "Herzliya ",
+      "state": "",
+      "country": "Israel"
+    }
+  },
+  "website": "http://www.agrexco.com",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "WGL",
+  "linerName": "Welgrow Line",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "HEAD OFFICE\nWelgrow Line (India) Pvt. Ltd.\n520, Maraton Max, 5th Floor,  LBS Road\nMulund (W), Mumbai \u2013 400 080, India",
+  "addressLocation": {
+    "UnLocode": "BOM",
+    "UnCountryCode": "IN",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Mumbai",
+      "state": "",
+      "country": "India"
+    }
+  },
+  "website": "https://www.welgrowindia.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

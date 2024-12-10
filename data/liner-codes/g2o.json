@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "G2O",
+  "linerName": "G2 Ocean AS",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "Grieg Star \u0026 Gearbulk",
+  "address": "C. Sundtsgt 17, 5004 Bergen, Norway",
+  "addressLocation": {
+    "UnLocode": "BGO",
+    "UnCountryCode": "NO",
+    "address": {
+      "street": "C. Sundsgate",
+      "streetNumber": "17",
+      "floor": "",
+      "postCode": "5004",
+      "city": "Bergen",
+      "state": "",
+      "country": "Norway"
+    }
+  },
+  "website": "https://www.g2ocean.com",
+  "remarks": "",
+  "validFrom": "2022-01-17",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-01-17",
+      "updateRequestedBy": "G2ocean",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by G2ocean"
+    }
+  ]
+}

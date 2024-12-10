@@ -1,0 +1,50 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V2",
+  "linerSMDGCode": "HDS",
+  "linerName": "Hafiz Darya Shipping Co",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "ISL",
+  "address": "see ISL",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": ""
+    }
+  },
+  "website": "http://www.hdasco.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2021-07-21",
+      "updateRequestedBy": null,
+      "reason": "correction of code for mother company to ISL ",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": ""
+    }
+  ]
+}

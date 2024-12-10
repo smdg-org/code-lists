@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "DLT",
+  "linerName": "Delta Shipping Line",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Delta Shipping \u0026 Trading Inc. Erturk sok. No:5 34810 Kavacik - Beykoz - Istanbul ",
+  "addressLocation": {
+    "UnLocode": "IST",
+    "UnCountryCode": "TR",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Istanbul",
+      "state": "",
+      "country": "Turkey"
+    }
+  },
+  "website": "https://deltaship.com.tr/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

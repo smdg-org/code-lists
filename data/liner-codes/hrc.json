@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "HRC",
+  "linerName": "HRC Shipping Limited, Dhaka",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Corporate Head Quarters\nHRC Bhaban\n46, Kawran Bazar Commercial Area,\nDhaka - 1215, Bangladesh.",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "BD",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Dhaka",
+      "state": "",
+      "country": "Bangladesh"
+    }
+  },
+  "website": "http://www.hrcbd.com/concern/HRC-Shipping-Ltd/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

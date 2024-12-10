@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "YGL",
+  "linerName": "Yemen Gulf Line",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Prince Albert House, 2 Kingsmill Terrace, London NW8 6BN, United Kingdom",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "GB",
+    "address": {
+      "street": "Kingsmill Terrace",
+      "streetNumber": "2",
+      "floor": "",
+      "postCode": "NW8 6BN",
+      "city": "London",
+      "state": "",
+      "country": "Inited Kingdom"
+    }
+  },
+  "website": "https://www.y-g-l.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

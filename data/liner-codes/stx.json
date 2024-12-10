@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "STX",
+  "linerName": "STX Pan Ocean",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": " 7, Jong-ro 5-gil, Jongno-gu, Seoul",
+  "addressLocation": {
+    "UnLocode": "SEL",
+    "UnCountryCode": "KR",
+    "address": {
+      "street": "Jong-ro 5-gil",
+      "streetNumber": "7",
+      "floor": "",
+      "postCode": "",
+      "city": "Seoul",
+      "state": "",
+      "country": "Republic of Korea (South Korea)"
+    }
+  },
+  "website": "https://www.panocean.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

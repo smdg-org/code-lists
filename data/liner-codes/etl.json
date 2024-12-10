@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "ETL",
+  "linerName": "Eastrans Lines (S) Pte Ltd",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompany": "ETL",
+  "address": "100D Pasir Panjang Road #02-01 Singapore 118520",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "address": {
+      "street": "Pasir Panjang Road",
+      "streetNumber": "02-01",
+      "floor": "",
+      "postCode": "118520",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "website": "http://www.eastrans.com.sg",
+  "remarks": "",
+  "validFrom": "2023-11-09",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2023-11-09",
+      "updateRequestedBy": "ETL",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by ETL"
+    }
+  ]
+}

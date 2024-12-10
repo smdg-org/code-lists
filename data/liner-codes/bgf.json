@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BGF",
+  "linerName": "Bg Freight Line",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Den Hamweg 30\nP.O. Box 54022\n3008 JA Rotterdam\nThe Netherlands",
+  "addressLocation": {
+    "UnLocode": "RTM",
+    "UnCountryCode": "NL",
+    "address": {
+      "street": "Den Hamweg",
+      "streetNumber": "30",
+      "floor": "",
+      "postCode": "3008 JA",
+      "city": "Rotterdam",
+      "state": "",
+      "country": "Netherlands"
+    }
+  },
+  "website": "https://bgfreightline.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

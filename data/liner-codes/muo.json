@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "MUO",
+  "linerName": "Maritime United Operator (Madrid)",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Paseo de la Castellana, 141 Planta 21-B, 28046 Madrid, Spain",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "ES",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Spain"
+    }
+  },
+  "website": "http://www.mar-united.com",
+  "remarks": "",
+  "validFrom": "2015-07-23",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

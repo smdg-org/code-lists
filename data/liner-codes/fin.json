@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "FIN",
+  "linerName": "Finnlines",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "GNC",
+  "address": "Finnlines Plc, FinnLink Naantali\nSatamatie 11, 21100 Naantali, Finland",
+  "addressLocation": {
+    "UnLocode": "NLI",
+    "UnCountryCode": "FI",
+    "address": {
+      "street": "Satamatie",
+      "streetNumber": "11",
+      "floor": "",
+      "postCode": "21100",
+      "city": "Naantalie",
+      "state": "",
+      "country": "Finland"
+    }
+  },
+  "website": "https://www.finnlines.com/freight",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

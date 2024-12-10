@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BAC",
+  "linerName": "Bacoliner",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "CN Shipping Ltd,\nUnit 3, Lakeside Business Village,\nFleming Road,\nChafford Hundred,\nGrays,\nEssex RM16 6EW.",
+  "addressLocation": {
+    "UnLocode": "GYS",
+    "UnCountryCode": "GB",
+    "address": {
+      "street": "Fleming Road",
+      "streetNumber": "",
+      "floor": "Unit 3, Lakeside Business Village",
+      "postCode": "RM16 6EW",
+      "city": "Chafford Hundred, Grays",
+      "state": "Essex",
+      "country": "United Kingdom"
+    }
+  },
+  "website": "http://cnship.com/about_us.htm",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

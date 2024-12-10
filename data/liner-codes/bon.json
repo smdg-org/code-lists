@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BON",
+  "linerName": "Bonyad Marine Services",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "No.38, 6th AVE., Gandhi AVE., P.O.Box : 158753794 Tehran 15177, Iran",
+  "addressLocation": {
+    "UnLocode": "THR",
+    "UnCountryCode": "IR",
+    "address": {
+      "street": "6th AVE., Gandhi AVE",
+      "streetNumber": "38",
+      "floor": "",
+      "postCode": "15177",
+      "city": "Tehran",
+      "state": "",
+      "country": "Iran, Islamic Republic of"
+    }
+  },
+  "website": "http://www.bosaco.ir/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

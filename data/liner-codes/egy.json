@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "EGY",
+  "linerName": "Egyptian Navigation Co.",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Egyptian Navigation Company S.A.E. Building 2\nEl Nasr Street\nAl Gomrok Area\nEgypt\nAlexandria\n21511",
+  "addressLocation": {
+    "UnLocode": "ALY",
+    "UnCountryCode": "EG",
+    "address": {
+      "street": "El Nasr Street",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "21511",
+      "city": "Alexandria",
+      "state": "",
+      "country": "Egypt"
+    }
+  },
+  "website": "http://www.enc.com.eg/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

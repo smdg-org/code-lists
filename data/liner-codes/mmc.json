@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "MMC",
+  "linerName": "Melfi Marine Corporation, Cuba",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Melfi Marine Corp. Main OfficeCountryCubaCityHabana ViejaAddressOficios No.410e / Luz Y Acost, Cuba\n",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "CU",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Cuba"
+    }
+  },
+  "website": "https://www.melfimarine.cu",
+  "remarks": "",
+  "validFrom": "2016-09-30",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

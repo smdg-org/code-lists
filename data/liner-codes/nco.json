@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "NCO",
+  "linerName": "Northern Coastal Transport LTDA",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "",
+  "address": "AVENIDA DAS NACOES UNIDAS, 14.261 ALA B - 28 ANDAR - CONJ B 04794-000 SAO PAULO, Brazil",
+  "addressLocation": {
+    "UnLocode": "SAO",
+    "UnCountryCode": "BR",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Brazil"
+    }
+  },
+  "website": "not available",
+  "remarks": "",
+  "validFrom": "2023-08-21",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2023-08-21",
+      "updateRequestedBy": "NCO",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by NCO"
+    }
+  ]
+}

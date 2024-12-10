@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "FCS",
+  "linerName": "Fred-Olsen Canary Services (FOCS)",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Edif. Fred. Olsen\nPol\u00EDgono Industrial A\u00F1aza, s/n\n38111 Santa Cruz de Tenerife\n",
+  "addressLocation": {
+    "UnLocode": "SCT",
+    "UnCountryCode": "ES",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "38111",
+      "city": "Santa Cruz de Tenerife",
+      "state": "",
+      "country": "Spain"
+    }
+  },
+  "website": "https://www.fredolsen.es/en",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}
