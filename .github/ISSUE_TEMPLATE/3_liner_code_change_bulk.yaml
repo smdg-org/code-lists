@@ -1,0 +1,25 @@
+name: Liner code bulk data change request
+description: This template is used to request liner code bulk changes using published excel file format
+title: 'Liner code bulk data change request'
+labels: [ "data", "liner-code", "attachment-bulk" ]
+assignees: 'jasmindroenner-smdg'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        :warning: *Please note that the data provided below is considered public, do not include any sensitive information.*
+  - type: input
+    id: reason
+    attributes:
+      label: "Reason"
+      description: Please provide a reason for the change
+    validations:
+      required: true
+  - type: textarea
+    id: excel_file
+    attributes:
+      label: "Form attachment"
+      description: Form Attachment
+      placeholder: "Example: Click paperclip icon to attach the form in excel format"
+    validations:
+      required: true
