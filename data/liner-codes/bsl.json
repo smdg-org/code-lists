@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BSL",
+  "linerName": "Blue Star Line",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "17/240 Queen Street,\nBrisbane, QLD, Australia 4000\n",
+  "addressLocation": {
+    "UnLocode": "BNE",
+    "UnCountryCode": "AU",
+    "address": {
+      "street": "17/240 Queen Street",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "QLD 4000",
+      "city": "Brisbane",
+      "state": "",
+      "country": "Australia"
+    }
+  },
+  "website": "https://www.bluestarline.com.au/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

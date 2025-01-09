@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BMY",
+  "linerName": "BMY Shipping Lines (S) PTE LTD",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "3791 Jalan Bukit Merah, #09-04 E-Centre@Redhill, Singapore 159471, Singapore",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "address": {
+      "street": "Jalan Bukit Merah",
+      "streetNumber": "3791",
+      "floor": "#09-04 E-Centre@Redhill",
+      "postCode": "159471",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "website": "not available",
+  "remarks": "",
+  "validFrom": "2023-04-10",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2023-04-27",
+      "updateRequestedBy": "BMY",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by BMY"
+    }
+  ]
+}

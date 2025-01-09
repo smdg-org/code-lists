@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "ADM",
+  "linerName": "Admiral Container Lines Inc. Ltd.",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "4, Santa Lucia Street, VLT 1188, Valletta - MALTA",
+  "addressLocation": {
+    "UnLocode": "MLA",
+    "UnCountryCode": "MT",
+    "address": {
+      "street": "Santa Lucia Street",
+      "streetNumber": "4",
+      "floor": "",
+      "postCode": "1188",
+      "city": "Valletta",
+      "state": "",
+      "country": "Malta"
+    }
+  },
+  "website": "https://www.acolines.com/",
+  "remarks": "",
+  "validFrom": "2017-05-09",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

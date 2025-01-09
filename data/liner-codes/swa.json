@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SWA",
+  "linerName": "Swan Shipping",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "",
+  "address": "SCL Swan Container Lines GmbH, Alter Wall 55, 20457 Hamburg, Germany",
+  "addressLocation": {
+    "UnLocode": "HAM",
+    "UnCountryCode": "DE",
+    "address": {
+      "street": "Alter Wall",
+      "streetNumber": "55",
+      "floor": "",
+      "postCode": "20457",
+      "city": "Hamburg",
+      "state": "",
+      "country": "Germany"
+    }
+  },
+  "website": "https://www.swan-line.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

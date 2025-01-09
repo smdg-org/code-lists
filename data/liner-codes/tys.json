@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "TYS",
+  "linerName": "Tai Young Shipping",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "RM603, Hanjin BlDG (new), 88 Sogong ro , Jung-Gu, Seoul, Korea ",
+  "addressLocation": {
+    "UnLocode": "SEL",
+    "UnCountryCode": "KR",
+    "address": {
+      "street": "Sogong ro",
+      "streetNumber": "88",
+      "floor": "Hanjin BlDG (new)",
+      "postCode": "",
+      "city": "Seoul",
+      "state": "",
+      "country": "Republic of Korea (South Korea)"
+    }
+  },
+  "website": "http://www.taiyoungship.co.kr/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

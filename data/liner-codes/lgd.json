@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "LGD",
+  "linerName": "Legend Container Line",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompany": "LGD",
+  "address": "531, Upper Cross Street, #03-71 Hong Lim Complex, Singapore 050531",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "address": {
+      "street": "Upper Cross Street",
+      "streetNumber": "531",
+      "floor": "",
+      "postCode": "050531",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "website": "https://legendgloballogistics.com",
+  "remarks": "",
+  "validFrom": "2024-07-23",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2024-07-25",
+      "updateRequestedBy": "LGD",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by LGD"
+    }
+  ]
+}

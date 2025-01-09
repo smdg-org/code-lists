@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BRO",
+  "linerName": "Brointermed Lines",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Brointermed Lines Ltd\nQuayside Court, The Quay,\nHarwich, Essex CO12 3HH, United Kingdom",
+  "addressLocation": {
+    "UnLocode": "HRW",
+    "UnCountryCode": "GB",
+    "address": {
+      "street": "Quayside Court, The Quay",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "CO12 3HH",
+      "city": "Harwich",
+      "state": "Essex",
+      "country": "United Kingdom"
+    }
+  },
+  "website": "https://www.brointermedlines.com/",
+  "remarks": "",
+  "validFrom": "2015-02-18",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

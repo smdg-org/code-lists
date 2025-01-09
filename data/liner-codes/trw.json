@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "TRW",
+  "linerName": "Transworld Feeders FZCO, Dubai",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "P.O. Box 261844, Plot No. S 20119,\nJebel Ali Free Zone (South),\nDubai, U.A.E.",
+  "addressLocation": {
+    "UnLocode": "SZE",
+    "UnCountryCode": "AE",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Jebel Ali Free Zone (South)",
+      "state": "",
+      "country": "United Arab Emirates"
+    }
+  },
+  "website": "https://www.transworld.com/feeders/index.html",
+  "remarks": "",
+  "validFrom": "2017-08-11",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

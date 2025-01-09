@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "MGL",
+  "linerName": "Monter Global",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "3791 Jalan Bukit Merah, #08-25, E Centre, Singapore 159471",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "address": {
+      "street": "Jalan Bukit Merah",
+      "streetNumber": "3791",
+      "floor": "",
+      "postCode": "159471",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "website": "https://www.monterglobal.com",
+  "remarks": "",
+  "validFrom": "2022-12-21",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

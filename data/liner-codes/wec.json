@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "WEC",
+  "linerName": "WEC",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "WEC",
+  "address": "W.E.C. Lines B.V.\nAlbert Plesmanweg 59\n3088 GB Rotterdam\nP.O. Box 59230\n3008 PE Rotterdam\nThe Netherlands",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "NL",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "The Netherlands"
+    }
+  },
+  "website": "https://weclines.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

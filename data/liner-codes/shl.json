@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SHL",
+  "linerName": "Seahawk Shipping",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Manila Office\nNo. 1 Multinational Avenue corner Kaingin Road\nMultinational Village, Paranaque City,\nPhilippines\n",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "PH",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Philippines"
+    }
+  },
+  "website": "http://www.seahawk.com.ph/",
+  "remarks": "",
+  "validFrom": "2016-12-20",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

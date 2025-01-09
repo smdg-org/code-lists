@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "ASL",
+  "linerName": "A.A.SHIPPING LTD",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "65 Yigal Alon St,\nTel Aviv , Israel \n",
+  "addressLocation": {
+    "UnLocode": "TLV",
+    "UnCountryCode": "IL",
+    "address": {
+      "street": "Yigal Alon St",
+      "streetNumber": "65",
+      "floor": "",
+      "postCode": "",
+      "city": "Tel Aviv",
+      "state": "",
+      "country": "Israel"
+    }
+  },
+  "website": "https://wlsltd.com/",
+  "remarks": "Subsidiary of W Group shipping",
+  "validFrom": "2021-07-22",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-07-22",
+      "updateRequestedBy": "A.A. Shipping",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by A.A. Shipping"
+    }
+  ]
+}

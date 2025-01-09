@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CON",
+  "linerName": "Contcharters",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "CON",
+  "address": "Ajeltake Road, Ajeltake Island, Majure MH96960, Marshall Islands",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "MH",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Marshall Islands"
+    }
+  },
+  "website": "not available",
+  "remarks": "",
+  "validFrom": "2021-12-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-12-01",
+      "updateRequestedBy": "Hapag-Lloyd",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by Hapag-Lloyd"
+    }
+  ]
+}

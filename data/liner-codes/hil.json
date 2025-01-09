@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "HIL",
+  "linerName": "Head International Logistics Co., Ltd.",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Shenzhen Unifelix International Logistics Co.,Ltd\nAdd\uFF1ARoom1305,Cun jin building,No,3005 Dongmen South Road Luohu Districten,Shenzhen Guangdong, China\n",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "CN",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Shenzen",
+      "state": "",
+      "country": "China"
+    }
+  },
+  "website": "https://www.unifelix.com",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

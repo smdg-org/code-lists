@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "PLV",
+  "linerName": "Penex Container Lines Pte Ltd",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompany": "Penex",
+  "address": "237 Alexandra Road, #04-08 The Alexcier\nSingapore 159929",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "website": "not available",
+  "remarks": "",
+  "validFrom": "2022-12-23",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-12-23",
+      "updateRequestedBy": "Penex",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by Penex"
+    }
+  ]
+}

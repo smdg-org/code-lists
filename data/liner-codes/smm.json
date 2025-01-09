@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SMM",
+  "linerName": "Sinokor Merchant Marine",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "2nd Fl., Haenam Bldg., 21, Bukchang-dong, Chung-Ku, Seoul, Korea",
+  "addressLocation": {
+    "UnLocode": "SEL",
+    "UnCountryCode": "KR",
+    "address": {
+      "street": "Bukchang-dong",
+      "streetNumber": "21",
+      "floor": "2nd Fl., Haenam Bldg.",
+      "postCode": "",
+      "city": "Seoul",
+      "state": "",
+      "country": "Republic of Korea (South Korea)"
+    }
+  },
+  "website": "http://www.sinokor.co.kr/en/index.html",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

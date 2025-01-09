@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "UFS",
+  "linerName": "Unimed Feeder Services Limassol",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "C/o Unifeeder A/S, Tangen 6, 8200 Aarhus N, Denmark\n",
+  "addressLocation": {
+    "UnLocode": "AAR",
+    "UnCountryCode": "DK",
+    "address": {
+      "street": "Tangen",
+      "streetNumber": "6",
+      "floor": "",
+      "postCode": "8200",
+      "city": "Aarhus",
+      "state": "",
+      "country": "Denmark"
+    }
+  },
+  "website": "https://www.utdfeeder.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

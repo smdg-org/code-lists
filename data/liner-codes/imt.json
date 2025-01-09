@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "IMT",
+  "linerName": "IMOTO Lines",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "",
+  "address": "Kobe Asahi Bldg , 59 Naniwamachi, Chuo-ku, Kobe 650-0035, Japan\n",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "JP",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Japan"
+    }
+  },
+  "website": "https://www.imotoline.co.jp/en/ocean_carriers_en/",
+  "remarks": "",
+  "validFrom": "2021-04-08",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

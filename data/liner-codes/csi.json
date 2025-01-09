@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CSI",
+  "linerName": "Cosiarma, Costa Rica",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Via Operai 20, 16149 Genova GE, Italy",
+  "addressLocation": {
+    "UnLocode": "GOA",
+    "UnCountryCode": "IT",
+    "address": {
+      "street": "Via Operai",
+      "streetNumber": "20",
+      "floor": "",
+      "postCode": "16149",
+      "city": "Genoa",
+      "state": "GE",
+      "country": "Italy"
+    }
+  },
+  "website": "",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

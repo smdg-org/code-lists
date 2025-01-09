@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "IPS",
+  "linerName": "INSPIRE SHIPS AND PROJECTS (S) PTE LTD",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompany": "IPS",
+  "address": " 1 PAYA LBEAR LINK, #04-01 PAYA LEBAR QUARTERS, \nSINGAPORE 408533",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "website": "http://inspireships.com",
+  "remarks": "",
+  "validFrom": "2022-05-30",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-05-30",
+      "updateRequestedBy": "Inspire Ships",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by Inspire Ships"
+    }
+  ]
+}

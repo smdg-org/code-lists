@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BDS",
+  "linerName": "Bien Dong Shipping Co, Ha Noi City",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "No1, Thuy Khue, Tay Ho, Ha Noi",
+  "addressLocation": {
+    "UnLocode": "HAN",
+    "UnCountryCode": "VN",
+    "address": {
+      "street": "Thuy Khue",
+      "streetNumber": "1",
+      "floor": "",
+      "postCode": "",
+      "city": "Hanoi",
+      "state": "",
+      "country": "Viet Nam"
+    }
+  },
+  "website": "https://www.biendong.com.vn/index.php?lang=en",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

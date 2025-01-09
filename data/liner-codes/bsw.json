@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BSW",
+  "linerName": "Batamindo Shipping \u0026 Warehousing",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "BATAMINDO SHIPPING \u0026 WAREHOUSING PTE LTD\n(Co. Reg. No. 199002977M)\nSingapore\nOffice:\n28 Genting Lane\nPlatinum 28, #07-08\nSingapore 349585",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "address": {
+      "street": "Genting Lane\n",
+      "streetNumber": "28",
+      "floor": "",
+      "postCode": "349585",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "website": "http://www.bsw.com.sg/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

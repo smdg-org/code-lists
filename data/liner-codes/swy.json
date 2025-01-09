@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SWY",
+  "linerName": "Seaway Lines PTE. LTD.",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "1, NORTH BRIDGE ROAD, #06-27, HIGH STREET CENTRE, SINGAPORE 179094",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "website": "https://www.seaway-lines.com",
+  "remarks": "",
+  "validFrom": "2022-08-12",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2023-02-15",
+      "updateRequestedBy": "Seaways",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by Seaways"
+    }
+  ]
+}
