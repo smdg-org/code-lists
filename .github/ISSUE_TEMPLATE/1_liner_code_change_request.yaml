@@ -132,10 +132,10 @@ body:
     validations:
       required: false
   - type: input
-    id: address_state
+    id: address_area
     attributes:
-      label: "State"
-      description: State or the region or the province of the liner  
+      label: "Area"
+      description: The state or the region or the province of the liner  
       placeholder: "Example: NY"
     validations:
       required: false
