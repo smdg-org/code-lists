@@ -2,13 +2,19 @@ name: Liner code data change request
 description: This template is used to request liner code data changes
 title: 'Liner code data change request: [Code]'
 labels: [ "data", "liner-code" ]
-assignees: 'data-reviewers'
+assignees: 'jasmindroenner-smdg'
 body:
+  - type: markdown
+    attributes:
+      value: |
+        :exclamation: *Please note that the data provided below is considered public, do not include any sensitive information.*
+        :warning: *Please fill out all the fields when adding a new liner code, otherwise the validation will fail at the later stage. You always can just edit the issue and add more information.*
   - type: dropdown
     id: change_type
     attributes:
       label: "Change Type"
       description: Type of change to be made
+      default: 1
       options:
         - "Add"
         - "Update"
@@ -21,6 +27,14 @@ body:
       label: "Requester"
       description: Entity requesting the change
       placeholder: "Example: Maersk"
+    validations:
+      required: true
+  - type: input
+    id: change_reason
+    attributes:
+      label: "Change Reason"
+      description: Reason for the change
+      placeholder: "Example: New liner is registered, or existing liner has changed name"
     validations:
       required: true
   - type: input
@@ -39,28 +53,21 @@ body:
       placeholder: "Example: Maersk"
     validations:
       required: false
-  - type: input
-    id: parent_company_code
-    attributes:
-      label: "Parent Company Code"
-      description: Parent company code
-      placeholder: "Example: MSK"
-    validations:
-      required: false
-  - type: input
-    id: parent_company_name
-    attributes:
-      label: "Parent Company Name"
-      description: Parent company name
-      placeholder: "Example: Maersk"
-    validations:
-      required: false
-  - type: input
+  - type: dropdown
     id: carrier_type
     attributes:
       label: "Carrier Type"
-      description: Type of carrier
-      placeholder: "Example: Ocean"
+      description: Type of carrier such as Vessel Operating or Non-Vessel Operating
+      default: 0
+      options:
+        - "NVOCC"
+        - "VOCC"
+  - type: input
+    id: parent_company
+    attributes:
+      label: "Parent Company"
+      description: Parent company
+      placeholder: "Example: MSK or Maersk"
     validations:
       required: false
   - type: input
@@ -70,7 +77,7 @@ body:
       description: UN/LOCODE of the liner
       placeholder: "Example: NYC"
     validations:
-      required: true
+      required: false
   - type: input
     id: un_country_code
     attributes:
@@ -78,15 +85,12 @@ body:
       description: UN country code of the liner
       placeholder: "Example: US"
     validations:
-      required: true
-  - type: input
-    id: address_name
+      required: false
+  - type: markdown
     attributes:
-      label: "Address"
-      description: Address of the liner
-      placeholder: "Example: Headquarters"
-    validations:
-      required: true
+      value: |
+        &nbsp;
+        :information_source: *Please provide the postal address of the liner/company (headquarter).*
   - type: input
     id: address_street
     attributes:
@@ -94,7 +98,7 @@ body:
       description: Street address of the liner
       placeholder: "Example: 123 Main St"
     validations:
-      required: true
+      required: false
   - type: input
     id: address_street_number
     attributes:
@@ -102,15 +106,15 @@ body:
       description: Street number of the liner
       placeholder: "Example: 123"
     validations:
-      required: true
+      required: false
   - type: input
     id: address_floor
     attributes:
-      label: "floor"
+      label: "Floor"
       description: Building/Floor of the liner
       placeholder: "Example: 1"
     validations:
-      required: true
+      required: false
   - type: input
     id: address_postal_code
     attributes:
@@ -118,7 +122,7 @@ body:
       description: Postal code of the liner
       placeholder: "Example: 10001"
     validations:
-      required: true
+      required: false
   - type: input
     id: address_city
     attributes:
@@ -126,15 +130,15 @@ body:
       description: City of the liner
       placeholder: "Example: New York"
     validations:
-      required: true
+      required: false
   - type: input
-    id: address_state
+    id: address_area
     attributes:
-      label: "State"
-      description: State of the liner
+      label: "Area"
+      description: The state or the region or the province of the liner  
       placeholder: "Example: NY"
     validations:
-      required: true
+      required: false
   - type: input
     id: address_country
     attributes:
@@ -142,7 +146,7 @@ body:
       description: Country of the liner
       placeholder: "Example: USA"
     validations:
-      required: true
+      required: false
   - type: input
     id: website
     attributes:
@@ -152,10 +156,42 @@ body:
     validations:
       required: false
   - type: textarea
-    id: comments
+    id: remarks
     attributes:
-      label: "Comments"
-      description: Additional comments
-      placeholder: "Add any additional comments here"
+      label: "Remarks"
+      description: Additional remarks related to the liner code
+      placeholder: "Liner code related remarks"
+    validations:
+      required: false
+  - type: input
+    id: valid_from
+    attributes:
+      label: "Valid From"
+      description: Date from which the liner code is valid
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: false
+  - type: input
+    id: valid_to
+    attributes:
+      label: "Valid To"
+      description: Date until which the liner code is valid
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: false
+  - type: input
+    id: linked_liner_code
+    attributes:
+      label: "Linked Liner Code"
+      description: Liner code that is linked to the liner code because the code has changed or other reasons
+      placeholder: "Example: MSK"
+    validations:
+      required: false
+  - type: textarea
+    id: change_comments
+    attributes:
+      label: "Change Comments"
+      description: Comments related to the change request
+      placeholder: "Change request related comments"
     validations:
       required: false
