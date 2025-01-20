@@ -1,6 +1,6 @@
-using Spectre.Console;
+namespace SmdgCli.Services;
 
-namespace SmdgCli.Infrastructure;
+using Spectre.Console;
 
 public class RemoteFileReader : IRemoteFileReader
 {

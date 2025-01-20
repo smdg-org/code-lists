@@ -1,8 +1,8 @@
+namespace SmdgCli.Services;
+
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Spectre.Console.Cli;
-
-namespace SmdgCli.Services;
 
 public sealed class TypeRegistrar : ITypeRegistrar
 {
