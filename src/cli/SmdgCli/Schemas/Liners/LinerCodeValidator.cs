@@ -23,28 +23,14 @@ public class LinerCodeValidator : AbstractValidator<LinerCode>
             .WithMessage("Liner Name is required")
             .MaximumLength(100)
             .WithMessage("Liner Name must be 100 characters long");
-        
-        RuleFor(x => x.ParentCompanyCode)
-            .NotEmpty()
-            .WithMessage("Parent Company Code is required")
-            .MaximumLength(3)
-            .WithMessage("Parent Company Code must be 3 characters long");
-    
-        RuleFor(x => x.ParentCompanyName)
-            .NotEmpty()
-            .WithMessage("Parent Company Name is required")
-            .MaximumLength(100)
-            .WithMessage("Parent Company Name must be 100 characters long");
 
-        RuleFor(x => x.CarrierType)
-            .NotEmpty()
-            .WithMessage("Carrier Type is required")
-            .MaximumLength(10)
-            .WithMessage("Carrier Type must be 10 characters long");
+        RuleFor(x => x.ParentCompany)
+            .MaximumLength(100)
+            .WithMessage("Parent Company must be 100 characters long");
 
         RuleFor(x => x.Website)
-            .MaximumLength(50)
-            .WithMessage("Website must be 50 characters long");
+            .MaximumLength(255)
+            .WithMessage("Website must be no more than 255 characters long");
 
         RuleFor(x => x.Remarks)
             .MaximumLength(500)

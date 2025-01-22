@@ -1,0 +1,72 @@
+name: Liner Codes - Pull Request #${{ github.event.pull_request.number }}
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - data/liner-codes/*.json
+    
+
+env:
+  version: 1.0.${{ github.run_number }}
+  project: src/cli/SmdgCli/SmdgCli.csproj
+  output_dir: data/liner-codes
+
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: setup .net
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x
+
+      - name: pack combined
+        id: pack-combined
+        run: |
+          dotnet run --project ${{ env.project }} -- liner-codes pack combined \
+            -t ${{ github.token }} \
+            -r "${{ github.repository }}" \
+            -o ${{ env.output_dir }}
+
+      - name: commit changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add .
+            git commit -m "Rebuilding the combined liner codes file"
+            git push origin HEAD:${{ github.head_ref }}
+          else
+            echo "No changes to commit"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+  pull_request_verify:
+    runs-on: ubuntu-latest
+    needs: pack
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: setup .net
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x
+
+      - name: verify
+        id: verify
+        run: |
+          dotnet run --project ${{ env.project }} -- liner-codes verify pull-request \
+            -t ${{ github.token }} \
+            -r "${{ github.repository }}" \
+            -p ${{ github.event.pull_request.number }} \
+            -o ${{ env.output_dir }}

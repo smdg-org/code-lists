@@ -1,6 +1,6 @@
-namespace SmdgCli.Infrastructure;
+namespace SmdgCli.Services;
 
 public interface IRemoteFileReader
 {
-    Task<Stream> GetFile(string fileName, string remoteAddress);
+    Task DownloadFile(string filePath, string remoteAddress);
 }

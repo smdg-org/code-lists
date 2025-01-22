@@ -3,10 +3,11 @@ namespace SmdgCli.Schemas.Liners;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
+using Utilities;
 
 public record ChangeLog
 {
-    [MaxLength(50)]
+    [MaxLength(10)]
     [Description("Represents the performed action (UPDATE/CODE CHANGE...).")]
     [JsonPropertyName("actionCode")]
     public required ActionCodeEnum ActionCode { get; set; }
@@ -24,14 +25,18 @@ public record ChangeLog
     [JsonPropertyName("updateRequestedBy")]
     public string? UpdateRequestedBy { get; set; }
 
+    [Description("Brief description of the reason for the performed action.")]
+    [JsonPropertyName("reason")]
+    public required string Reason { get; set; }
+
+    [Description("The list of changes as per SMDG updates.")]
+    [JsonPropertyName("changedFields")]
+    public List<ChangedField> ChangedFields { get; set; } = [];
+
     [MaxLength(3)]
     [Description("Previous or new Liner code related to this liner code version.")]
     [JsonPropertyName("linkedLinerCode")]
     public string? LinkedLinerCode { get; set; }
-
-    [Description("Brief description of the reason for the performed action.")]
-    [JsonPropertyName("reason")]
-    public required string Reason { get; set; }
 
     [MaxLength(100)]
     [Description("Any additional comments needed.")]

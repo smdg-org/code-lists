@@ -1,0 +1,161 @@
+name: Liner Codes - Updates
+on:
+  issues:
+    types: [opened, labeled, edited]
+
+env:
+  branch_name: data/update-liner-code-${{ github.run_number }}
+  convert_project: src/cli/SmdgCli/SmdgCli.csproj
+  output_dir: data/liner-codes
+  local_bulk_file_name: smdg-liner-codes.xlsx
+  local_form_file_name: smdg-liner-code-form.xlsx
+
+jobs:
+  convert-issue:
+    name: Convert via GitHub Form
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'liner-code') && contains(github.event.issue.labels.*.name, 'data') && !contains(github.event.issue.labels.*.name, 'attachment-excel')
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: setup .net
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x
+
+      - name: issue processing
+        run: |
+          dotnet run --project ${{ env.convert_project }} -- liner-codes convert issue \
+            -i "${{ github.event.issue.number }}" \
+            -t "${{ github.token }}" \
+            -r "${{ github.repository }}" \
+            -o "${{ env.output_dir }}"
+
+      - name: create pull request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ github.token }}
+          base: main
+          branch: ${{ env.branch_name }}
+          commit-message: "Fixes #${{ github.event.issue.number }} for data changes"
+          title: "Fixes #${{ github.event.issue.number }} - ${{ github.event.issue.title }}"
+          body: |
+            # Description
+
+            ## Why
+            Liner code has been changed based on the issue #${{ github.event.issue.number }}
+
+            ## What
+            ${{ github.event.issue.title }}
+
+            ## What data has been changed
+            Data:
+            - [x] Liner information has been changed
+
+  convert-excel:
+    name: Convert via Excel Form
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'liner-code') && contains(github.event.issue.labels.*.name, 'data') && contains(github.event.issue.labels.*.name, 'attachment-excel')
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: setup .net
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x
+
+      - name: download attachment
+        run: |
+          dotnet run --project ${{ env.convert_project }} -- download attachment \
+            -i "${{ github.event.issue.number }}" \
+            -f "${{ env.local_form_file_name }}" \
+            -t "${{ github.token }}" \
+            -r "${{ github.repository }}" \
+            -o "${{ env.output_dir }}"
+
+      - name: issue processing
+        run: |
+          dotnet run --project ${{ env.convert_project }} -- liner-codes convert form \
+            -i "${{ github.event.issue.number }}" \
+            -f "${{ env.local_form_file_name }}" \
+            -t "${{ github.token }}" \
+            -r "${{ github.repository }}" \
+            -o "${{ env.output_dir }}"
+
+      - name: create pull request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ github.token }}
+          base: main
+          branch: ${{ env.branch_name }}
+          commit-message: "Fixes #${{ github.event.issue.number }} for data changes"
+          title: "Fixes #${{ github.event.issue.number }} - ${{ github.event.issue.title }}"
+          body: |
+            # Description
+
+            ## Why
+            Liner code has been changed based on the issue #${{ github.event.issue.number }} with excel form
+
+            ## What
+            ${{ github.event.issue.title }}
+
+            ## What data has been changed
+            Data:
+            - [x] Liner information has been changed
+
+  convert-bulk:
+    name: Convert via Bulk File
+    runs-on: ubuntu-latest
+    concurrency: convert-bulk
+    if: contains(github.event.issue.labels.*.name, 'liner-code') && contains(github.event.issue.labels.*.name, 'data') && contains(github.event.issue.labels.*.name, 'attachment-bulk')
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: setup .net
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x
+
+      - name: download attachment
+        run: |
+          dotnet run --project ${{ env.convert_project }} -- download attachment \
+            -i "${{ github.event.issue.number }}" \
+            -f "${{ env.local_bulk_file_name }}" \
+            -t "${{ github.token }}" \
+            -r "${{ github.repository }}" \
+            -o "${{ env.output_dir }}"
+
+      - name: issue processing
+        run: |
+          dotnet run --project ${{ env.convert_project }} -- liner-codes convert bulk \
+            -f "${{ env.local_bulk_file_name }}" \
+            -t "${{ github.token }}" \
+            -r "${{ github.repository }}" \
+            -o "${{ env.output_dir }}"
+
+      - name: create pull request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ github.token }}
+          base: main
+          branch: ${{ env.branch_name }}
+          commit-message: "Fixes #${{ github.event.issue.number }} for data changes"
+          title: "Fixes #${{ github.event.issue.number }} - ${{ github.event.issue.title }}"
+          body: |
+            # Description
+
+            ## Why
+            Liner code has been changed based on the issue #${{ github.event.issue.number }} with bulk updates
+
+            ## What
+            ${{ github.event.issue.title }}
+
+            ## What data has been changed
+            Data:
+            - [x] Liner information has been changed
