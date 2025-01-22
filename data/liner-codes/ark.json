@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "ARK",
+  "linerName": "Arkas Shipping",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "ARK",
+  "address": "ARKAS SHIPPING AND TRANSPORT SA\nAddress Esentepe Gazeteciler Mahallesi Matbuat Sokak n\u00B05 Sisli\nZip Code \nCity Istanbul\nState \nCountry Turkey",
+  "addressLocation": {
+    "UnLocode": "IST",
+    "UnCountryCode": "TR",
+    "address": {
+      "street": " Esentepe Gazeteciler Mahallesi Matbuat Sokak n\u00B05 Sisli",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Istanbul",
+      "state": "",
+      "country": "Turkey"
+    }
+  },
+  "website": "https://www.arkasline.com.tr",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

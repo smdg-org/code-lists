@@ -1,0 +1,50 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V2",
+  "linerSMDGCode": "TSH",
+  "linerName": "Tailwind Shipping Lines",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": " ",
+  "address": "Tailwind Shipping Lines GmbH \u0026 Co. KG, Trostbr\u00FCcke 1, 20457 Hamburg, Germany",
+  "addressLocation": {
+    "UnLocode": "HAM",
+    "UnCountryCode": "DE",
+    "address": {
+      "street": "Trostbr\u00FCcke",
+      "streetNumber": "1",
+      "floor": "",
+      "postCode": "20457",
+      "city": "Hamburg",
+      "state": "",
+      "country": "Germany"
+    }
+  },
+  "website": "https://www.tailwind-shipping.com",
+  "remarks": "",
+  "validFrom": "2022-09-12",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2023-02-15",
+      "updateRequestedBy": "Tailwind",
+      "reason": "code change from TWS to TSH , change of address",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "change requested by Tailwind (code and address)"
+    }
+  ]
+}

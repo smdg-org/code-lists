@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SEA",
+  "linerName": "Sea Connect Klaipeda, Lithuania",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "",
+  "address": " SEA CONNECT UAB\nJ.Zauerveino 21, LT 92122\nKlaipeda, Lithuania",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "LT",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Lithuania"
+    }
+  },
+  "website": "https://www.seaconnect.lt/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

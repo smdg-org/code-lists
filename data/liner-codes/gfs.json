@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "GFS",
+  "linerName": "Global Feeder Shipping",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Global Feeder Shipping LLC.,\n18th Floor, Regal Tower, Business Bay\nP.O. Box 23174,\nDubai \u2013 United Arab Emirates",
+  "addressLocation": {
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "18th Floor, Regal Tower",
+      "postCode": "",
+      "city": "Dubai",
+      "state": "",
+      "country": "United Arab Emirates"
+    }
+  },
+  "website": "https://www.globalfeeders.com/",
+  "remarks": "",
+  "validFrom": "2020-03-11",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

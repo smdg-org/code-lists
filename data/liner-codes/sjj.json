@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SJJ",
+  "linerName": "Shanghai Jinjiang Shipping",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "SJJ",
+  "address": "Floor 15, Golden Bell Plaza, No.98. Huai Hai Road(Middle), Shanghai 200021, China",
+  "addressLocation": {
+    "UnLocode": "SGH",
+    "UnCountryCode": "CN",
+    "address": {
+      "street": "Golden Bell Plaza",
+      "streetNumber": "98",
+      "floor": "",
+      "postCode": "200021",
+      "city": "Shanghai",
+      "state": "",
+      "country": "China"
+    }
+  },
+  "website": "http://www.jjshipping.cn/",
+  "remarks": "",
+  "validFrom": "2022-06-20",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-06-20",
+      "updateRequestedBy": "T.V.L. Global Logistics",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by T.V.L. Global Logistics (S) Pte. Ltd.(SJJ copied in)"
+    }
+  ]
+}

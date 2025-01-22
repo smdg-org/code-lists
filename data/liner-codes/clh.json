@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CLH",
+  "linerName": "Clarion Shipping",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Clarion Shipping Services L.L.C\nP O Box 43030, Palace Tower1, Office No. 1802 and 1803, Dubai Silicon Oasis, Dubai-UAE.",
+  "addressLocation": {
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "Palace Tower1",
+      "postCode": "",
+      "city": "Dubai",
+      "state": "",
+      "country": "United Arab Emirates"
+    }
+  },
+  "website": "https://www.clarionshipping.com",
+  "remarks": "",
+  "validFrom": "2016-05-04",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BBL",
+  "linerName": "Barber Wilhelmsen",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Wilh. Wilhelmsen Holding ASA\nPO Box 33 NO-1324\nLysaker, Norway\nVisiting Address\nStrandveien 20 NO-1366\nLysaker, Norway",
+  "addressLocation": {
+    "UnLocode": "LYS",
+    "UnCountryCode": "NO",
+    "address": {
+      "street": "Strandveien",
+      "streetNumber": "20",
+      "floor": "",
+      "postCode": "",
+      "city": "Lysaker",
+      "state": "",
+      "country": "Norway"
+    }
+  },
+  "website": "https://www.wilhelmsen.com",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

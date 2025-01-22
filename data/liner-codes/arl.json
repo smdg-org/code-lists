@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "ARL",
+  "linerName": "Arctic Container Line AS",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "ARL",
+  "address": "Fonnes 50, 5953 Fonnes",
+  "addressLocation": {
+    "UnLocode": "FNN",
+    "UnCountryCode": "NO",
+    "address": {
+      "street": "Fonnes",
+      "streetNumber": "50",
+      "floor": "",
+      "postCode": "5953",
+      "city": "Fonnes ",
+      "state": "",
+      "country": "Norway"
+    }
+  },
+  "website": "https://www.arcticcl.no",
+  "remarks": "",
+  "validFrom": "2022-06-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-06-13",
+      "updateRequestedBy": "Arctic Container Line",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by Arctic Container Line"
+    }
+  ]
+}

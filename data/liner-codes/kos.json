@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "KOS",
+  "linerName": "King Ocean Services",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "HEADQUARTERS\nKING OCEAN SERVICES, Ltd\n11000 NW 29 Street Suite 201\nDoral, FL. 33172, USA\n",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "US",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "United States of America"
+    }
+  },
+  "website": "https://www.kingocean.com",
+  "remarks": "",
+  "validFrom": "2015-10-27",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

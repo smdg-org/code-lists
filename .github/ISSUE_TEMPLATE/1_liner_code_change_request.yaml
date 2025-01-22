@@ -1,0 +1,197 @@
+name: Liner code data change request
+description: This template is used to request liner code data changes
+title: 'Liner code data change request: [Code]'
+labels: [ "data", "liner-code" ]
+assignees: 'jasmindroenner-smdg'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        :exclamation: *Please note that the data provided below is considered public, do not include any sensitive information.*
+        :warning: *Please fill out all the fields when adding a new liner code, otherwise the validation will fail at the later stage. You always can just edit the issue and add more information.*
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: "Change Type"
+      description: Type of change to be made
+      default: 1
+      options:
+        - "Add"
+        - "Update"
+        - "Delete"
+    validations:
+      required: true
+  - type: input
+    id: requester
+    attributes:
+      label: "Requester"
+      description: Entity requesting the change
+      placeholder: "Example: Maersk"
+    validations:
+      required: true
+  - type: input
+    id: change_reason
+    attributes:
+      label: "Change Reason"
+      description: Reason for the change
+      placeholder: "Example: New liner is registered, or existing liner has changed name"
+    validations:
+      required: true
+  - type: input
+    id: liner_code
+    attributes:
+      label: "Liner Code"
+      description: Liner code to be changed
+      placeholder: "Example: MSK"
+    validations:
+      required: true
+  - type: input
+    id: liner_name
+    attributes:
+      label: "Liner name"
+      description: Name of the liner
+      placeholder: "Example: Maersk"
+    validations:
+      required: false
+  - type: dropdown
+    id: carrier_type
+    attributes:
+      label: "Carrier Type"
+      description: Type of carrier such as Vessel Operating or Non-Vessel Operating
+      default: 0
+      options:
+        - "NVOCC"
+        - "VOCC"
+  - type: input
+    id: parent_company
+    attributes:
+      label: "Parent Company"
+      description: Parent company
+      placeholder: "Example: MSK or Maersk"
+    validations:
+      required: false
+  - type: input
+    id: un_locode
+    attributes:
+      label: "UN/LOCODE"
+      description: UN/LOCODE of the liner
+      placeholder: "Example: NYC"
+    validations:
+      required: false
+  - type: input
+    id: un_country_code
+    attributes:
+      label: "UN Country Code"
+      description: UN country code of the liner
+      placeholder: "Example: US"
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        &nbsp;
+        :information_source: *Please provide the postal address of the liner/company (headquarter).*
+  - type: input
+    id: address_street
+    attributes:
+      label: "Street"
+      description: Street address of the liner
+      placeholder: "Example: 123 Main St"
+    validations:
+      required: false
+  - type: input
+    id: address_street_number
+    attributes:
+      label: "Street Number"
+      description: Street number of the liner
+      placeholder: "Example: 123"
+    validations:
+      required: false
+  - type: input
+    id: address_floor
+    attributes:
+      label: "Floor"
+      description: Building/Floor of the liner
+      placeholder: "Example: 1"
+    validations:
+      required: false
+  - type: input
+    id: address_postal_code
+    attributes:
+      label: "Postal Code"
+      description: Postal code of the liner
+      placeholder: "Example: 10001"
+    validations:
+      required: false
+  - type: input
+    id: address_city
+    attributes:
+      label: "City"
+      description: City of the liner
+      placeholder: "Example: New York"
+    validations:
+      required: false
+  - type: input
+    id: address_area
+    attributes:
+      label: "Area"
+      description: The state or the region or the province of the liner  
+      placeholder: "Example: NY"
+    validations:
+      required: false
+  - type: input
+    id: address_country
+    attributes:
+      label: "Country"
+      description: Country of the liner
+      placeholder: "Example: USA"
+    validations:
+      required: false
+  - type: input
+    id: website
+    attributes:
+      label: "Website"
+      description: Provide a link to the website
+      placeholder: "https://www.example.com"
+    validations:
+      required: false
+  - type: textarea
+    id: remarks
+    attributes:
+      label: "Remarks"
+      description: Additional remarks related to the liner code
+      placeholder: "Liner code related remarks"
+    validations:
+      required: false
+  - type: input
+    id: valid_from
+    attributes:
+      label: "Valid From"
+      description: Date from which the liner code is valid
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: false
+  - type: input
+    id: valid_to
+    attributes:
+      label: "Valid To"
+      description: Date until which the liner code is valid
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: false
+  - type: input
+    id: linked_liner_code
+    attributes:
+      label: "Linked Liner Code"
+      description: Liner code that is linked to the liner code because the code has changed or other reasons
+      placeholder: "Example: MSK"
+    validations:
+      required: false
+  - type: textarea
+    id: change_comments
+    attributes:
+      label: "Change Comments"
+      description: Comments related to the change request
+      placeholder: "Change request related comments"
+    validations:
+      required: false

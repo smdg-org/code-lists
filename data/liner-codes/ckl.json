@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CKL",
+  "linerName": "CK LINE CO LTD",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "",
+  "address": "EULJIRO-80-1, BOSEUNG BUILDING 7TH FLOOR, 80-1, EULJI-RO, JUNG-GU, SEOUL, REPUBLIC OF KOREA 04538",
+  "addressLocation": {
+    "UnLocode": "SEL",
+    "UnCountryCode": "KR",
+    "address": {
+      "street": "EULJI-RO",
+      "streetNumber": "80-1",
+      "floor": "BOSEUNG BUILDING 7TH FLOOR,",
+      "postCode": "04538",
+      "city": "Seoul",
+      "state": "",
+      "country": "Republic of Korea (South Korea)"
+    }
+  },
+  "website": "https://www.ckline.com/en/",
+  "remarks": "",
+  "validFrom": "2022-12-21",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-12-21",
+      "updateRequestedBy": "Starline Agencies Asia PTE LTD",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by Starline Agencies Asia PTE LTD (CKL informed by SMDG)"
+    }
+  ]
+}

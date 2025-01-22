@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "TSL",
+  "linerName": "T. S. Lines",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "6F, No. 167, Tun-Hwa North Rd., Taipei 105, Taiwan (R.O.C.)",
+  "addressLocation": {
+    "UnLocode": "TPE",
+    "UnCountryCode": "TW",
+    "address": {
+      "street": "Tun-Hwa North Rd.",
+      "streetNumber": "No. 167",
+      "floor": "6F",
+      "postCode": "105",
+      "city": "Taipei",
+      "state": "",
+      "country": "Taiwan (R.O.C.)"
+    }
+  },
+  "website": "https://www.tslines.com/en/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

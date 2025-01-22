@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "COE",
+  "linerName": "COSCO SHIPPING Lines (Europe) GmbH",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "COS",
+  "address": "Logistics Service, Am Sandtorkai 60, 20457 Hamburg, Germany",
+  "addressLocation": {
+    "UnLocode": "HAM",
+    "UnCountryCode": "DE",
+    "address": {
+      "street": "Am Sandtorkai",
+      "streetNumber": "60",
+      "floor": "",
+      "postCode": "20457",
+      "city": "Hamburg",
+      "state": "",
+      "country": "Germany"
+    }
+  },
+  "website": "https://lines.coscoshipping.com/",
+  "remarks": "",
+  "validFrom": "2015-04-08",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

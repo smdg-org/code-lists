@@ -1,0 +1,50 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V2",
+  "linerSMDGCode": "YML",
+  "linerName": "Yang Ming Marine Transport Corporation",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "",
+  "address": "No. 271, Ming De 1st Road, Cidu District, Keelung 206006, Taiwan (R.O.C.)",
+  "addressLocation": {
+    "UnLocode": "KEL",
+    "UnCountryCode": "TW",
+    "address": {
+      "street": "Ming De 1st Road",
+      "streetNumber": "No. 271",
+      "floor": "",
+      "postCode": "206006",
+      "city": "Keelung",
+      "state": "",
+      "country": "Taiwan (R.O.C.)"
+    }
+  },
+  "website": "https://www.yangming.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2021-08-02",
+      "updateRequestedBy": null,
+      "reason": "Modification of company name from \u0022Yang Ming Line\u0022 to \u0022Yang Ming Marine Transport Corporation\u0022",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Correction sent by email from Yang Ming"
+    }
+  ]
+}

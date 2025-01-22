@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "ECG",
+  "linerName": "Ellerman City Liner",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "",
+  "address": "Upminster Court\n133 Hall Lane\nEssex\nRM14 1AL",
+  "addressLocation": {
+    "UnLocode": "UPM",
+    "UnCountryCode": "GB",
+    "address": {
+      "street": "Hall Lane",
+      "streetNumber": "133",
+      "floor": "",
+      "postCode": "",
+      "city": "Upminster",
+      "state": "",
+      "country": "United Kingdom"
+    }
+  },
+  "website": "https://www.ellermanlines.com",
+  "remarks": "",
+  "validFrom": "2022-11-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-10-27",
+      "updateRequestedBy": "Ellerman City Liner",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by Ellerman City Liner"
+    }
+  ]
+}

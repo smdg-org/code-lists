@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BVC",
+  "linerName": "Bon Voyage Container Trans Lines Pte Ltd",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "8B ADMIRALTY STREET, #02-03, 8B@ADMIRALTY, SINGAPORE 757440",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "address": {
+      "street": "ADMIRALTY STREET",
+      "streetNumber": "8B",
+      "floor": "",
+      "postCode": "757440",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "website": "not available",
+  "remarks": "",
+  "validFrom": "2024-05-20",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2024-05-21",
+      "updateRequestedBy": "BVC",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by BVC"
+    }
+  ]
+}

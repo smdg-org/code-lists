@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CWJ",
+  "linerName": "PT Cumawis Jakarta",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "SSL",
+  "address": "c/o PT Samudera Shipping Servi, 1st Floor, Samudera Indonesia Building, Jalan Letjen S Parman 35, Kel Palmerah, Jakarta 11480, Indonesia",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "ID",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "Jakarta",
+      "state": "",
+      "country": "Indonesia"
+    }
+  },
+  "website": "https://www.samudera.id/samuderashippinglineltd/en",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

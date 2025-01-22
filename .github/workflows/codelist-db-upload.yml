@@ -1,0 +1,46 @@
+CICDname: Upload to S3
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  upload-to-s3:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout the repository
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Set up Python environment (if necessary, e.g., for custom scripts)
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.x
+
+    # Install AWS CLI
+    - name: Install or Update AWS CLI
+      run: |
+        curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+        unzip awscliv2.zip
+        sudo ./aws/install --update
+        aws --version
+
+    # Upload the file to S3
+    - name: Upload to S3
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_DEFAULT_REGION: eu-west-1
+      run: |
+        FILE="data/liner-codes/_combined.json"
+        BUCKET="dev-smdg-codelists-linercodes"
+        if [ -f "$FILE" ]; then
+          aws s3 cp "$FILE" "s3://$BUCKET/_combined.json" --region $AWS_DEFAULT_REGION
+          echo "File uploaded successfully."
+        else
+          echo "File not found: $FILE"
+          exit 1
+        fiCID

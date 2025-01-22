@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "HXS",
+  "linerName": "HUI XIN SHIPPING PTE LTD",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompany": "HXS",
+  "address": "22 Malacca Street #14-01A, RB Capital Building Singapore 048980",
+  "addressLocation": {
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
+    "address": {
+      "street": "Malacca Street",
+      "streetNumber": "22",
+      "floor": "RB Capital Building",
+      "postCode": "48980",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore"
+    }
+  },
+  "website": "www.huixinshipping.com",
+  "remarks": "\u00A0",
+  "validFrom": "2024-09-27",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2024-10-10",
+      "updateRequestedBy": "HXS",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by HXS"
+    }
+  ]
+}

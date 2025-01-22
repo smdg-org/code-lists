@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Expired",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "LBA",
+  "linerName": "Companhia Libra de Navegacao, Rio de Janeiro",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "HLC",
+  "address": "Rua Gil Stein Ferreira, 258 - Centro - Itajai - SC - CEP 88301-210",
+  "addressLocation": {
+    "UnLocode": "ITJ",
+    "UnCountryCode": "BR",
+    "address": {
+      "street": "Rua Gil Stein Ferreira",
+      "streetNumber": "258",
+      "floor": "",
+      "postCode": "88301-210",
+      "city": "Itajai",
+      "state": "",
+      "country": "Brazil"
+    }
+  },
+  "website": "",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": "2020-12-31",
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

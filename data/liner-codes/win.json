@@ -1,0 +1,50 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V2",
+  "linerSMDGCode": "WIN",
+  "linerName": "WINWIN Lines Limited",
+  "isNVOCC": true,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "B-801 TITANIUM HEIGHTS, NR VODAFONE HOUSE, CORPORATE ROAD, PRAHLADNAGAR, AHMEDABAD, GUJARAT, INDIA",
+  "addressLocation": {
+    "UnLocode": "AMD",
+    "UnCountryCode": "IN",
+    "address": {
+      "street": "CORPORATE ROAD",
+      "streetNumber": "",
+      "floor": "B-801 TITANIUM HEIGHTS",
+      "postCode": "",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "country": "India"
+    }
+  },
+  "website": "https://winwinmaritime.com/",
+  "remarks": "",
+  "validFrom": "2022-05-06",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-05-18",
+      "updateRequestedBy": "STARLINE AGENCIES ASIA",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by STARLINE AGENCIES ASIA"
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2022-05-20",
+      "updateRequestedBy": null,
+      "reason": "Correction of website from www.winwinlines.com/  to www.winwinmaritime.com/",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Correction"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SPS",
+  "linerName": "South Pacific Shipping",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Auckland Office\n(Sales, Shipping, Commercial)\nLevel 6, 35 High St,\nAuckland, New Zealand\nPO Box 597, Shortland St,\nAuckland, New Zealand",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "NZ",
+    "address": {
+      "street": "High Street",
+      "streetNumber": "35",
+      "floor": "",
+      "postCode": "",
+      "city": "Auckland",
+      "state": "",
+      "country": "New Zealand"
+    }
+  },
+  "website": "https://www.pfpltd.co.nz/south-pacific-shipping",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

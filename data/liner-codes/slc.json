@@ -1,0 +1,50 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V2",
+  "linerSMDGCode": "SLC",
+  "linerName": "SM Line Corporation, Seoul",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "85, Gwangnaru-ro 56-gil, Gwangjin-gu, Seoul, Republic of Korea (05116)",
+  "addressLocation": {
+    "UnLocode": "SEL",
+    "UnCountryCode": "KR",
+    "address": {
+      "street": "Gwangnaru-ro",
+      "streetNumber": "85",
+      "floor": "",
+      "postCode": "05116",
+      "city": "Seoul",
+      "state": "",
+      "country": "Republic of Korea (South Korea)"
+    }
+  },
+  "website": "https://www.smlines.com/kr/",
+  "remarks": "",
+  "validFrom": "2017-05-10",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2021-07-21",
+      "updateRequestedBy": null,
+      "reason": "weblink replaced, address updated",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "EIM",
+  "linerName": "Eimskip",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Eimskip Iceland\nKorngardar 2\n104 Reykjavik, Iceland\nTel: \u002B354 525-7000",
+  "addressLocation": {
+    "UnLocode": "REY",
+    "UnCountryCode": "IS",
+    "address": {
+      "street": "Korngardar",
+      "streetNumber": "2",
+      "floor": "",
+      "postCode": "104",
+      "city": "Reykjavik",
+      "state": "",
+      "country": "Iceland"
+    }
+  },
+  "website": "https://www.eimskip.com/",
+  "remarks": "",
+  "validFrom": "2003-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}

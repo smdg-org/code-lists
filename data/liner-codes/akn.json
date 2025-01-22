@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "AKN",
+  "linerName": "AKKON Lines",
+  "isNVOCC": false,
+  "isVOCC": true,
+  "parentCompany": "",
+  "address": "AKKON Denizcilik Nakliyat ve Ticaret A.\u015E./AKKON Maritime Transport and Trade S.A.\nK\u0131s\u0131kl\u0131 Mah. Alemda\u011F Cad. No:17/1\n\u00DCsk\u00FCdar / Istanbul, Turkey",
+  "addressLocation": {
+    "UnLocode": "IST",
+    "UnCountryCode": "TR",
+    "address": {
+      "street": "Alemda\u011F Cad",
+      "streetNumber": "417/1",
+      "floor": "",
+      "postCode": "",
+      "city": "Istanbul",
+      "state": "",
+      "country": "Turkey"
+    }
+  },
+  "website": "https://akkonlines.com/",
+  "remarks": "",
+  "validFrom": "2021-12-15",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2022-12-15",
+      "updateRequestedBy": "Hapag-Lloyd",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by Hapag-Lloyd"
+    }
+  ]
+}

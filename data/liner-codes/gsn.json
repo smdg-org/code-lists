@@ -1,0 +1,40 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "GSN",
+  "linerName": "GS Lines",
+  "isNVOCC": false,
+  "isVOCC": false,
+  "parentCompany": "",
+  "address": "Rua Tom\u00E1s Ribeiro, n\u00BA 412, 1\u00BA \u2013 Apartado 2121\n4450-901 Matosinhos, Portugal\nInternational Routes \nCanary Islands, Cape Verde and Guinea-Bissau",
+  "addressLocation": {
+    "UnLocode": "",
+    "UnCountryCode": "PT",
+    "address": {
+      "street": "",
+      "streetNumber": "",
+      "floor": "",
+      "postCode": "",
+      "city": "",
+      "state": "",
+      "country": "Portugal"
+    }
+  },
+  "website": "https://www.gslines.pt/en/homepage-gs-lines-international/",
+  "remarks": "",
+  "validFrom": "2016-12-20",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "Added by SMDG without a specific request."
+    }
+  ]
+}
