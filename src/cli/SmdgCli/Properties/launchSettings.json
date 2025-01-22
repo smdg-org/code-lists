@@ -1,17 +1,47 @@
 {
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "profiles": {
-    "SmdgCliConvert": {
+    "SmdgCliConvertBulk": {
       "commandName": "Project",
       "environmentVariables": {
       },
-      "commandLineArgs": "convert liner-codes -o ./../../../../../../data/liner-codes"
+      "commandLineArgs": "liner-codes convert bulk -f SMDG-Liner-codes-list-20241009-github.xlsx -o ./../../../../../../data/liner-codes"
     },
-    "SmdgCliVerify": {
+    "SmdgCliConvertIssue": {
       "commandName": "Project",
       "environmentVariables": {
       },
-      "commandLineArgs": "verify liner-codes -o ./../../../../../../data/liner-codes"
+      "commandLineArgs": "liner-codes convert issue -i 12 -t GITHUBTOKEN -r Maersk-Global/smdg-public -o ./../../../../../../data/liner-codes"
+    },
+    "SmdgCliConvertIssueExcel": {
+      "commandName": "Project",
+      "environmentVariables": {
+      },
+      "commandLineArgs": "liner-codes convert form -i 14 -t GITHUBTOKEN -r Maersk-Global/smdg-public -o ./../../../../../../data/liner-codes"
+    },
+    "SmdgCliPackCombined": {
+      "commandName": "Project",
+      "environmentVariables": {
+      },
+      "commandLineArgs": "liner-codes pack combined -o ./../../../../../../data/liner-codes"
+    },
+    "SmdgCliPackExcel": {
+      "commandName": "Project",
+      "environmentVariables": {
+      },
+      "commandLineArgs": "liner-codes pack excel -n 2 -t GITHUBTOKEN -r Maersk-Global/smdg-public -o ./../../../../../../data/liner-codes"
+    },
+    "SmdgCliVerifyAll": {
+      "commandName": "Project",
+      "environmentVariables": {
+      },
+      "commandLineArgs": "liner-codes verify all -o ./../../../../../../data/liner-codes"
+    },
+    "SmdgCliVerifyPullRequest": {
+      "commandName": "Project",
+      "environmentVariables": {
+      },
+      "commandLineArgs": "liner-codes verify pull-request -p 13 -t GITHUBTOKEN -r Maersk-Global/smdg-public -o ./../../../../../../data/liner-codes"
     }
   }
 }

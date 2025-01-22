@@ -4,16 +4,16 @@ using System.Runtime.Serialization;
 
 public enum ActionCodeEnum
 {
-    [EnumMember(Value = "UPDATE")]
+    [EnumMember(Value = "ADDED")]
     Added = 1,
 
-    [EnumMember(Value = "UPDATE")]
+    [EnumMember(Value = "UPDATED")]
     Updated = 2,
 
     [EnumMember(Value = "MARKED FOR DELETION")]
     MarkedForDelete = 3,
 
-    [EnumMember(Value = "DELETE")]
+    [EnumMember(Value = "DELETED")]
     Deleted = 4,
 }
 

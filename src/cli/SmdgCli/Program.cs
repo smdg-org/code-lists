@@ -5,6 +5,7 @@ using Serilog;
 using SmdgCli;
 using SmdgCli.Commands;
 using SmdgCli.Schemas.Liners;
+using SmdgCli.Schemas.Liners.Conversion;
 using SmdgCli.Services;
 using Spectre.Console;
 using Spectre.Console.Cli;
@@ -16,23 +17,20 @@ var builder = Host
     .UseContentRoot(Directory.GetCurrentDirectory())
     .ConfigureHostConfiguration(config =>
     {
-        config
-            .AddJsonFile("appsettings.json", false)
-            .AddJsonFile("appsettings.datasources.json", false);
+        config.AddJsonFile("appsettings.json", false);
     })
     .ConfigureServices((ctx, services) =>
     {
-        services.Configure<DataSources>(ctx.Configuration.GetSection("DataSources"));
-
         services.AddHttpClient();
 
         services.AddTransient<IRemoteFileReader, RemoteFileReader>();
-        services.AddTransient<IFileListWriter, FileListWriter>();
-        services.AddTransient<IFileConverter, FileConverter>();
+        services.AddTransient<IFileStore, FileStore>();
+        services.AddTransient<IExcelFile, ExcelFile>();
         services.AddTransient<IExcelMapper<LinerCodeExcel>, LinerCodeExcelMapper>();
         services.AddTransient<IExcelMapper<LinerCodeChangeExcel>, LinerCodeChangeExcelMapper>();
         services.AddTransient<IMapper<LinerCode, LinerCodeExcel, LinerCodeChangeExcel>, LinerCodeMapper>();
         services.AddTransient<LinerCodeMapper>();
+        services.AddTransient<LinerCodeFormMapper>();
     })
     .UseSerilog();
 
@@ -43,15 +41,31 @@ var app = new CommandApp(registrar);
 app.Configure(config =>
 {
     config.AddCommand<VersionCommand>("version");
-
-    config.AddBranch("convert", convert =>
+    
+    config.AddBranch("download", download =>
     {
-        convert.AddCommand<ConvertLinerCodesCommand>("liner-codes");
+        download.AddCommand<DownloadAttachmentCommand>("attachment");
+        download.AddCommand<DownloadDocumentCommand>("file");
     });
 
-    config.AddBranch("verify", verify =>
+    config.AddBranch("liner-codes", linerCode =>
     {
-        verify.AddCommand<VerifyLinerCodesCommand>("liner-codes");
+        linerCode.AddBranch("convert", convert =>
+        {
+            convert.AddCommand<LinerCodesConvertBulkCommand>("bulk");
+            convert.AddCommand<LinerCodesConvertIssueCommand>("issue");
+            convert.AddCommand<LinerCodesConvertFormCommand>("form");
+        });
+        linerCode.AddBranch("pack", pack =>
+        {
+            pack.AddCommand<LinerCodesPackExcelCommand>("excel");
+            pack.AddCommand<LinerCodesPackCombinedCommand>("combined");
+        });
+        linerCode.AddBranch("verify", verify =>
+        {
+            verify.AddCommand<LinerCodesVerifyAllCommand>("all");
+            verify.AddCommand<LinerCodesVerifyPullRequestCommand>("pull-request");
+        });
     });
 });
 

@@ -1,6 +1,8 @@
 namespace SmdgCli.Services;
 
-public interface IMapper<out TResult, in TSource, in TChange>
+public interface IMapper<TResult, TSource, TChange>
 {
     TResult Map(TSource source, IEnumerable<TChange> sourceChanges);
+    
+    (TSource Source, IEnumerable<TChange> SourceChanges) ReverseMap(TResult result);
 }
