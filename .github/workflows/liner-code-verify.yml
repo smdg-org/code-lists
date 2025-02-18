@@ -1,0 +1,36 @@
+name: Liner Codes - Verify
+
+on:
+  workflow_dispatch: 
+    inputs:
+      liner_codes:
+        type: choice
+        required: true
+        options:
+          - all
+        default: 'all'
+
+env:
+  project: src/cli/SmdgCli/SmdgCli.csproj
+  output_dir: data/liner-codes
+
+jobs:
+  verify-all:
+    if: github.event.inputs.liner_codes == 'all'
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: setup .net
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x
+
+      - name: verify all
+        run: |
+          dotnet run --project ${{ env.project }} -- liner-codes verify all \
+            -t "${{ github.token }}" \
+            -r "${{ github.repository }}" \
+            -o "${{ env.output_dir }}"
+

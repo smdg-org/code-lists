@@ -1,11 +1,8 @@
 ﻿using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Serilog;
 using SmdgCli;
 using SmdgCli.Commands;
-using SmdgCli.Schemas.Liners;
-using SmdgCli.Schemas.Liners.Conversion;
 using SmdgCli.Services;
 using Spectre.Console;
 using Spectre.Console.Cli;
@@ -19,19 +16,7 @@ var builder = Host
     {
         config.AddJsonFile("appsettings.json", false);
     })
-    .ConfigureServices((ctx, services) =>
-    {
-        services.AddHttpClient();
-
-        services.AddTransient<IRemoteFileReader, RemoteFileReader>();
-        services.AddTransient<IFileStore, FileStore>();
-        services.AddTransient<IExcelFile, ExcelFile>();
-        services.AddTransient<IExcelMapper<LinerCodeExcel>, LinerCodeExcelMapper>();
-        services.AddTransient<IExcelMapper<LinerCodeChangeExcel>, LinerCodeChangeExcelMapper>();
-        services.AddTransient<IMapper<LinerCode, LinerCodeExcel, LinerCodeChangeExcel>, LinerCodeMapper>();
-        services.AddTransient<LinerCodeMapper>();
-        services.AddTransient<LinerCodeFormMapper>();
-    })
+    .ConfigureServices((ctx, services) => services.RegisterCommandDependencies())
     .UseSerilog();
 
 var registrar = new TypeRegistrar(builder);
@@ -45,7 +30,7 @@ app.Configure(config =>
     config.AddBranch("download", download =>
     {
         download.AddCommand<DownloadAttachmentCommand>("attachment");
-        download.AddCommand<DownloadDocumentCommand>("file");
+        download.AddCommand<DownloadDocumentCommand>("document");
     });
 
     config.AddBranch("liner-codes", linerCode =>

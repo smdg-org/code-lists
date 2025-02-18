@@ -149,7 +149,8 @@ public class LinerCodeMapperTest
         result.AddressLocation.UnLocode.Should().Be(source.UnLocationCode);
         result.AddressLocation.UnCountryCode.Should().Be(source.UnCountryCode);
         result.UnstructuredAddress.Should().Be(source.Address);
-        result.AddressLocation.Address.Street.Should().Be(source.Street);
+        result.AddressLocation.Address.Should().NotBeNull();
+        result.AddressLocation.Address!.Street.Should().Be(source.Street);
         result.AddressLocation.Address.StreetNumber.Should().Be(source.StreetNumber);
         result.AddressLocation.Address.Floor.Should().Be(source.Floor);
         result.AddressLocation.Address.PostCode.Should().Be(source.ZipCode);

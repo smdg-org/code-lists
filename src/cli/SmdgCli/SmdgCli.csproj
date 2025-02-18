@@ -9,7 +9,6 @@
         <AssemblyName>smdgcli</AssemblyName>
         <Company>SMDG</Company>
         <Product>CLI</Product>
-        <AssemblyVersion></AssemblyVersion>
     </PropertyGroup>
 
     <ItemGroup>
@@ -25,9 +24,6 @@
 
     <ItemGroup>
       <None Update="appsettings.json">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="appsettings.datasources.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
     </ItemGroup>

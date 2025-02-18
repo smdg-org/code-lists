@@ -57,7 +57,7 @@ public partial class LinerCodeMapper : IMapper<LinerCode, LinerCodeExcel, LinerC
                 Action = "added",
                 Company = source.ParentCompany ?? "SMDG",
                 Reason = "initial change",
-                Comments = "Added by SMDG without a specific request.",
+                Comments = "This change was not tracked in excel and it was added by GitHub workflow.",
             });
         }
 
