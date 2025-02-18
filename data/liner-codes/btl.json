@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BTL",
   "linerName": "Bengal Tiger Line Singapore",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "Bengal Tiger Line Pte Ltd, 200 Cantonment Road, #13-01 Southpoint,\nSingapore 089763, Singapore",
+  "address": "Bengal Tiger Line Pte Ltd, 200 Cantonment Road, #13-01, Southpoint, Singapore 089763",
   "addressLocation": {
-    "UnLocode": "SIN",
-    "UnCountryCode": "SG",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Cantonment Road",
-      "streetNumber": "200",
-      "floor": "#13-01 Southpoint",
-      "postCode": "089763",
-      "city": "Singapore",
-      "state": "",
-      "country": "Singapore"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://www.btl-feeders.com/",
+  "website": "http://www.btl-feeders.com/",
   "remarks": "",
   "validFrom": "2003-09-01",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

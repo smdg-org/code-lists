@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "VSS",
   "linerName": "VASI Shipping Pte Ltd.",
-  "isNVOCC": true,
-  "isVOCC": false,
+  "carrierType": "NVOCC",
   "parentCompany": "",
-  "address": "91 BENCOOLEN STREET # 10-02 SUNSHINE PLAZA\nZip Code 189652\nCity Singapore\nState \nCountry Singapore",
+  "address": "91 BENCOOLEN STREET # 10-02 SUNSHINE PLAZA, Zip Code 189652, City Singapore, State , Country Singapore",
   "addressLocation": {
-    "UnLocode": "SIN",
-    "UnCountryCode": "SG",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "",
-      "streetNumber": "",
-      "floor": "",
-      "postCode": "",
-      "city": "Singapore",
-      "state": "",
-      "country": "Singapore"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://www.vasishipping.com",
+  "website": "www.vasishipping.com",
   "remarks": "",
   "validFrom": "2019-09-05",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

@@ -4,21 +4,20 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CON",
   "linerName": "Contcharters",
-  "isNVOCC": false,
-  "isVOCC": true,
+  "carrierType": "VOCC",
   "parentCompany": "CON",
   "address": "Ajeltake Road, Ajeltake Island, Majure MH96960, Marshall Islands",
   "addressLocation": {
-    "UnLocode": "",
-    "UnCountryCode": "MH",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "",
-      "streetNumber": "",
-      "floor": "",
-      "postCode": "",
-      "city": "",
-      "state": "",
-      "country": "Marshall Islands"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
   "website": "not available",

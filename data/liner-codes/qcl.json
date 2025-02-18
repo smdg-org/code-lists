@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "QCL",
   "linerName": "Quest Container Line",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "Quest Container Line Pvt Ltd\nNo.325 (Old No.158) 3rd Floor,\nLinghi Chetty Street,\nChennai 600 001, India",
+  "address": "Quest Container Line Pvt Ltd, No.325 (Old No.158) 3rd Floor, Linghi Chetty Street, Chennai 600 001.",
   "addressLocation": {
-    "UnLocode": "MAA",
-    "UnCountryCode": "IN",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "",
-      "streetNumber": "",
-      "floor": "",
-      "postCode": "600 001",
-      "city": "Chennai",
-      "state": "",
-      "country": "India"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://qcline.com/",
+  "website": "http://qcline.com/",
   "remarks": "",
   "validFrom": "2003-09-01",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

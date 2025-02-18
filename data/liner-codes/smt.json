@@ -4,21 +4,20 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SMT",
   "linerName": "Summit Shipping PTE LTD",
-  "isNVOCC": true,
-  "isVOCC": false,
+  "carrierType": "NVOCC",
   "parentCompany": "",
-  "address": "200 Cantonment Road, #06-01 South Point, Singapore 089763, Singapore",
+  "address": "200 CANTONMENT ROAD #06-01 SINGAPORE 089763 SOUTHPOINT",
   "addressLocation": {
-    "UnLocode": "SIN",
-    "UnCountryCode": "SG",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Cantonment Road",
-      "streetNumber": "200",
-      "floor": "#06-01 Southpoint",
-      "postCode": "089763",
-      "city": "Singapore",
-      "state": "",
-      "country": "Singapore"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
   "website": "https://www.summitshipping.sg/",

@@ -3,25 +3,24 @@
   "codeStatus": "Active",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BAA",
-  "linerName": "Bulk Oil \u0026 Liquid Transport Pte Ltd",
-  "isNVOCC": true,
-  "isVOCC": false,
+  "linerName": "Bulk Oil & Liquid Transport Pte Ltd",
+  "carrierType": "NVOCC",
   "parentCompany": "",
   "address": "60 Paya Lebar Road, #05-38 Paya Lebar Square, Singapore 409051",
   "addressLocation": {
-    "UnLocode": "SIN",
-    "UnCountryCode": "SG",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Paya Lebar Road",
-      "streetNumber": "60",
-      "floor": "",
-      "postCode": "409051",
-      "city": "Singapore",
-      "state": "",
-      "country": "Singapore"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://www.bolt-tanks.com",
+  "website": "www.bolt-tanks.com",
   "remarks": "",
   "validFrom": "2023-07-17",
   "validTo": null,
@@ -30,11 +29,11 @@
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2023-07-17",
-      "updateRequestedBy": "Bulk Oil \u0026 Liquid Transport Pte Ltd",
+      "updateRequestedBy": "Bulk Oil & Liquid Transport Pte Ltd",
       "reason": "new request",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "requested by Bulk Oil \u0026 Liquid Transport Pte Ltd"
+      "comments": "requested by Bulk Oil & Liquid Transport Pte Ltd"
     }
   ]
 }

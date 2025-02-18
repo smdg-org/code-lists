@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "ISW",
+  "linerName": "ISWIFT SHIPPING PTE LTD",
+  "carrierType": "NVOCC",
+  "parentCompany": "",
+  "address": "60 Paya Lebar Road #09-24, Paya Lebar Square Singapore 409051",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "not available",
+  "remarks": "",
+  "validFrom": "2024-12-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2024-11-27",
+      "updateRequestedBy": "ISW",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by ISW"
+    }
+  ]
+}

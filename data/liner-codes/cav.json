@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CAV",
   "linerName": "Compania Sud Americana De Vapores",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "Hendaya 60, Piso 10, Las Condes, Santiago de Chile, Chile",
+  "address": "Hendaya 60, Piso 10, Las Condes, City: Santiago",
   "addressLocation": {
-    "UnLocode": "SCL",
-    "UnCountryCode": "CL",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "",
-      "streetNumber": "",
-      "floor": "",
-      "postCode": "",
-      "city": "",
-      "state": "",
-      "country": "Chile"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://csav.com/",
+  "website": "http://www.csav.com/",
   "remarks": "",
   "validFrom": "2003-09-01",
   "validTo": "2014-12-31",
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

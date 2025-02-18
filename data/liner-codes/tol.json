@@ -4,21 +4,20 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "TOL",
   "linerName": "Tasman Orient Line",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "SWI",
-  "address": "Head Office\nTasman Orient Line C V\nFletcher Challenge Finance Limited\nBuilding \u0022Alexander Poort\u0022\nMarten Meesweg 107\n3068 AV Rotterdam,\nThe Netherlands",
+  "address": "Head Office, Tasman Orient Line C V, Fletcher Challenge Finance Limited, Building \"Alexander Poort\", Marten Meesweg 107, 3068 AV Rotterdam, The Netherlands",
   "addressLocation": {
-    "UnLocode": "",
-    "UnCountryCode": "NL",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "",
-      "streetNumber": "",
-      "floor": "",
-      "postCode": "",
-      "city": "",
-      "state": "",
-      "country": "The Netherlands"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
   "website": "http://www.tongjin.com/html/tasman/",
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

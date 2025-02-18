@@ -4,21 +4,20 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "KMA",
   "linerName": "Coastal Shipping",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "General Manager\nCoastal Shipping Ltd\n#57 La Plaisance\nLa Romaine, San Fernando\nTrinidad West Indies",
+  "address": "General Manager, Coastal Shipping Ltd, #57 La Plaisance, La Romaine, San Fernando, Trinidad West Indies",
   "addressLocation": {
-    "UnLocode": "",
-    "UnCountryCode": "TT",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "",
-      "streetNumber": "",
-      "floor": "",
-      "postCode": "",
-      "city": "",
-      "state": "",
-      "country": "Trinidad and Tobago"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
   "website": "http://www.coastalshippingltd.com/",
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

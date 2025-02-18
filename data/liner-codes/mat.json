@@ -4,21 +4,20 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MAT",
   "linerName": "Matson Navigation",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "555 12TH STREET-SUITE 700\nZip Code \nCity OAKLAND, CA 94610\nState \nCountry United States",
+  "address": "555 12TH STREET-SUITE 700, Zip Code , City OAKLAND, CA 94610, State , Country United States",
   "addressLocation": {
-    "UnLocode": "OAK",
-    "UnCountryCode": "US",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "12th Street",
-      "streetNumber": "555",
-      "floor": "",
-      "postCode": "94610",
-      "city": "Oakland",
-      "state": "",
-      "country": "United States of America"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
   "website": "https://www.matson.com/",
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

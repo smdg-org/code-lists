@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "HML",
   "linerName": "Hub Line",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "Wisma Hubline,\nLease No.3815 (Lot 10914), Section 64, KTLD\nJln Datuk Abang Abdul Rahim, 93450 Kuching, Sarawak, Malaysia.",
+  "address": "Wisma Hubline, Lease No.3815 (Lot 10914), Section 64, KTLD, Jln Datuk Abang Abdul Rahim, 93450 Kuching, Sarawak, Malaysia.",
   "addressLocation": {
-    "UnLocode": "KCH",
-    "UnCountryCode": "MY",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Jalan Datuk Abang Abdul Rahim",
-      "streetNumber": "",
-      "floor": "",
-      "postCode": "93450",
-      "city": "Kuching",
-      "state": "",
-      "country": "Malaysia"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://www.hubline.com/",
+  "website": "http://www.hubline.com/",
   "remarks": "",
   "validFrom": "2003-09-01",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

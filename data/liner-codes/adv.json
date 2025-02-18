@@ -4,21 +4,20 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ADV",
   "linerName": "Advance Container Lines",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "ADVANCE CONTAINER LINES (PTE) LTD\n140 CECIL STREET #01-00 PIL BUILDING, SINGAPORE 069540\n\nTEL : (65) 6221 2621 FAX : (65) 6221 7780\nBOOKING HOTLINE : 6221 3222",
+  "address": "ADVANCE CONTAINER LINES (PTE) LTD, 140 CECIL STREET #01-00 PIL BUILDING, SINGAPORE 069540, , TEL : (65) 6221 2621 FAX : (65) 6221 7780, BOOKING HOTLINE : 6221 3222",
   "addressLocation": {
-    "UnLocode": "SIN",
-    "UnCountryCode": "SG",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Cecil Street",
-      "streetNumber": "140",
-      "floor": "#01-00 PIL Building",
-      "postCode": "069540",
-      "city": "Singapore",
-      "state": "",
-      "country": "Singapore"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
   "website": "http://www.aclship.com",
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

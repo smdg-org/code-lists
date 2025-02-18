@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "NER",
+  "linerName": "Nerida Shipping PVT LTD",
+  "carrierType": "NVOCC",
+  "parentCompany": "",
+  "address": "Office No. 416-417, 4th Floor, , Avior Corporate Park Co-op Society Ltd, Nirmal Galaxy, L.B.S Road, Mulund (West), Maharashtra, Mumbai - 400 080, India, ",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "https://www.neridashipping.com/",
+  "remarks": "",
+  "validFrom": "2024-11-15",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2024-11-15",
+      "updateRequestedBy": "OCEANUS CONTAINER LINES PTE LTD",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by OCEANUS CONTAINER LINES PTE LTD"
+    }
+  ]
+}

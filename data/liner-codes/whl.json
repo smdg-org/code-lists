@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "WHL",
   "linerName": "Wan Hai Lines",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "WHL",
-  "address": "10th floor, No. 136, SongJiang Rd, Zhongshan District, Taipei City 10491, Taiwan (R.O.C.)",
+  "address": "10TH FLOOR, 136, SUNG CHIANG ROAD, TAIPEI, TAIWAN ",
   "addressLocation": {
-    "UnLocode": "TPE",
-    "UnCountryCode": "TW",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "SongJiang Rd",
-      "streetNumber": "No. 136",
-      "floor": "10th floor",
-      "postCode": "10491",
-      "city": "Taipei City",
-      "state": "",
-      "country": "Taiwan (R.O.C.)"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://www.wanhai.com/",
+  "website": "http://www.wanhai.com/",
   "remarks": "",
   "validFrom": "2003-09-01",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

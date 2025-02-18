@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "IML",
   "linerName": "Intermarine",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "ZEM",
-  "address": "Ludwig-Erhard-Str. 22, 20459 Hamburg, Germany",
+  "address": "Ludwig-Erhard-Str. 22, 20459 Hamburg",
   "addressLocation": {
-    "UnLocode": "HAM",
-    "UnCountryCode": "DE",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Ludwig-Erhardt-Str.",
-      "streetNumber": "22",
-      "floor": "",
-      "postCode": "20459",
-      "city": "Hamburg",
-      "state": "",
-      "country": "Germany"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://intermarine.com/",
+  "website": "http://intermarine.com/",
   "remarks": "",
   "validFrom": "2003-09-01",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

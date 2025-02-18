@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "NSS",
   "linerName": "NSCSA The National Shipping Company of Saudi Arabia (Bahri)",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "Olaya Towers (Tower B)Floors(12-15), Olaya District, Olaya Street, P.O. Box 8931, Riyadh 11492, Saudi Arabia. Toll Free: 920020007",
+  "address": "Olaya Towers (Tower B)Floors(12-15), Olaya District, Olaya Street, Toll Free: 920020007, P.O. Box 8931, Riyadh 11492",
   "addressLocation": {
-    "UnLocode": "",
-    "UnCountryCode": "SA",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "",
-      "streetNumber": "",
-      "floor": "",
-      "postCode": "",
-      "city": "",
-      "state": "",
-      "country": "Saudi Arabia"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://www.bahri.sa/",
+  "website": "http://www.bahri.sa/Bahri.aspx?lang=en-US",
   "remarks": "",
   "validFrom": "2003-09-01",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

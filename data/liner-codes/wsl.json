@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "WSL",
+  "linerName": "Wallenius Sol",
+  "carrierType": "VOCC",
+  "parentCompany": "Wallenius Sol",
+  "address": "Klippan 1D, SE-414 51 Göteborg, Sweden",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "https://wallenius-sol.com/en",
+  "remarks": "",
+  "validFrom": "2024-12-27",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2025-01-10",
+      "updateRequestedBy": "WSL",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by WSL"
+    }
+  ]
+}

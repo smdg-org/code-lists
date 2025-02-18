@@ -4,24 +4,23 @@
   "linerCodeVersion": "V2",
   "linerSMDGCode": "PAN",
   "linerName": "Pan Continental Shipping Co., Ltd.",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "DONG JU B/D 824-24 YEOK SAM-DONG KANG NAM-KU\nZip Code 135-080\nCity SEOUL\nState \nCountry Korea, Republic of",
+  "address": "DONG JU B/D 824-24 YEOK SAM-DONG KANG NAM-KU, Zip Code 135-080, City SEOUL, State , Country Korea, Republic of",
   "addressLocation": {
-    "UnLocode": "SEL",
-    "UnCountryCode": "KR",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "",
-      "streetNumber": "",
-      "floor": "",
-      "postCode": "135-080",
-      "city": "Seoul",
-      "state": "",
-      "country": "Republic of Korea (South Korea)"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://www.pancon.co.kr",
+  "website": "www.pancon.co.kr",
   "remarks": "",
   "validFrom": "2003-09-01",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     },
     {
       "actionCode": "Updated",

@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CXL",
+  "linerName": "Chenxin Comprehensive Shipping Co., Ltd.",
+  "carrierType": "VOCC",
+  "parentCompany": "CXL",
+  "address": "Room 12C, 21/F, Weida Commercial Building, 1A-1L Tung Choi Street, Kowloon, Hongkong",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "www.chenxinshipping.com",
+  "remarks": "",
+  "validFrom": "2024-11-15",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2024-11-15",
+      "updateRequestedBy": "CXL",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "requested by CXL"
+    }
+  ]
+}

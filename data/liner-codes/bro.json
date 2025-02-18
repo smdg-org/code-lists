@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BRO",
   "linerName": "Brointermed Lines",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "Brointermed Lines Ltd\nQuayside Court, The Quay,\nHarwich, Essex CO12 3HH, United Kingdom",
+  "address": "Brointermed Lines Ltd, Quayside Court, The Quay, Harwich, Essex CO12 3HH., Phn. +44 (0) 1255 551 553, Fax +44 (0) 1255 508 652, brointermed@btconnect.com",
   "addressLocation": {
-    "UnLocode": "HRW",
-    "UnCountryCode": "GB",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Quayside Court, The Quay",
-      "streetNumber": "",
-      "floor": "",
-      "postCode": "CO12 3HH",
-      "city": "Harwich",
-      "state": "Essex",
-      "country": "United Kingdom"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://www.brointermedlines.com/",
+  "website": "http://www.brointermedlines.com/",
   "remarks": "",
   "validFrom": "2015-02-18",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }
