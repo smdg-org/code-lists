@@ -30,7 +30,7 @@ app.Configure(config =>
     config.AddBranch("download", download =>
     {
         download.AddCommand<DownloadAttachmentCommand>("attachment");
-        download.AddCommand<DownloadDocumentCommand>("file");
+        download.AddCommand<DownloadDocumentCommand>("document");
     });
 
     config.AddBranch("liner-codes", linerCode =>

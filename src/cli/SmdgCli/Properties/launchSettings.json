@@ -7,11 +7,17 @@
       },
       "commandLineArgs": "version"
     },
+    "SmdgCliDownloadDocument": {
+      "commandName": "Project",
+      "environmentVariables": {
+      },
+      "commandLineArgs": "download document -f SMDG-Liner-codes-list-20250126.xlsx -u https://smdg.org/wp-content/uploads/Codelists/lines/SMDG-Liner-codes-list-20250126.xlsx -o ./../../../../../../data/liner-codes"
+    },
     "SmdgCliConvertBulk": {
       "commandName": "Project",
       "environmentVariables": {
       },
-      "commandLineArgs": "liner-codes convert bulk -f SMDG-Liner-codes-list-20241009-github.xlsx -o ./../../../../../../data/liner-codes"
+      "commandLineArgs": "liner-codes convert bulk -f SMDG-Liner-codes-list-20250126.xlsx -o ./../../../../../../data/liner-codes"
     },
     "SmdgCliConvertIssue": {
       "commandName": "Project",

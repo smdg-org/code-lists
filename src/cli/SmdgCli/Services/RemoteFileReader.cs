@@ -19,7 +19,8 @@ public class RemoteFileReader(IHttpClientFactory httpClientFactory)
 
     public async Task DownloadFile(string filePath, string remoteAddress)
     {
-        if (!remoteAddress.StartsWith("https://smdg.org/documents/") &&
+        if (!remoteAddress.StartsWith("https://smdg.org/wp-content/uploads/") &&
+            !remoteAddress.StartsWith("https://smdg.org/documents/") &&
             !remoteAddress.StartsWith("https://github.com/"))
         {
             throw new InvalidOperationException("The URL is not a valid URL");
