@@ -9,7 +9,6 @@
         <AssemblyName>smdgcli</AssemblyName>
         <Company>SMDG</Company>
         <Product>CLI</Product>
-        <AssemblyVersion></AssemblyVersion>
     </PropertyGroup>
 
     <ItemGroup>
