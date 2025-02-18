@@ -14,7 +14,7 @@ body:
     attributes:
       label: "Change Type"
       description: Type of change to be made
-      default: 1
+      default: 0
       options:
         - "Add"
         - "Update"
