@@ -14,7 +14,7 @@ env:
   test_project: src/cli/SmdgCli.Test/SmdgCli.Test.csproj
 
 jobs:
-  buil_test:
+  build_test:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
