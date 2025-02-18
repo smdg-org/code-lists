@@ -1,6 +1,6 @@
-using Spectre.Console.Cli;
+namespace SmdgCli.Commands;
 
-namespace SmdgCli;
+using Spectre.Console.Cli;
 
 public class DefaultSettings : CommandSettings
 {

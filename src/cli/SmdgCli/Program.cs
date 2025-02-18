@@ -23,6 +23,7 @@ var builder = Host
     {
         services.AddHttpClient();
 
+        services.AddTransient<IGitHubClientFactory, GitHubClientFactory>();
         services.AddTransient<IRemoteFileReader, RemoteFileReader>();
         services.AddTransient<IFileStore, FileStore>();
         services.AddTransient<IExcelFile, ExcelFile>();

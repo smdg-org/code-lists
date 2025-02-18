@@ -4,9 +4,9 @@ using Octokit;
 using Schemas.Liners;
 using Schemas.Liners.Conversion;
 using Services;
+using Utilities;
 using Spectre.Console;
 using Spectre.Console.Cli;
-using Utilities;
 
 public class LinerCodesConvertIssueCommand(
     IGitHubClientFactory gitHubClientFactory,

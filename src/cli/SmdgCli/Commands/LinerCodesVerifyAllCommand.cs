@@ -1,4 +1,4 @@
-namespace SmdgCli;
+namespace SmdgCli.Commands;
 
 using Schemas.Liners;
 using Services;

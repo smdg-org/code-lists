@@ -1,12 +1,11 @@
-namespace SmdgCli;
+namespace SmdgCli.Commands;
 
-using Commands;
 using Octokit;
 using Schemas.Liners;
 using Services;
+using Utilities;
 using Spectre.Console;
 using Spectre.Console.Cli;
-using Utilities;
 
 public class LinerCodesVerifyPullRequestCommand(IFileStore fileStore, IGitHubClientFactory gitHubClientFactory)
     : AsyncCommand<LinerCodesVerifyPullRequestSettings>
