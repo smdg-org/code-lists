@@ -23,13 +23,13 @@
       "commandName": "Project",
       "environmentVariables": {
       },
-      "commandLineArgs": "liner-codes convert issue -i 12 -t GITHUBTOKEN -r Maersk-Global/smdg-public -o ./../../../../../../data/liner-codes"
+      "commandLineArgs": "liner-codes convert issue -i 12 -t GITHUBTOKEN -r smdg-org/code-lists -o ./../../../../../../data/liner-codes"
     },
     "SmdgCliConvertIssueExcel": {
       "commandName": "Project",
       "environmentVariables": {
       },
-      "commandLineArgs": "liner-codes convert form -i 14 -t GITHUBTOKEN -r Maersk-Global/smdg-public -o ./../../../../../../data/liner-codes"
+      "commandLineArgs": "liner-codes convert form -i 14 -t GITHUBTOKEN -r smdg-org/code-lists -o ./../../../../../../data/liner-codes"
     },
     "SmdgCliPackCombined": {
       "commandName": "Project",
@@ -41,7 +41,7 @@
       "commandName": "Project",
       "environmentVariables": {
       },
-      "commandLineArgs": "liner-codes pack excel -n 2 -t GITHUBTOKEN -r Maersk-Global/smdg-public -o ./../../../../../../data/liner-codes"
+      "commandLineArgs": "liner-codes pack excel -n 2 -t GITHUBTOKEN -r smdg-org/code-lists -o ./../../../../../../data/liner-codes"
     },
     "SmdgCliVerifyAll": {
       "commandName": "Project",
@@ -53,7 +53,7 @@
       "commandName": "Project",
       "environmentVariables": {
       },
-      "commandLineArgs": "liner-codes verify pull-request -p 13 -t GITHUBTOKEN -r Maersk-Global/smdg-public -o ./../../../../../../data/liner-codes"
+      "commandLineArgs": "liner-codes verify pull-request -p 13 -t GITHUBTOKEN -r smdg-org/code-lists -o ./../../../../../../data/liner-codes"
     }
   }
 }
