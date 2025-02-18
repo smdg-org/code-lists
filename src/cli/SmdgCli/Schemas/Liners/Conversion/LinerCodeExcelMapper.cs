@@ -21,8 +21,8 @@ public class LinerCodeExcelMapper : IExcelMapper<LinerCodeExcel>
         return new LinerCodeExcel
         {
             Code = source["Code"].Trim()[..3],
-            Line = source["Line"],
-            ParentCompany = source["Parent company"],
+            Line = source["Line"].Trim(),
+            ParentCompany = source["Parent company"].Trim(),
             Nvocc = source["NVOCC"].Trim().Contains('x', StringComparison.InvariantCultureIgnoreCase),
             Vocc = source["VOCC"].Trim().Contains('x', StringComparison.InvariantCultureIgnoreCase),
             LastChange = lastChanged,
@@ -32,16 +32,16 @@ public class LinerCodeExcelMapper : IExcelMapper<LinerCodeExcel>
             Address = source["Address"],
             Remarks = source["Remarks"],
             // New data model
-            Street = source["Street"],
-            StreetNumber = source["No."],
-            Floor = source["Building/Suite/Floor"],
-            ZipCode = source["Zip code"],
-            City = source["City"],
-            StateRegion = source["State/Region"],
-            Country = source["Country"],
-            UnCountryCode = source["UN Country Code"],
-            UnLocationCode = source["UN Location Code"],
-            IsActive = source["Active"].Trim().Contains("active", StringComparison.InvariantCultureIgnoreCase)
+            Street = OptionalString(source, "Street"),
+            StreetNumber = OptionalString(source, "No."),
+            Floor = OptionalString(source, "Building/Suite/Floor"),
+            ZipCode = OptionalString(source, "Zip code"),
+            City = OptionalString(source, "City"),
+            StateRegion = OptionalString(source, "State/Region"),
+            Country = OptionalString(source, "Country"),
+            UnCountryCode = OptionalString(source, "UN Country Code"),
+            UnLocationCode = OptionalString(source, "UN Location Code"),
+            IsActive = OptionalString(source, "Active")?.Trim().Contains("active", StringComparison.InvariantCultureIgnoreCase) ?? true,
         };
     }
 
@@ -73,4 +73,7 @@ public class LinerCodeExcelMapper : IExcelMapper<LinerCodeExcel>
             ["Active"] = source.IsActive ? "active" : ""
         };
     }
+    
+    public static string? OptionalString(IDictionary<string, string> source, string key) =>
+        source.TryGetValue(key, out var value) ? value : null;
 }
