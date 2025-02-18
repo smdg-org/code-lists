@@ -81,6 +81,8 @@ public partial class LinerCodeMapper : IMapper<LinerCode, LinerCodeExcel, LinerC
 
         var validFrom = source.ValidFrom ?? DateOnly.MinValue;
 
+        var carrierType = source.Vocc ? CarrierType.VOCC : source.Nvocc ? CarrierType.NVOCC : CarrierType.UNKNOWN;
+        
         return new LinerCode
         {
             IsActive = source.IsActive,
@@ -88,11 +90,9 @@ public partial class LinerCodeMapper : IMapper<LinerCode, LinerCodeExcel, LinerC
             LinerCodeVersion = changeLogs.Last().LinerCodeVersion,
             LinerSmdgCode = source.Code!.ToUpper(),
             LinerName = source.Line,
-            CarrierType = source.Vocc
-                ? CarrierType.VOCC
-                : source.Nvocc ? CarrierType.NVOCC : null,
+            CarrierType = carrierType,
             ParentCompany = source.ParentCompany,
-            UnstructuredAddress = source.Address,
+            UnstructuredAddress = source.Address.Replace(",\n", ", ").Replace("\n", ", "),
             AddressLocation = new AddressLocation
             {
                 UnLocode = source.UnLocationCode,

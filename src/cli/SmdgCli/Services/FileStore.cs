@@ -1,5 +1,6 @@
 namespace SmdgCli.Services;
 
+using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using Schemas.Liners;
@@ -13,7 +14,8 @@ public class FileStore : IFileStore
     {
         WriteIndented = true,
         PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
-        Converters = { new JsonStringEnumConverter() }
+        Converters = { new JsonStringEnumConverter() },
+        Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
     };
     
     public async Task<T?> TryReadAsync<T>(

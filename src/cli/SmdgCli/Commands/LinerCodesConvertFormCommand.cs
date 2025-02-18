@@ -39,7 +39,7 @@ public class LinerCodesConvertFormCommand(
             }
 
             AnsiConsole.MarkupLine($"[green]Processing liner code application form from an issue #{settings.IssueNumber}.[/]");
-            AnsiConsole.MarkupLine($"[green]Issue: {issue.Title}[/]");
+            AnsiConsole.WriteLine($"Issue: {issue.Title}");
 
             var linerCodeFormExcel = Markdown.ParseForm<LinerCodeFormExcel>(issue.Body);
             if (linerCodeFormExcel is null)
