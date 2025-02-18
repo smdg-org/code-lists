@@ -1,0 +1,37 @@
+name: SMDG CLI - Test
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - src/cli/**
+
+env:
+  version: 1.0.${{ github.run_number }}
+  project: src/cli/SmdgCli/SmdgCli.csproj
+  test_project: src/cli/SmdgCli.Test/SmdgCli.Test.csproj
+
+jobs:
+  buil_test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: setup .net
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x
+
+      - name: restore
+        run: |
+          dotnet restore ${{ env.project }}
+          dotnet restore ${{ env.test_project }}
+
+      - name: build
+        run: dotnet build ${{ env.test_project }}
+
+      - name: test
+        run: dotnet test ${{ env.test_project }}
