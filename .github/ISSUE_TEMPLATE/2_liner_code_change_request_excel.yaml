@@ -1,6 +1,6 @@
 name: Liner code data change request (Excel)
 description: This template is used to request liner code data changes from excel form
-title: 'Liner code data change request: [Code]'
+title: 'Liner code data change request: Code'
 labels: [ "data", "liner-code", "attachment-excel" ]
 assignees: 'jasmindroenner-smdg'
 body:
