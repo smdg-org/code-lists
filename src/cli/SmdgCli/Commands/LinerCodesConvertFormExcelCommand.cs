@@ -19,6 +19,12 @@ public class LinerCodesConvertFormExcelCommand(
         CommandContext context,
         LinerCodesConvertFormExcelSettings settings)
     {
+        if (string.IsNullOrWhiteSpace(settings.LocalFileName))
+        {
+            AnsiConsole.MarkupLine("[red]The local file name is missing from the command arguments.[/]");
+            return 1;
+        }
+        
         var (owner, repository) = GitHubUtils.GetOwnerAndRepo(settings.Repository);
 
         var git = gitHubClientFactory.Create(owner, settings.Token);
@@ -50,6 +56,12 @@ public class LinerCodesConvertFormExcelCommand(
 
             var existingLinerCode = await fileStore
                 .TryReadAsync<LinerCode>(linerCodeFormExcel.LinerCode!, settings.OutputDirectory);
+
+            if (!File.Exists(Path.Combine(settings.OutputDirectory, CacheDirectory.Name, settings.LocalFileName)))
+            {
+                AnsiConsole.MarkupLine("[red]The form attachment is missing from the local path. Please make sure it is downloaded before running this command.[/]");
+                return 1;
+            }
 
             var data = excelFile.Read(
                 settings.LocalFileName,

@@ -18,6 +18,12 @@ public class LinerCodeFormMapper
             Reason = formData.ChangeReason ?? "initial request via application form",
             Comments = formData.ChangeComments
         };
+
+        var validFrom = formData.ValidFrom.ToDateOnly();
+        if (validFrom == null)
+        {
+            throw new ArgumentException("ValidFrom is required.");
+        }
     
         return new LinerCode()
         {
@@ -48,8 +54,8 @@ public class LinerCodeFormMapper
             },
             Website = formData.Website ?? string.Empty,
             Remarks = formData.Remarks ?? string.Empty,
-            ValidFrom = DateOnly.Parse(formData.ValidFrom!),
-            ValidTo = formData.ValidTo is not null ? DateOnly.Parse(formData.ValidTo) : null,
+            ValidFrom = validFrom.Value,
+            ValidTo = formData.ValidTo.ToDateOnly(),
             ChangeLogs = [initialChange],
         };
     }
@@ -58,13 +64,8 @@ public class LinerCodeFormMapper
     {
         var changeType = formData.ChangeType?.ToLower() ?? "update";
         
-        var validFrom = !string.IsNullOrWhiteSpace(formData.ValidFrom)
-             ? DateOnly.FromDateTime(DateTime.Parse(formData.ValidFrom))
-            : existing.ValidFrom;
-        
-        var validTo = !string.IsNullOrWhiteSpace(formData.ValidTo)
-            ? DateOnly.FromDateTime(DateTime.Parse(formData.ValidTo))
-            : existing.ValidTo;
+        var validFrom = formData.ValidFrom.ToDateOnly();
+        var validTo = formData.ValidTo.ToDateOnly();
         
         var status = GetCodeStatus(changeType, validTo);
         
@@ -115,7 +116,7 @@ public class LinerCodeFormMapper
             },
             Website = formData.Website ?? existing.Website,
             Remarks = formData.ChangeComments ?? existing.Remarks,
-            ValidFrom = validFrom,
+            ValidFrom = validFrom ?? existing.ValidFrom,
             ValidTo = validTo,
             ChangeLogs = changeLogs,
         };

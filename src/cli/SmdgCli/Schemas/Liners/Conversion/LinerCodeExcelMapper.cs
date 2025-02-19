@@ -1,23 +1,12 @@
 namespace SmdgCli.Schemas.Liners.Conversion;
 
 using SmdgCli.Services;
+using Utilities;
 
 public class LinerCodeExcelMapper : IExcelMapper<LinerCodeExcel>
 {
     public LinerCodeExcel Map(IDictionary<string, string> source)
     {
-        var lastChanged = string.IsNullOrWhiteSpace(source["Last change"])
-            ? (DateOnly?)null
-            : DateOnly.FromDateTime(DateTime.Parse(source["Last change"]));
-
-        var validFrom = string.IsNullOrWhiteSpace(source["Valid from"])
-            ? (DateOnly?)null
-            : DateOnly.FromDateTime(DateTime.Parse(source["Valid from"]));
-
-        var validTo = string.IsNullOrWhiteSpace(source["Valid until"])
-            ? (DateOnly?)null
-            : DateOnly.FromDateTime(DateTime.Parse(source["Valid until"]));
-
         return new LinerCodeExcel
         {
             Code = source["Code"].Trim()[..3],
@@ -25,23 +14,23 @@ public class LinerCodeExcelMapper : IExcelMapper<LinerCodeExcel>
             ParentCompany = source["Parent company"].Trim(),
             Nvocc = source["NVOCC"].Trim().Contains('x', StringComparison.InvariantCultureIgnoreCase),
             Vocc = source["VOCC"].Trim().Contains('x', StringComparison.InvariantCultureIgnoreCase),
-            LastChange = lastChanged,
-            ValidFrom = validFrom,
-            ValidUntil = validTo,
+            LastChange = source.OptionalDateOnly("Last change"),
+            ValidFrom = source.OptionalDateOnly("Valid from"),
+            ValidUntil = source.OptionalDateOnly("Valid until"),
             Website = source["Website"],
             Address = source["Address"],
             Remarks = source["Remarks"],
             // New data model
-            Street = OptionalString(source, "Street"),
-            StreetNumber = OptionalString(source, "No."),
-            Floor = OptionalString(source, "Building/Suite/Floor"),
-            ZipCode = OptionalString(source, "Zip code"),
-            City = OptionalString(source, "City"),
-            StateRegion = OptionalString(source, "State/Region"),
-            Country = OptionalString(source, "Country"),
-            UnCountryCode = OptionalString(source, "UN Country Code"),
-            UnLocationCode = OptionalString(source, "UN Location Code"),
-            IsActive = OptionalString(source, "Active")?.Trim().Contains("active", StringComparison.InvariantCultureIgnoreCase) ?? true,
+            Street = source.OptionalString("Street"),
+            StreetNumber = source.OptionalString("No."),
+            Floor = source.OptionalString("Building/Suite/Floor"),
+            ZipCode = source.OptionalString("Zip code"),
+            City = source.OptionalString("City"),
+            StateRegion = source.OptionalString("State/Region"),
+            Country = source.OptionalString("Country"),
+            UnCountryCode = source.OptionalString("UN Country Code"),
+            UnLocationCode = source.OptionalString("UN Location Code"),
+            IsActive = source.OptionalString("Active")?.Trim().Contains("active", StringComparison.InvariantCultureIgnoreCase) ?? true,
         };
     }
 
@@ -73,7 +62,4 @@ public class LinerCodeExcelMapper : IExcelMapper<LinerCodeExcel>
             ["Active"] = source.IsActive ? "active" : ""
         };
     }
-    
-    public static string? OptionalString(IDictionary<string, string> source, string key) =>
-        source.TryGetValue(key, out var value) ? value : null;
 }
