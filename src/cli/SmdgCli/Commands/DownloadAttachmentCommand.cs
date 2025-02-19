@@ -45,9 +45,9 @@ public class DownloadAttachmentCommand(IRemoteFileReader remoteFileReader, IGitH
                 .Where(k => k.Contains("attachment", StringComparison.InvariantCultureIgnoreCase))
                 .ToList();
 
-            if (attachmentKeys.Count == 0)
+            if (attachmentKeys.Count != 1)
             {
-                AnsiConsole.MarkupLine("[red]The form does not contain an attachment.[/]");
+                AnsiConsole.MarkupLine("[red]The form should contain precisely one attachment.[/]");
                 return 1;
             }
 
@@ -56,12 +56,17 @@ public class DownloadAttachmentCommand(IRemoteFileReader remoteFileReader, IGitH
                 var (fileName, fileUrl) = form[key].ExtractAttachment();
                 if (!fileName.EndsWith(".xlsx") && !fileUrl.EndsWith(".xlsx"))
                 {
+                    AnsiConsole.MarkupLine("[red]The form should contain only xlsx attachment.[/]");
                     continue;
                 }
-                
+
+                AnsiConsole.WriteLine($"Downloading attachment: {fileUrl}");
+
                 var filePath = Path.Combine(settings.OutputDirectory, CacheDirectory.Name, settings.LocalFileName);
 
                 await remoteFileReader.DownloadFile(filePath, fileUrl);
+
+                AnsiConsole.MarkupLine($"[green]Attachment downloaded to {filePath}.[/]");
             }
         }
         catch (Exception ex)

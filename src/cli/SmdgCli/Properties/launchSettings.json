@@ -7,6 +7,12 @@
       },
       "commandLineArgs": "version"
     },
+    "SmdgCliDownloadAttachment": {
+      "commandName": "Project",
+      "environmentVariables": {
+      },
+      "commandLineArgs": "download attachment -i 17 -f smdg-liner-code-form.xlsx -t GITHUBTOKEN -r smdg-org/code-lists -o ./../../../../../../data/liner-codes"
+    },
     "SmdgCliDownloadDocument": {
       "commandName": "Project",
       "environmentVariables": {
@@ -29,7 +35,7 @@
       "commandName": "Project",
       "environmentVariables": {
       },
-      "commandLineArgs": "liner-codes convert form -i 14 -t GITHUBTOKEN -r smdg-org/code-lists -o ./../../../../../../data/liner-codes"
+      "commandLineArgs": "liner-codes convert excel -i 17 -f smdg-liner-code-form.xlsx -t GITHUBTOKEN -r smdg-org/code-lists -o ./../../../../../../data/liner-codes"
     },
     "SmdgCliPackCombined": {
       "commandName": "Project",
