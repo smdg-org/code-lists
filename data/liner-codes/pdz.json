@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "PDZ",
   "linerName": "Perkapalan Dai Zun",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "No.1, Jalan Sungai Aur,\n42000 Port Klang,\nSelangor Darul Ehsan,\nMalaysia.",
+  "address": "No.1, Jalan Sungai Aur, 42000 Port Klang, Selangor Darul Ehsan, Malaysia.",
   "addressLocation": {
-    "UnLocode": "PKG",
-    "UnCountryCode": "MY",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Jalan Sungai Aur",
-      "streetNumber": "1",
-      "floor": "",
-      "postCode": "42000",
-      "city": "Port Klang",
-      "state": "",
-      "country": "Malaysia"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://www.pdzlines.com/",
+  "website": "http://www.pdzlines.com/",
   "remarks": "",
   "validFrom": "2003-09-01",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

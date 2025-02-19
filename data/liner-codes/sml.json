@@ -3,25 +3,24 @@
   "codeStatus": "Active",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SML",
-  "linerName": "Seaboard Marine Ltd.",
-  "isNVOCC": false,
-  "isVOCC": true,
+  "linerName": "Seaboard Marine Ltd,",
+  "carrierType": "VOCC",
   "parentCompany": "",
-  "address": "Seaboard Marine\n8001 NW 79th Avenue, Miami, Florida, 33166, USA",
+  "address": "Seaboard Marine, 8001 NW 79th Avenue, Miami, Florida, 33166, USA",
   "addressLocation": {
-    "UnLocode": "MIA",
-    "UnCountryCode": "US",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "NW 79th Avenue",
-      "streetNumber": "8001",
-      "floor": "",
-      "postCode": "33166",
-      "city": "Miami",
-      "state": "Florida",
-      "country": "USA"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://www.seaboardmarine.com",
+  "website": "www.seaaboardmarine,com",
   "remarks": "",
   "validFrom": "2021-06-08",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

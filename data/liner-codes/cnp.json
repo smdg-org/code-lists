@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CNP",
   "linerName": "Consorcio Naviero Peruano",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "Company Name : Consorcio Naviero Peruano S.A.\nRUC : 20100120403\nAv. Republica de Colombia 643 7\u00B0 y 8\u00B0 Piso \u2013 San Isidro (Lima 27), Peru",
+  "address": "Company Name : Consorcio Naviero Peruano S.A., RUC : 20100120403, Av. Republica de Colombia 643 7° y 8° Piso – San Isidro (Lima 27)",
   "addressLocation": {
-    "UnLocode": "",
-    "UnCountryCode": "PE",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "",
-      "streetNumber": "",
-      "floor": "",
-      "postCode": "",
-      "city": "Lima",
-      "state": "",
-      "country": "Peru"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "http://www.gruporomero.com.pe/en-GB/empresas/cnp/",
+  "website": "http://www.cnpsa.com/",
   "remarks": "",
   "validFrom": "2003-09-01",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

@@ -4,25 +4,24 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BGF",
   "linerName": "Bg Freight Line",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "Den Hamweg 30\nP.O. Box 54022\n3008 JA Rotterdam\nThe Netherlands",
+  "address": "Den Hamweg 30, P.O. Box 54022, 3008 JA Rotterdam, The Netherlands",
   "addressLocation": {
-    "UnLocode": "RTM",
-    "UnCountryCode": "NL",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Den Hamweg",
-      "streetNumber": "30",
-      "floor": "",
-      "postCode": "3008 JA",
-      "city": "Rotterdam",
-      "state": "",
-      "country": "Netherlands"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://bgfreightline.com/",
-  "remarks": "",
+  "website": "http://bgfreightline.com/",
+  "remarks": "0031 10 23 11 980\nFax +31 10 41 65 451",
   "validFrom": "2003-09-01",
   "validTo": null,
   "changeLogs": [
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

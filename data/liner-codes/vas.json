@@ -4,21 +4,20 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "VAS",
   "linerName": "Vasco Maritime Line Singapore",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "BLK 511 KAMPONG BAHRU RD #02-05 KEPPEL DISTRIPARK\nZip Code 099 447\nCity Singapore",
+  "address": "BLK 511 KAMPONG BAHRU RD #02-05 KEPPEL DISTRIPARK, Zip Code 099 447, City Singapore, ",
   "addressLocation": {
-    "UnLocode": "SIN",
-    "UnCountryCode": "SG",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "KAMPONG BAHRU RD",
-      "streetNumber": "02-05",
-      "floor": "",
-      "postCode": " 099447",
-      "city": "Singapore",
-      "state": "",
-      "country": "Singapore"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
   "website": "http://vascomaritime.com/",
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

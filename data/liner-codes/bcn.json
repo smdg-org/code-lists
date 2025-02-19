@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BCN",
   "linerName": "Bermuda Container Line",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
   "address": "Suite 1140, 48 Par-La-Ville  Road, Hamilton HM 11, Bermuda",
   "addressLocation": {
-    "UnLocode": "BDA",
-    "UnCountryCode": "BM",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Par-La-Ville  Road",
-      "streetNumber": "48",
-      "floor": "",
-      "postCode": "",
-      "city": "Hamilton",
-      "state": "",
-      "country": "Bermuda"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://neptunebermuda.com/",
+  "website": "http://neptunebermuda.com/",
   "remarks": "",
   "validFrom": "2016-05-18",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

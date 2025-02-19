@@ -4,21 +4,20 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "AND",
   "linerName": "Andes Operador Multimodal",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "HLC",
-  "address": "Av Das Nacoes Unidas, 14261, Andar 28 Conj B Parte Ala B Cond Wtorre Morumbi\nVila Gertrudes, Sao Paulo, Brazil",
+  "address": "Av Das Nacoes Unidas, 14261, Andar 28 Conj B Parte Ala B Cond Wtorre Morumbi, Vila Gertrudes, Sao Paulo,",
   "addressLocation": {
-    "UnLocode": "SAO",
-    "UnCountryCode": "BR",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Av Das Nacoes Unidas",
-      "streetNumber": "14261",
-      "floor": "",
-      "postCode": "",
-      "city": "Sao Paulo",
-      "state": "",
-      "country": "Brazil"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
   "website": "",
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

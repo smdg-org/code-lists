@@ -4,25 +4,24 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ACL",
   "linerName": "Atlantic Container Line",
-  "isNVOCC": false,
-  "isVOCC": true,
+  "carrierType": "VOCC",
   "parentCompany": "GNC",
-  "address": "ATLANTIC CONTAINER LINE, 50 CARDINAL DRIVE, WESTFIELD, NJ 07090, USA. Telephone \u002B1 908 518 5720",
+  "address": "ATLANTIC CONTAINER LINE, 50 CARDINAL DRIVE, Zip Code , City WESTFIELD, NJ 07090, State , Country United States, Telephone +1 908 518 5720",
   "addressLocation": {
-    "UnLocode": "",
-    "UnCountryCode": "US",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "CARDINAL DRIVE",
-      "streetNumber": "50",
-      "floor": "",
-      "postCode": "07090",
-      "city": "WESTFIELD",
-      "state": "NJ",
-      "country": "United States of America"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://www.aclcargo.com/",
-  "remarks": "",
+  "website": "http://www.aclcargo.com/",
+  "remarks": "Telephone +1 908 518 5720",
   "validFrom": "2003-09-01",
   "validTo": null,
   "changeLogs": [
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

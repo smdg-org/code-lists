@@ -4,21 +4,20 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CCL",
   "linerName": "Cordelia Shipping",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
   "address": "134 Archiepiskopou Makariou Avenue, Yiota Court, Apt. 102, 3021 Limassol, CYPRUS",
   "addressLocation": {
-    "UnLocode": "LMS",
-    "UnCountryCode": "CY",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Archiepiskopou Makariou Avenue",
-      "streetNumber": "134",
-      "floor": "",
-      "postCode": "3021",
-      "city": "Limassol",
-      "state": "",
-      "country": "Cyprus"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
   "website": "",
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

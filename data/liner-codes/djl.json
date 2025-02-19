@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "DJL",
   "linerName": "PT Jakarta Lloyd",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "PT Djakarta LLoyd (Persero)\nDlloyd Building,\nJl Raden Saleh Raya No. 51,\nJakarta Pusat 10330, Indonesia",
+  "address": "PT Djakarta LLoyd (Persero), Dlloyd Building, Jl Raden Saleh Raya No. 51, Jakarta Pusat 10330, Indonesia",
   "addressLocation": {
-    "UnLocode": "JKT",
-    "UnCountryCode": "ID",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "",
-      "streetNumber": "",
-      "floor": "",
-      "postCode": "",
-      "city": "",
-      "state": "",
-      "country": "Indonesia"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://djakartalloyd.co.id/",
+  "website": "https://djakartalloyd.co.id/kantor-cabang/",
   "remarks": "",
   "validFrom": "2003-09-01",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

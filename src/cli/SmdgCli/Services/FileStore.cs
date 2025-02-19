@@ -59,6 +59,7 @@ public class FileStore : IFileStore
         }
 
         var tasks = indexContent.LinerCodeFiles
+            .Order()
             .Select(f => File.ReadAllTextAsync(Path.Combine(outputDirectory, f), cancellationToken))
             .ToList();
 

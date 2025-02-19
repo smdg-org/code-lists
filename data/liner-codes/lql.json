@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "LQL",
   "linerName": "Liquid line",
-  "isNVOCC": true,
-  "isVOCC": false,
+  "carrierType": "NVOCC",
   "parentCompany": "",
-  "address": "Head Quarters\nSharjah Media City, Sharja, UAE\n",
+  "address": "Head Quarters, Sharjah Media City, Sharja, UAE, ",
   "addressLocation": {
-    "UnLocode": "",
-    "UnCountryCode": "AE",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "",
-      "streetNumber": "",
-      "floor": "",
-      "postCode": "",
-      "city": "Sharja",
-      "state": "",
-      "country": "United Arab Emirates"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://www.liquid-line.com/",
+  "website": "http://www.liquid-line.com/",
   "remarks": "",
   "validFrom": "2021-02-19",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

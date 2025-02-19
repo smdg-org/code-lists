@@ -4,21 +4,20 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ITS",
   "linerName": "Italia Maritima SPA",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "EMC",
-  "address": "Passeggio Sant\u2019Andrea 4, 34123 Trieste, Italy",
+  "address": "Passeggio Sant’Andrea 4, 34123 Trieste, Italy.",
   "addressLocation": {
-    "UnLocode": "TRS",
-    "UnCountryCode": "IT",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Passeggio Sant\u2019Andrea",
-      "streetNumber": "4",
-      "floor": "",
-      "postCode": "34123",
-      "city": "Trieste",
-      "state": "TS",
-      "country": "Italy"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
   "website": "http://www.italiamarittima.it/",
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

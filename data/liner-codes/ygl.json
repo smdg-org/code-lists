@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "YGL",
   "linerName": "Yemen Gulf Line",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "Prince Albert House, 2 Kingsmill Terrace, London NW8 6BN, United Kingdom",
+  "address": "Prince Albert House, 2 Kingsmill Terrace, London NW8 6BN",
   "addressLocation": {
-    "UnLocode": "",
-    "UnCountryCode": "GB",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Kingsmill Terrace",
-      "streetNumber": "2",
-      "floor": "",
-      "postCode": "NW8 6BN",
-      "city": "London",
-      "state": "",
-      "country": "Inited Kingdom"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://www.y-g-l.com/",
+  "website": "http://www.y-g-l.com/",
   "remarks": "",
   "validFrom": "2003-09-01",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

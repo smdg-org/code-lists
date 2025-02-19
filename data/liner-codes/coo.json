@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "COO",
   "linerName": "Cool Carriers",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "Cool Carriers AB, Barnhusgatan 16, 111 23 Stockholm, Sweden",
+  "address": "Cool Carriers AB, Barnhusgatan 16, SE-111 23 Stockholm, Sweden",
   "addressLocation": {
-    "UnLocode": "STO",
-    "UnCountryCode": "SE",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Barnhusgatan",
-      "streetNumber": "16",
-      "floor": "",
-      "postCode": "111 23",
-      "city": "Stockholm",
-      "state": "",
-      "country": "Sweden"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://www.cool.se/",
+  "website": "http://www.cool.se/",
   "remarks": "",
   "validFrom": "2003-09-01",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

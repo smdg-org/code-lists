@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "RMA",
   "linerName": "Richfield Marine Agencies (S) PTE LTD",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "10 Hoe Chiang Road, #10-01 Keppel Towers, Singapore 089315.\nTel: (65) 6880 2900 (Directory)",
+  "address": "10 Hoe Chiang Road, #10-01 Keppel Towers, Singapore 089315., Tel: (65) 6880 2900 (Directory)",
   "addressLocation": {
-    "UnLocode": "SIN",
-    "UnCountryCode": "SG",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "",
-      "streetNumber": "",
-      "floor": "",
-      "postCode": "",
-      "city": "Singapore",
-      "state": "",
-      "country": "Singapore"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://www.richfield.com.sg",
+  "website": "www.richfield.com.sg",
   "remarks": "",
   "validFrom": "2016-05-04",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

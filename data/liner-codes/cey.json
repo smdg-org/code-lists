@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CEY",
   "linerName": "Ceylon Shipping Corporation",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "Ceylon Shipping Corporation Ltd \nNO 27, MICH Building \nP.O.Box 1718 Fax \u002B 94 11 2449486\nSir Razik Fareed Mawatha (Bristol Street) E-mail: cscl@cscl.lk\nColombo 01 URL: www.cscl.lk\nSri Lanka.",
+  "address": "Ceylon Shipping Corporation Ltd , NO 27, MICH Building , P.O.Box 1718 Fax + 94 11 2449486, Sir Razik Fareed Mawatha (Bristol Street) E-mail: cscl@cscl.lk, Colombo 01 URL: www.cscl.lk, Sri Lanka.",
   "addressLocation": {
-    "UnLocode": "CMB",
-    "UnCountryCode": "LK",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Sir Razik Fareed Mawatha (Bristol Street)",
-      "streetNumber": "",
-      "floor": "",
-      "postCode": "01",
-      "city": "Colombo",
-      "state": "",
-      "country": "Sri Lanka"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://www.cscl.lk/",
+  "website": "http://www.cscl.lk/",
   "remarks": "",
   "validFrom": "2003-09-01",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

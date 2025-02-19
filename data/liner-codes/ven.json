@@ -4,21 +4,20 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "VEN",
   "linerName": "Venavega Venezuela",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "Avenida Caron\u00ED, Caracas 1080, Miranda, Venezuela\nAvenida Caron\u00ED entre calle Par\u00EDs y Londres, edificio Luisiana, piso 3, Urb. Las Mercedes Caracas-1060",
+  "address": "Avenida Caroní, Caracas 1080, Miranda, Venezuela, Avenida Caroní entre calle París y Londres, edificio Luisiana, piso 3, Urb. Las Mercedes Caracas-1060",
   "addressLocation": {
-    "UnLocode": "",
-    "UnCountryCode": "VE",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "",
-      "streetNumber": "",
-      "floor": "",
-      "postCode": "",
-      "city": "",
-      "state": "",
-      "country": "Venezuela"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
   "website": "http://venavega.com.ve/",
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

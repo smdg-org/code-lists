@@ -3,22 +3,21 @@
   "codeStatus": "Active",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "STP",
-  "linerName": "S\u0026T PACIFIC PTE. LTD.",
-  "isNVOCC": true,
-  "isVOCC": false,
+  "linerName": "S&T PACIFIC PTE. LTD.",
+  "carrierType": "NVOCC",
   "parentCompany": "STP",
   "address": "16 Raffles Quay 19-03 (Hong Leong Building), Singapore 048581",
   "addressLocation": {
-    "UnLocode": "SIN",
-    "UnCountryCode": "SG ",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Raffles Quay ",
-      "streetNumber": "16",
-      "floor": "Hong Leong Building",
-      "postCode": "48581",
-      "city": "Singapore",
-      "state": "",
-      "country": "Singapore"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
   "website": "http://st-logistics.cn/en/",

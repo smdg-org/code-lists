@@ -4,21 +4,20 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "PHL",
   "linerName": "PHL Containers Line",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "705 N. Henry Ford Avenue\nWilmington, CA 90744, USA\nAnacostia Rail Holdings Company\n224 S. Michigan Ave., Ste. 330, Chicago, IL 60604",
+  "address": "705 N. Henry Ford Avenue, Wilmington, CA 90744, Anacostia Rail Holdings Company, 224 S. Michigan Ave., Ste. 330, Chicago, IL 60604",
   "addressLocation": {
-    "UnLocode": "CHI",
-    "UnCountryCode": "US",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Henry Ford Avenue",
-      "streetNumber": "224 S",
-      "floor": "",
-      "postCode": "",
-      "city": "Chicago",
-      "state": "",
-      "country": "United States of America"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
   "website": "https://www.anacostia.com/railroads/phl",
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

@@ -4,24 +4,23 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "BLP",
   "linerName": "BLPL Singapore",
-  "isNVOCC": false,
-  "isVOCC": false,
+  "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "BLPL SINGAPORE PTE LTD, 120 Lower Delta Road, #06-11 Cendex Centre, Singapore 169208, Singapore",
+  "address": "BLPL SINGAPORE PTE LTD, Address:, 120 Lower Delta Road, #06-11, Cendex Centre, Singapore 169208., ",
   "addressLocation": {
-    "UnLocode": "SIN",
-    "UnCountryCode": "SG",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Lower Delta Road",
-      "streetNumber": "120",
-      "floor": "#06-11 Cendex Centre",
-      "postCode": "169208",
-      "city": "Singapore",
-      "state": "",
-      "country": "Singapore"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
-  "website": "https://tgsblpl.com/",
+  "website": "http://tgsblpl.com/",
   "remarks": "",
   "validFrom": "2016-12-20",
   "validTo": null,
@@ -34,7 +33,7 @@
       "reason": "initial change",
       "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     }
   ]
 }

@@ -13,7 +13,8 @@ public class LinerCodeIndexValidator : AbstractValidator<LinerCodeIndex>
             {
                 code
                     .NotEmpty().WithMessage("Liner code cannot be empty.")
-                    .MaximumLength(3).WithMessage("Liner code must be at no more than 3 characters long.");
+                    .MaximumLength(8).WithMessage("Liner code file name must be no more than 8 characters long.")
+                    .Must(str => str.EndsWith(".json", StringComparison.InvariantCultureIgnoreCase));
             });
     }
 }

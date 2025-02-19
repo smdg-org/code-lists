@@ -4,21 +4,20 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "AEL",
   "linerName": "Africa Express Line",
-  "isNVOCC": false,
-  "isVOCC": true,
+  "carrierType": "VOCC",
   "parentCompany": "AEL",
-  "address": "30 Tower View, Kings Hill\nWest Malling, Kent\nME19 4UY, England",
+  "address": "30 Tower View, Kings Hill, West Malling, Kent, ME19 4UY, England",
   "addressLocation": {
-    "UnLocode": "WML",
-    "UnCountryCode": "GB",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Tower View",
-      "streetNumber": "30",
-      "floor": "Kings Hill",
-      "postCode": "ME19 4UY",
-      "city": "West Malling",
-      "state": "Kent",
-      "country": "United Kingdom"
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
   "website": "https://www.africaexpressline.com/",

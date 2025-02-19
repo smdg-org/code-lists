@@ -4,21 +4,20 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "HED",
   "linerName": "HEDE (Hongkong) International Shipping Limited",
-  "isNVOCC": true,
-  "isVOCC": false,
+  "carrierType": "NVOCC",
   "parentCompany": "BEN",
-  "address": "Harbor Development Zone, Tangshan City, Hebei Province | Phone\uFF1A\u002B86-315-2927508",
+  "address": "Harbor Development Zone, Tangshan City, Hebei Province | Phone：+86-315-2927508",
   "addressLocation": {
-    "UnLocode": "",
-    "UnCountryCode": "",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "",
-      "streetNumber": "",
-      "floor": "",
-      "postCode": "",
-      "city": "Tangshan City",
-      "state": "",
-      "country": ""
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
     }
   },
   "website": "http://en.hedehk.com/",
