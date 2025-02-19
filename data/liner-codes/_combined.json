@@ -4557,6 +4557,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "G2O",
+    "linerName": "G2 Ocean AS",
+    "carrierType": "VOCC",
+    "parentCompany": "Grieg Star & Gearbulk",
+    "address": "C. Sundtsgt 17,                                                                                                                         5004 Bergen, Norway",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "http://www.g2ocean.com",
+    "remarks": "",
+    "validFrom": "2022-01-17",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2022-01-17",
+        "updateRequestedBy": "G2ocean",
+        "reason": "new request",
+        "changedFields": [],
+        "linkedLinerCode": "",
+        "comments": "requested by G2ocean"
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "GEE",
     "linerName": "Geest Line",
     "carrierType": "VOCC",
@@ -4872,45 +4911,6 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
-      }
-    ]
-  },
-  {
-    "isActive": true,
-    "codeStatus": "Active",
-    "linerCodeVersion": "V1",
-    "linerSMDGCode": "G2O",
-    "linerName": "G2 Ocean AS",
-    "carrierType": "VOCC",
-    "parentCompany": "Grieg Star & Gearbulk",
-    "address": "C. Sundtsgt 17,                                                                                                                         5004 Bergen, Norway",
-    "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
-      "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
-        "city": null,
-        "state": null,
-        "country": null
-      }
-    },
-    "website": "http://www.g2ocean.com",
-    "remarks": "",
-    "validFrom": "2022-01-17",
-    "validTo": null,
-    "changeLogs": [
-      {
-        "actionCode": "Added",
-        "linerCodeVersion": "V1",
-        "lastUpdateDate": "2022-01-17",
-        "updateRequestedBy": "G2ocean",
-        "reason": "new request",
-        "changedFields": [],
-        "linkedLinerCode": "",
-        "comments": "requested by G2ocean"
       }
     ]
   },
@@ -7737,45 +7737,6 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
-    "linerSMDGCode": "MYS",
-    "linerName": "Malaysia Shipping Corporation",
-    "carrierType": "UNKNOWN",
-    "parentCompany": "PIL",
-    "address": "MALAYSIAN SHIPPING CORP.SENDIRIAN BERHAD, A-3A 1-1, 4TH FLOOR SOUTH TOWER BBT ONE THE TOWER 8, LEBUH BATU, NILAM 1, Zip Code , City , State , Country Malaysia",
-    "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
-      "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
-        "city": null,
-        "state": null,
-        "country": null
-      }
-    },
-    "website": "",
-    "remarks": "",
-    "validFrom": "2003-09-01",
-    "validTo": null,
-    "changeLogs": [
-      {
-        "actionCode": "Added",
-        "linerCodeVersion": "V1",
-        "lastUpdateDate": "2021-01-01",
-        "updateRequestedBy": null,
-        "reason": "initial change",
-        "changedFields": [],
-        "linkedLinerCode": "",
-        "comments": "This change was not tracked in excel and it was added by GitHub workflow."
-      }
-    ]
-  },
-  {
-    "isActive": true,
-    "codeStatus": "Active",
-    "linerCodeVersion": "V1",
     "linerSMDGCode": "MXN",
     "linerName": "Maxicon Shipping Agencies Pte Ltd",
     "carrierType": "NVOCC",
@@ -7808,6 +7769,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "requested by Maxicon"
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "MYS",
+    "linerName": "Malaysia Shipping Corporation",
+    "carrierType": "UNKNOWN",
+    "parentCompany": "PIL",
+    "address": "MALAYSIAN SHIPPING CORP.SENDIRIAN BERHAD, A-3A 1-1, 4TH FLOOR SOUTH TOWER BBT ONE THE TOWER 8, LEBUH BATU, NILAM 1, Zip Code , City , State , Country Malaysia",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "",
+    "remarks": "",
+    "validFrom": "2003-09-01",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2021-01-01",
+        "updateRequestedBy": null,
+        "reason": "initial change",
+        "changedFields": [],
+        "linkedLinerCode": "",
+        "comments": "This change was not tracked in excel and it was added by GitHub workflow."
       }
     ]
   },
@@ -9395,45 +9395,6 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
-    "linerSMDGCode": "RSL",
-    "linerName": "RSL Shipping Pte Ltd",
-    "carrierType": "NVOCC",
-    "parentCompany": "MEGASTAR SHIPPING PTE LTD",
-    "address": "SIS Building, 4 Leng Kee Road #02-06/07, Singapore 159088",
-    "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
-      "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
-        "city": null,
-        "state": null,
-        "country": null
-      }
-    },
-    "website": "https://www.rsl.com.sg/",
-    "remarks": "",
-    "validFrom": "2022-12-23",
-    "validTo": null,
-    "changeLogs": [
-      {
-        "actionCode": "Added",
-        "linerCodeVersion": "V1",
-        "lastUpdateDate": "2023-01-24",
-        "updateRequestedBy": "Megastar",
-        "reason": "new request",
-        "changedFields": [],
-        "linkedLinerCode": "",
-        "comments": "requested by Megastar (parent company)"
-      }
-    ]
-  },
-  {
-    "isActive": true,
-    "codeStatus": "Active",
-    "linerCodeVersion": "V1",
     "linerSMDGCode": "RMA",
     "linerName": "Richfield Marine Agencies (S) PTE LTD",
     "carrierType": "UNKNOWN",
@@ -9466,6 +9427,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "RSL",
+    "linerName": "RSL Shipping Pte Ltd",
+    "carrierType": "NVOCC",
+    "parentCompany": "MEGASTAR SHIPPING PTE LTD",
+    "address": "SIS Building, 4 Leng Kee Road #02-06/07, Singapore 159088",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://www.rsl.com.sg/",
+    "remarks": "",
+    "validFrom": "2022-12-23",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2023-01-24",
+        "updateRequestedBy": "Megastar",
+        "reason": "new request",
+        "changedFields": [],
+        "linkedLinerCode": "",
+        "comments": "requested by Megastar (parent company)"
       }
     ]
   },
@@ -12224,45 +12224,6 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
-    "linerSMDGCode": "WSS",
-    "linerName": "WINSPEC Shipping Pte Ltd",
-    "carrierType": "NVOCC",
-    "parentCompany": "WINSPEC Shipping",
-    "address": "10 TUAS AVENUE 6 SINGAPORE 639298",
-    "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
-      "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
-        "city": null,
-        "state": null,
-        "country": null
-      }
-    },
-    "website": "http://www.winspecgroup.com/",
-    "remarks": "",
-    "validFrom": "2023-10-18",
-    "validTo": null,
-    "changeLogs": [
-      {
-        "actionCode": "Added",
-        "linerCodeVersion": "V1",
-        "lastUpdateDate": "2023-11-09",
-        "updateRequestedBy": "WSS",
-        "reason": "new request",
-        "changedFields": [],
-        "linkedLinerCode": "",
-        "comments": "requested by WSS"
-      }
-    ]
-  },
-  {
-    "isActive": true,
-    "codeStatus": "Active",
-    "linerCodeVersion": "V1",
     "linerSMDGCode": "WSL",
     "linerName": "Wallenius Sol",
     "carrierType": "VOCC",
@@ -12295,6 +12256,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "requested by WSL"
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "WSS",
+    "linerName": "WINSPEC Shipping Pte Ltd",
+    "carrierType": "NVOCC",
+    "parentCompany": "WINSPEC Shipping",
+    "address": "10 TUAS AVENUE 6 SINGAPORE 639298",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "http://www.winspecgroup.com/",
+    "remarks": "",
+    "validFrom": "2023-10-18",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2023-11-09",
+        "updateRequestedBy": "WSS",
+        "reason": "new request",
+        "changedFields": [],
+        "linkedLinerCode": "",
+        "comments": "requested by WSS"
       }
     ]
   },
@@ -12418,6 +12418,45 @@
   {
     "isActive": true,
     "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "YLS",
+    "linerName": "Yasuda Logistics SingaporeE Pte. Ltd.",
+    "carrierType": "NVOCC",
+    "parentCompany": "",
+    "address": "3 SHENTON WAY #25-01 SHENTON HOUSE SINGAPORE 068805",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "www.yasuda-soko.co.jp",
+    "remarks": "",
+    "validFrom": "2023-09-22",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2021-01-01",
+        "updateRequestedBy": null,
+        "reason": "initial change",
+        "changedFields": [],
+        "linkedLinerCode": "",
+        "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
     "linerCodeVersion": "V2",
     "linerSMDGCode": "YML",
     "linerName": "Yang Ming Marine Transport Corporation",
@@ -12500,45 +12539,6 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "requested by YQN Link"
-      }
-    ]
-  },
-  {
-    "isActive": true,
-    "codeStatus": "Active",
-    "linerCodeVersion": "V1",
-    "linerSMDGCode": "YLS",
-    "linerName": "Yasuda Logistics SingaporeE Pte. Ltd.",
-    "carrierType": "NVOCC",
-    "parentCompany": "",
-    "address": "3 SHENTON WAY #25-01 SHENTON HOUSE SINGAPORE 068805",
-    "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
-      "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
-        "city": null,
-        "state": null,
-        "country": null
-      }
-    },
-    "website": "www.yasuda-soko.co.jp",
-    "remarks": "",
-    "validFrom": "2023-09-22",
-    "validTo": null,
-    "changeLogs": [
-      {
-        "actionCode": "Added",
-        "linerCodeVersion": "V1",
-        "lastUpdateDate": "2021-01-01",
-        "updateRequestedBy": null,
-        "reason": "initial change",
-        "changedFields": [],
-        "linkedLinerCode": "",
-        "comments": "This change was not tracked in excel and it was added by GitHub workflow."
       }
     ]
   },
