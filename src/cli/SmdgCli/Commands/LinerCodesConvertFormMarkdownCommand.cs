@@ -8,13 +8,13 @@ using Utilities;
 using Spectre.Console;
 using Spectre.Console.Cli;
 
-public class LinerCodesConvertIssueCommand(
+public class LinerCodesConvertFormMarkdownCommand(
     IGitHubClientFactory gitHubClientFactory,
     LinerCodeFormMapper mapper,
     IFileStore fileStore)
-    : AsyncCommand<LinerCodesConvertIssueSettings>
+    : AsyncCommand<LinerCodesConvertFormMarkdownSettings>
 {
-    public override async Task<int> ExecuteAsync(CommandContext context, LinerCodesConvertIssueSettings settings)
+    public override async Task<int> ExecuteAsync(CommandContext context, LinerCodesConvertFormMarkdownSettings settings)
     {
         var (owner, repository) = GitHubUtils.GetOwnerAndRepo(settings.Repository);
 

@@ -8,16 +8,16 @@ using Spectre.Console;
 using Spectre.Console.Cli;
 using Utilities;
 
-public class LinerCodesConvertFormCommand(
+public class LinerCodesConvertFormExcelCommand(
     IGitHubClientFactory gitHubClientFactory,
     LinerCodeFormMapper mapper,
     IExcelFile excelFile,
     IFileStore fileStore)
-    : AsyncCommand<LinerCodesConvertFormSettings>
+    : AsyncCommand<LinerCodesConvertFormExcelSettings>
 {
     public override async Task<int> ExecuteAsync(
         CommandContext context,
-        LinerCodesConvertFormSettings settings)
+        LinerCodesConvertFormExcelSettings settings)
     {
         var (owner, repository) = GitHubUtils.GetOwnerAndRepo(settings.Repository);
 

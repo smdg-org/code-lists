@@ -1,7 +1,7 @@
 name: Liner code data change request
 description: This template is used to request liner code data changes
 title: 'Liner code data change request: Code'
-labels: [ "data", "liner-code" ]
+labels: [ "data", "liner-code", "markdown-form" ]
 assignees: 'jasmindroenner-smdg'
 body:
   - type: markdown

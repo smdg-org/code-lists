@@ -14,7 +14,7 @@ jobs:
   convert-issue:
     name: Convert via GitHub Form
     runs-on: ubuntu-latest
-    if: contains(github.event.issue.labels.*.name, 'liner-code') && contains(github.event.issue.labels.*.name, 'data') && !contains(github.event.issue.labels.*.name, 'attachment-excel')
+    if: contains(github.event.issue.labels.*.name, 'liner-code') && contains(github.event.issue.labels.*.name, 'data') && contains(github.event.issue.labels.*.name, 'markdown-form')
 
     steps:
       - name: checkout
@@ -79,7 +79,7 @@ jobs:
 
       - name: issue processing
         run: |
-          dotnet run --project ${{ env.convert_project }} -- liner-codes convert form \
+          dotnet run --project ${{ env.convert_project }} -- liner-codes convert excel \
             -i "${{ github.event.issue.number }}" \
             -f "${{ env.local_form_file_name }}" \
             -t "${{ github.token }}" \

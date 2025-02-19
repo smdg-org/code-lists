@@ -29,7 +29,7 @@
       "commandName": "Project",
       "environmentVariables": {
       },
-      "commandLineArgs": "liner-codes convert form -i 14 -t GITHUBTOKEN -r smdg-org/code-lists -o ./../../../../../../data/liner-codes"
+      "commandLineArgs": "liner-codes convert excel -i 14 -t GITHUBTOKEN -r smdg-org/code-lists -o ./../../../../../../data/liner-codes"
     },
     "SmdgCliPackCombined": {
       "commandName": "Project",

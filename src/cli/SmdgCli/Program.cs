@@ -38,8 +38,8 @@ app.Configure(config =>
         linerCode.AddBranch("convert", convert =>
         {
             convert.AddCommand<LinerCodesConvertBulkCommand>("bulk");
-            convert.AddCommand<LinerCodesConvertIssueCommand>("issue");
-            convert.AddCommand<LinerCodesConvertFormCommand>("form");
+            convert.AddCommand<LinerCodesConvertFormMarkdownCommand>("issue");
+            convert.AddCommand<LinerCodesConvertFormExcelCommand>("excel");
         });
         linerCode.AddBranch("pack", pack =>
         {
