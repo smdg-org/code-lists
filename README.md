@@ -1,9 +1,18 @@
 # SMDG Code Lists
 
+## Code Lists
+
+* [Liner Codes](data/liner-codes/)
+
+## Documentation
+
+* [Data Handling Flows](docs/DATA-HANDLING.md)
+* [How-To Guides](docs/HOW-TO.md)
+
 ## Contributions
 
-- [Code of Conduct](./CODE_OF_CONDUCT.md)
-- [Public Contributions Guideline](./CONTRIBUTING.md)
+* [Code of Conduct](./CODE_OF_CONDUCT.md)
+* [Public Contributions Guideline](./CONTRIBUTING.md)
 
 ## Liability
 
