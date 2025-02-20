@@ -1,7 +1,7 @@
 name: Liner Codes - Process Issue
 on:
   issues:
-    types: [opened, labeled, edited]
+    types: [opened, edited]
 
 env:
   branch_name: data/update-liner-code-${{ github.run_number }}
@@ -15,6 +15,9 @@ jobs:
     name: Convert via GitHub Form
     runs-on: ubuntu-latest
     if: contains(github.event.issue.labels.*.name, 'liner-code') && contains(github.event.issue.labels.*.name, 'data') && contains(github.event.issue.labels.*.name, 'markdown-form')
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.event.issue.number }}
+      cancel-in-progress: false
 
     steps:
       - name: checkout
@@ -58,6 +61,9 @@ jobs:
     name: Convert via Excel Form
     runs-on: ubuntu-latest
     if: contains(github.event.issue.labels.*.name, 'liner-code') && contains(github.event.issue.labels.*.name, 'data') && contains(github.event.issue.labels.*.name, 'attachment-excel')
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.event.issue.number }}
+      cancel-in-progress: false
 
     steps:
       - name: checkout
@@ -110,8 +116,10 @@ jobs:
   convert-bulk:
     name: Convert via Bulk File
     runs-on: ubuntu-latest
-    concurrency: convert-bulk
     if: contains(github.event.issue.labels.*.name, 'liner-code') && contains(github.event.issue.labels.*.name, 'data') && contains(github.event.issue.labels.*.name, 'attachment-bulk')
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.event.issue.number }}
+      cancel-in-progress: false
 
     steps:
       - name: checkout
