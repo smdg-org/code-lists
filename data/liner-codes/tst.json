@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "TST",
+  "linerName": "Test Liner",
+  "carrierType": "VOCC",
+  "parentCompany": "Test Parent Cmp",
+  "address": "",
+  "addressLocation": {
+    "UnLocode": "NYC",
+    "UnCountryCode": "US",
+    "address": {
+      "street": "StreetA",
+      "streetNumber": "1",
+      "floor": "1",
+      "postCode": "11111",
+      "city": "New York",
+      "state": null,
+      "country": "USA"
+    }
+  },
+  "website": "",
+  "remarks": "",
+  "validFrom": "2025-02-20",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2025-02-20",
+      "updateRequestedBy": "Test Requester",
+      "reason": "New liner code is registered",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": null
+    }
+  ]
+}
