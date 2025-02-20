@@ -1,4 +1,4 @@
-name: Liner Codes - Pull Request #${{ github.event.pull_request.number }}
+name: Liner Codes - Verify Data Changes #${{ github.event.pull_request.number }}
 
 on:
   pull_request:
