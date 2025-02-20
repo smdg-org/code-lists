@@ -1,14 +1,12 @@
 name: Liner Codes - Release Excel #${{ github.run_number }}
 
 on:
-  workflow_dispatch: 
-    inputs:
-      dataset:
-        type: choice
-        required: true
-        options:
-          - liner-codes
-        default: 'liner-codes'
+  push:
+    branches:
+      - main
+    paths:
+      - data/liner-codes/**/*
+  workflow_dispatch:
 
 env:
   project: src/cli/SmdgCli/SmdgCli.csproj
