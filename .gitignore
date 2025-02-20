@@ -397,5 +397,8 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 .DS_Store
+
+# SMDG special paths
 /src/cli/.idea
+/data/liner-codes/cache
 /data/liner-codes/excel_source
