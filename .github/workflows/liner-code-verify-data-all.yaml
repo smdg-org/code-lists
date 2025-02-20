@@ -1,4 +1,4 @@
-name: Liner Codes - Verify
+name: Liner Codes - Verify Data All
 
 on:
   workflow_dispatch: 
