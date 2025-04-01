@@ -53,7 +53,7 @@ public class LinerCodeValidatorTests
     {
         // Arrange
         var linerCode = _fixture.Build<LinerCode>()
-            .With(x => x.LinerCodeVersion, "123")
+            .With(x => x.LinerCodeVersion, "1234")
             .Create();
 
         // Act
@@ -62,6 +62,6 @@ public class LinerCodeValidatorTests
         // Assert
         result
             .ShouldHaveValidationErrorFor(x => x.LinerCodeVersion)
-            .WithErrorMessage("Liner Code Version must be 2 characters long");
+            .WithErrorMessage("Liner Code Version must be 3 characters long");
     }
 }
