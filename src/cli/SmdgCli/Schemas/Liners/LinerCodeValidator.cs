@@ -10,7 +10,7 @@ public class LinerCodeValidator : AbstractValidator<LinerCode>
             .NotEmpty()
             .WithMessage("Liner Code Version is required")
             .MaximumLength(3)
-            .WithMessage("Liner Code Version must be 3 characters long");
+            .WithMessage("Liner Code Version must be maximum 3 characters long");
 
         RuleFor(x => x.LinerSmdgCode)
             .NotEmpty()

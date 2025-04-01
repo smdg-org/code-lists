@@ -62,6 +62,6 @@ public class LinerCodeValidatorTests
         // Assert
         result
             .ShouldHaveValidationErrorFor(x => x.LinerCodeVersion)
-            .WithErrorMessage("Liner Code Version must be 3 characters long");
+            .WithErrorMessage("Liner Code Version must be maximum 3 characters long");
     }
 }
