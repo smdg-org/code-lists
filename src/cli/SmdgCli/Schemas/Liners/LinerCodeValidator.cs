@@ -9,14 +9,14 @@ public class LinerCodeValidator : AbstractValidator<LinerCode>
         RuleFor(x => x.LinerCodeVersion)
             .NotEmpty()
             .WithMessage("Liner Code Version is required")
-            .MaximumLength(2)
+            .MaximumLength(3)
             .WithMessage("Liner Code Version must be 2 characters long");
 
         RuleFor(x => x.LinerSmdgCode)
             .NotEmpty()
             .WithMessage("Liner Code is required")
-            .MaximumLength(3)
-            .WithMessage("Liner Code must be 3 characters long");
+            .Length(3)
+            .WithMessage("Liner Code must be exactly 3 characters long");
 
         RuleFor(x => x.LinerName)
             .NotEmpty()
