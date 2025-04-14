@@ -12,4 +12,10 @@ public static class DataUtils
         !string.IsNullOrWhiteSpace(value)
             ? DateOnly.FromDateTime(DateTime.Parse(value))
             : null;
+
+    public static bool IsMarked(this string? value)
+    {
+        var lowerValue = value?.ToLower()?.Trim();
+        return !string.IsNullOrWhiteSpace(lowerValue) && lowerValue is "x" or "yes";
+    }
 }
