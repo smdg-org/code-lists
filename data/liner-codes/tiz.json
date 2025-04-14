@@ -1,6 +1,6 @@
 {
   "isActive": true,
-  "codeStatus": "Active",
+  "codeStatus": "MarkedForDeletion",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "TIZ",
   "linerName": "Ti2 logistics pte ltd",
@@ -23,7 +23,7 @@
   "website": "www.ti2shipping.com",
   "remarks": "",
   "validFrom": "2022-12-23",
-  "validTo": null,
+  "validTo": "2025-10-31",
   "changeLogs": [
     {
       "actionCode": "Added",
@@ -33,6 +33,16 @@
       "reason": "new request",
       "changedFields": [],
       "linkedLinerCode": "",
+      "comments": "requested by Ti2"
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2025-04-14",
+      "updateRequestedBy": "TI2",
+      "reason": "another liner code needs to be used instead",
+      "changedFields": [],
+      "linkedLinerCode": "TIZ",
       "comments": "requested by Ti2"
     }
   ]
