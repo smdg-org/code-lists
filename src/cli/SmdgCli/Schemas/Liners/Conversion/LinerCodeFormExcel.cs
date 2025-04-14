@@ -2,6 +2,7 @@ namespace SmdgCli.Schemas.Liners.Conversion;
 
 using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
+using Utilities;
 
 public class LinerCodeFormExcel
 {
@@ -30,7 +31,11 @@ public class LinerCodeFormExcel
             // Excel data
             LinerName = data["Line"],
             ParentCompany = data["Parent company"],
-            CarrierType = data["Carrier Type"],
+            CarrierType = data.OptionalString("VOCC").IsMarked()
+                ? CarrierType.VOCC.ToString()
+                : (data.OptionalString("NVOCC").IsMarked()
+                    ? CarrierType.NVOCC.ToString()
+                    : string.Empty),
             ValidFrom = data["Valid from"],
             ValidTo = data["Valid until"],
             Website = data["Website"],
