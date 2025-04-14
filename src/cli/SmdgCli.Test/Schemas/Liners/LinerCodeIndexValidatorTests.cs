@@ -23,7 +23,7 @@ public class LinerCodeIndexValidatorTests
             .With(x => x.LinerCodeFiles,
                 _fixture
                     .CreateMany<string>()
-                    .Select(c => c.Substring(0, 3)))
+                    .Select(c => c.Substring(0, 3) + ".json"))
             .Create();
 
         // Act
@@ -89,7 +89,7 @@ public class LinerCodeIndexValidatorTests
     {
         // Arrange
         var linerCodeIndex = _fixture.Build<LinerCodeIndex>()
-            .With(x => x.LinerCodeFiles, new List<string> { "1234" })
+            .With(x => x.LinerCodeFiles, new List<string> { "1234.json" })
             .Create();
 
         // Act
@@ -98,6 +98,6 @@ public class LinerCodeIndexValidatorTests
         // Assert
         result
             .ShouldHaveValidationErrorFor(x => x.LinerCodeFiles)
-            .WithErrorMessage("Liner code must be at no more than 3 characters long.");
+            .WithErrorMessage("Liner code file name must be no more than 8 characters long.");
     }
 }
