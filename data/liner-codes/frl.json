@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "FRL",
+  "linerName": "Feeder Logistic DMCC",
+  "carrierType": "NVOCC",
+  "parentCompany": "FRL",
+  "address": "3101-04, Oaks Liwa Heights Cluster W, JLT, Dubai - U.A.E",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "www.feederlogistic.com",
+  "remarks": "",
+  "validFrom": "2025-04-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2025-04-14",
+      "updateRequestedBy": "Liner themselves",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
