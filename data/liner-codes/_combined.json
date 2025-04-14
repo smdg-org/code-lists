@@ -11073,6 +11073,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "TI2",
+    "linerName": "Ti2 Container Lines Pte Ltd",
+    "carrierType": "NVOCC",
+    "parentCompany": "Ti2",
+    "address": "2 International Business Park, #11-06\nThe Strategy Tower 1, Singapore 609930",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "www.ti2shipping.com",
+    "remarks": "",
+    "validFrom": "2025-03-18",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2025-03-20",
+        "updateRequestedBy": "Ti2 Shipping",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "MarkedForDeletion",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "TIZ",
     "linerName": "Ti2 logistics pte ltd",
     "carrierType": "NVOCC",
@@ -11094,7 +11133,7 @@
     "website": "www.ti2shipping.com",
     "remarks": "",
     "validFrom": "2022-12-23",
-    "validTo": null,
+    "validTo": "2025-10-31",
     "changeLogs": [
       {
         "actionCode": "Added",
@@ -11104,6 +11143,16 @@
         "reason": "new request",
         "changedFields": [],
         "linkedLinerCode": "",
+        "comments": "requested by Ti2"
+      },
+      {
+        "actionCode": "Updated",
+        "linerCodeVersion": "V2",
+        "lastUpdateDate": "2025-04-14",
+        "updateRequestedBy": "TI2",
+        "reason": "another liner code needs to be used instead",
+        "changedFields": [],
+        "linkedLinerCode": "TIZ",
         "comments": "requested by Ti2"
       }
     ]
