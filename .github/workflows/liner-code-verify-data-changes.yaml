@@ -13,6 +13,9 @@ env:
   project: src/cli/SmdgCli/SmdgCli.csproj
   output_dir: data/liner-codes
 
+permissions:
+  contents: write
+
 jobs:
   pack:
     runs-on: ubuntu-latest
