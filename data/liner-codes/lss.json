@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "LSS",
+  "linerName": "Lianyungang Sailing Supply Chain Management Co.,Ltd",
+  "carrierType": "NVOCC",
+  "parentCompany": "",
+  "address": "NO.169-1 Qixia Road,Lianyun District, Lianyungang City",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "",
+  "remarks": "Email:op1@start-marine.com",
+  "validFrom": "2025-04-05",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2025-04-14",
+      "updateRequestedBy": "Liner themselves",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
