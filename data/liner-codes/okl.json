@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "OKL",
+  "linerName": "SHANGHAI BISHENG LOGISTICS TECHNOLOGY CO., LTD",
+  "carrierType": "NVOCC",
+  "parentCompany": "",
+  "address": "7 Temasek Boulevard Suntec Tower One #10-01/02 , Singapore 038987",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "www.oksnl.com",
+  "remarks": "",
+  "validFrom": "2025-04-03",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2025-04-14",
+      "updateRequestedBy": "Liner themselves",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
