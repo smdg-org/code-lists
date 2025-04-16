@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - data/liner-codes/**.json
+      - data/liner-codes/**
     
 
 env:
