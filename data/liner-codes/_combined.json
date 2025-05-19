@@ -12068,6 +12068,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "VSL",
+    "linerName": "Vistar Shipping",
+    "carrierType": "VOCC",
+    "parentCompany": "",
+    "address": "701 Bay square 12, Business Bay Dubai United Arab Emirates PO. BOX no. 33395",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://www.vistarline.com/",
+    "remarks": " Valid from date is date of request sent for SMDG code.",
+    "validFrom": "2025-05-14",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2025-05-19",
+        "updateRequestedBy": "VSL",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "VSS",
     "linerName": "VASI Shipping Pte Ltd.",
     "carrierType": "NVOCC",
