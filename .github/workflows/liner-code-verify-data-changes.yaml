@@ -5,8 +5,7 @@ on:
     branches:
       - main
     paths:
-      - data/liner-codes/**
-    
+      - 'data/liner-codes/**'
 
 env:
   version: 1.0.${{ github.run_number }}
