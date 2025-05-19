@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - src/cli/**
+      - 'src/cli/**'
 
 env:
   version: 1.0.${{ github.run_number }}
