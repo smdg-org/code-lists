@@ -1,28 +1,28 @@
 {
   "isActive": true,
   "codeStatus": "Active",
-  "linerCodeVersion": "V1",
+  "linerCodeVersion": "V2",
   "linerSMDGCode": "CSE",
-  "linerName": "COSCO South East Asia Pte. Ltd.",
-  "carrierType": "UNKNOWN",
+  "linerName": "New Golden Sea Shipping Pte Ltd",
+  "carrierType": "VOCC",
   "parentCompany": "COS",
   "address": "Logistics service, Am Sandtorkai 60 ·",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
+      "street": "Cecil Street",
+      "streetNumber": "30",
+      "floor": "#25-01 Prudential Tower",
+      "postCode": "049712",
+      "city": "Singapore",
       "state": null,
-      "country": null
+      "country": "Singapore"
     }
   },
-  "website": "http://en.coscocs.com/",
-  "remarks": "",
-  "validFrom": "2003-09-01",
+  "website": "https://world.lines.coscoshipping.com/NGS/en/home",
+  "remarks": "Adjustment of company name (and address)",
+  "validFrom": "2025-06-11",
   "validTo": null,
   "changeLogs": [
     {
@@ -34,6 +34,16 @@
       "changedFields": [],
       "linkedLinerCode": "",
       "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2025-07-21",
+      "updateRequestedBy": "COSCO",
+      "reason": "Change of the company's name",
+      "changedFields": [],
+      "linkedLinerCode": "COS",
+      "comments": "Adjustment of company name (and address)"
     }
   ]
 }
