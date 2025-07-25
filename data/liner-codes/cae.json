@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "CAE",
+  "linerName": "Caerus Shipping",
+  "carrierType": "VOCC",
+  "parentCompany": "CAE",
+  "address": "Office 112, B1, Dubai CommerCity, Dubai, UAE",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "https://caerus-shipping.com/services#services",
+  "remarks": "",
+  "validFrom": "2025-06-10",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2025-07-21",
+      "updateRequestedBy": "Caerus Shipping",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
