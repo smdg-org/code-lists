@@ -1924,6 +1924,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "CAE",
+    "linerName": "Caerus Shipping",
+    "carrierType": "VOCC",
+    "parentCompany": "CAE",
+    "address": "Office 112, B1, Dubai CommerCity, Dubai, UAE",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://caerus-shipping.com/services#services",
+    "remarks": "",
+    "validFrom": "2025-06-10",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2025-07-21",
+        "updateRequestedBy": "Caerus Shipping",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "CAS",
     "linerName": "Caucedo Services Inc.",
     "carrierType": "VOCC",
@@ -2859,28 +2898,28 @@
   {
     "isActive": true,
     "codeStatus": "Active",
-    "linerCodeVersion": "V1",
+    "linerCodeVersion": "V2",
     "linerSMDGCode": "CSE",
-    "linerName": "COSCO South East Asia Pte. Ltd.",
-    "carrierType": "UNKNOWN",
+    "linerName": "New Golden Sea Shipping Pte Ltd",
+    "carrierType": "VOCC",
     "parentCompany": "COS",
-    "address": "Logistics service, Am Sandtorkai 60 ·",
+    "address": "30 Cecil Street, #25-01 Prudential Tower Singapore 049712",
     "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
+      "UnLocode": "SIN",
+      "UnCountryCode": "SG",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
-        "city": null,
+        "street": "Cecil Street",
+        "streetNumber": "30",
+        "floor": "#25-01 Prudential Tower",
+        "postCode": "049712",
+        "city": "Singapore",
         "state": null,
-        "country": null
+        "country": "Singapore"
       }
     },
-    "website": "http://en.coscocs.com/",
-    "remarks": "",
-    "validFrom": "2003-09-01",
+    "website": "https://world.lines.coscoshipping.com/NGS/en/home",
+    "remarks": "Adjustment of company name (and address)",
+    "validFrom": "2025-06-11",
     "validTo": null,
     "changeLogs": [
       {
@@ -2892,6 +2931,16 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      },
+      {
+        "actionCode": "Updated",
+        "linerCodeVersion": "V2",
+        "lastUpdateDate": "2025-07-21",
+        "updateRequestedBy": "COSCO",
+        "reason": "Change of the company's name",
+        "changedFields": [],
+        "linkedLinerCode": "COS",
+        "comments": "Adjustment of company name (and address)"
       }
     ]
   },
