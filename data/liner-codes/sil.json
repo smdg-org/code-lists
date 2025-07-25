@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SIL",
+  "linerName": "Silmar-Shipping",
+  "carrierType": "VOCC",
+  "parentCompany": "SIL",
+  "address": "Barsha Heights, Tameem House Tower, office 2001 Dubai, United Arab Emirates",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": "Barsha Heights, Tameem House Tower",
+      "streetNumber": null,
+      "floor": "Office 2001",
+      "postCode": null,
+      "city": "Dubai",
+      "state": null,
+      "country": "United Arab Emirates"
+    }
+  },
+  "website": "",
+  "remarks": "",
+  "validFrom": "2025-06-25",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2025-07-25",
+      "updateRequestedBy": "requested by SIL, Dubai",
+      "reason": "new request",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": null
+    }
+  ]
+}
