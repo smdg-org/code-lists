@@ -1,7 +1,7 @@
 {
   "isActive": true,
   "codeStatus": "Active",
-  "linerCodeVersion": "V1",
+  "linerCodeVersion": "V2",
   "linerSMDGCode": "PLV",
   "linerName": "Penex Container Lines Pte Ltd",
   "carrierType": "NVOCC",
@@ -28,6 +28,16 @@
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
       "lastUpdateDate": "2022-12-23",
       "updateRequestedBy": "Penex",
       "reason": "new request",

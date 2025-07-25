@@ -1,23 +1,23 @@
 {
   "isActive": true,
   "codeStatus": "Active",
-  "linerCodeVersion": "V2",
+  "linerCodeVersion": "V3",
   "linerSMDGCode": "CSE",
   "linerName": "New Golden Sea Shipping Pte Ltd",
   "carrierType": "VOCC",
   "parentCompany": "COS",
   "address": "30 Cecil Street, #25-01 Prudential Tower Singapore 049712",
   "addressLocation": {
-    "UnLocode": "SIN",
-    "UnCountryCode": "SG",
+    "UnLocode": null,
+    "UnCountryCode": null,
     "address": {
-      "street": "Cecil Street",
-      "streetNumber": "30",
-      "floor": "#25-01 Prudential Tower",
-      "postCode": "049712",
-      "city": "Singapore",
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
       "state": null,
-      "country": "Singapore"
+      "country": null
     }
   },
   "website": "https://world.lines.coscoshipping.com/NGS/en/home",
@@ -26,7 +26,7 @@
   "validTo": null,
   "changeLogs": [
     {
-      "actionCode": "Added",
+      "actionCode": "Updated",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2021-01-01",
       "updateRequestedBy": null,
@@ -36,13 +36,23 @@
       "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     },
     {
-      "actionCode": "Updated",
+      "actionCode": "Added",
       "linerCodeVersion": "V2",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V3",
       "lastUpdateDate": "2025-07-21",
-      "updateRequestedBy": "COSCO",
+      "updateRequestedBy": null,
       "reason": "Change of the company's name",
       "changedFields": [],
-      "linkedLinerCode": "COS",
+      "linkedLinerCode": "",
       "comments": "Adjustment of company name (and address)"
     }
   ]

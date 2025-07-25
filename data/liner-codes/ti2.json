@@ -1,12 +1,12 @@
 {
   "isActive": true,
   "codeStatus": "Active",
-  "linerCodeVersion": "V1",
+  "linerCodeVersion": "V2",
   "linerSMDGCode": "TI2",
   "linerName": "Ti2 Container Lines Pte Ltd",
   "carrierType": "NVOCC",
   "parentCompany": "Ti2",
-  "address": "2 International Business Park, #11-06\nThe Strategy Tower 1, Singapore 609930",
+  "address": "2 International Business Park, #11-06, The Strategy Tower 1, Singapore 609930",
   "addressLocation": {
     "UnLocode": null,
     "UnCountryCode": null,
@@ -28,11 +28,21 @@
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
       "lastUpdateDate": "2025-03-20",
-      "updateRequestedBy": "Ti2 Shipping",
+      "updateRequestedBy": null,
       "reason": "",
       "changedFields": [],
-      "linkedLinerCode": null,
+      "linkedLinerCode": "",
       "comments": ""
     }
   ]

@@ -1,7 +1,7 @@
 {
   "isActive": true,
   "codeStatus": "Active",
-  "linerCodeVersion": "V1",
+  "linerCodeVersion": "V2",
   "linerSMDGCode": "CTL",
   "linerName": "Charter Link Pte Ltd",
   "carrierType": "NVOCC",
@@ -26,8 +26,18 @@
   "validTo": null,
   "changeLogs": [
     {
-      "actionCode": "Added",
+      "actionCode": "Updated",
       "linerCodeVersion": "V1",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+    },
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V2",
       "lastUpdateDate": "2021-01-01",
       "updateRequestedBy": null,
       "reason": "initial change",

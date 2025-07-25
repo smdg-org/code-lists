@@ -1,7 +1,7 @@
 {
   "isActive": true,
   "codeStatus": "Expired",
-  "linerCodeVersion": "V2",
+  "linerCodeVersion": "V3",
   "linerSMDGCode": "NPL",
   "linerName": "Neptune Pacific Line",
   "carrierType": "VOCC",
@@ -26,7 +26,7 @@
   "validTo": "2023-06-30",
   "changeLogs": [
     {
-      "actionCode": "Added",
+      "actionCode": "Updated",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2021-01-01",
       "updateRequestedBy": null,
@@ -36,8 +36,18 @@
       "comments": "This change was not tracked in excel and it was added by GitHub workflow."
     },
     {
-      "actionCode": "Updated",
+      "actionCode": "Added",
       "linerCodeVersion": "V2",
+      "lastUpdateDate": "2021-01-01",
+      "updateRequestedBy": null,
+      "reason": "initial change",
+      "changedFields": [],
+      "linkedLinerCode": "",
+      "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V3",
       "lastUpdateDate": "2023-04-11",
       "updateRequestedBy": "Neptune Pacific Direct Line",
       "reason": "to be deleted",
