@@ -1,23 +1,23 @@
 {
   "isActive": true,
   "codeStatus": "Active",
-  "linerCodeVersion": "V1",
+  "linerCodeVersion": "V2",
   "linerSMDGCode": "CCN",
-  "linerName": "Co Chilena De Naveg. Interoceania S. A.",
-  "carrierType": "UNKNOWN",
-  "parentCompany": "MSK",
+  "linerName": "Compania Maritima Chilena",
+  "carrierType": "NVOCC",
+  "parentCompany": "Grupo Empresas Navieras S.A.",
   "address": "",
   "addressLocation": {
     "UnLocode": null,
     "UnCountryCode": null,
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
+      "street": "14 Norte",
+      "streetNumber": "976",
+      "floor": "Work Marina 8th Floor",
+      "postCode": "2530901",
+      "city": "Valparaíso",
       "state": null,
-      "country": null
+      "country": "Chile"
     }
   },
   "website": "",
@@ -34,6 +34,16 @@
       "changedFields": [],
       "linkedLinerCode": "",
       "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2025-07-25",
+      "updateRequestedBy": "Compania Maritima Chilena",
+      "reason": "Change of company name from `Co Chilena De Naveg. Interoceania S. A.`  to `Compania Maritima Chilena`",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": null
     }
   ]
 }
