@@ -1,26 +1,26 @@
 {
   "isActive": true,
   "codeStatus": "Active",
-  "linerCodeVersion": "V1",
+  "linerCodeVersion": "V2",
   "linerSMDGCode": "CCN",
-  "linerName": "Co Chilena De Naveg. Interoceania S. A.",
-  "carrierType": "UNKNOWN",
-  "parentCompany": "MSK",
+  "linerName": "Compania Maritima Chilena S.A.",
+  "carrierType": "VOCC",
+  "parentCompany": "Grupo Empresas Navieras S.A.",
   "address": "",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "KNA",
+    "UnCountryCode": "CL",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "15 Norte",
+      "streetNumber": "976",
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Viña del Mar",
       "state": null,
       "country": null
     }
   },
-  "website": "",
+  "website": "https://cmcshipping.cl/",
   "remarks": "",
   "validFrom": "2003-09-01",
   "validTo": null,
@@ -34,6 +34,16 @@
       "changedFields": [],
       "linkedLinerCode": "",
       "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2025-07-30",
+      "updateRequestedBy": "SMDG",
+      "reason": "CCN - adjustment of data",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": null
     }
   ]
 }
