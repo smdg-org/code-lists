@@ -2122,8 +2122,8 @@
     "linerSMDGCode": "CCN",
     "linerName": "Compania Maritima Chilena",
     "carrierType": "VOCC",
-    "parentCompany": "MSK",
-    "address": "",
+    "parentCompany": "Grupo Empresas Navieras S.A.",
+    "address": "14 Norte 976, Viña del Mar, Chile",
     "addressLocation": {
       "UnLocode": "KNA",
       "UnCountryCode": "CL",
@@ -2133,8 +2133,8 @@
         "floor": null,
         "postCode": null,
         "city": "Viña del Mar",
-        "state": null,
-        "country": null
+        "state": "Valparaíso",
+        "country": "Chile"
       }
     },
     "website": "https://cmcshipping.cl/",
