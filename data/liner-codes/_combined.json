@@ -4759,9 +4759,9 @@
     ]
   },
   {
-    "isActive": true,
-    "codeStatus": "Active",
-    "linerCodeVersion": "V1",
+    "isActive": false,
+    "codeStatus": "MarkedForDeletion",
+    "linerCodeVersion": "V2",
     "linerSMDGCode": "GEM",
     "linerName": "Golden Eagle Maritime",
     "carrierType": "UNKNOWN",
@@ -4783,7 +4783,7 @@
     "website": "",
     "remarks": "",
     "validFrom": "2003-09-01",
-    "validTo": null,
+    "validTo": "2025-07-25",
     "changeLogs": [
       {
         "actionCode": "Added",
@@ -4794,6 +4794,16 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      },
+      {
+        "actionCode": "MarkedForDelete",
+        "linerCodeVersion": "V2",
+        "lastUpdateDate": "2025-07-25",
+        "updateRequestedBy": null,
+        "reason": "company status is `struck off`",
+        "changedFields": [],
+        "linkedLinerCode": "",
+        "comments": "Golden Eagle Maritime Pte Ltd was struck off by the authority."
       }
     ]
   },
@@ -5077,6 +5087,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "HAO",
+    "linerName": "Haio 56 Pte Ltd",
+    "carrierType": "NVOCC",
+    "parentCompany": null,
+    "address": "82, Lorong 23 Geylang, 06-01 Atrix, Singapore 388409",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": "Lorong 23 Geylang",
+        "streetNumber": "82",
+        "floor": "06-01 Atrix",
+        "postCode": "388409",
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore"
+      }
+    },
+    "website": "https://www.haioconnect.com",
+    "remarks": "",
+    "validFrom": "2025-07-25",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2025-07-25",
+        "updateRequestedBy": "Haio 56 Pte Ltd",
+        "reason": "Requested to be added by the liner",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": null
       }
     ]
   },

@@ -11,11 +11,11 @@
     "UnLocode": "KNA",
     "UnCountryCode": "CL",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "15 Norte",
+      "streetNumber": "976",
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Viña del Mar",
       "state": null,
       "country": null
     }

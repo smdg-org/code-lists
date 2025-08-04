@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "HAO",
+  "linerName": "Haio 56 Pte Ltd",
+  "carrierType": "NVOCC",
+  "parentCompany": null,
+  "address": "82, Lorong 23 Geylang, 06-01 Atrix, Singapore 388409",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": "Lorong 23 Geylang",
+      "streetNumber": "82",
+      "floor": "06-01 Atrix",
+      "postCode": "388409",
+      "city": "Singapore",
+      "state": null,
+      "country": "Singapore"
+    }
+  },
+  "website": "https://www.haioconnect.com",
+  "remarks": "",
+  "validFrom": "2025-07-25",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2025-07-25",
+      "updateRequestedBy": "Haio 56 Pte Ltd",
+      "reason": "Requested to be added by the liner",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": null
+    }
+  ]
+}
