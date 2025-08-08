@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "INS",
+  "linerName": "INDEPENDENCIA SHIPPING LINES S.A.",
+  "carrierType": "VOCC",
+  "parentCompany": "",
+  "address": "Quesada 4926,5E - Atlas Center - Asunción, Paraguay",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "www.independenciashipping.com",
+  "remarks": "",
+  "validFrom": "2025-08-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2025-08-08",
+      "updateRequestedBy": "Independencia Shipping Lines",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
