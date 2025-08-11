@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SHF",
+  "linerName": "SIAN HENG FEEDER",
+  "carrierType": "NVOCC",
+  "parentCompany": "",
+  "address": "65 UBI ROAD 1, #02-60, OXLEY BIZHUB, SINGAPORE 408729",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "",
+  "remarks": "WE ARE A NEWLY SETUP COMPANY",
+  "validFrom": "2025-08-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2025-08-11",
+      "updateRequestedBy": "Sian Heng Logistics",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
