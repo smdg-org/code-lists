@@ -6021,6 +6021,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "INS",
+    "linerName": "INDEPENDENCIA SHIPPING LINES S.A.",
+    "carrierType": "VOCC",
+    "parentCompany": "",
+    "address": "Quesada 4926,5E - Atlas Center - Asunción, Paraguay",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "www.independenciashipping.com",
+    "remarks": "",
+    "validFrom": "2025-08-01",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2025-08-08",
+        "updateRequestedBy": "Independencia Shipping Lines",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "IPS",
     "linerName": "INSPIRE SHIPS AND PROJECTS (S) PTE LTD",
     "carrierType": "NVOCC",
@@ -10059,6 +10098,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "SHF",
+    "linerName": "SIAN HENG FEEDER",
+    "carrierType": "NVOCC",
+    "parentCompany": "",
+    "address": "65 UBI ROAD 1, #02-60, OXLEY BIZHUB, SINGAPORE 408729",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "",
+    "remarks": "WE ARE A NEWLY SETUP COMPANY",
+    "validFrom": "2025-08-01",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2025-08-11",
+        "updateRequestedBy": "Sian Heng Logistics",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "SHL",
     "linerName": "Seahawk Shipping",
     "carrierType": "UNKNOWN",
@@ -12569,6 +12647,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "WRN",
+    "linerName": "Warisan Shipping Line",
+    "carrierType": "VOCC",
+    "parentCompany": "WRN",
+    "address": "Unit 1 & 2, 1st & 2nd Floor, Block A, Jerudong Centre, Jerudong, BG3122, Brunei Darussalam",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://www.warisanshippingline.com/",
+    "remarks": "",
+    "validFrom": "2025-07-31",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2025-08-11",
+        "updateRequestedBy": "Ben Line Agencies",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
       }
     ]
   },
