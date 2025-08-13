@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BSH",
+  "linerName": "BME Shipping II, S.A. de C.V",
+  "carrierType": "VOCC",
+  "parentCompany": "",
+  "address": "Torre Durandco Carretera Puerto Real Km 14.5, C.P. 24327 Cd. Del Carmen, Campeche",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "https://www.bluemarine.com.mx/",
+  "remarks": "",
+  "validFrom": "2025-08-07",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2025-08-13",
+      "updateRequestedBy": "Blue Marine Shipping",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
