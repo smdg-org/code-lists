@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SLG",
+  "linerName": "Sea Legend Line Ltd.",
+  "carrierType": "VOCC",
+  "parentCompany": null,
+  "address": "",
+  "addressLocation": {
+    "UnLocode": "HKG",
+    "UnCountryCode": "CN",
+    "address": {
+      "street": "Centre street",
+      "streetNumber": "18",
+      "floor": "UNIT 3A-8, 12/F",
+      "postCode": null,
+      "city": "Hong Kong",
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "https://www.slg-shipping.com/#/ship-list",
+  "remarks": "",
+  "validFrom": "2025-09-08",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2025-09-09",
+      "updateRequestedBy": "PWL (Peter W. Lampke GmbH, Agency)",
+      "reason": "New liner is registered",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": null
+    }
+  ]
+}
