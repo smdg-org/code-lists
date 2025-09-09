@@ -41,7 +41,7 @@
       "commandName": "Project",
       "environmentVariables": {
       },
-      "commandLineArgs": "liner-codes pack combined -o ./../../../../../../data/liner-codes"
+      "commandLineArgs": "liner-codes pack combined -o ./../../../data/liner-codes"
     },
     "SmdgCliPackExcel": {
       "commandName": "Project",
