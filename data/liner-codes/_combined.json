@@ -10629,7 +10629,7 @@
     "linerName": "Sea Legend Line Ltd.",
     "carrierType": "VOCC",
     "parentCompany": null,
-    "address": "",
+    "address": "Centre street 18, UNIT 3A-8, 12/F, Hong Kong, China",
     "addressLocation": {
       "UnLocode": "HKG",
       "UnCountryCode": "CN",
@@ -10640,7 +10640,7 @@
         "postCode": null,
         "city": "Hong Kong",
         "state": null,
-        "country": null
+        "country": "China"
       }
     },
     "website": "https://www.slg-shipping.com/#/ship-list",
