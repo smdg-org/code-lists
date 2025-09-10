@@ -9,7 +9,7 @@
   "address": "Centre street 18, UNIT 3A-8, 12/F, Hong Kong, China",
   "addressLocation": {
     "UnLocode": "HKG",
-    "UnCountryCode": "CN",
+    "UnCountryCode": "HK",
     "address": {
       "street": "Centre street",
       "streetNumber": "18",
@@ -17,7 +17,7 @@
       "postCode": null,
       "city": "Hong Kong",
       "state": null,
-      "country": "China"
+      "country": "Hong Kong"
     }
   },
   "website": "https://www.slg-shipping.com/#/ship-list",
