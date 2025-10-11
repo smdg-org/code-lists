@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "FHF",
+  "linerName": "Fjord Havn Feeders",
+  "carrierType": "VOCC",
+  "parentCompany": "",
+  "address": "30 N Gould St Ste N. Sheridan, WY 82801-6317",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "www.fjord-havn.com",
+  "remarks": "",
+  "validFrom": "2025-10-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2025-10-02",
+      "updateRequestedBy": "Fjord Havn Feeders",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
