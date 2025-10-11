@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "TFP",
+  "linerName": "Transporte Fluvial Paraguayo SACI",
+  "carrierType": "VOCC",
+  "parentCompany": "TFP",
+  "address": "Avda. Mcal. López. Edificio Toyotoshi – Nivel 5. Asuncion, Paraguay",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "",
+  "remarks": "",
+  "validFrom": "2025-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2025-10-11",
+      "updateRequestedBy": "Transporte Fluvial Paraguayo SACI",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
