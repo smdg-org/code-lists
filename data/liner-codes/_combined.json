@@ -507,9 +507,9 @@
     ]
   },
   {
-    "isActive": true,
-    "codeStatus": "Expired",
-    "linerCodeVersion": "V1",
+    "isActive": false,
+    "codeStatus": "MarkedForDeletion",
+    "linerCodeVersion": "V2",
     "linerSMDGCode": "AND",
     "linerName": "Andes Operador Multimodal",
     "carrierType": "UNKNOWN",
@@ -542,6 +542,16 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      },
+      {
+        "actionCode": "MarkedForDelete",
+        "linerCodeVersion": "V2",
+        "lastUpdateDate": "2025-11-21",
+        "updateRequestedBy": null,
+        "reason": "this liner code is no longer in use",
+        "changedFields": [],
+        "linkedLinerCode": "",
+        "comments": ""
       }
     ]
   },
@@ -4414,6 +4424,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "FHF",
+    "linerName": "Fjord Havn Feeders",
+    "carrierType": "VOCC",
+    "parentCompany": "",
+    "address": "30 N Gould St Ste N. Sheridan, WY 82801-6317",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "www.fjord-havn.com",
+    "remarks": "",
+    "validFrom": "2025-10-01",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2025-10-02",
+        "updateRequestedBy": "Fjord Havn Feeders",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
       }
     ]
   },
@@ -8635,6 +8684,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "OAS",
+    "linerName": "OCEAN AXIS SHIPPING SERVICES LLC",
+    "carrierType": "NVOCC",
+    "parentCompany": "OAS",
+    "address": "AL ATTAR GRAND BLDG, M18, KHALID BIN WALEED STREET, BUR DUBAI, P O BOX 121636, DUBAI",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://oceanaxis.com/",
+    "remarks": "",
+    "validFrom": "2025-11-26",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2025-12-03",
+        "updateRequestedBy": "OCEAN AXIS SHIPPING SERVICES LLC",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "OBL",
     "linerName": "Oceanblu Shipping (S) PTE LTD",
     "carrierType": "NVOCC",
@@ -11486,6 +11574,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "requested by TAS"
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "TFP",
+    "linerName": "Transporte Fluvial Paraguayo SACI",
+    "carrierType": "VOCC",
+    "parentCompany": "TFP",
+    "address": "Avda. Mcal. López. Edificio Toyotoshi – Nivel 5. Asuncion, Paraguay",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "",
+    "remarks": "",
+    "validFrom": "2025-09-01",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2025-10-11",
+        "updateRequestedBy": "Transporte Fluvial Paraguayo SACI",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
       }
     ]
   },
