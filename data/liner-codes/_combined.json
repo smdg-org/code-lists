@@ -507,9 +507,9 @@
     ]
   },
   {
-    "isActive": true,
-    "codeStatus": "Expired",
-    "linerCodeVersion": "V1",
+    "isActive": false,
+    "codeStatus": "MarkedForDeletion",
+    "linerCodeVersion": "V2",
     "linerSMDGCode": "AND",
     "linerName": "Andes Operador Multimodal",
     "carrierType": "UNKNOWN",
@@ -542,6 +542,16 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      },
+      {
+        "actionCode": "MarkedForDelete",
+        "linerCodeVersion": "V2",
+        "lastUpdateDate": "2025-11-21",
+        "updateRequestedBy": null,
+        "reason": "this liner code is no longer in use",
+        "changedFields": [],
+        "linkedLinerCode": "",
+        "comments": ""
       }
     ]
   },
