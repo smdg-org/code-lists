@@ -9699,6 +9699,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "PWL",
+    "linerName": "Peter W. Lampke GmbH & Co. KG",
+    "carrierType": "NVOCC",
+    "parentCompany": "PWL",
+    "address": "Am Sandtorkai 60, 20457 Hamburg",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://www.pwl.de",
+    "remarks": "on behalf as agents only",
+    "validFrom": "2025-12-01",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2025-12-04",
+        "updateRequestedBy": "Peter W. Lampke",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "QCL",
     "linerName": "Quest Container Line",
     "carrierType": "UNKNOWN",
@@ -9809,6 +9848,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "RLS",
+    "linerName": "Routes Logistics (S) Pte Ltd",
+    "carrierType": "NVOCC",
+    "parentCompany": "RLS",
+    "address": "77,High Street,#08-06,High Street Plaza, Singapore 179433",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://routeslogistics.com/",
+    "remarks": "",
+    "validFrom": "2025-12-04",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2025-12-04",
+        "updateRequestedBy": "Routes Logistics",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
       }
     ]
   },
@@ -10199,6 +10277,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "SFS",
+    "linerName": "SWIFT FLOW SHIPPING SERVICES LLC",
+    "carrierType": "NVOCC",
+    "parentCompany": "SFS",
+    "address": "1805, Churchill Office Towers, Al Abraj Streetm Business Bay, Dubai, UAE",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "www.sfsline.com",
+    "remarks": "",
+    "validFrom": "2025-12-04",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2025-12-04",
+        "updateRequestedBy": "Swift Flow Shipping Services",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
       }
     ]
   },
