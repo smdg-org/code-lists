@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "RLS",
+  "linerName": "Routes Logistics (S) Pte Ltd",
+  "carrierType": "NVOCC",
+  "parentCompany": "RLS",
+  "address": "77,High Street,#08-06,High Street Plaza, Singapore 179433",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "https://routeslogistics.com/",
+  "remarks": "",
+  "validFrom": "2025-12-04",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2025-12-04",
+      "updateRequestedBy": "Routes Logistics",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
