@@ -130,14 +130,16 @@ paths:
         default:
           $ref: '#/components/responses/Default'
       security:
-        - APIKey: []
+        - BasicAuth: []
 
 components:
   securitySchemes:
-    APIKey:
-      type: apiKey
-      in: header
-      name: KeyId
+     BasicAuth:
+       type: http
+       scheme: basic
+       description: |-
+         HTTP Basic Authentication. Credentials are encoded as base64(username:password) and sent in the Authorization header.
+         Example: Authorization: Basic ZGF2aWRAY2lmLWNvbnN1bHRpbmcuY28udWs6d2=
 
   responses:
     NotFound:
@@ -443,3 +445,4 @@ components:
           example: "Server Error"
       required:
         - reason
+
