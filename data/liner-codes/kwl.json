@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "KWL",
+  "linerName": "KAWA SHIPPING (HONGKONG) CO., LIMITED",
+  "carrierType": "VOCC",
+  "parentCompany": "",
+  "address": "UNIT 702 FOURSEAS BUILDING, 208-212 NATHAN ROAD; 208-212 HONGKONG",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "https://eb.kawashipping.com/",
+  "remarks": "",
+  "validFrom": "2025-12-05",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2025-12-05",
+      "updateRequestedBy": "PWL as agents",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
