@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "QYL",
+  "linerName": "Qingyun Line",
+  "carrierType": "VOCC",
+  "parentCompany": "STARWAY OCEAN PTE. LTD.",
+  "address": "2 BATTERY ROAD, #27-01, MAYBANK TOWER, SINGAPORE 049907",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "",
+  "remarks": "",
+  "validFrom": "2022-08-16",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-01-22",
+      "updateRequestedBy": "STARWAY OCEAN PTE. LTD",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
