@@ -1,26 +1,26 @@
 {
   "isActive": true,
   "codeStatus": "Active",
-  "linerCodeVersion": "V1",
+  "linerCodeVersion": "V2",
   "linerSMDGCode": "MCL",
-  "linerName": "MCL Shipping Co",
-  "carrierType": "UNKNOWN",
+  "linerName": "MAG CONTAINER LINES (L.L.C)",
+  "carrierType": "VOCC",
   "parentCompany": "",
   "address": "Mag Container Lines, PO Box: 29783, Dubai, UAE",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Dubai",
       "state": null,
-      "country": null
+      "country": "United Arab Emirates"
     }
   },
-  "website": "http://www.mcl.ae/",
+  "website": "https://mcl.ae/en/",
   "remarks": "",
   "validFrom": "2003-09-01",
   "validTo": null,
@@ -34,6 +34,16 @@
       "changedFields": [],
       "linkedLinerCode": "",
       "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2026-01-23",
+      "updateRequestedBy": "MCL",
+      "reason": "existing liner has requested change of name",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": null
     }
   ]
 }
