@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "AAS",
+  "linerName": "ANDAMAN ASIA SHIPPING LINE LIMITED",
+  "carrierType": "NVOCC",
+  "parentCompany": "",
+  "address": "R00M 70, 7/F WOON LEE COMMERCIAL  BUILDING 7-9 AUSTIN AVE TST KOWLOON HONG KONG              ",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "Not available",
+  "remarks": "",
+  "validFrom": "2024-01-04",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-02-12",
+      "updateRequestedBy": "ANDAMAN ASIA SHIPPING LINE LIMITED",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
