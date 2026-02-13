@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SHA",
+  "linerName": "SHARVAA SHIPPING LINES PTE LTD",
+  "carrierType": "NVOCC",
+  "parentCompany": "SHARVAA SHIPPING",
+  "address": "10 ANSON ROAD , # 26-17 INTERNATIONAL PLAZA , SINGAPORE - 079903",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "www.sharvaashipping.com",
+  "remarks": "",
+  "validFrom": "2026-02-11",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-02-13",
+      "updateRequestedBy": "SHARVAA SHIPPING LINES PTE LTD",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
