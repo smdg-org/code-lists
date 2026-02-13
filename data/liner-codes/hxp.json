@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "HXP",
+  "linerName": "Horizon Xpress Shipping Limited",
+  "carrierType": "NVOCC",
+  "parentCompany": "LAND UNION",
+  "address": "Room D3, 11th Floor, Luk Hop Industrial Building, 8 Luk Hop Street, San Po Kong, Kowloon, Hong Kong China",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "http://www.horizonx.net.cn/",
+  "remarks": "",
+  "validFrom": "2025-02-11",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-02-13",
+      "updateRequestedBy": "Horizon Xpress Shipping Limited",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
