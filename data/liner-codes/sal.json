@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SAL",
+  "linerName": "SHAHAZIZ SHIPPING LINES L.L.C (Dubai)",
+  "carrierType": "NVOCC",
+  "parentCompany": "SASL",
+  "address": "Office #2308, 23rd Floor, Damac Smart Heights Building, Al Barsha Heights (TECOM)",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "www.sasl.ae",
+  "remarks": "",
+  "validFrom": "2026-02-12",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-02-13",
+      "updateRequestedBy": "SHAHAZIZ SHIPPING LINES L.L.C (Dubai)",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
