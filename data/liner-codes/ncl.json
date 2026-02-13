@@ -1,23 +1,23 @@
 {
   "isActive": true,
   "codeStatus": "Active",
-  "linerCodeVersion": "V1",
+  "linerCodeVersion": "V2",
   "linerSMDGCode": "NCL",
   "linerName": "North Sea Container Line",
-  "carrierType": "UNKNOWN",
-  "parentCompany": "",
+  "carrierType": "VOCC",
+  "parentCompany": "NCL",
   "address": "Møllerveien 22, 5523 Haugesund, Norway",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HAU",
+    "UnCountryCode": "NO",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Stoltenberggata",
+      "streetNumber": "1",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "5523",
+      "city": "Haugesund",
       "state": null,
-      "country": null
+      "country": "Norway"
     }
   },
   "website": "https://www.ncl.no/",
@@ -34,6 +34,16 @@
       "changedFields": [],
       "linkedLinerCode": "",
       "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2026-02-13",
+      "updateRequestedBy": "North Sea Container Line",
+      "reason": "Change of address",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": null
     }
   ]
 }
