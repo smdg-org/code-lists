@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "GLO",
+  "linerName": "GLO-SAIL MARINE LIMITED",
+  "carrierType": "VOCC",
+  "parentCompany": "GLO",
+  "address": "Room 1503, 15th Floor, Jiahui Commercial Building, 18 Zhahua Road, Hong Kong",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "http://www.glo-sail.com/",
+  "remarks": "",
+  "validFrom": "2020-08-10",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-02-20",
+      "updateRequestedBy": "GLO-SAIL MARINE LIMITED",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
