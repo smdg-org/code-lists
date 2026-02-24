@@ -4,7 +4,7 @@
   "linerCodeVersion": "V2",
   "linerSMDGCode": "SIL",
   "linerName": "SILMAR SHIPPING FZCO (UAE)",
-  "carrierType": "NVOCC",
+  "carrierType": "VOCC",
   "parentCompany": "SIL",
   "address": "Barsha Heights, Tameem House Tower, office 2001 Dubai, United Arab Emirates",
   "addressLocation": {
