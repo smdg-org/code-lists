@@ -81,6 +81,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "AAS",
+    "linerName": "ANDAMAN ASIA SHIPPING LINE LIMITED",
+    "carrierType": "NVOCC",
+    "parentCompany": "",
+    "address": "R00M 70, 7/F WOON LEE COMMERCIAL  BUILDING 7-9 AUSTIN AVE TST KOWLOON HONG KONG              ",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "Not available",
+    "remarks": "",
+    "validFrom": "2026-02-12",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-02-13",
+        "updateRequestedBy": "ANDAMAN ASIA SHIPPING LINE LIMITED",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "ACL",
     "linerName": "Atlantic Container Line",
     "carrierType": "VOCC",
@@ -2967,6 +3006,45 @@
   {
     "isActive": true,
     "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "CPJ",
+    "linerName": "Chipolbrok",
+    "carrierType": "VOCC",
+    "parentCompany": "Chipolbrok",
+    "address": "No.55, Yan'an East Road, Shanghai",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://www.chipolbrok.com",
+    "remarks": "",
+    "validFrom": "2026-02-06",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-02-10",
+        "updateRequestedBy": "CHIPOLBROK Shanghai",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
     "linerCodeVersion": "V2",
     "linerSMDGCode": "CSE",
     "linerName": "New Golden Sea Shipping Pte Ltd",
@@ -4285,6 +4363,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "EYD",
+    "linerName": "NCL Oslofjord AS",
+    "carrierType": "VOCC",
+    "parentCompany": "NCL",
+    "address": "Stoltenberggata 1, 5527 Haugesund, Norway",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://www.ncl.no/",
+    "remarks": "",
+    "validFrom": "2025-01-01",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-01-22",
+        "updateRequestedBy": "NCL",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "FCL",
     "linerName": "Federated Cargo Line Pte Ltd",
     "carrierType": "NVOCC",
@@ -4951,6 +5068,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "GLO",
+    "linerName": "GLO-SAIL MARINE LIMITED",
+    "carrierType": "VOCC",
+    "parentCompany": "GLO",
+    "address": "Room 1503, 15th Floor, Jiahui Commercial Building, 18 Zhahua Road, Hong Kong",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "http://www.glo-sail.com/",
+    "remarks": "",
+    "validFrom": "2020-08-10",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-02-20",
+        "updateRequestedBy": "GLO-SAIL MARINE LIMITED",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
       }
     ]
   },
@@ -5885,6 +6041,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "HXP",
+    "linerName": "Horizon Xpress Shipping Limited",
+    "carrierType": "NVOCC",
+    "parentCompany": "LAND UNION",
+    "address": "Room D3, 11th Floor, Luk Hop Industrial Building, 8 Luk Hop Street, San Po Kong, Kowloon, Hong Kong China",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "http://www.horizonx.net.cn/",
+    "remarks": "",
+    "validFrom": "2025-02-11",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-02-13",
+        "updateRequestedBy": "Horizon Xpress Shipping Limited",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "HXS",
     "linerName": "HUI XIN SHIPPING PTE LTD",
     "carrierType": "NVOCC",
@@ -6724,6 +6919,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "KWL",
+    "linerName": "KAWA SHIPPING (HONGKONG) CO., LIMITED",
+    "carrierType": "VOCC",
+    "parentCompany": "",
+    "address": "UNIT 702 FOURSEAS BUILDING, 208-212 NATHAN ROAD; 208-212 HONGKONG",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://eb.kawashipping.com/",
+    "remarks": "",
+    "validFrom": "2025-12-05",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2025-12-05",
+        "updateRequestedBy": "PWL as agents",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "KWS",
     "linerName": "Kyowa Shipping Co., Tokyo",
     "carrierType": "UNKNOWN",
@@ -6844,6 +7078,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "requested by LGD"
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "LMX",
+    "linerName": "logistics map express ",
+    "carrierType": "NVOCC",
+    "parentCompany": "lmx",
+    "address": "22 emtdad said zakaria st, sheraton< cairo, Egypt",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://www.lmexllc.com/",
+    "remarks": "",
+    "validFrom": "2026-01-01",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-01-22",
+        "updateRequestedBy": "LMX",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
       }
     ]
   },
@@ -7172,26 +7445,26 @@
   {
     "isActive": true,
     "codeStatus": "Active",
-    "linerCodeVersion": "V1",
+    "linerCodeVersion": "V2",
     "linerSMDGCode": "MCL",
-    "linerName": "MCL Shipping Co",
-    "carrierType": "UNKNOWN",
+    "linerName": "MAG CONTAINER LINES (L.L.C)",
+    "carrierType": "VOCC",
     "parentCompany": "",
     "address": "Mag Container Lines, PO Box: 29783, Dubai, UAE",
     "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
+      "UnLocode": "DXB",
+      "UnCountryCode": "AE",
       "address": {
         "street": null,
         "streetNumber": null,
         "floor": null,
         "postCode": null,
-        "city": null,
+        "city": "Dubai",
         "state": null,
-        "country": null
+        "country": "United Arab Emirates"
       }
     },
-    "website": "http://www.mcl.ae/",
+    "website": "https://mcl.ae/en/",
     "remarks": "",
     "validFrom": "2003-09-01",
     "validTo": null,
@@ -7205,6 +7478,16 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      },
+      {
+        "actionCode": "Updated",
+        "linerCodeVersion": "V2",
+        "lastUpdateDate": "2026-01-23",
+        "updateRequestedBy": "MCL",
+        "reason": "existing liner has requested change of name",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": null
       }
     ]
   },
@@ -8196,23 +8479,23 @@
   {
     "isActive": true,
     "codeStatus": "Active",
-    "linerCodeVersion": "V1",
+    "linerCodeVersion": "V2",
     "linerSMDGCode": "NCL",
     "linerName": "North Sea Container Line",
-    "carrierType": "UNKNOWN",
-    "parentCompany": "",
-    "address": "Møllerveien 22, 5523 Haugesund, Norway",
+    "carrierType": "VOCC",
+    "parentCompany": "NCL",
+    "address": "Stoltenberggata 1, 5523 Haugesund, Norway",
     "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
+      "UnLocode": "HAU",
+      "UnCountryCode": "NO",
       "address": {
-        "street": null,
-        "streetNumber": null,
+        "street": "Stoltenberggata",
+        "streetNumber": "1",
         "floor": null,
-        "postCode": null,
-        "city": null,
+        "postCode": "5523",
+        "city": "Haugesund",
         "state": null,
-        "country": null
+        "country": "Norway"
       }
     },
     "website": "https://www.ncl.no/",
@@ -8229,6 +8512,16 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      },
+      {
+        "actionCode": "Updated",
+        "linerCodeVersion": "V2",
+        "lastUpdateDate": "2026-02-13",
+        "updateRequestedBy": "North Sea Container Line",
+        "reason": "Change of address",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": null
       }
     ]
   },
@@ -8668,6 +8961,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "NZL",
+    "linerName": "NEW ZEALAND SHIPPING",
+    "carrierType": "VOCC",
+    "parentCompany": "NZL",
+    "address": "Flat/rt 1105 lippo Centre Tower 1 89 Queensway Admiralty Hong Kong",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "http://nzlshipping.com/index9ed2.html?lang=en",
+    "remarks": "",
+    "validFrom": "2025-12-09",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-01-22",
+        "updateRequestedBy": "CMA CGM (Laem Chabang)",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
       }
     ]
   },
@@ -9777,6 +10109,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "QYL",
+    "linerName": "Qingyun Line",
+    "carrierType": "VOCC",
+    "parentCompany": "STARWAY OCEAN PTE. LTD.",
+    "address": "2 BATTERY ROAD, #27-01, MAYBANK TOWER, SINGAPORE 049907",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "",
+    "remarks": "",
+    "validFrom": "2022-08-16",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-01-22",
+        "updateRequestedBy": "STARWAY OCEAN PTE. LTD",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "RCL",
     "linerName": "Regional Container Line",
     "carrierType": "UNKNOWN",
@@ -10004,6 +10375,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "SAL",
+    "linerName": "SHAHAZIZ SHIPPING LINES L.L.C (Dubai)",
+    "carrierType": "NVOCC",
+    "parentCompany": "SASL",
+    "address": "Office #2308, 23rd Floor, Damac Smart Heights Building, Al Barsha Heights (TECOM)",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "www.sasl.ae",
+    "remarks": "",
+    "validFrom": "2026-02-12",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-02-13",
+        "updateRequestedBy": "SHAHAZIZ SHIPPING LINES L.L.C (Dubai)",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
       }
     ]
   },
@@ -10365,6 +10775,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "update based on information provided by Maersk (e-mail)"
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "SHA",
+    "linerName": "SHARVAA SHIPPING LINES PTE LTD",
+    "carrierType": "NVOCC",
+    "parentCompany": "SHARVAA SHIPPING",
+    "address": "10 ANSON ROAD , # 26-17 INTERNATIONAL PLAZA , SINGAPORE - 079903",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "www.sharvaashipping.com",
+    "remarks": "",
+    "validFrom": "2026-02-11",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-02-13",
+        "updateRequestedBy": "SHARVAA SHIPPING LINES PTE LTD",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
       }
     ]
   },
