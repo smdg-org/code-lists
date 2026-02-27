@@ -6,7 +6,7 @@
   "linerName": "North Sea Container Line",
   "carrierType": "VOCC",
   "parentCompany": "NCL",
-  "address": "Stoltenberggata 1", 5523 Haugesund, Norway",
+  "address": "Stoltenberggata 1, 5523 Haugesund, Norway",
   "addressLocation": {
     "UnLocode": "HAU",
     "UnCountryCode": "NO",
