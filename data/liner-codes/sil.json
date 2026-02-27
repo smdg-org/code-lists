@@ -1,28 +1,28 @@
 {
   "isActive": true,
   "codeStatus": "Active",
-  "linerCodeVersion": "V1",
+  "linerCodeVersion": "V2",
   "linerSMDGCode": "SIL",
-  "linerName": "Silmar-Shipping",
+  "linerName": "SILMAR SHIPPING FZCO (UAE)",
   "carrierType": "VOCC",
   "parentCompany": "SIL",
-  "address": "Barsha Heights, Tameem House Tower, office 2001 Dubai, United Arab Emirates",
+  "address": "SILMAR SHIPPING FZCO,Dubai CommerCity,Business Cluster - Building BCB1 141,P.O.BOX 124365, Dubai,United Arab Emirates",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
-      "street": "Barsha Heights, Tameem House Tower",
-      "streetNumber": null,
+      "street": "Dubai CommerCity Business Cluster",
+      "streetNumber": "Building BCB1 141",
       "floor": "Office 2001",
       "postCode": null,
-      "city": "Dubai",
+      "city": "DUBAI",
       "state": null,
-      "country": "United Arab Emirates"
+      "country": "UNITED ARAB EMIRATES"
     }
   },
-  "website": "",
-  "remarks": "",
-  "validFrom": "2025-06-25",
+  "website": "https://silmar-shipping.com/",
+  "remarks": "website launch",
+  "validFrom": "2025-06-10",
   "validTo": null,
   "changeLogs": [
     {
@@ -34,6 +34,16 @@
       "changedFields": [],
       "linkedLinerCode": null,
       "comments": null
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2026-02-24",
+      "updateRequestedBy": "SILMAR SHIPPING FZCO (UAE)",
+      "reason": "Change of address, new website",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": "website launch"
     }
   ]
 }
