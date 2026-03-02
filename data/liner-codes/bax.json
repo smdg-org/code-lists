@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "BAX",
+  "linerName": "BAY LINES",
+  "carrierType": "NVOCC",
+  "parentCompany": null,
+  "address": "",
+  "addressLocation": {
+    "UnLocode": "PLU",
+    "UnCountryCode": "MU",
+    "address": {
+      "street": "PRESIDENT JOHN KENNEDY STREET",
+      "streetNumber": null,
+      "floor": "PMSL HARBOUR FRONT BUILDING",
+      "postCode": null,
+      "city": "PORT LOUIS",
+      "state": null,
+      "country": "MAURITIUS"
+    }
+  },
+  "website": "",
+  "remarks": "RHS GROUP",
+  "validFrom": "2026-03-02",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-03-02",
+      "updateRequestedBy": "Sunmarine Shipping Services LLC (as agents for Bay Lines)",
+      "reason": "New liner is registered",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": null
+    }
+  ]
+}
