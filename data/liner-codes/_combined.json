@@ -1105,6 +1105,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "BAX",
+    "linerName": "BAY LINES",
+    "carrierType": "NVOCC",
+    "parentCompany": null,
+    "address": "",
+    "addressLocation": {
+      "UnLocode": "PLU",
+      "UnCountryCode": "MU",
+      "address": {
+        "street": "PRESIDENT JOHN KENNEDY STREET",
+        "streetNumber": null,
+        "floor": "PMSL HARBOUR FRONT BUILDING",
+        "postCode": null,
+        "city": "PORT LOUIS",
+        "state": null,
+        "country": "MAURITIUS"
+      }
+    },
+    "website": "www.baylines.net",
+    "remarks": "RHS GROUP",
+    "validFrom": "2026-03-02",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-03-02",
+        "updateRequestedBy": "Sunmarine Shipping Services LLC (as agents for Bay Lines)",
+        "reason": "New liner is registered",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": null
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "BBL",
     "linerName": "Barber Wilhelmsen",
     "carrierType": "UNKNOWN",
@@ -9641,6 +9680,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "PES",
+    "linerName": "SMC Peninsula Express Shipping (Hong Kong) Co., Limited",
+    "carrierType": "VOCC",
+    "parentCompany": "SMC",
+    "address": " 413，4/F LUCKY CTR 165-171 WAN CHAI RD WAN CHAI HONG KONG",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://www.spgline.com",
+    "remarks": "",
+    "validFrom": "2026-02-27",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-03-02",
+        "updateRequestedBy": "Shandong Marine Corporation",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "PFL",
     "linerName": "Pacific Forum Line",
     "carrierType": "NVOCC",
@@ -11429,6 +11507,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "requested by Samudera"
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "SMC",
+    "linerName": "SHANDONG MARINE CORPORATION",
+    "carrierType": "VOCC",
+    "parentCompany": "SMC",
+    "address": "17th Floor, Building A, No. 6 Gangqing Road, Shibei District, Qingdao City, Shandong Province",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://www.spgline.com",
+    "remarks": "",
+    "validFrom": "2026-02-27",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-03-02",
+        "updateRequestedBy": "Shandong Marine Corporation",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
       }
     ]
   },
