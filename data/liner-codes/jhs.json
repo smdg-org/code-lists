@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "JHS",
+  "linerName": "JOIN HANDS SHIPPING LINE COMPANY LIMITED",
+  "carrierType": "NVOCC",
+  "parentCompany": "JHS",
+  "address": "WORK SHOP 60 3/F BLOCK A EAST SUN INDUSTRIAL CENTRE NO. 16 SHING YIP STREET KL,HONG KONG",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "www.kimberryline.com ",
+  "remarks": "",
+  "validFrom": "2026-03-06",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-03-06",
+      "updateRequestedBy": "JOIN HANDS SHIPPING LINE COMPANY LIMITED",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
