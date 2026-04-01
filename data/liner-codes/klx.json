@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "KLX",
+  "linerName": "KARTEN INTERNATIONAL LOGISTICS PTE LTD",
+  "carrierType": "NVOCC",
+  "parentCompany": "KARTEN",
+  "address": "Room 1149, Guangfa Building, South Dongmen Road, Luohu District, Shenzhen (China)",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "www.kartenlog.com",
+  "remarks": "",
+  "validFrom": "2026-03-27",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-04-01",
+      "updateRequestedBy": "KARTEN INTERNATIONAL LOGISTICS PTE LTD",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
