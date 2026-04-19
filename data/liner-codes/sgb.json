@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SGB",
+  "linerName": "Seatrade Group B.V.",
+  "carrierType": "VOCC",
+  "parentCompany": "",
+  "address": "Graaf Engelbertlaan 75, 4837 DS Breda, Netherlands",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "www.seatrade.com",
+  "remarks": "",
+  "validFrom": "2026-04-08",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-04-19",
+      "updateRequestedBy": "Seatrade Group B.V.",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
