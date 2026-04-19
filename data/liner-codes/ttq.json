@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "TTQ",
+  "linerName": "TANKTAINER SHIPPING (S) PTE LTD ",
+  "carrierType": "NVOCC",
+  "parentCompany": "",
+  "address": "200 CANTONMENT ROAD, SOUTHPOINT #02-05, SINGAPORE 089763",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "",
+  "remarks": "",
+  "validFrom": "2026-04-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-04-19",
+      "updateRequestedBy": "TANKTAINER SHIPPING (S) PTE LTD",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
