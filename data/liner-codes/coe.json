@@ -1,28 +1,28 @@
 {
   "isActive": true,
   "codeStatus": "Active",
-  "linerCodeVersion": "V1",
+  "linerCodeVersion": "V2",
   "linerSMDGCode": "COE",
-  "linerName": "COSCO SHIPPING Lines (Europe) GmbH",
-  "carrierType": "UNKNOWN",
-  "parentCompany": "COS",
+  "linerName": "Diamond Line GmbH",
+  "carrierType": "VOCC",
+  "parentCompany": "COSCO SHIPPING Lines (Europe) GmbH",
   "address": "Logistics service, Am Sandtorkai 60 ·",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HAM",
+    "UnCountryCode": "DE",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Herrengraben",
+      "streetNumber": "74",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "20459",
+      "city": "Hamburg",
       "state": null,
-      "country": null
+      "country": "Germany"
     }
   },
-  "website": "http://en.coscocs.com/",
+  "website": "https://world.lines.coscoshipping.com/europe/en/home",
   "remarks": "",
-  "validFrom": "2015-04-08",
+  "validFrom": "2026-05-29",
   "validTo": null,
   "changeLogs": [
     {
@@ -34,6 +34,16 @@
       "changedFields": [],
       "linkedLinerCode": "",
       "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+    },
+    {
+      "actionCode": "Updated",
+      "linerCodeVersion": "V2",
+      "lastUpdateDate": "2026-06-15",
+      "updateRequestedBy": "COSCO SHIPPING Lines (Europe) GmbH",
+      "reason": "vessels operated by Diamond Line GmbH instead of COSCO SHIPPING Lines (Europe) GmbH",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": null
     }
   ]
 }
