@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "GTL",
+  "linerName": "GT SHIPPING AGENCY L.L.C.SP",
+  "carrierType": "VOCC",
+  "parentCompany": "",
+  "address": "Gulftainer, Buhaira Corniche, SARH AL EMARAT, 43rd Floor, Sharjah, United Arab Emirates",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "https://www.gulftainer.com",
+  "remarks": "",
+  "validFrom": "2023-08-03",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-07-16",
+      "updateRequestedBy": "GT SHIPPING AGENCY L.L.C.SP",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
