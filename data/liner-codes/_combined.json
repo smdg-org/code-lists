@@ -2889,28 +2889,28 @@
   {
     "isActive": true,
     "codeStatus": "Active",
-    "linerCodeVersion": "V1",
+    "linerCodeVersion": "V2",
     "linerSMDGCode": "COE",
-    "linerName": "COSCO SHIPPING Lines (Europe) GmbH",
-    "carrierType": "UNKNOWN",
-    "parentCompany": "COS",
+    "linerName": "Diamond Line GmbH",
+    "carrierType": "VOCC",
+    "parentCompany": "COSCO SHIPPING Lines (Europe) GmbH",
     "address": "Logistics service, Am Sandtorkai 60 ·",
     "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
+      "UnLocode": "HAM",
+      "UnCountryCode": "DE",
       "address": {
-        "street": null,
-        "streetNumber": null,
+        "street": "Herrengraben",
+        "streetNumber": "74",
         "floor": null,
-        "postCode": null,
-        "city": null,
+        "postCode": "20459",
+        "city": "Hamburg",
         "state": null,
-        "country": null
+        "country": "Germany"
       }
     },
-    "website": "http://en.coscocs.com/",
+    "website": "https://world.lines.coscoshipping.com/europe/en/home",
     "remarks": "",
-    "validFrom": "2015-04-08",
+    "validFrom": "2026-05-29",
     "validTo": null,
     "changeLogs": [
       {
@@ -2922,6 +2922,16 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      },
+      {
+        "actionCode": "Updated",
+        "linerCodeVersion": "V2",
+        "lastUpdateDate": "2026-06-15",
+        "updateRequestedBy": "COSCO SHIPPING Lines (Europe) GmbH",
+        "reason": "vessels operated by Diamond Line GmbH instead of COSCO SHIPPING Lines (Europe) GmbH",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": null
       }
     ]
   },
@@ -5319,11 +5329,11 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
-    "linerSMDGCode": "GUA",
-    "linerName": "Guaran Feeder",
-    "carrierType": "UNKNOWN",
+    "linerSMDGCode": "GTL",
+    "linerName": "GT SHIPPING AGENCY L.L.C.SP",
+    "carrierType": "VOCC",
     "parentCompany": "",
-    "address": "Asuncion",
+    "address": "Gulftainer, Buhaira Corniche, SARH AL EMARAT, 43rd Floor, Sharjah, United Arab Emirates",
     "addressLocation": {
       "UnLocode": null,
       "UnCountryCode": null,
@@ -5337,7 +5347,46 @@
         "country": null
       }
     },
-    "website": "",
+    "website": "https://www.gulftainer.com",
+    "remarks": "",
+    "validFrom": "2023-08-03",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-07-16",
+        "updateRequestedBy": "GT SHIPPING AGENCY L.L.C.SP",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V2",
+    "linerSMDGCode": "GUA",
+    "linerName": "Guaran Feeder",
+    "carrierType": "VOCC",
+    "parentCompany": "",
+    "address": "Asuncion",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": "Av. Artigas",
+        "streetNumber": "3443",
+        "floor": null,
+        "postCode": null,
+        "city": "Asunción",
+        "state": null,
+        "country": "Paraguay"
+      }
+    },
+    "website": "www.guaranfeeder.com",
     "remarks": "",
     "validFrom": "2020-09-04",
     "validTo": null,
@@ -5351,6 +5400,16 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      },
+      {
+        "actionCode": "Updated",
+        "linerCodeVersion": "V2",
+        "lastUpdateDate": "2026-05-17",
+        "updateRequestedBy": "Guaran Feeder",
+        "reason": "additional information",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": null
       }
     ]
   },
@@ -6753,6 +6812,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "JHS",
+    "linerName": "JOIN HANDS SHIPPING LINE COMPANY LIMITED",
+    "carrierType": "NVOCC",
+    "parentCompany": "JHS",
+    "address": "WORK SHOP 60 3/F BLOCK A EAST SUN INDUSTRIAL CENTRE NO. 16 SHING YIP STREET KL,HONG KONG",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "www.kimberryline.com ",
+    "remarks": "",
+    "validFrom": "2026-03-06",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-03-06",
+        "updateRequestedBy": "JOIN HANDS SHIPPING LINE COMPANY LIMITED",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "JTK",
     "linerName": "P.T. Jasatama Kemasindo",
     "carrierType": "UNKNOWN",
@@ -6824,6 +6922,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "KLX",
+    "linerName": "KARTEN INTERNATIONAL LOGISTICS PTE LTD",
+    "carrierType": "NVOCC",
+    "parentCompany": "KARTEN",
+    "address": "Room 1149, Guangfa Building, South Dongmen Road, Luohu District, Shenzhen (China)",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "www.kartenlog.com",
+    "remarks": "",
+    "validFrom": "2026-03-27",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-04-01",
+        "updateRequestedBy": "KARTEN INTERNATIONAL LOGISTICS PTE LTD",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
       }
     ]
   },
@@ -10226,6 +10363,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "RAL",
+    "linerName": "Royal Arctic Line A/S",
+    "carrierType": "VOCC",
+    "parentCompany": "RAL",
+    "address": "Royal Arctic Line A/S, Aqqusinersuaq 52, Postboks 1580, 3900 Nuuk",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://www.RAL.dk",
+    "remarks": "",
+    "validFrom": "2026-04-17",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-05-17",
+        "updateRequestedBy": "Royal Arctic Line A/S",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "RCL",
     "linerName": "Regional Container Line",
     "carrierType": "UNKNOWN",
@@ -10414,6 +10590,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "requested by Megastar (parent company)"
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "RTS",
+    "linerName": "RTSB Line",
+    "carrierType": "NVOCC",
+    "parentCompany": "",
+    "address": "Industriestraße 24, 61381 Friedrichsdorf ",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "rtsb.group",
+    "remarks": "",
+    "validFrom": "2026-05-01",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-05-15",
+        "updateRequestedBy": "RTSB Line",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
       }
     ]
   },
@@ -10800,6 +11015,45 @@
         "linerCodeVersion": "V1",
         "lastUpdateDate": "2025-12-04",
         "updateRequestedBy": "Swift Flow Shipping Services",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "SGB",
+    "linerName": "Seatrade Group B.V.",
+    "carrierType": "VOCC",
+    "parentCompany": "",
+    "address": "Graaf Engelbertlaan 75, 4837 DS Breda, Netherlands",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "www.seatrade.com",
+    "remarks": "",
+    "validFrom": "2026-04-08",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-04-19",
+        "updateRequestedBy": "Seatrade Group B.V.",
         "reason": "",
         "changedFields": [],
         "linkedLinerCode": null,
@@ -12824,6 +13078,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "TTQ",
+    "linerName": "TANKTAINER SHIPPING (S) PTE LTD ",
+    "carrierType": "NVOCC",
+    "parentCompany": "",
+    "address": "200 CANTONMENT ROAD, SOUTHPOINT #02-05, SINGAPORE 089763",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "",
+    "remarks": "",
+    "validFrom": "2026-04-01",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-04-19",
+        "updateRequestedBy": "TANKTAINER SHIPPING (S) PTE LTD",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
       }
     ]
   },
