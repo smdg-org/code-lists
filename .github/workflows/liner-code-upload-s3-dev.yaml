@@ -1,0 +1,19 @@
+name: Liner Codes - Upload to S3 (dev)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - data/liner-codes/**
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    uses: ./.github/workflows/liner-code-upload-s3.yaml
+    with:
+      environment: dev
