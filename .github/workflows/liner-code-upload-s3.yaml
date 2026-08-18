@@ -1,0 +1,79 @@
+name: Liner Codes - Upload to S3
+
+on:
+  workflow_call:
+    inputs:
+      environment:
+        description: GitHub Environment supplying AWS_ROLE_ARN and S3_BUCKET
+        required: true
+        type: string
+      ref:
+        description: Git ref to publish (defaults to the triggering ref)
+        required: false
+        type: string
+        default: ''
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
+    concurrency: upload-s3-${{ inputs.environment }}
+
+    env:
+      file: data/liner-codes/_combined.json
+      # The import Lambda's S3 notification is filtered on the
+      # smdg/codelists/linercodes/ prefix. An object written anywhere else in
+      # the bucket is not imported, and the upload role only permits this key.
+      object_key: smdg/codelists/linercodes/_combined.json
+      aws_region: eu-west-1
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref || github.ref }}
+
+      - name: check environment configuration
+        env:
+          role_arn: ${{ vars.AWS_ROLE_ARN }}
+          bucket: ${{ vars.S3_BUCKET }}
+        run: |
+          missing=0
+          if [ -z "$role_arn" ]; then
+            echo "::error::AWS_ROLE_ARN is not set on the '${{ inputs.environment }}' environment"
+            missing=1
+          fi
+          if [ -z "$bucket" ]; then
+            echo "::error::S3_BUCKET is not set on the '${{ inputs.environment }}' environment"
+            missing=1
+          fi
+          exit $missing
+
+      - name: verify payload
+        run: |
+          if [ ! -f "$file" ]; then
+            echo "::error::File not found: $file"
+            exit 1
+          fi
+          python3 -c "import json; json.load(open('$file'))"
+          echo "$file is valid JSON ($(wc -c < "$file") bytes)"
+
+      - name: configure aws credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_ROLE_ARN }}
+          role-session-name: gha-liner-codes-${{ inputs.environment }}
+          aws-region: ${{ env.aws_region }}
+
+      - name: upload to s3
+        env:
+          bucket: ${{ vars.S3_BUCKET }}
+        run: |
+          aws s3 cp "$file" "s3://$bucket/$object_key" \
+            --content-type application/json \
+            --metadata "git-sha=${{ github.sha }},run-id=${{ github.run_id }}"
+          echo "Uploaded $file to s3://$bucket/$object_key"
