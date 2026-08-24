@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "LRA",
+  "linerName": "Lüddeke Reedereiagentur GmbH\n",
+  "carrierType": "NVOCC",
+  "parentCompany": "",
+  "address": "Gotenstrasse 10, 20097 Hamburg, Germany",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "www.reedereiagentur.de",
+  "remarks": "",
+  "validFrom": "2026-08-14",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-08-24",
+      "updateRequestedBy": "Lüddeke Reedereiagentur GmbH",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
