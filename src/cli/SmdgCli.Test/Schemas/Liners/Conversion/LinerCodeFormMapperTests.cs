@@ -4,7 +4,7 @@ using AutoFixture;
 using FluentAssertions;
 using SmdgCli.Schemas.Liners;
 using SmdgCli.Schemas.Liners.Conversion;
-using Utilities;
+using SmdgCli.Utilities;
 using Xunit;
 
 public class LinerCodeFormMapperTests

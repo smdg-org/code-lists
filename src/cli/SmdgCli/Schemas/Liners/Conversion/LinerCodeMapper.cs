@@ -15,6 +15,9 @@ public partial class LinerCodeMapper : IMapper<LinerCode, LinerCodeExcel, LinerC
             Nvocc = result.CarrierType == CarrierType.NVOCC,
             ParentCompany = result.ParentCompany,
             IsActive = result.IsActive,
+            LastChange = result.ChangeLogs.Count > 0
+                ? result.ChangeLogs.Max(c => c.LastUpdateDate)
+                : null,
             ValidFrom = result.ValidFrom,
             ValidUntil = result.ValidTo,
             Website = result.Website,

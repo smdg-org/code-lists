@@ -2,6 +2,7 @@ namespace SmdgCli.Test.Schemas.Liners.Conversion;
 
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using FluentAssertions;
 using SmdgCli.Schemas.Liners;
@@ -68,6 +69,7 @@ public class LinerCodeMapperTest
         source.Nvocc.Should().Be(linerCode.CarrierType == CarrierType.NVOCC);
         source.Vocc.Should().Be(linerCode.CarrierType == CarrierType.VOCC);
         source.IsActive.Should().Be(linerCode.IsActive);
+        source.LastChange.Should().Be(linerCode.ChangeLogs.First().LastUpdateDate);
         source.ValidFrom.Should().Be(linerCode.ValidFrom);
         source.ValidUntil.Should().Be(linerCode.ValidTo);
         source.Website.Should().Be(linerCode.Website);
@@ -88,6 +90,46 @@ public class LinerCodeMapperTest
         change.Action.Should().Be(linerCode.ChangeLogs.First().ActionCode.ToString());
         change.Reason.Should().Be(linerCode.ChangeLogs.First().Reason);
         change.Comments.Should().Be(linerCode.ChangeLogs.First().Comments);
+    }
+
+    [Theory]
+    [InlineData(new[] { "2021-01-01" }, "2021-01-01")]
+    [InlineData(new[] { "2021-01-01", "2026-08-24" }, "2026-08-24")]
+    [InlineData(new[] { "2026-08-24", "2021-01-01" }, "2026-08-24")]
+    public void ReverseMap_ShouldSetLastChangeToTheMostRecentChangeLogDate(string[] changeDates, string expected)
+    {
+        // Arrange
+        var mapper = new LinerCodeMapper();
+
+        var linerCode = new LinerCode
+        {
+            IsActive = true,
+            CodeStatus = CodeStatusEnum.Active,
+            LinerCodeVersion = "V1",
+            LinerSmdgCode = "LRA",
+            LinerName = "Liner Name",
+            UnstructuredAddress = "Unstructured Address",
+            AddressLocation = new AddressLocation(),
+            Website = "http://example.com",
+            Remarks = string.Empty,
+            ValidFrom = new DateOnly(2026, 08, 14),
+            ChangeLogs = changeDates
+                .Select((date, index) => new ChangeLog
+                {
+                    ActionCode = ActionCodeEnum.Added,
+                    LinerCodeVersion = $"V{index + 1}",
+                    LastUpdateDate = DateOnly.Parse(date, CultureInfo.InvariantCulture),
+                    Reason = "new request",
+                })
+                .ToList(),
+        };
+
+        // Act
+        var (source, _) = mapper.ReverseMap(linerCode);
+
+        // Assert
+        source.LastChange.Should().Be(DateOnly.Parse(expected, CultureInfo.InvariantCulture));
+        source.ValidFrom.Should().Be(linerCode.ValidFrom);
     }
 
     [Fact]

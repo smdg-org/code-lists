@@ -18,9 +18,16 @@ public static partial class ExcelUtils
                 continue;
             }
             var rowData = new Dictionary<string, string>();
-            for (var i = 1; i <= headers.Count; i++)
+            for (var columnNumber = 1; columnNumber <= headers.Count; columnNumber++)
             {
-                rowData[headers[i - 1]] = currentRow.Cell(i).GetString();
+                var header = headers[columnNumber - 1];
+                if (string.IsNullOrEmpty(header))
+                {
+                    // Column without a header, there is no name to store its value under.
+                    continue;
+                }
+
+                rowData[header] = currentRow.Cell(columnNumber).GetString();
             }
             data.Add(rowData);
         }
@@ -36,17 +43,22 @@ public static partial class ExcelUtils
         foreach (var dataRow in data)
         {
             var currentRow = worksheet.Row(firstEmptyRow++);
-            foreach (var header in headers)
+            for (var columnNumber = 1; columnNumber <= headers.Count; columnNumber++)
             {
-                var columnIndex = headers.IndexOf(header) + 1;
-
-                if (!dataRow.TryGetValue(header, out var value))
+                var header = headers[columnNumber - 1];
+                if (string.IsNullOrEmpty(header))
                 {
-                    currentRow.Cell(columnIndex).Value = string.Empty;
+                    // Column without a header, leave whatever the template puts there untouched.
                     continue;
                 }
 
-                currentRow.Cell(columnIndex).Value = value;
+                if (!dataRow.TryGetValue(header, out var value))
+                {
+                    currentRow.Cell(columnNumber).Value = string.Empty;
+                    continue;
+                }
+
+                currentRow.Cell(columnNumber).Value = value;
             }
         }
     }
@@ -68,8 +80,14 @@ public static partial class ExcelUtils
             throw new InvalidOperationException("Could not find the header");
         }
 
-        var header = row.Cells()
-            .Select(cell => HeaderCleanup().Replace(cell.GetString().Trim(), " "))
+        // The header is addressed by position later on, so every column up to the last one
+        // has to be represented, including the ones with an empty header cell. Reading only
+        // the used cells would shift all following columns and move values into the wrong field.
+        var lastColumnNumber = row.LastCellUsed()?.Address.ColumnNumber ?? 0;
+
+        var header = Enumerable
+            .Range(1, lastColumnNumber)
+            .Select(columnNumber => HeaderCleanup().Replace(row.Cell(columnNumber).GetString().Trim(), " "))
             .ToList();
 
         AnsiConsole.MarkupLine($"Header found at line: [deeppink3]{rowNumber}[/]");
