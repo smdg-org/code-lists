@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "AZS",
+  "linerName": "AZON SHIPPING PTE LTE",
+  "carrierType": "NVOCC",
+  "parentCompany": "AZS",
+  "address": "71 Woodlands Industrial Park E9\u00A0#05-02 Wave9 S(757048) ",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "https://azonshipping.com/",
+  "remarks": "",
+  "validFrom": "2026-09-04",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-09-18",
+      "updateRequestedBy": "AZON Shipping",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
