@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "RWL",
+  "linerName": "Rways Container Line Sdn Bhd",
+  "carrierType": "VOCC",
+  "parentCompany": "Rways Group",
+  "address": "Suite # 707-709, 7th Floor Caesars Towers, Main Shahrah E Faisal Oppo. Ayesha Bawani College, Karachi – Pakistan",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "www.rwaysgroup.com ",
+  "remarks": "",
+  "validFrom": "2026-09-01",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-10-12",
+      "updateRequestedBy": "Rways Container Line Sdn Bhd",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
