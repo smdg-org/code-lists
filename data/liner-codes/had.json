@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "HAD",
+  "linerName": "HAFEZ DARYA ARYA SHIPPING COMPANY",
+  "carrierType": "VOCC",
+  "parentCompany": "ISL",
+  "address": "No. 237 Iranshahr North, Karim Khan Zand Ave. Tehran Iran",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "https://www.hdasco.com",
+  "remarks": "",
+  "validFrom": "2026-08-17",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-10-12",
+      "updateRequestedBy": "HAFEZ DARYA ARYA SHIPPING COMPANY",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
