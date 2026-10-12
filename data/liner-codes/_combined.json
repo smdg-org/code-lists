@@ -988,6 +988,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "AZS",
+    "linerName": "AZON SHIPPING PTE LTE",
+    "carrierType": "NVOCC",
+    "parentCompany": "AZS",
+    "address": "71 Woodlands Industrial Park E9\u00A0#05-02 Wave9 S(757048) ",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://azonshipping.com/",
+    "remarks": "",
+    "validFrom": "2026-09-04",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-09-18",
+        "updateRequestedBy": "AZON Shipping",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "BAA",
     "linerName": "Bulk Oil & Liquid Transport Pte Ltd",
     "carrierType": "NVOCC",
@@ -7378,6 +7417,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "LRA",
+    "linerName": "Lüddeke Reedereiagentur GmbH\n",
+    "carrierType": "NVOCC",
+    "parentCompany": "",
+    "address": "Gotenstrasse 10, 20097 Hamburg, Germany",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "www.reedereiagentur.de",
+    "remarks": "",
+    "validFrom": "2026-08-14",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-08-24",
+        "updateRequestedBy": "Lüddeke Reedereiagentur GmbH",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "LSS",
     "linerName": "Lianyungang Sailing Supply Chain Management Co.,Ltd",
     "carrierType": "NVOCC",
@@ -10987,6 +11065,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "SFN",
+    "linerName": "SAFEEN FEEDER COMPANY - SOLE PROPRIETORSHIP L.L.C",
+    "carrierType": "VOCC",
+    "parentCompany": "SFN",
+    "address": "Abu Dhabi Island, The Port, Mina Zayed Building, Abu Dhabi Ports, UAE",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://www.adportsgroup.com/",
+    "remarks": "",
+    "validFrom": "2026-09-28",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-10-12",
+        "updateRequestedBy": "SAFEEN FEEDER COMPANY - SOLE PROPRIETORSHIP L.L.C",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "SFS",
     "linerName": "SWIFT FLOW SHIPPING SERVICES LLC",
     "carrierType": "NVOCC",
@@ -14229,6 +14346,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "requested by YQN Link"
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "ZGL",
+    "linerName": "ZHONG GU SHIPPING (SIN) PTE LTD",
+    "carrierType": "VOCC",
+    "parentCompany": "",
+    "address": "111 North Bridge Road #21-01, Singapore",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://www.zhonggu56.com/en/index.jsp",
+    "remarks": "",
+    "validFrom": "2026-08-18",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-08-24",
+        "updateRequestedBy": "ZHONG GU SHIPPING (SIN) PTE LTD",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
       }
     ]
   },
