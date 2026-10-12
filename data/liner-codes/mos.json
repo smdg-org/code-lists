@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "MOS",
+  "linerName": "MARSA OCEAN SHIPPING LLC",
+  "carrierType": "VOCC",
+  "parentCompany": "MOS",
+  "address": "Office No. 1810,The Citadel Tower, Business Bay, Dubai, United Arab Emirates",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "MARSAOCEAN.COM",
+  "remarks": "",
+  "validFrom": "2026-10-02",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-10-12",
+      "updateRequestedBy": "MARSA OCEAN SHIPPING LLC",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
