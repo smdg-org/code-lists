@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "PSF",
+  "linerName": "PORTS SHIPPING FEEDER",
+  "carrierType": "VOCC",
+  "parentCompany": "Ports Shipping LLC, UAE",
+  "address": "Zaabeel Business Center, P O Box 47081, Dubai, UAE",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "www.ports-shipping.com",
+  "remarks": "",
+  "validFrom": "2026-10-09",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-10-12",
+      "updateRequestedBy": "PORTS SHIPPING FEEDER",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
