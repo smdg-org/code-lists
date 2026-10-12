@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "OVS",
+  "linerName": "OCEAN VOYAGE SHIPPING LINE LLC",
+  "carrierType": "VOCC",
+  "parentCompany": "",
+  "address": "1204, Fahidi Heights, Khaleed Bin Waleed St., Bur Dubai, Dubai. UAE. ",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "https://www.ovsl.co",
+  "remarks": "",
+  "validFrom": "2026-10-08",
+  "validTo": "2027-03-21",
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-10-12",
+      "updateRequestedBy": "OCEAN VOYAGE SHIPPING LINE LLC",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
