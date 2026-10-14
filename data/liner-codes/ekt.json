@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "EKT",
+  "linerName": "EkTrans Line",
+  "carrierType": "NVOCC",
+  "parentCompany": "EkTrans LLC",
+  "address": "44-11, Karla Marksa St., Novorossiysk, Krasnodar Krai, 353900, Russian Federation",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "",
+  "remarks": "",
+  "validFrom": "2026-09-15",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-10-14",
+      "updateRequestedBy": "EkTrans Line",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
