@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Head Quarters, Sharjah Media City, Sharja, UAE, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SHJ",
+    "UnCountryCode": "AE",
     "address": {
       "street": null,
       "streetNumber": null,
-      "floor": null,
+      "floor": "Sharjah Media City",
       "postCode": null,
-      "city": null,
+      "city": "Sharjah",
       "state": null,
-      "country": null
+      "country": "United Arab Emirates"
     }
   },
   "website": "http://www.liquid-line.com/",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Industriestraße 24, 61381 Friedrichsdorf ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "FRF",
+    "UnCountryCode": "DE",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Industriestraße",
+      "streetNumber": "24",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "61381",
+      "city": "Friedrichsdorf",
+      "state": "HE",
+      "country": "Germany"
     }
   },
   "website": "rtsb.group",

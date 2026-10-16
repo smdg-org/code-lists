@@ -8,16 +8,16 @@
   "parentCompany": "Rhenus Logistics",
   "address": "Headquarter: Rhenus SE & Co. KG, Rhenus-Platz 1, 59439 Holzwickede, Germany, Asia headquarter: 17 Changi Business Park Central 1, Honeywell Building #06-08, Singapore 486073",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HZW",
+    "UnCountryCode": "DE",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Rhenus-Platz",
+      "streetNumber": "1",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "59439",
+      "city": "Holzwickede",
       "state": null,
-      "country": null
+      "country": "Germany"
     }
   },
   "website": "https://www.rhenus.group/",

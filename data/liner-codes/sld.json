@@ -8,16 +8,16 @@
   "parentCompany": "MSK",
   "address": "Esplanaden 50, 1098 København K, Denmark",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "CPH",
+    "UnCountryCode": "DK",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Esplanaden",
+      "streetNumber": "50",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "1098",
+      "city": "Copenhagen",
       "state": null,
-      "country": null
+      "country": "Denmark"
     }
   },
   "website": "https://www.sealand.com/",

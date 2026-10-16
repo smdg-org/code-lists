@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "SUNMARINE SHIPPING SERVICES L.L.C, P.O.Box 25890, Rais Hassan Saadi Building, Al Mankool Road, Bur Dubai, Dubai, United Arab Emirates,",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "PLU",
+    "UnCountryCode": "MU",
     "address": {
-      "street": null,
+      "street": "PRESIDENT JOHN KENNEDY STREET",
       "streetNumber": null,
-      "floor": null,
+      "floor": "PMSL, HARBOUR FRONT BUILDING",
       "postCode": null,
-      "city": null,
+      "city": "Port Louis",
       "state": null,
-      "country": null
+      "country": "Mauritius"
     }
   },
   "website": "http://www.sunmarine.com",

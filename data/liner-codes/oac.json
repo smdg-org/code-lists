@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "5th Floor, Grindrod House, 108 Margaret Mncadi Avenue, Durban, 4001",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DUR",
+    "UnCountryCode": "ZA",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
+      "street": "Margaret Mncadi Avenue",
+      "streetNumber": "108",
+      "floor": "5th Floor, Grindrod House",
+      "postCode": "4001",
+      "city": "Durban",
       "state": null,
-      "country": null
+      "country": "South Africa"
     }
   },
   "website": "https://www.oceanafrica.co.za/",

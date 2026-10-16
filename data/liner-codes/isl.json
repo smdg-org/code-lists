@@ -8,16 +8,16 @@
   "parentCompany": "ISL",
   "address": "ISLAMIC REPUBLIC OF IRAN SHIPPING LINES (IRISL), Address N°37, ASSEMAN TOWER, SHAHID SAYYAD SHIRAZEE SQ. PASDARAN, Zip Code 19395-1311, City TEHRAN, State , Country Iran, Islamic Republic of, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "THR",
+    "UnCountryCode": "IR",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "SHAHID SAYYAD SHIRAZEE SQ.",
+      "streetNumber": "37",
+      "floor": "Aseman Tower",
       "postCode": null,
-      "city": null,
+      "city": "Tehran",
       "state": null,
-      "country": null
+      "country": "Iran, Islamic Republic of"
     }
   },
   "website": "http://www.irisl.net/default.aspx",

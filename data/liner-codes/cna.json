@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Villa 219  Parc Ben Omar Kouba  Alger  -   ALGERIE",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "ALG",
+    "UnCountryCode": "DZ",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Parc Ben Omar Kouba",
+      "streetNumber": "219",
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Algier",
       "state": null,
-      "country": null
+      "country": "Algeria"
     }
   },
   "website": "http://www.cnan-nord.com/",

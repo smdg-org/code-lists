@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Altunizade Mahallesi, Ord.Prof. Dr Fahrettin Kerim Gökay Caddesi No:33, 34662, Üsküdar / İstanbul",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "IST",
+    "UnCountryCode": "TR",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Istanbul",
       "state": null,
-      "country": null
+      "country": "Turkey"
     }
   },
   "website": "http://turkon.com/en/",

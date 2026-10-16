@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Jl. Boulevard Kelapa Gading LA3 1, 14240 Jakarta, Jakarta - Indonesia",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "JKT",
+    "UnCountryCode": "ID",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Jl. Boulevard Kelapa Gadin",
+      "streetNumber": "LA3 1",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "14240",
+      "city": "Jakarta",
       "state": null,
-      "country": null
+      "country": "Indonesia"
     }
   },
   "website": "",

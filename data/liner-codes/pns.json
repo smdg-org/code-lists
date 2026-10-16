@@ -11,13 +11,13 @@
     "UnLocode": null,
     "UnCountryCode": null,
     "address": {
-      "street": null,
+      "street": "M.T. Khan Road",
       "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
+      "floor": "PNSC Building",
+      "postCode": "74000",
+      "city": "Karachi",
       "state": null,
-      "country": null
+      "country": "Pakistan"
     }
   },
   "website": "https://www.pnsc.com.pk/",

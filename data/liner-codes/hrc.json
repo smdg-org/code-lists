@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Corporate Head Quarters, HRC Bhaban, 46, Kawran Bazar Commercial Area, Dhaka - 1215, Bangladesh.",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DAC",
+    "UnCountryCode": "BD",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Kawran Bazar Commercial Area",
+      "streetNumber": "46",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "1215",
+      "city": "Dhaka",
       "state": null,
-      "country": null
+      "country": "Bangladesh"
     }
   },
   "website": "http://www.hrcbd.com/",

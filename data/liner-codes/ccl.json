@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "134 Archiepiskopou Makariou Avenue, Yiota Court, Apt. 102, 3021 Limassol, CYPRUS",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
-      "street": null,
+      "street": "Al Asayel Street",
       "streetNumber": null,
-      "floor": null,
+      "floor": "#103, 1st Floor, Building 04",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Dubai",
+      "state": "Bay Square",
+      "country": "United Arab Emirates"
     }
   },
   "website": "",

@@ -9,7 +9,7 @@
   "address": "2-19-6 Yanagibashi Taito-Ku, 111-0052 Japan",
   "addressLocation": {
     "UnLocode": null,
-    "UnCountryCode": null,
+    "UnCountryCode": "JP",
     "address": {
       "street": null,
       "streetNumber": null,
@@ -17,7 +17,7 @@
       "postCode": null,
       "city": null,
       "state": null,
-      "country": null
+      "country": "Japan"
     }
   },
   "website": "",

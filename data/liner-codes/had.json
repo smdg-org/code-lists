@@ -8,16 +8,16 @@
   "parentCompany": "ISL",
   "address": "No. 237 Iranshahr North, Karim Khan Zand Ave. Tehran Iran",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "THR",
+    "UnCountryCode": "IR",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Karim Khan Zand Ave.",
+      "streetNumber": "237",
+      "floor": "Iranshahr North",
       "postCode": null,
-      "city": null,
+      "city": "Teheran",
       "state": null,
-      "country": null
+      "country": "Iran, Islamic Republic of"
     }
   },
   "website": "https://www.hdasco.com",

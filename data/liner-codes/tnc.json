@@ -11,13 +11,13 @@
     "UnLocode": null,
     "UnCountryCode": null,
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Av. El Bosque Norte",
+      "streetNumber": "500",
+      "floor": "piso 20",
       "postCode": null,
-      "city": null,
+      "city": "Santiago",
       "state": null,
-      "country": null
+      "country": "Chile"
     }
   },
   "website": "http://www.transmares.cl/index.html ",

@@ -8,16 +8,16 @@
   "parentCompany": "COS",
   "address": "5299 Binjiang Dadao, Pudong New District, Shanghai,     Postal Code: 200127, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SGH",
+    "UnCountryCode": "CN",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Binjiang Dadao",
+      "streetNumber": "5299",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "200127",
+      "city": "Shanghai",
       "state": null,
-      "country": null
+      "country": "China"
     }
   },
   "website": "http://en.coscocs.com/",

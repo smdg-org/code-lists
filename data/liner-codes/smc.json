@@ -8,16 +8,16 @@
   "parentCompany": "SMC",
   "address": "17th Floor, Building A, No. 6 Gangqing Road, Shibei District, Qingdao City, Shandong Province",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "TAO",
+    "UnCountryCode": "CN",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Gangqing Road",
+      "streetNumber": "6",
+      "floor": "Building A, 17th floor",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Quingdao",
+      "state": "Shibei District, Shandong Province",
+      "country": "China"
     }
   },
   "website": "https://www.spgline.com",

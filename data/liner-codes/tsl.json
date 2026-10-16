@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "105 6F, No.167, Tun-Hwa N.Rd., Taipei, Taiwan(R.O.C.)",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "TPE",
+    "UnCountryCode": "TW",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Taipei",
       "state": null,
-      "country": null
+      "country": "Taiwan"
     }
   },
   "website": "http://www.tslines.com/EN/",

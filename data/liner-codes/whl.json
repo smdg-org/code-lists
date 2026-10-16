@@ -8,16 +8,16 @@
   "parentCompany": "WHL",
   "address": "10TH FLOOR, 136, SUNG CHIANG ROAD, TAIPEI, TAIWAN ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "TPE",
+    "UnCountryCode": "TW",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Taipei",
       "state": null,
-      "country": null
+      "country": "Taiwan"
     }
   },
   "website": "http://www.wanhai.com/",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "HEADQUARTERS, KING OCEAN SERVICES, Ltd, 11000 NW 29 Street Suite 201, Doral, FL. 33172, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "FLL",
+    "UnCountryCode": "US",
     "address": {
-      "street": null,
+      "street": "1100 Northwest 29th Street",
       "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
+      "floor": "Suite 201",
+      "postCode": "33172",
+      "city": "Fort Lauderdale",
       "state": null,
-      "country": null
+      "country": "USA"
     }
   },
   "website": "www.kingocean.com",

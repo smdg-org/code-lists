@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Gotenstrasse 10, 20097 Hamburg, Germany",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HAM",
+    "UnCountryCode": "DE",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Gotenstrasse",
+      "streetNumber": "10",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "20097",
+      "city": "Hamburg",
       "state": null,
-      "country": null
+      "country": "Germany"
     }
   },
   "website": "www.reedereiagentur.de",

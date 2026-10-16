@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Shipping House 10th floor, 245, Madam Cama Road, Mumbai 400-021",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "BOM",
+    "UnCountryCode": "IN",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
+      "street": "Madam Cama Road",
+      "streetNumber": "245",
+      "floor": "Shipping House 10th floor",
+      "postCode": "400-021",
+      "city": "Mumbai",
       "state": null,
-      "country": null
+      "country": "India"
     }
   },
   "website": "http://www.shipindia.com/",

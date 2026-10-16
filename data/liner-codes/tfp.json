@@ -8,16 +8,16 @@
   "parentCompany": "TFP",
   "address": "Avda. Mcal. López. Edificio Toyotoshi – Nivel 5. Asuncion, Paraguay",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "ASU",
+    "UnCountryCode": "PY",
     "address": {
-      "street": null,
+      "street": "Avda. Mcal. López",
       "streetNumber": null,
-      "floor": null,
+      "floor": "EdificioToyotashi, Nivel 5",
       "postCode": null,
-      "city": null,
+      "city": "Asuncion",
       "state": null,
-      "country": null
+      "country": "Paraguay"
     }
   },
   "website": "",

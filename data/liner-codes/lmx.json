@@ -8,16 +8,16 @@
   "parentCompany": "lmx",
   "address": "22 emtdad said zakaria st, sheraton< cairo, Egypt",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "CAI",
+    "UnCountryCode": "EG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
+      "street": "emtdad said zakaria st",
+      "streetNumber": "22",
+      "floor": "sheraton",
+      "postCode": "11511",
+      "city": "Cairo",
       "state": null,
-      "country": null
+      "country": "Egypt"
     }
   },
   "website": "https://www.lmexllc.com/",

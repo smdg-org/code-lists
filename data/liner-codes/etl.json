@@ -8,16 +8,16 @@
   "parentCompany": "ETL",
   "address": "100D Pasir Panjang Road #02-01 Singapore 118520",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
+      "street": "Pasir Panjang Road",
+      "streetNumber": "100D",
+      "floor": "#02-01",
+      "postCode": "118520",
+      "city": "Singapore",
       "state": null,
-      "country": null
+      "country": "Singapore"
     }
   },
   "website": "www.eastrans.com.sg",

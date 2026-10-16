@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Wisma Hubline, Lease No.3815 (Lot 10914), Section 64, KTLD, Jln Datuk Abang Abdul Rahim, 93450 Kuching, Sarawak, Malaysia.",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "KCH",
+    "UnCountryCode": "MY",
     "address": {
-      "street": null,
+      "street": "Jalan Datuk Abang Abdul Rahim",
       "streetNumber": null,
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "93450",
+      "city": "Kuching",
       "state": null,
-      "country": null
+      "country": "Malaysia"
     }
   },
   "website": "http://www.hubline.com/",

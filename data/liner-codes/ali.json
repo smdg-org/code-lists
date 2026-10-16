@@ -8,16 +8,16 @@
   "parentCompany": "MSK",
   "address": "Aliança Navegação e Logística Ltda., Rua Verbo Divino, 1547, Bairro Chácara Santo Antônio",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SAO",
+    "UnCountryCode": "BR",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Rua Verbo Divino",
+      "streetNumber": "1547",
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Sao Paulo",
       "state": null,
-      "country": null
+      "country": "Brazil"
     }
   },
   "website": "http://www.alianca.com.br",

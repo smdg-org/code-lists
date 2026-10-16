@@ -11,13 +11,13 @@
     "UnLocode": null,
     "UnCountryCode": null,
     "address": {
-      "street": null,
+      "street": "Av. D. Carlos I",
       "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
+      "floor": "44-8º",
+      "postCode": "1200-649",
+      "city": "Lisbon",
       "state": null,
-      "country": null
+      "country": "Portugal"
     }
   },
   "website": "http://pslnavegacao.com/",

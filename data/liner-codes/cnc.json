@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "#72, 10FL,. 1445-3, KUKJE ELECTRONIC CENTER, SEOCHO-GU, SECHO-DONG, SEOUL, KOREA",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SEL",
+    "UnCountryCode": "KR",
     "address": {
-      "street": null,
+      "street": "SEOCHO-GU",
       "streetNumber": null,
-      "floor": null,
+      "floor": "#72, 10FL,. 1445-3, KUKJE ELECTRONIC CENTER",
       "postCode": null,
-      "city": null,
+      "city": "Seoul",
       "state": null,
-      "country": null
+      "country": "Korea (Republic of)"
     }
   },
   "website": "http://www.dongsue.com/",

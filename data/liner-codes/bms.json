@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Bintang Mas Shipping Pte. Ltd., 2 Boon Leat Terrace, #08-02 HarbourSide Building 2, Singapore 119844",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Boon Leat Terrace,",
+      "streetNumber": "2",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "119844",
+      "city": "Singapore",
       "state": null,
-      "country": null
+      "country": "Singapore"
     }
   },
   "website": "http://www.bintangmas.com.sg/",

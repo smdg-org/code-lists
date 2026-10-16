@@ -8,16 +8,16 @@
   "parentCompany": "OAS",
   "address": "AL ATTAR GRAND BLDG, M18, KHALID BIN WALEED STREET, BUR DUBAI, P O BOX 121636, DUBAI",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "KHALID BIN WALEED STREET",
+      "streetNumber": "M18",
+      "floor": "AL ATTAR GRAND BLDG",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Dubai",
+      "state": "Bur Dubai",
+      "country": "United Arab Emirates"
     }
   },
   "website": "https://oceanaxis.com/",

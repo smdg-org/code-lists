@@ -8,16 +8,16 @@
   "parentCompany": "SFN",
   "address": "Abu Dhabi Island, The Port, Mina Zayed Building, Abu Dhabi Ports, UAE",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "AUH",
+    "UnCountryCode": "AE",
     "address": {
-      "street": null,
+      "street": "The Port, Abu Dhabi Island",
       "streetNumber": null,
-      "floor": null,
+      "floor": "Mina Zayed Building",
       "postCode": null,
-      "city": null,
+      "city": "Abu Dhabi",
       "state": null,
-      "country": null
+      "country": "United Arab Emirates"
     }
   },
   "website": "https://www.adportsgroup.com/",

@@ -8,16 +8,16 @@
   "parentCompany": "SASL",
   "address": "Office #2308, 23rd Floor, Damac Smart Heights Building, Al Barsha Heights (TECOM)",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
       "street": null,
       "streetNumber": null,
-      "floor": null,
+      "floor": "Damac Smart Heights Building, Office #2308, 23rd Floor",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Dubai",
+      "state": "Al Barsha,\nAl Barsha Heights (TECOM)",
+      "country": "Dubai"
     }
   },
   "website": "www.sasl.ae",

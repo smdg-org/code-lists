@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Martin Lezica 3083,  2º Floor, B1642GJA - San Isidro, Buenos Aires - Argentina",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIS",
+    "UnCountryCode": "AR",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Martin Lezica",
+      "streetNumber": "3083",
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "B1642GJA - San Isidro",
       "state": null,
-      "country": null
+      "country": "Argentina"
     }
   },
   "website": "http://www.arpez.com.ar",

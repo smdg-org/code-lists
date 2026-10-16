@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Melfi Marine Corp. Main OfficeCountr, CubaCity, Habana ViejaAddressOficios No.410e / Luz Y Acost, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HAV",
+    "UnCountryCode": "CU",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "La Habana (Havanna)",
       "state": null,
-      "country": null
+      "country": "Cuba"
     }
   },
   "website": "www.melfimarine.cu",

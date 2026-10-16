@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "R00M 70, 7/F WOON LEE COMMERCIAL  BUILDING 7-9 AUSTIN AVE TST KOWLOON HONG KONG              ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HKG",
+    "UnCountryCode": "HK",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "AUSTIN AVE",
+      "streetNumber": "46272",
+      "floor": "R00M 70, 7/F, WOON LEE COMMERCIAL  BUILDING",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Hong Kong",
+      "state": "Kowloon",
+      "country": "Hong Kong"
     }
   },
   "website": "Not available",

@@ -8,16 +8,16 @@
   "parentCompany": "Rways Group",
   "address": "Suite # 707-709, 7th Floor Caesars Towers, Main Shahrah E Faisal Oppo. Ayesha Bawani College, Karachi – Pakistan",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "KHI",
+    "UnCountryCode": "PK",
     "address": {
       "street": null,
       "streetNumber": null,
-      "floor": null,
+      "floor": "Suite # 707-709, 7th Floor Caesars Towers",
       "postCode": null,
-      "city": null,
+      "city": "Karachi",
       "state": null,
-      "country": null
+      "country": "Pakistan"
     }
   },
   "website": "www.rwaysgroup.com ",

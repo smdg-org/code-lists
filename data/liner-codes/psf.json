@@ -8,16 +8,16 @@
   "parentCompany": "Ports Shipping LLC, UAE",
   "address": "Zaabeel Business Center, P O Box 47081, Dubai, UAE",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
       "street": null,
       "streetNumber": null,
-      "floor": null,
+      "floor": "Zaabeel Business Center",
       "postCode": null,
-      "city": null,
+      "city": "Dubai",
       "state": null,
-      "country": null
+      "country": "United Arab Emirates"
     }
   },
   "website": "www.ports-shipping.com",

@@ -8,16 +8,16 @@
   "parentCompany": "SSL",
   "address": "c/o PT Samudera Shipping Servi, 1st Floor, Samudera Indonesia Building, Jalan Letjen S Parman 35, Kel Palmerah, Jakarta, Town Jakarta, Country Indonesia, Postal Code 11480",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "JKT",
+    "UnCountryCode": "ID",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
+      "street": "Jalan Letjen S Parman",
+      "streetNumber": "35",
+      "floor": "Samudera Indonesia Building, 1st Floor",
+      "postCode": "11480",
+      "city": "Jakarta",
       "state": null,
-      "country": null
+      "country": "Indonesia"
     }
   },
   "website": "http://samudera.co.id/id/company/pt-cumawis",

@@ -11,13 +11,13 @@
     "UnLocode": null,
     "UnCountryCode": null,
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Multinational Avenue corner Kaingin Road",
+      "streetNumber": "1",
       "floor": null,
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Manila",
+      "state": "Multinational Village, Paranaque City",
+      "country": "Philippines"
     }
   },
   "website": "http://www.seahawk.com.ph/",

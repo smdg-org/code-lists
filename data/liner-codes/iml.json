@@ -8,16 +8,16 @@
   "parentCompany": "ZEM",
   "address": "Ludwig-Erhard-Str. 22, 20459 Hamburg",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HAM",
+    "UnCountryCode": "DE",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Ludwig-Erhard-Str.",
+      "streetNumber": "22",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "20459",
+      "city": "Hamburg",
       "state": null,
-      "country": null
+      "country": "Germany"
     }
   },
   "website": "http://intermarine.com/",

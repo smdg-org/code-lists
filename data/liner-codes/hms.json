@@ -8,16 +8,16 @@
   "parentCompany": "WEC",
   "address": "",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "RTM",
+    "UnCountryCode": "NL",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Albert Plesmanweg",
+      "streetNumber": "59",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "3088",
+      "city": "Rotterdam",
       "state": null,
-      "country": null
+      "country": "The Netherlands"
     }
   },
   "website": "http://www.weclines.com/index.php/about-us.html",

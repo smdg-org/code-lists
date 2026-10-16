@@ -8,16 +8,16 @@
   "parentCompany": "CAE",
   "address": "Office 112, B1, Dubai CommerCity, Dubai, UAE",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
       "street": null,
       "streetNumber": null,
-      "floor": null,
+      "floor": "BCB1 112, First Floor,\nBusiness Cluster - Building 1",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Dubai",
+      "state": "Dubai CommerCity",
+      "country": "United Arab Emirates"
     }
   },
   "website": "https://caerus-shipping.com/services#services",

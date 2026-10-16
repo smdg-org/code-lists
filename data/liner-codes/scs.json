@@ -8,16 +8,16 @@
   "parentCompany": "XPF",
   "address": "11 Duxton Hill, Singapore 089595",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Duxton Hill",
+      "streetNumber": "11",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "089595",
+      "city": "Singapore",
       "state": null,
-      "country": null
+      "country": "Singapore"
     }
   },
   "website": "https://www.x-pressfeeders.com/",

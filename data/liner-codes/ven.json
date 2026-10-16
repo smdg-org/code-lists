@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Avenida Caroní, Caracas 1080, Miranda, Venezuela, Avenida Caroní entre calle París y Londres, edificio Luisiana, piso 3, Urb. Las Mercedes Caracas-1060",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "CCS",
+    "UnCountryCode": "VE",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Caracas",
       "state": null,
-      "country": null
+      "country": "Venezuela"
     }
   },
   "website": "http://venavega.com.ve/",

@@ -8,16 +8,16 @@
   "parentCompany": "CMA",
   "address": "Boulevard Jacques Saadé, 4, quai d'Arenc 13235 Marseille cedex 02 France",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "MRS",
+    "UnCountryCode": "FR",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Boulevard Jacques Saadé",
+      "streetNumber": "4",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "13235",
+      "city": "Marseille",
       "state": null,
-      "country": null
+      "country": "France"
     }
   },
   "website": "http://www.cma-cgm.com/",

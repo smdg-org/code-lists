@@ -13,11 +13,11 @@
     "address": {
       "street": "Dubai CommerCity Business Cluster",
       "streetNumber": "Building BCB1 141",
-      "floor": "Office 2001",
+      "floor": "Dubai CommerCity\nBusiness Cluster - Building BCB1 141",
       "postCode": null,
-      "city": "DUBAI",
+      "city": "Dubai",
       "state": null,
-      "country": "UNITED ARAB EMIRATES"
+      "country": "United Arab Emirates"
     }
   },
   "website": "https://silmar-shipping.com/",

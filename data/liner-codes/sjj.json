@@ -8,16 +8,16 @@
   "parentCompany": "SJJ",
   "address": "Floor 15, Golden Bell Plaza, No.98. Huai Hai Road(Middle), Shanghai 200021, China",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SGH",
+    "UnCountryCode": "CN",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
+      "street": "Golden Bell Plaza\nHuai Hai Road (Middle)",
+      "streetNumber": "98",
+      "floor": "Floor 15",
+      "postCode": "200021",
+      "city": "Shanghai",
       "state": null,
-      "country": null
+      "country": "China"
     }
   },
   "website": "www.jjshipping.cn",

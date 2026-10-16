@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Quesada 4926,5E - Atlas Center - Asunción, Paraguay",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "ASU",
+    "UnCountryCode": "PY",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Quesada",
+      "streetNumber": "4926",
+      "floor": "Atlas Center",
       "postCode": null,
       "city": null,
-      "state": null,
-      "country": null
+      "state": "Asuncion",
+      "country": "Paraguay"
     }
   },
   "website": "www.independenciashipping.com",

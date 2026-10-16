@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "2-4-1, HAMAMATSUCHO. SEKAIBOUEKI CENTER BLDG. MINATO-KU, TOKYO, 105-0013 Japan, ORIX Corporation, Corporate Planning Department",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "TYO",
+    "UnCountryCode": "JP",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Tokyo",
       "state": null,
-      "country": null
+      "country": "Japan"
     }
   },
   "website": "http://www.orix.co.jp/grp/en/",

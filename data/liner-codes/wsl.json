@@ -8,16 +8,16 @@
   "parentCompany": "Wallenius Sol",
   "address": "Klippan 1D, SE-414 51 Göteborg, Sweden",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "GOT",
+    "UnCountryCode": "SE",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Klippan",
+      "streetNumber": "1D",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "SE-41451",
+      "city": "Göteborg",
       "state": null,
-      "country": null
+      "country": "Sweden"
     }
   },
   "website": "https://wallenius-sol.com/en",

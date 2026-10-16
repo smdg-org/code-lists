@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Straits Orient Lines (Singapore) Pte Ltd, 120 Lower Delta Road #06-07 Cendex Centre Singapore - 169 208.",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
+      "street": "Lower Delta Road",
+      "streetNumber": "120",
+      "floor": "#06-07 Cendex Centre",
+      "postCode": "169208",
+      "city": "Singapore",
       "state": null,
-      "country": null
+      "country": "Singapore"
     }
   },
   "website": "http://tgssol.com/",

@@ -12,9 +12,9 @@
     "UnCountryCode": "SG",
     "address": {
       "street": "Cecil Street",
-      "streetNumber": "30",
-      "floor": "#25-01 Prudential Tower",
-      "postCode": "049712",
+      "streetNumber": "31",
+      "floor": "#25-01 Prudential Tower Singapore",
+      "postCode": "49712",
       "city": "Singapore",
       "state": null,
       "country": "Singapore"

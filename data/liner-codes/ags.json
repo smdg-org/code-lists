@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "DVINSKAYA STR 16 2,7TH FLOOR, ST.PETERSBURG, 198035",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "LED",
+    "UnCountryCode": "RU",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "DVINSKAYA STR",
+      "streetNumber": "162",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "198035",
+      "city": "ST.PETERSBURG",
       "state": null,
-      "country": null
+      "country": "Russia"
     }
   },
   "website": "not available",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "C/o Unifeeder A/S, Tangen 6, DK-8200 Aarhus N, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "AAR",
+    "UnCountryCode": "DK",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Aarhus",
       "state": null,
-      "country": null
+      "country": "Denmark"
     }
   },
   "website": "http://www.utdfeeder.com/",

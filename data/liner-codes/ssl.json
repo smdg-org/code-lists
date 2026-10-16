@@ -8,16 +8,16 @@
   "parentCompany": "SSL",
   "address": "6 Raffles Quay #25-01 Singapore, 048580 Singapore",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Singapore",
       "state": null,
-      "country": null
+      "country": "Singapore"
     }
   },
   "website": "https://www.samudera.id/samuderashippinglineltd/en",

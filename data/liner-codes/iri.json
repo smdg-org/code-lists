@@ -8,16 +8,16 @@
   "parentCompany": "ISL",
   "address": "see ISL",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "THR",
+    "UnCountryCode": "IR",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Tehran",
       "state": null,
-      "country": null
+      "country": "Iran (Islamic Republic of)"
     }
   },
   "website": "http://www.irisl.net/default.aspx",

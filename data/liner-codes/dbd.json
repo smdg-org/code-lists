@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Fahrettin Kerim Gökay Cad., Denizciler İş Merkezi No:18 / 1 A Blok Kat:1 34662 Altunizade - Üsküdar / İSTANBUL",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "IST",
+    "UnCountryCode": "TR",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Istanbul",
       "state": null,
-      "country": null
+      "country": "Turkey"
     }
   },
   "website": "http://www.tcl.com.tr/eng/index.asp",

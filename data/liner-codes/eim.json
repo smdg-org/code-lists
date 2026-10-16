@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Eimskip Iceland, Korngardar 2, 104 Reykjavik, Tel: +354 525-7000",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "REY",
+    "UnCountryCode": "IS",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Korngardar",
+      "streetNumber": "2",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "104",
+      "city": "Reykjavik",
       "state": null,
-      "country": null
+      "country": "Iceland"
     }
   },
   "website": "http://www.eimskip.com/",

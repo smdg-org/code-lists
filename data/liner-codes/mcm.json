@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Marfret Fos managed by Marseille, 13 quai de la joliette, 13002 Marseille",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "MRS",
+    "UnCountryCode": "FR",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Quai de la joliette",
+      "streetNumber": "13",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "13002",
+      "city": "Marseille",
       "state": null,
-      "country": null
+      "country": "France"
     }
   },
   "website": "http://www.marfret.fr/en/",

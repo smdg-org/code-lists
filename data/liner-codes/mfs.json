@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Bogalay Zay St, Yangon, Myanmar (Burma)",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "RGN",
+    "UnCountryCode": "MM",
     "address": {
-      "street": null,
+      "street": "Bogalay Zay St,",
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Yangon",
       "state": null,
-      "country": null
+      "country": "Myanmar"
     }
   },
   "website": "",

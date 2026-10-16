@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "MAD",
+    "UnCountryCode": "ES",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "28001",
+      "city": "Madrid",
       "state": null,
-      "country": null
+      "country": "Spain"
     }
   },
   "website": "http://www.marguisa.com/",

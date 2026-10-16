@@ -8,16 +8,16 @@
   "parentCompany": "MOC",
   "address": "HUGO STINNES SCHIFFAHRT GmbH, Strandstraße 87, 18055 Rostock",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "RSK",
+    "UnCountryCode": "DE",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Starndstr.",
+      "streetNumber": "87",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "18055",
+      "city": "Rostock",
       "state": null,
-      "country": null
+      "country": "Germany"
     }
   },
   "website": "http://www.stinnes-linien.de/",

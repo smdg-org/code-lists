@@ -8,16 +8,16 @@
   "parentCompany": "VIKISA",
   "address": "412, Sultan Business Centre, Oud Metha, Dubai - United Arab Emirates",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
       "street": null,
       "streetNumber": null,
-      "floor": null,
+      "floor": "412, Sultan Business Centre",
       "postCode": null,
       "city": null,
-      "state": null,
-      "country": null
+      "state": "Oud Metha",
+      "country": "Dubai"
     }
   },
   "website": "https://www.vikisaglobal.com",

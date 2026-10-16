@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Av. General Justo,375 - 6º andar - Centro, Rio de Janeiro, RJ, Brasil zipcode: 20021-130",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "RIO",
+    "UnCountryCode": "BR",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Av. General Justo",
+      "streetNumber": "375",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "20021-130",
+      "city": "rio de Janeiro",
       "state": null,
-      "country": null
+      "country": "Brazil"
     }
   },
   "website": "https://www.loginlogistica.com.br/",

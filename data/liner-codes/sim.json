@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Simatech Shipping & Forwarding L.L.C., 18th Floor, Regal Tower, Business Bay, P.O. Box 23743, Dubai – United Arab Emirates",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
       "street": null,
       "streetNumber": null,
-      "floor": null,
+      "floor": "18th Floor, Regal Tower, Business Bay",
       "postCode": null,
-      "city": null,
+      "city": "Dubai",
       "state": null,
-      "country": null
+      "country": "United Arab Emirates"
     }
   },
   "website": "http://www.simatech.com/",

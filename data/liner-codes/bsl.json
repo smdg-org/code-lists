@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "17/240 Queen Street, Brisbane, QLD, Australia 4000, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "BNE",
+    "UnCountryCode": "AU",
     "address": {
-      "street": null,
+      "street": "17/240 Queen Street",
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Brisbane",
       "state": null,
-      "country": null
+      "country": "Australia"
     }
   },
   "website": "https://www.bluestarline.com.au/",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Avda. Republica Argentina 1412, Asunción, Paraguay, 1885 — P.O. BOX: 27024",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "ASU",
+    "UnCountryCode": "PY",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Avda. Republica Argentina",
+      "streetNumber": "1412",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "1885",
+      "city": "Asuncion",
       "state": null,
-      "country": null
+      "country": "Paraguay"
     }
   },
   "website": "http://www.navemar.com.py/english/paranave.php  ",

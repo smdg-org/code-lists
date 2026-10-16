@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "SITC Hong Kong, SITC Line Hong Kong",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HKG",
+    "UnCountryCode": "HK",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Hong Kong",
       "state": null,
-      "country": null
+      "country": "Hong Kong"
     }
   },
   "website": "www.sitc.com",

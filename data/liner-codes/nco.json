@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "AVENIDA DAS NACOES UNIDAS, 14.261 ALA B - 28 ANDAR - CONJ B 04794-000 SAO PAULO",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SAO",
+    "UnCountryCode": "BR",
     "address": {
-      "street": null,
+      "street": "AVENIDA DAS NACOES UNIDAS",
       "streetNumber": null,
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "04794-000",
+      "city": "Sao Paulo",
       "state": null,
-      "country": null
+      "country": "Brazil"
     }
   },
   "website": "not available",

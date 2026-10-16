@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "The Naval House, Kings Quay Street, Harwich, Essex CO12 3JJ, UK",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HRW",
+    "UnCountryCode": "GB",
     "address": {
-      "street": null,
+      "street": "Kings Quay Street",
       "streetNumber": null,
-      "floor": null,
+      "floor": "The Naval House",
       "postCode": null,
-      "city": null,
+      "city": "Harwich",
       "state": null,
-      "country": null
+      "country": "United Kingdom"
     }
   },
   "website": "http://www.mannlines.ee/ro-ro.html",

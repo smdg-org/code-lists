@@ -9,15 +9,15 @@
   "address": "705 N. Henry Ford Avenue, Wilmington, CA 90744, Anacostia Rail Holdings Company, 224 S. Michigan Ave., Ste. 330, Chicago, IL 60604",
   "addressLocation": {
     "UnLocode": null,
-    "UnCountryCode": null,
+    "UnCountryCode": "US",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Henry Ford Avenue",
+      "streetNumber": "705 N",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "60604",
+      "city": "Chicago",
+      "state": "IL",
+      "country": "United states"
     }
   },
   "website": "https://www.anacostia.com/railroads/phl",

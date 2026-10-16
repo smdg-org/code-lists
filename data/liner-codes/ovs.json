@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "1204, Fahidi Heights, Khaleed Bin Waleed St., Bur Dubai, Dubai. UAE. ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
-      "street": null,
+      "street": "Khaleed Bin Waleed St.",
       "streetNumber": null,
-      "floor": null,
+      "floor": "1204, Fahidi Heights,",
       "postCode": null,
-      "city": null,
+      "city": "Dubai",
       "state": null,
-      "country": null
+      "country": "United Arab Emirates"
     }
   },
   "website": "https://www.ovsl.co",

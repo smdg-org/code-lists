@@ -8,16 +8,16 @@
   "parentCompany": "GNC",
   "address": "via Marchese Campodisola, 13  - 80133 NAPOLI",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "NAP",
+    "UnCountryCode": "IT",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Via Marchese Campodisola",
+      "streetNumber": "13",
       "floor": null,
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Napoli",
+      "state": "NA",
+      "country": "Italy"
     }
   },
   "website": "http://www.grimaldi.napoli.it/en/index.html",

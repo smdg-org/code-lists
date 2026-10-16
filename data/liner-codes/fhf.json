@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "30 N Gould St Ste N. Sheridan, WY 82801-6317",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SHR",
+    "UnCountryCode": "US",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Gould St",
+      "streetNumber": "30 N",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "WY 82801-6317",
+      "city": "Sheridan",
+      "state": "Wyoming",
+      "country": "United States"
     }
   },
   "website": "www.fjord-havn.com",

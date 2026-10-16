@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "PT Djakarta LLoyd (Persero), Dlloyd Building, Jl Raden Saleh Raya No. 51, Jakarta Pusat 10330, Indonesia",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "JKT",
+    "UnCountryCode": "ID",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Jl Raden Saleh Raya",
+      "streetNumber": "51",
+      "floor": "Dlloyd Building,",
       "postCode": null,
-      "city": null,
+      "city": "Jakarta",
       "state": null,
-      "country": null
+      "country": "Indonesia"
     }
   },
   "website": "https://djakartalloyd.co.id/kantor-cabang/",

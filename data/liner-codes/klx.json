@@ -8,16 +8,16 @@
   "parentCompany": "KARTEN",
   "address": "Room 1149, Guangfa Building, South Dongmen Road, Luohu District, Shenzhen (China)",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SNZ",
+    "UnCountryCode": "CN",
     "address": {
-      "street": null,
+      "street": "South Dongmen Road",
       "streetNumber": null,
-      "floor": null,
+      "floor": "Guangfa Building, room 1149",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Shenzhen",
+      "state": "Luohu District",
+      "country": "China"
     }
   },
   "website": "www.kartenlog.com",

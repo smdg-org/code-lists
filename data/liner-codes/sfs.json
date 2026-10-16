@@ -8,16 +8,16 @@
   "parentCompany": "SFS",
   "address": "1805, Churchill Office Towers, Al Abraj Streetm Business Bay, Dubai, UAE",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
-      "street": null,
+      "street": "Al Abraj Streetm",
       "streetNumber": null,
-      "floor": null,
+      "floor": "1805, Churchill Office Towers",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Dubai",
+      "state": "Business Bay",
+      "country": "United Arab Emirates"
     }
   },
   "website": "www.sfsline.com",

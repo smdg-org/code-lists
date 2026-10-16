@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Shenzhen Unifelix International Logistics Co.,Ltd, Add：Room1305,Cun jin building,No,3005 Dongmen South Road Luohu Districten,Shenzhen Guangdong, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SNZ",
+    "UnCountryCode": "CH",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Dongmen South Road",
+      "streetNumber": "3005",
+      "floor": "Room1305,Cun jin building",
       "postCode": null,
-      "city": null,
+      "city": "Shenzhen",
       "state": null,
-      "country": null
+      "country": "China"
     }
   },
   "website": "www.unifelix.com",

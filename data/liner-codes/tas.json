@@ -8,16 +8,16 @@
   "parentCompany": "TAS",
   "address": "HQ: Trans Asian Shipping Services Private Ltd, Trans Asia Corporate Park  XIV/396-C  SEAPORT AIRPORT ROAD, Chittethukara,  Cochin - 682037 , Branch Office: Trans Asian Shipping Services PTE LTD, 60 Albert Street  08-10 OG, Albert Complex  Singapore 189969",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "COC",
+    "UnCountryCode": "IN",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Cochin",
       "state": null,
-      "country": null
+      "country": "India"
     }
   },
   "website": "http://www.tassgroup.com/",

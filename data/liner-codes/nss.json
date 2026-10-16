@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Olaya Towers (Tower B)Floors(12-15), Olaya District, Olaya Street, Toll Free: 920020007, P.O. Box 8931, Riyadh 11492",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "RUH",
+    "UnCountryCode": "AE",
     "address": {
-      "street": null,
+      "street": "Olaya Street",
       "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "floor": "Olaya Towers (Tower B)Floors(12-15)",
+      "postCode": "11492",
+      "city": "Riyadh",
+      "state": "Olaya District",
+      "country": "Saudi Arabia"
     }
   },
   "website": "http://www.bahri.sa/Bahri.aspx?lang=en-US",

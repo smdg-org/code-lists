@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Gulftainer, Buhaira Corniche, SARH AL EMARAT, 43rd Floor, Sharjah, United Arab Emirates",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SHJ",
+    "UnCountryCode": "AE",
     "address": {
-      "street": null,
+      "street": "Buhaira Corniche",
       "streetNumber": null,
-      "floor": null,
+      "floor": "43rd floor",
       "postCode": null,
-      "city": null,
+      "city": "Sharjah",
       "state": null,
-      "country": null
+      "country": "United Arab Emirates"
     }
   },
   "website": "https://www.gulftainer.com",

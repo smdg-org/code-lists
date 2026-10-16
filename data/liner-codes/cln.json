@@ -8,16 +8,16 @@
   "parentCompany": "CMA",
   "address": "CNC Head Office, 9 North Buona Vista Drive, #14-01 The Metropolis Tower 1, Singapore ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "North Buona Vista Drive",
+      "streetNumber": "9",
+      "floor": "#14-01 The Metropolis Tower 1",
       "postCode": null,
-      "city": null,
+      "city": "Singapore",
       "state": null,
-      "country": null
+      "country": "Singapore"
     }
   },
   "website": "http://www.cnc-line.com/",

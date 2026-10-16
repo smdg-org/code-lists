@@ -8,16 +8,16 @@
   "parentCompany": "SWI",
   "address": "Pacifica Shipping - an operating division of The China Navigation Company NZ Limited, Level 14, SAP Tower, 151 Queen Street, Auckland 1010, New Zealand.",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "AKL",
+    "UnCountryCode": "NZ",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
+      "street": "Queen Street",
+      "streetNumber": "151",
+      "floor": "Level 14, SAP Tower",
+      "postCode": "1010",
+      "city": "Auckland",
       "state": null,
-      "country": null
+      "country": "New Zealand"
     }
   },
   "website": "http://www.pacship.co.nz/",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "EULJIRO-80-1, BOSEUNG BUILDING 7TH FLOOR, 80-1, EULJI-RO, JUNG-GU, SEOUL, REPUBLIC OF KOREA 04538",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SEL",
+    "UnCountryCode": "KR",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "EULJIRO",
+      "streetNumber": "80-1",
+      "floor": "BUILDING 7TH FLOOR",
+      "postCode": "04538",
+      "city": "Seoul",
+      "state": "JUNG-GU",
+      "country": "Korea (Republic of)"
     }
   },
   "website": "http://www.ckline.com/en/",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "136 Mapo-daero, Mapo-gu Seoul, 121803 Korea Rep Of; ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SEL",
+    "UnCountryCode": "KR",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Mapo-daero",
+      "streetNumber": "136",
       "floor": null,
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Seoul",
+      "state": "Mapo-gu",
+      "country": "Korea, Republic of"
     }
   },
   "website": "http://www.dblkr.com/english/Company01.asp",

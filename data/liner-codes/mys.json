@@ -8,16 +8,16 @@
   "parentCompany": "PIL",
   "address": "MALAYSIAN SHIPPING CORP.SENDIRIAN BERHAD, A-3A 1-1, 4TH FLOOR SOUTH TOWER BBT ONE THE TOWER 8, LEBUH BATU, NILAM 1, Zip Code , City , State , Country Malaysia",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "KLA",
+    "UnCountryCode": "MY",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Klang",
       "state": null,
-      "country": null
+      "country": "Malaysia"
     }
   },
   "website": "",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "2nd Fl., Haenam Bldg., 21, Bukchang-dong, Chung-Ku, Seoul, Korea",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SEL",
+    "UnCountryCode": "KR",
     "address": {
-      "street": null,
+      "street": "Bukchang-dong",
       "streetNumber": null,
-      "floor": null,
+      "floor": "2nd Fl., Haenam Bldg.",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Seoul",
+      "state": "Chung-Ku",
+      "country": "Korea (Republic of)"
     }
   },
   "website": "http://www.sinokor.co.kr/",

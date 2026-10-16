@@ -11,8 +11,8 @@
     "UnLocode": null,
     "UnCountryCode": null,
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Havelock Road",
+      "streetNumber": "2",
       "floor": null,
       "postCode": null,
       "city": null,

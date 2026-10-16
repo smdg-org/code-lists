@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "SIS Building, 4 Leng Kee Road #02-06/07, Singapore 159088",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Leng Kee Road",
+      "streetNumber": "4",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "159088",
+      "city": "Singapore",
       "state": null,
-      "country": null
+      "country": "Singapore"
     }
   },
   "website": "http://www.megastar.com.sg/",

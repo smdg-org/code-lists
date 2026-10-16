@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "3 SHENTON WAY #25-01 SHENTON HOUSE SINGAPORE 068805",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Shenton Way",
+      "streetNumber": "3",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "068805",
+      "city": "Singapore",
       "state": null,
-      "country": null
+      "country": "Singapore"
     }
   },
   "website": "www.yasuda-soko.co.jp",

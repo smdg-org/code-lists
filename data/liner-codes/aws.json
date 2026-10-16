@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "AW Ship Management Ltd., 9 Alie Street, London, E1 8DE, United Kingdom",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "LON",
+    "UnCountryCode": "BG",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Alie Street",
+      "streetNumber": "9",
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "London",
       "state": null,
-      "country": null
+      "country": "United Kingdom"
     }
   },
   "website": "http://awshipmanagement.com/",

@@ -8,16 +8,16 @@
   "parentCompany": "CMA",
   "address": "7 Boulevard Al Moukawama Ex La Resistance, Casablanca, Morocco, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "CAS",
+    "UnCountryCode": "MA",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "7 Boulevard Al Moukawama Ex La Resistance",
+      "streetNumber": "7",
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Casablanca",
       "state": null,
-      "country": null
+      "country": "Morocco"
     }
   },
   "website": "https://www.cmacgm-group.com/en/group/at-a-glance/brands",

@@ -8,16 +8,16 @@
   "parentCompany": "EMC",
   "address": "Passeggio Sant’Andrea 4, 34123 Trieste, Italy.",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "TRS",
+    "UnCountryCode": "IT",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Passeggio Sant’Andrea",
+      "streetNumber": "4",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "34123",
+      "city": "Trieste",
+      "state": "TS",
+      "country": "Italy"
     }
   },
   "website": "http://www.italiamarittima.it/",

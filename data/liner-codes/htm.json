@@ -8,16 +8,16 @@
   "parentCompany": "EMC",
   "address": "Evergreen House, 160 Euston road, London NW1 2DX, U.K.",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "LON",
+    "UnCountryCode": "GB",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Euston Road",
+      "streetNumber": "160",
+      "floor": "Evergreen House",
       "postCode": null,
-      "city": null,
+      "city": "London",
       "state": null,
-      "country": null
+      "country": "United Kingdom"
     }
   },
   "website": "https://www.evergreen-marine.com/",

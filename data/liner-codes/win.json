@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "B-801 TITANIUM HEIGHTS, NR VODAFONE HOUSE, CORPORATE ROAD, PRAHLADNAGAR, AHMEDABAD, GUJARAT, INDIA",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "AMD",
+    "UnCountryCode": "IN",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "country": "India"
     }
   },
   "website": "http://winwinmaritime.com/",

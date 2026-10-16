@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "DONG JU B/D 824-24 YEOK SAM-DONG KANG NAM-KU, Zip Code 135-080, City SEOUL, State , Country Korea, Republic of",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SEL",
+    "UnCountryCode": "KR",
     "address": {
       "street": null,
       "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
+      "floor": "DONG JU B/D 824-24",
+      "postCode": "135-080",
+      "city": "Seoul",
       "state": null,
-      "country": null
+      "country": "Korea (Republic of)"
     }
   },
   "website": "www.pancon.co.kr",

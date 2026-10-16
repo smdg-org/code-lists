@@ -11,11 +11,11 @@
     "UnLocode": null,
     "UnCountryCode": null,
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Torre Durandco Carretera Puerto Real",
+      "streetNumber": "Km 14.5",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "24327",
+      "city": "Cd. Del Carmen",
       "state": null,
       "country": null
     }

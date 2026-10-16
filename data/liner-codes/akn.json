@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "AKKON Denizcilik Nakliyat ve Ticaret A.Ş./AKKON Maritime Transport and Trade S.A., Kısıklı Mah. Alemdağ Cad. No:17/1, Üsküdar / İSTANBUL",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "IST",
+    "UnCountryCode": "TR",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Alemdağ Cad.",
+      "streetNumber": "45308",
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Istanbul",
       "state": null,
-      "country": null
+      "country": "Turkey"
     }
   },
   "website": "https://www.akkonlines.com/en/about-us/",

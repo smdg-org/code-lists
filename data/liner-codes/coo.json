@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Cool Carriers AB, Barnhusgatan 16, SE-111 23 Stockholm, Sweden",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "STO",
+    "UnCountryCode": "SE",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Barnhusgatan",
+      "streetNumber": "16",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "11123",
+      "city": "Stockholm",
       "state": null,
-      "country": null
+      "country": "Sweden"
     }
   },
   "website": "http://www.cool.se/",

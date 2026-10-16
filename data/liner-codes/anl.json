@@ -8,16 +8,16 @@
   "parentCompany": "CMA",
   "address": "ANL Container Line Pty Limited / East/West network, North/South network, Lvl 11, 30 Convention Centre Place South Wharf Vic. 3006, 3006 MELBOURNE",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "MEL",
+    "UnCountryCode": "AU",
     "address": {
-      "street": null,
+      "street": "Lvl 11, 30 Convention Centre Place South Wharf Vic",
       "streetNumber": null,
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "3006",
+      "city": "MELBOURNE",
       "state": null,
-      "country": null
+      "country": "Australia"
     }
   },
   "website": "https://www.anl.com.au/",

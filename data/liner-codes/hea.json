@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "3/F Haenam 2 Bldg. 12 Sejong-daero 12-gil, Jung-gu Seoul, Seoul, 04526 Republic Of Korea",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SEL",
+    "UnCountryCode": "KR",
     "address": {
-      "street": null,
+      "street": "12 Sejong-daero 12-gil",
       "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "floor": "3/F Haenam 2 Bldg",
+      "postCode": "04526",
+      "city": "Seoul",
+      "state": "Jung-gu",
+      "country": "Korea (Republic of)"
     }
   },
   "website": "www.heungaline.com",

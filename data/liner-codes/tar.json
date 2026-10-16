@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "VIA PRIVATA ENEL, Zip Code 19126, City LA SPEZIA SP",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SPE",
+    "UnCountryCode": "IT",
     "address": {
-      "street": null,
+      "street": "Via Privata Enel",
       "streetNumber": null,
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "19126",
+      "city": "La Spezia",
+      "state": "SP",
+      "country": "Italy"
     }
   },
   "website": "http://www.tarros.it/home-en/\n",

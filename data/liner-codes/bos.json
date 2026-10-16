@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "BALTIC ORIENTAL LINES, ul. Jerzego Waszyngtona 34/36, 81-306 Gdynia, , ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "GDY",
+    "UnCountryCode": "PL",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "ul. Jerzego Waszyngtona",
+      "streetNumber": "34/36",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "81-306",
+      "city": "Gdynia",
       "state": null,
-      "country": null
+      "country": "Poland"
     }
   },
   "website": "http://balticoriental.com",

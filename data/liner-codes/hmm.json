@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "194, YULGOK-RO, SEOUL 03127, KOREA ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SEL",
+    "UnCountryCode": "KR",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "YULGOK-RO",
+      "streetNumber": "194",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "03127",
+      "city": "Seoul",
       "state": null,
-      "country": null
+      "country": "Korea (Republic of)"
     }
   },
   "website": "https://www.hmm21.com/cms/company/engn/index.jsp",

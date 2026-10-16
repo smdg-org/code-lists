@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Edif. Fred. Olsen, Polígono Industrial Añaza, s/n, 38111 Santa Cruz de Tenerife, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SCT",
+    "UnCountryCode": "ES",
     "address": {
-      "street": null,
+      "street": "Polígono Industrial Añaza,",
       "streetNumber": null,
-      "floor": null,
+      "floor": "Fred Olsen Building",
       "postCode": null,
-      "city": null,
+      "city": "Santa Cruz de Tenerife",
       "state": null,
-      "country": null
+      "country": "Spain"
     }
   },
   "website": "https://www.fredolsen.es/en",

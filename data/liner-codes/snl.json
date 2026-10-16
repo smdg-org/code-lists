@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Sinotrans Mansion 20F-25F,No.188 Fujian Road(C),Shanghai,China, Postcode：200001",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SGH",
+    "UnCountryCode": "CN",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
+      "street": "Fujian Road(C)",
+      "streetNumber": "188",
+      "floor": "Sinotrans Mansion 20F-25F",
+      "postCode": "200001",
+      "city": "Shanghai",
       "state": null,
-      "country": null
+      "country": "China"
     }
   },
   "website": "http://www.sinolines.com/col/col498/index.html",

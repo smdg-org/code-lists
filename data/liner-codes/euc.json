@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Eucon Dublin, Breakwater Road South, Ferryport, Dublin 1, Ireland, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DUB",
+    "UnCountryCode": "IE",
     "address": {
-      "street": null,
+      "street": "Breakwater Road South, Ferryport",
       "streetNumber": null,
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "1",
+      "city": "Dublin",
       "state": null,
-      "country": null
+      "country": "Ireland"
     }
   },
   "website": "www.eucon.ie",

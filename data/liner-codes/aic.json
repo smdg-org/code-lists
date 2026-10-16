@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Adj. Petroleum Dennis Hse., Community 1, Tema, GH, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "TEM",
+    "UnCountryCode": "GH",
     "address": {
-      "street": null,
+      "street": "Community 1",
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Tema",
       "state": null,
-      "country": null
+      "country": "Ghana"
     }
   },
   "website": "not available",

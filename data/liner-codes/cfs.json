@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Caribbean Feeder Service, 4765 SW 148th Ave, Suite 503, Davie, FL 33330, info@caribbeanfeeder.com",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "FLL",
+    "UnCountryCode": "US",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "148th Ave",
+      "streetNumber": "4765",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "3330",
+      "city": "Fort Lauderdale",
+      "state": "Florida",
+      "country": "Florida, USA"
     }
   },
   "website": "https://www.caribbeanfeeder.com/",

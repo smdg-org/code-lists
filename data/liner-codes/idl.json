@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Indrati Lines Pte Ltd, 6001 Beach Rd #13-01 Golden Mile Tower Singapore 199589, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Beach Road",
+      "streetNumber": "6001",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "199589",
+      "city": "Singapore",
       "state": null,
-      "country": null
+      "country": "Singapore"
     }
   },
   "website": "",

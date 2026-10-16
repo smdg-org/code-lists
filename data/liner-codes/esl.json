@@ -8,16 +8,16 @@
   "parentCompany": "ESP",
   "address": "Emirates Shipping Line DMCEST, No.2401-2404, Liwa Heights Building, Jumeirah Lake Towers, P.O.Box 122115, Dubai, United Arab Emirates",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
       "street": null,
       "streetNumber": null,
-      "floor": null,
+      "floor": "No.2401-2404,Liwa Heights Building, Jumeirah Lake Towers",
       "postCode": null,
-      "city": null,
+      "city": "Dubai",
       "state": null,
-      "country": null
+      "country": "United Arab Emirates"
     }
   },
   "website": "http://www.emiratesline.com/",

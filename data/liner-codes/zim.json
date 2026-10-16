@@ -8,16 +8,16 @@
   "parentCompany": "ZIM",
   "address": "ZIM Integrated Shipping Services Ltd., 9 Andrei Sakharov St. - Floor 3, Haifa 31016 Israel Israel P.O.B. 1723 Haifa Israel",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HFA",
+    "UnCountryCode": "IL",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Andrei Sakharov St",
+      "streetNumber": "9",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "1723",
+      "city": "Haifa",
       "state": null,
-      "country": null
+      "country": "Israel"
     }
   },
   "website": "http://www.zim.com/",

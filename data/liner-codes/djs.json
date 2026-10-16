@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Head office: , 201A,Paiknam Bldg., 16Eulji-Ro, Jung-Gu, Seoul, Korea",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SEL",
+    "UnCountryCode": "KR",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Eulji-Ro",
+      "streetNumber": "16",
+      "floor": "201A,Paiknam Bldg",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Seoul",
+      "state": "Jung-Gu",
+      "country": "Korea (Republic of)"
     }
   },
   "website": "http://korea.djship.co.kr/dj/",

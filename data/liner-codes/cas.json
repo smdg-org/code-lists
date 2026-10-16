@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Level 1 Palm Grove House, Wickhams Cay 1, Road Town, Tortola BVI.",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "TOV",
+    "UnCountryCode": "VG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Wickhams Cay",
+      "streetNumber": "1",
+      "floor": "Level 1 Palm Grove House",
       "postCode": null,
-      "city": null,
+      "city": "Tortola",
       "state": null,
-      "country": null
+      "country": "British Virgin Islands"
     }
   },
   "website": "not available",

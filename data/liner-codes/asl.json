@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "65 Yigal Alon St, Tel Aviv , Israel , ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "TLV",
+    "UnCountryCode": "IL",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Yigal Alon St",
+      "streetNumber": "65",
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Tel Aviv",
       "state": null,
-      "country": null
+      "country": "Israel"
     }
   },
   "website": "https://wlsltd.com/",

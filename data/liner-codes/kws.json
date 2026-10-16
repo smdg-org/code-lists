@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Hibiya Building, 4th Floor, 1-1, Shimbashi 1-Chome, Minato-Ku, Tokyo 105-0004, Japan, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "TYO",
+    "UnCountryCode": "JP",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
+      "street": "Chome Shinbashi",
+      "streetNumber": "1",
+      "floor": "Hibiya Building, 4th Floor",
+      "postCode": "105-0004",
+      "city": "Tokyo",
       "state": null,
-      "country": null
+      "country": "Japan"
     }
   },
   "website": "https://www.kyowa-line.co.jp/en/",

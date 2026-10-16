@@ -8,16 +8,16 @@
   "parentCompany": "CXL",
   "address": "Room 12C, 21/F, Weida Commercial Building, 1A-1L Tung Choi Street, Kowloon, Hongkong",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HKG",
+    "UnCountryCode": "HK",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Tung Choi Street",
+      "streetNumber": "1A-1L",
+      "floor": "Weida Commercial Building",
       "postCode": null,
-      "city": null,
+      "city": "Hong Kong",
       "state": null,
-      "country": null
+      "country": "China"
     }
   },
   "website": "www.chenxinshipping.com",

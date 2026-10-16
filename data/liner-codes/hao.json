@@ -8,10 +8,10 @@
   "parentCompany": null,
   "address": "82, Lorong 23 Geylang, 06-01 Atrix, Singapore 388409",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": "Lorong 23 Geylang",
+      "street": "82, Lorong 23 Geylang, 06-01 Atrix",
       "streetNumber": "82",
       "floor": "06-01 Atrix",
       "postCode": "388409",

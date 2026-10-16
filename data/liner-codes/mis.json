@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "LNG Business Unit MISC Berhad, Level 30, Menara Dayabumi, Jalan Sultan Hishamuddin, 50050 Kuala Lumpur, Malaysia",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "KUL",
+    "UnCountryCode": "MY",
     "address": {
-      "street": null,
+      "street": "Jalan Sultan Hishamuddin",
       "streetNumber": null,
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "50050",
+      "city": "Kuala Lumpur",
       "state": null,
-      "country": null
+      "country": "Malaysia"
     }
   },
   "website": "http://www.misc.com.my/",

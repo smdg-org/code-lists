@@ -8,16 +8,16 @@
   "parentCompany": "NZL",
   "address": "Flat/rt 1105 lippo Centre Tower 1 89 Queensway Admiralty Hong Kong",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HKG",
+    "UnCountryCode": "HK",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Queensway",
+      "streetNumber": "89",
+      "floor": "Flat/rt 1105 lippo Centre Tower 1",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Hong Kong",
+      "state": "Admiralty",
+      "country": "Hong Kong"
     }
   },
   "website": "http://nzlshipping.com/index9ed2.html?lang=en",

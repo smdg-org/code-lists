@@ -8,16 +8,16 @@
   "parentCompany": "HLC",
   "address": "NileDutch, AddressWestblaak 95, Zipcode3012 KG, CityRotterdam, CountryNetherlands, PostalPO Box 21032, 3001 AA Rotterdam, The Netherlands",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "RTM",
+    "UnCountryCode": "NL",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Westblaak",
+      "streetNumber": "95",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "3012",
+      "city": "Rotterdam",
       "state": null,
-      "country": null
+      "country": "Netherlands"
     }
   },
   "website": "www.niledutch.com",

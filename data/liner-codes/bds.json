@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "No1, Thuy Khue, Tay Ho, Ha Noi",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HAN",
+    "UnCountryCode": "VN",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Thuy Khue",
+      "streetNumber": "1",
       "floor": null,
       "postCode": null,
-      "city": null,
+      "city": "Hanoi",
       "state": null,
-      "country": null
+      "country": "Viet Nam"
     }
   },
   "website": "http://www.biendong.com.vn/index.php?lang=en",

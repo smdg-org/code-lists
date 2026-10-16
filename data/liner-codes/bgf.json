@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Den Hamweg 30, P.O. Box 54022, 3008 JA Rotterdam, The Netherlands",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "RTM",
+    "UnCountryCode": "NL",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Den Hamweg",
+      "streetNumber": "30",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "3008",
+      "city": "Rotterdam",
       "state": null,
-      "country": null
+      "country": "Netherlands"
     }
   },
   "website": "http://bgfreightline.com/",

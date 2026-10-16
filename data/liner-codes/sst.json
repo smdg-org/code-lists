@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Suite#713-A, 7th Floor, Chapal Plaza Hasrat Mohani Road , ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "KHI",
+    "UnCountryCode": "PK",
     "address": {
-      "street": null,
+      "street": "Chapal Plaza Hasrat Mohani Road",
       "streetNumber": null,
-      "floor": null,
+      "floor": "Suite#713-A, 7th Floor",
       "postCode": null,
-      "city": null,
+      "city": "Karachi",
       "state": null,
-      "country": null
+      "country": "Pakistan"
     }
   },
   "website": "http://sslpak.com/",

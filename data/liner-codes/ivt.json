@@ -8,16 +8,16 @@
   "parentCompany": "IVT",
   "address": "Pärnu mnt 102-15, Tallinn, 11312, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "TLL",
+    "UnCountryCode": "EE",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Pärnu mnt",
+      "streetNumber": "102-15",
       "floor": null,
-      "postCode": null,
-      "city": null,
+      "postCode": "11312",
+      "city": "Tallinn",
       "state": null,
-      "country": null
+      "country": "Estonia"
     }
   },
   "website": "http://invicont.ee/",

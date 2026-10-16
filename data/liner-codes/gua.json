@@ -8,14 +8,14 @@
   "parentCompany": "",
   "address": "Asuncion",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "ASU",
+    "UnCountryCode": "PY",
     "address": {
       "street": "Av. Artigas",
       "streetNumber": "3443",
       "floor": null,
       "postCode": null,
-      "city": "Asunción",
+      "city": "Asuncion",
       "state": null,
       "country": "Paraguay"
     }
