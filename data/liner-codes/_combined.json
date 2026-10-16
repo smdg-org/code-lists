@@ -510,6 +510,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "ALT",
+    "linerName": "ALTUS ",
+    "carrierType": "VOCC",
+    "parentCompany": "VIKISA",
+    "address": "412, Sultan Business Centre, Oud Metha, Dubai - United Arab Emirates",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://www.vikisaglobal.com",
+    "remarks": "",
+    "validFrom": "2021-07-28",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-10-12",
+        "updateRequestedBy": "ALTUS",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "AMP",
     "linerName": "AVISA Maritime Pte.Ltd.",
     "carrierType": "NVOCC",
@@ -1215,6 +1254,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "BBM",
+    "linerName": "Blue Bird Marine Services LLC",
+    "carrierType": "NVOCC",
+    "parentCompany": "BBM",
+    "address": "Al Nokhitha Building, Office No. 232, Al Hamriyah Port, Dubai",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://www.bluebirdshipping.com/",
+    "remarks": "Vessel Agents",
+    "validFrom": "2026-10-02",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-10-12",
+        "updateRequestedBy": "Blue Bird Marine Services LLC",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
       }
     ]
   },
@@ -4061,6 +4139,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "EKT",
+    "linerName": "EkTrans Line",
+    "carrierType": "NVOCC",
+    "parentCompany": "EkTrans LLC",
+    "address": "44-11, Karla Marksa St., Novorossiysk, Krasnodar Krai, 353900, Russian Federation",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "",
+    "remarks": "",
+    "validFrom": "2026-09-15",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-10-14",
+        "updateRequestedBy": "EkTrans Line",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "ELS",
     "linerName": "Eng Lee Shipping",
     "carrierType": "UNKNOWN",
@@ -5488,6 +5605,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "HAD",
+    "linerName": "HAFEZ DARYA ARYA SHIPPING COMPANY",
+    "carrierType": "VOCC",
+    "parentCompany": "ISL",
+    "address": "No. 237 Iranshahr North, Karim Khan Zand Ave. Tehran Iran",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://www.hdasco.com",
+    "remarks": "",
+    "validFrom": "2026-08-17",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-10-12",
+        "updateRequestedBy": "HAFEZ DARYA ARYA SHIPPING COMPANY",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
       }
     ]
   },
@@ -8383,6 +8539,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "MOS",
+    "linerName": "MARSA OCEAN SHIPPING LLC",
+    "carrierType": "VOCC",
+    "parentCompany": "MOS",
+    "address": "Office No. 1810,The Citadel Tower, Business Bay, Dubai, United Arab Emirates",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "MARSAOCEAN.COM",
+    "remarks": "",
+    "validFrom": "2026-10-02",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-10-12",
+        "updateRequestedBy": "MARSA OCEAN SHIPPING LLC",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "MRC",
     "linerName": "Mercosul",
     "carrierType": "UNKNOWN",
@@ -8532,6 +8727,45 @@
         "changedFields": [],
         "linkedLinerCode": "",
         "comments": "This change was not tracked in excel and it was added by GitHub workflow."
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "MTR",
+    "linerName": "Martrans Shipping LLC",
+    "carrierType": "VOCC",
+    "parentCompany": "Martrans",
+    "address": "PO Box 112362, Dubai, United Arab Emirates",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://www.martransship.com/",
+    "remarks": "",
+    "validFrom": "2026-10-08",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-10-12",
+        "updateRequestedBy": "Martrans Shipping LLC",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
       }
     ]
   },
@@ -9651,6 +9885,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "OVS",
+    "linerName": "OCEAN VOYAGE SHIPPING LINE LLC",
+    "carrierType": "VOCC",
+    "parentCompany": "",
+    "address": "1204, Fahidi Heights, Khaleed Bin Waleed St., Bur Dubai, Dubai. UAE. ",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://www.ovsl.co",
+    "remarks": "",
+    "validFrom": "2026-10-08",
+    "validTo": "2027-03-21",
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-10-12",
+        "updateRequestedBy": "OCEAN VOYAGE SHIPPING LINE LLC",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "PAC",
     "linerName": "Pacifica Shipping",
     "carrierType": "UNKNOWN",
@@ -10285,6 +10558,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "PSF",
+    "linerName": "PORTS SHIPPING FEEDER",
+    "carrierType": "VOCC",
+    "parentCompany": "Ports Shipping LLC, UAE",
+    "address": "Zaabeel Business Center, P O Box 47081, Dubai, UAE",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "www.ports-shipping.com",
+    "remarks": "",
+    "validFrom": "2026-10-09",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-10-12",
+        "updateRequestedBy": "PORTS SHIPPING FEEDER",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "PSL",
     "linerName": "PSL Navegacao, S.A.",
     "carrierType": "UNKNOWN",
@@ -10703,6 +11015,45 @@
         "linerCodeVersion": "V1",
         "lastUpdateDate": "2026-05-15",
         "updateRequestedBy": "RTSB Line",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
+    "linerSMDGCode": "RWL",
+    "linerName": "Rways Container Line Sdn Bhd",
+    "carrierType": "VOCC",
+    "parentCompany": "Rways Group",
+    "address": "Suite # 707-709, 7th Floor Caesars Towers, Main Shahrah E Faisal Oppo. Ayesha Bawani College, Karachi – Pakistan",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "www.rwaysgroup.com ",
+    "remarks": "",
+    "validFrom": "2026-09-01",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-10-12",
+        "updateRequestedBy": "Rways Container Line Sdn Bhd",
         "reason": "",
         "changedFields": [],
         "linkedLinerCode": null,

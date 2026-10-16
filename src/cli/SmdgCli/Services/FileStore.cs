@@ -97,8 +97,6 @@ public class FileStore : IFileStore
         var indexJson = await File.ReadAllTextAsync(indexFilePath, cancellationToken);
         var indexContent = JsonSerializer.Deserialize<LinerCodeIndex>(indexJson, JsonOptions);
 
-        // TODO: Update the combined file
-
         if (indexContent != null && indexContent.LinerCodeFiles.All(f => f != linerCodeFileName))
         {
             var newIndex = indexContent.LinerCodeFiles.ToList();
@@ -106,6 +104,8 @@ public class FileStore : IFileStore
             indexContent = new LinerCodeIndex(newIndex.OrderBy(x => x));
             await UpdateIndex(outputDirectory, indexContent, cancellationToken);
         }
+
+        await RebuildCombined<T>(outputDirectory, cancellationToken);
     }
 
     public async Task WriteAllAsync<T>(
@@ -132,7 +132,7 @@ public class FileStore : IFileStore
         var indexContent = new LinerCodeIndex(recordFiles.Select(t => t.FileName).OrderBy(x => x));
         await UpdateIndex(outputDirectory, indexContent, cancellationToken);
 
-        await UpdateCombined(outputDirectory, records, cancellationToken);
+        await RebuildCombined<T>(outputDirectory, cancellationToken);
     }
 
     public async Task RebuildCombined<T>(string outputDirectory, CancellationToken cancellationToken)
