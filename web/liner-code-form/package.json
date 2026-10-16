@@ -1,0 +1,17 @@
+{
+  "name": "smdg-liner-code-preview",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test tests/core.test.mjs",
+    "test:browser": "playwright test",
+    "preview": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

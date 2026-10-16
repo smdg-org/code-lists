@@ -8,6 +8,7 @@
 
 * [Data Handling Flows](docs/DATA-HANDLING.md)
 * [How-To Guides](docs/HOW-TO.md)
+* [Liner-code web form preview](web/liner-code-form/README.md) (demo only; no submissions)
 
 ## Contributions
 

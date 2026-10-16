@@ -1,0 +1,36 @@
+name: Liner Code Form - Preview Tests
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'web/liner-code-form/**'
+      - 'data/liner-codes/_combined.json'
+      - '.github/workflows/liner-code-form-preview.yaml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web/liner-code-form
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: web/liner-code-form/package-lock.json
+      - run: npm ci
+      - run: npm test
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:browser
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: form-test-results
+          path: web/liner-code-form/test-results/
