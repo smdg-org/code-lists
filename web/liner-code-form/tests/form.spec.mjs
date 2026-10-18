@@ -101,6 +101,7 @@ test("update: selection reveals complete prefill, reason required, clear stays i
   await page.getByRole("button", { name: "Review request" }).click();
   await page.getByRole("button", { name: "Submit" }).click();
   await expect(page.locator("#submit-result")).toContainText("did not submit, send or save");
+  await page.getByRole("button", { name: "Back" }).click();
   await page.getByRole("button", { name: "Clear form" }).click();
   await expect(page.locator('[value="update"][name="mode"]')).toBeChecked();
   await expect(page.locator("#details")).toBeHidden();

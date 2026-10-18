@@ -78,10 +78,30 @@ cover validation and prefill; browser tests cover Add/Update/Delete, contact
 details, review and back navigation, actual bundled-data loading, load failures,
 mobile layout, and absence of writes/storage/submission.
 
-## Optional public deployment
+## Current public deployment
 
-Nothing deploys on push or PR creation. The test workflow runs checks only.
-To publish this non-submitting demo after review:
+The live preview uses branch-based GitHub Pages from the root of `gh-pages`.
+Pushing source changes to `data-linercodes-webform-preview` does not update the
+website. No PR or merge into `main` is required to publish this preview:
+
+1. Run the unit and browser tests, then `npm run build`.
+2. In a separate worktree for the latest `gh-pages`, copy only the built
+   `index.html`, `styles.css`, `app.js`, `core.js`, `countries.js`,
+   `smdg-logo.png` and `data/_combined.json` from `dist/`.
+3. Preserve `.nojekyll`, review the deployment diff, and commit with the source
+   commit identifier.
+4. Push `gh-pages`, wait for the **pages-build-deployment** workflow to succeed,
+   and verify the published page.
+
+Never merge `gh-pages` into a source branch or copy dependencies, test results,
+internal data or credentials into the deployment.
+
+## Optional Actions-based deployment
+
+The optional deployment workflow does not run on source pushes or PR creation.
+The test workflow runs checks only.
+The following is an alternative to the current branch-based setup and requires
+changing the Pages source. To adopt it after review:
 
 1. Merge the feature PR into `main`.
 2. Confirm this repository does not already use GitHub Pages for another site:

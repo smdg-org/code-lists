@@ -58,7 +58,7 @@ test("update and delete require an existing code and a reason", () => {
     assert.ok(validateRequest(mode, { code: "MSK" }, [record]).reason);
   }
   assert.deepEqual(validateRequest("update", { ...values, code: "MSK", reason: "New address" }, [record]), {});
-  assert.deepEqual(validateRequest("delete", { code: "MSK", reason: "No longer used" }, [record]), {});
+  assert.deepEqual(validateRequest("delete", { ...values, code: "MSK", reason: "No longer used" }, [record]), {});
 });
 
 test("website protocols and calendar dates are validated", () => {
