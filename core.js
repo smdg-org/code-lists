@@ -63,6 +63,12 @@ export function validateRequest(mode, values, records) {
   if (mode !== "add" && !values.reason?.trim()) {
     errors.reason = mode === "delete" ? "Enter a delete reason." : "Enter a change reason.";
   }
+  if (!values.contactName?.trim()) errors.contactName = "Enter your name.";
+  if (!values.contactEmail?.trim()) {
+    errors.contactEmail = "Enter your email address.";
+  } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.contactEmail.trim())) {
+    errors.contactEmail = "Enter a valid email address.";
+  }
   if (mode === "delete") return errors;
 
   for (const [field, label] of Object.entries({
