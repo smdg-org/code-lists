@@ -77,6 +77,7 @@ button:hover { filter: brightness(.92); }
 .button-link:hover { filter: brightness(.92); }
 .catalog-table { background: white; }
 .catalog-table td:first-child { font-weight: 600; color: var(--navy); }
+.catalog-table td:first-child, .catalog-table button { white-space: nowrap; overflow-wrap: normal; }
 #record-panel { overflow-wrap: anywhere; }
 fieldset:disabled { opacity: .6; }
 button:disabled { cursor: not-allowed; }
@@ -134,4 +135,15 @@ summary { cursor: pointer; font-weight: 600; color: var(--navy); }
   .mode-options { gap: .5rem; }
   .panel { padding: 1.3rem 1rem; }
   .notice { padding: 1rem; }
+  .catalog-table, .catalog-table caption, .catalog-table tbody { display: block; }
+  .catalog-table { background: transparent; }
+  /* Keep column headers available to assistive technology in the card layout. */
+  .catalog-table thead { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .catalog-table tr { display: grid; grid-template-columns: minmax(0, 1fr); gap: .6rem; border: 1px solid var(--line); border-top: 3px solid var(--blue); background: white; padding: 1rem; margin-bottom: 1rem; }
+  .catalog-table td { display: block; min-width: 0; padding: 0; border: 0; white-space: normal; }
+  .catalog-table td:first-child { font-size: 1.2rem; white-space: nowrap; }
+  .catalog-table td:nth-child(2) { font-weight: 600; }
+  .catalog-table td:nth-child(3)::before, .catalog-table td:nth-child(4)::before { content: attr(data-label) ": "; font-weight: 600; color: var(--muted); }
+  .catalog-table td:last-child { padding-top: .3rem; }
+  .catalog-table button { width: 100%; }
 }
