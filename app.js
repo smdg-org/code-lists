@@ -1,5 +1,6 @@
 import { normalizeCode, prefill, validateRecords, validateRequest } from "./core.js";
 import { countries } from "./countries.js";
+import { DemoStore, submitRequest, WORKSPACE_KEY } from "./workflow.js";
 
 const form = document.querySelector("#request-form");
 const controls = document.querySelector("#form-controls");
@@ -10,6 +11,27 @@ const countrySelect = document.querySelector("#country");
 const field = id => document.getElementById(id);
 let records = [];
 let mode = "add";
+let demo = new URL(location.href).searchParams.get("demo") === "1";
+let workspace;
+let pendingRequest;
+const store = new DemoStore();
+field("workflow-demo").checked = demo;
+
+function demoCopy() {
+  field("preview-notice").hidden = demo;
+  field("refresh-demo-list").hidden = !demo;
+  field("contact-help").textContent = demo
+    ? "Use fictional details only. Name and email are saved in this browser for request handling, never included in the demo public code list. No email is sent."
+    : "Information will not be saved and will be used only for contact purposes. This preview does not send it.";
+  field("submission-help").textContent = demo ? "Saves a test request in this browser only" : "No submission or saving";
+  field("summary-help").textContent = demo
+    ? "Check the details. Submit saves this test request and fictional contacts in this browser for review, not to SMDG."
+    : "Check the details below. Submitting this preview will not send or save anything.";
+  field("summary-submit").textContent = demo ? "Submit test request" : "Submit";
+  field("delete-help").textContent = demo
+    ? "Submitting creates a local deletion request. Only demo reviewer publication removes it from the local demo list; official data never changes."
+    : "This is a deletion-request preview only. No record will be removed or marked for deletion.";
+}
 
 for (const country of countries) {
   countrySelect.add(new Option(country.name, country.name));
@@ -48,7 +70,11 @@ function showCodeOptions() {
 }
 
 function renderMode() {
+  pendingRequest = null;
   form.reset();
+  form.hidden = false;
+  field("demo-confirmation").hidden = true;
+  field("summary-submit").disabled = false;
   field("entry-step").hidden = false;
   field("review-step").hidden = true;
   field("submit-result").hidden = true;
@@ -157,6 +183,7 @@ function values() {
 }
 
 async function load() {
+  field("workflow-demo").disabled = true;
   controls.disabled = true;
   field("retry").hidden = true;
   field("data-status").textContent = "Loading the public code-list snapshot...";
@@ -166,15 +193,21 @@ async function load() {
       signal: AbortSignal.timeout(15000)
     });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    records = validateRecords(await response.json()).slice()
+    const snapshot = validateRecords(await response.json());
+    workspace = demo ? await store.initialize(snapshot) : null;
+    records = (demo ? workspace.records : snapshot).slice()
       .sort((a, b) => a.linerSMDGCode.localeCompare(b.linerSMDGCode, "en"));
+    demoCopy();
     renderMode();
     controls.disabled = false;
     field("data-status").textContent =
-      `${records.length} codes loaded from this deployment's public combined-list snapshot. This is not a live registry check.`;
+      demo ? `${records.length} codes loaded from the browser-local demo list. Requests and fictional contacts will be saved locally.` :
+        `${records.length} codes loaded from this deployment's public combined-list snapshot. This is not a live registry check.`;
   } catch (error) {
     field("data-status").textContent = `Code list could not be loaded: ${error.message}. Validation is disabled to avoid missing duplicates.`;
     field("retry").hidden = false;
+  } finally {
+    field("workflow-demo").disabled = false;
   }
 }
 
@@ -249,6 +282,11 @@ form.addEventListener("submit", event => {
     return;
   }
   renderSummary(requestValues);
+  pendingRequest = {
+    mode, values: structuredClone(requestValues),
+    baseline: structuredClone(records.find(record => record.linerSMDGCode === requestValues.code) ?? null),
+    workspaceId: workspace?.id
+  };
   field("entry-step").hidden = true;
   field("review-step").hidden = false;
   field("review-step").focus();
@@ -259,11 +297,70 @@ field("back-to-form").addEventListener("click", () => {
   field("submit-result").hidden = true;
   field("actions").querySelector('[type="submit"]').focus();
 });
-field("summary-submit").addEventListener("click", () => {
+field("summary-submit").addEventListener("click", async () => {
   const message = field("submit-result");
+  if (demo) {
+    field("summary-submit").disabled = true;
+    field("back-to-form").disabled = true;
+    field("workflow-demo").disabled = true;
+    field("refresh-demo-list").disabled = true;
+    try {
+      if (!pendingRequest) throw new Error("Return to the form and review your request again.");
+      const pending = pendingRequest;
+      let saved;
+      workspace = await store.update(pending.workspaceId, current => {
+        saved = submitRequest(current, pending.mode, pending.values, pending.baseline);
+      });
+      form.hidden = true;
+      field("demo-confirmation").hidden = false;
+      field("confirmation-reference").textContent = `Reference: ${saved.reference} | ${saved.mode.toUpperCase()} ${saved.submitted.code}`;
+      field("open-saved-request").href = `reviewer.html?request=${encodeURIComponent(saved.id)}`;
+      field("demo-confirmation").focus();
+    } catch (error) {
+      message.textContent = `Test request was not saved: ${error.message} Your entries are retained. Go Back and refresh the demo list if needed, then review again.`;
+      message.hidden = false;
+    } finally {
+      field("summary-submit").disabled = false;
+      field("back-to-form").disabled = false;
+      field("workflow-demo").disabled = false;
+      field("refresh-demo-list").disabled = false;
+    }
+    return;
+  }
   message.textContent = "This preview did not submit, send or save your request.";
   message.hidden = false;
 });
 field("clear").addEventListener("click", renderMode);
 field("retry").addEventListener("click", load);
+field("workflow-demo").addEventListener("change", () => {
+  demo = field("workflow-demo").checked;
+  load();
+});
+function refreshDemoList() {
+  const current = store.read();
+  if (!current) throw new Error("Demo workspace missing. Enable the workflow demo again to initialize it.");
+  workspace = current;
+  records = current.records;
+  showCodeOptions();
+  field("data-status").textContent = `${records.length} demo codes loaded. Entries retained. Review the current values again before submitting.`;
+}
+field("refresh-demo-list").addEventListener("click", () => {
+  try {
+    refreshDemoList();
+    pendingRequest = null;
+    field("review-step").hidden = true;
+    field("entry-step").hidden = false;
+  } catch (error) {
+    field("data-status").textContent = `Could not refresh demo data: ${error.message}`;
+  }
+});
+field("submit-another").addEventListener("click", () => {
+  try { refreshDemoList(); renderMode(); }
+  catch (error) { field("data-status").textContent = `Could not start another request: ${error.message}`; }
+});
+window.addEventListener("storage", event => {
+  if (demo && event.key === WORKSPACE_KEY) field("data-status").textContent =
+    "The demo workspace changed in another tab. Entries are retained; refresh the demo list and review again before submitting.";
+});
+demoCopy();
 load();

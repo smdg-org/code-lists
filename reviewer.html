@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="description" content="Browser-local SMDG request review workflow demonstration. No official data changes.">
+  <title>Request review demo | SMDG</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="reviewer.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to reviewer demo</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="https://smdg.org/" aria-label="SMDG website"><img src="smdg-logo.png" alt="SMDG e.V." width="400" height="95"></a>
+      <span class="preview-tag">WORKFLOW DEMO</span>
+    </div>
+  </header>
+  <div class="title-band">
+    <div class="container">
+      <p class="eyebrow">SMDG CODE LISTS / LINER CODES</p>
+      <h1>Request review workspace</h1>
+      <p>Review requests, agree corrections and publish to a demo list.</p>
+    </div>
+  </div>
+  <main id="main" class="container">
+    <aside class="notice" aria-label="Demo access limitations">
+      <strong>Simulation only. This is not secure authentication.</strong>
+      <p>The shared login is public. Anyone with access can view requests and assign any of the five names.
+        Names are assignees, not verified identities. Use fictional contact details only.</p>
+      <p>Requests, contact details, notes, assignments and demo list changes are saved in this browser,
+        not shared across devices. No emails, API writes, issues or pull requests are sent.
+        Official data never changes. History is illustrative, not a tamper-proof audit log.</p>
+    </aside>
+    <p id="workspace-error" class="notice has-errors" role="alert" hidden></p>
+    <noscript><p class="notice">JavaScript is required. There is no submission fallback.</p></noscript>
+    <section id="login-step" class="panel" aria-labelledby="login-title">
+      <h2 id="login-title">Demo sign-in</h2>
+      <p class="hint">Public demo username: <strong>linercodelists</strong>.
+        Public demo password: <strong>SMDGLCL2026</strong>. Never reuse it for a real account.</p>
+      <form id="demo-login" autocomplete="off" novalidate>
+        <div class="grid">
+          <div class="field"><label for="demo-username">Demo username</label><input id="demo-username" required autocomplete="off" autocapitalize="none" spellcheck="false" aria-describedby="login-error"></div>
+          <div class="field"><label for="demo-password">Demo password</label><input id="demo-password" type="password" required autocomplete="off" aria-describedby="login-error"></div>
+        </div>
+        <p id="login-error" class="error" role="alert"></p>
+        <div class="actions"><button id="demo-sign-in" type="submit" disabled>Sign in to demo</button><a href="./">Request form preview</a></div>
+      </form>
+    </section>
+    <div id="workspace" hidden>
+      <nav class="actions workspace-nav" aria-label="Workspace navigation">
+        <button id="show-tasks" type="button">All tasks</button>
+        <button id="show-list" type="button" class="secondary">Demo code list</button>
+        <button id="show-tools" type="button" class="secondary">Workspace tools</button>
+        <a href="./?demo=1">Submit a test request</a>
+        <button id="reviewer-sign-out" type="button" class="secondary">Sign out</button>
+      </nav>
+      <p id="workspace-status" role="status"></p>
+      <section id="tasks-step" tabindex="-1" aria-labelledby="tasks-title">
+        <h2 id="tasks-title">All tasks</h2>
+        <p>Start with three fully populated sample requests, or submit your own using the test form.</p>
+        <div id="task-counts" class="stats" aria-label="Request counts"></div>
+        <div class="panel grid filters">
+          <div><label for="task-search">Search requests</label><input id="task-search" type="search" placeholder="Reference, code, liner or contact"></div>
+          <div><label for="status-filter">Status</label><select id="status-filter"><option value="">All statuses</option></select></div>
+          <div><label for="assignee-filter">Assignee</label><select id="assignee-filter"><option value="">Everyone</option><option value="unassigned">Unassigned</option></select></div>
+        </div>
+        <div id="task-list" class="task-grid"></div>
+        <p id="no-tasks" class="notice" hidden>No requests match these filters.</p>
+      </section>
+      <section id="detail-step" tabindex="-1" aria-labelledby="detail-title" hidden>
+        <div class="actions">
+          <button id="back-to-tasks" type="button" class="secondary">Back to all tasks</button>
+          <button id="delete-request" type="button" class="danger">Delete request</button>
+        </div>
+        <div id="request-heading"></div>
+        <div id="conflict-notice" class="notice has-errors" role="alert" hidden></div>
+        <p id="detail-error" class="notice has-errors" role="alert" tabindex="-1" hidden></p>
+        <section class="panel">
+          <h3>Request and contact details</h3>
+          <dl id="request-info" class="review-summary"></dl>
+          <p class="hint">Contact information is retained in this local workspace only and excluded from the demo public code list. No email is sent automatically.</p>
+          <div class="grid">
+            <div><label for="task-assignee">Assigned to</label><select id="task-assignee"><option value="">Unassigned</option></select></div>
+            <div class="actions"><button id="save-assignment" type="button" class="secondary">Save assignment</button></div>
+          </div>
+        </section>
+        <form id="review-editor" novalidate autocomplete="off">
+          <section id="proposal-section" class="panel">
+            <h3>Reviewer proposal</h3>
+            <p id="editor-help" class="hint"></p>
+            <fieldset id="editor-fields" class="grid"></fieldset>
+          </section>
+          <section id="comparison-section" class="panel" hidden>
+            <h3>Compare values</h3>
+            <p class="hint">Yellow rows differ from the current demo list. Original submission is never overwritten.</p>
+            <div class="table-scroll"><table class="comparison"><caption>Current list, original submission and reviewer proposal</caption><thead><tr><th scope="col">Field</th><th scope="col">Current demo list</th><th scope="col">Originally submitted</th><th scope="col">Reviewer proposal</th></tr></thead><tbody id="comparison-body"></tbody></table></div>
+          </section>
+          <section id="deletion-section" class="panel" hidden>
+            <h3>Record to delete</h3>
+            <p id="deletion-help" class="hint"></p>
+            <dl id="deletion-record" class="review-summary"></dl>
+          </section>
+          <section class="panel">
+            <h3>Review actions</h3>
+            <label for="reviewer-note">Reviewer note / decision reason</label>
+            <textarea id="reviewer-note" rows="3" maxlength="10000" aria-describedby="note-help"></textarea>
+            <p id="note-help" class="hint">Required for clarification, rejection, a note or acknowledging a changed baseline. These actions also retain your proposal edits. No notification is sent.</p>
+            <div id="review-actions" class="actions">
+              <button type="button" data-action="save" class="secondary">Save draft</button>
+              <button type="button" data-action="note" class="secondary">Add note</button>
+              <button type="button" data-action="clarify" class="secondary">Needs information</button>
+              <button type="button" data-action="resume" class="secondary">Resume review</button>
+              <button id="rebase-request" type="button" data-action="rebase" class="secondary" hidden>Acknowledge current baseline</button>
+              <button type="button" data-action="reject" class="danger">Reject request</button>
+              <button type="submit">Approve and publish - demo</button>
+            </div>
+            <p class="hint">Assign before reviewing. A shared demo account can act for any listed assignee.
+              Approve and publish applies your edits directly; no separate draft save or second approval is needed.
+              Delete removes the record from the demo active list only; the request and history remain.</p>
+          </section>
+        </form>
+        <section class="panel">
+          <h3>Request history</h3>
+          <ol id="request-history" class="history"></ol>
+        </section>
+      </section>
+      <section id="list-step" tabindex="-1" aria-labelledby="list-title" hidden>
+        <h2 id="list-title">Demo code list</h2>
+        <p>Browser-local list after simulated publication. It contains liner data only, not request contacts or reviewer notes.</p>
+        <div class="panel"><label for="list-search">Search codes or liner names</label><input id="list-search" type="search"><p id="list-count"></p><div id="demo-records" class="task-grid"></div>
+          <div class="actions"><button id="list-previous" type="button" class="secondary">Previous page</button><button id="list-next" type="button" class="secondary">Next page</button></div>
+        </div>
+        <button id="export-list" type="button">Download demo list JSON</button>
+      </section>
+      <section id="tools-step" tabindex="-1" aria-labelledby="tools-title" hidden>
+        <h2 id="tools-title">Workspace tools</h2>
+        <section class="panel">
+          <h3>Export and import</h3>
+          <p>A workspace export includes fictional contact details, reviewer notes, original requests and history.
+            Do not share real personal information. Import validates the file then replaces this entire workspace; it does not merge.</p>
+          <div class="actions"><button id="export-workspace" type="button">Export workspace</button></div>
+          <label for="import-workspace">Import workspace JSON (maximum 8 MB)</label>
+          <input id="import-workspace" type="file" accept=".json,application/json">
+        </section>
+        <section class="panel">
+          <h3>Reset demo</h3>
+          <p>Replace all local requests and demo changes with a fresh copy of the bundled snapshot and three sample requests. Export first if you want to keep your work.</p>
+          <button id="reset-workspace" type="button" class="danger">Reset workspace</button>
+        </section>
+      </section>
+    </div>
+    <dialog id="confirm-dialog" aria-labelledby="confirm-title">
+      <h2 id="confirm-title"></h2>
+      <div id="confirm-body"></div>
+      <div class="actions"><button id="confirm-accept" type="button">Confirm</button><button id="confirm-cancel" type="button" class="secondary" autofocus>Cancel</button></div>
+    </dialog>
+  </main>
+  <footer class="container"><p>SMDG workflow prototype &middot; Browser-local simulation &middot; No official publication</p></footer>
+</body>
+</html>
