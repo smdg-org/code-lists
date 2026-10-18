@@ -76,6 +76,8 @@ test("real bundled snapshot initializes full request cards without errors", asyn
 test("shared login rejects bad credentials and opens all cards directly", async ({ page }) => {
   await route(page);
   await page.goto("/reviewer.html");
+  await expect(page.locator("#login-step")).not.toContainText("linercodelists");
+  await expect(page.locator("#login-step")).not.toContainText("SMDGLCL2026");
   await page.getByRole("button", { name: "Sign in to demo" }).click();
   await expect(page.locator("#login-error")).toContainText("incorrect");
   await page.getByLabel("Demo username").fill("linercodelists");

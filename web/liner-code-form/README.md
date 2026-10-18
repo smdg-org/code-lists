@@ -106,6 +106,8 @@ returns Pending review. Needs information is preserved during reassignment.
 Assignment is not required to open a task. The credentials are
 intentionally public demo values in the static source, not secrets or real
 authentication. Never reuse them for a real account.
+The sign-in page does not display the credentials; removing the visible hint
+does not make browser-side authentication secure or hide values in the source.
 
 Only the simulated login session is held in page memory. Sign out, refresh or
 leaving requires signing in again, but saved requests and assignments survive.
