@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
-  <meta name="description" content="SMDG liner-code request preview with an optional browser-local workflow demo. No official submissions.">
+  <meta name="description" content="SMDG liner-code request form and browser-local workflow demonstration. No official submissions.">
   <title>Liner code request preview | SMDG</title>
   <link rel="stylesheet" href="styles.css">
   <script type="module" src="app.js"></script>
@@ -33,12 +33,12 @@
         No issues, pull requests, files or downloads are created, and entered data is not saved or sent.
         Contact fields are required to preview the flow; use test details only. Refreshing or changing request type clears your entries.</p>
     </aside>
-    <section class="notice" aria-label="Workflow demo mode">
-      <label for="workflow-demo"><input id="workflow-demo" type="checkbox"> Enable browser-local workflow demo</label>
-      <p id="workflow-disclosure">Optional: save fictional requests, including contact details, in this browser for review.
+    <section id="workflow-notice" class="notice" aria-label="Workflow demo limitations">
+      <strong>Demonstration only. Use fictional details.</strong>
+      <p id="workflow-disclosure">Complete the form, click Review request, then Submit on the summary to save your request for review.
+        Requests, including contact details, are saved in this browser only.
         They are not sent to SMDG or shared across devices. No email, API, GitHub issue or pull request is created.
-        The reviewer panel can edit and publish to a local demo list only. Never enter real personal details.
-        Changing this mode clears unsaved form entries.</p>
+        Review and publication change a local demo list only. Never enter real personal details.</p>
       <button id="refresh-demo-list" type="button" class="secondary" hidden>Refresh demo list without clearing entries</button>
     </section>
     <p id="data-status" role="status">Loading the public code-list snapshot...</p>

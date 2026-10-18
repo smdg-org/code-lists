@@ -11,14 +11,14 @@ const countrySelect = document.querySelector("#country");
 const field = id => document.getElementById(id);
 let records = [];
 let mode = "add";
-let demo = new URL(location.href).searchParams.get("demo") === "1";
+const demo = new URL(location.href).searchParams.get("preview") !== "1";
 let workspace;
 let pendingRequest;
 const store = new DemoStore();
-field("workflow-demo").checked = demo;
 
 function demoCopy() {
   field("preview-notice").hidden = demo;
+  field("workflow-notice").hidden = !demo;
   field("refresh-demo-list").hidden = !demo;
   field("contact-help").textContent = demo
     ? "Use fictional details only. Name and email are saved in this browser for request handling, never included in the demo public code list. No email is sent."
@@ -27,7 +27,7 @@ function demoCopy() {
   field("summary-help").textContent = demo
     ? "Check the details. Submit saves this test request and fictional contacts in this browser for review, not to SMDG."
     : "Check the details below. Submitting this preview will not send or save anything.";
-  field("summary-submit").textContent = demo ? "Submit test request" : "Submit";
+  field("summary-submit").textContent = "Submit";
   field("delete-help").textContent = demo
     ? "Submitting creates a local deletion request. Only demo reviewer publication removes it from the local demo list; official data never changes."
     : "This is a deletion-request preview only. No record will be removed or marked for deletion.";
@@ -183,7 +183,6 @@ function values() {
 }
 
 async function load() {
-  field("workflow-demo").disabled = true;
   controls.disabled = true;
   field("retry").hidden = true;
   field("data-status").textContent = "Loading the public code-list snapshot...";
@@ -206,8 +205,6 @@ async function load() {
   } catch (error) {
     field("data-status").textContent = `Code list could not be loaded: ${error.message}. Validation is disabled to avoid missing duplicates.`;
     field("retry").hidden = false;
-  } finally {
-    field("workflow-demo").disabled = false;
   }
 }
 
@@ -302,7 +299,6 @@ field("summary-submit").addEventListener("click", async () => {
   if (demo) {
     field("summary-submit").disabled = true;
     field("back-to-form").disabled = true;
-    field("workflow-demo").disabled = true;
     field("refresh-demo-list").disabled = true;
     try {
       if (!pendingRequest) throw new Error("Return to the form and review your request again.");
@@ -321,7 +317,6 @@ field("summary-submit").addEventListener("click", async () => {
     } finally {
       field("summary-submit").disabled = false;
       field("back-to-form").disabled = false;
-      field("workflow-demo").disabled = false;
       field("refresh-demo-list").disabled = false;
     }
     return;
@@ -331,10 +326,6 @@ field("summary-submit").addEventListener("click", async () => {
 });
 field("clear").addEventListener("click", renderMode);
 field("retry").addEventListener("click", load);
-field("workflow-demo").addEventListener("change", () => {
-  demo = field("workflow-demo").checked;
-  load();
-});
 function refreshDemoList() {
   const current = store.read();
   if (!current) throw new Error("Demo workspace missing. Enable the workflow demo again to initialize it.");
