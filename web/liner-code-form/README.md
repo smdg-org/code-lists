@@ -14,9 +14,14 @@ issue forms, CLI, API, code-list files, or issue-processing automation.
   Valid From is also required for Add, matching the existing add mapper.
   Required fields display a red asterisk, with native required-field semantics
   retained for assistive technology.
+- Name and a valid email address are required as contact details for all three
+  request types. They are held in browser memory only. The preview does not
+  transmit or save them; a real service could use them only to contact the
+  requester.
 - Optional UN/LOCODE location parts require three letters/numbers; optional
-  country codes require two letters. These checks validate format only, not
-  membership in the official UN/LOCODE registry.
+  country codes require two letters. The country code is displayed before the
+  location part. These checks validate format only, not membership in the
+  official UN/LOCODE registry.
 - Country selection includes 249 ISO 3166-1 countries and territories, with
   English names supplied by `Intl.DisplayNames`. Existing non-standard country
   names are retained as selectable existing values rather than silently changed.
@@ -28,10 +33,12 @@ issue forms, CLI, API, code-list files, or issue-processing automation.
   Clear either selection to hide the details until a record is chosen. Update
   prefills editable fields; Delete shows the selected code/name without editable
   company/address fields. Reasons are required; comments are optional.
-- Validate displays errors or a confirmation on screen only. It never submits,
-  downloads, stores or sends the entered values anywhere. Switching request type,
-  clearing, or refreshing discards draft entries. Browser extensions and browser
-  autofill are outside the application's control; do not enter private data.
+- Review validates the request and displays a summary before the Submit button.
+  Back returns to the form without clearing values. Submit displays a preview-only
+  confirmation; it never sends, saves, downloads or submits the entered values
+  anywhere. Switching request type, clearing, or refreshing discards draft
+  entries. Browser extensions and browser autofill are outside the application's
+  control; use test contact details rather than private data.
 - Dates and remarks are prefilled without silently substituting processing dates.
   No versioning, deletion semantics or history changes are executed in this demo.
 - If loading the code list fails, the form is disabled and an explicit retry is
@@ -64,11 +71,12 @@ Code, forward port 4173 privately if necessary. Stop it with Ctrl+C.
 If a preview is already running, use `PREVIEW_TEST_PORT=4175 npm run test:browser`
 to run the browser tests on a separate port without stopping it.
 
-The build copies only the web assets (including the logo) and the repository's public combined
-JSON into ignored `dist/`. It never reads the internal enrichment workbook or
-copies the repository into the deployment. Unit tests cover validation and
-prefill; browser tests cover Add/Update/Delete, actual bundled-data loading,
-load failures, mobile layout, and absence of writes/storage/submission.
+The build copies only the web assets (including the logo) and the repository's
+public combined JSON into ignored `dist/`. It never reads the internal
+enrichment workbook or copies the repository into the deployment. Unit tests
+cover validation and prefill; browser tests cover Add/Update/Delete, contact
+details, review and back navigation, actual bundled-data loading, load failures,
+mobile layout, and absence of writes/storage/submission.
 
 ## Optional public deployment
 

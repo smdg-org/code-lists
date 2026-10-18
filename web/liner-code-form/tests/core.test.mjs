@@ -12,7 +12,9 @@ const record = {
   website: "https://example.com", validFrom: "2020-01-01", validTo: "2030-01-01",
   remarks: "Line one\nLine two"
 };
-const values = { ...prefill(record), code: "Z9Z", reason: "" };
+const values = {
+  ...prefill(record), code: "Z9Z", reason: "", contactName: "Test User", contactEmail: "test@example.com"
+};
 
 test("normalization and duplicates are case-insensitive exact matches", () => {
   assert.equal(normalizeCode(" mSk "), "MSK");
@@ -21,10 +23,17 @@ test("normalization and duplicates are case-insensitive exact matches", () => {
 });
 
 test("add requires fields but does not require a reason or comments", () => {
-  for (const key of ["linerName", "carrierType", "street", "postCode", "city", "state", "country", "website", "validFrom"]) {
+  for (const key of ["linerName", "carrierType", "street", "postCode", "city", "state", "country", "website", "validFrom", "contactName", "contactEmail"]) {
     assert.ok(validateRequest("add", { ...values, [key]: "" }, [record])[key], key);
   }
   assert.deepEqual(validateRequest("add", values, [record]), {});
+});
+
+test("contact email is validated for add, update and delete", () => {
+  for (const mode of ["add", "update", "delete"]) {
+    assert.ok(validateRequest(mode, { ...values, code: mode === "add" ? "Z9Z" : "MSK", reason: "Reason", contactEmail: "not-an-email" }, [record]).contactEmail);
+    assert.ok(validateRequest(mode, { ...values, code: mode === "add" ? "Z9Z" : "MSK", reason: "Reason", contactName: "" }, [record]).contactName);
+  }
 });
 
 test("liner codes require exactly three alphanumeric characters", () => {

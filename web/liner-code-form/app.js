@@ -26,6 +26,7 @@ for (const input of form.querySelectorAll("[name]:not([type=radio])")) {
 
 function clearFeedback() {
   result.hidden = true;
+  result.classList.remove("has-errors");
   result.replaceChildren();
   for (const error of form.querySelectorAll(".error")) error.textContent = "";
   for (const input of form.querySelectorAll("[aria-invalid]")) input.removeAttribute("aria-invalid");
@@ -48,6 +49,9 @@ function showCodeOptions() {
 
 function renderMode() {
   form.reset();
+  field("entry-step").hidden = false;
+  field("review-step").hidden = true;
+  field("submit-result").hidden = true;
   field("country").querySelectorAll("[data-existing]").forEach(option => option.remove());
   form.querySelector(`[name=mode][value=${mode}]`).checked = true;
   selector.value = "";
@@ -70,6 +74,50 @@ function renderMode() {
   field("reason").required = !isAdd;
   field("validFrom").required = isAdd;
   field("details-title").textContent = isAdd ? "2. Liner details" : "3. Amend liner details";
+}
+
+function renderSummary(requestValues) {
+  const labels = {
+    mode: "Request type",
+    code: "Liner code",
+    linerName: "Liner name",
+    carrierType: "Carrier type",
+    parentCompany: "Parent company",
+    unCountryCode: "UN Country Code",
+    unLocode: "UN/LOCODE location part",
+    website: "Website",
+    street: "Street",
+    streetNumber: "Street number",
+    floor: "Building / Floor",
+    postCode: "Postal code",
+    city: "City",
+    state: "Area",
+    country: "Country",
+    validFrom: "Valid From",
+    validTo: "Valid To",
+    remarks: "Remarks",
+    reason: mode === "delete" ? "Delete reason" : "Change reason",
+    comments: mode === "delete" ? "Delete comments" : "Change comments",
+    contactName: "Contact name",
+    contactEmail: "Contact email"
+  };
+  const fields = mode === "delete"
+    ? ["mode", "code", "linerName", "reason", "comments", "contactName", "contactEmail"]
+    : ["mode", "code", "linerName", "carrierType", "parentCompany", "website",
+      "unCountryCode", "unLocode", "street", "streetNumber", "floor", "postCode",
+      "city", "state", "country", "validFrom", "validTo", "remarks",
+      ...(mode === "update" ? ["reason", "comments"] : []), "contactName", "contactEmail"];
+  const summary = field("review-summary");
+  summary.replaceChildren();
+  for (const name of fields) {
+    const term = document.createElement("dt");
+    term.textContent = labels[name];
+    const description = document.createElement("dd");
+    description.textContent = name === "mode"
+      ? { add: "Add a code", update: "Update a code", delete: "Delete a code" }[mode]
+      : requestValues[name] || "Not provided";
+    summary.append(term, description);
+  }
 }
 
 function showError(name, message) {
@@ -165,14 +213,15 @@ form.addEventListener("submit", event => {
   event.preventDefault();
   if (controls.disabled) return;
   clearFeedback();
-  const errors = validateRequest(mode, values(), records);
+  const requestValues = values();
+  const errors = validateRequest(mode, requestValues, records);
   for (const [name, message] of Object.entries(errors)) showError(name, message);
   const count = Object.keys(errors).length;
-  result.classList.toggle("has-errors", count > 0);
-  const title = document.createElement("strong");
-  title.textContent = count ? `Please correct ${count} field${count === 1 ? "" : "s"}.` : "Preview validation passed.";
-  result.append(title);
   if (count) {
+    result.classList.add("has-errors");
+    const title = document.createElement("strong");
+    title.textContent = `Please correct ${count} field${count === 1 ? "" : "s"}.`;
+    result.append(title);
     const list = document.createElement("ul");
     for (const message of Object.values(errors)) {
       const item = document.createElement("li");
@@ -180,12 +229,25 @@ form.addEventListener("submit", event => {
       list.append(item);
     }
     result.append(list);
+    result.hidden = false;
+    result.focus();
+    return;
   }
-  const reminder = document.createElement("p");
-  reminder.textContent = "Nothing was submitted, saved, added, updated or deleted.";
-  result.append(reminder);
-  result.hidden = false;
-  result.focus();
+  renderSummary(requestValues);
+  field("entry-step").hidden = true;
+  field("review-step").hidden = false;
+  field("review-step").focus();
+});
+field("back-to-form").addEventListener("click", () => {
+  field("review-step").hidden = true;
+  field("entry-step").hidden = false;
+  field("submit-result").hidden = true;
+  field("actions").querySelector('[type="submit"]').focus();
+});
+field("summary-submit").addEventListener("click", () => {
+  const message = field("submit-result");
+  message.textContent = "This preview did not submit, send or save your request.";
+  message.hidden = false;
 });
 field("clear").addEventListener("click", renderMode);
 field("retry").addEventListener("click", load);

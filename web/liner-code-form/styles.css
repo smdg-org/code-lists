@@ -42,12 +42,14 @@ legend { font-size: 1.3rem; margin-bottom: 1rem; }
 .panel { padding: 1.7rem 2rem; background: #fff; border: 1px solid var(--line); margin-bottom: 1.3rem; }
 h2 { font-size: 1.25rem; margin: 0 0 1.2rem; }
 .hint { font-size: .85rem; color: var(--muted); margin: .45rem 0 1rem; }
-.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem 1.7rem; }
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem 1.7rem; }
+.grid > *, .field { min-width: 0; }
 .full { grid-column: 1 / -1; }
 label { display: block; font-size: .92rem; font-weight: 600; margin-bottom: .4rem; }
 label:has(+ [required])::after { content: " *"; color: var(--error); }
 .required-marker { color: var(--error); font-weight: 600; }
 input, select, textarea { font: inherit; color: var(--ink); background: white; border: 1px solid #93a3b1; border-radius: 2px; padding: .65rem .75rem; width: 100%; min-height: 46px; }
+input[type="date"] { min-width: 0; max-width: 100%; }
 textarea { resize: vertical; }
 input[type="radio"] { accent-color: var(--blue); }
 input[readonly] { background: #edf0f3; }
@@ -68,6 +70,9 @@ button:disabled { cursor: not-allowed; }
 .actions span { font-size: .85rem; color: var(--muted); }
 #validation-result { margin-top: 1rem; }
 #validation-result.has-errors { border-left-color: var(--error); background: #fff4f3; }
+.review-summary { display: grid; grid-template-columns: minmax(9rem, 1fr) minmax(0, 2fr); gap: .5rem 1rem; }
+.review-summary dt { font-weight: 600; }
+.review-summary dd { margin: 0; overflow-wrap: anywhere; white-space: pre-wrap; }
 footer { border-top: 1px solid var(--line); margin-top: 2rem !important; padding: 1.6rem 0 2.5rem; font-size: .85rem; color: var(--muted); }
 .skip-link { position: absolute; top: -100px; background: white; padding: 1rem; z-index: 1; }
 .skip-link:focus { top: 0; }
@@ -78,7 +83,9 @@ footer { border-top: 1px solid var(--line); margin-top: 2rem !important; padding
   .wordmark { width: 200px; }
   .preview-tag { font-size: .65rem; padding: .3rem; }
   .title-band { padding: 2rem 0; }
-  .mode-options, .grid { grid-template-columns: 1fr; }
+  .mode-options, .grid { grid-template-columns: minmax(0, 1fr); }
+  .review-summary { grid-template-columns: 1fr; gap: .1rem; }
+  .review-summary dd { margin-bottom: .8rem; }
   .mode-options { gap: .5rem; }
   .panel { padding: 1.3rem 1rem; }
   .notice { padding: 1rem; }

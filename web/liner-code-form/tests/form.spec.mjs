@@ -43,10 +43,13 @@ test("add: blank carrier, live duplicate error, maxlength and required fields", 
   for (const [id, length] of [["code", "3"], ["unLocode", "3"], ["unCountryCode", "2"]]) {
     await expect(page.locator(`#${id}`)).toHaveAttribute("maxlength", length);
   }
-  await page.getByRole("button", { name: "Validate preview" }).click();
+  await page.getByRole("button", { name: "Review request" }).click();
   for (const id of ["linerName", "carrierType", "street", "postCode", "city", "state", "country", "website"]) {
     await expect(page.locator(`#${id}`)).toHaveAttribute("aria-invalid", "true");
   }
+  await expect(page.locator("#contactName")).toHaveAttribute("aria-invalid", "true");
+  await expect(page.locator("#contactEmail")).toHaveAttribute("aria-invalid", "true");
+  await expect(page.locator("#unCountryCode")).toHaveAttribute("aria-describedby", "country-code-help unCountryCode-error");
   expect(await page.locator("#country option").count()).toBe(250);
 });
 
@@ -60,7 +63,7 @@ test("official logo loads locally and red required markers follow each mode", as
     if (mode !== "add") await page.locator("#existing-code").selectOption("MSK");
     await expect(page.locator("label").filter({ hasText: /\(required/ })).toHaveCount(0);
     const requiredLabels = page.locator("label:visible:has(+ [required])");
-    await expect(requiredLabels).toHaveCount(mode === "add" ? 10 : mode === "update" ? 10 : 1);
+    await expect(requiredLabels).toHaveCount(mode === "delete" ? 3 : 12);
     for (const label of await requiredLabels.all()) {
       expect(await label.evaluate(element => {
         const style = getComputedStyle(element, "::after");
@@ -84,11 +87,20 @@ test("update: selection reveals complete prefill, reason required, clear stays i
   await expect(page.locator("#validTo")).toHaveValue("2030-01-01");
   await expect(page.locator("#remarks")).toHaveValue("Line one\nLine two");
   await expect(page.locator("#code")).toHaveAttribute("readonly", "");
-  await page.getByRole("button", { name: "Validate preview" }).click();
+  await page.locator("#contactName").fill("Test User");
+  await page.locator("#contactEmail").fill("test@example.com");
+  await page.getByRole("button", { name: "Review request" }).click();
   await expect(page.locator("#reason-error")).toContainText("reason");
   await page.locator("#reason").fill("Correct the head-office details");
-  await page.getByRole("button", { name: "Validate preview" }).click();
-  await expect(page.locator("#validation-result")).toContainText("Preview validation passed");
+  await page.getByRole("button", { name: "Review request" }).click();
+  await expect(page.locator("#review-step")).toBeVisible();
+  await expect(page.locator("#review-summary")).toContainText("test@example.com");
+  await page.getByRole("button", { name: "Back" }).click();
+  await expect(page.locator("#reason")).toHaveValue("Correct the head-office details");
+  await expect(page.locator("#contactEmail")).toHaveValue("test@example.com");
+  await page.getByRole("button", { name: "Review request" }).click();
+  await page.getByRole("button", { name: "Submit" }).click();
+  await expect(page.locator("#submit-result")).toContainText("did not submit, send or save");
   await page.getByRole("button", { name: "Clear form" }).click();
   await expect(page.locator('[value="update"][name="mode"]')).toBeChecked();
   await expect(page.locator("#details")).toBeHidden();
@@ -104,8 +116,12 @@ test("delete: reason/comments only, no editable company details", async ({ page 
   await expect(page.locator("#reason-label")).toHaveText("Delete reason");
   await expect(page.locator("#comments-label")).toHaveText("Delete comments (optional)");
   await page.locator("#reason").fill("Preview a deletion request");
-  await page.getByRole("button", { name: "Validate preview" }).click();
-  await expect(page.locator("#validation-result")).toContainText("Preview validation passed");
+  await page.locator("#contactName").fill("Test User");
+  await page.locator("#contactEmail").fill("test@example.com");
+  await page.getByRole("button", { name: "Review request" }).click();
+  await expect(page.locator("#review-step")).toBeVisible();
+  await page.getByRole("button", { name: "Submit" }).click();
+  await expect(page.locator("#submit-result")).toContainText("did not submit, send or save");
 });
 
 for (const mode of ["add", "update", "delete"]) {
@@ -120,16 +136,21 @@ test(`valid ${mode} remains in memory only: no writes, navigation, storage or do
     await page.locator(`[name="mode"][value="${mode}"]`).check();
     await page.locator("#existing-code").selectOption("MSK");
     await page.locator("#reason").fill("Test reason");
+    await page.locator("#contactName").fill("Test User");
+    await page.locator("#contactEmail").fill("test@example.com");
   } else {
     for (const [id, value] of Object.entries({
     code: "Z9Z", linerName: "Test liner", street: "Test Street", postCode: "00123",
-    city: "Test City", state: "Test Area", website: "https://example.com", validFrom: "2025-01-01"
+    city: "Test City", state: "Test Area", website: "https://example.com", validFrom: "2025-01-01",
+    contactName: "Test User", contactEmail: "test@example.com"
     })) await page.locator(`#${id}`).fill(value);
     await page.locator("#carrierType").selectOption("VOCC");
     await page.locator("#country").selectOption({ label: "Denmark" });
   }
-  await page.getByRole("button", { name: "Validate preview" }).click();
-  await expect(page.locator("#validation-result")).toContainText("Preview validation passed");
+  await page.getByRole("button", { name: "Review request" }).click();
+  await expect(page.locator("#review-step")).toBeVisible();
+  await page.getByRole("button", { name: "Submit" }).click();
+  await expect(page.locator("#submit-result")).toContainText("did not submit, send or save");
   expect(page.url()).toBe(originalUrl);
   expect(requests.every(request => request.method === "GET" && new URL(request.url).origin === new URL(originalUrl).origin)).toBe(true);
   expect(downloads).toEqual([]);
@@ -137,6 +158,7 @@ test(`valid ${mode} remains in memory only: no writes, navigation, storage or do
     .toEqual({ local: 0, session: 0, cookies: "" });
   await page.reload();
   await expect(page.locator("#code")).toHaveValue("");
+  await expect(page.locator("#contactName")).toHaveValue("");
 });
 }
 
@@ -162,6 +184,7 @@ for (const mode of ["update", "delete"]) {
     test(`${mode}: selecting ${selection} loads the record and synchronizes both optional dropdowns`, async ({ page }) => {
       await open(page, [record, { ...record, linerSMDGCode: "AAA", linerName: "Another liner" }]);
       await page.locator(`[name="mode"][value="${mode}"]`).check();
+      await expect(page.locator("#contact-section")).toBeHidden();
       for (const id of ["existing-code", "existing-name"]) {
         await expect(page.locator(`#${id}`)).not.toHaveAttribute("required");
       }
@@ -172,6 +195,7 @@ for (const mode of ["update", "delete"]) {
         "----- Select a name -----", "Another liner", "Maersk"
       ]);
       await page.locator(`#${selection}`).selectOption("MSK");
+      await expect(page.locator("#contact-section")).toBeVisible();
       await expect(page.locator("#existing-code")).toHaveValue("MSK");
       await expect(page.locator("#existing-name")).toHaveValue("MSK");
       await expect(page.locator("#details")).toBeVisible();
@@ -246,6 +270,16 @@ test("mobile form fits viewport and supports keyboard selection", async ({ page 
   await open(page);
   await expect(page.getByRole("heading", { name: "Liner code requests" })).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  for (const id of ["validFrom", "validTo"]) {
+    const bounds = await page.locator(`#${id}`).evaluate(element => ({
+      left: element.getBoundingClientRect().left,
+      right: element.getBoundingClientRect().right,
+      parentRight: element.closest(".field").getBoundingClientRect().right
+    }));
+    expect(bounds.left).toBeGreaterThanOrEqual(0);
+    expect(bounds.right).toBeLessThanOrEqual(375);
+    expect(bounds.right).toBeLessThanOrEqual(bounds.parentRight);
+  }
   await page.locator('[name="mode"][value="update"]').focus();
   await page.keyboard.press("Space");
   await expect(page.locator("#existing-section")).toBeVisible();
