@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
-  <meta name="description" content="Preview-only SMDG liner-code request form. No requests are submitted or saved.">
+  <meta name="description" content="SMDG liner-code request preview with an optional browser-local workflow demo. No official submissions.">
   <title>Liner code request preview | SMDG</title>
   <link rel="stylesheet" href="styles.css">
   <script type="module" src="app.js"></script>
@@ -27,12 +27,24 @@
     </div>
   </div>
   <main id="main" class="container">
-    <aside class="notice" aria-label="Preview limitations">
+    <nav class="actions" aria-label="Demo navigation">
+      <a href="reviewer.html">Open reviewer login demo</a>
+      <a href="./?demo=1">Submit a test request to the review workspace</a>
+    </nav>
+    <aside id="preview-notice" class="notice" aria-label="Preview limitations">
       <strong>Demonstration only. Nothing will be submitted.</strong>
       <p>Explore the form and validate your entries. No codes are added, updated or deleted.
         No issues, pull requests, files or downloads are created, and entered data is not saved or sent.
         Contact fields are required to preview the flow; use test details only. Refreshing or changing request type clears your entries.</p>
     </aside>
+    <section class="notice" aria-label="Workflow demo mode">
+      <label for="workflow-demo"><input id="workflow-demo" type="checkbox"> Enable browser-local workflow demo</label>
+      <p id="workflow-disclosure">Optional: save fictional requests, including contact details, in this browser for review.
+        They are not sent to SMDG or shared across devices. No email, API, GitHub issue or pull request is created.
+        The reviewer panel can edit and publish to a local demo list only. Never enter real personal details.
+        Changing this mode clears unsaved form entries.</p>
+      <button id="refresh-demo-list" type="button" class="secondary" hidden>Refresh demo list without clearing entries</button>
+    </section>
     <p id="data-status" role="status">Loading the public code-list snapshot...</p>
     <button id="retry" type="button" hidden>Retry loading code list</button>
     <noscript><p class="notice">JavaScript is required for code lookup and validation. There is no submission fallback.</p></noscript>
@@ -105,7 +117,7 @@
           <section id="delete-summary" class="panel" hidden>
             <h2>Selected liner</h2>
             <p id="selected-liner"></p>
-            <p>This is a deletion-request preview only. No record will be removed or marked for deletion.</p>
+            <p id="delete-help">This is a deletion-request preview only. No record will be removed or marked for deletion.</p>
           </section>
           <section id="reason-section" class="panel" hidden>
             <h2>About this request</h2>
@@ -114,7 +126,7 @@
           </section>
           <section id="contact-section" class="panel">
             <h2>Contact information</h2>
-            <p class="hint">Information will not be saved and will be used only for contact purposes. This preview does not send it.</p>
+            <p id="contact-help" class="hint">Information will not be saved and will be used only for contact purposes. This preview does not send it.</p>
             <div class="grid">
               <div class="field"><label for="contactName">Name</label><input id="contactName" name="contactName" required></div>
               <div class="field"><label for="contactEmail">Email</label><input id="contactEmail" name="contactEmail" type="email" required></div>
@@ -124,12 +136,12 @@
         <div id="actions" class="actions">
           <button type="submit">Review request</button>
           <button id="clear" type="button" class="secondary">Clear form</button>
-          <span>No submission or saving</span>
+          <span id="submission-help">No submission or saving</span>
         </div>
         </div>
         <section id="review-step" class="panel" aria-labelledby="review-title" tabindex="-1" hidden>
           <h2 id="review-title">Review your request</h2>
-          <p class="hint">Check the details below. Submitting this preview will not send or save anything.</p>
+          <p id="summary-help" class="hint">Check the details below. Submitting this preview will not send or save anything.</p>
           <dl id="review-summary" class="review-summary"></dl>
           <div class="actions">
             <button id="summary-submit" type="button">Submit</button>
@@ -139,6 +151,13 @@
         </section>
       </fieldset>
     </form>
+    <section id="demo-confirmation" class="panel" tabindex="-1" aria-labelledby="confirmation-title" hidden>
+      <h2 id="confirmation-title">Test request saved</h2>
+      <p id="confirmation-reference"></p>
+      <p>Status: Pending review. Unassigned. No email was sent and no official data changed.
+        The request and fictional contact details are saved in this browser only.</p>
+      <div class="actions"><a id="open-saved-request" href="reviewer.html">Open in reviewer panel</a><button id="submit-another" type="button">Submit another test request</button></div>
+    </section>
     <section id="validation-result" class="notice" role="status" tabindex="-1" hidden></section>
   </main>
   <footer class="container">

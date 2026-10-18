@@ -1,10 +1,11 @@
 # Liner-code form preview
 
-A standalone, static **demonstration**, not a submission service. It supports
-Add, Update and Delete request previews. It does not change the existing GitHub
-issue forms, CLI, API, code-list files, or issue-processing automation.
+A standalone, static **demonstration**, not an official submission service. It
+supports Add, Update and Delete previews and an opt-in browser-local review
+workflow. It does not change existing GitHub issue forms, CLI, API, repository
+code-list files, or issue-processing automation.
 
-## Behavior
+## Default preview behavior (workflow demo off)
 
 - Add has no change reason or change comments. Duplicate liner codes are checked
   against the bundled `_combined.json`, ignoring case and surrounding whitespace.
@@ -57,6 +58,126 @@ red accents and document layout. The official SMDG logo is bundled locally from
 the property of SMDG. No site photographs, fonts or stylesheets are copied or
 loaded. No analytics or third-party runtime services are included.
 
+## End-to-end workflow demo
+
+The form's **Enable browser-local workflow demo** checkbox opts into local
+persistence. The reviewer panel's **Submit a test request** link opens the form
+with `?demo=1` and this mode enabled. Unlike the default preview, this mode saves
+requests, including fictional contact information, in `localStorage`. The page
+discloses this before submission and replaces the preview-only privacy text.
+Never enter real personal information.
+
+The form also has a **Submit a test request to the review workspace** link.
+Use the same browser and origin (including port) for both pages. Submit a test
+request, then follow **Open in reviewer panel** and sign in to open that request
+directly. It also appears as a card under **All tasks**.
+
+### Login and task cards
+
+Open **Open reviewer login demo** from the request form, or visit
+`reviewer.html`. Use the public demonstration username `linercodelists` and
+password `SMDGLCL2026` to open all demo tasks directly. There is no personal
+profile-selection step. Open a task to optionally assign it to one of these names:
+
+- Javier Moral
+- Thalke Diepenbrock
+- Mark Lim
+- Jasmin Dronner
+- Anna Eder
+
+Anyone with the shared demo login can view all tasks, assign or reassign each
+task to any name, or return it to Unassigned; this does not verify anyone's identity.
+For pending/under-review requests, assignment sets Under review and unassignment
+returns Pending review. Needs information is preserved during reassignment.
+Assignment is not required to open a task. The credentials are
+intentionally public demo values in the static source, not secrets or real
+authentication. Never reuse them for a real account.
+
+Only the simulated login session is held in page memory. Sign out, refresh or
+leaving requires signing in again, but saved requests and assignments survive.
+Passwords are cleared after every attempt and are not written to storage.
+Browser password managers and extensions remain outside the application's
+control.
+
+The workspace initializes once with the deployment snapshot and three complete
+sample requests (Add, Update, Delete), with fictional contacts. All tasks are
+cards with reference, code, liner, action, status, assignee and submission date.
+Search and status/assignee filters work across the queue. Only Liner Codes is
+enabled; requests include a list identifier for explicit routing.
+
+### Request screens and actions
+
+Opening a card displays the original contact and request details, assignment
+and history. Add shows the editable proposal without a comparison table.
+Update shows the editable proposal and current/original/proposed comparison,
+with changed rows highlighted. Delete shows only the record details, without
+a proposal editor or comparison table. Open deletion requests display the
+current record; closed requests retain their saved baseline. If the record is
+missing, its saved baseline is labelled explicitly and publication is blocked.
+Original submissions and original baselines remain intact when proposals change.
+
+- Assign, reassign or unassign inside the request. No identity selector appears
+  after login. Assign before taking review actions; the shared account can act
+  for any assignee.
+- **Save draft** is optional and can retain incomplete proposals. Publication
+  always reuses the form's validation rules.
+- **Add note**, **Needs information**, **Resume review** and **Reject request**
+  retain proposal edits and append history. Notes/reasons are required for
+  notes, clarification and rejection. Clarification retains the assignee.
+  No email or secure requester reply link is sent; enter agreed corrections
+  directly after simulated contact.
+- **Approve and publish - demo** validates and previews the exact final values
+  in a confirmation dialog. It directly adds/updates/removes the demo record;
+  no separate save, requester resubmission or second approval is required.
+- Rejection and publication close the request against further actions.
+  Failed saves never show a successful outcome. Cancelled dialogs retain edits;
+  leaving a dirty proposal prompts before discarding it.
+- **Delete request** on the detail screen permanently removes any demo request,
+  including closed requests, contacts, notes and history, after confirmation.
+  It does not require assignment and does not undo earlier publication or
+  change the demo code list. Cancel keeps unsaved edits. Stale versions and
+  failed storage writes block deletion without losing the request. This is a
+  demo cleanup feature, not production retention or audit policy.
+- The **Demo code list** screen supports searching, paged record details and
+  a JSON download. It contains only liner fields, excluding requester contacts,
+  request reasons and reviewer notes. Subsequent test forms use this updated
+  list, so an added code can then be updated or deleted.
+
+Deletion removes the code from the demo list, not from request history. The demo
+uses a projection of public liner fields, not production versioning, activation,
+change-log or deletion semantics. No official dataset, release or API changes.
+
+### Storage, conflicts and workspace tools
+
+`workflow.js` shares validation, lifecycle and storage between the two pages.
+The versioned workspace (`smdg-liner-workflow-demo-v1`) is one localStorage
+document containing records and requests. Writes use browser Web Locks on
+localhost/HTTPS, re-read the latest workspace, and save atomically. Unsupported
+browsers, denied storage, quota failures and invalid stored data fail explicitly
+without silently recreating the workspace.
+
+Request versions block stale actions from another tab. A saved record baseline
+blocks stale Update/Delete publication; duplicate Add and repeat publication
+are blocked too. After comparing current/original/proposed values, a reviewer
+can explicitly acknowledge a changed baseline with a note. This retains the
+proposal, does not silently merge fields, and records the acknowledgement.
+A removed code cannot be rebased. Stale form submission retains entries and
+offers a demo-list refresh before reviewing again.
+
+**Workspace tools** provides:
+
+- Export JSON with a warning that fictional contacts and notes are included.
+- Validate and import JSON (8 MB maximum), with confirmation before replacing
+  the entire workspace; no merge. A concurrent change blocks replacement.
+- Reset, with confirmation, to the deployment snapshot and fresh sample requests.
+
+Storage is limited to one browser profile and origin (including port). It is
+not shared across people/devices, not private from other users of that browser,
+and not tamper-proof. Export/import can move a test workspace manually. This
+simulation provides no genuine authentication, authorization or audit guarantee.
+Production needs a backend and real identity/storage/publication services;
+API integration remains out of scope.
+
 ## Run and test locally
 
 Requires Node.js 22+ (24 used in CI), npm, and Python 3 for the preview server.
@@ -79,9 +200,12 @@ to run the browser tests on a separate port without stopping it.
 The build copies only the web assets (including the logo) and the repository's
 public combined JSON into ignored `dist/`. It never reads the internal
 enrichment workbook or copies the repository into the deployment. Unit tests
-cover validation and prefill; browser tests cover Add/Update/Delete, contact
-details, review and back navigation, actual bundled-data loading, load failures,
-mobile layout, and absence of writes/storage/submission.
+cover form validation, prefill, lifecycle, conflicts, imports and publication.
+Browser tests cover Add/Update/Delete end to end, contact disclosures, cards,
+assignment, editable comparisons, clarification/rejection, persistence,
+concurrent tabs, downloads/import/reset, storage failures and mobile layout.
+The original preview regressions still verify absence of writes, storage and
+submission when workflow mode is off.
 The mobile Safari/WebKit regression checks empty and populated date fields at
 320, 375, 390 and 430 pixels wide against the Remarks field boundaries.
 
@@ -93,7 +217,7 @@ website. No PR or merge into `main` is required to publish this preview:
 
 1. Run the unit and browser tests, then `npm run build`.
 2. In a separate worktree for the latest `gh-pages`, copy only the built
-   `index.html`, `styles.css`, `app.js`, `core.js`, `countries.js`,
+   `index.html`, `reviewer.html`, `reviewer.js`, `workflow.js`, `styles.css`, `app.js`, `core.js`, `countries.js`,
    `smdg-logo.png` and `data/_combined.json` from `dist/`.
 3. Preserve `.nojekyll`, review the deployment diff, and commit with the source
    commit identifier.
