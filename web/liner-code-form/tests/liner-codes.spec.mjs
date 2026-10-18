@@ -135,6 +135,52 @@ test("search fields and separate details panel fit mobile screens", async ({ pag
   }
 });
 
+test("full unfiltered snapshot uses readable mobile cards and a desktop table", async ({ page }) => {
+  await page.goto("/liner-codes.html");
+  await expect(page.getByLabel("Search by code", { exact: true })).toBeEnabled();
+  await expect(page.locator("#list-rows tr")).toHaveCount(25);
+  for (const width of [320, 375, 390, 430, 640, 768, 1080]) {
+    await page.setViewportSize({ width, height: 844 });
+    const mobile = width <= 640;
+    const rows = page.locator("#list-rows tr");
+    await expect(rows.first()).toHaveCSS("display", mobile ? "grid" : "table-row");
+    for (const row of await rows.all()) {
+      const code = row.locator("td").first();
+      const button = row.getByRole("button");
+      for (const element of [code, button]) {
+        const dimensions = await element.evaluate(element => {
+          const style = getComputedStyle(element);
+          return { height: element.clientHeight,
+            oneLine: parseFloat(style.lineHeight) + parseFloat(style.paddingTop) + parseFloat(style.paddingBottom),
+            fits: element.scrollWidth <= element.clientWidth };
+        });
+        expect(dimensions.fits).toBe(true);
+        if (mobile || element === button) {
+          expect(dimensions.height).toBeLessThanOrEqual(Math.ceil(dimensions.oneLine) + 1);
+        }
+      }
+      if (mobile) {
+        await expect(row.locator("td").nth(2)).toHaveAttribute("data-label", "Country");
+        await expect(row.locator("td").nth(3)).toHaveAttribute("data-label", "Status");
+        const bounds = await row.boundingBox();
+        expect(bounds.x).toBeGreaterThanOrEqual(0);
+        expect(bounds.x + bounds.width).toBeLessThanOrEqual(width);
+        expect(bounds.height).toBeLessThan(360);
+      }
+    }
+    expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);
+  }
+  await page.setViewportSize({ width: 375, height: 844 });
+  await page.getByRole("button", { name: "Details for AAA", exact: true }).click();
+  await expect(page.locator("#record-panel")).toBeVisible();
+  await expect(page.locator("#record-title")).toBeFocused();
+  await page.getByRole("button", { name: "Close details", exact: true }).click();
+  await expect(page.getByRole("button", { name: "Details for AAA", exact: true })).toBeFocused();
+  await page.getByRole("button", { name: "Next page", exact: true }).click();
+  await expect(page.locator("#list-page")).toContainText("Page 2");
+  await expect(page.locator("#list-rows tr")).toHaveCount(25);
+});
+
 test("pagination covers every match and resets when filters change", async ({ page }) => {
   const records = Array.from({ length: 51 }, (_, index) => ({
     ...record, linerSMDGCode: `A${String(index).padStart(2, "0")}`, linerName: `Carrier ${index}`

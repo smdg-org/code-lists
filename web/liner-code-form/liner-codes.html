@@ -76,10 +76,10 @@
     </section>
     <section id="list-results" aria-label="Liner code results" hidden>
       <div class="table-scroll" role="region" aria-label="Scrollable liner code list" tabindex="0">
-        <table class="catalog-table">
+        <table class="catalog-table" role="table">
           <caption>Published snapshot entries. Select Details to view the full liner record in a separate panel.</caption>
-          <thead><tr><th scope="col">Code</th><th scope="col">Liner name</th><th scope="col">Country</th><th scope="col">Status</th><th scope="col">Record</th></tr></thead>
-          <tbody id="list-rows"></tbody>
+          <thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader">Code</th><th scope="col" role="columnheader">Liner name</th><th scope="col" role="columnheader">Country</th><th scope="col" role="columnheader">Status</th><th scope="col" role="columnheader">Record</th></tr></thead>
+          <tbody id="list-rows" role="rowgroup"></tbody>
         </table>
       </div>
       <nav class="actions" aria-label="Code list pages">

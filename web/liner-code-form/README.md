@@ -19,6 +19,9 @@ unsafe website values remain plain text. Details appear in a separate panel
 above the table, with focus moved to the record heading. **Close details**
 returns focus to the entry's button. Filtering, sorting or changing pages
 closes the panel so it cannot show a stale selection.
+At mobile widths (640 pixels and below), results use full-width cards instead
+of squeezed table columns. Codes and Details buttons stay on one line;
+country and status retain visible labels. Desktop keeps the table layout.
 
 **Fill a new request** links to the existing form at `./`, initially in Add mode.
 The form also links back to the list. Reviewer navigation remains separate.

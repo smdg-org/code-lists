@@ -65,15 +65,19 @@ function render() {
   const rows = document.createDocumentFragment();
   for (const record of visible) {
     const row = document.createElement("tr");
-    for (const value of [
-      record.linerSMDGCode, record.linerName,
-      record.addressLocation?.address?.country || "Not provided", statusLabel(record)
+    row.setAttribute("role", "row");
+    for (const [label, value] of [
+      ["Code", record.linerSMDGCode], ["Liner name", record.linerName],
+      ["Country", record.addressLocation?.address?.country || "Not provided"], ["Status", statusLabel(record)]
     ]) {
       const cell = document.createElement("td");
+      cell.setAttribute("role", "cell");
+      cell.dataset.label = label;
       cell.textContent = value;
       row.append(cell);
     }
     const cell = document.createElement("td");
+    cell.setAttribute("role", "cell");
     const button = document.createElement("button");
     button.type = "button";
     button.className = "secondary";
