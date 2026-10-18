@@ -46,6 +46,20 @@ function validDate(value) {
   return !Number.isNaN(date.valueOf()) && date.toISOString().slice(0, 10) === value;
 }
 
+export function websiteHref(value) {
+  const website = String(value ?? "").trim();
+  if (!/^(www\.|https?:\/\/)/i.test(website) || /\s/.test(website)) return "";
+  try {
+    const withoutScheme = /^www\./i.test(website);
+    const url = new URL(withoutScheme ? `https://${website}` : website);
+    if (!["http:", "https:"].includes(url.protocol)
+        || (withoutScheme && !/^www\.[^.]+\..+$/i.test(url.hostname))) return "";
+    return url.href;
+  } catch {
+    return "";
+  }
+}
+
 export function validateRequest(mode, values, records) {
   const errors = {};
   if (!["add", "update", "delete"].includes(mode)) {
@@ -88,18 +102,8 @@ export function validateRequest(mode, values, records) {
   if (values.unCountryCode && !/^[A-Z]{2}$/.test(normalizeCode(values.unCountryCode))) {
     errors.unCountryCode = "Use exactly 2 letters.";
   }
-  if (values.website) {
-    try {
-      const website = values.website.trim();
-      const withoutScheme = /^www\./i.test(website);
-      const url = new URL(withoutScheme ? `https://${website}` : website);
-      if (!["https:", "http:"].includes(url.protocol)) throw new Error("Invalid protocol");
-      if (/\s/.test(website) || (withoutScheme && !/^www\.[^.]+\..+$/i.test(url.hostname))) {
-        throw new Error("Invalid website address");
-      }
-    } catch {
-      errors.website = "Enter a website address starting with www., http:// or https://.";
-    }
+  if (values.website && !websiteHref(values.website)) {
+    errors.website = "Enter a website address starting with www., http:// or https://.";
   }
   if (mode === "add" && !values.validFrom) errors.validFrom = "Valid From is required for a new code.";
   for (const field of ["validFrom", "validTo"]) {

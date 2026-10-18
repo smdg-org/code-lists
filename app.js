@@ -1,5 +1,6 @@
 import { normalizeCode, prefill, validateRecords, validateRequest } from "./core.js";
 import { countries } from "./countries.js";
+import { linkedValue, websiteShortcut } from "./links.js";
 import { DemoStore, submitRequest, WORKSPACE_KEY } from "./workflow.js";
 
 const form = document.querySelector("#request-form");
@@ -15,6 +16,7 @@ const demo = new URL(location.href).searchParams.get("preview") !== "1";
 let workspace;
 let pendingRequest;
 const store = new DemoStore();
+const updateWebsiteShortcut = websiteShortcut(field("website"));
 
 function demoCopy() {
   field("preview-notice").hidden = demo;
@@ -72,6 +74,7 @@ function showCodeOptions() {
 function renderMode() {
   pendingRequest = null;
   form.reset();
+  updateWebsiteShortcut();
   form.hidden = false;
   field("demo-confirmation").hidden = true;
   field("summary-submit").disabled = false;
@@ -145,6 +148,7 @@ function renderSummary(requestValues) {
     description.textContent = name === "mode"
       ? { add: "Add a code", update: "Update a code", delete: "Delete a code" }[mode]
       : requestValues[name] || "Not provided";
+    if (["website", "contactEmail"].includes(name)) linkedValue(description, name, requestValues[name]);
     if (Object.hasOwn(original, name) && String(original[name]).trim() !== requestValues[name]) {
       term.classList.add("changed");
       description.classList.add("changed");
@@ -238,6 +242,7 @@ function selectRecord(code) {
     } else input.value = value;
   }
   field("selected-liner").textContent = `${record.linerSMDGCode} - ${record.linerName}`;
+  updateWebsiteShortcut();
 }
 selector.addEventListener("change", () => selectRecord(selector.value));
 nameSelector.addEventListener("change", () => selectRecord(nameSelector.value));
