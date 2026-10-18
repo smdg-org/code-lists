@@ -108,6 +108,9 @@ function renderSummary(requestValues) {
       "city", "state", "country", "validFrom", "validTo", "remarks",
       ...(mode === "update" ? ["reason", "comments"] : []), "contactName", "contactEmail"];
   const summary = field("review-summary");
+  const original = mode === "update"
+    ? prefill(records.find(record => record.linerSMDGCode === requestValues.code))
+    : {};
   summary.replaceChildren();
   for (const name of fields) {
     const term = document.createElement("dt");
@@ -116,6 +119,18 @@ function renderSummary(requestValues) {
     description.textContent = name === "mode"
       ? { add: "Add a code", update: "Update a code", delete: "Delete a code" }[mode]
       : requestValues[name] || "Not provided";
+    if (Object.hasOwn(original, name) && String(original[name]).trim() !== requestValues[name]) {
+      term.classList.add("changed");
+      description.classList.add("changed");
+      const marker = document.createElement("strong");
+      marker.className = "change-marker";
+      marker.textContent = "Changed";
+      const previous = document.createElement("span");
+      previous.className = "previous-value";
+      previous.textContent = `Previously: ${original[name] || "Not provided"}`;
+      description.prepend(marker);
+      description.append(previous);
+    }
     summary.append(term, description);
   }
 }

@@ -73,6 +73,9 @@ button:disabled { cursor: not-allowed; }
 .review-summary { display: grid; grid-template-columns: minmax(9rem, 1fr) minmax(0, 2fr); gap: .5rem 1rem; }
 .review-summary dt { font-weight: 600; }
 .review-summary dd { margin: 0; overflow-wrap: anywhere; white-space: pre-wrap; }
+.review-summary .changed { background: #fff4d6; padding: .5rem; }
+.change-marker { display: block; color: var(--navy); }
+.previous-value { display: block; margin-top: .4rem; color: var(--muted); }
 footer { border-top: 1px solid var(--line); margin-top: 2rem !important; padding: 1.6rem 0 2.5rem; font-size: .85rem; color: var(--muted); }
 .skip-link { position: absolute; top: -100px; background: white; padding: 1rem; z-index: 1; }
 .skip-link:focus { top: 0; }
