@@ -65,7 +65,7 @@ Requires Node.js 22+ (24 used in CI), npm, and Python 3 for the preview server.
 cd web/liner-code-form
 npm ci
 npm test
-npx playwright install --with-deps chromium
+npx playwright install --with-deps chromium webkit
 npm run test:browser
 npm run build
 npm run preview
@@ -82,6 +82,8 @@ enrichment workbook or copies the repository into the deployment. Unit tests
 cover validation and prefill; browser tests cover Add/Update/Delete, contact
 details, review and back navigation, actual bundled-data loading, load failures,
 mobile layout, and absence of writes/storage/submission.
+The mobile Safari/WebKit regression checks empty and populated date fields at
+320, 375, 390 and 430 pixels wide against the Remarks field boundaries.
 
 ## Current public deployment
 
