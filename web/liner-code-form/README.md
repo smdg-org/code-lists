@@ -27,6 +27,9 @@ no-save/no-send preview behavior described below.
   confirmations and demo list details. `www.` links use HTTPS without changing
   stored text. Invalid/unsafe addresses remain plain text. Contact emails use
   explicit mail links rather than relying on mobile automatic detection.
+  Mail links prefill `SMDG Liner Code Request - {code} - {linerName}` using
+  the original request's code and liner name (the form summary uses its entered
+  values). The subject is URL-encoded and remains editable in the mail app.
 - Name and a valid email address are required as contact details for all three
   request types. They are held in browser memory only. The preview does not
   transmit or save them; a real service could use them only to contact the

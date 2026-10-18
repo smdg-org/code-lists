@@ -148,7 +148,7 @@ function renderSummary(requestValues) {
     description.textContent = name === "mode"
       ? { add: "Add a code", update: "Update a code", delete: "Delete a code" }[mode]
       : requestValues[name] || "Not provided";
-    if (["website", "contactEmail"].includes(name)) linkedValue(description, name, requestValues[name]);
+    if (["website", "contactEmail"].includes(name)) linkedValue(description, name, requestValues[name], requestValues);
     if (Object.hasOwn(original, name) && String(original[name]).trim() !== requestValues[name]) {
       term.classList.add("changed");
       description.classList.add("changed");

@@ -582,10 +582,14 @@ test("mobile website shortcuts and read-only website/email links use explicit sa
   await expect(summaryLink).toHaveAttribute("target", "_blank");
   await expect(summaryLink).toHaveAttribute("rel", "noopener noreferrer");
   await expect(page.locator('#review-summary a[href^="mailto:"]')).toHaveText("fictional@example.com");
+  const subject = "SMDG Liner Code Request - MSK - Example Carrier";
+  const expectedMail = `mailto:fictional%40example.com?subject=${encodeURIComponent(subject)}`;
+  await expect(page.locator('#review-summary a[href^="mailto:"]')).toHaveAttribute("href", expectedMail);
   await page.getByRole("button", { name: "Submit", exact: true }).click();
   await expect(page.locator("#demo-confirmation")).toBeVisible();
   await reviewLatest(page);
   await expect(page.locator('#request-info a[href^="mailto:"]')).toHaveText("fictional@example.com");
+  await expect(page.locator('#request-info a[href^="mailto:"]')).toHaveAttribute("href", expectedMail);
   await assign(page);
   const shortcut = page.getByRole("link", { name: "Open website (new tab)", exact: true });
   await expect(shortcut).toHaveAttribute("href", "https://www.example.com/new");

@@ -1,11 +1,15 @@
 import { websiteHref } from "./core.js";
 
-export function linkedValue(container, name, value) {
+export function linkedValue(container, name, value, request) {
   container.textContent = value || "Not provided";
   let href = "";
   if (name === "website") href = websiteHref(value);
   if (name === "contactEmail" && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value ?? "")) {
     href = `mailto:${encodeURIComponent(value.trim())}`;
+    if (request) {
+      const subject = `SMDG Liner Code Request - ${request.code} - ${request.linerName}`;
+      href += `?subject=${encodeURIComponent(subject)}`;
+    }
   }
   if (href) {
     const link = document.createElement("a");
