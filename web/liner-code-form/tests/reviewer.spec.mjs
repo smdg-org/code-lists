@@ -47,6 +47,12 @@ async function submit(page) {
   await page.getByRole("button", { name: "Submit test request", exact: true }).click();
   await expect(page.locator("#demo-confirmation")).toBeVisible();
 }
+async function reviewLatest(page) {
+  await page.goto("/reviewer.html");
+  await signIn(page);
+  await page.locator(".task-card").first().getByRole("button").click();
+  await expect(page.locator("#detail-step")).toBeVisible();
+}
 
 test("real bundled snapshot initializes full request cards without errors", async ({ page }) => {
   const errors = [];
@@ -69,8 +75,7 @@ test("real bundled snapshot initializes full request cards without errors", asyn
 
 test("shared login rejects bad credentials and opens all cards directly", async ({ page }) => {
   await route(page);
-  await page.goto("/");
-  await page.getByRole("link", { name: "Open reviewer login demo" }).click();
+  await page.goto("/reviewer.html");
   await page.getByRole("button", { name: "Sign in to demo" }).click();
   await expect(page.locator("#login-error")).toContainText("incorrect");
   await page.getByLabel("Demo username").fill("linercodelists");
@@ -189,8 +194,7 @@ test("form Add, reviewer direct publish, then form Update and Delete affect only
   await page.getByRole("button", { name: "Back", exact: true }).click();
   await expect(page.locator("#city")).toHaveValue("Test City");
   await submit(page);
-  await page.getByRole("link", { name: "Open in reviewer panel" }).click();
-  await signIn(page);
+  await reviewLatest(page);
   await assign(page);
   await page.getByLabel("City", { exact: true }).fill("Agreed City");
   await page.getByRole("button", { name: "Approve and publish - demo", exact: true }).click();
@@ -213,7 +217,7 @@ test("form Add, reviewer direct publish, then form Update and Delete affect only
   await page.locator("#demo-records summary").click();
   await expect(page.locator("#demo-records")).toContainText("Agreed City");
   for (const mode of ["update", "delete"]) {
-    await page.getByRole("link", { name: "Submit a test request", exact: true }).click();
+    await page.goto("/?demo=1");
     await expect(page.locator("#code")).toBeEnabled();
     await page.locator(`[name=mode][value=${mode}]`).check();
     await page.locator("#existing-code").selectOption("Z9Z");
@@ -224,8 +228,7 @@ test("form Add, reviewer direct publish, then form Update and Delete affect only
     }
     await contact(page);
     await submit(page);
-    await page.getByRole("link", { name: "Open in reviewer panel" }).click();
-    await signIn(page);
+    await reviewLatest(page);
     await assign(page, "Mark Lim");
     await page.getByRole("button", { name: "Approve and publish - demo", exact: true }).click();
     await confirm(page);
@@ -377,7 +380,7 @@ test("blocked storage fails explicitly and leaves the preview usable", async ({ 
   });
   await page.goto("/");
   await expect(page.locator("#code")).toBeEnabled();
-  await page.getByRole("link", { name: "Open reviewer login demo" }).click();
+  await page.goto("/reviewer.html");
   await page.getByLabel("Demo username").fill("linercodelists");
   await page.getByLabel("Demo password").fill("SMDGLCL2026");
   await page.getByRole("button", { name: "Sign in to demo" }).click();
@@ -533,10 +536,11 @@ test("failed and stale deletions do not remove requests", async ({ page }) => {
   expect((await workspace(page)).requests).toHaveLength(3);
 });
 
-test("form's direct workflow link opens connected submission mode", async ({ page }) => {
+test("standalone pages have no cross-navigation but share submitted requests", async ({ page }) => {
   await route(page);
   await page.goto("/");
-  await page.getByRole("link", { name: "Submit a test request to the review workspace", exact: true }).click();
+  await expect(page.locator('a[href*="reviewer"]')).toHaveCount(0);
+  await page.goto("/?demo=1");
   await expect(page.locator("#code")).toBeEnabled();
   await expect(page.locator("#workflow-demo")).toBeChecked();
   await expect(page.locator("#contact-help")).toContainText("saved in this browser");
@@ -545,8 +549,9 @@ test("form's direct workflow link opens connected submission mode", async ({ pag
   await page.locator("#reason").fill("Request from the connected form");
   await contact(page);
   await submit(page);
-  await page.getByRole("link", { name: "Open in reviewer panel", exact: true }).click();
-  await signIn(page);
+  await expect(page.locator('a[href*="reviewer"]')).toHaveCount(0);
+  await reviewLatest(page);
+  await expect(page.locator('a[href="./"], a[href*="?demo=1"]')).toHaveCount(0);
   await expect(page.locator("#request-info")).toContainText("Request from the connected form");
   await expect(page.locator("#request-info")).toContainText("fictional@example.com");
   await page.getByRole("button", { name: "Back to all tasks" }).click();

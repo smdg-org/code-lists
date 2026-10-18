@@ -61,21 +61,22 @@ loaded. No analytics or third-party runtime services are included.
 ## End-to-end workflow demo
 
 The form's **Enable browser-local workflow demo** checkbox opts into local
-persistence. The reviewer panel's **Submit a test request** link opens the form
-with `?demo=1` and this mode enabled. Unlike the default preview, this mode saves
+persistence. Opening the form with `?demo=1` enables this mode directly.
+Unlike the default preview, this mode saves
 requests, including fictional contact information, in `localStorage`. The page
 discloses this before submission and replaces the preview-only privacy text.
 Never enter real personal information.
 
-The form also has a **Submit a test request to the review workspace** link.
-Use the same browser and origin (including port) for both pages. Submit a test
-request, then follow **Open in reviewer panel** and sign in to open that request
-directly. It also appears as a card under **All tasks**.
+The public form and reviewer workspace are standalone pages with no navigation
+links between them, including after submission. Open the form at `?demo=1`
+and the reviewer workspace separately at `reviewer.html`. Use the same browser
+and origin (including port) for both pages. Submitted requests appear as cards
+under **All tasks** after signing in. Separate URLs do not provide security or
+separate-domain hosting; sharing local demo data still requires the same origin.
 
 ### Login and task cards
 
-Open **Open reviewer login demo** from the request form, or visit
-`reviewer.html`. Use the public demonstration username `linercodelists` and
+Open `reviewer.html` directly. Use the public demonstration username `linercodelists` and
 password `SMDGLCL2026` to open all demo tasks directly. There is no personal
 profile-selection step. Open a task to optionally assign it to one of these names:
 

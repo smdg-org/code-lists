@@ -314,7 +314,6 @@ field("summary-submit").addEventListener("click", async () => {
       form.hidden = true;
       field("demo-confirmation").hidden = false;
       field("confirmation-reference").textContent = `Reference: ${saved.reference} | ${saved.mode.toUpperCase()} ${saved.submitted.code}`;
-      field("open-saved-request").href = `reviewer.html?request=${encodeURIComponent(saved.id)}`;
       field("demo-confirmation").focus();
     } catch (error) {
       message.textContent = `Test request was not saved: ${error.message} Your entries are retained. Go Back and refresh the demo list if needed, then review again.`;
