@@ -370,7 +370,7 @@ field("demo-login").addEventListener("submit", async event => {
   field("login-error").textContent = "";
   clearError("workspace-error");
   if (username !== "linercodelists" || password !== "SMDGLCL2026") {
-    field("login-error").textContent = "The demo username or password is incorrect. Use the public demo details above.";
+    field("login-error").textContent = "The demo username or password is incorrect.";
     field("demo-password").focus();
     return;
   }
