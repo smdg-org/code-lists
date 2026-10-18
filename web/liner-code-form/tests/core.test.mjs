@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { normalizeCode, prefill, validateRecords, validateRequest } from "../core.js";
+import { normalizeCode, prefill, validateRecords, validateRequest, websiteHref } from "../core.js";
 import { countries } from "../countries.js";
 
 const record = {
@@ -15,6 +15,15 @@ const record = {
 const values = {
   ...prefill(record), code: "Z9Z", reason: "", contactName: "Test User", contactEmail: "test@example.com"
 };
+
+test("website links safely normalize www addresses without changing stored values", () => {
+  assert.equal(websiteHref("www.example.com/path"), "https://www.example.com/path");
+  assert.equal(websiteHref("http://example.com"), "http://example.com/");
+  assert.equal(websiteHref("HTTPS://example.com"), "https://example.com/");
+  for (const value of ["", "javascript:alert(1)", "data:text/html,hi", "//example.com", "www.", "https://exa mple.com"]) {
+    assert.equal(websiteHref(value), "");
+  }
+});
 
 test("normalization and duplicates are case-insensitive exact matches", () => {
   assert.equal(normalizeCode(" mSk "), "MSK");

@@ -36,6 +36,9 @@ test("mobile Safari: reviewer cards, date editor and publication dialog fit the 
   await page.getByLabel("Assigned to", { exact: true }).selectOption("Jasmin Dronner");
   await page.getByRole("button", { name: "Save assignment" }).click();
   await expect(page.locator("#edit-validFrom")).toBeEnabled();
+  await expect(page.getByRole("link", { name: "Open website (new tab)", exact: true }))
+    .toHaveAttribute("href", "https://www.example.com/");
+  await expect(page.locator('#request-info a[href^="mailto:"]')).toHaveText("requester@example.com");
   for (const width of [320, 375, 390, 430]) {
     await page.setViewportSize({ width, height: 844 });
     for (const value of ["", "2026-10-18"]) {
@@ -52,6 +55,7 @@ test("mobile Safari: reviewer cards, date editor and publication dialog fit the 
   await page.locator("#edit-validTo").fill("");
   await page.getByRole("button", { name: "Approve and publish - demo", exact: true }).click();
   await expect(page.locator("#confirm-dialog")).toBeVisible();
+  await expect(page.locator('#confirm-body a[href="https://www.example.com/"]')).toBeVisible();
   await page.getByRole("button", { name: "Confirm", exact: true }).click();
   await expect(page.locator("#request-heading")).toContainText("Published - demo");
   await page.reload();

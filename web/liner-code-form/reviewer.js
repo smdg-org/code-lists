@@ -1,5 +1,6 @@
 import { prefill, validateRequest, validateRecords } from "./core.js";
 import { countries } from "./countries.js";
+import { linkedValue, websiteShortcut } from "./links.js";
 import {
   DemoStore, WORKSPACE_KEY, ASSIGNEES, STATUSES, LABELS, RECORD_FIELDS,
   actOnRequest, deleteRequest, createWorkspace, validateWorkspace, conflict, isClosed, cleanValues
@@ -42,7 +43,7 @@ function confirmAction(title, message, values) {
   field("confirm-body").replaceChildren(node("p", message));
   if (values) {
     const list = node("dl", undefined, "review-summary");
-    for (const key of RECORD_FIELDS) list.append(node("dt", LABELS[key]), node("dd", values[key] || "Not provided"));
+    for (const key of RECORD_FIELDS) addInfo(list, LABELS[key], values[key]);
     field("confirm-body").append(list);
   }
   const dialog = field("confirm-dialog");
@@ -102,7 +103,8 @@ function renderCards() {
   }
 }
 function addInfo(list, label, value) {
-  list.append(node("dt", label), node("dd", value || "Not provided"));
+  const name = label === LABELS.website ? "website" : label === LABELS.contactEmail ? "contactEmail" : "";
+  list.append(node("dt", label), linkedValue(node("dd"), name, value));
 }
 function editorValues() {
   const values = { ...selected.proposal };
@@ -119,7 +121,8 @@ function compareValues() {
     const row = node("tr", undefined, (values[key] || "") !== (baseline[key] || "") ? "changed" : "");
     const label = node("th", LABELS[key]);
     label.scope = "row";
-    row.append(label, node("td", baseline[key] || "Not provided"), node("td", selected.submitted[key] || "Not provided"), node("td", values[key] || "Not provided"));
+    row.append(label, ...[baseline[key], selected.submitted[key], values[key]]
+      .map(value => linkedValue(node("td"), key, value)));
     field("comparison-body").append(row);
   }
 }
@@ -182,6 +185,7 @@ function renderDetail(draft, note = "") {
     input.value = (draft ?? request.proposal)[key] || "";
     input.required = required.includes(key);
     wrapper.append(label, input);
+    if (key === "website") websiteShortcut(input);
     field("editor-fields").append(wrapper);
   }
   field("editor-fields").disabled = closed || !request.assignee;

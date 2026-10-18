@@ -22,6 +22,11 @@ no-save/no-send preview behavior described below.
   retained for assistive technology.
 - Website addresses may start with `www.`, `http://` or `https://`. The entered
   value is preserved; the preview does not add a scheme to the request.
+- Valid websites have an **Open website (new tab)** link beside editable fields,
+  and are clickable in summaries, comparisons, deletion details, publication
+  confirmations and demo list details. `www.` links use HTTPS without changing
+  stored text. Invalid/unsafe addresses remain plain text. Contact emails use
+  explicit mail links rather than relying on mobile automatic detection.
 - Name and a valid email address are required as contact details for all three
   request types. They are held in browser memory only. The preview does not
   transmit or save them; a real service could use them only to contact the
@@ -223,7 +228,7 @@ website. No PR or merge into `main` is required to publish this preview:
 
 1. Run the unit and browser tests, then `npm run build`.
 2. In a separate worktree for the latest `gh-pages`, copy only the built
-   `index.html`, `reviewer.html`, `reviewer.js`, `workflow.js`, `styles.css`, `app.js`, `core.js`, `countries.js`,
+   `index.html`, `reviewer.html`, `reviewer.js`, `workflow.js`, `links.js`, `styles.css`, `app.js`, `core.js`, `countries.js`,
    `smdg-logo.png` and `data/_combined.json` from `dist/`.
 3. Preserve `.nojekyll`, review the deployment diff, and commit with the source
    commit identifier.
