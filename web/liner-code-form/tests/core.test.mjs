@@ -62,7 +62,10 @@ test("update and delete require an existing code and a reason", () => {
 });
 
 test("website protocols and calendar dates are validated", () => {
-  for (const website of ["example.com", "javascript:alert(1)", "ftp://example.com"]) {
+  for (const website of ["www.example.com", "WWW.example.com/path?q=1", "http://example.com", "https://example.com"]) {
+    assert.equal(validateRequest("add", { ...values, website }, [record]).website, undefined);
+  }
+  for (const website of ["example.com", "www.", "www.example", "www.example.com/a b", "javascript:alert(1)", "ftp://example.com"]) {
     assert.ok(validateRequest("add", { ...values, website }, [record]).website);
   }
   assert.ok(validateRequest("add", { ...values, validFrom: "2025-02-30" }, [record]).validFrom);

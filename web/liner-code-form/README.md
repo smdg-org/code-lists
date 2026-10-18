@@ -14,6 +14,8 @@ issue forms, CLI, API, code-list files, or issue-processing automation.
   Valid From is also required for Add, matching the existing add mapper.
   Required fields display a red asterisk, with native required-field semantics
   retained for assistive technology.
+- Website addresses may start with `www.`, `http://` or `https://`. The entered
+  value is preserved; the preview does not add a scheme to the request.
 - Name and a valid email address are required as contact details for all three
   request types. They are held in browser memory only. The preview does not
   transmit or save them; a real service could use them only to contact the
@@ -39,6 +41,9 @@ issue forms, CLI, API, code-list files, or issue-processing automation.
   anywhere. Switching request type, clearing, or refreshing discards draft
   entries. Browser extensions and browser autofill are outside the application's
   control; use test contact details rather than private data.
+- Update summaries show every field, highlight changed liner data with a
+  "Changed" label, and display its previous published value. Returning with Back
+  and reviewing again recalculates the highlights.
 - Dates and remarks are prefilled without silently substituting processing dates.
   No versioning, deletion semantics or history changes are executed in this demo.
 - If loading the code list fails, the form is disabled and an explicit retry is

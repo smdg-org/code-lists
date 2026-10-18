@@ -125,6 +125,37 @@ test("delete: reason/comments only, no editable company details", async ({ page 
   await expect(page.locator("#submit-result")).toContainText("did not submit, send or save");
 });
 
+test("update review highlights changed values and recalculates after Back", async ({ page }) => {
+  await open(page);
+  await page.locator('[name="mode"][value="update"]').check();
+  await page.locator("#existing-code").selectOption("MSK");
+  for (const [id, value] of Object.entries({
+    website: "www.example.com", city: "New city", streetNumber: "", parentCompany: "New parent",
+    reason: "Correct details", contactName: "Test User", contactEmail: "test@example.com"
+  })) await page.locator(`#${id}`).fill(value);
+  await page.getByRole("button", { name: "Review request" }).click();
+  const changes = page.locator("#review-summary dd.changed");
+  await expect(changes).toHaveCount(4);
+  await expect(changes).toContainText([
+    "New parent", "www.example.com", "Previously: 50", "Previously: Copenhagen"
+  ]);
+  await expect(page.locator("#review-summary dt.changed")).toHaveText([
+    "Parent company", "Website", "Street number", "City"
+  ]);
+  await expect(changes.locator(".previous-value")).toHaveText([
+    "Previously: Not provided", "Previously: https://example.com", "Previously: 50", "Previously: Copenhagen"
+  ]);
+  await expect(page.locator("#review-summary")).toContainText("Maersk");
+  await page.getByRole("button", { name: "Back" }).click();
+  await expect(page.locator("#website")).toHaveValue("www.example.com");
+  await page.locator("#city").fill("Copenhagen");
+  await page.getByRole("button", { name: "Review request" }).click();
+  await expect(changes).toHaveCount(3);
+  await expect(page.locator("#review-summary dt.changed")).toHaveText([
+    "Parent company", "Website", "Street number"
+  ]);
+});
+
 for (const mode of ["add", "update", "delete"]) {
 test(`valid ${mode} remains in memory only: no writes, navigation, storage or downloads`, async ({ page }) => {
   const requests = [];
@@ -142,7 +173,7 @@ test(`valid ${mode} remains in memory only: no writes, navigation, storage or do
   } else {
     for (const [id, value] of Object.entries({
     code: "Z9Z", linerName: "Test liner", street: "Test Street", postCode: "00123",
-    city: "Test City", state: "Test Area", website: "https://example.com", validFrom: "2025-01-01",
+    city: "Test City", state: "Test Area", website: "www.example.com", validFrom: "2025-01-01",
     contactName: "Test User", contactEmail: "test@example.com"
     })) await page.locator(`#${id}`).fill(value);
     await page.locator("#carrierType").selectOption("VOCC");
@@ -150,6 +181,7 @@ test(`valid ${mode} remains in memory only: no writes, navigation, storage or do
   }
   await page.getByRole("button", { name: "Review request" }).click();
   await expect(page.locator("#review-step")).toBeVisible();
+  await expect(page.locator("#review-summary .changed")).toHaveCount(0);
   await page.getByRole("button", { name: "Submit" }).click();
   await expect(page.locator("#submit-result")).toContainText("did not submit, send or save");
   expect(page.url()).toBe(originalUrl);

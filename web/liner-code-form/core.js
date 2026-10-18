@@ -90,10 +90,15 @@ export function validateRequest(mode, values, records) {
   }
   if (values.website) {
     try {
-      const url = new URL(values.website);
+      const website = values.website.trim();
+      const withoutScheme = /^www\./i.test(website);
+      const url = new URL(withoutScheme ? `https://${website}` : website);
       if (!["https:", "http:"].includes(url.protocol)) throw new Error("Invalid protocol");
+      if (/\s/.test(website) || (withoutScheme && !/^www\.[^.]+\..+$/i.test(url.hostname))) {
+        throw new Error("Invalid website address");
+      }
     } catch {
-      errors.website = "Enter a full http:// or https:// website address.";
+      errors.website = "Enter a website address starting with www., http:// or https://.";
     }
   }
   if (mode === "add" && !values.validFrom) errors.validFrom = "Valid From is required for a new code.";
