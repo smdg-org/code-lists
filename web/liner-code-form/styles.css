@@ -73,6 +73,11 @@ input[readonly] { background: #edf0f3; }
 button { font: inherit; font-weight: 600; background: var(--blue); color: white; border: 1px solid var(--blue); border-radius: 2px; padding: .75rem 1.2rem; cursor: pointer; }
 button.secondary { background: white; color: var(--navy); border-color: #93a3b1; }
 button:hover { filter: brightness(.92); }
+.button-link { display: inline-block; font-weight: 600; background: var(--blue); color: white; border: 1px solid var(--blue); border-radius: 2px; padding: .75rem 1.2rem; text-decoration: none; }
+.button-link:hover { filter: brightness(.92); }
+.catalog-table { background: white; }
+.catalog-table td:first-child { font-weight: 600; color: var(--navy); }
+#record-panel { overflow-wrap: anywhere; }
 fieldset:disabled { opacity: .6; }
 button:disabled { cursor: not-allowed; }
 .actions span { font-size: .85rem; color: var(--muted); }

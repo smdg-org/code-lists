@@ -2,6 +2,26 @@ import { devices, expect, test } from "@playwright/test";
 
 test.use({ ...devices["iPhone 13"], browserName: "webkit" });
 
+test("mobile Safari: public list search, details and request button fit narrow screens", async ({ page }) => {
+  await page.goto("/liner-codes.html");
+  await expect(page.getByLabel("Search by code", { exact: true })).toBeEnabled();
+  for (const width of [320, 375, 390, 430]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.getByLabel("Search by code", { exact: true }).fill("adm");
+    await page.getByLabel("Search by name", { exact: true }).fill("Admiral");
+    await page.getByLabel("Details for ADM", { exact: true }).click();
+    await expect(page.locator("#record-panel")).toContainText("Valletta");
+    const panel = await page.locator("#record-panel").boundingBox();
+    expect(panel.x).toBeGreaterThanOrEqual(0);
+    expect(panel.x + panel.width).toBeLessThanOrEqual(width);
+    await page.getByRole("button", { name: "Close details", exact: true }).click();
+    expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);
+    const button = await page.getByRole("link", { name: "Fill a new request", exact: true }).boundingBox();
+    expect(button.x).toBeGreaterThanOrEqual(0);
+    expect(button.x + button.width).toBeLessThanOrEqual(width);
+  }
+});
+
 test("mobile Safari: empty and populated dates align with Remarks without overflowing", async ({ page }) => {
   await page.goto("/");
   await expect(page.locator("#code")).toBeEnabled();

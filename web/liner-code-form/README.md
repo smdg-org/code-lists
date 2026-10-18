@@ -5,6 +5,30 @@ supports Add, Update and Delete requests and a browser-local review
 workflow. It does not change existing GitHub issue forms, CLI, API, repository
 code-list files, or issue-processing automation.
 
+## Searchable public code list
+
+Open `liner-codes.html` to browse the bundled public repository snapshot without
+downloading Excel. Separate **Search by code** and **Search by name** fields
+provide case-insensitive partial matching in their respective fields only.
+All entered name words must match; using both fields combines the filters.
+Filter by Active, Expired or Marked for deletion, sort by code or name, and
+browse 25 entries per page. All statuses are included by default.
+Select **Details** to view company, address, location, website, validity,
+version and remarks. Missing values are explicitly shown as **Not provided**;
+unsafe website values remain plain text. Details appear in a separate panel
+above the table, with focus moved to the record heading. **Close details**
+returns focus to the entry's button. Filtering, sorting or changing pages
+closes the panel so it cannot show a stale selection.
+
+**Fill a new request** links to the existing form at `./`, initially in Add mode.
+The form also links back to the list. Reviewer navigation remains separate.
+The list reads only the deployed public JSON, never browser-local reviewer
+storage or contact details. Demo publication does not change it. It is not a
+live registry or guaranteed to match the latest official Excel release; the
+page links to the official download page and identifies the request form as a
+demo. Loading failures disable search and offer an explicit retry and the
+official download alternative.
+
 ## Form validation and preview-only mode
 
 The original form URL (`./`) now saves demo requests through **Review request**
@@ -233,7 +257,7 @@ website. No PR or merge into `main` is required to publish this preview:
 
 1. Run the unit and browser tests, then `npm run build`.
 2. In a separate worktree for the latest `gh-pages`, copy only the built
-   `index.html`, `reviewer.html`, `reviewer.js`, `workflow.js`, `links.js`, `styles.css`, `app.js`, `core.js`, `countries.js`,
+   `index.html`, `liner-codes.html`, `liner-codes.js`, `reviewer.html`, `reviewer.js`, `workflow.js`, `links.js`, `styles.css`, `app.js`, `core.js`, `countries.js`,
    `smdg-logo.png` and `data/_combined.json` from `dist/`.
 3. Preserve `.nojekyll`, review the deployment diff, and commit with the source
    commit identifier.
