@@ -12,14 +12,14 @@ const record = {
 
 async function open(page, records = [record]) {
   await page.route("**/data/_combined.json", route => route.fulfill({ json: records }));
-  await page.goto("/");
+  await page.goto("/?preview=1");
   await expect(page.locator("#code")).toBeEnabled();
 }
 
 test("real bundled snapshot loads with no page errors", async ({ page }) => {
   const errors = [];
   page.on("pageerror", error => errors.push(error.message));
-  await page.goto("/");
+  await page.goto("/?preview=1");
   await expect(page.locator("#code")).toBeEnabled();
   await expect(page.locator("#data-status")).toContainText("codes loaded");
   await page.locator('[name="mode"][value="update"]').check();
@@ -268,7 +268,7 @@ test("identical names remain distinct entries keyed by liner code", async ({ pag
 
 test("invalid or duplicate bundled records disable validation", async ({ page }) => {
   await page.route("**/data/_combined.json", route => route.fulfill({ json: [record, record] }));
-  await page.goto("/");
+  await page.goto("/?preview=1");
   await expect(page.locator("#data-status")).toContainText("invalid or duplicate");
   await expect(page.locator("#code")).toBeDisabled();
 });
@@ -278,7 +278,7 @@ test("code-list load failure disables form and offers a working retry", async ({
   await page.route("**/data/_combined.json", route => failed
     ? route.fulfill({ status: 503, body: "Unavailable" })
     : route.fulfill({ json: [record] }));
-  await page.goto("/");
+  await page.goto("/?preview=1");
   await expect(page.locator("#form-controls")).toHaveAttribute("disabled", "");
   await expect(page.locator("#code")).toBeDisabled();
   await expect(page.locator("#data-status")).toContainText("could not be loaded");

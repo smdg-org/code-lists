@@ -1,11 +1,16 @@
 # Liner-code form preview
 
 A standalone, static **demonstration**, not an official submission service. It
-supports Add, Update and Delete previews and an opt-in browser-local review
+supports Add, Update and Delete requests and a browser-local review
 workflow. It does not change existing GitHub issue forms, CLI, API, repository
 code-list files, or issue-processing automation.
 
-## Default preview behavior (workflow demo off)
+## Form validation and preview-only mode
+
+The original form URL (`./`) now saves demo requests through **Review request**
+then **Submit** on the summary. No query parameter or mode switch is needed.
+For development regression checks only, `?preview=1` retains the earlier
+no-save/no-send preview behavior described below.
 
 - Add has no change reason or change comments. Duplicate liner codes are checked
   against the bundled `_combined.json`, ignoring case and surrounding whitespace.
@@ -60,15 +65,15 @@ loaded. No analytics or third-party runtime services are included.
 
 ## End-to-end workflow demo
 
-The form's **Enable browser-local workflow demo** checkbox opts into local
-persistence. Opening the form with `?demo=1` enables this mode directly.
-Unlike the default preview, this mode saves
+The form at its original URL uses local persistence by default. Clicking
+**Review request** validates and displays the summary without saving.
+**Submit** on that summary saves
 requests, including fictional contact information, in `localStorage`. The page
 discloses this before submission and replaces the preview-only privacy text.
 Never enter real personal information.
 
 The public form and reviewer workspace are standalone pages with no navigation
-links between them, including after submission. Open the form at `?demo=1`
+links between them, including after submission. Open the form at `./`
 and the reviewer workspace separately at `reviewer.html`. Use the same browser
 and origin (including port) for both pages. Submitted requests appear as cards
 under **All tasks** after signing in. Separate URLs do not provide security or
@@ -206,7 +211,7 @@ Browser tests cover Add/Update/Delete end to end, contact disclosures, cards,
 assignment, editable comparisons, clarification/rejection, persistence,
 concurrent tabs, downloads/import/reset, storage failures and mobile layout.
 The original preview regressions still verify absence of writes, storage and
-submission when workflow mode is off.
+submission in the explicit developer preview mode (`?preview=1`).
 The mobile Safari/WebKit regression checks empty and populated date fields at
 320, 375, 390 and 430 pixels wide against the Remarks field boundaries.
 

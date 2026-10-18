@@ -44,7 +44,7 @@ async function contact(page) {
 async function submit(page) {
   await page.getByRole("button", { name: "Review request", exact: true }).click();
   await expect(page.locator("#review-step")).toBeVisible();
-  await page.getByRole("button", { name: "Submit test request", exact: true }).click();
+  await page.getByRole("button", { name: "Submit", exact: true }).click();
   await expect(page.locator("#demo-confirmation")).toBeVisible();
 }
 async function reviewLatest(page) {
@@ -180,7 +180,7 @@ test("all five assignees, filters, unassignment and refresh persistence work", a
 
 test("form Add, reviewer direct publish, then form Update and Delete affect only demo list", async ({ page }) => {
   await route(page);
-  await page.goto("/?demo=1");
+  await page.goto("/");
   await expect(page.locator("#code")).toBeEnabled();
   await expect(page.locator("#contact-help")).toContainText("saved in this browser");
   for (const [id, value] of Object.entries({
@@ -217,7 +217,7 @@ test("form Add, reviewer direct publish, then form Update and Delete affect only
   await page.locator("#demo-records summary").click();
   await expect(page.locator("#demo-records")).toContainText("Agreed City");
   for (const mode of ["update", "delete"]) {
-    await page.goto("/?demo=1");
+    await page.goto("/");
     await expect(page.locator("#code")).toBeEnabled();
     await page.locator(`[name=mode][value=${mode}]`).check();
     await page.locator("#existing-code").selectOption("Z9Z");
@@ -378,7 +378,7 @@ test("blocked storage fails explicitly and leaves the preview usable", async ({ 
   await page.addInitScript(() => {
     Storage.prototype.setItem = () => { throw new Error("Demo storage blocked"); };
   });
-  await page.goto("/");
+  await page.goto("/?preview=1");
   await expect(page.locator("#code")).toBeEnabled();
   await page.goto("/reviewer.html");
   await page.getByLabel("Demo username").fill("linercodelists");
@@ -390,7 +390,7 @@ test("blocked storage fails explicitly and leaves the preview usable", async ({ 
 
 test("quota failure on submission preserves the form instead of showing success", async ({ page }) => {
   await route(page);
-  await page.goto("/?demo=1");
+  await page.goto("/");
   await expect(page.locator("#code")).toBeEnabled();
   await page.locator('[name=mode][value=delete]').check();
   await page.locator("#existing-code").selectOption("MSK");
@@ -400,7 +400,7 @@ test("quota failure on submission preserves the form instead of showing success"
   await page.evaluate(() => {
     Storage.prototype.setItem = () => { throw new Error("Quota exceeded"); };
   });
-  await page.getByRole("button", { name: "Submit test request", exact: true }).click();
+  await page.getByRole("button", { name: "Submit", exact: true }).click();
   await expect(page.locator("#submit-result")).toContainText("not saved: Quota exceeded");
   await expect(page.locator("#demo-confirmation")).toBeHidden();
   await page.getByRole("button", { name: "Back", exact: true }).click();
@@ -409,7 +409,7 @@ test("quota failure on submission preserves the form instead of showing success"
 
 test("stale form keeps entries and can refresh current values before reviewing again", async ({ page }) => {
   await route(page);
-  await page.goto("/?demo=1");
+  await page.goto("/");
   await expect(page.locator("#code")).toBeEnabled();
   await page.locator('[name=mode][value=update]').check();
   await page.locator("#existing-code").selectOption("MSK");
@@ -425,7 +425,7 @@ test("stale form keeps entries and can refresh current values before reviewing a
       workspace.records.find(record => record.linerSMDGCode === "MSK").addressLocation.address.city = "New Current City";
     });
   });
-  await page.getByRole("button", { name: "Submit test request", exact: true }).click();
+  await page.getByRole("button", { name: "Submit", exact: true }).click();
   await expect(page.locator("#submit-result")).toContainText("changed while you filled out");
   await page.getByRole("button", { name: "Back", exact: true }).click();
   await page.getByRole("button", { name: "Refresh demo list without clearing entries" }).click();
@@ -433,7 +433,7 @@ test("stale form keeps entries and can refresh current values before reviewing a
   await expect(page.locator("#contactEmail")).toHaveValue("fictional@example.com");
   await page.getByRole("button", { name: "Review request", exact: true }).click();
   await expect(page.locator("#review-summary")).toContainText("Previously: New Current City");
-  await page.getByRole("button", { name: "Submit test request", exact: true }).click();
+  await page.getByRole("button", { name: "Submit", exact: true }).click();
   await expect(page.locator("#demo-confirmation")).toBeVisible();
 });
 
@@ -540,15 +540,20 @@ test("standalone pages have no cross-navigation but share submitted requests", a
   await route(page);
   await page.goto("/");
   await expect(page.locator('a[href*="reviewer"]')).toHaveCount(0);
-  await page.goto("/?demo=1");
   await expect(page.locator("#code")).toBeEnabled();
-  await expect(page.locator("#workflow-demo")).toBeChecked();
+  await expect(page.locator("#workflow-demo")).toHaveCount(0);
   await expect(page.locator("#contact-help")).toContainText("saved in this browser");
   await page.locator('[name=mode][value=delete]').check();
   await page.locator("#existing-code").selectOption("MSK");
   await page.locator("#reason").fill("Request from the connected form");
   await contact(page);
-  await submit(page);
+  const before = (await workspace(page)).requests.length;
+  await page.getByRole("button", { name: "Review request", exact: true }).click();
+  await expect(page.locator("#review-step")).toBeVisible();
+  expect((await workspace(page)).requests).toHaveLength(before);
+  await page.getByRole("button", { name: "Submit", exact: true }).click();
+  await expect(page.locator("#demo-confirmation")).toBeVisible();
+  expect((await workspace(page)).requests).toHaveLength(before + 1);
   await expect(page.locator('a[href*="reviewer"]')).toHaveCount(0);
   await reviewLatest(page);
   await expect(page.locator('a[href="./"], a[href*="?demo=1"]')).toHaveCount(0);
