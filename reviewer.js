@@ -102,9 +102,9 @@ function renderCards() {
     field("task-list").append(card);
   }
 }
-function addInfo(list, label, value) {
+function addInfo(list, label, value, request) {
   const name = label === LABELS.website ? "website" : label === LABELS.contactEmail ? "contactEmail" : "";
-  list.append(node("dt", label), linkedValue(node("dd"), name, value));
+  list.append(node("dt", label), linkedValue(node("dd"), name, value, request));
 }
 function editorValues() {
   const values = { ...selected.proposal };
@@ -139,7 +139,7 @@ function renderDetail(draft, note = "") {
     ["Original liner name", request.submitted.linerName], ["Request reason", request.submitted.reason],
     ["Request comments", request.submitted.comments], ["Contact name", request.submitted.contactName],
     ["Contact email", request.submitted.contactEmail]
-  ]) addInfo(info, label, value);
+  ]) addInfo(info, label, value, request.submitted);
   field("task-assignee").value = request.assignee;
   field("task-assignee").disabled = closed;
   field("save-assignment").disabled = closed;
