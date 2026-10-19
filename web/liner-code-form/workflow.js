@@ -96,7 +96,8 @@ export function submitRequest(workspace, mode, values, baseline = null) {
 
 export function deleteRequest(workspace, id, version) {
   const request = workspace.requests.find(item => item.id === id);
-  if (!request || request.version !== version) throw new Error("This request changed or no longer exists. Reopen it from All tasks before deleting.");
+  if (!request || request.version !== version) throw new Error("This request changed or no longer exists. Reopen it from Archive before deleting.");
+  if (!terminal(request)) throw new Error("Only archived requests can be deleted. Publish or reject the request first.");
   workspace.requests = workspace.requests.filter(item => item.id !== id);
 }
 

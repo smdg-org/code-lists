@@ -153,6 +153,9 @@ options scoped to that view. Switching views clears filters. Archived cards
 still open their read-only details and history, and Back returns to the view
 they were opened from. Archiving does not delete requests or change saved data.
 Only Liner Codes is enabled; requests include a list identifier for explicit routing.
+The current workspace tab is highlighted in blue, including while viewing its
+request details. Published labels are green, rejected labels are red and
+Unassigned labels are black; card backgrounds and borders do not change.
 
 ### Request screens and actions
 
@@ -181,10 +184,13 @@ Original submissions and original baselines remain intact when proposals change.
 - Rejection and publication close the request against further actions.
   Failed saves never show a successful outcome. Cancelled dialogs retain edits;
   leaving a dirty proposal prompts before discarding it.
-- **Delete request** on the detail screen permanently removes any demo request,
-  including closed requests, contacts, notes and history, after confirmation.
+- **Delete request** is available only on archived (published or rejected)
+  request details, never on active requests. A warning banner explains that
+  deletion permanently erases the request, contacts, notes and history with
+  no recovery option. **Delete permanently** explicitly confirms the deletion;
+  **Cancel** or Escape keeps the request.
   It does not require assignment and does not undo earlier publication or
-  change the demo code list. Cancel keeps unsaved edits. Stale versions and
+  change the demo code list. Stale versions and
   failed storage writes block deletion without losing the request. This is a
   demo cleanup feature, not production retention or audit policy.
 - The **Demo code list** screen supports searching, paged record details and

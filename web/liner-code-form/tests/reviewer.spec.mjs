@@ -29,9 +29,9 @@ async function assign(page, name = "Javier Moral") {
   await page.getByRole("button", { name: "Save assignment" }).click();
   await expect(page.locator("#workspace-status")).toContainText("assignment saved");
 }
-async function confirm(page) {
+async function confirm(page, name = "Confirm") {
   await expect(page.locator("#confirm-dialog")).toBeVisible();
-  await page.getByRole("button", { name: "Confirm", exact: true }).click();
+  await page.getByRole("button", { name, exact: true }).click();
   await expect(page.locator("#confirm-dialog")).not.toBeVisible();
 }
 async function workspace(page) {
@@ -53,6 +53,39 @@ async function reviewLatest(page) {
   await page.locator(".task-card").first().getByRole("button").click();
   await expect(page.locator("#detail-step")).toBeVisible();
 }
+
+test("workspace navigation highlights only the current view, including request details", async ({ page }) => {
+  await route(page);
+  await page.goto("/reviewer.html");
+  await signIn(page);
+  async function highlighted(id) {
+    await expect(page.locator('.workspace-nav [aria-pressed="true"]')).toHaveCount(1);
+    await expect(page.locator(`#${id}`)).toHaveAttribute("aria-pressed", "true");
+    await expect(page.locator(`#${id}`)).toHaveCSS("background-color", "rgb(36, 75, 120)");
+    await expect(page.locator(`#${id}`)).toHaveCSS("color", "rgb(255, 255, 255)");
+    for (const other of ["show-tasks", "show-archive", "show-list", "reviewer-sign-out"].filter(value => value !== id)) {
+      await expect(page.locator(`#${other}`)).toHaveCSS("background-color", "rgb(255, 255, 255)");
+    }
+  }
+  await highlighted("show-tasks");
+  await expect(page.locator(".unassigned-label")).toHaveCount(3);
+  await expect(page.locator(".unassigned-label").first()).toHaveCSS("color", "rgb(0, 0, 0)");
+  await expect(page.locator(".task-card").first()).toHaveCSS("color", "rgb(52, 59, 66)");
+  await open(page);
+  await highlighted("show-tasks");
+  await assign(page);
+  await page.getByLabel("City", { exact: true }).fill("Unsaved tab test");
+  await page.getByRole("button", { name: "Archive", exact: true }).click();
+  await page.getByRole("button", { name: "Cancel", exact: true }).click();
+  await highlighted("show-tasks");
+  await page.getByRole("button", { name: "Archive", exact: true }).click();
+  await confirm(page);
+  await highlighted("show-archive");
+  await page.getByRole("button", { name: "Demo code list", exact: true }).click();
+  await highlighted("show-list");
+  await page.getByRole("button", { name: "Active tasks", exact: true }).click();
+  await highlighted("show-tasks");
+});
 
 test("real bundled snapshot initializes full request cards without errors", async ({ page }) => {
   const errors = [];
@@ -351,6 +384,7 @@ test("changed record blocks publication until compared and explicitly rebased", 
   await page.getByRole("button", { name: "Approve and publish - demo", exact: true }).click();
   await confirm(page);
   await expect(page.locator("#request-heading")).toContainText("Published - demo");
+  await expect(page.locator("#request-heading .status-badge")).toHaveCSS("color", "rgb(23, 107, 53)");
 });
 
 test("workspace tools are removed and public-list export still works", async ({ page }) => {
@@ -412,6 +446,13 @@ test("closed requests move to a searchable archive and retain details after refr
   await expect(page.locator(".task-card")).toHaveCount(2);
   await expect(page.locator("#task-counts")).toContainText("Rejected: 1");
   await expect(page.locator("#task-counts")).toContainText("Published - demo: 1");
+  for (const [status, color] of [["Published - demo", "rgb(23, 107, 53)"], ["Rejected", "rgb(163, 35, 35)"]]) {
+    await expect(page.locator(`#task-list .status-badge[data-status="${status}"]`)).toHaveCSS("color", color);
+    await expect(page.locator(`#task-counts .status-badge[data-status="${status}"]`)).toHaveCSS("color", color);
+    await expect(page.locator(`#task-list .status-badge[data-status="${status}"]`)).toHaveCSS("background-color", "rgb(231, 238, 245)");
+  }
+  await expect(page.locator('.task-card[data-mode="add"]')).toHaveCSS("background-color", "rgb(255, 255, 255)");
+  await expect(page.locator('.task-card[data-mode="update"]')).toHaveCSS("border-top-color", "rgb(36, 75, 120)");
   expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(320);
   await page.getByLabel("Status", { exact: true }).selectOption("Published - demo");
   await expect(page.locator(".task-card")).toHaveCount(1);
@@ -425,6 +466,8 @@ test("closed requests move to a searchable archive and retain details after refr
   await page.getByLabel("Search requests").fill("MSK");
   await open(page, "update");
   await expect(page.locator("#request-history")).toContainText("Archived rejection reason.");
+  await expect(page.locator("#request-heading .status-badge")).toHaveCSS("color", "rgb(163, 35, 35)");
+  await expect(page.locator("#show-archive")).toHaveCSS("background-color", "rgb(36, 75, 120)");
   await expect(page.getByLabel("City", { exact: true })).toBeDisabled();
   await expect(page.getByLabel("Assigned to", { exact: true })).toBeDisabled();
   await page.getByRole("button", { name: "Back to archive" }).click();
@@ -445,12 +488,14 @@ test("closed requests move to a searchable archive and retain details after refr
   const rejected = saved.requests.find(request => request.status === "Rejected");
   await page.goto(`/reviewer.html?request=${encodeURIComponent(rejected.id)}`);
   await signIn(page);
+  await expect(page.locator("#show-archive")).toHaveAttribute("aria-pressed", "true");
+  await expect(page.locator("#show-archive")).toHaveCSS("background-color", "rgb(36, 75, 120)");
   await expect(page.locator("#request-history")).toContainText("Archived rejection reason.");
   await page.getByRole("button", { name: "Back to archive" }).click();
   await expect(page.locator(".task-card")).toHaveCount(2);
   await open(page, "update");
   await page.getByRole("button", { name: "Delete request", exact: true }).click();
-  await confirm(page);
+  await confirm(page, "Delete permanently");
   await expect(page.locator("#tasks-title")).toHaveText("Archive");
   await expect(page.locator(".task-card")).toHaveCount(1);
   expect((await workspace(page)).records).toEqual(saved.records);
@@ -567,27 +612,52 @@ test("mobile cards, detail editor, dialog and demo list fit the viewport", async
   expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(320);
 });
 
-test("delete request cancellation keeps edits and confirmed deletion persists without changing codes", async ({ page }) => {
+test("deletion is restricted to archived requests and requires an irreversible-deletion warning", async ({ page }) => {
   await route(page);
+  await page.setViewportSize({ width: 320, height: 740 });
   await page.goto("/reviewer.html");
   await signIn(page);
-  const original = await workspace(page);
   await open(page);
+  await expect(page.getByRole("button", { name: "Delete request", exact: true })).toBeHidden();
   await assign(page);
-  await page.getByLabel("City", { exact: true }).fill("Unsaved deletion test");
+  await expect(page.getByRole("button", { name: "Delete request", exact: true })).toBeHidden();
+  await page.getByLabel("Reviewer note / decision reason").fill("Waiting for information.");
+  await page.getByRole("button", { name: "Needs information", exact: true }).click();
+  await expect(page.getByRole("button", { name: "Delete request", exact: true })).toBeHidden();
+  await page.getByRole("button", { name: "Approve and publish - demo", exact: true }).click();
+  await expect(page.locator("#delete-warning")).toBeHidden();
+  await expect(page.getByRole("button", { name: "Confirm", exact: true })).not.toHaveClass("danger");
+  await confirm(page);
+  await page.getByRole("button", { name: "Archive", exact: true }).click();
+  await open(page);
+  const original = await workspace(page);
   await page.getByRole("button", { name: "Delete request", exact: true }).click();
+  await expect(page.locator("#confirm-title")).toHaveText("Permanently delete this archived request?");
+  await expect(page.locator("#delete-warning")).toBeVisible();
+  await expect(page.locator("#delete-warning")).toContainText("Warning: permanent deletion");
+  await expect(page.locator("#delete-warning")).toContainText("contact details, notes and review history");
+  await expect(page.locator("#delete-warning")).toContainText("cannot be recovered");
+  await expect(page.getByRole("button", { name: "Delete permanently", exact: true })).toHaveClass("danger");
+  await expect(page.getByRole("button", { name: "Cancel", exact: true })).toBeFocused();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(320);
   await expect(page.locator("#confirm-body")).toContainText("does not undo publication");
   await page.getByRole("button", { name: "Cancel", exact: true }).click();
-  await expect(page.getByLabel("City", { exact: true })).toHaveValue("Unsaved deletion test");
-  expect((await workspace(page)).requests).toHaveLength(3);
+  expect(await workspace(page)).toEqual(original);
   await page.getByRole("button", { name: "Delete request", exact: true }).click();
-  await confirm(page);
+  await page.keyboard.press("Escape");
+  await expect(page.locator("#confirm-dialog")).toBeHidden();
+  expect(await workspace(page)).toEqual(original);
+  await page.getByRole("button", { name: "Delete request", exact: true }).click();
+  await confirm(page, "Delete permanently");
   await expect(page.locator("#workspace-status")).toContainText("deleted from this browser");
-  await expect(page.locator(".task-card")).toHaveCount(2);
+  await expect(page.locator("#tasks-title")).toHaveText("Archive");
+  await expect(page.locator(".task-card")).toHaveCount(0);
   expect((await workspace(page)).records).toEqual(original.records);
   await page.reload();
   await signIn(page);
   await expect(page.locator(".task-card")).toHaveCount(2);
+  await page.getByRole("button", { name: "Archive", exact: true }).click();
+  await expect(page.locator(".task-card")).toHaveCount(0);
 });
 
 test("failed and stale deletions do not remove requests", async ({ page }) => {
@@ -595,26 +665,32 @@ test("failed and stale deletions do not remove requests", async ({ page }) => {
   await page.goto("/reviewer.html");
   await signIn(page);
   await open(page);
+  await assign(page);
+  await page.getByLabel("Reviewer note / decision reason").fill("Rejected test request.");
+  await page.getByRole("button", { name: "Reject request", exact: true }).click();
+  await confirm(page);
+  await page.getByRole("button", { name: "Archive", exact: true }).click();
+  await open(page);
   await page.evaluate(async () => {
-    const { DemoStore, actOnRequest } = await import("/workflow.js");
+    const { DemoStore } = await import("/workflow.js");
     const store = new DemoStore();
     const current = store.read();
     await store.update(current.id, workspace => {
       const request = workspace.requests.find(request => request.mode === "add");
-      actOnRequest(workspace, request.id, request.version, "assign", { assignee: "Anna Eder" });
+      request.version++;
     });
   });
   await page.getByRole("button", { name: "Delete request", exact: true }).click();
-  await confirm(page);
+  await confirm(page, "Delete permanently");
   await expect(page.locator("#detail-error")).toContainText("request changed");
   expect((await workspace(page)).requests).toHaveLength(3);
-  await page.getByRole("button", { name: "Back to active tasks" }).click();
+  await page.getByRole("button", { name: "Back to archive" }).click();
   await open(page);
   await page.evaluate(() => {
     Storage.prototype.setItem = () => { throw new Error("Deletion storage denied"); };
   });
   await page.getByRole("button", { name: "Delete request", exact: true }).click();
-  await confirm(page);
+  await confirm(page, "Delete permanently");
   await expect(page.locator("#detail-error")).toContainText("Deletion storage denied");
   expect((await workspace(page)).requests).toHaveLength(3);
 });

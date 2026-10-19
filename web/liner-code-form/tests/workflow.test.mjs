@@ -35,13 +35,22 @@ test("seeded workspace is valid and has complete requests for all three modes", 
   assert.deepEqual(validateWorkspace(JSON.parse(JSON.stringify(workspace))), workspace);
 });
 
-test("request deletion removes only the request for pending, rejected and published requests", () => {
-  for (const state of ["pending", "reject", "publish"]) {
+test("active requests cannot be deleted", () => {
+  const { workspace, request } = setup();
+  for (const action of [null, "assign", "clarify"]) {
+    if (action === "assign") assign(workspace, request);
+    if (action === "clarify") act(workspace, request, action, { note: "Please confirm." });
+    const before = structuredClone(workspace);
+    assert.throws(() => deleteRequest(workspace, request.id, request.version), /Only archived requests/);
+    assert.deepEqual(workspace, before);
+  }
+});
+
+test("request deletion removes only archived rejected and published requests", () => {
+  for (const state of ["reject", "publish"]) {
     const { workspace, request } = setup();
-    if (state !== "pending") {
-      assign(workspace, request);
-      act(workspace, request, state, { note: "Demo decision" });
-    }
+    assign(workspace, request);
+    act(workspace, request, state, { note: "Demo decision" });
     const records = structuredClone(workspace.records);
     assert.throws(() => deleteRequest(workspace, request.id, request.version + 1), /changed/);
     assert.equal(workspace.requests.length, 1);
