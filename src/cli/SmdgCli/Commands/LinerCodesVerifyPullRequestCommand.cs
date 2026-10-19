@@ -21,9 +21,9 @@ public class LinerCodesVerifyPullRequestCommand(IFileStore fileStore, IGitHubCli
         var changedFiles = await git.PullRequest.Files(owner, repository, settings.PullRequest);
 
         var fileNames = changedFiles
+            .Where(f => f.FileName.StartsWith($"{settings.OutputDirectory}/", StringComparison.Ordinal))
             .Select(f =>
             {
-                var directory = Path.GetDirectoryName(f.FileName);
                 var fileName = Path.GetFileNameWithoutExtension(f.FileName);
                 var fullFileName = Path.GetFileName(f.FileName);
 
