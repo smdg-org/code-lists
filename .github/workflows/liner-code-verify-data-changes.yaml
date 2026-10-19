@@ -40,7 +40,7 @@ jobs:
 
       - name: check combined is in sync
         run: |
-          if ! git diff --exit-code -- "${{ env.output_dir }}/_combined.json"; then
+          if [ -n "$(git status --porcelain -- "${{ env.output_dir }}/_combined.json")" ]; then
             echo "::error::Combined liner codes are out of sync. Run 'liner-codes pack combined -o ${{ env.output_dir }}' and commit the result."
             exit 1
           fi
