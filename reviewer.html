@@ -49,9 +49,9 @@
     </section>
     <div id="workspace" hidden>
       <nav class="actions workspace-nav" aria-label="Workspace navigation">
-        <button id="show-tasks" type="button" aria-pressed="true">Active tasks</button>
+        <button id="show-tasks" type="button" class="secondary" aria-pressed="true">Active tasks</button>
         <button id="show-archive" type="button" class="secondary" aria-pressed="false">Archive</button>
-        <button id="show-list" type="button" class="secondary">Demo code list</button>
+        <button id="show-list" type="button" class="secondary" aria-pressed="false">Demo code list</button>
         <button id="reviewer-sign-out" type="button" class="secondary">Sign out</button>
       </nav>
       <p id="workspace-status" role="status"></p>
@@ -70,7 +70,7 @@
       <section id="detail-step" tabindex="-1" aria-labelledby="detail-title" hidden>
         <div class="actions">
           <button id="back-to-tasks" type="button" class="secondary">Back to active tasks</button>
-          <button id="delete-request" type="button" class="danger">Delete request</button>
+          <button id="delete-request" type="button" class="danger" hidden>Delete request</button>
         </div>
         <div id="request-heading"></div>
         <div id="conflict-notice" class="notice has-errors" role="alert" hidden></div>
@@ -135,6 +135,10 @@
     </div>
     <dialog id="confirm-dialog" aria-labelledby="confirm-title">
       <h2 id="confirm-title"></h2>
+      <aside id="delete-warning" class="notice has-errors" role="alert" hidden>
+        <strong><span aria-hidden="true">&#9888;</span> Warning: permanent deletion</strong>
+        <p>Deleting this request will permanently erase all associated information from the reviewer panel, including contact details, notes and review history. This action cannot be undone, and the information cannot be recovered.</p>
+      </aside>
       <div id="confirm-body"></div>
       <div class="actions"><button id="confirm-accept" type="button">Confirm</button><button id="confirm-cancel" type="button" class="secondary" autofocus>Cancel</button></div>
     </dialog>

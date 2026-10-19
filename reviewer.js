@@ -22,6 +22,11 @@ function node(tag, value, className) {
   if (className) element.className = className;
   return element;
 }
+function statusBadge(status, text = status) {
+  const badge = node("span", text, "status-badge");
+  badge.dataset.status = status;
+  return badge;
+}
 function errorAt(id, error) {
   field(id).textContent = error.message;
   field(id).hidden = false;
@@ -38,8 +43,11 @@ async function loadSnapshot() {
   if (!response.ok) throw new Error(`Could not load public snapshot (HTTP ${response.status}).`);
   return validateRecords(await response.json());
 }
-function confirmAction(title, message, values) {
+function confirmAction(title, message, values, deleting = false) {
   field("confirm-title").textContent = title;
+  field("delete-warning").hidden = !deleting;
+  field("confirm-accept").textContent = deleting ? "Delete permanently" : "Confirm";
+  field("confirm-accept").classList.toggle("danger", deleting);
   field("confirm-body").replaceChildren(node("p", message));
   if (values) {
     const list = node("dl", undefined, "review-summary");
@@ -66,8 +74,10 @@ async function discardEdits() {
 }
 function screen(id) {
   for (const name of ["tasks-step", "detail-step", "list-step"]) field(name).hidden = name !== id;
-  field("show-tasks").setAttribute("aria-pressed", String(id === "tasks-step" && !showingArchive));
-  field("show-archive").setAttribute("aria-pressed", String(id === "tasks-step" && showingArchive));
+  const taskView = id === "tasks-step" || id === "detail-step";
+  field("show-tasks").setAttribute("aria-pressed", String(taskView && !showingArchive));
+  field("show-archive").setAttribute("aria-pressed", String(taskView && showingArchive));
+  field("show-list").setAttribute("aria-pressed", String(id === "list-step"));
   field(id).focus();
 }
 function workspaceStatus(message = "") {
@@ -93,7 +103,7 @@ function renderCards() {
   const assignee = field("assignee-filter").value;
   const scopedRequests = workspace.requests.filter(request => isClosed(request) === showingArchive);
   field("task-counts").replaceChildren(...STATUSES.filter(value => isClosed({ status: value }) === showingArchive).map(value =>
-    node("span", `${value}: ${scopedRequests.filter(request => request.status === value).length}`, "status-badge")));
+    statusBadge(value, `${value}: ${scopedRequests.filter(request => request.status === value).length}`)));
   const requests = scopedRequests.filter(request =>
     (!status || request.status === status)
     && (!assignee || request.assignee === (assignee === "unassigned" ? "" : assignee))
@@ -104,12 +114,14 @@ function renderCards() {
   for (const request of requests) {
     const card = node("article", undefined, "task-card");
     card.dataset.mode = request.mode;
+    const assignment = node("p", "Assigned to: ");
+    assignment.append(node("span", request.assignee || "Unassigned", request.assignee ? "" : "unassigned-label"));
     card.append(
-      node("span", request.status, "status-badge"),
+      statusBadge(request.status),
       node("p", `${request.reference} | ${request.mode.toUpperCase()} | LINER CODES`, "eyebrow"),
       node("h3", `${request.submitted.code} - ${request.proposal.linerName}`),
       node("p", request.submitted.reason || "New liner code request"),
-      node("p", `Assigned to: ${request.assignee || "Unassigned"}`),
+      assignment,
       node("p", `Submitted: ${displayDate(request.createdAt)}`, "hint")
     );
     const button = node("button", "Open request");
@@ -146,9 +158,10 @@ function compareValues() {
 function renderDetail(draft, note = "") {
   const request = selected;
   const closed = isClosed(request);
+  field("delete-request").hidden = !closed;
   const heading = node("h2", `${request.reference}: ${request.mode.toUpperCase()} ${request.proposal.code}`);
   heading.id = "detail-title";
-  field("request-heading").replaceChildren(heading, node("p", request.status, "status-badge"));
+  field("request-heading").replaceChildren(heading, statusBadge(request.status));
   const info = field("request-info");
   info.replaceChildren();
   for (const [label, value] of [
@@ -295,8 +308,10 @@ async function removeRequest() {
   const { id, version, reference } = selected;
   const workspaceId = workspace.id;
   try {
-    if (!await confirmAction("Delete this demo request?",
-      `Permanently delete ${reference}, including its contact details, notes and history? Unsaved edits will also be discarded. This cannot be undone. Any changes already published to the demo code list will remain; deleting a request does not undo publication.`)) return;
+    if (!isClosed(selected)) throw new Error("Only archived requests can be deleted. Publish or reject the request first.");
+    if (!await confirmAction("Permanently delete this archived request?",
+      `Please confirm the permanent deletion of ${reference}. Any changes already published to the demo code list will remain; deleting a request does not undo publication.`,
+      undefined, true)) return;
     field("workspace").inert = true;
     workspaceStatus("Deleting demo request...");
     const updated = await store.update(workspaceId, current => deleteRequest(current, id, version));
