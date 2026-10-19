@@ -3,18 +3,18 @@ import { countries } from "./countries.js";
 import { linkedValue, websiteShortcut } from "./links.js";
 import {
   DemoStore, WORKSPACE_KEY, ASSIGNEES, STATUSES, LABELS, RECORD_FIELDS,
-  actOnRequest, deleteRequest, createWorkspace, validateWorkspace, conflict, isClosed, cleanValues
+  actOnRequest, deleteRequest, conflict, isClosed, cleanValues
 } from "./workflow.js";
 
 const field = id => document.getElementById(id);
 const store = new DemoStore();
 let workspace;
-let snapshot;
 let selected;
 let dirty = false;
 let busy = false;
 let pageNumber = 0;
 let signedIn = false;
+let showingArchive = false;
 
 function node(tag, value, className) {
   const element = document.createElement(tag);
@@ -65,19 +65,36 @@ async function discardEdits() {
   return !dirty || await confirmAction("Leave unsaved edits?", "Your unsaved proposal and note will be discarded. Saved changes remain in the workspace.");
 }
 function screen(id) {
-  for (const name of ["tasks-step", "detail-step", "list-step", "tools-step"]) field(name).hidden = name !== id;
+  for (const name of ["tasks-step", "detail-step", "list-step"]) field(name).hidden = name !== id;
+  field("show-tasks").setAttribute("aria-pressed", String(id === "tasks-step" && !showingArchive));
+  field("show-archive").setAttribute("aria-pressed", String(id === "tasks-step" && showingArchive));
   field(id).focus();
 }
 function workspaceStatus(message = "") {
   field("workspace-status").textContent = message || `${workspace.requests.length} requests | ${workspace.records.length} demo codes | Saved in this browser only`;
 }
+function setTaskView(archive) {
+  if (showingArchive !== archive) {
+    field("task-search").value = "";
+    field("assignee-filter").value = "";
+  }
+  showingArchive = archive;
+  field("tasks-title").textContent = archive ? "Archive" : "Active tasks";
+  field("tasks-help").textContent = archive
+    ? "Published and rejected requests, with their details and review history retained."
+    : "Requests awaiting review or information. Published and rejected requests are kept in the Archive.";
+  field("back-to-tasks").textContent = archive ? "Back to archive" : "Back to active tasks";
+  field("status-filter").replaceChildren(new Option("All statuses", ""),
+    ...STATUSES.filter(status => isClosed({ status }) === archive).map(status => new Option(status, status)));
+}
 function renderCards() {
   const query = field("task-search").value.trim().toLowerCase();
   const status = field("status-filter").value;
   const assignee = field("assignee-filter").value;
-  field("task-counts").replaceChildren(...STATUSES.map(value =>
-    node("span", `${value}: ${workspace.requests.filter(request => request.status === value).length}`, "status-badge")));
-  const requests = workspace.requests.filter(request =>
+  const scopedRequests = workspace.requests.filter(request => isClosed(request) === showingArchive);
+  field("task-counts").replaceChildren(...STATUSES.filter(value => isClosed({ status: value }) === showingArchive).map(value =>
+    node("span", `${value}: ${scopedRequests.filter(request => request.status === value).length}`, "status-badge")));
+  const requests = scopedRequests.filter(request =>
     (!status || request.status === status)
     && (!assignee || request.assignee === (assignee === "unassigned" ? "" : assignee))
     && [request.reference, request.submitted.code, request.proposal.linerName, request.submitted.contactName]
@@ -213,7 +230,7 @@ async function openRequest(id) {
     workspace = store.read();
     if (!workspace) throw new Error("Workspace missing. Sign out and sign in to initialize it.");
     selected = workspace.requests.find(request => request.id === id);
-    if (!selected) throw new Error("Request no longer exists. Return to All tasks.");
+    if (!selected) throw new Error("Request no longer exists. Return to Active tasks or Archive.");
     dirty = false;
     clearError("detail-error");
     clearError("workspace-error");
@@ -327,7 +344,7 @@ function download(data, filename) {
   link.click();
   setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
-async function navigate(id) {
+async function navigate(id, archive = showingArchive) {
   if (busy) return;
   if (!await discardEdits()) return;
   try {
@@ -336,7 +353,10 @@ async function navigate(id) {
     dirty = false;
     clearError("workspace-error");
     workspaceStatus();
-    if (id === "tasks-step") renderCards();
+    if (id === "tasks-step") {
+      if (showingArchive !== archive) setTaskView(archive);
+      renderCards();
+    }
     if (id === "list-step") { pageNumber = 0; renderList(); }
     screen(id);
   } catch (error) { errorAt("workspace-error", error); }
@@ -360,7 +380,6 @@ function signOut() {
 for (const id of ["task-assignee", "assignee-filter"]) {
   for (const name of ASSIGNEES) field(id).add(new Option(name, name));
 }
-for (const status of STATUSES) field("status-filter").add(new Option(status, status));
 field("demo-login").addEventListener("submit", async event => {
   event.preventDefault();
   if (busy) return;
@@ -377,16 +396,17 @@ field("demo-login").addEventListener("submit", async event => {
   busy = true;
   field("demo-sign-in").disabled = true;
   try {
-    snapshot = await loadSnapshot();
-    workspace = await store.initialize(snapshot);
+    workspace = await store.initialize(await loadSnapshot());
     signedIn = true;
     field("demo-login").reset();
     field("login-step").hidden = true;
     field("workspace").hidden = false;
     dirty = false;
+    setTaskView(false);
     const id = new URL(location.href).searchParams.get("request");
     if (id && workspace.requests.some(request => request.id === id)) {
       selected = workspace.requests.find(request => request.id === id);
+      setTaskView(isClosed(selected));
       clearError("detail-error");
       renderDetail();
       screen("detail-step");
@@ -399,10 +419,10 @@ field("demo-login").addEventListener("submit", async event => {
 field("reviewer-sign-out").addEventListener("click", async () => {
   if (!busy && await discardEdits()) signOut();
 });
-field("show-tasks").addEventListener("click", () => navigate("tasks-step"));
+field("show-tasks").addEventListener("click", () => navigate("tasks-step", false));
+field("show-archive").addEventListener("click", () => navigate("tasks-step", true));
 field("back-to-tasks").addEventListener("click", () => navigate("tasks-step"));
 field("show-list").addEventListener("click", () => navigate("list-step"));
-field("show-tools").addEventListener("click", () => navigate("tools-step"));
 for (const id of ["task-search", "status-filter", "assignee-filter"]) field(id).addEventListener("input", renderCards);
 field("save-assignment").addEventListener("click", () => perform("assign"));
 field("delete-request").addEventListener("click", removeRequest);
@@ -419,42 +439,9 @@ field("list-search").addEventListener("input", () => { pageNumber = 0; renderLis
 field("list-previous").addEventListener("click", () => { pageNumber--; renderList(); });
 field("list-next").addEventListener("click", () => { pageNumber++; renderList(); });
 field("export-list").addEventListener("click", () => download(workspace.records, "smdg-demo-liner-codes.json"));
-field("export-workspace").addEventListener("click", async () => {
-  if (await confirmAction("Export workspace including contacts?", "The downloaded file contains all local requests, fictional contacts and review notes. Share it only if it contains no real personal information.")) {
-    download(workspace, "smdg-demo-workspace.json");
-  }
-});
-field("import-workspace").addEventListener("change", async event => {
-  const file = event.target.files[0];
-  event.target.value = "";
-  if (!file || busy) return;
-  busy = true;
-  clearError("workspace-error");
-  try {
-    if (file.size > 8000000) throw new Error("Import file exceeds the 8 MB limit.");
-    const imported = validateWorkspace(JSON.parse(await file.text()));
-    const expected = workspace;
-    if (!await confirmAction("Replace the entire workspace?", `Import ${imported.requests.length} requests and ${imported.records.length} demo records? Existing requests, contacts, notes and demo changes will be replaced. Export first if needed.`)) return;
-    workspace = await store.replace(imported, expected);
-    workspaceStatus("Workspace imported successfully. All data remains in this browser.");
-  } catch (error) { errorAt("workspace-error", error); }
-  finally { busy = false; }
-});
-field("reset-workspace").addEventListener("click", async () => {
-  if (busy) return;
-  busy = true;
-  clearError("workspace-error");
-  try {
-    const expected = workspace;
-    if (!await confirmAction("Reset all demo work?", "All requests, contacts, notes and demo changes will be replaced with the original snapshot and sample requests. This cannot be undone.")) return;
-    workspace = await store.replace(createWorkspace(snapshot), expected);
-    workspaceStatus("Workspace reset. Three sample requests are ready.");
-  } catch (error) { errorAt("workspace-error", error); }
-  finally { busy = false; }
-});
 window.addEventListener("storage", event => {
   if (event.key === WORKSPACE_KEY && signedIn) {
-    errorAt("workspace-error", new Error("This workspace changed in another tab. Reopen All tasks to load the latest data. Unsaved edits have not been overwritten."));
+    errorAt("workspace-error", new Error("This workspace changed in another tab. Reopen Active tasks or Archive to load the latest data. Unsaved edits have not been overwritten."));
   }
 });
 window.addEventListener("beforeunload", event => {

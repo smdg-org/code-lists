@@ -49,15 +49,15 @@
     </section>
     <div id="workspace" hidden>
       <nav class="actions workspace-nav" aria-label="Workspace navigation">
-        <button id="show-tasks" type="button">All tasks</button>
+        <button id="show-tasks" type="button" aria-pressed="true">Active tasks</button>
+        <button id="show-archive" type="button" class="secondary" aria-pressed="false">Archive</button>
         <button id="show-list" type="button" class="secondary">Demo code list</button>
-        <button id="show-tools" type="button" class="secondary">Workspace tools</button>
         <button id="reviewer-sign-out" type="button" class="secondary">Sign out</button>
       </nav>
       <p id="workspace-status" role="status"></p>
       <section id="tasks-step" tabindex="-1" aria-labelledby="tasks-title">
-        <h2 id="tasks-title">All tasks</h2>
-        <p>Start with three fully populated sample requests, or submit your own using the test form.</p>
+        <h2 id="tasks-title">Active tasks</h2>
+        <p id="tasks-help">Requests awaiting review or information. Published and rejected requests are kept in the Archive.</p>
         <div id="task-counts" class="stats" aria-label="Request counts"></div>
         <div class="panel grid filters">
           <div><label for="task-search">Search requests</label><input id="task-search" type="search" placeholder="Reference, code, liner or contact"></div>
@@ -69,7 +69,7 @@
       </section>
       <section id="detail-step" tabindex="-1" aria-labelledby="detail-title" hidden>
         <div class="actions">
-          <button id="back-to-tasks" type="button" class="secondary">Back to all tasks</button>
+          <button id="back-to-tasks" type="button" class="secondary">Back to active tasks</button>
           <button id="delete-request" type="button" class="danger">Delete request</button>
         </div>
         <div id="request-heading"></div>
@@ -131,22 +131,6 @@
           <div class="actions"><button id="list-previous" type="button" class="secondary">Previous page</button><button id="list-next" type="button" class="secondary">Next page</button></div>
         </div>
         <button id="export-list" type="button">Download demo list JSON</button>
-      </section>
-      <section id="tools-step" tabindex="-1" aria-labelledby="tools-title" hidden>
-        <h2 id="tools-title">Workspace tools</h2>
-        <section class="panel">
-          <h3>Export and import</h3>
-          <p>A workspace export includes fictional contact details, reviewer notes, original requests and history.
-            Do not share real personal information. Import validates the file then replaces this entire workspace; it does not merge.</p>
-          <div class="actions"><button id="export-workspace" type="button">Export workspace</button></div>
-          <label for="import-workspace">Import workspace JSON (maximum 8 MB)</label>
-          <input id="import-workspace" type="file" accept=".json,application/json">
-        </section>
-        <section class="panel">
-          <h3>Reset demo</h3>
-          <p>Replace all local requests and demo changes with a fresh copy of the bundled snapshot and three sample requests. Export first if you want to keep your work.</p>
-          <button id="reset-workspace" type="button" class="danger">Reset workspace</button>
-        </section>
       </section>
     </div>
     <dialog id="confirm-dialog" aria-labelledby="confirm-title">
