@@ -101,13 +101,13 @@ test("Add has a proposal only, Update has comparisons, and Delete shows record d
   await expect(page.locator("#comparison-body")).toBeEmpty();
   await expect(page.locator("#deletion-section")).toBeHidden();
   await expect(page.getByRole("columnheader", { name: "Current demo list", exact: true })).toHaveCount(0);
-  await page.getByRole("button", { name: "Back to all tasks" }).click();
+  await page.getByRole("button", { name: "Back to active tasks" }).click();
   await open(page, "update");
   await expect(page.locator("#proposal-section")).toBeVisible();
   await expect(page.locator("#comparison-section")).toBeVisible();
   await expect(page.getByRole("columnheader", { name: "Current demo list", exact: true })).toBeVisible();
   await expect(page.locator("#deletion-section")).toBeHidden();
-  await page.getByRole("button", { name: "Back to all tasks" }).click();
+  await page.getByRole("button", { name: "Back to active tasks" }).click();
   await open(page, "delete");
   await expect(page.locator("#proposal-section")).toBeHidden();
   await expect(page.locator("#comparison-section")).toBeHidden();
@@ -160,7 +160,7 @@ test("all five assignees, filters, unassignment and refresh persistence work", a
     "Unassigned", "Javier Moral", "Thalke Diepenbrock", "Mark Lim", "Jasmin Dronner", "Anna Eder"
   ]);
   await assign(page, "Anna Eder");
-  await page.getByRole("button", { name: "Back to all tasks" }).click();
+  await page.getByRole("button", { name: "Back to active tasks" }).click();
   await page.getByLabel("Assignee", { exact: true }).selectOption("Anna Eder");
   await expect(page.locator(".task-card")).toHaveCount(1);
   await page.getByLabel("Status", { exact: true }).selectOption("Under review");
@@ -241,6 +241,17 @@ test("form Add, reviewer direct publish, then form Update and Delete affect only
     else expect(added).toBeUndefined();
   }
   expect((await workspace(page)).requests.filter(request => request.proposal.code === "Z9Z")).toHaveLength(3);
+  await page.getByRole("button", { name: "Active tasks", exact: true }).click();
+  await expect(page.locator(".task-card")).toHaveCount(3);
+  await expect(page.locator("#task-list")).not.toContainText("Z9Z");
+  await page.getByRole("button", { name: "Archive", exact: true }).click();
+  await expect(page.locator(".task-card")).toHaveCount(3);
+  for (const mode of ["add", "update", "delete"]) {
+    await expect(page.locator(`.task-card[data-mode="${mode}"]`)).toContainText("Z9Z");
+  }
+  await open(page, "add");
+  await expect(page.getByRole("button", { name: "Approve and publish - demo", exact: true })).toBeDisabled();
+  await expect(page.locator("#request-history")).toContainText("Published");
 });
 
 test("clarification, notes, draft, resume and rejection keep history without dataset changes", async ({ page }) => {
@@ -283,10 +294,14 @@ test("invalid proposal cannot publish and unsaved edits can be kept or discarded
   await page.getByLabel("Website", { exact: true }).fill("");
   await page.getByRole("button", { name: "Approve and publish - demo", exact: true }).click();
   await expect(page.locator("#detail-error")).toContainText("Website is required");
-  await page.getByRole("button", { name: "Back to all tasks" }).click();
+  await page.getByRole("button", { name: "Archive", exact: true }).click();
+  await page.getByRole("button", { name: "Cancel", exact: true }).click();
+  await expect(page.locator("#detail-step")).toBeVisible();
+  await expect(page.getByLabel("Website", { exact: true })).toHaveValue("");
+  await page.getByRole("button", { name: "Back to active tasks" }).click();
   await page.getByRole("button", { name: "Cancel", exact: true }).click();
   await expect(page.getByLabel("Website", { exact: true })).toHaveValue("");
-  await page.getByRole("button", { name: "Back to all tasks" }).click();
+  await page.getByRole("button", { name: "Back to active tasks" }).click();
   await confirm(page);
   await open(page);
   await expect(page.getByLabel("Website", { exact: true })).toHaveValue("www.example.com");
@@ -326,7 +341,7 @@ test("changed record blocks publication until compared and explicitly rebased", 
   await page.getByRole("button", { name: "Approve and publish - demo", exact: true }).click();
   await confirm(page);
   await expect(page.locator("#detail-error")).toContainText("changed after");
-  await page.getByRole("button", { name: "Back to all tasks" }).click();
+  await page.getByRole("button", { name: "Back to active tasks" }).click();
   await open(page, "update");
   await expect(page.locator("#conflict-notice")).toContainText("changed after");
   await page.getByLabel("Reviewer note / decision reason").fill("Compared values; use the agreed proposal.");
@@ -338,41 +353,107 @@ test("changed record blocks publication until compared and explicitly rebased", 
   await expect(page.locator("#request-heading")).toContainText("Published - demo");
 });
 
-test("workspace export, reset, validated import and public-list export work", async ({ page }) => {
+test("workspace tools are removed and public-list export still works", async ({ page }) => {
   await route(page);
   await page.goto("/reviewer.html");
   await signIn(page);
-  await open(page);
-  await assign(page);
-  await page.getByRole("button", { name: "Workspace tools" }).click();
-  await page.getByRole("button", { name: "Export workspace", exact: true }).click();
-  const downloadPromise = page.waitForEvent("download");
-  await confirm(page);
-  const exported = JSON.parse(await readFile(await (await downloadPromise).path(), "utf8"));
-  expect(exported.requests.some(request => request.assignee === "Javier Moral")).toBe(true);
-  await page.getByRole("button", { name: "Reset workspace", exact: true }).click();
-  await page.getByRole("button", { name: "Cancel", exact: true }).click();
-  expect((await workspace(page)).id).toBe(exported.id);
-  await page.getByRole("button", { name: "Reset workspace", exact: true }).click();
-  await confirm(page);
-  await expect(page.locator("#workspace-status")).toContainText("Workspace reset");
-  expect((await workspace(page)).requests.every(request => !request.assignee)).toBe(true);
-  await page.locator("#import-workspace").setInputFiles({
-    name: "invalid.json", mimeType: "application/json", buffer: Buffer.from('{"schema":99}')
-  });
-  await expect(page.locator("#workspace-error")).toContainText("Invalid or unsupported");
-  await page.locator("#import-workspace").setInputFiles({
-    name: "workspace.json", mimeType: "application/json", buffer: Buffer.from(JSON.stringify(exported))
-  });
-  await confirm(page);
-  await expect(page.locator("#workspace-status")).toContainText("Workspace imported");
-  expect((await workspace(page)).requests.some(request => request.assignee === "Javier Moral")).toBe(true);
+  await expect(page.getByRole("button", { name: "Workspace tools" })).toHaveCount(0);
+  await expect(page.locator("#tools-step, #export-workspace, #import-workspace, #reset-workspace")).toHaveCount(0);
   await page.getByRole("button", { name: "Demo code list", exact: true }).click();
   const publicDownload = page.waitForEvent("download");
   await page.getByRole("button", { name: "Download demo list JSON" }).click();
   const publicRecords = JSON.parse(await readFile(await (await publicDownload).path(), "utf8"));
   expect(JSON.stringify(publicRecords)).not.toContain("requester@example.com");
   expect(publicRecords).toHaveLength(2);
+});
+
+test("closed requests move to a searchable archive and retain details after refresh", async ({ page }) => {
+  await route(page);
+  await page.setViewportSize({ width: 320, height: 740 });
+  await page.goto("/reviewer.html");
+  await signIn(page);
+  await expect(page.locator("#status-filter option")).toHaveText([
+    "All statuses", "Pending review", "Under review", "Needs information"
+  ]);
+  await page.getByRole("button", { name: "Archive", exact: true }).click();
+  await expect(page.locator("#tasks-step")).toBeFocused();
+  await expect(page.locator("#no-tasks")).toBeVisible();
+  await expect(page.locator(".task-card")).toHaveCount(0);
+  await page.getByRole("button", { name: "Active tasks", exact: true }).click();
+  await open(page, "add");
+  await assign(page);
+  await page.getByRole("button", { name: "Approve and publish - demo", exact: true }).click();
+  await confirm(page);
+  await expect(page.locator("#request-heading")).toContainText("Published - demo");
+  await page.getByRole("button", { name: "Back to active tasks" }).click();
+  await expect(page.locator(".task-card")).toHaveCount(2);
+  await expect(page.locator('.task-card[data-mode="add"]')).toHaveCount(0);
+  await open(page, "update");
+  await assign(page, "Anna Eder");
+  await page.getByLabel("Reviewer note / decision reason").fill("Archived rejection reason.");
+  await page.getByRole("button", { name: "Reject request", exact: true }).click();
+  await confirm(page);
+  await page.getByRole("button", { name: "Back to active tasks" }).click();
+  await expect(page.locator(".task-card")).toHaveCount(1);
+  await expect(page.locator("#task-counts")).not.toContainText("Rejected");
+  await open(page, "delete");
+  await assign(page);
+  await page.getByLabel("Reviewer note / decision reason").fill("Waiting for confirmation.");
+  await page.getByRole("button", { name: "Needs information", exact: true }).click();
+  await page.getByRole("button", { name: "Back to active tasks" }).click();
+  await expect(page.locator(".task-card")).toHaveCount(1);
+  await expect(page.locator(".task-card")).toContainText("Needs information");
+
+  await page.getByLabel("Status", { exact: true }).selectOption("Needs information");
+  await page.getByRole("button", { name: "Archive", exact: true }).click();
+  await expect(page.locator("#show-archive")).toHaveAttribute("aria-pressed", "true");
+  await expect(page.locator("#tasks-title")).toHaveText("Archive");
+  await expect(page.locator("#status-filter option")).toHaveText(["All statuses", "Rejected", "Published - demo"]);
+  await expect(page.locator(".task-card")).toHaveCount(2);
+  await expect(page.locator("#task-counts")).toContainText("Rejected: 1");
+  await expect(page.locator("#task-counts")).toContainText("Published - demo: 1");
+  expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(320);
+  await page.getByLabel("Status", { exact: true }).selectOption("Published - demo");
+  await expect(page.locator(".task-card")).toHaveCount(1);
+  await expect(page.locator(".task-card")).toContainText("Published - demo");
+  await page.getByLabel("Status", { exact: true }).selectOption("");
+  await page.getByLabel("Assignee", { exact: true }).selectOption("Anna Eder");
+  await expect(page.locator(".task-card")).toHaveCount(1);
+  await expect(page.locator(".task-card")).toContainText("Rejected");
+  await page.getByLabel("Search requests").fill("no such request");
+  await expect(page.locator("#no-tasks")).toBeVisible();
+  await page.getByLabel("Search requests").fill("MSK");
+  await open(page, "update");
+  await expect(page.locator("#request-history")).toContainText("Archived rejection reason.");
+  await expect(page.getByLabel("City", { exact: true })).toBeDisabled();
+  await expect(page.getByLabel("Assigned to", { exact: true })).toBeDisabled();
+  await page.getByRole("button", { name: "Back to archive" }).click();
+  await expect(page.locator("#tasks-title")).toHaveText("Archive");
+  await expect(page.locator(".task-card")).toHaveCount(1);
+  await page.getByRole("button", { name: "Active tasks", exact: true }).click();
+  await expect(page.getByLabel("Search requests")).toHaveValue("");
+  await expect(page.getByLabel("Assignee", { exact: true })).toHaveValue("");
+  await expect(page.locator(".task-card")).toHaveCount(1);
+
+  await page.reload();
+  await signIn(page);
+  await expect(page.locator("#tasks-title")).toHaveText("Active tasks");
+  await expect(page.locator(".task-card")).toHaveCount(1);
+  await page.getByRole("button", { name: "Archive", exact: true }).click();
+  await expect(page.locator(".task-card")).toHaveCount(2);
+  const saved = await workspace(page);
+  const rejected = saved.requests.find(request => request.status === "Rejected");
+  await page.goto(`/reviewer.html?request=${encodeURIComponent(rejected.id)}`);
+  await signIn(page);
+  await expect(page.locator("#request-history")).toContainText("Archived rejection reason.");
+  await page.getByRole("button", { name: "Back to archive" }).click();
+  await expect(page.locator(".task-card")).toHaveCount(2);
+  await open(page, "update");
+  await page.getByRole("button", { name: "Delete request", exact: true }).click();
+  await confirm(page);
+  await expect(page.locator("#tasks-title")).toHaveText("Archive");
+  await expect(page.locator(".task-card")).toHaveCount(1);
+  expect((await workspace(page)).records).toEqual(saved.records);
 });
 
 test("blocked storage fails explicitly and leaves the preview usable", async ({ page }) => {
@@ -527,7 +608,7 @@ test("failed and stale deletions do not remove requests", async ({ page }) => {
   await confirm(page);
   await expect(page.locator("#detail-error")).toContainText("request changed");
   expect((await workspace(page)).requests).toHaveLength(3);
-  await page.getByRole("button", { name: "Back to all tasks" }).click();
+  await page.getByRole("button", { name: "Back to active tasks" }).click();
   await open(page);
   await page.evaluate(() => {
     Storage.prototype.setItem = () => { throw new Error("Deletion storage denied"); };
@@ -561,7 +642,7 @@ test("standalone pages have no cross-navigation but share submitted requests", a
   await expect(page.locator('a[href="./"], a[href*="?demo=1"]')).toHaveCount(0);
   await expect(page.locator("#request-info")).toContainText("Request from the connected form");
   await expect(page.locator("#request-info")).toContainText("fictional@example.com");
-  await page.getByRole("button", { name: "Back to all tasks" }).click();
+  await page.getByRole("button", { name: "Back to active tasks" }).click();
   await expect(page.locator(".task-card")).toHaveCount(4);
 });
 

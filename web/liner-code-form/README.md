@@ -111,7 +111,7 @@ The public form and reviewer workspace are standalone pages with no navigation
 links between them, including after submission. Open the form at `./`
 and the reviewer workspace separately at `reviewer.html`. Use the same browser
 and origin (including port) for both pages. Submitted requests appear as cards
-under **All tasks** after signing in. Separate URLs do not provide security or
+under **Active tasks** after signing in. Separate URLs do not provide security or
 separate-domain hosting; sharing local demo data still requires the same origin.
 
 ### Login and task cards
@@ -145,8 +145,14 @@ control.
 The workspace initializes once with the deployment snapshot and three complete
 sample requests (Add, Update, Delete), with fictional contacts. All tasks are
 cards with reference, code, liner, action, status, assignee and submission date.
-Search and status/assignee filters work across the queue. Only Liner Codes is
-enabled; requests include a list identifier for explicit routing.
+**Active tasks** is the default view and includes Pending review, Under review
+and Needs information requests. Published and rejected requests automatically
+appear only in **Archive**, keeping the main queue focused on outstanding work.
+Both views support search and status/assignee filters, with counts and status
+options scoped to that view. Switching views clears filters. Archived cards
+still open their read-only details and history, and Back returns to the view
+they were opened from. Archiving does not delete requests or change saved data.
+Only Liner Codes is enabled; requests include a list identifier for explicit routing.
 
 ### Request screens and actions
 
@@ -190,7 +196,7 @@ Deletion removes the code from the demo list, not from request history. The demo
 uses a projection of public liner fields, not production versioning, activation,
 change-log or deletion semantics. No official dataset, release or API changes.
 
-### Storage, conflicts and workspace tools
+### Storage and conflicts
 
 `workflow.js` shares validation, lifecycle and storage between the two pages.
 The versioned workspace (`smdg-liner-workflow-demo-v1`) is one localStorage
@@ -207,16 +213,13 @@ proposal, does not silently merge fields, and records the acknowledgement.
 A removed code cannot be rebased. Stale form submission retains entries and
 offers a demo-list refresh before reviewing again.
 
-**Workspace tools** provides:
-
-- Export JSON with a warning that fictional contacts and notes are included.
-- Validate and import JSON (8 MB maximum), with confirmation before replacing
-  the entire workspace; no merge. A concurrent change blocks replacement.
-- Reset, with confirmation, to the deployment snapshot and fresh sample requests.
+The reviewer panel does not expose workspace export, import or reset controls.
+The **Demo code list** download remains available and excludes request contacts
+and reviewer notes.
 
 Storage is limited to one browser profile and origin (including port). It is
 not shared across people/devices, not private from other users of that browser,
-and not tamper-proof. Export/import can move a test workspace manually. This
+and not tamper-proof. This
 simulation provides no genuine authentication, authorization or audit guarantee.
 Production needs a backend and real identity/storage/publication services;
 API integration remains out of scope.
@@ -246,7 +249,8 @@ enrichment workbook or copies the repository into the deployment. Unit tests
 cover form validation, prefill, lifecycle, conflicts, imports and publication.
 Browser tests cover Add/Update/Delete end to end, contact disclosures, cards,
 assignment, editable comparisons, clarification/rejection, persistence,
-concurrent tabs, downloads/import/reset, storage failures and mobile layout.
+concurrent tabs, public-list downloads, active/archive views, storage failures
+and mobile layout.
 The original preview regressions still verify absence of writes, storage and
 submission in the explicit developer preview mode (`?preview=1`).
 The mobile Safari/WebKit regression checks empty and populated date fields at
