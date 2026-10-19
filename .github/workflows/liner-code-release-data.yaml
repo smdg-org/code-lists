@@ -20,27 +20,21 @@ jobs:
         uses: actions/checkout@v4
 
       - name: setup .net
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
 
       - name: rebuild combined
         run: |
           dotnet run --project ${{ env.project }} -- liner-codes pack combined \
-            -t "${{ github.token }}" \
-            -r "${{ github.repository }}" \
             -o "${{ env.output_dir }}"
 
       - name: check changes
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            echo "There are un-synched changes on combined file"
+          if ! git diff --exit-code -- "${{ env.output_dir }}/_combined.json"; then
+            echo "::error::Combined liner codes are out of sync. Regenerate and commit the combined file before releasing."
             exit 1
-          else
-            exit 0
           fi
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
 
   release-dataset:
     runs-on: ubuntu-latest
@@ -52,7 +46,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: setup .net
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
 
