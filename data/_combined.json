@@ -14,10 +14,10 @@
       "address": {
         "street": "CECIL STREET",
         "streetNumber": "105",
-        "floor": null,
+        "floor": "16-01 (Suite-1614), The Octagon",
         "postCode": "069534",
-        "city": "SINGAPORE",
-        "state": null,
+        "city": "Singapore",
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -56,7 +56,7 @@
         "floor": "Suntec Tower 2",
         "postCode": "038989",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -91,17 +91,17 @@
       "UnCountryCode": "HK",
       "address": {
         "street": "AUSTIN AVE",
-        "streetNumber": "46272",
+        "streetNumber": "7-9",
         "floor": "R00M 70, 7/F, WOON LEE COMMERCIAL  BUILDING",
         "postCode": null,
         "city": "Hong Kong",
-        "state": "Kowloon",
+        "state": "Hong Kong SAR",
         "country": "Hong Kong"
       }
     },
     "website": "Not available",
     "remarks": "",
-    "validFrom": "2026-02-12",
+    "validFrom": "2024-01-04",
     "validTo": null,
     "changeLogs": [
       {
@@ -126,16 +126,16 @@
     "parentCompany": "GNC",
     "address": "ATLANTIC CONTAINER LINE, 50 CARDINAL DRIVE, Zip Code , City WESTFIELD, NJ 07090, State , Country United States, Telephone +1 908 518 5720",
     "addressLocation": {
-      "UnLocode": null,
+      "UnLocode": "WFU",
       "UnCountryCode": "US",
       "address": {
-        "street": "CARDINAL DRIVE",
+        "street": "Cardinal Drive",
         "streetNumber": "50",
         "floor": null,
         "postCode": "07090",
-        "city": "WESTFIELD",
-        "state": "NJ",
-        "country": "US"
+        "city": "Westfield",
+        "state": "New Jersey",
+        "country": "United States"
       }
     },
     "website": "http://www.aclcargo.com/",
@@ -165,15 +165,15 @@
     "parentCompany": "",
     "address": "Moscow, 18 Andropova Ave., Building 5, ",
     "addressLocation": {
-      "UnLocode": "LED",
+      "UnLocode": "MOW",
       "UnCountryCode": "RU",
       "address": {
         "street": "Andropova Ave",
         "streetNumber": "18",
         "floor": "Building 5",
-        "postCode": null,
+        "postCode": "115432",
         "city": "Moscow",
-        "state": null,
+        "state": "Moscow",
         "country": "Russia"
       }
     },
@@ -210,9 +210,9 @@
         "street": "Santa Lucia Street",
         "streetNumber": "4",
         "floor": null,
-        "postCode": "1188",
+        "postCode": "VLT 1188",
         "city": "Valletta",
-        "state": null,
+        "state": "Port Region",
         "country": "Malta"
       }
     },
@@ -248,10 +248,10 @@
       "address": {
         "street": "CECIL STREET",
         "streetNumber": "140",
-        "floor": "PIL Building",
+        "floor": "#01-00, PIL Building",
         "postCode": "069540",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -288,8 +288,8 @@
         "street": "Tower View",
         "streetNumber": "30",
         "floor": null,
-        "postCode": null,
-        "city": "West Malling, Kent",
+        "postCode": "ME19 4UY",
+        "city": "West Malling",
         "state": "Kent",
         "country": "United Kingdom"
       }
@@ -324,12 +324,12 @@
       "UnLocode": "LED",
       "UnCountryCode": "RU",
       "address": {
-        "street": "DVINSKAYA STR",
-        "streetNumber": "162",
-        "floor": null,
+        "street": "Dvinskaya Str",
+        "streetNumber": "16 2",
+        "floor": "7th Floor",
         "postCode": "198035",
-        "city": "ST.PETERSBURG",
-        "state": null,
+        "city": "Saint Petersburg",
+        "state": "Saint Petersburg",
         "country": "Russia"
       }
     },
@@ -368,7 +368,7 @@
         "floor": null,
         "postCode": "4685205",
         "city": "Herzliya",
-        "state": null,
+        "state": "Tel Aviv District",
         "country": "Israel"
       }
     },
@@ -402,12 +402,12 @@
       "UnLocode": "TEM",
       "UnCountryCode": "GH",
       "address": {
-        "street": "Community 1",
-        "streetNumber": null,
+        "street": "Community",
+        "streetNumber": "1",
         "floor": null,
         "postCode": null,
         "city": "Tema",
-        "state": null,
+        "state": "Greater Accra",
         "country": "Ghana"
       }
     },
@@ -442,12 +442,12 @@
       "UnCountryCode": "TR",
       "address": {
         "street": "Alemdağ Cad.",
-        "streetNumber": "45308",
+        "streetNumber": "17/1",
         "floor": null,
-        "postCode": null,
-        "city": "Istanbul",
-        "state": null,
-        "country": "Turkey"
+        "postCode": "34692",
+        "city": "Uskudar",
+        "state": "Istanbul Province",
+        "country": "Türkiye"
       }
     },
     "website": "https://www.akkonlines.com/en/about-us/",
@@ -483,9 +483,9 @@
         "street": "Rua Verbo Divino",
         "streetNumber": "1547",
         "floor": null,
-        "postCode": null,
+        "postCode": "04719-002",
         "city": "Sao Paulo",
-        "state": null,
+        "state": "Sao Paulo",
         "country": "Brazil"
       }
     },
@@ -519,18 +519,18 @@
       "UnLocode": "DXB",
       "UnCountryCode": "AE",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": "412, Sultan Business Centre",
+        "street": "Oud Metha Road",
+        "streetNumber": "412",
+        "floor": "Sultan Business Centre",
         "postCode": null,
-        "city": null,
-        "state": "Oud Metha",
-        "country": "Dubai"
+        "city": "Dubai",
+        "state": "Dubai",
+        "country": "United Arab Emirates"
       }
     },
     "website": "https://www.vikisaglobal.com",
     "remarks": "",
-    "validFrom": "2021-07-28",
+    "validFrom": "2026-10-08",
     "validTo": null,
     "changeLogs": [
       {
@@ -563,7 +563,7 @@
         "floor": null,
         "postCode": "048580",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -602,7 +602,7 @@
         "floor": null,
         "postCode": null,
         "city": "Sao Paulo",
-        "state": null,
+        "state": "Sao Paulo",
         "country": "Brazil"
       }
     },
@@ -646,12 +646,12 @@
       "UnLocode": "MEL",
       "UnCountryCode": "AU",
       "address": {
-        "street": "Lvl 11, 30 Convention Centre Place South Wharf Vic",
-        "streetNumber": null,
-        "floor": null,
+        "street": "Convention Centre Place",
+        "streetNumber": "30",
+        "floor": "11",
         "postCode": "3006",
-        "city": "MELBOURNE",
-        "state": null,
+        "city": "Melbourne",
+        "state": "Victoria",
         "country": "Australia"
       }
     },
@@ -690,7 +690,7 @@
         "floor": null,
         "postCode": "21614",
         "city": "Buxtehude",
-        "state": null,
+        "state": "Lower Saxony",
         "country": "Germany"
       }
     },
@@ -721,15 +721,15 @@
     "parentCompany": "CMA",
     "address": "9 North Buona Vista Drive - #14-01 The Metropolis Tower 1,  138588 SINGAPORE",
     "addressLocation": {
-      "UnLocode": "SGN",
+      "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
         "street": "North Buona Vista Drive",
         "streetNumber": "9",
-        "floor": null,
+        "floor": "The Metropolis Tower 1",
         "postCode": "138588",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -760,15 +760,15 @@
     "parentCompany": "",
     "address": "ZERVEX, 8 UBI ROAD 2 #07-01, S408538",
     "addressLocation": {
-      "UnLocode": "SGN",
+      "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": "Ubi Road",
+        "street": "Ubi Road 2",
         "streetNumber": "8",
-        "floor": null,
+        "floor": "Zervex 07",
         "postCode": "408538",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -794,10 +794,10 @@
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
     "linerSMDGCode": "ARC",
-    "linerName": "ARC Line (Sunmarine Shipping Services)",
-    "carrierType": "UNKNOWN",
+    "linerName": "ARC Line",
+    "carrierType": "NVOCC",
     "parentCompany": "",
-    "address": "SUNMARINE SHIPPING SERVICES L.L.C, P.O.Box 25890, Rais Hassan Saadi Building, Al Mankool Road, Bur Dubai, Dubai, United Arab Emirates,",
+    "address": "PMSL, HARBOUR FRONT BUILDING, PRESIDENT JOHN KENNEDY STREET, PORT LOUIS, MAURITIUS",
     "addressLocation": {
       "UnLocode": "PLU",
       "UnCountryCode": "MU",
@@ -807,11 +807,11 @@
         "floor": "PMSL, HARBOUR FRONT BUILDING",
         "postCode": null,
         "city": "Port Louis",
-        "state": null,
+        "state": "Port Louis District",
         "country": "Mauritius"
       }
     },
-    "website": "http://www.sunmarine.com",
+    "website": "www.arcline.net",
     "remarks": "",
     "validFrom": "2016-10-28",
     "validTo": null,
@@ -819,7 +819,7 @@
       {
         "actionCode": "Added",
         "linerCodeVersion": "V1",
-        "lastUpdateDate": "2021-01-01",
+        "lastUpdateDate": "2026-02-19",
         "updateRequestedBy": null,
         "reason": "initial change",
         "changedFields": [],
@@ -841,13 +841,13 @@
       "UnLocode": "IST",
       "UnCountryCode": "TR",
       "address": {
-        "street": "Esentepe Gazeteciler Mahallesi Matbuat Sokak n°5 Sisli",
-        "streetNumber": null,
+        "street": "Matbuat Sokak",
+        "streetNumber": "5",
         "floor": null,
         "postCode": null,
         "city": "Istanbul",
-        "state": null,
-        "country": "Turkey"
+        "state": "Istanbul Province",
+        "country": "Türkiye"
       }
     },
     "website": "http://www.arkasline.com.tr",
@@ -885,7 +885,7 @@
         "floor": null,
         "postCode": "5953",
         "city": "Fonnes",
-        "state": null,
+        "state": "Vestland",
         "country": "Norway"
       }
     },
@@ -921,10 +921,10 @@
       "address": {
         "street": "Martin Lezica",
         "streetNumber": "3083",
-        "floor": null,
-        "postCode": null,
-        "city": "B1642GJA - San Isidro",
-        "state": null,
+        "floor": "2nd floor",
+        "postCode": "B1642GJA",
+        "city": "San Isidro",
+        "state": "Buenos Aires Province",
         "country": "Argentina"
       }
     },
@@ -951,7 +951,7 @@
     "linerCodeVersion": "V1",
     "linerSMDGCode": "ASL",
     "linerName": "A.A.SHIPPING LTD",
-    "carrierType": "UNKNOWN",
+    "carrierType": "NVOCC",
     "parentCompany": "",
     "address": "65 Yigal Alon St, Tel Aviv , Israel , ",
     "addressLocation": {
@@ -961,9 +961,9 @@
         "street": "Yigal Alon St",
         "streetNumber": "65",
         "floor": null,
-        "postCode": null,
+        "postCode": "6744316",
         "city": "Tel Aviv",
-        "state": null,
+        "state": "Tel Aviv District",
         "country": "Israel"
       }
     },
@@ -995,14 +995,14 @@
     "address": "AW Ship Management Ltd., 9 Alie Street, London, E1 8DE, United Kingdom",
     "addressLocation": {
       "UnLocode": "LON",
-      "UnCountryCode": "BG",
+      "UnCountryCode": "GB",
       "address": {
         "street": "Alie Street",
         "streetNumber": "9",
         "floor": null,
-        "postCode": null,
+        "postCode": "E1 8DE",
         "city": "London",
-        "state": null,
+        "state": "Greater London",
         "country": "United Kingdom"
       }
     },
@@ -1041,13 +1041,13 @@
         "floor": "Wave 9, \u00A0#05-02",
         "postCode": "757048",
         "city": "Singapore",
-        "state": "Woodlands",
+        "state": "North Region",
         "country": "Singapore"
       }
     },
     "website": "https://azonshipping.com/",
     "remarks": "",
-    "validFrom": "2026-09-04",
+    "validFrom": "2026-09-28",
     "validTo": null,
     "changeLogs": [
       {
@@ -1080,7 +1080,7 @@
         "floor": null,
         "postCode": "409051",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -1118,7 +1118,7 @@
         "streetNumber": null,
         "floor": null,
         "postCode": "RM16 6EW",
-        "city": "Essex",
+        "city": "Grays",
         "state": "Essex",
         "country": "United Kingdom"
       }
@@ -1155,10 +1155,10 @@
       "address": {
         "street": "Canton Road",
         "streetNumber": "30",
-        "floor": null,
+        "floor": "Unit 503, 5/F, Silvercord Tower 2",
         "postCode": null,
         "city": "Hong Kong",
-        "state": null,
+        "state": "Hong Kong SAR",
         "country": "Hong Kong"
       }
     },
@@ -1197,13 +1197,13 @@
         "floor": "PMSL, HARBOUR FRONT BUILDING",
         "postCode": null,
         "city": "Port Louis",
-        "state": null,
+        "state": "Port Louis District",
         "country": "Mauritius"
       }
     },
     "website": "www.baylines.net",
     "remarks": "RHS GROUP",
-    "validFrom": "2026-03-02",
+    "validFrom": "2026-02-19",
     "validTo": null,
     "changeLogs": [
       {
@@ -1234,9 +1234,9 @@
         "street": "Strandveien",
         "streetNumber": "20",
         "floor": null,
-        "postCode": null,
+        "postCode": "1366",
         "city": "Lysaker",
-        "state": null,
+        "state": "Akershus",
         "country": "Norway"
       }
     },
@@ -1270,12 +1270,12 @@
       "UnLocode": "DXB",
       "UnCountryCode": "AE",
       "address": {
-        "street": null,
+        "street": "Al Hamriyah Port",
         "streetNumber": null,
-        "floor": null,
+        "floor": "Al Nokhitha Building, Office 232",
         "postCode": null,
         "city": "Dubai",
-        "state": null,
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
@@ -1314,7 +1314,7 @@
         "floor": null,
         "postCode": null,
         "city": "Hamilton",
-        "state": null,
+        "state": "Pembroke Parish",
         "country": "Bermuda"
       }
     },
@@ -1353,8 +1353,8 @@
         "floor": null,
         "postCode": null,
         "city": "Hanoi",
-        "state": null,
-        "country": "Viet Nam"
+        "state": "Hanoi",
+        "country": "Vietnam"
       }
     },
     "website": "http://www.biendong.com.vn/index.php?lang=en",
@@ -1392,7 +1392,7 @@
         "floor": null,
         "postCode": "089763",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -1431,7 +1431,7 @@
         "floor": null,
         "postCode": "23000",
         "city": "La Paz",
-        "state": null,
+        "state": "Baja California Sur",
         "country": "Mexico"
       }
     },
@@ -1468,9 +1468,9 @@
         "street": "Den Hamweg",
         "streetNumber": "30",
         "floor": null,
-        "postCode": "3008",
+        "postCode": "3008 JA",
         "city": "Rotterdam",
-        "state": null,
+        "state": "South Holland",
         "country": "Netherlands"
       }
     },
@@ -1509,7 +1509,7 @@
         "floor": null,
         "postCode": "169208",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -1548,7 +1548,7 @@
         "floor": "Churchill Executive Tower, Floor : 23rd, Suite : 2306",
         "postCode": null,
         "city": "Dubai",
-        "state": null,
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
@@ -1584,10 +1584,10 @@
       "address": {
         "street": "Boon Leat Terrace,",
         "streetNumber": "2",
-        "floor": null,
+        "floor": "#08-02 Harbourside Building",
         "postCode": "119844",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -1626,7 +1626,7 @@
         "floor": null,
         "postCode": "159471",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -1665,8 +1665,8 @@
         "floor": null,
         "postCode": "15177",
         "city": "Tehran",
-        "state": null,
-        "country": "Iran, Islamic Republic of"
+        "state": "Tehran Province",
+        "country": "Iran"
       }
     },
     "website": "http://www.bosaco.ir/",
@@ -1702,9 +1702,9 @@
         "street": "Chiswell Street",
         "streetNumber": "10",
         "floor": null,
-        "postCode": null,
+        "postCode": "EC1Y 4XY",
         "city": "London",
-        "state": null,
+        "state": "Greater London",
         "country": "United Kingdom"
       }
     },
@@ -1743,7 +1743,7 @@
         "floor": null,
         "postCode": "81-306",
         "city": "Gdynia",
-        "state": null,
+        "state": "Pomeranian Voivodeship",
         "country": "Poland"
       }
     },
@@ -1790,7 +1790,7 @@
         "street": "Quayside Court, The Quay,",
         "streetNumber": null,
         "floor": null,
-        "postCode": null,
+        "postCode": "CO12 3HH",
         "city": "Harwich",
         "state": "Essex",
         "country": "United Kingdom"
@@ -1831,7 +1831,7 @@
         "floor": null,
         "postCode": "13910",
         "city": "Jakarta",
-        "state": null,
+        "state": "Special Capital Region of Jakarta",
         "country": "Indonesia"
       }
     },
@@ -1865,12 +1865,12 @@
       "UnLocode": "CGP",
       "UnCountryCode": "BD",
       "address": {
-        "street": null,
+        "street": "Saltgola Road",
         "streetNumber": null,
         "floor": null,
         "postCode": "4100",
-        "city": "Chattogram (Chittagong)",
-        "state": null,
+        "city": "Chattogram",
+        "state": "Chattogram Division",
         "country": "Bangladesh"
       }
     },
@@ -1907,9 +1907,9 @@
         "street": "Jurong Port Road",
         "streetNumber": "31",
         "floor": null,
-        "postCode": null,
+        "postCode": "619115",
         "city": "Singapore",
-        "state": null,
+        "state": "West Region",
         "country": "Singapore"
       }
     },
@@ -1940,16 +1940,16 @@
     "parentCompany": "",
     "address": "Torre Durandco Carretera Puerto Real Km 14.5, C.P. 24327 Cd. Del Carmen, Campeche",
     "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
+      "UnLocode": "CPE",
+      "UnCountryCode": "MX",
       "address": {
-        "street": "Torre Durandco Carretera Puerto Real",
+        "street": "Carretera Puerto Real",
         "streetNumber": "Km 14.5",
-        "floor": null,
+        "floor": "Torre Durandco",
         "postCode": "24327",
         "city": "Cd. Del Carmen",
-        "state": null,
-        "country": null
+        "state": "Campeche",
+        "country": "Mexico"
       }
     },
     "website": "https://www.bluemarine.com.mx/",
@@ -1982,12 +1982,12 @@
       "UnLocode": "BNE",
       "UnCountryCode": "AU",
       "address": {
-        "street": "17/240 Queen Street",
-        "streetNumber": null,
+        "street": "Queen Street",
+        "streetNumber": "240",
         "floor": null,
-        "postCode": null,
+        "postCode": "4000",
         "city": "Brisbane",
-        "state": null,
+        "state": "Queensland",
         "country": "Australia"
       }
     },
@@ -2023,10 +2023,10 @@
       "address": {
         "street": "Genting Lane",
         "streetNumber": "28",
-        "floor": null,
+        "floor": "#07-08 Platinum",
         "postCode": "349585",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -2065,7 +2065,7 @@
         "floor": null,
         "postCode": "089763",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -2104,7 +2104,7 @@
         "floor": "Navibulgar House",
         "postCode": "9000",
         "city": "Varna",
-        "state": null,
+        "state": "Varna Province",
         "country": "Bulgaria"
       }
     },
@@ -2143,7 +2143,7 @@
         "floor": null,
         "postCode": "757440",
         "city": "Singapore",
-        "state": null,
+        "state": "North Region",
         "country": "Singapore"
       }
     },
@@ -2169,7 +2169,7 @@
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
     "linerSMDGCode": "CAE",
-    "linerName": "Caerus Shipping",
+    "linerName": "Caerus Shipping FZCO",
     "carrierType": "VOCC",
     "parentCompany": "CAE",
     "address": "Office 112, B1, Dubai CommerCity, Dubai, UAE",
@@ -2182,7 +2182,7 @@
         "floor": "BCB1 112, First Floor,\nBusiness Cluster - Building 1",
         "postCode": null,
         "city": "Dubai",
-        "state": "Dubai CommerCity",
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
@@ -2221,7 +2221,7 @@
         "floor": "Level 1 Palm Grove House",
         "postCode": null,
         "city": "Tortola",
-        "state": null,
+        "state": "Tortola",
         "country": "British Virgin Islands"
       }
     },
@@ -2260,7 +2260,7 @@
         "floor": null,
         "postCode": "7550268",
         "city": "Santiago de Chile",
-        "state": null,
+        "state": "Santiago Metropolitan Region",
         "country": "Chile"
       }
     },
@@ -2296,10 +2296,10 @@
       "address": {
         "street": "Hendaya",
         "streetNumber": "60",
-        "floor": null,
+        "floor": "Piso 10",
         "postCode": "7550268",
         "city": "Santiago de Chile",
-        "state": null,
+        "state": "Santiago Metropolitan Region",
         "country": "Chile"
       }
     },
@@ -2325,24 +2325,24 @@
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
     "linerSMDGCode": "CCL",
-    "linerName": "Cordelia Shipping",
+    "linerName": "Cordelia Container Shipping Line Limited",
     "carrierType": "UNKNOWN",
     "parentCompany": "",
-    "address": "134 Archiepiskopou Makariou Avenue, Yiota Court, Apt. 102, 3021 Limassol, CYPRUS",
+    "address": "#103, 1st Floor, Building 04, Al Asayel Street, Bay Square, Business Bay, Dubai – UAE",
     "addressLocation": {
       "UnLocode": "DXB",
       "UnCountryCode": "AE",
       "address": {
         "street": "Al Asayel Street",
-        "streetNumber": null,
-        "floor": "#103, 1st Floor, Building 04",
+        "streetNumber": "103",
+        "floor": "1st Floor, Building 04",
         "postCode": null,
         "city": "Dubai",
-        "state": "Bay Square",
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
-    "website": "",
+    "website": "https://cordelialine.com/",
     "remarks": "",
     "validFrom": "2020-03-11",
     "validTo": null,
@@ -2350,7 +2350,7 @@
       {
         "actionCode": "Added",
         "linerCodeVersion": "V1",
-        "lastUpdateDate": "2021-01-01",
+        "lastUpdateDate": "2026-10-08",
         "updateRequestedBy": null,
         "reason": "initial change",
         "changedFields": [],
@@ -2366,7 +2366,7 @@
     "linerSMDGCode": "CCN",
     "linerName": "Compania Maritima Chilena",
     "carrierType": "VOCC",
-    "parentCompany": "Grupo Empresas Navieras S.A.",
+    "parentCompany": null,
     "address": "14 Norte 976, Viña del Mar, Chile",
     "addressLocation": {
       "UnLocode": "KNA",
@@ -2377,7 +2377,7 @@
         "floor": null,
         "postCode": null,
         "city": "Vina del Mar",
-        "state": "Valparaiso",
+        "state": "Valparaiso Region",
         "country": "Chile"
       }
     },
@@ -2399,7 +2399,7 @@
       {
         "actionCode": "Updated",
         "linerCodeVersion": "V2",
-        "lastUpdateDate": "2025-07-30",
+        "lastUpdateDate": "2025-07-21",
         "updateRequestedBy": "SMDG",
         "reason": "new information",
         "changedFields": [],
@@ -2423,10 +2423,10 @@
       "address": {
         "street": "Spring St",
         "streetNumber": "8",
-        "floor": null,
-        "postCode": null,
+        "floor": "Lvl 3",
+        "postCode": "2000",
         "city": "Sydney",
-        "state": null,
+        "state": "New South Wales",
         "country": "Australia"
       }
     },
@@ -2465,7 +2465,7 @@
         "floor": "MM Tower",
         "postCode": null,
         "city": "Dubai",
-        "state": null,
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
@@ -2500,11 +2500,11 @@
       "UnCountryCode": "LK",
       "address": {
         "street": "Sir Razik Fareed Mawatha (Bristol Street)",
-        "streetNumber": null,
+        "streetNumber": "27",
         "floor": null,
         "postCode": "01",
         "city": "Colombo",
-        "state": null,
+        "state": "Western Province",
         "country": "Sri Lanka"
       }
     },
@@ -2538,13 +2538,13 @@
       "UnLocode": "FLL",
       "UnCountryCode": "US",
       "address": {
-        "street": "148th Ave",
+        "street": "SW 148th Ave",
         "streetNumber": "4765",
-        "floor": null,
-        "postCode": "3330",
-        "city": "Fort Lauderdale",
+        "floor": "Suite 503",
+        "postCode": "33330",
+        "city": "Davie",
         "state": "Florida",
-        "country": "Florida, USA"
+        "country": "United States"
       }
     },
     "website": "https://www.caribbeanfeeder.com/",
@@ -2582,7 +2582,7 @@
         "floor": null,
         "postCode": "28046",
         "city": "Madrid",
-        "state": null,
+        "state": "Community of Madrid",
         "country": "Spain"
       }
     },
@@ -2621,8 +2621,8 @@
         "floor": "BUILDING 7TH FLOOR",
         "postCode": "04538",
         "city": "Seoul",
-        "state": "JUNG-GU",
-        "country": "Korea (Republic of)"
+        "state": "Seoul Special City",
+        "country": "South Korea"
       }
     },
     "website": "http://www.ckline.com/en/",
@@ -2660,7 +2660,7 @@
         "floor": "Palace Tower1, Office No. 1802 and 1803",
         "postCode": null,
         "city": "Dubai",
-        "state": null,
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
@@ -2699,7 +2699,7 @@
         "floor": "#14-01 The Metropolis Tower 1",
         "postCode": null,
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -2738,7 +2738,7 @@
         "floor": null,
         "postCode": "13235",
         "city": "Marseille",
-        "state": null,
+        "state": "Provence-Alpes-Côte d’Azur",
         "country": "France"
       }
     },
@@ -2777,7 +2777,7 @@
         "floor": null,
         "postCode": "2000",
         "city": "Antwerp",
-        "state": null,
+        "state": "Antwerp Province",
         "country": "Belgium"
       }
     },
@@ -2816,8 +2816,8 @@
         "floor": null,
         "postCode": "32225",
         "city": "Jacksonville",
-        "state": "FL",
-        "country": "Florida, USA"
+        "state": "Florida",
+        "country": "United States"
       }
     },
     "website": "http://www.crowley.com/",
@@ -2850,12 +2850,12 @@
       "UnLocode": "CAS",
       "UnCountryCode": "MA",
       "address": {
-        "street": "7 Boulevard Al Moukawama Ex La Resistance",
+        "street": "Boulevard Al Moukawama Ex La Resistance",
         "streetNumber": "7",
         "floor": null,
         "postCode": null,
         "city": "Casablanca",
-        "state": null,
+        "state": "Casablanca-Settat",
         "country": "Morocco"
       }
     },
@@ -2894,7 +2894,7 @@
         "floor": null,
         "postCode": null,
         "city": "Algier",
-        "state": null,
+        "state": "Algiers Province",
         "country": "Algeria"
       }
     },
@@ -2929,12 +2929,12 @@
       "UnCountryCode": "KR",
       "address": {
         "street": "SEOCHO-GU",
-        "streetNumber": null,
-        "floor": "#72, 10FL,. 1445-3, KUKJE ELECTRONIC CENTER",
+        "streetNumber": "72",
+        "floor": "10FL,. 1445-3, KUKJE ELECTRONIC CENTER",
         "postCode": null,
         "city": "Seoul",
-        "state": null,
-        "country": "Korea (Republic of)"
+        "state": "Seoul Special City",
+        "country": "South Korea"
       }
     },
     "website": "http://www.dongsue.com/",
@@ -2961,7 +2961,7 @@
     "linerSMDGCode": "CNP",
     "linerName": "Consorcio Naviero Peruano",
     "carrierType": "UNKNOWN",
-    "parentCompany": "",
+    "parentCompany": "HLC",
     "address": "Company Name : Consorcio Naviero Peruano S.A., RUC : 20100120403, Av. Republica de Colombia 643 7° y 8° Piso – San Isidro (Lima 27)",
     "addressLocation": {
       "UnLocode": "LIM",
@@ -2972,7 +2972,7 @@
         "floor": null,
         "postCode": null,
         "city": "Lima",
-        "state": null,
+        "state": "Lima Province",
         "country": "Peru"
       }
     },
@@ -3021,13 +3021,13 @@
         "floor": null,
         "postCode": "20459",
         "city": "Hamburg",
-        "state": null,
+        "state": "Hamburg",
         "country": "Germany"
       }
     },
     "website": "https://world.lines.coscoshipping.com/europe/en/home",
     "remarks": "",
-    "validFrom": "2026-05-29",
+    "validFrom": "2015-04-08",
     "validTo": null,
     "changeLogs": [
       {
@@ -3043,7 +3043,7 @@
       {
         "actionCode": "Updated",
         "linerCodeVersion": "V2",
-        "lastUpdateDate": "2026-06-15",
+        "lastUpdateDate": "2026-05-29",
         "updateRequestedBy": "COSCO SHIPPING Lines (Europe) GmbH",
         "reason": "vessels operated by Diamond Line GmbH instead of COSCO SHIPPING Lines (Europe) GmbH",
         "changedFields": [],
@@ -3070,7 +3070,7 @@
         "floor": null,
         "postCode": null,
         "city": "Majuro",
-        "state": null,
+        "state": "Majuro Atoll",
         "country": "Marshall Islands"
       }
     },
@@ -3099,17 +3099,17 @@
     "linerName": "Cool Carriers",
     "carrierType": "UNKNOWN",
     "parentCompany": "",
-    "address": "Cool Carriers AB, Barnhusgatan 16, SE-111 23 Stockholm, Sweden",
+    "address": "Cool Carriers AB, Repslagargatan 15B, SE-118 46 Stockholm, Sweden",
     "addressLocation": {
       "UnLocode": "STO",
       "UnCountryCode": "SE",
       "address": {
-        "street": "Barnhusgatan",
-        "streetNumber": "16",
+        "street": "Repslagargatan",
+        "streetNumber": "15B",
         "floor": null,
-        "postCode": "11123",
+        "postCode": "118 46",
         "city": "Stockholm",
-        "state": null,
+        "state": "Stockholm County",
         "country": "Sweden"
       }
     },
@@ -3148,7 +3148,7 @@
         "floor": null,
         "postCode": "200127",
         "city": "Shanghai",
-        "state": null,
+        "state": "Shanghai Municipality",
         "country": "China"
       }
     },
@@ -3187,7 +3187,7 @@
         "floor": null,
         "postCode": null,
         "city": "Shanghai",
-        "state": null,
+        "state": "Shanghai Municipality",
         "country": "China"
       }
     },
@@ -3216,7 +3216,7 @@
     "linerName": "New Golden Sea Shipping Pte Ltd",
     "carrierType": "VOCC",
     "parentCompany": "COS",
-    "address": "30 Cecil Street, #25-01 Prudential Tower Singapore 049712",
+    "address": "31 Cecil Street, #25-01 Prudential Tower Singapore 049712",
     "addressLocation": {
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
@@ -3224,15 +3224,15 @@
         "street": "Cecil Street",
         "streetNumber": "31",
         "floor": "#25-01 Prudential Tower Singapore",
-        "postCode": "49712",
+        "postCode": "049712",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
     "website": "https://world.lines.coscoshipping.com/NGS/en/home",
     "remarks": "Adjustment of company name (and address)",
-    "validFrom": "2025-06-11",
+    "validFrom": "2003-09-01",
     "validTo": null,
     "changeLogs": [
       {
@@ -3248,7 +3248,7 @@
       {
         "actionCode": "Updated",
         "linerCodeVersion": "V2",
-        "lastUpdateDate": "2025-07-21",
+        "lastUpdateDate": "2025-06-11",
         "updateRequestedBy": "COSCO",
         "reason": "Change of the company's name",
         "changedFields": [],
@@ -3271,11 +3271,11 @@
       "UnCountryCode": "SG",
       "address": {
         "street": "Henderson Road",
-        "streetNumber": "05-02",
-        "floor": null,
+        "streetNumber": "211",
+        "floor": "#05-02",
         "postCode": "159552",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -3314,7 +3314,7 @@
         "floor": null,
         "postCode": "20095",
         "city": "Hamburg",
-        "state": null,
+        "state": "Hamburg",
         "country": "Germany"
       }
     },
@@ -3348,12 +3348,12 @@
       "UnLocode": "GOA",
       "UnCountryCode": "IT",
       "address": {
-        "street": "Via Opera",
+        "street": "Via Operai",
         "streetNumber": "20",
         "floor": null,
         "postCode": "16149",
         "city": "Genova",
-        "state": "GE",
+        "state": "Liguria",
         "country": "Italy"
       }
     },
@@ -3390,7 +3390,7 @@
         "street": "McGill Street",
         "streetNumber": "478",
         "floor": null,
-        "postCode": null,
+        "postCode": "H2Y 2H2",
         "city": "Montreal",
         "state": "Quebec",
         "country": "Canada"
@@ -3428,10 +3428,10 @@
       "address": {
         "street": "Smith Street",
         "streetNumber": "336",
-        "floor": null,
-        "postCode": "0500336",
+        "floor": "#05-301, New Bridge Centre",
+        "postCode": "050336",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -3470,7 +3470,7 @@
         "floor": "Building 12",
         "postCode": "201204",
         "city": "Shanghai",
-        "state": null,
+        "state": "Shanghai Municipality",
         "country": "China"
       }
     },
@@ -3509,7 +3509,7 @@
         "floor": "Samudera Indonesia Building, 1st Floor",
         "postCode": "11480",
         "city": "Jakarta",
-        "state": null,
+        "state": "Special Capital Region of Jakarta",
         "country": "Indonesia"
       }
     },
@@ -3548,8 +3548,8 @@
         "floor": "Weida Commercial Building",
         "postCode": null,
         "city": "Hong Kong",
-        "state": null,
-        "country": "China"
+        "state": "Hong Kong SAR",
+        "country": "Hong Kong"
       }
     },
     "website": "www.chenxinshipping.com",
@@ -3584,10 +3584,10 @@
       "address": {
         "street": "North Bridge Road",
         "streetNumber": "111",
-        "floor": null,
+        "floor": "#08-04 Peninsula Plaza",
         "postCode": "179098",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -3626,7 +3626,7 @@
         "floor": null,
         "postCode": "22767",
         "city": "Hamburg",
-        "state": null,
+        "state": "Hamburg",
         "country": "Germany"
       }
     },
@@ -3670,13 +3670,13 @@
       "UnLocode": "IST",
       "UnCountryCode": "TR",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
+        "street": "Fahrettin Kerim Gökay Cad.",
+        "streetNumber": "18/1",
+        "floor": "Denizciler İş Merkezi, A Blok, Kat 1",
+        "postCode": "34662",
         "city": "Istanbul",
-        "state": null,
-        "country": "Turkey"
+        "state": "Istanbul Province",
+        "country": "Türkiye"
       }
     },
     "website": "http://www.tcl.com.tr/eng/index.asp",
@@ -3712,9 +3712,9 @@
         "street": "Jl Raden Saleh Raya",
         "streetNumber": "51",
         "floor": "Dlloyd Building,",
-        "postCode": null,
+        "postCode": "10330",
         "city": "Jakarta",
-        "state": null,
+        "state": "Special Capital Region of Jakarta",
         "country": "Indonesia"
       }
     },
@@ -3753,8 +3753,8 @@
         "floor": "201A,Paiknam Bldg",
         "postCode": null,
         "city": "Seoul",
-        "state": "Jung-Gu",
-        "country": "Korea (Republic of)"
+        "state": "Seoul Special City",
+        "country": "South Korea"
       }
     },
     "website": "http://korea.djship.co.kr/dj/",
@@ -3797,13 +3797,13 @@
       "UnLocode": "IST",
       "UnCountryCode": "TR",
       "address": {
-        "street": null,
-        "streetNumber": null,
+        "street": "Erturk Sok.",
+        "streetNumber": "5",
         "floor": null,
-        "postCode": null,
+        "postCode": "34810",
         "city": "Istanbul",
-        "state": null,
-        "country": "Turkey"
+        "state": "Istanbul Province",
+        "country": "Türkiye"
       }
     },
     "website": "http://deltaship.com.tr/",
@@ -3836,12 +3836,12 @@
       "UnLocode": "ANR",
       "UnCountryCode": "BE",
       "address": {
-        "street": "De Gerlachkai",
+        "street": "De Gerlachekaai",
         "streetNumber": "20",
         "floor": null,
         "postCode": "2000",
         "city": "Antwerp",
-        "state": null,
+        "state": "Antwerp Province",
         "country": "Belgium"
       }
     },
@@ -3878,10 +3878,10 @@
         "street": "Mapo-daero",
         "streetNumber": "136",
         "floor": null,
-        "postCode": null,
+        "postCode": "121803",
         "city": "Seoul",
-        "state": "Mapo-gu",
-        "country": "Korea, Republic of"
+        "state": "Seoul Special City",
+        "country": "South Korea"
       }
     },
     "website": "http://www.dblkr.com/english/Company01.asp",
@@ -3911,15 +3911,15 @@
     "parentCompany": "",
     "address": "Upminster Court, 133 Hall Lane, Essex, RM14 1AL",
     "addressLocation": {
-      "UnLocode": "HRW",
+      "UnLocode": "UPM",
       "UnCountryCode": "GB",
       "address": {
         "street": "Hall Lane",
         "streetNumber": "133",
-        "floor": null,
-        "postCode": null,
-        "city": "Harwich",
-        "state": null,
+        "floor": "Upminster Court",
+        "postCode": "RM14 1AL",
+        "city": "Upminster",
+        "state": "Greater London",
         "country": "United Kingdom"
       }
     },
@@ -3950,16 +3950,16 @@
     "parentCompany": "",
     "address": "see Samskip",
     "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
+      "UnLocode": "RTM",
+      "UnCountryCode": "NL",
       "address": {
-        "street": null,
-        "streetNumber": null,
+        "street": "Waalhaven Oostzijde",
+        "streetNumber": "81",
         "floor": null,
-        "postCode": null,
-        "city": null,
-        "state": null,
-        "country": "Norway"
+        "postCode": "3087 BM",
+        "city": "Rotterdam",
+        "state": "South Holland",
+        "country": "Netherlands"
       }
     },
     "website": "www.wilsonship.no/en/euro-container-line",
@@ -3997,7 +3997,7 @@
         "floor": "Level 8, Suite 8-25\nM Hotel Singapore",
         "postCode": "079908",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -4036,7 +4036,7 @@
         "floor": "Harcourt House 22-23 Floor",
         "postCode": null,
         "city": "Hong Kong",
-        "state": null,
+        "state": "Hong Kong SAR",
         "country": "Hong Kong"
       }
     },
@@ -4072,10 +4072,10 @@
       "address": {
         "street": "El Nasr Street",
         "streetNumber": null,
-        "floor": null,
+        "floor": "Egyptian Navigation Company S.A.E. Building 2",
         "postCode": "21511",
         "city": "Alexandria",
-        "state": null,
+        "state": "Alexandria Governorate",
         "country": "Egypt"
       }
     },
@@ -4114,7 +4114,7 @@
         "floor": null,
         "postCode": "104",
         "city": "Reykjavik",
-        "state": null,
+        "state": "Capital Region",
         "country": "Iceland"
       }
     },
@@ -4154,7 +4154,7 @@
         "postCode": "353900",
         "city": "Novorossiysk",
         "state": "Krasnodar Krai",
-        "country": "Russian Federation"
+        "country": "Russia"
       }
     },
     "website": "",
@@ -4184,16 +4184,16 @@
     "parentCompany": "",
     "address": "Eng Lee Shipping Co. Pte Ltd, 2 Havelock Road, #05-07 Havelock II",
     "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
+      "UnLocode": "SIN",
+      "UnCountryCode": "SG",
       "address": {
         "street": "Havelock Road",
         "streetNumber": "2",
-        "floor": null,
-        "postCode": null,
-        "city": null,
-        "state": null,
-        "country": null
+        "floor": "#05-07, Havelock II",
+        "postCode": "059763",
+        "city": "Singapore",
+        "state": "Central Region",
+        "country": "Singapore"
       }
     },
     "website": "http://www.englee.com.sg/",
@@ -4231,7 +4231,7 @@
         "floor": "# 12-01 Southpoint",
         "postCode": "089763",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -4265,12 +4265,12 @@
       "UnLocode": "TPE",
       "UnCountryCode": "TW",
       "address": {
-        "street": "Mingsheng E. Road",
-        "streetNumber": "104",
+        "street": "Sec. 2, Mingsheng E. Road",
+        "streetNumber": "166",
         "floor": null,
-        "postCode": null,
+        "postCode": "104",
         "city": "Taipei",
-        "state": null,
+        "state": "Taipei City",
         "country": "Taiwan"
       }
     },
@@ -4301,16 +4301,16 @@
     "parentCompany": "ARK",
     "address": "see Arkas",
     "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
+      "UnLocode": "IST",
+      "UnCountryCode": "TR",
       "address": {
-        "street": null,
-        "streetNumber": null,
+        "street": "Matbuat Sokak",
+        "streetNumber": "5",
         "floor": null,
         "postCode": null,
-        "city": null,
-        "state": null,
-        "country": null
+        "city": "Istanbul",
+        "state": "Istanbul Province",
+        "country": "Türkiye"
       }
     },
     "website": "http://emesfeedering.com/schedules/",
@@ -4348,7 +4348,7 @@
         "floor": null,
         "postCode": "089763",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -4387,7 +4387,7 @@
         "floor": "#38 – 01 Millenia Tower",
         "postCode": "039192",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -4462,10 +4462,10 @@
       "address": {
         "street": null,
         "streetNumber": null,
-        "floor": "No.2401-2404,Liwa Heights Building, Jumeirah Lake Towers",
+        "floor": "Units 2401-2404, Liwa Heights",
         "postCode": null,
         "city": "Dubai",
-        "state": null,
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
@@ -4504,7 +4504,7 @@
         "floor": "#02-01",
         "postCode": "118520",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -4543,7 +4543,7 @@
         "floor": null,
         "postCode": "1",
         "city": "Dublin",
-        "state": null,
+        "state": "County Dublin",
         "country": "Ireland"
       }
     },
@@ -4582,7 +4582,7 @@
         "floor": null,
         "postCode": "5527",
         "city": "Haugesund",
-        "state": null,
+        "state": "Rogaland",
         "country": "Norway"
       }
     },
@@ -4618,10 +4618,10 @@
       "address": {
         "street": "anson Road",
         "streetNumber": "10",
-        "floor": null,
-        "postCode": null,
+        "floor": "#20-09 International Plaza",
+        "postCode": "079903",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -4656,11 +4656,11 @@
       "UnCountryCode": "ES",
       "address": {
         "street": "Polígono Industrial Añaza,",
-        "streetNumber": null,
+        "streetNumber": "s/n",
         "floor": "Fred Olsen Building",
-        "postCode": null,
+        "postCode": "38111",
         "city": "Santa Cruz de Tenerife",
-        "state": null,
+        "state": "Canary Islands",
         "country": "Spain"
       }
     },
@@ -4697,7 +4697,7 @@
         "street": "de La Gauchetière Street West",
         "streetNumber": "1000",
         "floor": null,
-        "postCode": null,
+        "postCode": "H3B 4W5",
         "city": "Montreal",
         "state": "Quebec",
         "country": "Canada"
@@ -4736,10 +4736,10 @@
         "street": "ALEUTSKAYA STREET",
         "streetNumber": "15",
         "floor": null,
-        "postCode": null,
+        "postCode": "690019",
         "city": "Vladivostok",
-        "state": null,
-        "country": "Russian Federation"
+        "state": "Primorsky Krai",
+        "country": "Russia"
       }
     },
     "website": "http://www.fesco.ru/en/",
@@ -4775,7 +4775,7 @@
         "street": "Gould St",
         "streetNumber": "30 N",
         "floor": null,
-        "postCode": "WY 82801-6317",
+        "postCode": "82801-6317",
         "city": "Sheridan",
         "state": "Wyoming",
         "country": "United States"
@@ -4816,7 +4816,7 @@
         "floor": null,
         "postCode": "21100",
         "city": "Naantali",
-        "state": null,
+        "state": "Southwest Finland",
         "country": "Finland"
       }
     },
@@ -4855,7 +4855,7 @@
         "floor": "Building No. 2217",
         "postCode": "12385",
         "city": "Riyadh",
-        "state": "Al Nakheel Dist",
+        "state": "Riyadh Province",
         "country": "Saudi Arabia"
       }
     },
@@ -4894,7 +4894,7 @@
         "floor": null,
         "postCode": "089763",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -4925,7 +4925,7 @@
     "parentCompany": "FRL",
     "address": "3101-04, Oaks Liwa Heights Cluster W, JLT, Dubai - U.A.E",
     "addressLocation": {
-      "UnLocode": "DUB",
+      "UnLocode": "DXB",
       "UnCountryCode": "AE",
       "address": {
         "street": null,
@@ -4933,7 +4933,7 @@
         "floor": "Oaks Liwa Heights Cluster W, JLT,",
         "postCode": null,
         "city": "Dubai",
-        "state": null,
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
@@ -4972,7 +4972,7 @@
         "floor": null,
         "postCode": "159552",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -5008,10 +5008,10 @@
       "address": {
         "street": "Henderson Road",
         "streetNumber": "211",
-        "floor": null,
+        "floor": "03 Henderson Industrial Park",
         "postCode": "159552",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -5047,10 +5047,10 @@
       "address": {
         "street": "Temasek Avenue",
         "streetNumber": "3",
-        "floor": "Centennial Tower",
+        "floor": "#15-01 Centennial Tower",
         "postCode": "039190",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -5089,7 +5089,7 @@
         "floor": null,
         "postCode": "5004",
         "city": "Bergen",
-        "state": null,
+        "state": "Vestland",
         "country": "Norway"
       }
     },
@@ -5128,7 +5128,7 @@
         "floor": null,
         "postCode": "PO15 5TD",
         "city": "Fareham",
-        "state": null,
+        "state": "Hampshire",
         "country": "United Kingdom"
       }
     },
@@ -5167,7 +5167,7 @@
         "floor": null,
         "postCode": "408868",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -5206,14 +5206,14 @@
         "floor": "Golden Mile Complex",
         "postCode": "199589",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
     "website": "",
     "remarks": "",
     "validFrom": "2003-09-01",
-    "validTo": "2025-07-25",
+    "validTo": "2025-07-31",
     "changeLogs": [
       {
         "actionCode": "Added",
@@ -5228,7 +5228,7 @@
       {
         "actionCode": "MarkedForDelete",
         "linerCodeVersion": "V2",
-        "lastUpdateDate": "2025-07-25",
+        "lastUpdateDate": "2025-07-17",
         "updateRequestedBy": null,
         "reason": "company status is `struck off`",
         "changedFields": [],
@@ -5255,7 +5255,7 @@
         "floor": "18th Floor, Regal Tower, Business Bay",
         "postCode": null,
         "city": "Dubai",
-        "state": null,
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
@@ -5294,13 +5294,13 @@
         "floor": "Room 1503, 15th Floor, Jiahui Commercial Building",
         "postCode": null,
         "city": "Hong Kong",
-        "state": null,
+        "state": "Hong Kong SAR",
         "country": "Hong Kong"
       }
     },
     "website": "http://www.glo-sail.com/",
     "remarks": "",
-    "validFrom": "2020-08-10",
+    "validFrom": "2026-02-19",
     "validTo": null,
     "changeLogs": [
       {
@@ -5333,7 +5333,7 @@
         "floor": null,
         "postCode": null,
         "city": "Ho Chi Minh City",
-        "state": null,
+        "state": "Ho Chi Minh City",
         "country": "Vietnam"
       }
     },
@@ -5370,9 +5370,9 @@
         "street": "Via Marchese Campodisola",
         "streetNumber": "13",
         "floor": null,
-        "postCode": null,
+        "postCode": "80133",
         "city": "Napoli",
-        "state": "NA",
+        "state": "Campania",
         "country": "Italy"
       }
     },
@@ -5408,10 +5408,10 @@
       "address": {
         "street": "Kwun Tong Road",
         "streetNumber": "348",
-        "floor": null,
+        "floor": "Manulife Place",
         "postCode": null,
         "city": "Hong Kong",
-        "state": null,
+        "state": "Hong Kong SAR",
         "country": "Hong Kong"
       }
     },
@@ -5460,7 +5460,7 @@
         "floor": null,
         "postCode": "4450-901",
         "city": "Matosinhos",
-        "state": null,
+        "state": "Porto District",
         "country": "Portugal"
       }
     },
@@ -5488,7 +5488,7 @@
     "linerSMDGCode": "GTL",
     "linerName": "GT SHIPPING AGENCY L.L.C.SP",
     "carrierType": "VOCC",
-    "parentCompany": "",
+    "parentCompany": "Gulftainer",
     "address": "Gulftainer, Buhaira Corniche, SARH AL EMARAT, 43rd Floor, Sharjah, United Arab Emirates",
     "addressLocation": {
       "UnLocode": "SHJ",
@@ -5499,13 +5499,13 @@
         "floor": "43rd floor",
         "postCode": null,
         "city": "Sharjah",
-        "state": null,
+        "state": "Sharjah",
         "country": "United Arab Emirates"
       }
     },
     "website": "https://www.gulftainer.com",
     "remarks": "",
-    "validFrom": "2023-08-03",
+    "validFrom": "2026-06-23",
     "validTo": null,
     "changeLogs": [
       {
@@ -5538,7 +5538,7 @@
         "floor": null,
         "postCode": null,
         "city": "Asuncion",
-        "state": null,
+        "state": "Capital District",
         "country": "Paraguay"
       }
     },
@@ -5560,7 +5560,7 @@
       {
         "actionCode": "Updated",
         "linerCodeVersion": "V2",
-        "lastUpdateDate": "2026-05-17",
+        "lastUpdateDate": "2026-05-08",
         "updateRequestedBy": "Guaran Feeder",
         "reason": "additional information",
         "changedFields": [],
@@ -5584,10 +5584,10 @@
       "address": {
         "street": "Griffin Road",
         "streetNumber": "1855",
-        "floor": null,
+        "floor": "Suite C-436",
         "postCode": null,
-        "city": "Fort Lauderdale",
-        "state": null,
+        "city": "Dania Beach",
+        "state": "Florida",
         "country": "United States"
       }
     },
@@ -5626,8 +5626,8 @@
         "floor": "Iranshahr North",
         "postCode": null,
         "city": "Teheran",
-        "state": null,
-        "country": "Iran, Islamic Republic of"
+        "state": "Tehran Province",
+        "country": "Iran"
       }
     },
     "website": "https://www.hdasco.com",
@@ -5660,18 +5660,18 @@
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": "82, Lorong 23 Geylang, 06-01 Atrix",
+        "street": "Lorong 23 Geylang",
         "streetNumber": "82",
-        "floor": "06-01 Atrix",
+        "floor": "#06-01 Atrix",
         "postCode": "388409",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
     "website": "https://www.haioconnect.com",
     "remarks": "",
-    "validFrom": "2025-07-25",
+    "validFrom": "2025-07-21",
     "validTo": null,
     "changeLogs": [
       {
@@ -5701,11 +5701,11 @@
       "address": {
         "street": "SHAHID SAYYAD SHIRAZEE SQ.",
         "streetNumber": "37",
-        "floor": "Aseman Tower",
-        "postCode": null,
+        "floor": "Asseman Tower",
+        "postCode": "19395-1311",
         "city": "Tehran",
-        "state": null,
-        "country": "Iran (Islamic Republic of)"
+        "state": "Tehran Province",
+        "country": "Iran"
       }
     },
     "website": "http://www.hdasco.com/",
@@ -5748,13 +5748,13 @@
       "UnLocode": "SEL",
       "UnCountryCode": "KR",
       "address": {
-        "street": "12 Sejong-daero 12-gil",
-        "streetNumber": null,
+        "street": "Sejong-daero 12-gil",
+        "streetNumber": "12",
         "floor": "3/F Haenam 2 Bldg",
         "postCode": "04526",
         "city": "Seoul",
-        "state": "Jung-gu",
-        "country": "Korea (Republic of)"
+        "state": "Seoul Special City",
+        "country": "South Korea"
       }
     },
     "website": "www.heungaline.com",
@@ -5797,12 +5797,12 @@
       "UnLocode": "TGS",
       "UnCountryCode": "CN",
       "address": {
-        "street": null,
+        "street": "Harbor development zone",
         "streetNumber": null,
         "floor": null,
         "postCode": null,
         "city": "Tangshan City",
-        "state": "Harbor Development Zone",
+        "state": "Hebei",
         "country": "China"
       }
     },
@@ -5834,14 +5834,14 @@
     "address": "Shenzhen Unifelix International Logistics Co.,Ltd, Add：Room1305,Cun jin building,No,3005 Dongmen South Road Luohu Districten,Shenzhen Guangdong, ",
     "addressLocation": {
       "UnLocode": "SNZ",
-      "UnCountryCode": "CH",
+      "UnCountryCode": "CN",
       "address": {
         "street": "Dongmen South Road",
         "streetNumber": "3005",
         "floor": "Room1305,Cun jin building",
         "postCode": null,
         "city": "Shenzhen",
-        "state": null,
+        "state": "Guangdong",
         "country": "China"
       }
     },
@@ -5880,7 +5880,7 @@
         "floor": null,
         "postCode": "28880",
         "city": "Mäntyluoto",
-        "state": null,
+        "state": "Satakunta",
         "country": "Finland"
       }
     },
@@ -5919,7 +5919,7 @@
         "floor": null,
         "postCode": "20095",
         "city": "Hamburg",
-        "state": null,
+        "state": "Hamburg",
         "country": "Germany"
       }
     },
@@ -5958,7 +5958,7 @@
         "floor": null,
         "postCode": "637357",
         "city": "Singapore",
-        "state": null,
+        "state": "West Region",
         "country": "Singapore"
       }
     },
@@ -5997,7 +5997,7 @@
         "floor": null,
         "postCode": "93450",
         "city": "Kuching",
-        "state": null,
+        "state": "Sarawak",
         "country": "Malaysia"
       }
     },
@@ -6036,8 +6036,8 @@
         "floor": null,
         "postCode": "03127",
         "city": "Seoul",
-        "state": null,
-        "country": "Korea (Republic of)"
+        "state": "Seoul Special City",
+        "country": "South Korea"
       }
     },
     "website": "https://www.hmm21.com/cms/company/engn/index.jsp",
@@ -6075,11 +6075,11 @@
         "floor": null,
         "postCode": "3088",
         "city": "Rotterdam",
-        "state": null,
-        "country": "The Netherlands"
+        "state": "South Holland",
+        "country": "Netherlands"
       }
     },
-    "website": "http://www.weclines.com/index.php/about-us.html",
+    "website": "https://weclines.com/",
     "remarks": "",
     "validFrom": "2003-09-01",
     "validTo": null,
@@ -6114,7 +6114,7 @@
         "floor": null,
         "postCode": "1215",
         "city": "Dhaka",
-        "state": null,
+        "state": "Dhaka Division",
         "country": "Bangladesh"
       }
     },
@@ -6148,12 +6148,12 @@
       "UnLocode": "DAC",
       "UnCountryCode": "BD",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
+        "street": "Kakrail",
+        "streetNumber": "26/1",
+        "floor": "HR Bhaban",
         "postCode": "1000",
         "city": "Dhaka",
-        "state": null,
+        "state": "Dhaka Division",
         "country": "Bangladesh"
       }
     },
@@ -6187,12 +6187,12 @@
       "UnLocode": "HAM",
       "UnCountryCode": "DE",
       "address": {
-        "street": null,
-        "streetNumber": null,
+        "street": "Willy-Brandt-Straße",
+        "streetNumber": "59–65",
         "floor": null,
-        "postCode": null,
+        "postCode": "20457",
         "city": "Hamburg",
-        "state": null,
+        "state": "Hamburg",
         "country": "Germany"
       }
     },
@@ -6226,12 +6226,12 @@
       "UnLocode": "RSK",
       "UnCountryCode": "DE",
       "address": {
-        "street": "Starndstr.",
+        "street": "Strandstraße",
         "streetNumber": "87",
         "floor": null,
         "postCode": "18055",
         "city": "Rostock",
-        "state": null,
+        "state": "Mecklenburg-Western Pomerania",
         "country": "Germany"
       }
     },
@@ -6268,9 +6268,9 @@
         "street": "Euston Road",
         "streetNumber": "160",
         "floor": "Evergreen House",
-        "postCode": null,
+        "postCode": "NW1 2DX",
         "city": "London",
-        "state": null,
+        "state": "Greater London",
         "country": "United Kingdom"
       }
     },
@@ -6309,7 +6309,7 @@
         "floor": null,
         "postCode": "089543",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -6348,8 +6348,8 @@
         "floor": "Room D3, 11th Floor, Luk Hop Industrial Building",
         "postCode": null,
         "city": "Hong Kong",
-        "state": "San Po Kong, Kowloon",
-        "country": "Hong Kong (China)"
+        "state": "Hong Kong SAR",
+        "country": "Hong Kong"
       }
     },
     "website": "http://www.horizonx.net.cn/",
@@ -6385,9 +6385,9 @@
         "street": "Malacca Street",
         "streetNumber": "22",
         "floor": "RB Capital Building",
-        "postCode": "048980Singapore",
+        "postCode": "048980",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -6421,13 +6421,13 @@
       "UnLocode": "SSA",
       "UnCountryCode": "KR",
       "address": {
-        "street": null,
-        "streetNumber": null,
+        "street": "Myeongi 1-ro",
+        "streetNumber": "429-6",
         "floor": null,
         "postCode": null,
         "city": "Seosan",
-        "state": null,
-        "country": "Korea (Republic of)"
+        "state": "South Chungcheong Province",
+        "country": "South Korea"
       }
     },
     "website": "http://www.hyship.co.kr/sub_ceo.html",
@@ -6461,11 +6461,11 @@
       "UnCountryCode": "SG",
       "address": {
         "street": "JALAN PAPAN",
-        "streetNumber": "26",
+        "streetNumber": "2S",
         "floor": null,
         "postCode": "619413",
         "city": "Singapore",
-        "state": null,
+        "state": "West Region",
         "country": "Singapore"
       }
     },
@@ -6501,10 +6501,10 @@
       "address": {
         "street": "Beach Road",
         "streetNumber": "6001",
-        "floor": null,
+        "floor": "#13-01 Golden Mile Tower",
         "postCode": "199589",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -6543,7 +6543,7 @@
         "floor": null,
         "postCode": "20459",
         "city": "Hamburg",
-        "state": null,
+        "state": "Hamburg",
         "country": "Germany"
       }
     },
@@ -6582,7 +6582,7 @@
         "floor": "Kobe Asahi Bld",
         "postCode": "650-0035",
         "city": "Kobe",
-        "state": "Chuo-ku",
+        "state": "Hyogo Prefecture",
         "country": "Japan"
       }
     },
@@ -6618,16 +6618,16 @@
       "address": {
         "street": "Quesada",
         "streetNumber": "4926",
-        "floor": "Atlas Center",
+        "floor": "5E, Atlas Center",
         "postCode": null,
-        "city": null,
-        "state": "Asuncion",
+        "city": "Asuncion",
+        "state": "Capital District",
         "country": "Paraguay"
       }
     },
     "website": "www.independenciashipping.com",
     "remarks": "",
-    "validFrom": "2025-08-01",
+    "validFrom": "2025-07-30",
     "validTo": null,
     "changeLogs": [
       {
@@ -6660,7 +6660,7 @@
         "floor": "#04-01 PAYA LEBAR QUARTERS",
         "postCode": "408533",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -6699,7 +6699,7 @@
         "floor": null,
         "postCode": "059763",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -6733,13 +6733,13 @@
       "UnLocode": "THR",
       "UnCountryCode": "IR",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
+        "street": "SHAHID SAYYAD SHIRAZEE SQ.",
+        "streetNumber": "37",
+        "floor": "Aseman Tower",
+        "postCode": "19395-1311",
         "city": "Tehran",
-        "state": null,
-        "country": "Iran (Islamic Republic of)"
+        "state": "Tehran Province",
+        "country": "Iran"
       }
     },
     "website": "http://www.irisl.net/default.aspx",
@@ -6787,7 +6787,7 @@
         "floor": null,
         "postCode": null,
         "city": "Tel Aviv",
-        "state": null,
+        "state": "Tel Aviv District",
         "country": "Israel"
       }
     },
@@ -6824,10 +6824,10 @@
         "street": "SHAHID SAYYAD SHIRAZEE SQ.",
         "streetNumber": "37",
         "floor": "Aseman Tower",
-        "postCode": null,
+        "postCode": "19395-1311",
         "city": "Tehran",
-        "state": null,
-        "country": "Iran, Islamic Republic of"
+        "state": "Tehran Province",
+        "country": "Iran"
       }
     },
     "website": "http://www.irisl.net/default.aspx",
@@ -6862,10 +6862,10 @@
       "address": {
         "street": "Paya Lebar Road",
         "streetNumber": "60",
-        "floor": null,
+        "floor": "Paya Lebar Square",
         "postCode": "409051",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -6904,7 +6904,7 @@
         "floor": null,
         "postCode": "34123",
         "city": "Trieste",
-        "state": "TS",
+        "state": "Friuli-Venezia Giulia",
         "country": "Italy"
       }
     },
@@ -6943,7 +6943,7 @@
         "floor": null,
         "postCode": "11312",
         "city": "Tallinn",
-        "state": null,
+        "state": "Harju County",
         "country": "Estonia"
       }
     },
@@ -6979,10 +6979,10 @@
       "address": {
         "street": "Kim Seng Promenade",
         "streetNumber": "1",
-        "floor": "Great World City \nEast Tower\n#11-01 to #11-06",
+        "floor": "Great World City East Tower #11-01 to #11-06",
         "postCode": "237994",
         "city": "Singapore",
-        "state": "237994",
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -7010,7 +7010,7 @@
     "linerSMDGCode": "JHS",
     "linerName": "JOIN HANDS SHIPPING LINE COMPANY LIMITED",
     "carrierType": "NVOCC",
-    "parentCompany": "JHS",
+    "parentCompany": null,
     "address": "WORK SHOP 60 3/F BLOCK A EAST SUN INDUSTRIAL CENTRE NO. 16 SHING YIP STREET KL,HONG KONG",
     "addressLocation": {
       "UnLocode": "HKG",
@@ -7021,7 +7021,7 @@
         "floor": "WORK SHOP 60 3/F BLOCK A EAST SUN INDUSTRIAL CENTRE",
         "postCode": null,
         "city": "Hong Kong",
-        "state": "Kwun Tong",
+        "state": "Hong Kong SAR",
         "country": "Hong Kong"
       }
     },
@@ -7055,12 +7055,12 @@
       "UnLocode": "JKT",
       "UnCountryCode": "ID",
       "address": {
-        "street": "Jl. Boulevard Kelapa Gadin",
+        "street": "Jl. Boulevard Kelapa Gading",
         "streetNumber": "LA3 1",
         "floor": null,
         "postCode": "14240",
         "city": "Jakarta",
-        "state": null,
+        "state": "Special Capital Region of Jakarta",
         "country": "Indonesia"
       }
     },
@@ -7091,16 +7091,16 @@
     "parentCompany": "",
     "address": "Kuk Jae Express , 12407 E Slauson Ave # A & B, Whittier, CA 90606",
     "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": "CA",
+      "UnLocode": "WHR",
+      "UnCountryCode": "US",
       "address": {
-        "street": "E Slauson Ave # A & B",
+        "street": "E Slauson Ave",
         "streetNumber": "12407",
-        "floor": null,
-        "postCode": "CA 90605",
+        "floor": "#A & B",
+        "postCode": "90606",
         "city": "Whittier",
-        "state": null,
-        "country": "Canada"
+        "state": "California",
+        "country": "United States"
       }
     },
     "website": "",
@@ -7138,7 +7138,7 @@
         "floor": "Guangfa Building, room 1149",
         "postCode": null,
         "city": "Shenzhen",
-        "state": "Luohu District",
+        "state": "Guangdong",
         "country": "China"
       }
     },
@@ -7177,8 +7177,8 @@
         "floor": null,
         "postCode": null,
         "city": "San Fernando",
-        "state": null,
-        "country": "Trinidad and Tobago"
+        "state": "San Fernando",
+        "country": "Trinidad & Tobago"
       }
     },
     "website": "http://www.coastalshippingltd.com/",
@@ -7216,8 +7216,8 @@
         "floor": "15F Hanjin Building",
         "postCode": "04532",
         "city": "Seoul",
-        "state": "Jung-Gu",
-        "country": "Korea (Republic of)"
+        "state": "Seoul Special City",
+        "country": "South Korea"
       }
     },
     "website": " http://www.kmtc.co.kr/",
@@ -7260,13 +7260,13 @@
       "UnLocode": "FLL",
       "UnCountryCode": "US",
       "address": {
-        "street": "1100 Northwest 29th Street",
-        "streetNumber": null,
+        "street": "NW 29 Street",
+        "streetNumber": "11000",
         "floor": "Suite 201",
         "postCode": "33172",
-        "city": "Fort Lauderdale",
-        "state": null,
-        "country": "USA"
+        "city": "Doral",
+        "state": "Florida",
+        "country": "United States"
       }
     },
     "website": "www.kingocean.com",
@@ -7304,7 +7304,7 @@
         "floor": "UNIT 702 FOURSEAS BUILDING",
         "postCode": "208-212",
         "city": "Hong Kong",
-        "state": null,
+        "state": "Hong Kong SAR",
         "country": "Hong Kong"
       }
     },
@@ -7338,12 +7338,12 @@
       "UnLocode": "TYO",
       "UnCountryCode": "JP",
       "address": {
-        "street": "Chome Shinbashi",
-        "streetNumber": "1",
+        "street": "Shimbashi 1-Chome",
+        "streetNumber": "1-1",
         "floor": "Hibiya Building, 4th Floor",
         "postCode": "105-0004",
         "city": "Tokyo",
-        "state": null,
+        "state": "Tokyo Metropolis",
         "country": "Japan"
       }
     },
@@ -7382,7 +7382,7 @@
         "floor": null,
         "postCode": "88301-210",
         "city": "Itajai",
-        "state": null,
+        "state": "Santa Catarina",
         "country": "Brazil"
       }
     },
@@ -7428,10 +7428,10 @@
       "address": {
         "street": "Upper Cross Street",
         "streetNumber": "531",
-        "floor": null,
-        "postCode": null,
+        "floor": "#03-71 Hong Lim Complex",
+        "postCode": "050531",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -7457,9 +7457,9 @@
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
     "linerSMDGCode": "LMX",
-    "linerName": "logistics map express ",
+    "linerName": "Logistics Map Express",
     "carrierType": "NVOCC",
-    "parentCompany": "lmx",
+    "parentCompany": "LMX",
     "address": "22 emtdad said zakaria st, sheraton< cairo, Egypt",
     "addressLocation": {
       "UnLocode": "CAI",
@@ -7470,7 +7470,7 @@
         "floor": "sheraton",
         "postCode": "11511",
         "city": "Cairo",
-        "state": null,
+        "state": "Cairo Governorate",
         "country": "Egypt"
       }
     },
@@ -7509,7 +7509,7 @@
         "floor": null,
         "postCode": "20021-130",
         "city": "rio de Janeiro",
-        "state": null,
+        "state": "Rio de Janeiro",
         "country": "Brazil"
       }
     },
@@ -7548,7 +7548,7 @@
         "floor": "Sharjah Media City",
         "postCode": null,
         "city": "Sharjah",
-        "state": null,
+        "state": "Sharjah",
         "country": "United Arab Emirates"
       }
     },
@@ -7587,7 +7587,7 @@
         "floor": null,
         "postCode": "20097",
         "city": "Hamburg",
-        "state": null,
+        "state": "Hamburg",
         "country": "Germany"
       }
     },
@@ -7621,12 +7621,12 @@
       "UnLocode": "LYG",
       "UnCountryCode": "CN",
       "address": {
-        "street": null,
-        "streetNumber": "NO.169-1",
+        "street": "Qixia Road",
+        "streetNumber": "169-1",
         "floor": null,
         "postCode": null,
-        "city": "Lianyungang City",
-        "state": "Lianyun District,",
+        "city": "Lianyungang",
+        "state": "Jiangsu",
         "country": "China"
       }
     },
@@ -7665,7 +7665,7 @@
         "floor": null,
         "postCode": "22767",
         "city": "Hamburg",
-        "state": null,
+        "state": "Hamburg",
         "country": "Germany"
       }
     },
@@ -7692,8 +7692,8 @@
     "linerCodeVersion": "V1",
     "linerSMDGCode": "MAR",
     "linerName": "Maruba Line",
-    "carrierType": "UNKNOWN",
-    "parentCompany": "",
+    "carrierType": "VOCC",
+    "parentCompany": "MAR",
     "address": "MAIPU 535 1P [C1006ACE] CABA",
     "addressLocation": {
       "UnLocode": "BUE",
@@ -7701,10 +7701,10 @@
       "address": {
         "street": "Calle Maipu",
         "streetNumber": "535",
-        "floor": "1st floor",
-        "postCode": "7160",
-        "city": "Buenos Aires / Caba",
-        "state": null,
+        "floor": "1st Floor",
+        "postCode": "C1006ACE",
+        "city": "Buenos Aires",
+        "state": "Autonomous City of Buenos Aires",
         "country": "Argentina"
       }
     },
@@ -7716,7 +7716,7 @@
       {
         "actionCode": "Added",
         "linerCodeVersion": "V1",
-        "lastUpdateDate": "2021-01-01",
+        "lastUpdateDate": "2026-10-05",
         "updateRequestedBy": null,
         "reason": "initial change",
         "changedFields": [],
@@ -7743,7 +7743,7 @@
         "floor": null,
         "postCode": "94610",
         "city": "Oakland",
-        "state": "CA",
+        "state": "California",
         "country": "United States"
       }
     },
@@ -7782,7 +7782,7 @@
         "floor": null,
         "postCode": "50250",
         "city": "Kuala Lumpur",
-        "state": null,
+        "state": "Federal Territory of Kuala Lumpur",
         "country": "Malaysia"
       }
     },
@@ -7821,7 +7821,7 @@
         "floor": null,
         "postCode": "1098",
         "city": "Copenhagen",
-        "state": null,
+        "state": "Capital Region of Denmark",
         "country": "Denmark"
       }
     },
@@ -7870,11 +7870,11 @@
         "floor": null,
         "postCode": null,
         "city": "Dubai",
-        "state": null,
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
-    "website": "https://mcl.ae/en/",
+    "website": "http://www.mcl.ae/",
     "remarks": "",
     "validFrom": "2003-09-01",
     "validTo": null,
@@ -7919,7 +7919,7 @@
         "floor": null,
         "postCode": "13002",
         "city": "Marseille",
-        "state": null,
+        "state": "Provence-Alpes-Côte d’Azur",
         "country": "France"
       }
     },
@@ -7953,13 +7953,13 @@
       "UnLocode": "IST",
       "UnCountryCode": "TR",
       "address": {
-        "street": null,
+        "street": "Cafer Kuyusu Mevkii",
         "streetNumber": null,
-        "floor": null,
+        "floor": "Royal Marin Plaza, Floors 5-7",
         "postCode": null,
         "city": "Istanbul",
-        "state": null,
-        "country": "Turkey"
+        "state": "Istanbul Province",
+        "country": "Türkiye"
       }
     },
     "website": "http://www.medkonlines.com/",
@@ -7992,12 +7992,12 @@
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": "Cecil Stree",
+        "street": "Cecil Street",
         "streetNumber": "140",
         "floor": "#09-01\nPIL Building",
         "postCode": "069540",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -8036,7 +8036,7 @@
         "floor": null,
         "postCode": "16121",
         "city": "Genova",
-        "state": "GE",
+        "state": "Liguria",
         "country": "Italy"
       }
     },
@@ -8075,7 +8075,7 @@
         "floor": null,
         "postCode": "84134",
         "city": "Salerno",
-        "state": "SA",
+        "state": "Campania",
         "country": "Italy"
       }
     },
@@ -8114,8 +8114,8 @@
         "floor": null,
         "postCode": null,
         "city": "Yangon",
-        "state": null,
-        "country": "Myanmar"
+        "state": "Yangon Region",
+        "country": "Myanmar (Burma)"
       }
     },
     "website": "",
@@ -8150,10 +8150,10 @@
       "address": {
         "street": "Jalan Bukit Merah",
         "streetNumber": "3791",
-        "floor": null,
+        "floor": "#08-25 E Centre",
         "postCode": "159471",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -8192,7 +8192,7 @@
         "floor": null,
         "postCode": "159088",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -8226,12 +8226,12 @@
       "UnLocode": "MAD",
       "UnCountryCode": "ES",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
+        "street": "Villanueva",
+        "streetNumber": "5",
+        "floor": "1st Floor",
         "postCode": "28001",
         "city": "Madrid",
-        "state": null,
+        "state": "Community of Madrid",
         "country": "Spain"
       }
     },
@@ -8265,12 +8265,12 @@
       "UnLocode": "DOH",
       "UnCountryCode": "QA",
       "address": {
-        "street": "East Industrial Road",
-        "streetNumber": "523",
+        "street": "East Industrial Road, Street No. 523",
+        "streetNumber": null,
         "floor": null,
         "postCode": null,
         "city": "Doha",
-        "state": null,
+        "state": "Doha",
         "country": "Qatar"
       }
     },
@@ -8309,7 +8309,7 @@
         "floor": null,
         "postCode": "50050",
         "city": "Kuala Lumpur",
-        "state": null,
+        "state": "Federal Territory of Kuala Lumpur",
         "country": "Malaysia"
       }
     },
@@ -8348,7 +8348,7 @@
         "floor": "#08-19",
         "postCode": "627564",
         "city": "Singapore",
-        "state": null,
+        "state": "West Region",
         "country": "Singapore"
       }
     },
@@ -8387,7 +8387,7 @@
         "floor": null,
         "postCode": "1098",
         "city": "Copenhagen",
-        "state": null,
+        "state": "Capital Region of Denmark",
         "country": "Denmark"
       }
     },
@@ -8424,9 +8424,9 @@
         "street": "Kings Quay Street",
         "streetNumber": null,
         "floor": "The Naval House",
-        "postCode": null,
+        "postCode": "CO12 3JJ",
         "city": "Harwich",
-        "state": null,
+        "state": "Essex",
         "country": "United Kingdom"
       }
     },
@@ -8462,10 +8462,10 @@
       "address": {
         "street": null,
         "streetNumber": null,
-        "floor": null,
+        "floor": "Melfi Marine Corp",
         "postCode": null,
         "city": "La Habana (Havanna)",
-        "state": null,
+        "state": "Havana",
         "country": "Cuba"
       }
     },
@@ -8493,7 +8493,7 @@
     "linerSMDGCode": "MON",
     "linerName": "Montemar",
     "carrierType": "UNKNOWN",
-    "parentCompany": "",
+    "parentCompany": "HLC",
     "address": "Ballindamm 25, D-20095 Hamburg, ",
     "addressLocation": {
       "UnLocode": "HAM",
@@ -8504,7 +8504,7 @@
         "floor": null,
         "postCode": "20095",
         "city": "Hamburg",
-        "state": null,
+        "state": "Hamburg",
         "country": "Germany"
       }
     },
@@ -8553,11 +8553,11 @@
         "floor": "Office No. 1810,The Citadel Tower",
         "postCode": null,
         "city": "Dubai",
-        "state": "Business Bay",
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
-    "website": "MARSAOCEAN.COM",
+    "website": "https://www.marsaocean.com/",
     "remarks": "",
     "validFrom": "2026-10-02",
     "validTo": null,
@@ -8587,12 +8587,12 @@
       "UnLocode": "SSZ",
       "UnCountryCode": "BR",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
+        "street": "R. Guaiao",
+        "streetNumber": "66",
+        "floor": "21st Floor",
         "postCode": "11030-000",
         "city": "Santos",
-        "state": null,
+        "state": "Sao Paulo",
         "country": "Brazil"
       }
     },
@@ -8617,6 +8617,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "MRT",
+    "linerName": "Martrans Shipping LLC",
+    "carrierType": "VOCC",
+    "parentCompany": "Martrans",
+    "address": "PO Box 112362, Dubai, United Arab Emirates",
+    "addressLocation": {
+      "UnLocode": "DXB",
+      "UnCountryCode": "AE",
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": "Dubai",
+        "state": "Dubai",
+        "country": "United Arab Emirates"
+      }
+    },
+    "website": "https://www.martransship.com/",
+    "remarks": "",
+    "validFrom": "2026-10-08",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-10-12",
+        "updateRequestedBy": "Martrans Shipping LLC",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "MSC",
     "linerName": "Mediterranean Shipping Company",
     "carrierType": "UNKNOWN",
@@ -8626,12 +8665,12 @@
       "UnLocode": "GVA",
       "UnCountryCode": "CH",
       "address": {
-        "street": "S.A.Chemin Rieu",
-        "streetNumber": "41974",
+        "street": "Chemin Rieu",
+        "streetNumber": "12-14",
         "floor": null,
         "postCode": "1208",
         "city": "Geneva",
-        "state": null,
+        "state": "Canton of Geneva",
         "country": "Switzerland"
       }
     },
@@ -8670,7 +8709,7 @@
         "floor": null,
         "postCode": "1098",
         "city": "Copenhagen",
-        "state": null,
+        "state": "Capital Region of Denmark",
         "country": "Denmark"
       }
     },
@@ -8704,12 +8743,12 @@
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": "International Rd",
+        "street": "International Road",
         "streetNumber": "11",
         "floor": null,
         "postCode": "079903",
         "city": "Singapore",
-        "state": null,
+        "state": "West Region",
         "country": "Singapore"
       }
     },
@@ -8734,45 +8773,6 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
-    "linerSMDGCode": "MTR",
-    "linerName": "Martrans Shipping LLC",
-    "carrierType": "VOCC",
-    "parentCompany": "Martrans",
-    "address": "PO Box 112362, Dubai, United Arab Emirates",
-    "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
-      "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
-        "city": null,
-        "state": null,
-        "country": null
-      }
-    },
-    "website": "https://www.martransship.com/",
-    "remarks": "",
-    "validFrom": "2026-10-08",
-    "validTo": null,
-    "changeLogs": [
-      {
-        "actionCode": "Added",
-        "linerCodeVersion": "V1",
-        "lastUpdateDate": "2026-10-12",
-        "updateRequestedBy": "Martrans Shipping LLC",
-        "reason": "",
-        "changedFields": [],
-        "linkedLinerCode": null,
-        "comments": ""
-      }
-    ]
-  },
-  {
-    "isActive": true,
-    "codeStatus": "Active",
-    "linerCodeVersion": "V1",
     "linerSMDGCode": "MTU",
     "linerName": "Maritime Tunisian Lines",
     "carrierType": "UNKNOWN",
@@ -8787,7 +8787,7 @@
         "floor": "PLT 5 OF 4 Y 5",
         "postCode": "08015",
         "city": "Barcelona",
-        "state": null,
+        "state": "Catalonia",
         "country": "Spain"
       }
     },
@@ -8826,7 +8826,7 @@
         "floor": "Planta 21-B",
         "postCode": "28046",
         "city": "Madrid",
-        "state": null,
+        "state": "Community of Madrid",
         "country": "Spain"
       }
     },
@@ -8865,7 +8865,7 @@
         "floor": "#14—01A",
         "postCode": "089763",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -8899,12 +8899,12 @@
       "UnLocode": "KLA",
       "UnCountryCode": "MY",
       "address": {
-        "street": null,
+        "street": "Lebuh Batu Nilam 1",
         "streetNumber": null,
-        "floor": null,
+        "floor": "A-3A BBT One The towers, south tower",
         "postCode": null,
         "city": "Klang",
-        "state": null,
+        "state": "Selangor",
         "country": "Malaysia"
       }
     },
@@ -8943,7 +8943,7 @@
         "floor": "Suite 3801, Aspin Commercial Tower",
         "postCode": null,
         "city": "Dubai",
-        "state": null,
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
@@ -8980,9 +8980,9 @@
         "street": "Stoltenberggata",
         "streetNumber": "1",
         "floor": null,
-        "postCode": "5523",
+        "postCode": "5527",
         "city": "Haugesund",
-        "state": null,
+        "state": "Rogaland",
         "country": "Norway"
       }
     },
@@ -9004,7 +9004,7 @@
       {
         "actionCode": "Updated",
         "linerCodeVersion": "V2",
-        "lastUpdateDate": "2026-02-13",
+        "lastUpdateDate": "2026-01-21",
         "updateRequestedBy": "North Sea Container Line",
         "reason": "Change of address",
         "changedFields": [],
@@ -9031,7 +9031,7 @@
         "floor": null,
         "postCode": "04794-000",
         "city": "Sao Paulo",
-        "state": null,
+        "state": "Sao Paulo",
         "country": "Brazil"
       }
     },
@@ -9068,9 +9068,9 @@
         "street": "Westblaak",
         "streetNumber": "95",
         "floor": null,
-        "postCode": "3012",
+        "postCode": "3012 KG",
         "city": "Rotterdam",
-        "state": null,
+        "state": "South Holland",
         "country": "Netherlands"
       }
     },
@@ -9106,10 +9106,10 @@
       "address": {
         "street": "L.B.S Road",
         "streetNumber": null,
-        "floor": "Nirmal Galaxy",
+        "floor": "Nirmal Galaxy, Office No. 416-417, 4th Floor,",
         "postCode": "400080",
         "city": "Mumbai",
-        "state": null,
+        "state": "Maharashtra",
         "country": "India"
       }
     },
@@ -9182,12 +9182,12 @@
       "UnLocode": "VLC",
       "UnCountryCode": "ES",
       "address": {
-        "street": null,
-        "streetNumber": null,
+        "street": "C/Fuente Podrida",
+        "streetNumber": "17",
         "floor": null,
         "postCode": "46011",
         "city": "Valencia",
-        "state": null,
+        "state": "Valencian Community",
         "country": "Spain"
       }
     },
@@ -9225,8 +9225,8 @@
         "streetNumber": "5-9",
         "floor": null,
         "postCode": "18537",
-        "city": "Pireaus",
-        "state": null,
+        "city": "Piraeus",
+        "state": "Attica",
         "country": "Greece"
       }
     },
@@ -9265,7 +9265,7 @@
         "floor": null,
         "postCode": "20095",
         "city": "Hamburg",
-        "state": null,
+        "state": "Hamburg",
         "country": "Germany"
       }
     },
@@ -9304,7 +9304,7 @@
         "floor": null,
         "postCode": "079120",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -9327,55 +9327,6 @@
   },
   {
     "isActive": true,
-    "codeStatus": "Expired",
-    "linerCodeVersion": "V2",
-    "linerSMDGCode": "NPL",
-    "linerName": "Neptune Pacific Line",
-    "carrierType": "VOCC",
-    "parentCompany": "NPD",
-    "address": "Neptune Pacific Agency Australia Pty Limited, Level 12, 45-47 York St, Sydney NSW, PO Box 3813, Sydney NSW 2001",
-    "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
-      "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
-        "city": null,
-        "state": null,
-        "country": null
-      }
-    },
-    "website": "https://www.neptunepacific.com/",
-    "remarks": "",
-    "validFrom": "2003-09-01",
-    "validTo": "2023-06-30",
-    "changeLogs": [
-      {
-        "actionCode": "Added",
-        "linerCodeVersion": "V1",
-        "lastUpdateDate": "2021-01-01",
-        "updateRequestedBy": null,
-        "reason": "initial change",
-        "changedFields": [],
-        "linkedLinerCode": "",
-        "comments": "This change was not tracked in excel and it was added by GitHub workflow."
-      },
-      {
-        "actionCode": "Updated",
-        "linerCodeVersion": "V2",
-        "lastUpdateDate": "2023-04-11",
-        "updateRequestedBy": "Neptune Pacific Direct Line",
-        "reason": "to be deleted",
-        "changedFields": [],
-        "linkedLinerCode": "",
-        "comments": "requested by Neptune Pacific Direct Line"
-      }
-    ]
-  },
-  {
-    "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
     "linerSMDGCode": "NSL",
@@ -9392,8 +9343,8 @@
         "floor": null,
         "postCode": null,
         "city": "Seoul",
-        "state": "Jung-gu",
-        "country": "Korea (Republic of)"
+        "state": "Seoul Special City",
+        "country": "South Korea"
       }
     },
     "website": "http://www.namsung.co.kr/eng/main.do",
@@ -9424,14 +9375,14 @@
     "address": "Olaya Towers (Tower B)Floors(12-15), Olaya District, Olaya Street, Toll Free: 920020007, P.O. Box 8931, Riyadh 11492",
     "addressLocation": {
       "UnLocode": "RUH",
-      "UnCountryCode": "AE",
+      "UnCountryCode": "SA",
       "address": {
         "street": "Olaya Street",
         "streetNumber": null,
         "floor": "Olaya Towers (Tower B)Floors(12-15)",
         "postCode": "11492",
         "city": "Riyadh",
-        "state": "Olaya District",
+        "state": "Riyadh Province",
         "country": "Saudi Arabia"
       }
     },
@@ -9470,7 +9421,7 @@
         "floor": "Flat/rt 1105 lippo Centre Tower 1",
         "postCode": null,
         "city": "Hong Kong",
-        "state": "Admiralty",
+        "state": "Hong Kong SAR",
         "country": "Hong Kong"
       }
     },
@@ -9509,7 +9460,7 @@
         "floor": "5th Floor, Grindrod House",
         "postCode": "4001",
         "city": "Durban",
-        "state": null,
+        "state": "KwaZulu-Natal",
         "country": "South Africa"
       }
     },
@@ -9548,7 +9499,7 @@
         "floor": "AL ATTAR GRAND BLDG",
         "postCode": null,
         "city": "Dubai",
-        "state": "Bur Dubai",
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
@@ -9587,7 +9538,7 @@
         "floor": "PSA Tanjong Pagar Complex\n#09-11 Tower Block",
         "postCode": "089055",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -9624,9 +9575,9 @@
         "street": "Anzac Street",
         "streetNumber": "25",
         "floor": null,
-        "postCode": null,
+        "postCode": "0622",
         "city": "Auckland",
-        "state": null,
+        "state": "Auckland Region",
         "country": "New Zealand"
       }
     },
@@ -9654,7 +9605,7 @@
     "linerSMDGCode": "OKL",
     "linerName": "SHANGHAI BISHENG LOGISTICS TECHNOLOGY CO., LTD",
     "carrierType": "NVOCC",
-    "parentCompany": "",
+    "parentCompany": "SNL",
     "address": "7 Temasek Boulevard Suntec Tower One #10-01/02 , Singapore 038987",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -9665,7 +9616,7 @@
         "floor": "Suntec Tower One #10-01/02",
         "postCode": "038987",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -9699,12 +9650,12 @@
       "UnLocode": "TYO",
       "UnCountryCode": "JP",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
+        "street": "Hamamatsucho",
+        "streetNumber": "2-4-1",
+        "floor": "Sekaiboeki Center Bldg.",
+        "postCode": "105-0013",
         "city": "Tokyo",
-        "state": null,
+        "state": "Tokyo Metropolis",
         "country": "Japan"
       }
     },
@@ -9738,12 +9689,12 @@
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
+        "street": "Straits View",
+        "streetNumber": "7",
+        "floor": "#16-01, Marina One East Tower",
+        "postCode": "018936",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -9818,10 +9769,10 @@
       "address": {
         "street": null,
         "streetNumber": null,
-        "floor": null,
+        "floor": "Sharaf Building, P.O.BOX :21886",
         "postCode": null,
         "city": "Dubai",
-        "state": null,
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
@@ -9860,7 +9811,7 @@
         "floor": "Flat/RMD38/F Boton Tech Innovation Tower",
         "postCode": null,
         "city": "Hong Kong",
-        "state": null,
+        "state": "Hong Kong SAR",
         "country": "Hong Kong"
       }
     },
@@ -9899,7 +9850,7 @@
         "floor": "1204, Fahidi Heights,",
         "postCode": null,
         "city": "Dubai",
-        "state": null,
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
@@ -9938,7 +9889,7 @@
         "floor": "Level 14, SAP Tower",
         "postCode": "1010",
         "city": "Auckland",
-        "state": null,
+        "state": "Auckland Region",
         "country": "New Zealand"
       }
     },
@@ -9972,13 +9923,13 @@
       "UnLocode": "SEL",
       "UnCountryCode": "KR",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": "DONG JU B/D 824-24",
+        "street": "Yeoksam-dong",
+        "streetNumber": "824-24",
+        "floor": "Dong Ju Bldg.",
         "postCode": "135-080",
         "city": "Seoul",
-        "state": null,
-        "country": "Korea (Republic of)"
+        "state": "Seoul Special City",
+        "country": "South Korea"
       }
     },
     "website": "www.pancon.co.kr",
@@ -10026,7 +9977,7 @@
         "floor": null,
         "postCode": "1885",
         "city": "Asuncion",
-        "state": null,
+        "state": "Capital District",
         "country": "Paraguay"
       }
     },
@@ -10066,7 +10017,7 @@
         "postCode": "96813-3800",
         "city": "Honolulu",
         "state": "Hawaii",
-        "country": "United States of Americak"
+        "country": "United States"
       }
     },
     "website": "https://www.pashahawaii.com/ ",
@@ -10104,7 +10055,7 @@
         "floor": "#07-02, Great World City",
         "postCode": "237994",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -10136,14 +10087,14 @@
     "address": "No.1, Jalan Sungai Aur, 42000 Port Klang, Selangor Darul Ehsan, Malaysia.",
     "addressLocation": {
       "UnLocode": "PKG",
-      "UnCountryCode": "My",
+      "UnCountryCode": "MY",
       "address": {
-        "street": null,
-        "streetNumber": null,
+        "street": "Jalan Sungai Aur",
+        "streetNumber": "1",
         "floor": null,
-        "postCode": null,
+        "postCode": "42000",
         "city": "Port Klang",
-        "state": null,
+        "state": "Selangor",
         "country": "Malaysia"
       }
     },
@@ -10182,7 +10133,7 @@
         "floor": null,
         "postCode": null,
         "city": "Hong Kong",
-        "state": "Wan Chai",
+        "state": "Hong Kong SAR",
         "country": "Hong Kong"
       }
     },
@@ -10216,12 +10167,12 @@
       "UnLocode": "AKL",
       "UnCountryCode": "NZ",
       "address": {
-        "street": null,
-        "streetNumber": null,
+        "street": "Richard Pearse Drive",
+        "streetNumber": "82",
         "floor": null,
-        "postCode": null,
+        "postCode": "2022",
         "city": "Auckland",
-        "state": null,
+        "state": "Auckland Region",
         "country": "New Zealand"
       }
     },
@@ -10260,8 +10211,8 @@
         "floor": null,
         "postCode": "60604",
         "city": "Chicago",
-        "state": "IL",
-        "country": "United states"
+        "state": "Illinois",
+        "country": "United States"
       }
     },
     "website": "https://www.anacostia.com/railroads/phl",
@@ -10299,7 +10250,7 @@
         "floor": "PIL Building",
         "postCode": "069540",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -10338,7 +10289,7 @@
         "floor": null,
         "postCode": "0800",
         "city": "Darwin",
-        "state": null,
+        "state": "Northern Territory",
         "country": "Australia"
       }
     },
@@ -10377,7 +10328,7 @@
         "floor": "PIL Building",
         "postCode": "069540",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -10450,12 +10401,12 @@
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
+        "street": "Alexandra Road",
+        "streetNumber": "237",
+        "floor": "#04-08, The Alexcier",
+        "postCode": "159929",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -10486,15 +10437,15 @@
     "parentCompany": "",
     "address": "Head Office Address: PNSC Building, M.T. Khan Road, P.O. BOX No.5350, Karachi-74000, PAKISTAN.",
     "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
+      "UnLocode": "KHI",
+      "UnCountryCode": "PK",
       "address": {
         "street": "M.T. Khan Road",
         "streetNumber": null,
         "floor": "PNSC Building",
         "postCode": "74000",
         "city": "Karachi",
-        "state": null,
+        "state": "Sindh",
         "country": "Pakistan"
       }
     },
@@ -10528,12 +10479,12 @@
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
+        "street": "Beach Road",
+        "streetNumber": "152",
+        "floor": "#14-04, Gateway East",
         "postCode": null,
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -10572,7 +10523,7 @@
         "floor": "Zaabeel Business Center",
         "postCode": null,
         "city": "Dubai",
-        "state": null,
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
@@ -10603,15 +10554,15 @@
     "parentCompany": "",
     "address": "Av. D. Carlos I, 44-8º, 1200-649 Lisboa, ",
     "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
+      "UnLocode": "LIS",
+      "UnCountryCode": "PT",
       "address": {
         "street": "Av. D. Carlos I",
-        "streetNumber": null,
-        "floor": "44-8º",
+        "streetNumber": "44",
+        "floor": "8º",
         "postCode": "1200-649",
         "city": "Lisbon",
-        "state": null,
+        "state": "Lisbon District",
         "country": "Portugal"
       }
     },
@@ -10650,13 +10601,13 @@
         "floor": null,
         "postCode": "20457",
         "city": "Hamburg",
-        "state": null,
+        "state": "Hamburg",
         "country": "Germany"
       }
     },
     "website": "https://www.pwl.de",
     "remarks": "on behalf as agents only",
-    "validFrom": "2025-12-01",
+    "validFrom": "2025-12-05",
     "validTo": null,
     "changeLogs": [
       {
@@ -10685,11 +10636,11 @@
       "UnCountryCode": "IN",
       "address": {
         "street": "Linghi Chetty Street",
-        "streetNumber": null,
-        "floor": "No.325 (Old No.158) 3rd Floor",
+        "streetNumber": "325",
+        "floor": "3rd Floor",
         "postCode": null,
         "city": "Chennai",
-        "state": null,
+        "state": "Tamil Nadu",
         "country": "India"
       }
     },
@@ -10728,13 +10679,13 @@
         "floor": "#27-01, MAYBANK TOWER",
         "postCode": "049907",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
-    "website": "",
+    "website": "not available",
     "remarks": "",
-    "validFrom": "2022-08-16",
+    "validFrom": "2025-12-29",
     "validTo": null,
     "changeLogs": [
       {
@@ -10759,7 +10710,7 @@
     "parentCompany": "RAL",
     "address": "Royal Arctic Line A/S, Aqqusinersuaq 52, Postboks 1580, 3900 Nuuk",
     "addressLocation": {
-      "UnLocode": "GLGOH",
+      "UnLocode": "GOH",
       "UnCountryCode": "GL",
       "address": {
         "street": "Aqqusinersuaq",
@@ -10767,7 +10718,7 @@
         "floor": null,
         "postCode": "3900",
         "city": "Nuuk",
-        "state": null,
+        "state": "Sermersooq",
         "country": "Greenland"
       }
     },
@@ -10794,19 +10745,19 @@
     "linerCodeVersion": "V1",
     "linerSMDGCode": "RCL",
     "linerName": "Regional Container Line",
-    "carrierType": "UNKNOWN",
+    "carrierType": "VOCC",
     "parentCompany": "",
     "address": "RCL FEEDER PTE LTD, Code REGU, Address 8TH FLOOR, RCL CENTRE 11 KEPPEL ROAD, Zip Code 089057, City Singapore, State , Country Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": "KEPPEL ROAD",
+        "street": "Keppel Road",
         "streetNumber": "11",
-        "floor": "8TH FLOOR, RCL CENTRE",
+        "floor": "8th Floor, ABI Plaza",
         "postCode": "089057",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -10845,7 +10796,7 @@
         "floor": null,
         "postCode": "59439",
         "city": "Holzwickede",
-        "state": null,
+        "state": "North Rhine-Westphalia",
         "country": "Germany"
       }
     },
@@ -10881,16 +10832,16 @@
       "address": {
         "street": "High Street",
         "streetNumber": "77",
-        "floor": "#08-06,High Street Plaza",
+        "floor": "#08-06, High Street Plaza",
         "postCode": "179433",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
     "website": "https://routeslogistics.com/",
     "remarks": "",
-    "validFrom": "2025-12-04",
+    "validFrom": "2025-12-05",
     "validTo": null,
     "changeLogs": [
       {
@@ -10923,7 +10874,7 @@
         "floor": "#10-01 Keppel Towers",
         "postCode": "089315",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -10962,7 +10913,7 @@
         "floor": "#02-06/07",
         "postCode": "159088",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -10990,7 +10941,7 @@
     "linerSMDGCode": "RTS",
     "linerName": "RTSB Line",
     "carrierType": "NVOCC",
-    "parentCompany": "",
+    "parentCompany": "RTSB",
     "address": "Industriestraße 24, 61381 Friedrichsdorf ",
     "addressLocation": {
       "UnLocode": "FRF",
@@ -11001,11 +10952,11 @@
         "floor": null,
         "postCode": "61381",
         "city": "Friedrichsdorf",
-        "state": "HE",
+        "state": "Hesse",
         "country": "Germany"
       }
     },
-    "website": "rtsb.group",
+    "website": "https://rtsb.group/",
     "remarks": "",
     "validFrom": "2026-05-01",
     "validTo": null,
@@ -11035,12 +10986,12 @@
       "UnLocode": "KHI",
       "UnCountryCode": "PK",
       "address": {
-        "street": null,
+        "street": "Main Shahrah-e-Faisal",
         "streetNumber": null,
         "floor": "Suite # 707-709, 7th Floor Caesars Towers",
         "postCode": null,
         "city": "Karachi",
-        "state": null,
+        "state": "Sindh",
         "country": "Pakistan"
       }
     },
@@ -11071,16 +11022,16 @@
     "parentCompany": "",
     "address": "Địa chỉ Công ty: Số 9 Nguyễn Công Trứ, P.Nguyễn Thái Bình, Quận 1, TP.HCM",
     "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
+      "UnLocode": "SGN",
+      "UnCountryCode": "VN",
       "address": {
-        "street": null,
-        "streetNumber": null,
+        "street": "Nguyen Cong Tru",
+        "streetNumber": "9",
         "floor": null,
         "postCode": null,
-        "city": null,
-        "state": null,
-        "country": null
+        "city": "Ho Chi Minh City",
+        "state": "Ho Chi Minh City",
+        "country": "Vietnam"
       }
     },
     "website": "https://saigonship.com.vn/",
@@ -11105,7 +11056,7 @@
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
     "linerSMDGCode": "SAL",
-    "linerName": "SHAHAZIZ SHIPPING LINES L.L.C (Dubai)",
+    "linerName": "SHAH AZIZ SHIPPING LINES L.L.C (Dubai)",
     "carrierType": "NVOCC",
     "parentCompany": "SASL",
     "address": "Office #2308, 23rd Floor, Damac Smart Heights Building, Al Barsha Heights (TECOM)",
@@ -11118,13 +11069,13 @@
         "floor": "Damac Smart Heights Building, Office #2308, 23rd Floor",
         "postCode": null,
         "city": "Dubai",
-        "state": "Al Barsha,\nAl Barsha Heights (TECOM)",
-        "country": "Dubai"
+        "state": "Dubai",
+        "country": "United Arab Emirates"
       }
     },
     "website": "www.sasl.ae",
     "remarks": "",
-    "validFrom": "2026-02-12",
+    "validFrom": "2026-01-26",
     "validTo": null,
     "changeLogs": [
       {
@@ -11157,7 +11108,7 @@
         "floor": null,
         "postCode": "3087 BM",
         "city": "Rotterdam",
-        "state": null,
+        "state": "South Holland",
         "country": "Netherlands"
       }
     },
@@ -11194,9 +11145,9 @@
         "street": "Robinson Road",
         "streetNumber": "120",
         "floor": "#15-01",
-        "postCode": null,
+        "postCode": "068913",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -11235,7 +11186,7 @@
         "floor": "Shipping House 10th floor",
         "postCode": "400-021",
         "city": "Mumbai",
-        "state": null,
+        "state": "Maharashtra",
         "country": "India"
       }
     },
@@ -11274,7 +11225,7 @@
         "floor": null,
         "postCode": "089595",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -11313,7 +11264,7 @@
         "floor": "Beach Centre #04-04",
         "postCode": "189677",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -11352,7 +11303,7 @@
         "floor": null,
         "postCode": "LT 92122",
         "city": "Klaipeda",
-        "state": null,
+        "state": "Klaipeda County",
         "country": "Lithuania"
       }
     },
@@ -11391,7 +11342,7 @@
         "floor": null,
         "postCode": "48122",
         "city": "Ravenna",
-        "state": "RA",
+        "state": "Emilia-Romagna",
         "country": "Italy"
       }
     },
@@ -11430,7 +11381,7 @@
         "floor": "Mina Zayed Building",
         "postCode": null,
         "city": "Abu Dhabi",
-        "state": null,
+        "state": "Abu Dhabi",
         "country": "United Arab Emirates"
       }
     },
@@ -11469,13 +11420,13 @@
         "floor": "1805, Churchill Office Towers",
         "postCode": null,
         "city": "Dubai",
-        "state": "Business Bay",
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
     "website": "www.sfsline.com",
     "remarks": "",
-    "validFrom": "2025-12-04",
+    "validFrom": "2025-12-05",
     "validTo": null,
     "changeLogs": [
       {
@@ -11500,15 +11451,15 @@
     "parentCompany": "",
     "address": "Graaf Engelbertlaan 75, 4837 DS Breda, Netherlands",
     "addressLocation": {
-      "UnLocode": "NLBRD",
+      "UnLocode": "BRD",
       "UnCountryCode": "NL",
       "address": {
         "street": "Graaf Engelbertlaan",
         "streetNumber": "75",
         "floor": null,
-        "postCode": "4837",
+        "postCode": "4837 DS",
         "city": "Breda",
-        "state": null,
+        "state": "North Brabant",
         "country": "Netherlands"
       }
     },
@@ -11547,7 +11498,7 @@
         "floor": null,
         "postCode": "1098",
         "city": "Copenhagen",
-        "state": null,
+        "state": "Capital Region of Denmark",
         "country": "Denmark"
       }
     },
@@ -11596,7 +11547,7 @@
         "floor": "# 26-17 INTERNATIONAL PLAZA",
         "postCode": "079903",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -11630,12 +11581,12 @@
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": "UBI ROAD",
+        "street": "UBI ROAD 1",
         "streetNumber": "65",
-        "floor": "1, #02-60, OXLEY BIZHUB",
+        "floor": "#02-60, OXLEY BIZHUB",
         "postCode": "408729",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -11666,15 +11617,15 @@
     "parentCompany": "",
     "address": "Manila Office, No. 1 Multinational Avenue corner Kaingin Road, Multinational Village, Paranaque City, Philippines, ",
     "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
+      "UnLocode": "MNL",
+      "UnCountryCode": "PH",
       "address": {
         "street": "Multinational Avenue corner Kaingin Road",
         "streetNumber": "1",
         "floor": null,
         "postCode": null,
-        "city": "Manila",
-        "state": "Multinational Village, Paranaque City",
+        "city": "Paranaque City",
+        "state": "National Capital Region",
         "country": "Philippines"
       }
     },
@@ -11700,7 +11651,7 @@
     "codeStatus": "Active",
     "linerCodeVersion": "V2",
     "linerSMDGCode": "SIL",
-    "linerName": "SILMAR SHIPPING FZCO (UAE)",
+    "linerName": "Silmar-Shipping",
     "carrierType": "VOCC",
     "parentCompany": "SIL",
     "address": "SILMAR SHIPPING FZCO,Dubai CommerCity,Business Cluster - Building BCB1 141,P.O.BOX 124365, Dubai,United Arab Emirates",
@@ -11708,12 +11659,12 @@
       "UnLocode": "DXB",
       "UnCountryCode": "AE",
       "address": {
-        "street": "Dubai CommerCity Business Cluster",
-        "streetNumber": "Building BCB1 141",
+        "street": null,
+        "streetNumber": null,
         "floor": "Dubai CommerCity\nBusiness Cluster - Building BCB1 141",
         "postCode": null,
         "city": "Dubai",
-        "state": null,
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
@@ -11762,7 +11713,7 @@
         "floor": "18th Floor, Regal Tower, Business Bay",
         "postCode": null,
         "city": "Dubai",
-        "state": null,
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
@@ -11801,7 +11752,7 @@
         "floor": null,
         "postCode": null,
         "city": "Hong Kong",
-        "state": null,
+        "state": "Hong Kong SAR",
         "country": "Hong Kong"
       }
     },
@@ -11840,7 +11791,7 @@
         "floor": "Floor 15",
         "postCode": "200021",
         "city": "Shanghai",
-        "state": null,
+        "state": "Shanghai Municipality",
         "country": "China"
       }
     },
@@ -11874,12 +11825,12 @@
       "UnLocode": "BOM",
       "UnCountryCode": "IN",
       "address": {
-        "street": null,
+        "street": "S V Road",
         "streetNumber": null,
-        "floor": "8th Floor, DLH Plaza,Cosmos Building",
-        "postCode": null,
+        "floor": "8th Floor, DLH Plaza, Cosmos Building",
+        "postCode": "400058",
         "city": "Mumbai",
-        "state": null,
+        "state": "Maharashtra",
         "country": "India"
       }
     },
@@ -11918,7 +11869,7 @@
         "floor": null,
         "postCode": "149544",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -11957,7 +11908,7 @@
         "floor": null,
         "postCode": "619478",
         "city": "Singapore",
-        "state": null,
+        "state": "West Region",
         "country": "Singapore"
       }
     },
@@ -11993,10 +11944,10 @@
       "address": {
         "street": "Keppel Road",
         "streetNumber": "19",
-        "floor": null,
+        "floor": "Jit Poh Building",
         "postCode": "079058",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -12030,13 +11981,13 @@
       "UnLocode": "SEL",
       "UnCountryCode": "KR",
       "address": {
-        "street": "85, Gwangnaru-ro 56-gil",
-        "streetNumber": null,
+        "street": "Gwangnaru-ro 56-gil",
+        "streetNumber": "85",
         "floor": null,
         "postCode": "05116",
         "city": "Seoul",
-        "state": "Gwangjin-gu",
-        "country": "Korea (Republic of)"
+        "state": "Seoul Special City",
+        "country": "South Korea"
       }
     },
     "website": "https://www.smlines.com/kr/",
@@ -12084,7 +12035,7 @@
         "floor": null,
         "postCode": "1098",
         "city": "Copenhagen",
-        "state": null,
+        "state": "Capital Region of Denmark",
         "country": "Denmark"
       }
     },
@@ -12120,7 +12071,7 @@
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
     "linerSMDGCode": "SLG",
-    "linerName": "Sea Legend Line Ltd.",
+    "linerName": "Sea Legend Line Limited",
     "carrierType": "VOCC",
     "parentCompany": null,
     "address": "Centre street 18, UNIT 3A-8, 12/F, Hong Kong",
@@ -12133,7 +12084,7 @@
         "floor": "UNIT 3A-8, 12/F, KAISER CENTER",
         "postCode": null,
         "city": "Hong Kong",
-        "state": null,
+        "state": "Hong Kong SAR",
         "country": "Hong Kong"
       }
     },
@@ -12169,10 +12120,10 @@
       "address": {
         "street": "Katsounotos Str",
         "streetNumber": null,
-        "floor": "Salamis House",
-        "postCode": null,
+        "floor": "Salamis House 1",
+        "postCode": "3607",
         "city": "Limassol",
-        "state": null,
+        "state": "Limassol District",
         "country": "Cyprus"
       }
     },
@@ -12206,12 +12157,12 @@
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
+        "street": "Raffles Quay",
+        "streetNumber": "6",
+        "floor": "#25-02",
+        "postCode": "048580",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -12249,8 +12200,8 @@
         "streetNumber": "6",
         "floor": "Building A, 17th floor",
         "postCode": null,
-        "city": "Quingdao",
-        "state": "Shibei District, Shandong Province",
+        "city": "Qingdao",
+        "state": "Shandong",
         "country": "China"
       }
     },
@@ -12284,10 +12235,10 @@
       "UnLocode": null,
       "UnCountryCode": "US",
       "address": {
-        "street": null,
-        "streetNumber": null,
+        "street": "NW 79th Avenue",
+        "streetNumber": "8001",
         "floor": null,
-        "postCode": null,
+        "postCode": "33166",
         "city": "Miami",
         "state": "Florida",
         "country": "United States"
@@ -12324,12 +12275,12 @@
       "UnCountryCode": "KR",
       "address": {
         "street": "Bukchang-dong",
-        "streetNumber": null,
+        "streetNumber": "21",
         "floor": "2nd Fl., Haenam Bldg.",
         "postCode": null,
         "city": "Seoul",
-        "state": "Chung-Ku",
-        "country": "Korea (Republic of)"
+        "state": "Seoul Special City",
+        "country": "South Korea"
       }
     },
     "website": "http://www.sinokor.co.kr/",
@@ -12362,12 +12313,12 @@
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
+        "street": "Cantonment Road",
+        "streetNumber": "200",
+        "floor": "#06-01, Southpoint",
         "postCode": "089763",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -12406,7 +12357,7 @@
         "floor": "Sinotrans Mansion 20F-25F",
         "postCode": "200001",
         "city": "Shanghai",
-        "state": null,
+        "state": "Shanghai Municipality",
         "country": "China"
       }
     },
@@ -12445,7 +12396,7 @@
         "floor": "#06-07 Cendex Centre",
         "postCode": "169208",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -12479,12 +12430,12 @@
       "UnLocode": "AKL",
       "UnCountryCode": "NZ",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
+        "street": "High St",
+        "streetNumber": "35",
+        "floor": "Level 6",
         "postCode": null,
         "city": "Auckland",
-        "state": null,
+        "state": "Auckland Region",
         "country": "New Zealand"
       }
     },
@@ -12518,12 +12469,12 @@
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
+        "street": "Cantonment Road",
+        "streetNumber": "200",
+        "floor": "#09-01, Southpoint",
+        "postCode": "089763",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -12557,12 +12508,12 @@
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
+        "street": "Raffles Quay",
+        "streetNumber": "6",
+        "floor": "#25-01",
+        "postCode": "048580",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -12584,7 +12535,7 @@
       {
         "actionCode": "Updated",
         "linerCodeVersion": "V2",
-        "lastUpdateDate": "2021-09-06",
+        "lastUpdateDate": "2021-09-13",
         "updateRequestedBy": null,
         "reason": "change of address and website",
         "changedFields": [],
@@ -12599,7 +12550,7 @@
     "linerCodeVersion": "V1",
     "linerSMDGCode": "SST",
     "linerName": "Sea-Shore Transportation",
-    "carrierType": "UNKNOWN",
+    "carrierType": "NVOCC",
     "parentCompany": "",
     "address": "Suite#713-A, 7th Floor, Chapal Plaza Hasrat Mohani Road , ",
     "addressLocation": {
@@ -12611,7 +12562,7 @@
         "floor": "Suite#713-A, 7th Floor",
         "postCode": null,
         "city": "Karachi",
-        "state": null,
+        "state": "Sindh",
         "country": "Pakistan"
       }
     },
@@ -12645,12 +12596,12 @@
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
+        "street": "Bukit Merah Central",
+        "streetNumber": "2",
+        "floor": "#04-03",
+        "postCode": "159835",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -12689,7 +12640,7 @@
         "floor": "Hong Leong Building",
         "postCode": "048581",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -12728,8 +12679,8 @@
         "floor": null,
         "postCode": null,
         "city": "Seoul",
-        "state": "Jongno-gu",
-        "country": "Korea (Republic of)"
+        "state": "Seoul Special City",
+        "country": "South Korea"
       }
     },
     "website": "http://www.panocean.com/",
@@ -12767,7 +12718,7 @@
         "floor": null,
         "postCode": "20457",
         "city": "Hamburg",
-        "state": null,
+        "state": "Hamburg",
         "country": "Germany"
       }
     },
@@ -12801,12 +12752,12 @@
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
+        "street": "Beach Road",
+        "streetNumber": "300",
+        "floor": "#27-01, The Concourse",
+        "postCode": "199555",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -12840,12 +12791,12 @@
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
+        "street": "North Bridge Road",
+        "streetNumber": "1",
+        "floor": "#06-27, High Street Centre",
+        "postCode": "179094",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -12876,7 +12827,7 @@
     "parentCompany": "",
     "address": "Sub Lot 153 (Parent Lot 70), Jalan Kuala Baram, Kuala Baram, 98100 Miri, Sarawak, Malaysia, 98000 Miri, Sarawak, Malaysia",
     "addressLocation": {
-      "UnLocode": "YYY",
+      "UnLocode": "MYY",
       "UnCountryCode": "MY",
       "address": {
         "street": "Jalan Kuala Baram",
@@ -12962,7 +12913,7 @@
         "floor": null,
         "postCode": "19126",
         "city": "La Spezia",
-        "state": "SP",
+        "state": "Liguria",
         "country": "Italy"
       }
     },
@@ -12996,12 +12947,12 @@
       "UnLocode": "COC",
       "UnCountryCode": "IN",
       "address": {
-        "street": null,
+        "street": "Seaport Airport Road",
         "streetNumber": null,
-        "floor": null,
-        "postCode": null,
+        "floor": "Trans Asia Corporate Park XIV/396-C",
+        "postCode": "682037",
         "city": "Cochin",
-        "state": null,
+        "state": "Kerala",
         "country": "India"
       }
     },
@@ -13037,16 +12988,16 @@
       "address": {
         "street": "Avda. Mcal. López",
         "streetNumber": null,
-        "floor": "EdificioToyotashi, Nivel 5",
+        "floor": "Edificio Toyotoshi, Nivel 5",
         "postCode": null,
         "city": "Asuncion",
-        "state": null,
+        "state": "Capital District",
         "country": "Paraguay"
       }
     },
-    "website": "",
+    "website": "not available",
     "remarks": "",
-    "validFrom": "2025-09-01",
+    "validFrom": "2025-10-10",
     "validTo": null,
     "changeLogs": [
       {
@@ -13066,9 +13017,9 @@
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
     "linerSMDGCode": "TI2",
-    "linerName": "Ti2 Container Lines Pte Ltd",
+    "linerName": "Ti2 Container lines pte ltd",
     "carrierType": "NVOCC",
-    "parentCompany": "Ti2",
+    "parentCompany": null,
     "address": "2 International Business Park, #11-06\nThe Strategy Tower 1, Singapore 609930",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -13079,13 +13030,13 @@
         "floor": "#11-06\nThe Strategy Tower 1",
         "postCode": "609930",
         "city": "Singapore",
-        "state": null,
+        "state": "West Region",
         "country": "Singapore"
       }
     },
     "website": "www.ti2shipping.com",
     "remarks": "",
-    "validFrom": "2025-03-18",
+    "validFrom": "2025-04-13",
     "validTo": null,
     "changeLogs": [
       {
@@ -13113,12 +13064,12 @@
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
+        "street": "International Business Park",
+        "streetNumber": "2",
+        "floor": "#11-06, The Strategy Tower 1",
+        "postCode": "609930",
         "city": "Singapore",
-        "state": null,
+        "state": "West Region",
         "country": "Singapore"
       }
     },
@@ -13167,7 +13118,7 @@
         "floor": null,
         "postCode": "189702",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -13198,15 +13149,15 @@
     "parentCompany": "",
     "address": "Transportes Marítimos Insulares, S.A., Edifício Gonçalves Zarco, Doca de Alcântara (lado Norte), 1399-015 LISBOA, Portugal",
     "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
+      "UnLocode": "LIS",
+      "UnCountryCode": "PT",
       "address": {
-        "street": null,
+        "street": "Doca de Alcantara",
         "streetNumber": null,
-        "floor": "Edifício Gonçalves Zarco",
+        "floor": "Edificio Goncalves Zarco",
         "postCode": "1399-015",
         "city": "Lisbon",
-        "state": null,
+        "state": "Lisbon District",
         "country": "Portugal"
       }
     },
@@ -13237,15 +13188,15 @@
     "parentCompany": "",
     "address": "Av. El Bosque Norte 500, piso 20, Santiago, Chile",
     "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
+      "UnLocode": "SCL",
+      "UnCountryCode": "CL",
       "address": {
         "street": "Av. El Bosque Norte",
         "streetNumber": "500",
         "floor": "piso 20",
         "postCode": null,
         "city": "Santiago",
-        "state": null,
+        "state": "Santiago Metropolitan Region",
         "country": "Chile"
       }
     },
@@ -13284,7 +13235,7 @@
         "floor": "Building \"Alexander Poort\"",
         "postCode": "3068",
         "city": "Rotterdam",
-        "state": null,
+        "state": "South Holland",
         "country": "Netherlands"
       }
     },
@@ -13323,7 +13274,7 @@
         "floor": "#12-04A, Shenton House",
         "postCode": "068805",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -13357,13 +13308,13 @@
       "UnLocode": "IST",
       "UnCountryCode": "TR",
       "address": {
-        "street": null,
-        "streetNumber": null,
+        "street": "Ord. Prof. Dr. Fahrettin Kerim Gokay Caddesi",
+        "streetNumber": "33",
         "floor": null,
-        "postCode": null,
+        "postCode": "34662",
         "city": "Istanbul",
-        "state": null,
-        "country": "Turkey"
+        "state": "Istanbul Province",
+        "country": "Türkiye"
       }
     },
     "website": "http://turkon.com/en/",
@@ -13401,7 +13352,7 @@
         "floor": null,
         "postCode": null,
         "city": "Dubai",
-        "state": "Jebel Ali Free Zone (South)",
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
@@ -13440,7 +13391,7 @@
         "floor": null,
         "postCode": "20457",
         "city": "Hamburg",
-        "state": null,
+        "state": "Hamburg",
         "country": "Germany"
       }
     },
@@ -13462,7 +13413,7 @@
       {
         "actionCode": "Updated",
         "linerCodeVersion": "V2",
-        "lastUpdateDate": "2023-02-15",
+        "lastUpdateDate": "2023-02-13",
         "updateRequestedBy": "Tailwind",
         "reason": "code change from TWS to TSH , change of address",
         "changedFields": [],
@@ -13484,12 +13435,12 @@
       "UnLocode": null,
       "UnCountryCode": "JP",
       "address": {
-        "street": null,
-        "streetNumber": null,
+        "street": "Yanagibashi",
+        "streetNumber": "2-19-6",
         "floor": null,
-        "postCode": null,
-        "city": null,
-        "state": null,
+        "postCode": "111-0052",
+        "city": "Tokyo",
+        "state": "Tokyo Metropolis",
         "country": "Japan"
       }
     },
@@ -13523,12 +13474,12 @@
       "UnLocode": "TPE",
       "UnCountryCode": "TW",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
+        "street": "Tun-Hwa N. Rd.",
+        "streetNumber": "167",
+        "floor": "6F",
+        "postCode": "105",
         "city": "Taipei",
-        "state": null,
+        "state": "Taipei City",
         "country": "Taiwan"
       }
     },
@@ -13559,7 +13510,7 @@
     "parentCompany": "",
     "address": "200 CANTONMENT ROAD, SOUTHPOINT #02-05, SINGAPORE 089763",
     "addressLocation": {
-      "UnLocode": "SGSIN",
+      "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
         "street": "CANTONMENT ROAD",
@@ -13567,7 +13518,7 @@
         "floor": "SOUTHPOINT #02-05",
         "postCode": "089763",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -13604,9 +13555,9 @@
         "street": null,
         "streetNumber": null,
         "floor": null,
-        "postCode": null,
+        "postCode": "42000",
         "city": "Port Klang",
-        "state": null,
+        "state": "Selangor",
         "country": "Malaysia"
       }
     },
@@ -13645,8 +13596,8 @@
         "floor": "RM603, Hanjin BlDG (new)",
         "postCode": null,
         "city": "Seoul",
-        "state": "Jung-G",
-        "country": "Korea (Republic of)"
+        "state": "Seoul Special City",
+        "country": "South Korea"
       }
     },
     "website": "http://www.taiyoungship.co.kr/",
@@ -13681,10 +13632,10 @@
       "address": {
         "street": null,
         "streetNumber": null,
-        "floor": null,
-        "postCode": null,
+        "floor": "UAFL House, Domaine de Labourdonnais",
+        "postCode": "31803",
         "city": "Mapou",
-        "state": null,
+        "state": "Rivière du Rempart District",
         "country": "Mauritius"
       }
     },
@@ -13723,7 +13674,7 @@
         "floor": null,
         "postCode": "20095",
         "city": "Hamburg",
-        "state": null,
+        "state": "Hamburg",
         "country": "Germany"
       }
     },
@@ -13757,12 +13708,12 @@
       "UnLocode": "AAR",
       "UnCountryCode": "DK",
       "address": {
-        "street": null,
-        "streetNumber": null,
+        "street": "Tangen",
+        "streetNumber": "6",
         "floor": null,
-        "postCode": null,
+        "postCode": "8200",
         "city": "Aarhus",
-        "state": null,
+        "state": "Central Denmark Region",
         "country": "Denmark"
       }
     },
@@ -13796,12 +13747,12 @@
       "UnLocode": "AAR",
       "UnCountryCode": "DK",
       "address": {
-        "street": null,
-        "streetNumber": null,
+        "street": "Tangen",
+        "streetNumber": "6",
         "floor": null,
-        "postCode": null,
+        "postCode": "8200",
         "city": "Aarhus",
-        "state": null,
+        "state": "Central Denmark Region",
         "country": "Denmark"
       }
     },
@@ -13835,12 +13786,12 @@
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": "KAMPONG BAHRU RD (Keppel)",
-        "streetNumber": null,
-        "floor": null,
+        "street": "Kampong Bahru Rd",
+        "streetNumber": "511",
+        "floor": "#02-05, Keppel Distripark",
         "postCode": "099447",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -13874,12 +13825,12 @@
       "UnLocode": "MVD",
       "UnCountryCode": "UY",
       "address": {
-        "street": "25 DE AGOSTO",
-        "streetNumber": null,
-        "floor": null,
-        "postCode": "11000",
+        "street": "25 de Agosto",
+        "streetNumber": "1825",
+        "floor": "Office 301",
+        "postCode": null,
         "city": "Montevideo",
-        "state": null,
+        "state": "Montevideo Department",
         "country": "Uruguay"
       }
     },
@@ -13913,12 +13864,12 @@
       "UnLocode": "CCS",
       "UnCountryCode": "VE",
       "address": {
-        "street": null,
+        "street": "Avenida Caroní",
         "streetNumber": null,
-        "floor": null,
-        "postCode": null,
+        "floor": "Edificio Luisiana, Piso 3",
+        "postCode": "1060",
         "city": "Caracas",
-        "state": null,
+        "state": "Miranda",
         "country": "Venezuela"
       }
     },
@@ -13952,13 +13903,13 @@
       "UnLocode": "FXT",
       "UnCountryCode": "GB",
       "address": {
-        "street": null,
+        "street": "Haven Exchange South",
         "streetNumber": null,
         "floor": "R J J House",
-        "postCode": null,
+        "postCode": "IP11 2QE",
         "city": "Felixstowe",
-        "state": null,
-        "country": "Unitd Kingdom"
+        "state": "Suffolk",
+        "country": "United Kingdom"
       }
     },
     "website": "http://www.vmliner.com/",
@@ -13991,12 +13942,12 @@
       "UnLocode": "DXB",
       "UnCountryCode": "AE",
       "address": {
-        "street": "Bay square",
+        "street": "Bay square 12",
         "streetNumber": "701",
         "floor": null,
         "postCode": null,
         "city": "Dubai",
-        "state": "Business Bay Dubai",
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
@@ -14035,7 +13986,7 @@
         "floor": null,
         "postCode": "189652",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -14069,12 +14020,12 @@
       "UnLocode": "RTM",
       "UnCountryCode": "NL",
       "address": {
-        "street": null,
-        "streetNumber": null,
+        "street": "Albert Plesmanweg",
+        "streetNumber": "59",
         "floor": null,
-        "postCode": null,
+        "postCode": "3088 GB",
         "city": "Rotterdam",
-        "state": null,
+        "state": "South Holland",
         "country": "Netherlands"
       }
     },
@@ -14113,7 +14064,7 @@
         "floor": null,
         "postCode": "068628",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -14152,7 +14103,7 @@
         "floor": null,
         "postCode": "41200",
         "city": "Klang",
-        "state": null,
+        "state": "Selangor",
         "country": "Malaysia"
       }
     },
@@ -14186,12 +14137,12 @@
       "UnLocode": "BOM",
       "UnCountryCode": "IN",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
+        "street": "LBS Road",
+        "streetNumber": "520",
+        "floor": "Marathon Max, 5th Floor",
+        "postCode": "400080",
         "city": "Mumbai",
-        "state": null,
+        "state": "Maharashtra",
         "country": "India"
       }
     },
@@ -14225,12 +14176,12 @@
       "UnLocode": "TPE",
       "UnCountryCode": "TW",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
+        "street": "Sung Chiang Road",
+        "streetNumber": "136",
+        "floor": "10th Floor",
         "postCode": null,
         "city": "Taipei",
-        "state": null,
+        "state": "Taipei City",
         "country": "Taiwan"
       }
     },
@@ -14264,9 +14215,9 @@
       "UnLocode": "AMD",
       "UnCountryCode": "IN",
       "address": {
-        "street": null,
+        "street": "Corporate Road",
         "streetNumber": null,
-        "floor": null,
+        "floor": "B-801, Titanium Heights",
         "postCode": null,
         "city": "Ahmedabad",
         "state": "Gujarat",
@@ -14291,7 +14242,7 @@
       {
         "actionCode": "Updated",
         "linerCodeVersion": "V2",
-        "lastUpdateDate": "2022-05-20",
+        "lastUpdateDate": "2022-05-18",
         "updateRequestedBy": null,
         "reason": "Correction of website from www.winwinlines.com/  to www.winwinmaritime.com/",
         "changedFields": [],
@@ -14313,12 +14264,12 @@
       "UnLocode": "DXB",
       "UnCountryCode": "AE",
       "address": {
-        "street": null,
+        "street": "Baniyas Street",
         "streetNumber": null,
-        "floor": null,
+        "floor": "Al Owais Tower, Offices 305-306",
         "postCode": null,
         "city": "Dubai",
-        "state": null,
+        "state": "Dubai",
         "country": "United Arab Emirates"
       }
     },
@@ -14357,8 +14308,8 @@
         "floor": "Unit 1 & 2, 1st & 2nd Floor, Block A, Jerudong Centre",
         "postCode": "BG3122",
         "city": "Jerudong",
-        "state": "Brunei Muara",
-        "country": "Brunei Darussalam"
+        "state": "Brunei-Muara",
+        "country": "Brunei"
       }
     },
     "website": "https://www.warisanshippingline.com/",
@@ -14394,9 +14345,9 @@
         "street": "Klippan",
         "streetNumber": "1D",
         "floor": null,
-        "postCode": "SE-41451",
-        "city": "Göteborg",
-        "state": null,
+        "postCode": "414 51",
+        "city": "Goteborg",
+        "state": "Västra Götaland County",
         "country": "Sweden"
       }
     },
@@ -14430,12 +14381,12 @@
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
       "address": {
-        "street": "TUAS AVENUE",
+        "street": "TUAS AVENUE 6",
         "streetNumber": "10",
         "floor": null,
         "postCode": "639298",
         "city": "Singapore",
-        "state": null,
+        "state": "West Region",
         "country": "Singapore"
       }
     },
@@ -14469,12 +14420,12 @@
       "UnLocode": "LYS",
       "UnCountryCode": "NO",
       "address": {
-        "street": null,
-        "streetNumber": null,
+        "street": "Strandveien",
+        "streetNumber": "20",
         "floor": null,
-        "postCode": null,
+        "postCode": "1364",
         "city": "Lysaker",
-        "state": null,
+        "state": "Akershus",
         "country": "Norway"
       }
     },
@@ -14513,7 +14464,7 @@
         "floor": null,
         "postCode": "089595",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -14552,7 +14503,7 @@
         "floor": null,
         "postCode": null,
         "city": "London",
-        "state": null,
+        "state": "Greater London",
         "country": "United Kingdom"
       }
     },
@@ -14591,7 +14542,7 @@
         "floor": null,
         "postCode": "068805",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -14630,7 +14581,7 @@
         "floor": null,
         "postCode": "20646",
         "city": "Keelung",
-        "state": null,
+        "state": "Keelung City",
         "country": "Taiwan"
       }
     },
@@ -14676,10 +14627,10 @@
       "address": {
         "street": "Havelock Road",
         "streetNumber": "390",
-        "floor": null,
+        "floor": "#07-01 King's centre",
         "postCode": "169662",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -14707,7 +14658,7 @@
     "linerSMDGCode": "ZGL",
     "linerName": "ZHONG GU SHIPPING (SIN) PTE LTD",
     "carrierType": "VOCC",
-    "parentCompany": "",
+    "parentCompany": "SHANGHAI ZHONGGU LOGISTICS CO., LTD.",
     "address": "111 North Bridge Road #21-01, Singapore",
     "addressLocation": {
       "UnLocode": "SIN",
@@ -14718,7 +14669,7 @@
         "floor": "21-01",
         "postCode": "179098",
         "city": "Singapore",
-        "state": null,
+        "state": "Central Region",
         "country": "Singapore"
       }
     },
@@ -14757,7 +14708,7 @@
         "floor": null,
         "postCode": "1723",
         "city": "Haifa",
-        "state": null,
+        "state": "Haifa District",
         "country": "Israel"
       }
     },
