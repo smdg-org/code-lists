@@ -9,11 +9,14 @@ export const LABELS = {
   unLocode: "UN/LOCODE location part", street: "Street", streetNumber: "Street number",
   floor: "Building / Floor", postCode: "Postal code", city: "City", state: "Area",
   country: "Country", validFrom: "Valid From", validTo: "Valid To", remarks: "Remarks",
-  reason: "Request reason", comments: "Request comments", contactName: "Contact name", contactEmail: "Contact email"
+  reason: "Request reason", comments: "Request comments", contactName: "Contact name", contactEmail: "Contact email",
+  codeStatus: "Status"
 };
 export const RECORD_FIELDS = Object.keys(LABELS).filter(key =>
-  !["reason", "comments", "contactName", "contactEmail"].includes(key));
-const VALUE_FIELDS = Object.keys(LABELS);
+  !["reason", "comments", "contactName", "contactEmail", "codeStatus"].includes(key));
+export const CODE_STATUSES = ["Active", "Expired", "MarkedForDeletion", "Deleted"];
+export const DIRECT_FIELDS = [...RECORD_FIELDS, "codeStatus"];
+const VALUE_FIELDS = Object.keys(LABELS).filter(key => key !== "codeStatus");
 const terminal = request => ["Rejected", "Published - demo"].includes(request.status);
 export const isClosed = terminal;
 const copy = value => structuredClone(value);
@@ -52,7 +55,46 @@ export function toRecord(values) {
 }
 
 function canonical(record) {
-  return toRecord(prefill(record));
+  const output = toRecord(prefill(record));
+  for (const key of ["codeStatus", "isActive", "linerCodeVersion", "address", "changeLogs"]) {
+    if (record[key] !== undefined) output[key] = copy(record[key]);
+  }
+  return output;
+}
+
+export function directValues(record) {
+  return { ...prefill(record), codeStatus: record.codeStatus ?? "" };
+}
+
+export function validateDirectEdit(workspace, baseline, values, actor, reason) {
+  if (!ASSIGNEES.includes(actor)) throw new Error("Choose a listed reviewer.");
+  if (!text(reason, "change reason").trim()) throw new Error("Enter a change reason.");
+  const proposal = cleanValues(values);
+  if (proposal.code !== baseline.linerSMDGCode) throw new Error("The liner code cannot be changed.");
+  const current = workspace.records.find(record => record.linerSMDGCode === proposal.code);
+  if (!current || !equal(current, baseline)) {
+    throw new Error("This record changed or was removed. Reload the record and review your changes before publishing.");
+  }
+  const errors = validateRequest("update", { ...proposal, reason }, workspace.records, { requireContact: false });
+  if (Object.keys(errors).length) throw new Error(Object.values(errors).join(" "));
+  if (!CODE_STATUSES.includes(values.codeStatus)) throw new Error("Choose a valid code status.");
+  const before = directValues(current);
+  const after = { ...proposal, codeStatus: values.codeStatus };
+  if (!DIRECT_FIELDS.some(key => before[key] !== after[key])) throw new Error("There are no changes to publish.");
+  return after;
+}
+
+export function publishDirectEdit(workspace, baseline, values, actor, reason) {
+  const proposal = validateDirectEdit(workspace, baseline, values, actor, reason);
+  const after = { ...copy(baseline), ...toRecord(proposal), codeStatus: proposal.codeStatus,
+    isActive: proposal.codeStatus === "Active" };
+  const entry = {
+    at: timestamp(), actor, reason: reason.trim(), before: copy(baseline), after: copy(after)
+  };
+  workspace.records = workspace.records.map(record => record.linerSMDGCode === proposal.code ? after : record);
+  workspace.directEdits ??= [];
+  workspace.directEdits.push(entry);
+  return entry;
 }
 
 export function conflict(request, records) {
@@ -137,8 +179,9 @@ export function actOnRequest(workspace, id, version, action, input = {}) {
     request.proposal = proposal;
     if (changed) event(request, "Proposal edited", "Reviewer changes retained; original submission is unchanged.");
     if (action === "publish") {
+      const current = workspace.records.find(record => record.linerSMDGCode === proposal.code);
       workspace.records = workspace.records.filter(record => record.linerSMDGCode !== proposal.code);
-      if (request.mode !== "delete") workspace.records.push(toRecord(proposal));
+      if (request.mode !== "delete") workspace.records.push({ ...current, ...toRecord(proposal) });
       workspace.records.sort((a, b) => a.linerSMDGCode.localeCompare(b.linerSMDGCode, "en"));
       request.status = "Published - demo";
       request.publishedAt = timestamp();
@@ -164,7 +207,7 @@ export function createWorkspace(snapshot) {
   validateRecords(snapshot);
   const workspace = {
     schema: 1, id: crypto.randomUUID(), revision: 0,
-    records: snapshot.map(canonical), requests: []
+    records: snapshot.map(canonical), requests: [], directEdits: []
   };
   let code = "Q9Z";
   for (let index = 0; workspace.records.some(record => record.linerSMDGCode === code); index++) {
@@ -246,7 +289,22 @@ export function validateWorkspace(raw) {
       }))
     };
   });
-  return { schema: 1, id: text(raw.id, "workspace ID", 100), revision: raw.revision, records, requests };
+  if (raw.directEdits !== undefined && (!Array.isArray(raw.directEdits) || raw.directEdits.length > 10000)) {
+    throw new Error("Invalid direct-edit history.");
+  }
+  const directEdits = (raw.directEdits ?? []).map(entry => {
+    if (!entry || !ASSIGNEES.includes(entry.actor) || !entry.before || !entry.after) throw new Error("Invalid direct-edit history.");
+    const before = canonical(entry.before);
+    const after = canonical(entry.after);
+    validateRecords([before]);
+    validateRecords([after]);
+    const reason = text(entry.reason, "change reason").trim();
+    if (!reason || before.linerSMDGCode !== after.linerSMDGCode || !CODE_STATUSES.includes(after.codeStatus)) {
+      throw new Error("Invalid direct-edit history.");
+    }
+    return { at: dateText(entry.at), actor: entry.actor, reason, before, after };
+  });
+  return { schema: 1, id: text(raw.id, "workspace ID", 100), revision: raw.revision, records, requests, directEdits };
 }
 
 export class DemoStore {

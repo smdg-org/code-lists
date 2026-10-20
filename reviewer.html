@@ -51,6 +51,7 @@
       <nav class="actions workspace-nav" aria-label="Workspace navigation">
         <button id="show-tasks" type="button" class="secondary" aria-pressed="true">Active tasks</button>
         <button id="show-archive" type="button" class="secondary" aria-pressed="false">Archive</button>
+        <button id="show-direct" type="button" class="secondary" aria-pressed="false">Edit current data</button>
         <button id="show-list" type="button" class="secondary" aria-pressed="false">Demo code list</button>
         <button id="reviewer-sign-out" type="button" class="secondary">Sign out</button>
       </nav>
@@ -123,6 +124,51 @@
           <h3>Request history</h3>
           <ol id="request-history" class="history"></ol>
         </section>
+      </section>
+      <section id="direct-step" tabindex="-1" aria-labelledby="direct-title" hidden>
+        <h2 id="direct-title">Edit current data</h2>
+        <p>Reviewer-initiated corrections, without a submitted request or second approval. Changes affect only this browser's demo list, not the repository or public search page.</p>
+        <p id="direct-error" class="notice has-errors" role="alert" tabindex="-1" hidden></p>
+        <div id="direct-picker" class="panel">
+          <label for="direct-search">Search current data by code or liner name</label>
+          <input id="direct-search" type="search">
+          <p id="direct-count"></p>
+          <div id="direct-records" class="task-grid"></div>
+          <div class="actions">
+            <button id="direct-previous" type="button" class="secondary">Previous codes</button>
+            <button id="direct-next" type="button" class="secondary">Next codes</button>
+          </div>
+        </div>
+        <form id="direct-editor" novalidate autocomplete="off" hidden>
+          <h3 id="direct-heading"></h3>
+          <div class="panel">
+            <label for="direct-reviewer">Publishing reviewer (demo identity)</label>
+            <select id="direct-reviewer" required><option value="">Choose a reviewer</option></select>
+            <p class="hint">Assignee names are not verified identities. This remains a browser-local simulation.</p>
+          </div>
+          <div id="direct-fields"></div>
+          <section class="panel">
+            <h3>Changed fields</h3>
+            <p id="direct-changes-count"></p>
+            <div class="table-scroll"><table class="comparison">
+              <caption>Current values and your changes</caption>
+              <thead><tr><th scope="col">Field</th><th scope="col">Current value</th><th scope="col">New value</th></tr></thead>
+              <tbody id="direct-comparison"></tbody>
+            </table></div>
+            <label for="direct-reason">Reason for change</label>
+            <textarea id="direct-reason" rows="3" maxlength="10000" required></textarea>
+            <div class="actions">
+              <button id="direct-cancel" type="button" class="secondary">Cancel editing</button>
+              <button id="direct-reload" type="button" class="secondary">Reload current record</button>
+              <button type="submit">Review changes</button>
+            </div>
+          </section>
+          <section class="panel">
+            <h3>Direct-edit history</h3>
+            <p>Reviewer, date, reason and changes are retained in this browser only.</p>
+            <ol id="direct-history" class="history"></ol>
+          </section>
+        </form>
       </section>
       <section id="list-step" tabindex="-1" aria-labelledby="list-title" hidden>
         <h2 id="list-title">Demo code list</h2>

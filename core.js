@@ -60,7 +60,7 @@ export function websiteHref(value) {
   }
 }
 
-export function validateRequest(mode, values, records) {
+export function validateRequest(mode, values, records, { requireContact = true } = {}) {
   const errors = {};
   if (!["add", "update", "delete"].includes(mode)) {
     return { mode: "Choose Add, Update or Delete." };
@@ -77,10 +77,10 @@ export function validateRequest(mode, values, records) {
   if (mode !== "add" && !values.reason?.trim()) {
     errors.reason = mode === "delete" ? "Enter a delete reason." : "Enter a change reason.";
   }
-  if (!values.contactName?.trim()) errors.contactName = "Enter your name.";
-  if (!values.contactEmail?.trim()) {
+  if (requireContact && !values.contactName?.trim()) errors.contactName = "Enter your name.";
+  if (requireContact && !values.contactEmail?.trim()) {
     errors.contactEmail = "Enter your email address.";
-  } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.contactEmail.trim())) {
+  } else if (requireContact && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.contactEmail.trim())) {
     errors.contactEmail = "Enter a valid email address.";
   }
   if (mode === "delete") return errors;
