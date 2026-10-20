@@ -10558,8 +10558,8 @@
       "UnCountryCode": "PT",
       "address": {
         "street": "Av. D. Carlos I",
-        "streetNumber": null,
-        "floor": "44-8º",
+        "streetNumber": "44",
+        "floor": "8º",
         "postCode": "1200-649",
         "city": "Lisbon",
         "state": "Lisbon District",
