@@ -13476,8 +13476,8 @@
       "address": {
         "street": "Tun-Hwa N. Rd.",
         "streetNumber": "167",
-        "floor": "6F, Office 105",
-        "postCode": null,
+        "floor": "6F",
+        "postCode": "105",
         "city": "Taipei",
         "state": "Taipei City",
         "country": "Taiwan"
