@@ -8265,8 +8265,8 @@
       "UnLocode": "DOH",
       "UnCountryCode": "QA",
       "address": {
-        "street": "East Industrial Road",
-        "streetNumber": "523",
+        "street": "East Industrial Road, Street No. 523",
+        "streetNumber": null,
         "floor": null,
         "postCode": null,
         "city": "Doha",
