@@ -12,8 +12,8 @@
     "UnCountryCode": "SG",
     "address": {
       "street": "Henderson Road",
-      "streetNumber": "05-02",
-      "floor": null,
+      "streetNumber": "211",
+      "floor": "#05-02",
       "postCode": "159552",
       "city": "Singapore",
       "state": "Central Region",
