@@ -3,7 +3,8 @@ import { countries } from "./countries.js";
 import { linkedValue, websiteShortcut } from "./links.js";
 import {
   DemoStore, WORKSPACE_KEY, ASSIGNEES, STATUSES, LABELS, RECORD_FIELDS,
-  actOnRequest, deleteRequest, conflict, isClosed, cleanValues
+  actOnRequest, deleteRequest, conflict, isClosed, cleanValues,
+  CODE_STATUSES, DIRECT_FIELDS, directValues, validateDirectEdit, publishDirectEdit
 } from "./workflow.js";
 
 const field = id => document.getElementById(id);
@@ -15,6 +16,8 @@ let busy = false;
 let pageNumber = 0;
 let signedIn = false;
 let showingArchive = false;
+let directBaseline;
+let directPage = 0;
 
 function node(tag, value, className) {
   const element = document.createElement(tag);
@@ -43,15 +46,15 @@ async function loadSnapshot() {
   if (!response.ok) throw new Error(`Could not load public snapshot (HTTP ${response.status}).`);
   return validateRecords(await response.json());
 }
-function confirmAction(title, message, values, deleting = false) {
+function confirmAction(title, message, values, deleting = false, acceptLabel = "Confirm") {
   field("confirm-title").textContent = title;
   field("delete-warning").hidden = !deleting;
-  field("confirm-accept").textContent = deleting ? "Delete permanently" : "Confirm";
+  field("confirm-accept").textContent = deleting ? "Delete permanently" : acceptLabel;
   field("confirm-accept").classList.toggle("danger", deleting);
   field("confirm-body").replaceChildren(node("p", message));
   if (values) {
     const list = node("dl", undefined, "review-summary");
-    for (const key of RECORD_FIELDS) addInfo(list, LABELS[key], values[key]);
+    for (const key of DIRECT_FIELDS.filter(key => key in values)) addInfo(list, LABELS[key], values[key]);
     field("confirm-body").append(list);
   }
   const dialog = field("confirm-dialog");
@@ -73,11 +76,12 @@ async function discardEdits() {
   return !dirty || await confirmAction("Leave unsaved edits?", "Your unsaved proposal and note will be discarded. Saved changes remain in the workspace.");
 }
 function screen(id) {
-  for (const name of ["tasks-step", "detail-step", "list-step"]) field(name).hidden = name !== id;
+  for (const name of ["tasks-step", "detail-step", "list-step", "direct-step"]) field(name).hidden = name !== id;
   const taskView = id === "tasks-step" || id === "detail-step";
   field("show-tasks").setAttribute("aria-pressed", String(taskView && !showingArchive));
   field("show-archive").setAttribute("aria-pressed", String(taskView && showingArchive));
   field("show-list").setAttribute("aria-pressed", String(id === "list-step"));
+  field("show-direct").setAttribute("aria-pressed", String(id === "direct-step"));
   field(id).focus();
 }
 function workspaceStatus(message = "") {
@@ -155,6 +159,37 @@ function compareValues() {
     field("comparison-body").append(row);
   }
 }
+function renderFields(container, keys, values, required, prefix) {
+  container.replaceChildren();
+  for (const key of keys) {
+    const wrapper = node("div", undefined, "field");
+    const label = node("label", LABELS[key]);
+    label.htmlFor = `${prefix}-${key}`;
+    let input;
+    if (["carrierType", "country", "codeStatus"].includes(key)) {
+      input = node("select");
+      input.add(new Option("----- Select -----", ""));
+      const options = key === "country" ? countries.map(item => item.name)
+        : key === "codeStatus" ? [...CODE_STATUSES] : ["NVOCC", "VOCC"];
+      const existing = values[key];
+      if (existing && !options.includes(existing)) options.push(existing);
+      for (const value of options) input.add(new Option(value, value));
+    } else {
+      input = node(key === "remarks" ? "textarea" : "input");
+      if (key.startsWith("valid")) input.type = "date";
+      if (["code", "unCountryCode", "unLocode"].includes(key)) input.maxLength = key === "unCountryCode" ? 2 : 3;
+      if (["linerName", "parentCompany"].includes(key)) input.maxLength = 100;
+      if (key === "code") input.readOnly = true;
+    }
+    input.id = label.htmlFor;
+    input.name = key;
+    input.value = values[key] || "";
+    input.required = required.includes(key);
+    wrapper.append(label, input);
+    if (key === "website") websiteShortcut(input);
+    container.append(wrapper);
+  }
+}
 function renderDetail(draft, note = "") {
   const request = selected;
   const closed = isClosed(request);
@@ -191,33 +226,7 @@ function renderDetail(draft, note = "") {
   const editable = request.mode === "delete" ? [] : RECORD_FIELDS;
   const required = ["linerName", "carrierType", "street", "postCode", "city", "state", "country", "website",
     ...(request.mode === "add" ? ["validFrom"] : [])];
-  for (const key of editable) {
-    const wrapper = node("div", undefined, "field");
-    const label = node("label", LABELS[key]);
-    label.htmlFor = `edit-${key}`;
-    let input;
-    if (["carrierType", "country"].includes(key)) {
-      input = node("select");
-      input.add(new Option("----- Select -----", ""));
-      const options = key === "country" ? countries.map(item => item.name) : ["NVOCC", "VOCC"];
-      const existing = (draft ?? request.proposal)[key];
-      if (existing && !options.includes(existing)) options.push(existing);
-      for (const value of options) input.add(new Option(value, value));
-    } else {
-      input = node(key === "remarks" ? "textarea" : "input");
-      if (key.startsWith("valid")) input.type = "date";
-      if (["code", "unCountryCode", "unLocode"].includes(key)) input.maxLength = key === "unCountryCode" ? 2 : 3;
-      if (["linerName", "parentCompany"].includes(key)) input.maxLength = 100;
-      if (key === "code") input.readOnly = true;
-    }
-    input.id = label.htmlFor;
-    input.name = key;
-    input.value = (draft ?? request.proposal)[key] || "";
-    input.required = required.includes(key);
-    wrapper.append(label, input);
-    if (key === "website") websiteShortcut(input);
-    field("editor-fields").append(wrapper);
-  }
+  renderFields(field("editor-fields"), editable, draft ?? request.proposal, required, "edit");
   field("editor-fields").disabled = closed || !request.assignee;
   field("editor-help").textContent = closed ? "Final reviewer values. This request is closed." :
       "Assign the request to enable editing. Change values here, then publish directly or optionally save a draft.";
@@ -351,6 +360,122 @@ function renderList() {
   field("list-previous").disabled = pageNumber === 0;
   field("list-next").disabled = start + 24 >= matches.length;
 }
+function renderDirectList() {
+  const query = field("direct-search").value.trim().toLowerCase();
+  const matches = workspace.records.filter(record =>
+    `${record.linerSMDGCode} ${record.linerName}`.toLowerCase().includes(query));
+  const start = directPage * 24;
+  field("direct-count").textContent = `${matches.length} matching codes | Page ${directPage + 1} of ${Math.max(1, Math.ceil(matches.length / 24))}`;
+  field("direct-records").replaceChildren(...matches.slice(start, start + 24).map(record => {
+    const card = node("article", undefined, "record-card");
+    const history = workspace.directEdits.filter(entry => entry.after.linerSMDGCode === record.linerSMDGCode).at(-1);
+    card.append(node("h3", `${record.linerSMDGCode} - ${record.linerName}`),
+      node("p", `Status: ${record.codeStatus || "Not provided"}`),
+      node("p", `Last update: ${history ? displayDate(history.at) :
+        (record.changeLogs ?? []).map(log => log.lastUpdateDate).filter(Boolean).sort().at(-1) || "Not provided"}`, "hint"));
+    const button = node("button", `Edit ${record.linerSMDGCode}`);
+    button.addEventListener("click", () => openDirect(record.linerSMDGCode));
+    card.append(button);
+    return card;
+  }));
+  field("direct-previous").disabled = directPage === 0;
+  field("direct-next").disabled = start + 24 >= matches.length;
+}
+function directEditorValues() {
+  return Object.fromEntries([...field("direct-fields").querySelectorAll("[name]")].map(input => [input.name, input.value]));
+}
+function directChanges(values) {
+  const before = directValues(directBaseline);
+  return DIRECT_FIELDS.filter(key => (before[key] || "") !== (values[key] || ""));
+}
+function compareDirect() {
+  const values = directEditorValues();
+  const before = directValues(directBaseline);
+  const changed = directChanges(values);
+  field("direct-changes-count").textContent = `${changed.length} changed fields`;
+  field("direct-comparison").replaceChildren(...changed.map(key => {
+    const row = node("tr", undefined, "changed");
+    const label = node("th", LABELS[key]);
+    label.scope = "row";
+    row.append(label, linkedValue(node("td"), key, before[key]), linkedValue(node("td"), key, values[key]));
+    return row;
+  }));
+}
+async function openDirect(code) {
+  if (busy || !await discardEdits()) return;
+  try {
+    const current = store.read();
+    if (!current || current.id !== workspace.id) throw new Error("The workspace was replaced. Sign out and sign in again.");
+    const record = current.records.find(item => item.linerSMDGCode === code);
+    if (!record) throw new Error("This record was removed. Reopen Edit current data.");
+    workspace = current;
+    directBaseline = structuredClone(record);
+    dirty = false;
+    clearError("direct-error");
+    field("direct-heading").textContent = `Edit ${code} - ${record.linerName}`;
+    field("direct-editor").reset();
+    field("direct-fields").replaceChildren();
+    const required = ["linerName", "carrierType", "street", "postCode", "city", "state", "country", "website", "codeStatus"];
+    for (const [title, keys] of [
+      ["Company details", ["code", "linerName", "parentCompany"]],
+      ["Website and carrier type", ["website", "carrierType"]],
+      ["Address and UN/LOCODE", ["street", "streetNumber", "floor", "postCode", "city", "state", "country", "unCountryCode", "unLocode"]],
+      ["Validity, status and remarks", ["validFrom", "validTo", "codeStatus", "remarks"]]
+    ]) {
+      const group = node("fieldset", undefined, "panel grid");
+      renderFields(group, keys, directValues(record), required, "direct");
+      group.prepend(node("legend", title));
+      field("direct-fields").append(group);
+    }
+    field("direct-history").replaceChildren(...workspace.directEdits
+      .filter(entry => entry.after.linerSMDGCode === code).slice().reverse().map(entry => {
+        const item = node("li");
+        item.append(node("strong", `${displayDate(entry.at)} | ${entry.actor}`), node("p", entry.reason));
+        const before = directValues(entry.before);
+        const after = directValues(entry.after);
+        for (const key of DIRECT_FIELDS.filter(key => before[key] !== after[key])) {
+          item.append(node("p", `${LABELS[key]}: ${before[key] || "Not provided"} -> ${after[key] || "Not provided"}`));
+        }
+        return item;
+      }));
+    field("direct-picker").hidden = true;
+    field("direct-editor").hidden = false;
+    compareDirect();
+    field("direct-linerName").focus();
+  } catch (error) { errorAt("direct-error", error); field("direct-error").focus(); }
+}
+async function publishDirect() {
+  if (busy || !signedIn) return;
+  busy = true;
+  clearError("direct-error");
+  try {
+    const workspaceId = workspace.id;
+    const baseline = structuredClone(directBaseline);
+    const actor = field("direct-reviewer").value;
+    const reason = field("direct-reason").value.trim();
+    const values = directEditorValues();
+    const proposal = validateDirectEdit(workspace, baseline, values, actor, reason);
+    const before = directValues(baseline);
+    const changes = Object.fromEntries(directChanges(proposal).map(key =>
+      [key, `${before[key] || "Not provided"} -> ${proposal[key] || "Not provided"}`]));
+    if (!await confirmAction(`Publish changes to ${proposal.code}?`,
+      `Reviewer: ${actor}. Reason: ${reason}. Only the browser-local demo list will change. No official data changes.`,
+      changes, false, "Publish to demo list")) return;
+    field("workspace").inert = true;
+    workspace = await store.update(workspaceId, current => publishDirectEdit(current, baseline, values, actor, reason));
+    dirty = false;
+    busy = false;
+    await openDirect(proposal.code);
+    workspaceStatus(`${proposal.code} published to the demo list by ${actor}. No official data changed.`);
+  } catch (error) {
+    errorAt("direct-error", error);
+    field("direct-error").focus();
+    workspaceStatus("Changes were not published. Your entries are retained.");
+  } finally {
+    busy = false;
+    field("workspace").inert = false;
+  }
+}
 function download(data, filename) {
   const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], { type: "application/json" }));
   const link = node("a");
@@ -373,6 +498,15 @@ async function navigate(id, archive = showingArchive) {
       renderCards();
     }
     if (id === "list-step") { pageNumber = 0; renderList(); }
+    if (id === "direct-step") {
+      directBaseline = null;
+      directPage = 0;
+      field("direct-picker").hidden = false;
+      field("direct-editor").hidden = true;
+      field("direct-editor").reset();
+      clearError("direct-error");
+      renderDirectList();
+    }
     screen(id);
   } catch (error) { errorAt("workspace-error", error); }
 }
@@ -381,6 +515,7 @@ function signOut() {
   dirty = false;
   selected = null;
   workspace = null;
+  directBaseline = null;
   field("demo-login").reset();
   field("workspace").hidden = true;
   field("login-step").hidden = false;
@@ -389,12 +524,18 @@ function signOut() {
   field("editor-fields").replaceChildren();
   field("comparison-body").replaceChildren();
   field("request-history").replaceChildren();
+  field("direct-fields").replaceChildren();
+  field("direct-records").replaceChildren();
+  field("direct-history").replaceChildren();
+  field("direct-editor").reset();
+  field("direct-editor").hidden = true;
   field("demo-username").focus();
 }
 
 for (const id of ["task-assignee", "assignee-filter"]) {
   for (const name of ASSIGNEES) field(id).add(new Option(name, name));
 }
+for (const name of ASSIGNEES) field("direct-reviewer").add(new Option(name, name));
 field("demo-login").addEventListener("submit", async event => {
   event.preventDefault();
   if (busy) return;
@@ -438,6 +579,18 @@ field("show-tasks").addEventListener("click", () => navigate("tasks-step", false
 field("show-archive").addEventListener("click", () => navigate("tasks-step", true));
 field("back-to-tasks").addEventListener("click", () => navigate("tasks-step"));
 field("show-list").addEventListener("click", () => navigate("list-step"));
+field("show-direct").addEventListener("click", () => navigate("direct-step"));
+field("direct-search").addEventListener("input", () => { directPage = 0; renderDirectList(); });
+field("direct-previous").addEventListener("click", () => { directPage--; renderDirectList(); });
+field("direct-next").addEventListener("click", () => { directPage++; renderDirectList(); });
+field("direct-cancel").addEventListener("click", () => navigate("direct-step"));
+field("direct-reload").addEventListener("click", () => openDirect(directBaseline.linerSMDGCode));
+field("direct-editor").addEventListener("submit", event => { event.preventDefault(); publishDirect(); });
+field("direct-editor").addEventListener("input", event => {
+  dirty = true;
+  if (["unCountryCode", "unLocode"].includes(event.target.name)) event.target.value = event.target.value.toUpperCase();
+  compareDirect();
+});
 for (const id of ["task-search", "status-filter", "assignee-filter"]) field(id).addEventListener("input", renderCards);
 field("save-assignment").addEventListener("click", () => perform("assign"));
 field("delete-request").addEventListener("click", removeRequest);

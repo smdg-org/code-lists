@@ -2,7 +2,8 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import { prefill } from "../core.js";
 import {
-  ASSIGNEES, DemoStore, createWorkspace, validateWorkspace, submitRequest, actOnRequest, deleteRequest, conflict, toRecord
+  ASSIGNEES, DemoStore, createWorkspace, validateWorkspace, submitRequest, actOnRequest, deleteRequest, conflict, toRecord,
+  directValues, publishDirectEdit
 } from "../workflow.js";
 
 const values = {
@@ -12,6 +13,61 @@ const values = {
   contactName: "Demo Contact", contactEmail: "demo@example.com", reason: "Test correction"
 };
 const snapshot = [toRecord(values), toRecord({ ...values, code: "AAA", linerName: "Another Example" })];
+
+test("direct edits preserve metadata, retain separate history and survive storage validation", () => {
+  const source = { ...snapshot[0], codeStatus: "Active", isActive: true, linerCodeVersion: "V7",
+    address: "Legacy full address", changeLogs: [{ lastUpdateDate: "2026-01-01", reason: "Original" }] };
+  const workspace = createWorkspace([source]);
+  const baseline = structuredClone(workspace.records[0]);
+  const requests = structuredClone(workspace.requests);
+  const proposal = { ...directValues(baseline), linerName: "Reviewer correction", codeStatus: "Expired" };
+  publishDirectEdit(workspace, baseline, proposal, ASSIGNEES[0], "Confirmed by carrier");
+  const result = workspace.records[0];
+  assert.equal(result.linerName, "Reviewer correction");
+  assert.equal(result.codeStatus, "Expired");
+  assert.equal(result.isActive, false);
+  for (const key of ["linerCodeVersion", "address", "changeLogs"]) assert.deepEqual(result[key], source[key]);
+  assert.deepEqual(workspace.requests, requests);
+  assert.equal(workspace.directEdits.length, 1);
+  assert.equal(workspace.directEdits[0].actor, ASSIGNEES[0]);
+  assert.equal(workspace.directEdits[0].reason, "Confirmed by carrier");
+  assert.deepEqual(workspace.directEdits[0].before, baseline);
+  assert.deepEqual(workspace.directEdits[0].after, result);
+  assert.deepEqual(validateWorkspace(JSON.parse(JSON.stringify(workspace))), workspace);
+  assert.ok(!JSON.stringify(result).includes("Confirmed by carrier"));
+});
+
+test("direct edit validation blocks invalid, unchanged, renamed, stale and removed records without mutation", () => {
+  const workspace = createWorkspace([{ ...snapshot[0], codeStatus: "Active" }]);
+  const baseline = structuredClone(workspace.records[0]);
+  const proposal = { ...directValues(baseline), city: "New City" };
+  for (const [edit, actor, reason, message] of [
+    [proposal, "", "Reason", /reviewer/],
+    [proposal, ASSIGNEES[0], "", /reason/],
+    [{ ...proposal, website: "" }, ASSIGNEES[0], "Reason", /required/],
+    [{ ...proposal, validTo: "2010-01-01" }, ASSIGNEES[0], "Reason", /before/],
+    [{ ...proposal, codeStatus: "Invalid" }, ASSIGNEES[0], "Reason", /status/],
+    [{ ...proposal, code: "NEW" }, ASSIGNEES[0], "Reason", /cannot be changed/],
+    [directValues(baseline), ASSIGNEES[0], "Reason", /no changes/]
+  ]) {
+    const before = structuredClone(workspace);
+    assert.throws(() => publishDirectEdit(workspace, baseline, edit, actor, reason), message);
+    assert.deepEqual(workspace, before);
+  }
+  workspace.records[0].remarks = "Concurrent change";
+  assert.throws(() => publishDirectEdit(workspace, baseline, proposal, ASSIGNEES[0], "Reason"), /changed or was removed/);
+  workspace.records = [];
+  assert.throws(() => publishDirectEdit(workspace, baseline, proposal, ASSIGNEES[0], "Reason"), /changed or was removed/);
+});
+
+test("legacy workspaces gain empty direct history and malformed history is rejected", () => {
+  const workspace = createWorkspace(snapshot);
+  delete workspace.directEdits;
+  assert.deepEqual(validateWorkspace(workspace).directEdits, []);
+  for (const directEdits of [{}, [null], [{ actor: "Unverified" }]]) {
+    assert.throws(() => validateWorkspace({ ...workspace, directEdits }), /direct-edit history/);
+  }
+});
 function setup(mode = "add") {
   const workspace = createWorkspace(snapshot);
   workspace.requests = [];

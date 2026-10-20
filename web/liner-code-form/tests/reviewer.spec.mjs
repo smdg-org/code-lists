@@ -3,7 +3,7 @@ import { expect, test } from "@playwright/test";
 
 const key = "smdg-liner-workflow-demo-v1";
 const record = {
-  linerSMDGCode: "MSK", linerName: "Example Carrier", carrierType: "VOCC",
+  linerSMDGCode: "MSK", linerName: "Example Carrier", carrierType: "VOCC", codeStatus: "Active",
   website: "www.example.com", validFrom: "2020-01-01", validTo: "",
   remarks: "Existing remarks", addressLocation: { UnCountryCode: "DK", UnLocode: "CPH",
     address: { street: "Example Street", streetNumber: "10", floor: "",
@@ -54,6 +54,137 @@ async function reviewLatest(page) {
   await expect(page.locator("#detail-step")).toBeVisible();
 }
 
+async function editCurrent(page) {
+  await route(page);
+  await page.goto("/reviewer.html");
+  await expect(page.getByRole("button", { name: "Edit current data", exact: true })).toBeHidden();
+  await signIn(page);
+  await page.getByRole("button", { name: "Edit current data", exact: true }).click();
+  await page.getByLabel("Search current data by code or liner name").fill("MSK");
+  await expect(page.locator("#direct-records article")).toHaveCount(1);
+  await page.getByRole("button", { name: "Edit MSK", exact: true }).click();
+}
+
+test("reviewer edits current data directly with comparison, confirmation, history and persistence", async ({ page }) => {
+  await editCurrent(page);
+  const original = await workspace(page);
+  await expect(page.locator("#show-direct")).toHaveAttribute("aria-pressed", "true");
+  await expect(page.locator("#direct-code")).toHaveAttribute("readonly", "");
+  await expect(page.locator("#direct-linerName")).toHaveValue(record.linerName);
+  await page.locator("#direct-linerName").fill("Corrected Carrier");
+  await page.locator("#direct-codeStatus").selectOption("Expired");
+  await expect(page.locator("#direct-comparison tr")).toHaveCount(2);
+  await expect(page.locator("#direct-comparison")).toContainText("Corrected Carrier");
+  await page.locator("#direct-reviewer").selectOption("Javier Moral");
+  await page.locator("#direct-reason").fill("Confirmed directly with the carrier");
+  await page.getByRole("button", { name: "Review changes", exact: true }).click();
+  await expect(page.locator("#confirm-dialog")).toContainText("Example Carrier -> Corrected Carrier");
+  expect((await workspace(page)).records).toEqual(original.records);
+  await confirm(page, "Publish to demo list");
+  await expect(page.locator("#workspace-status")).toContainText("MSK published to the demo list");
+  const updated = await workspace(page);
+  expect(updated.records.find(item => item.linerSMDGCode === "MSK")).toMatchObject({
+    linerName: "Corrected Carrier", codeStatus: "Expired", isActive: false
+  });
+  expect(updated.requests).toEqual(original.requests);
+  expect(updated.directEdits).toHaveLength(1);
+  await expect(page.locator("#direct-history")).toContainText("Javier Moral");
+  await expect(page.locator("#direct-history")).toContainText("Confirmed directly with the carrier");
+  await page.reload();
+  await signIn(page);
+  await page.getByRole("button", { name: "Edit current data", exact: true }).click();
+  await page.getByRole("button", { name: "Edit MSK", exact: true }).click();
+  await expect(page.locator("#direct-linerName")).toHaveValue("Corrected Carrier");
+  await expect(page.locator("#direct-history li")).toHaveCount(1);
+  await page.getByRole("button", { name: "Demo code list", exact: true }).click();
+  await expect(page.locator("#demo-records")).toContainText("Corrected Carrier");
+  await page.goto("/liner-codes.html");
+  await expect(page.locator("body")).not.toContainText("Corrected Carrier");
+});
+
+test("direct editor validates reviewer, reason, values and no-op edits; cancellation retains input", async ({ page }) => {
+  await editCurrent(page);
+  await page.getByRole("button", { name: "Review changes", exact: true }).click();
+  await expect(page.locator("#direct-error")).toContainText("reviewer");
+  await page.locator("#direct-reviewer").selectOption("Javier Moral");
+  await page.getByRole("button", { name: "Review changes", exact: true }).click();
+  await expect(page.locator("#direct-error")).toContainText("reason");
+  await page.locator("#direct-reason").fill("Reason");
+  await page.getByRole("button", { name: "Review changes", exact: true }).click();
+  await expect(page.locator("#direct-error")).toContainText("no changes");
+  await page.locator("#direct-website").fill("javascript:alert(1)");
+  await page.getByRole("button", { name: "Review changes", exact: true }).click();
+  await expect(page.locator("#direct-error")).toContainText("website address");
+  await page.locator("#direct-website").fill("https://example.org");
+  await page.getByRole("button", { name: "Review changes", exact: true }).click();
+  await page.getByRole("button", { name: "Cancel", exact: true }).click();
+  await expect(page.locator("#direct-website")).toHaveValue("https://example.org");
+  expect((await workspace(page)).directEdits).toHaveLength(0);
+  await page.getByRole("button", { name: "Archive", exact: true }).click();
+  await expect(page.locator("#confirm-dialog")).toContainText("unsaved");
+  await page.getByRole("button", { name: "Cancel", exact: true }).click();
+  await expect(page.locator("#direct-editor")).toBeVisible();
+  await page.getByRole("button", { name: "Cancel editing", exact: true }).click();
+  await confirm(page);
+  await expect(page.locator("#direct-picker")).toBeVisible();
+  expect((await workspace(page)).directEdits).toHaveLength(0);
+});
+
+test("direct publishing rechecks concurrent changes after confirmation and reload requires discard", async ({ page }) => {
+  await editCurrent(page);
+  await page.locator("#direct-reviewer").selectOption("Javier Moral");
+  await page.locator("#direct-city").fill("Reviewer City");
+  await page.locator("#direct-reason").fill("Correction");
+  await page.getByRole("button", { name: "Review changes", exact: true }).click();
+  await page.evaluate(key => {
+    const current = JSON.parse(localStorage.getItem(key));
+    current.records.find(record => record.linerSMDGCode === "MSK").linerName = "Concurrent name";
+    localStorage.setItem(key, JSON.stringify(current));
+  }, key);
+  await confirm(page, "Publish to demo list");
+  await expect(page.locator("#direct-error")).toContainText("changed or was removed");
+  await expect(page.locator("#direct-city")).toHaveValue("Reviewer City");
+  expect((await workspace(page)).directEdits).toHaveLength(0);
+  await page.getByRole("button", { name: "Reload current record", exact: true }).click();
+  await confirm(page);
+  await expect(page.locator("#direct-linerName")).toHaveValue("Concurrent name");
+  await expect(page.locator("#direct-city")).toHaveValue(record.addressLocation.address.city);
+});
+
+test("direct publish storage failures retain values and do not create successful history", async ({ page }) => {
+  await editCurrent(page);
+  await page.locator("#direct-reviewer").selectOption("Javier Moral");
+  await page.locator("#direct-city").fill("Reviewer City");
+  await page.locator("#direct-reason").fill("Correction");
+  await page.evaluate(() => { Storage.prototype.setItem = () => { throw new Error("Storage is full"); }; });
+  await page.getByRole("button", { name: "Review changes", exact: true }).click();
+  await confirm(page, "Publish to demo list");
+  await expect(page.locator("#direct-error")).toContainText("Storage is full");
+  await expect(page.locator("#direct-city")).toHaveValue("Reviewer City");
+  expect((await workspace(page)).directEdits).toHaveLength(0);
+  expect((await workspace(page)).records.find(record => record.linerSMDGCode === "MSK").addressLocation.address.city)
+    .toBe(record.addressLocation.address.city);
+});
+
+test("direct edit tab supports mobile search, empty results and sign-out cleanup", async ({ page }) => {
+  await page.setViewportSize({ width: 375, height: 812 });
+  await editCurrent(page);
+  await expect(page.locator("#direct-fields fieldset")).toHaveCount(4);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await page.getByRole("button", { name: "Cancel editing", exact: true }).click();
+  await page.getByLabel("Search current data by code or liner name").fill("No such carrier");
+  await expect(page.locator("#direct-count")).toContainText("0 matching codes");
+  await expect(page.locator("#direct-previous")).toBeDisabled();
+  await expect(page.locator("#direct-next")).toBeDisabled();
+  await page.getByLabel("Search current data by code or liner name").fill("another carrier");
+  await expect(page.locator("#direct-records article")).toHaveCount(1);
+  await page.getByRole("button", { name: "Edit AAA", exact: true }).click();
+  await page.getByRole("button", { name: "Sign out", exact: true }).click();
+  await expect(page.locator("#workspace")).toBeHidden();
+  await expect(page.locator("#direct-fields")).toBeEmpty();
+  await expect(page.locator("#direct-history")).toBeEmpty();
+});
+
 test("workspace navigation highlights only the current view, including request details", async ({ page }) => {
   await route(page);
   await page.goto("/reviewer.html");
@@ -63,7 +194,7 @@ test("workspace navigation highlights only the current view, including request d
     await expect(page.locator(`#${id}`)).toHaveAttribute("aria-pressed", "true");
     await expect(page.locator(`#${id}`)).toHaveCSS("background-color", "rgb(36, 75, 120)");
     await expect(page.locator(`#${id}`)).toHaveCSS("color", "rgb(255, 255, 255)");
-    for (const other of ["show-tasks", "show-archive", "show-list", "reviewer-sign-out"].filter(value => value !== id)) {
+    for (const other of ["show-tasks", "show-archive", "show-direct", "show-list", "reviewer-sign-out"].filter(value => value !== id)) {
       await expect(page.locator(`#${other}`)).toHaveCSS("background-color", "rgb(255, 255, 255)");
     }
   }

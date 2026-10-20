@@ -55,6 +55,32 @@ are no third-party runtime requests. Run `npm install` before building.
 
 ## Form validation and preview-only mode
 
+### Reviewer-initiated corrections
+
+After demo sign-in, **Edit current data** is available only in the reviewer
+workspace. Search by code or liner name, select **Edit**, and change company,
+website, carrier, address/location, validity, status or remarks fields. The code
+is read-only; this view does not add, rename or delete records. Choose a listed
+reviewer and provide a change reason. Only changed fields are compared, and
+**Review changes** opens a confirmation before **Publish to demo list** applies
+the correction without creating a submission or requiring another approval.
+
+Publication uses the existing locked browser-local store and rechecks the full
+record against the opened baseline, including after the confirmation dialog.
+Conflicts and save failures retain entries and show an explicit error. Reload
+the current record to resolve conflicts; unsaved edits require confirmation
+before being discarded. Direct-edit history retains the reviewer name, time,
+reason and before/after values. Existing metadata and change logs are preserved;
+direct-edit history is separate from official repository change logs. Status
+edits also keep `isActive` consistent.
+
+This does not change individual repository JSON, combined data, the public search
+page or its Excel download. The demo login is not authorization, and listed
+reviewer names are not verified identities. Production publication requires
+server-side authentication and permission checks. Existing saved demo workspaces
+remain usable; metadata previously absent from local records is not restored
+automatically from the public snapshot.
+
 The original form URL (`./`) now saves demo requests through **Review request**
 then **Submit** on the summary. No query parameter or mode switch is needed.
 For development regression checks only, `?preview=1` retains the earlier
