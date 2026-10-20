@@ -8,16 +8,16 @@
   "parentCompany": "TIZ",
   "address": "2 International Business Park, #11-06, The Strategy Tower 1, Singapore 609930",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "International Business Park",
+      "streetNumber": "2",
+      "floor": "#11-06, The Strategy Tower 1",
+      "postCode": "609930",
+      "city": "Singapore",
+      "state": "West Region",
+      "country": "Singapore"
     }
   },
   "website": "www.ti2shipping.com",

@@ -4,20 +4,20 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "RCL",
   "linerName": "Regional Container Line",
-  "carrierType": "UNKNOWN",
+  "carrierType": "VOCC",
   "parentCompany": "",
   "address": "RCL FEEDER PTE LTD, Code REGU, Address 8TH FLOOR, RCL CENTRE 11 KEPPEL ROAD, Zip Code 089057, City Singapore, State , Country Singapore",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Keppel Road",
+      "streetNumber": "11",
+      "floor": "8th Floor, ABI Plaza",
+      "postCode": "089057",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "https://www.rclgroup.com/",

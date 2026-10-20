@@ -8,16 +8,16 @@
   "parentCompany": "GNC",
   "address": "Finnlines Plc, FinnLink Naantali, Satamatie 11, 21100 Naantali, Finland",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "NLI",
+    "UnCountryCode": "FI",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Satamatie",
+      "streetNumber": "11",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "21100",
+      "city": "Naantali",
+      "state": "Southwest Finland",
+      "country": "Finland"
     }
   },
   "website": "https://www.finnlines.com/freight",

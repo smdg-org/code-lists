@@ -12,17 +12,17 @@
     "UnCountryCode": "SG",
     "address": {
       "street": "Cecil Street",
-      "streetNumber": "30",
-      "floor": "#25-01 Prudential Tower",
-      "postCode": "049712",
+      "streetNumber": "31",
+      "floor": "#25-01 Prudential Tower Singapore",
+      "postCode": "49712",
       "city": "Singapore",
-      "state": null,
+      "state": "Central Region",
       "country": "Singapore"
     }
   },
   "website": "https://world.lines.coscoshipping.com/NGS/en/home",
   "remarks": "Adjustment of company name (and address)",
-  "validFrom": "2025-06-11",
+  "validFrom": "2003-09-01",
   "validTo": null,
   "changeLogs": [
     {
@@ -38,7 +38,7 @@
     {
       "actionCode": "Updated",
       "linerCodeVersion": "V2",
-      "lastUpdateDate": "2025-07-21",
+      "lastUpdateDate": "2025-06-11",
       "updateRequestedBy": "COSCO",
       "reason": "Change of the company's name",
       "changedFields": [],

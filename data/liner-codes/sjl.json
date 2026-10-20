@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Sarjak Container Lines Pvt. Ltd., 8th Floor, DLH Plaza,Cosmos Building, Opp. Shoppers Stop, S V Road, Andheri West, Mumbai - 400058, India.",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "BOM",
+    "UnCountryCode": "IN",
     "address": {
-      "street": null,
+      "street": "S V Road",
       "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "floor": "8th Floor, DLH Plaza, Cosmos Building",
+      "postCode": "400058",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
     }
   },
   "website": "http://www.sarjak.com/",

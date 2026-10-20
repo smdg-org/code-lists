@@ -8,16 +8,16 @@
   "parentCompany": "CMA",
   "address": "9 North Buona Vista Drive - #14-01 The Metropolis Tower 1,  138588 SINGAPORE",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "North Buona Vista Drive",
+      "streetNumber": "9",
+      "floor": "The Metropolis Tower 1",
+      "postCode": "138588",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "http://www.apl.com/",

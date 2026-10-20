@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Viale delle Querce, 12, 84134 Salerno SA, Italy",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SAL",
+    "UnCountryCode": "IT",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Viale delle Querce",
+      "streetNumber": "12",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "84134",
+      "city": "Salerno",
+      "state": "Campania",
+      "country": "Italy"
     }
   },
   "website": "",

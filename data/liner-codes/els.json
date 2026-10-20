@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Eng Lee Shipping Co. Pte Ltd, 2 Havelock Road, #05-07 Havelock II",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Havelock Road",
+      "streetNumber": "2",
+      "floor": "#05-07, Havelock II",
+      "postCode": "059763",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "http://www.englee.com.sg/",

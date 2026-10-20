@@ -9,15 +9,15 @@
   "address": "Kuk Jae Express , 12407 E Slauson Ave # A & B, Whittier, CA 90606",
   "addressLocation": {
     "UnLocode": null,
-    "UnCountryCode": null,
+    "UnCountryCode": "CA",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "E Slauson Ave",
+      "streetNumber": "12407",
+      "floor": "#A & B",
+      "postCode": "90606",
+      "city": "Whittier",
+      "state": "California",
+      "country": "Canada"
     }
   },
   "website": "",

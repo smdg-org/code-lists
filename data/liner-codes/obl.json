@@ -8,16 +8,16 @@
   "parentCompany": "OBL",
   "address": "7B Keppel Road, PSA Tanjong Pagar Complex, #09-11 Tower Block Singapore 089055",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Keppel Road",
+      "streetNumber": "7B",
+      "floor": "PSA Tanjong Pagar Complex\n#09-11 Tower Block",
+      "postCode": "089055",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "https://www.oblu.com.sg/",

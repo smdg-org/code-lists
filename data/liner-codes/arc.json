@@ -3,24 +3,24 @@
   "codeStatus": "Active",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ARC",
-  "linerName": "ARC Line (Sunmarine Shipping Services)",
-  "carrierType": "UNKNOWN",
+  "linerName": "ARC Line",
+  "carrierType": "NVOCC",
   "parentCompany": "",
   "address": "SUNMARINE SHIPPING SERVICES L.L.C, P.O.Box 25890, Rais Hassan Saadi Building, Al Mankool Road, Bur Dubai, Dubai, United Arab Emirates,",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "PLU",
+    "UnCountryCode": "MU",
     "address": {
-      "street": null,
+      "street": "PRESIDENT JOHN KENNEDY STREET",
       "streetNumber": null,
-      "floor": null,
+      "floor": "PMSL, HARBOUR FRONT BUILDING",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Port Louis",
+      "state": "Port Louis District",
+      "country": "Mauritius"
     }
   },
-  "website": "http://www.sunmarine.com",
+  "website": "www.arcline.net",
   "remarks": "",
   "validFrom": "2016-10-28",
   "validTo": null,
@@ -28,7 +28,7 @@
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
-      "lastUpdateDate": "2021-01-01",
+      "lastUpdateDate": "2026-02-19",
       "updateRequestedBy": null,
       "reason": "initial change",
       "changedFields": [],

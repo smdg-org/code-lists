@@ -8,16 +8,16 @@
   "parentCompany": "MLPL",
   "address": "10 BUROH STREET. #08-19 WESTCONNECT BUILDING.SINGAPORE 627564",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "BUROH STREET",
+      "streetNumber": "10",
+      "floor": "#08-19",
+      "postCode": "627564",
+      "city": "Singapore",
+      "state": "West Region",
+      "country": "Singapore"
     }
   },
   "website": "https://marvelogistics.com.sg",

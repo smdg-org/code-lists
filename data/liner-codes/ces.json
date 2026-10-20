@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Office #803, 8th Floor, MM Tower, Maktoum Road, Near Emirates Concorde Hotel Deira, Dubai, UAE, Dubai",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
-      "street": null,
+      "street": "Maktoum Road",
       "streetNumber": null,
-      "floor": null,
+      "floor": "MM Tower",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Dubai",
+      "state": "Dubai",
+      "country": "United Arab Emirates"
     }
   },
   "website": "",

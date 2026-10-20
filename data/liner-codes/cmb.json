@@ -8,16 +8,16 @@
   "parentCompany": "CMB",
   "address": "De Gerlachekaai 20, BE 2000 Antwerpen, Belgium",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "ANR",
+    "UnCountryCode": "BE",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "De Gerlachekaai",
+      "streetNumber": "20",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "2000",
+      "city": "Antwerp",
+      "state": "Antwerp Province",
+      "country": "Belgium"
     }
   },
   "website": "https://www.cmb.be/",

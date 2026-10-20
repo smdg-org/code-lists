@@ -8,16 +8,16 @@
   "parentCompany": "WINSPEC Shipping",
   "address": "10 TUAS AVENUE 6 SINGAPORE 639298",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "TUAS AVENUE",
+      "streetNumber": "10",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "639298",
+      "city": "Singapore",
+      "state": "West Region",
+      "country": "Singapore"
     }
   },
   "website": "http://www.winspecgroup.com/",

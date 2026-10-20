@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "33 UBI AVENUE 3, #07-36, VERTEX, SINGAPORE (408868)",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "UBI AVENUE 3",
+      "streetNumber": "33",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "408868",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "http://www.geniki.com.sg/",

@@ -8,16 +8,16 @@
   "parentCompany": "ONE",
   "address": "7 Straits View, #16-01 Marina One East Tower, Singapore 018936",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Straits View",
+      "streetNumber": "7",
+      "floor": "#16-01, Marina One East Tower",
+      "postCode": "018936",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "www.one-line.com",

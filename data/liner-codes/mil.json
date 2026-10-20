@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Qatar Navigation, Q.P.S.C., East Industrial Road, Umm Al Saneem Area, Street No. 523, Zone 56, P.O. Box 153, Doha, QATAR",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DOH",
+    "UnCountryCode": "QA",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "East Industrial Road",
+      "streetNumber": "523",
       "floor": null,
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Doha",
+      "state": "Doha",
+      "country": "Qatar"
     }
   },
   "website": "https://www.milaha.com/ ",

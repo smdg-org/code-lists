@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "19, Keppel Road, #06-02, Jit Poh Building, Singapore 079058",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Keppel Road",
+      "streetNumber": "19",
+      "floor": "Jit Poh Building",
+      "postCode": "079058",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "www.sea-lead.com",

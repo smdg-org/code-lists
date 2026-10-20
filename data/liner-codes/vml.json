@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "R J J House, Haven Exchange, South, Felixstowe IP11 2QE, United Kingdom",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "FXT",
+    "UnCountryCode": "GB",
     "address": {
-      "street": null,
+      "street": "Haven Exchange South",
       "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "floor": "R J J House",
+      "postCode": "IP11 2QE",
+      "city": "Felixstowe",
+      "state": "Suffolk",
+      "country": "United Kingdom"
     }
   },
   "website": "http://www.vmliner.com/",

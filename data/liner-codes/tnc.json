@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Av. El Bosque Norte 500, piso 20, Santiago, Chile",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SCL",
+    "UnCountryCode": "CL",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Av. El Bosque Norte",
+      "streetNumber": "500",
+      "floor": "piso 20",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Santiago",
+      "state": "Santiago Metropolitan Region",
+      "country": "Chile"
     }
   },
   "website": "http://www.transmares.cl/index.html ",

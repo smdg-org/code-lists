@@ -8,21 +8,21 @@
   "parentCompany": "GLO",
   "address": "Room 1503, 15th Floor, Jiahui Commercial Building, 18 Zhahua Road, Hong Kong",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HKG",
+    "UnCountryCode": "HK",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Zhahua Road",
+      "streetNumber": "18",
+      "floor": "Room 1503, 15th Floor, Jiahui Commercial Building",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Hong Kong",
+      "state": "Hong Kong SAR",
+      "country": "Hong Kong"
     }
   },
   "website": "http://www.glo-sail.com/",
   "remarks": "",
-  "validFrom": "2020-08-10",
+  "validFrom": "2026-02-19",
   "validTo": null,
   "changeLogs": [
     {

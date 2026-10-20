@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Gemadept Corporation, 21st Floor, 6 Le Thanh Ton St., Ben Nghe Ward, Dist.1., Ho Chi Minh City – Vietnam",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SGN",
+    "UnCountryCode": "VN",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Le Thanh Ton St.",
+      "streetNumber": "6",
       "floor": null,
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Ho Chi Minh City",
+      "state": "Ho Chi Minh City",
+      "country": "Vietnam"
     }
   },
   "website": "http://www.gemadept.com.vn/home.html",

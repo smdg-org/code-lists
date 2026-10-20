@@ -8,16 +8,16 @@
   "parentCompany": "ARL",
   "address": "Fonnes 50, 5953 Fonnes",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "FNN",
+    "UnCountryCode": "NO",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Fonnes",
+      "streetNumber": "50",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "5953",
+      "city": "Fonnes",
+      "state": "Vestland",
+      "country": "Norway"
     }
   },
   "website": "www.arcticcl.no",

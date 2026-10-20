@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "91 BENCOOLEN STREET # 10-02 SUNSHINE PLAZA, Zip Code 189652, City Singapore, State , Country Singapore",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "BENCOOLEN STREET",
+      "streetNumber": "91",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "189652",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "www.vasishipping.com",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "3, Shenton Way #12-04A, Shenton House Singapore 068805",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Shenton Way",
+      "streetNumber": "3",
+      "floor": "#12-04A, Shenton House",
+      "postCode": "068805",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "https://www.transvoy.sg/",

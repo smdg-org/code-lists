@@ -9,15 +9,15 @@
   "address": "Quest Container Line Pvt Ltd, No.325 (Old No.158) 3rd Floor, Linghi Chetty Street, Chennai 600 001.",
   "addressLocation": {
     "UnLocode": null,
-    "UnCountryCode": null,
+    "UnCountryCode": "IN",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Linghi Chetty Street",
+      "streetNumber": "325",
+      "floor": "3rd Floor",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "country": "India"
     }
   },
   "website": "http://qcline.com/",

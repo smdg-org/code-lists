@@ -8,15 +8,15 @@
   "parentCompany": "",
   "address": "Asuncion",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "ASU",
+    "UnCountryCode": "PY",
     "address": {
       "street": "Av. Artigas",
       "streetNumber": "3443",
       "floor": null,
       "postCode": null,
-      "city": "Asunción",
-      "state": null,
+      "city": "Asuncion",
+      "state": "Capital District",
       "country": "Paraguay"
     }
   },
@@ -38,7 +38,7 @@
     {
       "actionCode": "Updated",
       "linerCodeVersion": "V2",
-      "lastUpdateDate": "2026-05-17",
+      "lastUpdateDate": "2026-05-08",
       "updateRequestedBy": "Guaran Feeder",
       "reason": "additional information",
       "changedFields": [],

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "15 ALEUTSKAYA STREET, Zip Code 690019, City VLADIVOSTOK, State , Country Russian Federation",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "FIP",
+    "UnCountryCode": "RU",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "ALEUTSKAYA STREET",
+      "streetNumber": "15",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "690019",
+      "city": "Vladivostok",
+      "state": "Primorsky Krai",
+      "country": "Russia"
     }
   },
   "website": "http://www.fesco.ru/en/",

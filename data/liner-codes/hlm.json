@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Hai Leck Holdings Limited, 47 Tuas View Circuit, Singapore 637357",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Tuas View Circuit",
+      "streetNumber": "47",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "637357",
+      "city": "Singapore",
+      "state": "West Region",
+      "country": "Singapore"
     }
   },
   "website": "http://www.haileck.com/",

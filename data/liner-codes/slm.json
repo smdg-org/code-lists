@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Salamis Lines Ltd, Address: Salamis House 1, G Katsounotos Str. P.O.Box 50531, 3607 Limassol - Cyprus",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "LMS",
+    "UnCountryCode": "CY",
     "address": {
-      "street": null,
+      "street": "Katsounotos Str",
       "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "floor": "Salamis House 1",
+      "postCode": "3607",
+      "city": "Limassol",
+      "state": "Limassol District",
+      "country": "Cyprus"
     }
   },
   "website": "www.salamisshipping.com",

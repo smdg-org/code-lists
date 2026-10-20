@@ -8,16 +8,16 @@
   "parentCompany": "Folk Maritime Services Company",
   "address": "Building No. 2217, Abdulwahid Bin Ahmad, Al Nakheel Dist. Riyadh 12385, Kingdom of Saudi Arabia",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "RUH",
+    "UnCountryCode": "SA",
     "address": {
-      "street": null,
+      "street": "Abdulwahid Bin Ahmad",
       "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "floor": "Building No. 2217",
+      "postCode": "12385",
+      "city": "Riyadh",
+      "state": "Riyadh Province",
+      "country": "Saudi Arabia"
     }
   },
   "website": "https://folkmaritime.com/",

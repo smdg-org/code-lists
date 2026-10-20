@@ -8,16 +8,16 @@
   "parentCompany": "MSK",
   "address": "Willy-Brandt-Straße 59–65, 20457 Hamburg, Mailing Address: Postfach 11 15 33, 20415 Hamburg",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HAM",
+    "UnCountryCode": "DE",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Willy-Brandt-Straße",
+      "streetNumber": "59–65",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "20457",
+      "city": "Hamburg",
+      "state": "Hamburg",
+      "country": "Germany"
     }
   },
   "website": "https://www.hamburgsud.com/",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": " SEA CONNECT UAB, J.Zauerveino 21,LT 92122, Klaipeda, Lithuania",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "KLJ",
+    "UnCountryCode": "LT",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "J.Zauerveino",
+      "streetNumber": "21",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "LT 92122",
+      "city": "Klaipeda",
+      "state": "Klaipeda County",
+      "country": "Lithuania"
     }
   },
   "website": "http://www.seaconnect.lt/",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Brointermed Lines Ltd, Quayside Court, The Quay, Harwich, Essex CO12 3HH., Phn. +44 (0) 1255 551 553, Fax +44 (0) 1255 508 652, brointermed@btconnect.com",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HRW",
+    "UnCountryCode": "GB",
     "address": {
-      "street": null,
+      "street": "Quayside Court, The Quay,",
       "streetNumber": null,
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "CO12 3HH",
+      "city": "Harwich",
+      "state": "Essex",
+      "country": "United Kingdom"
     }
   },
   "website": "http://www.brointermedlines.com/",

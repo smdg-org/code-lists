@@ -8,21 +8,21 @@
   "parentCompany": null,
   "address": "82, Lorong 23 Geylang, 06-01 Atrix, Singapore 388409",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
       "street": "Lorong 23 Geylang",
       "streetNumber": "82",
-      "floor": "06-01 Atrix",
+      "floor": "#06-01 Atrix",
       "postCode": "388409",
       "city": "Singapore",
-      "state": null,
+      "state": "Central Region",
       "country": "Singapore"
     }
   },
   "website": "https://www.haioconnect.com",
   "remarks": "",
-  "validFrom": "2025-07-25",
+  "validFrom": "2025-07-21",
   "validTo": null,
   "changeLogs": [
     {

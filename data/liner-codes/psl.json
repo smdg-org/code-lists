@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Av. D. Carlos I, 44-8º, 1200-649 Lisboa, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "LIS",
+    "UnCountryCode": "PT",
     "address": {
-      "street": null,
+      "street": "Av. D. Carlos I",
       "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "floor": "44-8º",
+      "postCode": "1200-649",
+      "city": "Lisbon",
+      "state": "Lisbon District",
+      "country": "Portugal"
     }
   },
   "website": "http://pslnavegacao.com/",

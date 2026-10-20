@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "No. 271, Ming De 1st Road, Cidu District, Keelung 20646, Taiwan (R.O.C.)",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "KEL",
+    "UnCountryCode": "TW",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Ming De 1st Road",
+      "streetNumber": "271",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "20646",
+      "city": "Keelung",
+      "state": "Keelung City",
+      "country": "Taiwan"
     }
   },
   "website": "http://www.yangming.com/",

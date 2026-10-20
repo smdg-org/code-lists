@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Singapore (Worldgate Group Head Office), Worldgate Express Lines Pte Ltd, 180, Telok Ayer Street, The Worldgate, Singapore 068628",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Telok Ayer Street",
+      "streetNumber": "180",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "068628",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "http://www.worldgate.com.sg/",

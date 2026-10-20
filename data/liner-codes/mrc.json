@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "R. Guaiaó, 66 - 21º Andar - Aparecida, Santos - SP, Brasil zipcode: 11030-000",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SSZ",
+    "UnCountryCode": "BR",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "R. Guaiao",
+      "streetNumber": "66",
+      "floor": "21st Floor",
+      "postCode": "11030-000",
+      "city": "Santos",
+      "state": "Sao Paulo",
+      "country": "Brazil"
     }
   },
   "website": "http://www.mercosul-line.com.br/index.php",

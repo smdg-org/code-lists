@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "10 Chiswell Street London, EC1Y 4XY, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "LON",
+    "UnCountryCode": "GB",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Chiswell Street",
+      "streetNumber": "10",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "EC1U 4XY",
+      "city": "London",
+      "state": "Greater London",
+      "country": "United Kingdom"
     }
   },
   "website": "http://www.borlines.com/",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Via Operai, 20, 16149 – Genova",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "GOA",
+    "UnCountryCode": "IT",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Via Operai",
+      "streetNumber": "20",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "16149",
+      "city": "Genova",
+      "state": "Liguria",
+      "country": "Italy"
     }
   },
   "website": "",

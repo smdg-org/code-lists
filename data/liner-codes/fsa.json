@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "FAR SHIPPING ( SINGAPORE ) PTE. Ltd. ( H.Office ), 1 Coleman St, Singapore, 159552, Singapore",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Coleman St",
+      "streetNumber": "1",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "159552",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "http://www.farshipping.com/",

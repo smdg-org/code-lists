@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": " C/Fuente Podrida, 17 · 46011 Valencia · España",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "VLC",
+    "UnCountryCode": "ES",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "C/Fuente Podrida",
+      "streetNumber": "17",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "46011",
+      "city": "Valencia",
+      "state": "Valencian Community",
+      "country": "Spain"
     }
   },
   "website": "http://nisamaritima.es/?lang=en",

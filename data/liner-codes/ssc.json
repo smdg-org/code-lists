@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "200 Cantonment Road, #09-01 Southpoint, Singapore 089763",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Cantonment Road",
+      "streetNumber": "200",
+      "floor": "#09-01, Southpoint",
+      "postCode": "089763",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "http://singaporeshipping.listedcompany.com/",

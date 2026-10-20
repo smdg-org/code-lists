@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "390 HAVELOCK ROAD, #07-01 KING'S CENTRE, SINGAPORE (169662)",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Havelock Road",
+      "streetNumber": "390",
+      "floor": "#07-01 King's centre",
+      "postCode": "169662",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "https://www.yqnlink.com",

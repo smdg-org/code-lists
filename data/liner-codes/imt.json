@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Kobe Asahi Bldg , 59 Naniwamachi, Chuo-ku, Kobe 650-0035, Japan, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "UKB",
+    "UnCountryCode": "JP",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "59 Naniwamachi",
+      "streetNumber": "59",
+      "floor": "Kobe Asahi Bld",
+      "postCode": "650-0035",
+      "city": "Kobe",
+      "state": "Hyogo Prefecture",
+      "country": "Japan"
     }
   },
   "website": "http://www.imotoline.co.jp/eng/index.html",

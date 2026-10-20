@@ -2,22 +2,22 @@
   "isActive": true,
   "codeStatus": "Active",
   "linerCodeVersion": "V1",
-  "linerSMDGCode": "MTR",
+  "linerSMDGCode": "MRT",
   "linerName": "Martrans Shipping LLC",
   "carrierType": "VOCC",
   "parentCompany": "Martrans",
   "address": "PO Box 112362, Dubai, United Arab Emirates",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Dubai",
+      "state": "Dubai",
+      "country": "United Arab Emirates"
     }
   },
   "website": "https://www.martransship.com/",

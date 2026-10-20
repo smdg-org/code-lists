@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "200 CANTONMENT ROAD, SOUTHPOINT #02-05, SINGAPORE 089763",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "CANTONMENT ROAD",
+      "streetNumber": "200",
+      "floor": "SOUTHPOINT #02-05",
+      "postCode": "089763",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "",

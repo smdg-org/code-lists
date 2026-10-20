@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "HEAD OFFICE, KUALA LUMPUR, MBf Carpenters Shipping Ltd, Level 17, Menara MBf, Jalan Sultan Ismail, 50250 Kuala Lumpur, Malaysia",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "KUL",
+    "UnCountryCode": "MY",
     "address": {
-      "street": null,
+      "street": "Jalan Sultan Ismail",
       "streetNumber": null,
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "50250",
+      "city": "Kuala Lumpur",
+      "state": "Federal Territory of Kuala Lumpur",
+      "country": "Malaysia"
     }
   },
   "website": "http://www.carpentersshipping.com/default.htm",

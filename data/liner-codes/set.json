@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Via Classicana, 99 – 48122 Ravenna (Italia)",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "RAN",
+    "UnCountryCode": "IT",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Via Classicana",
+      "streetNumber": "99",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "48122",
+      "city": "Ravenna",
+      "state": "Emilia-Romagna",
+      "country": "Italy"
     }
   },
   "website": "http://grupposetramar.it/",

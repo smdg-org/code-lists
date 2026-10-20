@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "RM603, Hanjin BlDG (new), 88 Sogong ro , Jung-Gu, Seoul, Korea ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SEL",
+    "UnCountryCode": "KR",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Sogong ro",
+      "streetNumber": "88",
+      "floor": "RM603, Hanjin BlDG (new)",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Seoul",
+      "state": "Seoul Special City",
+      "country": "South Korea"
     }
   },
   "website": "http://www.taiyoungship.co.kr/",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "200 CANTONMENT ROAD #06-05 SINGAPORE 089763 SOUTHPOINT",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Cantonment Road",
+      "streetNumber": "200",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "089763",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "http://www.fmt-shipping.com/",

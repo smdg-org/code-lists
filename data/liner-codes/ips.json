@@ -8,16 +8,16 @@
   "parentCompany": "IPS",
   "address": " 1 PAYA LBEAR LINK, #04-01 PAYA LEBAR QUARTERS, , SINGAPORE 408533",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "PAYA LBEAR LINK",
+      "streetNumber": "1",
+      "floor": "#04-01 PAYA LEBAR QUARTERS",
+      "postCode": "408533",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "HTTPS://INSPIRESHIPS.COM",

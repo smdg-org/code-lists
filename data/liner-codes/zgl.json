@@ -5,19 +5,19 @@
   "linerSMDGCode": "ZGL",
   "linerName": "ZHONG GU SHIPPING (SIN) PTE LTD",
   "carrierType": "VOCC",
-  "parentCompany": "",
+  "parentCompany": "SHANGHAI ZHONGGU LOGISTICS CO., LTD.",
   "address": "111 North Bridge Road #21-01, Singapore",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "North Bridge Road",
+      "streetNumber": "111",
+      "floor": "21-01",
+      "postCode": "179098",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "https://www.zhonggu56.com/en/index.jsp",

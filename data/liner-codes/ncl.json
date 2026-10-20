@@ -14,9 +14,9 @@
       "street": "Stoltenberggata",
       "streetNumber": "1",
       "floor": null,
-      "postCode": "5523",
+      "postCode": "5527",
       "city": "Haugesund",
-      "state": null,
+      "state": "Rogaland",
       "country": "Norway"
     }
   },
@@ -38,7 +38,7 @@
     {
       "actionCode": "Updated",
       "linerCodeVersion": "V2",
-      "lastUpdateDate": "2026-02-13",
+      "lastUpdateDate": "2026-01-21",
       "updateRequestedBy": "North Sea Container Line",
       "reason": "Change of address",
       "changedFields": [],

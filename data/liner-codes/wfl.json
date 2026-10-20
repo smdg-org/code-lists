@@ -8,16 +8,16 @@
   "parentCompany": "WFL",
   "address": "52 &52A, LORONG SENTOSA 4A, TAMAN BAYU TINGGI, 41200 KLANG, SELANGOR",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "KLA",
+    "UnCountryCode": "MY",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "LORONG SENTOSA 4A",
+      "streetNumber": "52&52A",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "41200",
+      "city": "Klang",
+      "state": "Selangor",
+      "country": "Malaysia"
     }
   },
   "website": "http://www.win-fl.com/",

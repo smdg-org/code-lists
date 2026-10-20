@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "81, Anson Road Level 8, Suite 8-25, M Hotel Singapore Singapore 079908",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Anson Road",
+      "streetNumber": "81",
+      "floor": "Level 8, Suite 8-25\nM Hotel Singapore",
+      "postCode": "079908",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "https://www.econshipping.com/ ",

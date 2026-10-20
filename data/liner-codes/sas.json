@@ -8,16 +8,16 @@
   "parentCompany": "SAS",
   "address": "120 Robinson Road, #15-01, Singapore (068913)",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Robinson Road",
+      "streetNumber": "120",
+      "floor": "#15-01",
+      "postCode": "068913",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "www.sasl.sg",

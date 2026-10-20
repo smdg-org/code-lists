@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Manila Office, No. 1 Multinational Avenue corner Kaingin Road, Multinational Village, Paranaque City, Philippines, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "MNL",
+    "UnCountryCode": "PH",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Multinational Avenue corner Kaingin Road",
+      "streetNumber": "1",
       "floor": null,
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Manila",
+      "state": "National Capital Region",
+      "country": "Philippines"
     }
   },
   "website": "http://www.seahawk.com.ph/",

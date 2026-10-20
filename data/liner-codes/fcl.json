@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "10 Anson Road, International Plaza #20-09, Singapore 079903",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "anson Road",
+      "streetNumber": "10",
+      "floor": "#20-09 International Plaza",
+      "postCode": "079903",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "https://fedxline.com/",

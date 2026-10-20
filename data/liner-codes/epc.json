@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "EPS SINGAPORE, HEADQUARTERS, 1 Temasek Avenue, #38 – 01 Millenia Tower, Singapore 039192",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Temasek Avenue",
+      "streetNumber": "1",
+      "floor": "#38 – 01 Millenia Tower",
+      "postCode": "039192",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "http://www.epshipping.com.sg/",

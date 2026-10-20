@@ -4,20 +4,20 @@
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MAR",
   "linerName": "Maruba Line",
-  "carrierType": "UNKNOWN",
-  "parentCompany": "",
+  "carrierType": "VOCC",
+  "parentCompany": "MAR",
   "address": "MAIPU 535 1P [C1006ACE] CABA",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "BUE",
+    "UnCountryCode": "AR",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Calle Maipu",
+      "streetNumber": "535",
+      "floor": "1st Floor",
+      "postCode": "C1006ACE",
+      "city": "Buenos Aires",
+      "state": "Autonomous City of Buenos Aires",
+      "country": "Argentina"
     }
   },
   "website": "http://www.maruba.com.ar/en/",
@@ -28,7 +28,7 @@
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
-      "lastUpdateDate": "2021-01-01",
+      "lastUpdateDate": "2026-10-05",
       "updateRequestedBy": null,
       "reason": "initial change",
       "changedFields": [],

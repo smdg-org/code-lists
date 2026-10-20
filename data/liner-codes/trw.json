@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "P.O. Box 261844, Plot No. S 20119, Jebel Ali Free Zone (South), Dubai, U.A.E.",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
       "street": null,
       "streetNumber": null,
-      "floor": null,
+      "floor": "P.O. Box 261844, Plot No. S 20119, Jebel Ali Free Zone (South),",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Dubai",
+      "state": "Dubai",
+      "country": "United Arab Emirates"
     }
   },
   "website": "http://www.transworld.com/feeders/index.html",

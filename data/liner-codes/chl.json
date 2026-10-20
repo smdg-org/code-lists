@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Paseo de la Castellana, 141 Planta 21-B, 28046 – Madrid, España, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "MAD",
+    "UnCountryCode": "ES",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Paseo de la Castellana",
+      "streetNumber": "141",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "28046",
+      "city": "Madrid",
+      "state": "Community of Madrid",
+      "country": "Spain"
     }
   },
   "website": "http://www.chl.es/",

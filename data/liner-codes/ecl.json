@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "see Samskip",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "RTM",
+    "UnCountryCode": "NL",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Waalhaven Oostzijde",
+      "streetNumber": "81",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "3087 BM",
+      "city": "Rotterdam",
+      "state": "South Holland",
+      "country": "Netherlands"
     }
   },
   "website": "www.wilsonship.no/en/euro-container-line",

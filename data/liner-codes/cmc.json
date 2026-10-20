@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Crowley Maritime Corporation, 9487 Regency Square Blvd., Jacksonville, FL 32225",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "JAX",
+    "UnCountryCode": "US",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Regency Square Blvd.",
+      "streetNumber": "9487",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "32225",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "country": "United States"
     }
   },
   "website": "http://www.crowley.com/",

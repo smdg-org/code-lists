@@ -8,16 +8,16 @@
   "parentCompany": "WEC",
   "address": "W.E.C. Lines B.V., Albert Plesmanweg 59, 3088 GB Rotterdam, P.O. Box 59230, 3008 PE Rotterdam, The Netherlands",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "RTM",
+    "UnCountryCode": "NL",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Albert Plesmanweg",
+      "streetNumber": "59",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "3088 GB",
+      "city": "Rotterdam",
+      "state": "South Holland",
+      "country": "Netherlands"
     }
   },
   "website": "http://www.weclines.com/",

@@ -8,16 +8,16 @@
   "parentCompany": "PIL",
   "address": "PIL Building,  140 Cecil Street,  Singapore 069540",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Cecil Street",
+      "streetNumber": "140",
+      "floor": "PIL Building",
+      "postCode": "069540",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "https://www.pilship.com/en-pil-pacific-international-lines/1.html",

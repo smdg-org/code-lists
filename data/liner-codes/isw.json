@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "60 Paya Lebar Road #09-24, Paya Lebar Square Singapore 409051",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Paya Lebar Road",
+      "streetNumber": "60",
+      "floor": "Paya Lebar Square",
+      "postCode": "409051",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "not available",

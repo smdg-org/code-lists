@@ -8,16 +8,16 @@
   "parentCompany": "CBF",
   "address": "UNITED STATES, Great White Fleet Liner Services Ltd., 1855 Griffin Road, Suite C - 436, Dania Beach, FL",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "FLL",
+    "UnCountryCode": "US",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Griffin Road",
+      "streetNumber": "1855",
+      "floor": "Suite C-436",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Dania Beach",
+      "state": "Florida",
+      "country": "United States"
     }
   },
   "website": "http://www.greatwhitefleet.com/",

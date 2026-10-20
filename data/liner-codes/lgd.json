@@ -8,16 +8,16 @@
   "parentCompany": "LGD",
   "address": "531, Upper Cross Street, #03-71 Hong Lim Complex, Singapore 050531",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Upper Cross Street",
+      "streetNumber": "531",
+      "floor": "#03-71 Hong Lim Complex",
+      "postCode": "050531",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "http://legendgloballogistics.com",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Main Office - Varna, Bulgaria, Navibulgar House, 1, Primorski Boulevard, 9000 Varna, Bulgaria, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "VAR",
+    "UnCountryCode": "BG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Primorski Boulevard",
+      "streetNumber": "1",
+      "floor": "Navibulgar House",
+      "postCode": "9000",
+      "city": "Varna",
+      "state": "Varna Province",
+      "country": "Bulgaria"
     }
   },
   "website": "http://www.navbul.com/",
