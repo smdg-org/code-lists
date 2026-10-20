@@ -30,12 +30,13 @@ public class LinerCodesVerifyPullRequestCommand(IFileStore fileStore, IGitHubCli
                 var fileName = Path.GetFileNameWithoutExtension(f.FileName);
                 var fullFileName = Path.GetFileName(f.FileName);
 
-                return (FileName: fileName, FullFileName: fullFileName);
+                return (FileName: fileName, FullFileName: fullFileName, Status: f.Status);
             })
             .ToList();
 
         var codeFileNames = fileNames
             .Where(f =>
+                f.Status != "removed" &&
                 f.FullFileName.EndsWith(".json", StringComparison.InvariantCultureIgnoreCase) &&
                 f.FullFileName != FileStore.IndexFileName &&
                 f.FullFileName != FileStore.CombinedFileName)
