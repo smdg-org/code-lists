@@ -22,6 +22,12 @@ Commit the generated `_combined.json` with the source-data changes. The data PR
 workflow regenerates and compares it without pushing repair commits; the release
 workflow also refuses to release if regeneration produces a difference.
 
+Pull-request verification allows deleting liner-code files, provided their
+filenames are also removed from `_index.json` and their codes from `_combined.json`
+(compared case-insensitively). Renamed files are validated under their new names.
+Validation comments report how many individual files were validated and list any
+deleted codes.
+
 Repository maintainers should require the data workflow's `pack` check for
 data-changing pull requests and ensure the CLI tests pass. Branch protection is
 a GitHub setting, not something this code change configures. The data workflow

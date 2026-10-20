@@ -1,11 +1,13 @@
 namespace SmdgCli.Commands;
 
+using FluentValidation.Results;
 using Octokit;
 using Schemas.Liners;
 using Services;
 using Utilities;
 using Spectre.Console;
 using Spectre.Console.Cli;
+using ValidationResult = FluentValidation.Results.ValidationResult;
 
 public class LinerCodesVerifyPullRequestCommand(IFileStore fileStore, IGitHubClientFactory gitHubClientFactory)
     : AsyncCommand<LinerCodesVerifyPullRequestSettings>
@@ -30,17 +32,19 @@ public class LinerCodesVerifyPullRequestCommand(IFileStore fileStore, IGitHubCli
                 var fileName = Path.GetFileNameWithoutExtension(f.FileName);
                 var fullFileName = Path.GetFileName(f.FileName);
 
-                return (FileName: fileName, FullFileName: fullFileName);
+                return (FileName: fileName, FullFileName: fullFileName, IsRemoved:
+                    string.Equals(f.Status.ToString(), "removed", StringComparison.OrdinalIgnoreCase));
             })
             .ToList();
 
-        var codeFileNames = fileNames
+        var codeFiles = fileNames
             .Where(f =>
                 f.FullFileName.EndsWith(".json", StringComparison.InvariantCultureIgnoreCase) &&
-                f.FullFileName != FileStore.IndexFileName &&
-                f.FullFileName != FileStore.CombinedFileName)
-            .Select(f => f.FileName)
+                !string.Equals(f.FullFileName, FileStore.IndexFileName, StringComparison.OrdinalIgnoreCase) &&
+                !string.Equals(f.FullFileName, FileStore.CombinedFileName, StringComparison.OrdinalIgnoreCase))
             .ToList();
+        var codeFileNames = codeFiles.Where(f => !f.IsRemoved).Select(f => f.FileName).ToList();
+        var removedCodeFileNames = codeFiles.Where(f => f.IsRemoved).Select(f => f.FileName).ToList();
         
         var indexHasChanged = fileNames.Any(f => f.FullFileName == FileStore.IndexFileName);
         var combinedHasChanged = fileNames.Any(f => f.FullFileName == FileStore.CombinedFileName);
@@ -48,12 +52,13 @@ public class LinerCodesVerifyPullRequestCommand(IFileStore fileStore, IGitHubCli
         await git.ClearValidationComments(owner, repository, settings.PullRequest, GitHubComments.PullRequestValidationMarker);
 
         var validCodes = await ValidateLinerCodeFiles(git, owner, repository, settings.PullRequest, codeFileNames, settings.OutputDirectory);
+        var validDeletions = await ValidateRemovedLinerCodeFiles(git, owner, repository, settings.PullRequest, removedCodeFileNames, settings.OutputDirectory);
         
         var validIndex = !indexHasChanged || await ValidateIndexFile(git, owner, repository, settings.PullRequest, settings.OutputDirectory);
         
         var validCombined = !combinedHasChanged || await ValidateCombinedFile(git, owner, repository, settings.PullRequest, settings.OutputDirectory);
         
-        var allChangesAreValid = validCodes && validIndex && validCombined;
+        var allChangesAreValid = validCodes && validDeletions && validIndex && validCombined;
         
         AnsiConsole.WriteLine(allChangesAreValid
             ? "[green]All liner code changes are valid.[/]"
@@ -152,8 +157,10 @@ public class LinerCodesVerifyPullRequestCommand(IFileStore fileStore, IGitHubCli
             var changedLinerCode = await fileStore.TryReadAsync<LinerCode>(fileName, directory);
             if (changedLinerCode is null)
             {
-                AnsiConsole.MarkupLine("[red] Changed file is not a valid liner code file. [/]");
-                return false;
+                var message = $"Changed file '{fileName}.json' is missing or is not a valid liner code file.";
+                AnsiConsole.MarkupLine($"[red]{Markup.Escape(message)}[/]");
+                codeValidationResults.Add(fileName, new ValidationResult([new ValidationFailure(fileName, message)]));
+                continue;
             }
 
             var validationResult = await (new LinerCodeValidator())
@@ -165,7 +172,7 @@ public class LinerCodesVerifyPullRequestCommand(IFileStore fileStore, IGitHubCli
         var comment = GitHubUtils.GenerateComment(
             codeValidationResults,
             GitHubComments.PullRequestValidationMarker,
-            $"Liner code changes are valid",
+            $"Liner code changes are valid ({codeValidationResults.Count} files validated)",
             "Please review, approve and merge the changes",
             $"Liner code changes are invalid",
             "Please fix the changes in the Pull Request."
@@ -173,5 +180,69 @@ public class LinerCodesVerifyPullRequestCommand(IFileStore fileStore, IGitHubCli
 
         await git.Issue.Comment.Create(owner, repository, pullRequest, comment);
         return codeValidationResults.All(r => r.Value.IsValid);
+    }
+
+    private async Task<bool> ValidateRemovedLinerCodeFiles(
+        IGitHubClient git,
+        string owner,
+        string repository,
+        int pullRequest,
+        IReadOnlyCollection<string> fileNames,
+        string directory)
+    {
+        if (fileNames.Count == 0)
+        {
+            return true;
+        }
+
+        var index = await fileStore.TryReadAsync<LinerCodeIndex>("_index", directory);
+        var combined = await fileStore.TryReadAsync<List<LinerCode>>("_combined", directory);
+        var results = new Dictionary<string, ValidationResult>();
+
+        foreach (var fileName in fileNames)
+        {
+            var result = new ValidationResult();
+            if (index?.LinerCodeFiles is null)
+            {
+                result.Errors.Add(new ValidationFailure(fileName,
+                    $"Cannot verify deleted code '{fileName}': {FileStore.IndexFileName} is missing or invalid."));
+            }
+            else if (index.LinerCodeFiles.Contains($"{fileName}.json", StringComparer.OrdinalIgnoreCase))
+            {
+                result.Errors.Add(new ValidationFailure(fileName,
+                    $"Deleted code '{fileName}' is still referenced in {FileStore.IndexFileName}."));
+            }
+
+            if (combined is null)
+            {
+                result.Errors.Add(new ValidationFailure(fileName,
+                    $"Cannot verify deleted code '{fileName}': {FileStore.CombinedFileName} is missing or invalid."));
+            }
+            else if (combined.Any(code => string.Equals(code?.LinerSmdgCode, fileName, StringComparison.OrdinalIgnoreCase)))
+            {
+                result.Errors.Add(new ValidationFailure(fileName,
+                    $"Deleted code '{fileName}' is still referenced in {FileStore.CombinedFileName}."));
+            }
+
+            foreach (var error in result.Errors)
+            {
+                AnsiConsole.MarkupLine($"[red]{Markup.Escape(error.ErrorMessage)}[/]");
+            }
+
+            results.Add(fileName, result);
+        }
+
+        var comment = GitHubUtils.GenerateComment(
+            results,
+            GitHubComments.PullRequestValidationMarker,
+            "Liner code deletions are consistent",
+            "Please review, approve and merge the changes",
+            "Liner code deletions are inconsistent",
+            "Please fix the changes in the Pull Request."
+        );
+        comment += $"\nDeleted liner codes: {string.Join(", ", fileNames.Select(name => $"`{name}`"))}.\n";
+
+        await git.Issue.Comment.Create(owner, repository, pullRequest, comment);
+        return results.All(r => r.Value.IsValid);
     }
 }
