@@ -11,10 +11,10 @@
     "UnLocode": "TPE",
     "UnCountryCode": "TW",
     "address": {
-      "street": "Mingsheng E. Road",
-      "streetNumber": "104",
+      "street": "Sec. 2, Mingsheng E. Road",
+      "streetNumber": "166",
       "floor": null,
-      "postCode": null,
+      "postCode": "104",
       "city": "Taipei",
       "state": "Taipei City",
       "country": "Taiwan"
