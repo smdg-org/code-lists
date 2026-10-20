@@ -1,5 +1,6 @@
 import { prefill, validateRecords } from "./core.js";
 import { linkedValue } from "./links.js";
+import { downloadExcel } from "./excel-export.js";
 
 const field = id => document.getElementById(id);
 const pageSize = 25;
@@ -149,4 +150,17 @@ for (const [id, direction] of [["list-previous", -1], ["list-next", 1]]) {
 }
 field("list-message").tabIndex = -1;
 field("list-retry").addEventListener("click", load);
+field("download-excel").addEventListener("click", async () => {
+  const button = field("download-excel");
+  button.disabled = true;
+  field("export-message").textContent = "Generating Excel from the latest deployed combined data...";
+  try {
+    await downloadExcel();
+    field("export-message").textContent = "Excel generated. Your download is ready.";
+  } catch (error) {
+    field("export-message").textContent = `Unable to generate Excel. ${error.message} Please try again.`;
+  } finally {
+    button.disabled = false;
+  }
+});
 load();

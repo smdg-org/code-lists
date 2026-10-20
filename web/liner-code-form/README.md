@@ -32,6 +32,27 @@ page links to the official download page and identifies the request form as a
 demo. Loading failures disable search and offer an explicit retry and the
 official download alternative.
 
+**Download Excel (all codes)** fetches `data/_combined.json` again with
+`cache: "no-store"` on every click; it does not use the search results, current
+page, or browser-local reviewer data. The download contains **Active**
+(`codeStatus === "Active"`), **Outdated** (every other status), and the original
+**Description** sheet. The provided `liner-codes-template.xlsx` preserves the
+logo, text and layout of rows 1-8; the 18 export headers are on row 9 and records
+start on row 10. The version label in merged cells D4-G4 is updated on both data
+sheets to the download date in `vYYYYMMDD` format, using the browser's local date.
+The download filename uses that same date.
+
+Columns A-R are Code, Liner Name, Parent Company, Carrier Type, Valid From,
+Valid To, Website, Street, Street Number, Building/Floor, ZP Code, City, State,
+Country, UNLOCODE, Remarks, Status and Last update. UNKNOWN carrier types and
+missing values are blank. UNLOCODE concatenates `UnCountryCode` and `UnLocode`;
+Last update is the latest `changeLogs[].lastUpdateDate` (the dataset has no
+top-level `lastUpdatedDate`). Validity and update dates are Excel date cells;
+postcodes, street numbers and other text remain text. Free-text addresses are
+not exported. Export errors are displayed explicitly and the button can retry.
+ZIP handling uses the locally bundled, MIT-licensed `fflate` dependency; there
+are no third-party runtime requests. Run `npm install` before building.
+
 ## Form validation and preview-only mode
 
 The original form URL (`./`) now saves demo requests through **Review request**
