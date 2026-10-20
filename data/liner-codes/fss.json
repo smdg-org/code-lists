@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "FOONG SUN SHIPPING (PTE) LTD, Block 211 Henderson Road, #03-03 Henderson Industrial Park, Singapore 159552",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Henderson Road",
+      "streetNumber": "211",
+      "floor": "03 Henderson Industrial Park",
+      "postCode": "159552",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "http://www.foongsun.com.sg/",

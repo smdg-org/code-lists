@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Head Office Address: PNSC Building, M.T. Khan Road, P.O. BOX No.5350, Karachi-74000, PAKISTAN.",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "KHI",
+    "UnCountryCode": "PK",
     "address": {
-      "street": null,
+      "street": "M.T. Khan Road",
       "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "floor": "PNSC Building",
+      "postCode": "74000",
+      "city": "Karachi",
+      "state": "Sindh",
+      "country": "Pakistan"
     }
   },
   "website": "https://www.pnsc.com.pk/",

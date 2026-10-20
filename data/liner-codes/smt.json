@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "200 CANTONMENT ROAD #06-01 SINGAPORE 089763 SOUTHPOINT",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Cantonment Road",
+      "streetNumber": "200",
+      "floor": "#06-01, Southpoint",
+      "postCode": "089763",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "https://www.summitshipping.sg/",

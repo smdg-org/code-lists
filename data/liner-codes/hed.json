@@ -8,16 +8,16 @@
   "parentCompany": "BEN",
   "address": "Harbor Development Zone, Tangshan City, Hebei Province | Phone：+86-315-2927508",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "TGS",
+    "UnCountryCode": "CN",
     "address": {
-      "street": null,
+      "street": "Harbor development zone",
       "streetNumber": null,
       "floor": null,
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Tangshan City",
+      "state": "Hebei",
+      "country": "China"
     }
   },
   "website": "http://en.hedehk.com/",

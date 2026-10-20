@@ -8,16 +8,16 @@
   "parentCompany": "ARK",
   "address": "ARKAS SHIPPING AND TRANSPORT SA, Address Esentepe Gazeteciler Mahallesi Matbuat Sokak n°5 Sisli, Zip Code , City Istanbul, State , Country Turkey",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "IST",
+    "UnCountryCode": "TR",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Matbuat Sokak",
+      "streetNumber": "5",
       "floor": null,
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Istanbul",
+      "state": "Istanbul Province",
+      "country": "Türkiye"
     }
   },
   "website": "http://www.arkasline.com.tr",

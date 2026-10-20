@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "25 Anzac Street, Takapuna 0622, P.O. Box 33-1439, Auckland, Phone: 09 489 6070",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "AKL",
+    "UnCountryCode": "NZ",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Anzac Street",
+      "streetNumber": "25",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "0622",
+      "city": "Auckland",
+      "state": "Auckland Region",
+      "country": "New Zealand"
     }
   },
   "website": "https://www.oceanbridge.co.nz/",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": " White Line Shipping & Cargo LLC, Office Address Al Owais Tower Office 305-306 Baniyas Street - Deira, Dubai - UAE, P.O Box 32064 Dubai - UAE, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
-      "street": null,
+      "street": "Baniyas Street",
       "streetNumber": null,
-      "floor": null,
+      "floor": "Al Owais Tower, Offices 305-306",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Dubai",
+      "state": "Dubai",
+      "country": "United Arab Emirates"
     }
   },
   "website": "http://www.whiteline.ae",

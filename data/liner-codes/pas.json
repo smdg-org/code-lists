@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HNL",
+    "UnCountryCode": "US",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Fort Street",
+      "streetNumber": "745",
+      "floor": "Fort Street Tower, Suite 315",
+      "postCode": "96813-3800",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "country": "United States"
     }
   },
   "website": "https://www.pashahawaii.com/ ",

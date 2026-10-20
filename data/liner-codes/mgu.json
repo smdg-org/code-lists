@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "MAD",
+    "UnCountryCode": "ES",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Villanueva",
+      "streetNumber": "5",
+      "floor": "1st Floor",
+      "postCode": "28001",
+      "city": "Madrid",
+      "state": "Community of Madrid",
+      "country": "Spain"
     }
   },
   "website": "http://www.marguisa.com/",

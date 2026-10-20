@@ -3,26 +3,26 @@
   "codeStatus": "Active",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "TI2",
-  "linerName": "Ti2 Container Lines Pte Ltd",
+  "linerName": "Ti2 Container lines pte ltd",
   "carrierType": "NVOCC",
-  "parentCompany": "Ti2",
+  "parentCompany": null,
   "address": "2 International Business Park, #11-06\nThe Strategy Tower 1, Singapore 609930",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "International Business Park",
+      "streetNumber": "2",
+      "floor": "#11-06\nThe Strategy Tower 1",
+      "postCode": "609930",
+      "city": "Singapore",
+      "state": "West Region",
+      "country": "Singapore"
     }
   },
   "website": "www.ti2shipping.com",
   "remarks": "",
-  "validFrom": "2025-03-18",
+  "validFrom": "2025-04-13",
   "validTo": null,
   "changeLogs": [
     {

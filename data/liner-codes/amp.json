@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Avisa Maritime Pte Ltd, 6 Raffles Quay #14-06 Singapore (048580), contact:avisa@pwl.de ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Raffles Quay",
+      "streetNumber": "6",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "048580",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "",

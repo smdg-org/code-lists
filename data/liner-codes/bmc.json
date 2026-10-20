@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "BMC LINE SHIPPING SERVICES, Floor : 23rd, Suite : 2306,Churchill Executive Tower - Dubai - United Arab Emirates",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
       "street": null,
       "streetNumber": null,
-      "floor": null,
+      "floor": "Churchill Executive Tower, Floor : 23rd, Suite : 2306",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Dubai",
+      "state": "Dubai",
+      "country": "United Arab Emirates"
     }
   },
   "website": "http://www.bmclines.com/",

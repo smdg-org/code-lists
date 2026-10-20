@@ -9,15 +9,15 @@
   "address": "30 Tower View, Kings Hill, West Malling, Kent, ME19 4UY, England",
   "addressLocation": {
     "UnLocode": null,
-    "UnCountryCode": null,
+    "UnCountryCode": "GB",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Tower View",
+      "streetNumber": "30",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "ME19 4UY",
+      "city": "West Malling",
+      "state": "Kent",
+      "country": "United Kingdom"
     }
   },
   "website": "https://www.africaexpressline.com/",

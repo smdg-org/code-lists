@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "1, NORTH BRIDGE ROAD, #06-27, HIGH STREET CENTRE, SINGAPORE 179094",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "North Bridge Road",
+      "streetNumber": "1",
+      "floor": "#06-27, High Street Centre",
+      "postCode": "179094",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "www.seaway-lines.com",

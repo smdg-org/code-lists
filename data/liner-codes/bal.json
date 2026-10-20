@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Unit 503, 5/F,Silvercord Tower 2, 30 Canton Road, , Tsimshatsuil HK",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HKG",
+    "UnCountryCode": "HK",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Canton Road",
+      "streetNumber": "30",
+      "floor": "Unit 503, 5/F, Silvercord Tower 2",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Hong Kong",
+      "state": "Hong Kong SAR",
+      "country": "Hong Kong"
     }
   },
   "website": "http://www.bal.cn/index.html",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "336 Smith Street, #05-301, New Bridge Centre, Singapore 050336",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Smith Street",
+      "streetNumber": "336",
+      "floor": "#05-301, New Bridge Centre",
+      "postCode": "050336",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "http://www.charterlink.sg/",

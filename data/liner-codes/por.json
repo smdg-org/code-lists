@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "152 Beach Road #14-04, Gateway East, Singapore",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Beach Road",
+      "streetNumber": "152",
+      "floor": "#14-04, Gateway East",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "http://www.mghgroup.com/portlink.html",

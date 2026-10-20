@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "ADVANCE CONTAINER LINES (PTE) LTD, 140 CECIL STREET #01-00 PIL BUILDING, SINGAPORE 069540, , TEL : (65) 6221 2621 FAX : (65) 6221 7780, BOOKING HOTLINE : 6221 3222",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "CECIL STREET",
+      "streetNumber": "140",
+      "floor": "#01-00, PIL Building",
+      "postCode": "069540",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "http://www.aclship.com",

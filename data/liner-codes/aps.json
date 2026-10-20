@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "ZERVEX, 8 UBI ROAD 2 #07-01, S408538",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Ubi Road 2",
+      "streetNumber": "8",
+      "floor": "Zervex 07",
+      "postCode": "408538",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "WWW.ALPINESHIPPING.COM",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Prince Albert House, 2 Kingsmill Terrace, London NW8 6BN",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "LON",
+    "UnCountryCode": "GB",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Kingsmill Terrace",
+      "streetNumber": "2",
       "floor": null,
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "London",
+      "state": "Greater London",
+      "country": "United Kingdom"
     }
   },
   "website": "http://www.y-g-l.com/",

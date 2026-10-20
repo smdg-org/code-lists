@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "BLK 511 KAMPONG BAHRU RD #02-05 KEPPEL DISTRIPARK, Zip Code 099 447, City Singapore, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Kampong Bahru Rd",
+      "streetNumber": "511",
+      "floor": "#02-05, Keppel Distripark",
+      "postCode": "099447",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "http://vascomaritime.com/",

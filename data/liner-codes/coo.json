@@ -6,18 +6,18 @@
   "linerName": "Cool Carriers",
   "carrierType": "UNKNOWN",
   "parentCompany": "",
-  "address": "Cool Carriers AB, Barnhusgatan 16, SE-111 23 Stockholm, Sweden",
+  "address": "Cool Carriers AB, Repslagargatan 15B, SE-118 46 Stockholm, Sweden",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "STO",
+    "UnCountryCode": "SE",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Repslagargatan",
+      "streetNumber": "15B",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "118 46",
+      "city": "Stockholm",
+      "state": "Stockholm County",
+      "country": "Sweden"
     }
   },
   "website": "http://www.cool.se/",

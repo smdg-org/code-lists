@@ -8,19 +8,19 @@
   "parentCompany": "MOS",
   "address": "Office No. 1810,The Citadel Tower, Business Bay, Dubai, United Arab Emirates",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
       "street": null,
       "streetNumber": null,
-      "floor": null,
+      "floor": "Office No. 1810,The Citadel Tower",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Dubai",
+      "state": "Dubai",
+      "country": "United Arab Emirates"
     }
   },
-  "website": "MARSAOCEAN.COM",
+  "website": "https://www.marsaocean.com/",
   "remarks": "",
   "validFrom": "2026-10-02",
   "validTo": null,

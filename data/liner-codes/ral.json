@@ -8,16 +8,16 @@
   "parentCompany": "RAL",
   "address": "Royal Arctic Line A/S, Aqqusinersuaq 52, Postboks 1580, 3900 Nuuk",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "GOH",
+    "UnCountryCode": "GL",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Aqqusinersuaq",
+      "streetNumber": "52",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "3900",
+      "city": "Nuuk",
+      "state": "Sermersooq",
+      "country": "Greenland"
     }
   },
   "website": "https://www.RAL.dk",

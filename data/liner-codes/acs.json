@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Moscow, 18 Andropova Ave., Building 5, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "MOW",
+    "UnCountryCode": "RU",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Andropova Ave",
+      "streetNumber": "18",
+      "floor": "Building 5",
+      "postCode": "115432",
+      "city": "Moscow",
+      "state": "Moscow",
+      "country": "Russia"
     }
   },
   "website": "https://atlanticcargo.ru",

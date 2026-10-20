@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Địa chỉ Công ty: Số 9 Nguyễn Công Trứ, P.Nguyễn Thái Bình, Quận 1, TP.HCM",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SGN",
+    "UnCountryCode": "VN",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Nguyen Cong Tru",
+      "streetNumber": "9",
       "floor": null,
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Ho Chi Minh City",
+      "state": "Ho Chi Minh City",
+      "country": "Vietnam"
     }
   },
   "website": "https://saigonship.com.vn/",

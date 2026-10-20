@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "HEAD OFFICE, UAFL HOUSE, Domaine de Labourdonnais, Mapou 31803, Mauritius",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "MAP",
+    "UnCountryCode": "MU",
     "address": {
       "street": null,
       "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "floor": "UAFL House, Domaine de Labourdonnais",
+      "postCode": "31803",
+      "city": "Mapou",
+      "state": "Rivière du Rempart District",
+      "country": "Mauritius"
     }
   },
   "website": "http://www.uaflshipping.com/",

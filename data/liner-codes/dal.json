@@ -8,16 +8,16 @@
   "parentCompany": "HLC",
   "address": "Palmaille 45, 22767 Hamburg, Germany",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HAM",
+    "UnCountryCode": "DE",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Palmaille",
+      "streetNumber": "45",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "22767",
+      "city": "Hamburg",
+      "state": "Hamburg",
+      "country": "Germany"
     }
   },
   "website": "https://www.rantzau.de/",

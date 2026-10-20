@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Transportes Marítimos Insulares, S.A., Edifício Gonçalves Zarco, Doca de Alcântara (lado Norte), 1399-015 LISBOA, Portugal",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "LIS",
+    "UnCountryCode": "PT",
     "address": {
-      "street": null,
+      "street": "Doca de Alcantara",
       "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "floor": "Edificio Goncalves Zarco",
+      "postCode": "1399-015",
+      "city": "Lisbon",
+      "state": "Lisbon District",
+      "country": "Portugal"
     }
   },
   "website": "https://transinsular.pt/",

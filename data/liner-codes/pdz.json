@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "No.1, Jalan Sungai Aur, 42000 Port Klang, Selangor Darul Ehsan, Malaysia.",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "PKG",
+    "UnCountryCode": "MY",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Jalan Sungai Aur",
+      "streetNumber": "1",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "42000",
+      "city": "Port Klang",
+      "state": "Selangor",
+      "country": "Malaysia"
     }
   },
   "website": "http://www.pdzlines.com/",

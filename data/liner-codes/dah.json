@@ -8,16 +8,16 @@
   "parentCompany": "DAH",
   "address": "No 111, NORTH BRIDGE ROAD, #08 - 04 PENINSULA PLAZA, SINGAPORE - 179098",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "North Bridge Road",
+      "streetNumber": "111",
+      "floor": "#08-04 Peninsula Plaza",
+      "postCode": "179098",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "http://www.dahnay.com/",

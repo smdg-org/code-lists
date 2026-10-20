@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Yeşilbağlar Mah. Cafer Kuyusu Mevkii Kat : 5-6-7  Royal Marin Plaza Pendik/İSTANBUL / TURKEY",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "IST",
+    "UnCountryCode": "TR",
     "address": {
-      "street": null,
+      "street": "Cafer Kuyusu Mevkii",
       "streetNumber": null,
-      "floor": null,
+      "floor": "Royal Marin Plaza, Floors 5-7",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Istanbul",
+      "state": "Istanbul Province",
+      "country": "Türkiye"
     }
   },
   "website": "http://www.medkonlines.com/",

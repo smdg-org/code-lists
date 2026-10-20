@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Mäntyluoto (Port of Pori) Mäntyluoto, FI-28880 PORI",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "MTY",
+    "UnCountryCode": "FI",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "28880",
+      "city": "Mäntyluoto",
+      "state": "Satakunta",
+      "country": "Finland"
     }
   },
   "website": "www.hacklin.fi",

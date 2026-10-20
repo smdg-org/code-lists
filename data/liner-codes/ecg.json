@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Upminster Court, 133 Hall Lane, Essex, RM14 1AL",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "UPM",
+    "UnCountryCode": "GB",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Hall Lane",
+      "streetNumber": "133",
+      "floor": "Upminster Court",
+      "postCode": "RM14 1AL",
+      "city": "Upminster",
+      "state": "Greater London",
+      "country": "United Kingdom"
     }
   },
   "website": "www.ellermanlines.com",

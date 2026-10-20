@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "1000 de La Gauchetière Street West, Suite 3500, Montreal, Quebec  H3B 4W5  CANADA, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "MTR",
+    "UnCountryCode": "CA",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "de La Gauchetière Street West",
+      "streetNumber": "1000",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "H3B 4W5",
+      "city": "Montreal",
+      "state": "Quebec",
+      "country": "Canada"
     }
   },
   "website": "http://www.fednav.com/en",

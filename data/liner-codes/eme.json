@@ -8,16 +8,16 @@
   "parentCompany": "ARK",
   "address": "see Arkas",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "IST",
+    "UnCountryCode": "TR",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Matbuat Sokak",
+      "streetNumber": "5",
       "floor": null,
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Istanbul",
+      "state": "Istanbul Province",
+      "country": "Türkiye"
     }
   },
   "website": "http://emesfeedering.com/schedules/",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "65 UBI ROAD 1, #02-60, OXLEY BIZHUB, SINGAPORE 408729",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "UBI ROAD 1",
+      "streetNumber": "65",
+      "floor": "#02-60, OXLEY BIZHUB",
+      "postCode": "408729",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "",

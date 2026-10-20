@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "BSC Bhaban, CHITTAGONG, Chittagong 4100, BD, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "CGP",
+    "UnCountryCode": "BD",
     "address": {
-      "street": null,
+      "street": "Saltgola Road",
       "streetNumber": null,
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "4100",
+      "city": "Chattogram",
+      "state": "Chattogram Division",
+      "country": "Bangladesh"
     }
   },
   "website": "http://bsc.portal.gov.bd/",

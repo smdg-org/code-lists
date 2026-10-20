@@ -6,18 +6,18 @@
   "linerName": "Neptune Pacific Direct Line",
   "carrierType": "VOCC",
   "parentCompany": "NPD",
-  "address": "NEPTUNE PACIFIC DIRECT LINE\u00A0 PTE. LTD. 78 Shenton Way, #15-03 Singapore 079120",
+  "address": "NEPTUNE PACIFIC DIRECT LINE  PTE. LTD. 78 Shenton Way, #15-03 Singapore 079120",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Shenton Way",
+      "streetNumber": "78",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "079120",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "https://www.npdlship.com/",

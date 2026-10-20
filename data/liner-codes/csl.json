@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "CSAL Montreal, 478 McGill Street, Montreal, Quebec H2Y 2H2 Canada, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "MTR",
+    "UnCountryCode": "CA",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "McGill Street",
+      "streetNumber": "478",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "H2Y 2H2",
+      "city": "Montreal",
+      "state": "Quebec",
+      "country": "Canada"
     }
   },
   "website": "http://csaline.com/",

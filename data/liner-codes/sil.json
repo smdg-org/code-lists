@@ -3,7 +3,7 @@
   "codeStatus": "Active",
   "linerCodeVersion": "V2",
   "linerSMDGCode": "SIL",
-  "linerName": "SILMAR SHIPPING FZCO (UAE)",
+  "linerName": "Silmar-Shipping",
   "carrierType": "VOCC",
   "parentCompany": "SIL",
   "address": "SILMAR SHIPPING FZCO,Dubai CommerCity,Business Cluster - Building BCB1 141,P.O.BOX 124365, Dubai,United Arab Emirates",
@@ -11,13 +11,13 @@
     "UnLocode": "DXB",
     "UnCountryCode": "AE",
     "address": {
-      "street": "Dubai CommerCity Business Cluster",
-      "streetNumber": "Building BCB1 141",
-      "floor": "Office 2001",
+      "street": null,
+      "streetNumber": null,
+      "floor": "Dubai CommerCity\nBusiness Cluster - Building BCB1 141",
       "postCode": null,
-      "city": "DUBAI",
-      "state": null,
-      "country": "UNITED ARAB EMIRATES"
+      "city": "Dubai",
+      "state": "Dubai",
+      "country": "United Arab Emirates"
     }
   },
   "website": "https://silmar-shipping.com/",

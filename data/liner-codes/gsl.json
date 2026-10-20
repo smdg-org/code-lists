@@ -8,16 +8,16 @@
   "parentCompany": "ZIM",
   "address": "Manulife Place, 348 Kwun Tong Road, Kwun Tong, Kowloon, Hong Kong",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HKG",
+    "UnCountryCode": "HK",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Kwun Tong Road",
+      "streetNumber": "348",
+      "floor": "Manulife Place",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Hong Kong",
+      "state": "Hong Kong SAR",
+      "country": "Hong Kong"
     }
   },
   "website": "https://www.gslltd.com.hk/",

@@ -8,16 +8,16 @@
   "parentCompany": "NPD",
   "address": "82 Richard Pearse Drive, Mangere, Auckland Airport 2022",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "AKL",
+    "UnCountryCode": "NZ",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Richard Pearse Drive",
+      "streetNumber": "82",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "2022",
+      "city": "Auckland",
+      "state": "Auckland Region",
+      "country": "New Zealand"
     }
   },
   "website": "https://www.pacificforumline.com/",

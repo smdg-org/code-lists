@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "No.38, 6th AVE., Gandhi AVE., P.O.Box : 158753794 Tehran 15177 Iran, bosaco@bosacoir.com  982188795211+",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "THR",
+    "UnCountryCode": "IR",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "6th AVE., Gandhi AVE",
+      "streetNumber": "38",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "15177",
+      "city": "Tehran",
+      "state": "Tehran Province",
+      "country": "Iran"
     }
   },
   "website": "http://www.bosaco.ir/",

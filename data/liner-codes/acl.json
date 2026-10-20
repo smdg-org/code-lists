@@ -8,16 +8,16 @@
   "parentCompany": "GNC",
   "address": "ATLANTIC CONTAINER LINE, 50 CARDINAL DRIVE, Zip Code , City WESTFIELD, NJ 07090, State , Country United States, Telephone +1 908 518 5720",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "WFU",
+    "UnCountryCode": "US",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Cardinal Drive",
+      "streetNumber": "50",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "07090",
+      "city": "Westfield",
+      "state": "New Jersey",
+      "country": "United States"
     }
   },
   "website": "http://www.aclcargo.com/",

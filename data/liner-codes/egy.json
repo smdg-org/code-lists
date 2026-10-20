@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Egyptian Navigation Company S.A.E. Building 2, El Nasr Street, Al Gomrok Area, Egypt, Alexandria, 21511",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "ALY",
+    "UnCountryCode": "EG",
     "address": {
-      "street": null,
+      "street": "El Nasr Street",
       "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "floor": "Egyptian Navigation Company S.A.E. Building 2",
+      "postCode": "21511",
+      "city": "Alexandria",
+      "state": "Alexandria Governorate",
+      "country": "Egypt"
     }
   },
   "website": "http://www.enc.com.eg/",

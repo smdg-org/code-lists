@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "BSA Logistics Head Office, Jl. Raya Cakung Cilincing Km 3, Jakarta 13910, Indonesia.",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "JKT",
+    "UnCountryCode": "ID",
     "address": {
-      "street": null,
+      "street": "Jl. Raya Cakung Cilincing Km 3",
       "streetNumber": null,
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "13910",
+      "city": "Jakarta",
+      "state": "Special Capital Region of Jakarta",
+      "country": "Indonesia"
     }
   },
   "website": "http://bsa-logistics.co.id/",

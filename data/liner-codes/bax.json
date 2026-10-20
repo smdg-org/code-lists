@@ -13,16 +13,16 @@
     "address": {
       "street": "PRESIDENT JOHN KENNEDY STREET",
       "streetNumber": null,
-      "floor": "PMSL HARBOUR FRONT BUILDING",
+      "floor": "PMSL, HARBOUR FRONT BUILDING",
       "postCode": null,
-      "city": "PORT LOUIS",
-      "state": null,
-      "country": "MAURITIUS"
+      "city": "Port Louis",
+      "state": "Port Louis District",
+      "country": "Mauritius"
     }
   },
   "website": "www.baylines.net",
   "remarks": "RHS GROUP",
-  "validFrom": "2026-03-02",
+  "validFrom": "2026-02-19",
   "validTo": null,
   "changeLogs": [
     {

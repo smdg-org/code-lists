@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Building 12, Lane 706 Wuxing Street, Pudong District, Shanghai 201204，China, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "PDG",
+    "UnCountryCode": "CN",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Lane 706 Wuxing Street",
+      "streetNumber": "706",
+      "floor": "Building 12",
+      "postCode": "201204",
+      "city": "Shanghai",
+      "state": "Shanghai Municipality",
+      "country": "China"
     }
   },
   "website": "https://www.culines.com/en/",

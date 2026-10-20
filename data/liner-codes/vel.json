@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "25 DE AGOSTO 18 25 OF 301, Montevideo",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "MVD",
+    "UnCountryCode": "UY",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "25 de Agosto",
+      "streetNumber": "1825",
+      "floor": "Office 301",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Montevideo",
+      "state": "Montevideo Department",
+      "country": "Uruguay"
     }
   },
   "website": "https://www.velmaren.com.uy",

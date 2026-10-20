@@ -8,16 +8,16 @@
   "parentCompany": "UFE",
   "address": "C/o Unifeeder A/S, Tangen 6, DK-8200 Aarhus N, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "AAR",
+    "UnCountryCode": "DK",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Tangen",
+      "streetNumber": "6",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "8200",
+      "city": "Aarhus",
+      "state": "Central Denmark Region",
+      "country": "Denmark"
     }
   },
   "website": "http://www.unifeeder.com/",

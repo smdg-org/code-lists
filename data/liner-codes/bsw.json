@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "BATAMINDO SHIPPING & WAREHOUSING PTE LTD, (Co. Reg. No. 199002977M), Singapore, Office:, 28 Genting Lane, Platinum 28, #07-08, Singapore 349585, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Genting Lane",
+      "streetNumber": "28",
+      "floor": "#07-08 Platinum",
+      "postCode": "349585",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "http://www.bsw.com.sg/",

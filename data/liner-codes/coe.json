@@ -16,13 +16,13 @@
       "floor": null,
       "postCode": "20459",
       "city": "Hamburg",
-      "state": null,
+      "state": "Hamburg",
       "country": "Germany"
     }
   },
   "website": "https://world.lines.coscoshipping.com/europe/en/home",
   "remarks": "",
-  "validFrom": "2026-05-29",
+  "validFrom": "2015-04-08",
   "validTo": null,
   "changeLogs": [
     {
@@ -38,7 +38,7 @@
     {
       "actionCode": "Updated",
       "linerCodeVersion": "V2",
-      "lastUpdateDate": "2026-06-15",
+      "lastUpdateDate": "2026-05-29",
       "updateRequestedBy": "COSCO SHIPPING Lines (Europe) GmbH",
       "reason": "vessels operated by Diamond Line GmbH instead of COSCO SHIPPING Lines (Europe) GmbH",
       "changedFields": [],

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "CATHAY SHIPPING & FREIGHT SERVICES PTE LTD, Block 211 Henderson Road, #05-02, Henderson Industrial Park, Singapore 159552, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Henderson Road",
+      "streetNumber": "211",
+      "floor": "#05-02",
+      "postCode": "159552",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "http://www.cathayshpg.com/aboutus.html",

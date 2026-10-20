@@ -8,16 +8,16 @@
   "parentCompany": "EMC",
   "address": "No 166, sec. 2, Mingsheng E. Road, 104, Taipei, Taiwan, R.O.C.",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "TPE",
+    "UnCountryCode": "TW",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Sec. 2, Mingsheng E. Road",
+      "streetNumber": "166",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "104",
+      "city": "Taipei",
+      "state": "Taipei City",
+      "country": "Taiwan"
     }
   },
   "website": "https://www.evergreen-marine.com/",

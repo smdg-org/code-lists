@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "UNIT 702 FOURSEAS BUILDING, 208-212 NATHAN ROAD; 208-212 HONGKONG",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HKG",
+    "UnCountryCode": "HK",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "NATHAN ROAD",
+      "streetNumber": "208-212",
+      "floor": "UNIT 702 FOURSEAS BUILDING",
+      "postCode": "208-212",
+      "city": "Hong Kong",
+      "state": "Hong Kong SAR",
+      "country": "Hong Kong"
     }
   },
   "website": "https://eb.kawashipping.com/",

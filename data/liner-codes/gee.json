@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Geest Line, Eaglepoint, Little Park Farm Road, Fareham, PO15 5TD, UK",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "FHM",
+    "UnCountryCode": "GB",
     "address": {
-      "street": null,
+      "street": "Little Park Farm Road",
       "streetNumber": null,
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "PO15 5TD",
+      "city": "Fareham",
+      "state": "Hampshire",
+      "country": "United Kingdom"
     }
   },
   "website": "https://www.geestline.com",

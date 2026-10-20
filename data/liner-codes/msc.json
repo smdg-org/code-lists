@@ -8,16 +8,16 @@
   "parentCompany": "MSC",
   "address": "MSC Mediterranean Shipping Company S.A.Chemin Rieu 12-14,1208 Geneva Switzerland",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "GVA",
+    "UnCountryCode": "CH",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Chemin Rieu",
+      "streetNumber": "12-14",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "1208",
+      "city": "Geneva",
+      "state": "Canton of Geneva",
+      "country": "Switzerland"
     }
   },
   "website": "https://www.msc.com/deu",

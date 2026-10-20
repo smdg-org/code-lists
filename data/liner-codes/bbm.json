@@ -8,16 +8,16 @@
   "parentCompany": "BBM",
   "address": "Al Nokhitha Building, Office No. 232, Al Hamriyah Port, Dubai",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
-      "street": null,
+      "street": "Al Hamriyah Port",
       "streetNumber": null,
-      "floor": null,
+      "floor": "Al Nokhitha Building, Office 232",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Dubai",
+      "state": "Dubai",
+      "country": "United Arab Emirates"
     }
   },
   "website": "https://www.bluebirdshipping.com/",

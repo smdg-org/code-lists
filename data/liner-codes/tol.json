@@ -8,16 +8,16 @@
   "parentCompany": "SWI",
   "address": "Head Office, Tasman Orient Line C V, Fletcher Challenge Finance Limited, Building \"Alexander Poort\", Marten Meesweg 107, 3068 AV Rotterdam, The Netherlands",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "RTM",
+    "UnCountryCode": "NL",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Marten Meesweg",
+      "streetNumber": "107",
+      "floor": "Building \"Alexander Poort\"",
+      "postCode": "3068",
+      "city": "Rotterdam",
+      "state": "South Holland",
+      "country": "Netherlands"
     }
   },
   "website": "http://www.tongjin.com/html/tasman/",

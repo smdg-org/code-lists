@@ -8,16 +8,16 @@
   "parentCompany": "LAND UNION",
   "address": "Room D3, 11th Floor, Luk Hop Industrial Building, 8 Luk Hop Street, San Po Kong, Kowloon, Hong Kong China",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HKG",
+    "UnCountryCode": "HK",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "Luk Hop Street",
+      "streetNumber": "8",
+      "floor": "Room D3, 11th Floor, Luk Hop Industrial Building",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Hong Kong",
+      "state": "Hong Kong SAR",
+      "country": "Hong Kong"
     }
   },
   "website": "http://www.horizonx.net.cn/",

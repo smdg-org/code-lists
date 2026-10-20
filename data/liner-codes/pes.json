@@ -8,16 +8,16 @@
   "parentCompany": "SMC",
   "address": " 413，4/F LUCKY CTR 165-171 WAN CHAI RD WAN CHAI HONG KONG",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "HKG",
+    "UnCountryCode": "HK",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Wan Chai Road",
+      "streetNumber": "165-171",
       "floor": null,
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Hong Kong",
+      "state": "Hong Kong SAR",
+      "country": "Hong Kong"
     }
   },
   "website": "https://www.spgline.com",

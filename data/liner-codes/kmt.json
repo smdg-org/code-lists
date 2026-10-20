@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "15F Hanjin Building 63 Namdaemun-Ro Jung-Gu Seoul, 04532 Korea, Republic of (South)",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SEL",
+    "UnCountryCode": "KR",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Namdaemun-Ro",
+      "streetNumber": "63",
+      "floor": "15F Hanjin Building",
+      "postCode": "04532",
+      "city": "Seoul",
+      "state": "Seoul Special City",
+      "country": "South Korea"
     }
   },
   "website": " http://www.kmtc.co.kr/",

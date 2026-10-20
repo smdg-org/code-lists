@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "555 12TH STREET-SUITE 700, Zip Code , City OAKLAND, CA 94610, State , Country United States",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "OAK",
+    "UnCountryCode": "US",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "12th Street",
+      "streetNumber": "555",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "94610",
+      "city": "Oakland",
+      "state": "California",
+      "country": "United States"
     }
   },
   "website": "https://www.matson.com/",

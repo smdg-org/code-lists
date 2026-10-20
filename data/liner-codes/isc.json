@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Tel Aviv, Address: 2 Hashlosha St. Tel-aviv, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "TLV",
+    "UnCountryCode": "IL",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Hashlosha St",
+      "streetNumber": "2",
       "floor": null,
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Tel Aviv",
+      "state": "Tel Aviv District",
+      "country": "Israel"
     }
   },
   "website": "http://www.allalouf.com/",

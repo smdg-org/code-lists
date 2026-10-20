@@ -8,16 +8,16 @@
   "parentCompany": "HLC",
   "address": "Rua Gil Stein Ferreira, 258 - Centro - Itajai - SC - CEP 88301-210",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "ITJ",
+    "UnCountryCode": "BR",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Rua Gil Stein Ferreira",
+      "streetNumber": "258",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "88301-210",
+      "city": "Itajai",
+      "state": "Santa Catarina",
+      "country": "Brazil"
     }
   },
   "website": "",

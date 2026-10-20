@@ -3,21 +3,21 @@
   "codeStatus": "Active",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "LMX",
-  "linerName": "logistics map express ",
+  "linerName": "Logistics Map Express",
   "carrierType": "NVOCC",
-  "parentCompany": "lmx",
+  "parentCompany": "LMX",
   "address": "22 emtdad said zakaria st, sheraton< cairo, Egypt",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "CAI",
+    "UnCountryCode": "EG",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "emtdad said zakaria st",
+      "streetNumber": "22",
+      "floor": "sheraton",
+      "postCode": "11511",
+      "city": "Cairo",
+      "state": "Cairo Governorate",
+      "country": "Egypt"
     }
   },
   "website": "https://www.lmexllc.com/",

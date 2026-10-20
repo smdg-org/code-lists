@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Sharaf Building, P.O.BOX :21886, Dubai, UAE",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
       "street": null,
       "streetNumber": null,
-      "floor": null,
+      "floor": "Sharaf Building, P.O.BOX :21886",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Dubai",
+      "state": "Dubai",
+      "country": "United Arab Emirates"
     }
   },
   "website": "http://www.ossfeeders.com/",

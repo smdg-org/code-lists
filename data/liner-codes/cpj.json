@@ -8,16 +8,16 @@
   "parentCompany": "Chipolbrok",
   "address": "No.55, Yan'an East Road, Shanghai",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SGH",
+    "UnCountryCode": "CN",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Yan'an East Road",
+      "streetNumber": "55",
       "floor": null,
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Shanghai",
+      "state": "Shanghai Municipality",
+      "country": "China"
     }
   },
   "website": "https://www.chipolbrok.com",

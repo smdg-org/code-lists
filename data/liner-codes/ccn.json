@@ -5,7 +5,7 @@
   "linerSMDGCode": "CCN",
   "linerName": "Compania Maritima Chilena",
   "carrierType": "VOCC",
-  "parentCompany": "Grupo Empresas Navieras S.A.",
+  "parentCompany": null,
   "address": "14 Norte 976, Viña del Mar, Chile",
   "addressLocation": {
     "UnLocode": "KNA",
@@ -15,8 +15,8 @@
       "streetNumber": "976",
       "floor": null,
       "postCode": null,
-      "city": "Viña del Mar",
-      "state": "Valparaíso",
+      "city": "Vina del Mar",
+      "state": "Valparaiso Region",
       "country": "Chile"
     }
   },
@@ -38,7 +38,7 @@
     {
       "actionCode": "Updated",
       "linerCodeVersion": "V2",
-      "lastUpdateDate": "2025-07-30",
+      "lastUpdateDate": "2025-07-21",
       "updateRequestedBy": "SMDG",
       "reason": "new information",
       "changedFields": [],

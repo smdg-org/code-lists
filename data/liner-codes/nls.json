@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Neptune Lines Shipping & Managing Enterprises S.A., 5-9 Iassonos Street, GR - 18537 Piraeus, Hellas",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "PIR",
+    "UnCountryCode": "GR",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Iassonos Street",
+      "streetNumber": "5-9",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "18537",
+      "city": "Piraeus",
+      "state": "Attica",
+      "country": "Greece"
     }
   },
   "website": "http://www.neptunelines.com/",

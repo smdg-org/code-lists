@@ -8,16 +8,16 @@
   "parentCompany": "FRL",
   "address": "3101-04, Oaks Liwa Heights Cluster W, JLT, Dubai - U.A.E",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
       "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "streetNumber": "3101-04",
+      "floor": "Oaks Liwa Heights Cluster W, JLT,",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Dubai",
+      "state": "Dubai",
+      "country": "United Arab Emirates"
     }
   },
   "website": "www.feederlogistic.com",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "429-6 Myeongi 1-ro,Daesan-sup, Seosun-si, Chungcheongnem-do , ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SSA",
+    "UnCountryCode": "KR",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Myeongi 1-ro",
+      "streetNumber": "429-6",
       "floor": null,
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Seosan",
+      "state": "South Chungcheong Province",
+      "country": "South Korea"
     }
   },
   "website": "http://www.hyship.co.kr/sub_ceo.html",

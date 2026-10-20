@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "CORPORATE OFFICE, Navio Shipping LLC, Suite 3801, Aspin Commercial Tower, Sheikh Zayed Road,PO Box : 122147, Dubai, United Arab Emirates.",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "DXB",
+    "UnCountryCode": "AE",
     "address": {
-      "street": null,
+      "street": "Sheikh Zayed Road",
       "streetNumber": null,
-      "floor": null,
+      "floor": "Suite 3801, Aspin Commercial Tower",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Dubai",
+      "state": "Dubai",
+      "country": "United Arab Emirates"
     }
   },
   "website": "http://www.navio-shipping.com/contact.php",

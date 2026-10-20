@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Auckland Office, (Sales, Shipping, Commercial), Level 6, 35 High St, Auckland, New Zealand, PO Box 597, Shortland St, Auckland, New Zealand",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "AKL",
+    "UnCountryCode": "NZ",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
+      "street": "High St",
+      "streetNumber": "35",
+      "floor": "Level 6",
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Auckland",
+      "state": "Auckland Region",
+      "country": "New Zealand"
     }
   },
   "website": "http://www.spsltd.co.nz/",

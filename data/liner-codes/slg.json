@@ -3,7 +3,7 @@
   "codeStatus": "Active",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SLG",
-  "linerName": "Sea Legend Line Ltd.",
+  "linerName": "Sea Legend Line Limited",
   "carrierType": "VOCC",
   "parentCompany": null,
   "address": "Centre street 18, UNIT 3A-8, 12/F, Hong Kong",
@@ -11,12 +11,12 @@
     "UnLocode": "HKG",
     "UnCountryCode": "HK",
     "address": {
-      "street": "Centre street",
+      "street": "CENTRE STREET",
       "streetNumber": "18",
-      "floor": "UNIT 3A-8, 12/F",
+      "floor": "UNIT 3A-8, 12/F, KAISER CENTER",
       "postCode": null,
       "city": "Hong Kong",
-      "state": null,
+      "state": "Hong Kong SAR",
       "country": "Hong Kong"
     }
   },

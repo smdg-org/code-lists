@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "2 Huanhai Rd, Zhifu, Yantai, Shandong, China, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "YAT",
+    "UnCountryCode": "CN",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Huanhai Rd",
+      "streetNumber": "2",
       "floor": null,
       "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "city": "Yantai",
+      "state": "Shandong",
+      "country": "China"
     }
   },
   "website": "",

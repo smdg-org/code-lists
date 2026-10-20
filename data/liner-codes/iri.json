@@ -8,16 +8,16 @@
   "parentCompany": "ISL",
   "address": "see ISL",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "THR",
+    "UnCountryCode": "IR",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "SHAHID SAYYAD SHIRAZEE SQ.",
+      "streetNumber": "37",
+      "floor": "Aseman Tower",
+      "postCode": "19395-1311",
+      "city": "Tehran",
+      "state": "Tehran Province",
+      "country": "Iran"
     }
   },
   "website": "http://www.irisl.net/default.aspx",

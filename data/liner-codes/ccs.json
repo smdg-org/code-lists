@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Lvl 3 8 Spring St, Sydney NSW 2000, ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SYD",
+    "UnCountryCode": "AU",
     "address": {
-      "street": null,
-      "streetNumber": null,
-      "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "street": "Spring St",
+      "streetNumber": "8",
+      "floor": "Lvl 3",
+      "postCode": "2000",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "country": "Australia"
     }
   },
   "website": "",

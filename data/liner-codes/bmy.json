@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "3791 JALAN BUKIT MERAH, #09-04, E-CENTRE @ REDHILL, SINGAPORE (159471)",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "JALAN BUKIT MERAH",
+      "streetNumber": "3791",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "159471",
+      "city": "Singapore",
+      "state": "Central Region",
+      "country": "Singapore"
     }
   },
   "website": "not available",

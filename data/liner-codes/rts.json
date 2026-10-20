@@ -5,22 +5,22 @@
   "linerSMDGCode": "RTS",
   "linerName": "RTSB Line",
   "carrierType": "NVOCC",
-  "parentCompany": "",
+  "parentCompany": "RTSB",
   "address": "Industriestraße 24, 61381 Friedrichsdorf ",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "FRF",
+    "UnCountryCode": "DE",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Industriestraße",
+      "streetNumber": "24",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "61381",
+      "city": "Friedrichsdorf",
+      "state": "Hesse",
+      "country": "Germany"
     }
   },
-  "website": "rtsb.group",
+  "website": "https://rtsb.group/",
   "remarks": "",
   "validFrom": "2026-05-01",
   "validTo": null,

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Sub Lot 153 (Parent Lot 70), Jalan Kuala Baram, Kuala Baram, 98100 Miri, Sarawak, Malaysia, 98000 Miri, Sarawak, Malaysia",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "MYY",
+    "UnCountryCode": "MY",
     "address": {
-      "street": null,
+      "street": "Jalan Kuala Baram",
       "streetNumber": null,
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "98100",
+      "city": "Miri",
+      "state": "Sarawak",
+      "country": "Malaysia"
     }
   },
   "website": "https://www.syshippingcorp.com.my/shipping/shipping-services.html",

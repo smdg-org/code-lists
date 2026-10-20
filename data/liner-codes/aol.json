@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Apollo Shipping GmbH & Co. KG, Sachsenbergstraße 5, D-21614 Buxtehude",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "BUX",
+    "UnCountryCode": "DE",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "Sachsenbergstraße",
+      "streetNumber": "5",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "21614",
+      "city": "Buxtehude",
+      "state": "Lower Saxony",
+      "country": "Germany"
     }
   },
   "website": "http://www.apolloshipping.de",

@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "Pandamaran, 42000 Port Klang, Selangor, Malaysia",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "PKG",
+    "UnCountryCode": "MY",
     "address": {
       "street": null,
       "streetNumber": null,
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "42000",
+      "city": "Port Klang",
+      "state": "Selangor",
+      "country": "Malaysia"
     }
   },
   "website": "",

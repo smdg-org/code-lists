@@ -8,16 +8,16 @@
   "parentCompany": "",
   "address": "8B ADMIRALTY STREET, #02-03, 8B@ADMIRALTY, SINGAPORE 757440",
   "addressLocation": {
-    "UnLocode": null,
-    "UnCountryCode": null,
+    "UnLocode": "SIN",
+    "UnCountryCode": "SG",
     "address": {
-      "street": null,
-      "streetNumber": null,
+      "street": "ADMIRALTY STREET",
+      "streetNumber": "8B",
       "floor": null,
-      "postCode": null,
-      "city": null,
-      "state": null,
-      "country": null
+      "postCode": "757440",
+      "city": "Singapore",
+      "state": "North Region",
+      "country": "Singapore"
     }
   },
   "website": "not available",
