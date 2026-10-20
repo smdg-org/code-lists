@@ -165,7 +165,7 @@
     "parentCompany": "",
     "address": "Moscow, 18 Andropova Ave., Building 5, ",
     "addressLocation": {
-      "UnLocode": "LED",
+      "UnLocode": "MOW",
       "UnCountryCode": "RU",
       "address": {
         "street": "Andropova Ave",
@@ -210,7 +210,7 @@
         "street": "Santa Lucia Street",
         "streetNumber": "4",
         "floor": null,
-        "postCode": "1188",
+        "postCode": "VLT 1188",
         "city": "Valletta",
         "state": "Port Region",
         "country": "Malta"
@@ -1118,7 +1118,7 @@
         "streetNumber": null,
         "floor": null,
         "postCode": "RM16 6EW",
-        "city": "Essex",
+        "city": "Grays",
         "state": "Essex",
         "country": "United Kingdom"
       }
@@ -1468,7 +1468,7 @@
         "street": "Den Hamweg",
         "streetNumber": "30",
         "floor": null,
-        "postCode": "3008",
+        "postCode": "3008 JA",
         "city": "Rotterdam",
         "state": "South Holland",
         "country": "Netherlands"
