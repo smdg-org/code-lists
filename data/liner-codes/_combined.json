@@ -797,7 +797,7 @@
     "linerName": "ARC Line",
     "carrierType": "NVOCC",
     "parentCompany": "",
-    "address": "SUNMARINE SHIPPING SERVICES L.L.C, P.O.Box 25890, Rais Hassan Saadi Building, Al Mankool Road, Bur Dubai, Dubai, United Arab Emirates,",
+    "address": "PMSL, HARBOUR FRONT BUILDING, PRESIDENT JOHN KENNEDY STREET, PORT LOUIS, MAURITIUS",
     "addressLocation": {
       "UnLocode": "PLU",
       "UnCountryCode": "MU",
@@ -2328,7 +2328,7 @@
     "linerName": "Cordelia Container Shipping Line Limited",
     "carrierType": "UNKNOWN",
     "parentCompany": "",
-    "address": "134 Archiepiskopou Makariou Avenue, Yiota Court, Apt. 102, 3021 Limassol, CYPRUS",
+    "address": "#103, 1st Floor, Building 04, Al Asayel Street, Bay Square, Business Bay, Dubai – UAE",
     "addressLocation": {
       "UnLocode": "DXB",
       "UnCountryCode": "AE",
@@ -3099,7 +3099,7 @@
     "linerName": "Cool Carriers",
     "carrierType": "UNKNOWN",
     "parentCompany": "",
-    "address": "Cool Carriers AB, Barnhusgatan 16, SE-111 23 Stockholm, Sweden",
+    "address": "Cool Carriers AB, Repslagargatan 15B, SE-118 46 Stockholm, Sweden",
     "addressLocation": {
       "UnLocode": "STO",
       "UnCountryCode": "SE",
@@ -3216,7 +3216,7 @@
     "linerName": "New Golden Sea Shipping Pte Ltd",
     "carrierType": "VOCC",
     "parentCompany": "COS",
-    "address": "30 Cecil Street, #25-01 Prudential Tower Singapore 049712",
+    "address": "31 Cecil Street, #25-01 Prudential Tower Singapore 049712",
     "addressLocation": {
       "UnLocode": "SIN",
       "UnCountryCode": "SG",
@@ -3224,7 +3224,7 @@
         "street": "Cecil Street",
         "streetNumber": "31",
         "floor": "#25-01 Prudential Tower Singapore",
-        "postCode": "49712",
+        "postCode": "049712",
         "city": "Singapore",
         "state": "Central Region",
         "country": "Singapore"
@@ -3549,7 +3549,7 @@
         "postCode": null,
         "city": "Hong Kong",
         "state": "Hong Kong SAR",
-        "country": "China"
+        "country": "Hong Kong"
       }
     },
     "website": "www.chenxinshipping.com",
@@ -7091,7 +7091,7 @@
     "parentCompany": "",
     "address": "Kuk Jae Express , 12407 E Slauson Ave # A & B, Whittier, CA 90606",
     "addressLocation": {
-      "UnLocode": "USWHR",
+      "UnLocode": "WHR",
       "UnCountryCode": "US",
       "address": {
         "street": "E Slauson Ave",
@@ -8746,7 +8746,7 @@
         "street": "International Road",
         "streetNumber": "11",
         "floor": null,
-        "postCode": "619622",
+        "postCode": "079903",
         "city": "Singapore",
         "state": "West Region",
         "country": "Singapore"
@@ -9375,7 +9375,7 @@
     "address": "Olaya Towers (Tower B)Floors(12-15), Olaya District, Olaya Street, Toll Free: 920020007, P.O. Box 8931, Riyadh 11492",
     "addressLocation": {
       "UnLocode": "RUH",
-      "UnCountryCode": "AE",
+      "UnCountryCode": "SA",
       "address": {
         "street": "Olaya Street",
         "streetNumber": null,
@@ -9603,7 +9603,7 @@
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
     "linerSMDGCode": "OKL",
-    "linerName": "SHANGHAI BISHENG LOGISTICS\nTECHNOLOGY CO., LTD",
+    "linerName": "SHANGHAI BISHENG LOGISTICS TECHNOLOGY CO., LTD",
     "carrierType": "NVOCC",
     "parentCompany": "SNL",
     "address": "7 Temasek Boulevard Suntec Tower One #10-01/02 , Singapore 038987",
