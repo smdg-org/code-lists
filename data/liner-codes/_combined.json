@@ -995,7 +995,7 @@
     "address": "AW Ship Management Ltd., 9 Alie Street, London, E1 8DE, United Kingdom",
     "addressLocation": {
       "UnLocode": "LON",
-      "UnCountryCode": "BG",
+      "UnCountryCode": "GB",
       "address": {
         "street": "Alie Street",
         "streetNumber": "9",
