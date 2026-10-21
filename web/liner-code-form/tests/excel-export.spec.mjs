@@ -8,7 +8,7 @@ const template = unzipSync(await readFile(new URL("../liner-codes-template.xlsx"
 const headers = [
   "Code", "Liner Name", "Parent Company", "Carrier Type", "Valid From", "Valid To",
   "Website", "Street", "Street Number", "Building/Floor", "ZP Code", "City",
-  "State", "Country", "UNLOCODE", "Remarks", "Status", "Last update"
+  "State", "Country", "UNLOCODE", "Status", "Last update"
 ];
 const active = {
   linerSMDGCode: "ABC", linerName: "Alpha & <Shipping>", parentCompany: "Parent",
@@ -43,7 +43,7 @@ async function rows(page, bytes) {
   }, strFromU8(bytes));
 }
 
-test("export preserves branding and Description, maps A-R, splits all statuses and sorts codes", async ({ page }) => {
+test("export preserves branding and Description, maps A-Q without remarks, splits all statuses and sorts codes", async ({ page }) => {
   await page.clock.setFixedTime(new Date("2026-10-20T22:30:00Z"));
   await page.goto("/liner-codes.html");
   const expired = { ...active, linerSMDGCode: "EXP", codeStatus: "Expired", carrierType: "VOCC" };
@@ -66,6 +66,28 @@ test("export preserves branding and Description, maps A-R, splits all statuses a
       };
     }, xml);
     expect(version).toEqual({ value: "v20261021", merged: true });
+    const layout = await page.evaluate(xml => {
+      const doc = new DOMParser().parseFromString(xml, "application/xml");
+      return {
+        dimension: doc.querySelector("dimension").getAttribute("ref"),
+        filter: doc.querySelector("autoFilter").getAttribute("ref"),
+        columns: [...doc.querySelectorAll("cols col")].map(col => ({
+          index: col.getAttribute("min"), width: col.getAttribute("width")
+        })),
+        rows: [...doc.querySelectorAll("row")].filter(row => Number(row.getAttribute("r")) >= 9)
+          .map(row => ({ spans: row.getAttribute("spans"), cells: [...row.children].map(cell => cell.getAttribute("r")) }))
+      };
+    }, xml);
+    const lastRow = sheet === "sheet1" ? 10 : 12;
+    expect(layout.dimension).toBe(`A1:Q${lastRow}`);
+    expect(layout.filter).toBe(`A9:Q${lastRow}`);
+    expect(layout.columns).toHaveLength(17);
+    expect(layout.columns.slice(-2)).toEqual([{ index: "16", width: "24" }, { index: "17", width: "15" }]);
+    for (const [index, row] of layout.rows.entries()) {
+      expect(row.spans).toBe("1:17");
+      expect(row.cells).toEqual(headers.map((_, column) => `${String.fromCharCode(65 + column)}${index + 9}`));
+    }
+    expect(xml).not.toContain("=SUM(1,2)");
     const firstRows = await page.evaluate(({ generated, original }) => {
       const parse = xml => new DOMParser().parseFromString(xml, "application/xml");
       const headerRows = xml => [...parse(xml).getElementsByTagName("row")]
@@ -88,14 +110,15 @@ test("export preserves branding and Description, maps A-R, splits all statuses a
   expect(activeRows[1].map(cell => cell.value)).toEqual([
     "ABC", "Alpha & <Shipping>", "Parent", "", "46023", "46388", "https://example.com",
     "Chemin Rieu", "12-14", "Building\nFloor", "001208", "Geneva",
-    "Canton of Geneva", "Switzerland", "CHGVA", "=SUM(1,2)", "Active", "46307"
+    "Canton of Geneva", "Switzerland", "CHGVA", "Active", "46307"
   ]);
   expect(activeRows[1][10].type).toBe("inlineStr");
-  expect(activeRows[1][15].formula).toBeUndefined();
+  expect(activeRows[1][16].type).toBeNull();
   const outdatedRows = await rows(page, files["xl/worksheets/sheet2.xml"]);
   expect(outdatedRows[0].map(cell => cell.value)).toEqual(headers);
   expect(outdatedRows.slice(1).map(row => row[0].value)).toEqual(["DEL", "EXP", "MRK"]);
-  expect(outdatedRows[1].slice(2, 16).every(cell => cell.value === "")).toBe(true);
+  expect(outdatedRows[1].slice(2, 15).every(cell => cell.value === "")).toBe(true);
+  expect(outdatedRows[1][15].value).toBe("Deleted");
   expect(strFromU8(files["xl/worksheets/sheet1.xml"])).not.toContain("DO NOT EXPORT");
 });
 

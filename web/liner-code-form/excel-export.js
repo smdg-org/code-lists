@@ -7,7 +7,7 @@ const officeRelationships = "http://schemas.openxmlformats.org/officeDocument/20
 export const excelHeaders = [
   "Code", "Liner Name", "Parent Company", "Carrier Type", "Valid From", "Valid To",
   "Website", "Street", "Street Number", "Building/Floor", "ZP Code", "City",
-  "State", "Country", "UNLOCODE", "Remarks", "Status", "Last update"
+  "State", "Country", "UNLOCODE", "Status", "Last update"
 ];
 
 export function excelValues(record) {
@@ -19,7 +19,7 @@ export function excelValues(record) {
     record.carrierType?.toUpperCase() === "UNKNOWN" ? "" : record.carrierType,
     record.validFrom, record.validTo, record.website, address.street, address.streetNumber,
     address.floor, address.postCode, address.city, address.state, address.country,
-    `${location.UnCountryCode ?? ""}${location.UnLocode ?? ""}`, record.remarks,
+    `${location.UnCountryCode ?? ""}${location.UnLocode ?? ""}`,
     record.codeStatus, lastUpdate
   ].map(value => value ?? "");
 }
@@ -84,19 +84,21 @@ function worksheet(bytes, records, date) {
   for (const row of [...data.children]) {
     if (Number(row.getAttribute("r")) >= 9) row.remove();
   }
-  const header = element(doc, "row", { r: 9, ht: 40, customHeight: 1, spans: "1:18" });
+  const lastColumn = String.fromCharCode(64 + excelHeaders.length);
+  const spans = `1:${excelHeaders.length}`;
+  const header = element(doc, "row", { r: 9, ht: 40, customHeight: 1, spans });
   excelHeaders.forEach((value, i) => header.append(cell(doc, `${String.fromCharCode(65 + i)}9`, value, i === 0 ? 20 : 21)));
   data.append(header);
   records.forEach((record, index) => {
     const number = index + 10;
-    const row = element(doc, "row", { r: number, spans: "1:18" });
+    const row = element(doc, "row", { r: number, spans });
     excelValues(record).forEach((value, i) => {
-      const date = [4, 5, 17].includes(i);
+      const date = [4, 5, 16].includes(i);
       row.append(cell(doc, `${String.fromCharCode(65 + i)}${number}`, value, date ? 29 : i === 0 ? 25 : 26, date));
     });
     data.append(row);
   });
-  first(root, "dimension").setAttribute("ref", `A1:R${records.length + 9}`);
+  first(root, "dimension").setAttribute("ref", `A1:${lastColumn}${records.length + 9}`);
   // Remove rules and links tied to the old columns/records, retaining branding links.
   for (const name of ["sortState", "dataValidations", "sheetProtection", "autoFilter"]) {
     first(root, name)?.remove();
@@ -108,11 +110,11 @@ function worksheet(bytes, records, date) {
     }
     if (!hyperlinks.children.length) hyperlinks.remove();
   }
-  const filter = element(doc, "autoFilter", { ref: `A9:R${records.length + 9}` });
+  const filter = element(doc, "autoFilter", { ref: `A9:${lastColumn}${records.length + 9}` });
   root.insertBefore(filter, data.nextSibling);
   const cols = first(root, "cols");
   cols.replaceChildren();
-  [8.5546875, 43.109375, 32, 15, 15, 15, 38, 32, 16, 36, 14, 25, 28, 28, 16, 50, 24, 15].forEach((width, i) => {
+  [8.5546875, 43.109375, 32, 15, 15, 15, 38, 32, 16, 36, 14, 25, 28, 28, 16, 24, 15].forEach((width, i) => {
     cols.append(element(doc, "col", { min: i + 1, max: i + 1, width, customWidth: 1 }));
   });
   return serialize(doc);

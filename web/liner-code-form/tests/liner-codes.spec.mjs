@@ -117,6 +117,19 @@ test("separate details panel switches records, closes and returns focus without 
   await expect(page.locator("#record-details")).toBeEmpty();
 });
 
+test("public details omit remarks for active and outdated records without hiding other fields", async ({ page }) => {
+  await open(page);
+  for (const code of ["ADM", "AAA"]) {
+    await page.getByLabel(`Details for ${code}`, { exact: true }).click();
+    const details = page.locator("#record-details");
+    await expect(details.locator("dt")).not.toContainText(["Remarks"]);
+    await expect(details).not.toContainText(record.remarks);
+    await expect(details).toContainText("Parent Shipping");
+    await expect(details).toContainText("2017-05-09");
+    await expect(details).toContainText("Valletta");
+  }
+});
+
 test("search fields and separate details panel fit mobile screens", async ({ page }) => {
   await open(page);
   for (const width of [320, 375, 390, 430]) {
@@ -236,11 +249,12 @@ test("public browse never accesses local storage, writes data or renders untrust
   });
   await open(page, [{
     ...record, linerName: '<img src=x onerror="alert(1)">', website: "javascript:alert(1)",
-    remarks: "<script>alert(1)</script>"
+    parentCompany: "<script>alert(1)</script>", remarks: "Hidden remarks"
   }]);
   await page.getByLabel("Details for ADM", { exact: true }).click();
   await expect(page.locator("#list-rows")).toContainText('<img src=x onerror="alert(1)">');
   await expect(page.locator("#record-panel")).toContainText("<script>alert(1)</script>");
+  await expect(page.locator("#record-panel")).not.toContainText("Hidden remarks");
   await expect(page.locator("#record-panel img, #record-panel script, #record-panel a, #list-rows img")).toHaveCount(0);
   expect(errors).toEqual([]);
   expect(writes).toEqual([]);

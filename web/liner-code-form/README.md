@@ -14,7 +14,8 @@ All entered name words must match; using both fields combines the filters.
 Filter by Active, Expired or Marked for deletion, sort by code or name, and
 browse 25 entries per page. All statuses are included by default.
 Select **Details** to view company, address, location, website, validity,
-version and remarks. Missing values are explicitly shown as **Not provided**;
+and version. Remarks are omitted from public details. Missing values are
+explicitly shown as **Not provided**;
 unsafe website values remain plain text. Details appear in a separate panel
 above the table, with focus moved to the record heading. **Close details**
 returns focus to the entry's button. Filtering, sorting or changing pages
@@ -37,15 +38,16 @@ official download alternative.
 page, or browser-local reviewer data. The download contains **Active**
 (`codeStatus === "Active"`), **Outdated** (every other status), and the original
 **Description** sheet. The provided `liner-codes-template.xlsx` preserves the
-logo, text and layout of rows 1-8; the 18 export headers are on row 9 and records
+logo, text and layout of rows 1-8; the 17 export headers are on row 9 and records
 start on row 10. The version label in merged cells D4-G4 is updated on both data
 sheets to the download date in `vYYYYMMDD` format, using the browser's local date.
 The download filename uses that same date.
 
-Columns A-R are Code, Liner Name, Parent Company, Carrier Type, Valid From,
+Columns A-Q are Code, Liner Name, Parent Company, Carrier Type, Valid From,
 Valid To, Website, Street, Street Number, Building/Floor, ZP Code, City, State,
-Country, UNLOCODE, Remarks, Status and Last update. UNKNOWN carrier types and
-missing values are blank. UNLOCODE concatenates `UnCountryCode` and `UnLocode`;
+Country, UNLOCODE, Status and Last update. Remarks are not exported on either
+data sheet; Status is column P and Last update is column Q. UNKNOWN carrier types
+and missing values are blank. UNLOCODE concatenates `UnCountryCode` and `UnLocode`;
 Last update is the latest `changeLogs[].lastUpdateDate` (the dataset has no
 top-level `lastUpdatedDate`). Validity and update dates are Excel date cells;
 postcodes, street numbers and other text remain text. Free-text addresses are
