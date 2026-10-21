@@ -33,7 +33,7 @@ function showDetails(record) {
     ["Area (state / region / province)", values.state], ["Country", values.country],
     ["UN Country Code", values.unCountryCode], ["UN/LOCODE location part", values.unLocode],
     ["Website", values.website, "website"], ["Valid From", values.validFrom],
-    ["Valid To", values.validTo], ["Remarks", values.remarks]
+    ["Valid To", values.validTo]
   ];
   for (const [label, value, name] of fields) {
     const term = document.createElement("dt");
