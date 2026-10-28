@@ -2168,6 +2168,45 @@
     "isActive": true,
     "codeStatus": "Active",
     "linerCodeVersion": "V1",
+    "linerSMDGCode": "BWS",
+    "linerName": "Blue Wave Shipping & Logistic Pte Ltd",
+    "carrierType": "NVOCC",
+    "parentCompany": "BWS",
+    "address": "33 UBI Avenue 3, #08-68, Vertex Tower A,Singapore\u00A0408868",
+    "addressLocation": {
+      "UnLocode": null,
+      "UnCountryCode": null,
+      "address": {
+        "street": null,
+        "streetNumber": null,
+        "floor": null,
+        "postCode": null,
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "website": "https://blue-wave.sg/",
+    "remarks": "",
+    "validFrom": "2026-10-28",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-10-28",
+        "updateRequestedBy": "Blue Wave Shipping & Logistic Pte Ltd",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V1",
     "linerSMDGCode": "CAE",
     "linerName": "Caerus Shipping FZCO",
     "carrierType": "VOCC",
