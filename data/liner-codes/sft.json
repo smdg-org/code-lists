@@ -1,0 +1,39 @@
+{
+  "isActive": true,
+  "codeStatus": "Active",
+  "linerCodeVersion": "V1",
+  "linerSMDGCode": "SFT",
+  "linerName": "STRAITFORT SHIPPING LINE L.L.C",
+  "carrierType": "NVOCC",
+  "parentCompany": "STRAITFORT SHIPPING LINE L.L.C",
+  "address": "Building Name/No : P1 / BLOCK R - 01R-SH,\nPlot no: 176-0\nLand area: Saih Shuaib2, Dubai, UAE.\nDubai Industrial City, United Arab Emirates.",
+  "addressLocation": {
+    "UnLocode": null,
+    "UnCountryCode": null,
+    "address": {
+      "street": null,
+      "streetNumber": null,
+      "floor": null,
+      "postCode": null,
+      "city": null,
+      "state": null,
+      "country": null
+    }
+  },
+  "website": "www.straitfort.com",
+  "remarks": "",
+  "validFrom": "2026-10-25",
+  "validTo": null,
+  "changeLogs": [
+    {
+      "actionCode": "Added",
+      "linerCodeVersion": "V1",
+      "lastUpdateDate": "2026-10-28",
+      "updateRequestedBy": "STRAITFORT SHIPPING LINE L.L.C",
+      "reason": "",
+      "changedFields": [],
+      "linkedLinerCode": null,
+      "comments": ""
+    }
+  ]
+}
