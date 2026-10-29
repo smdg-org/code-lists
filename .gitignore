@@ -403,3 +403,7 @@ FodyWeavers.xsd
 /src/cli/.idea
 /data/liner-codes/cache
 /data/liner-codes/excel_source
+
+# GitHub Pages build output (assembled by liner-code-publish-pages.yaml)
+_site/
+site/data/

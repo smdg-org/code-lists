@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="description" content="Browser-local SMDG request review workflow demonstration. No official data changes.">
+  <title>Request review demo | SMDG</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="reviewer.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to reviewer demo</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="https://smdg.org/" aria-label="SMDG website"><img src="smdg-logo.png" alt="SMDG e.V." width="400" height="95"></a>
+      <span class="preview-tag">WORKFLOW DEMO</span>
+    </div>
+  </header>
+  <div class="title-band">
+    <div class="container">
+      <p class="eyebrow">SMDG CODE LISTS / LINER CODES</p>
+      <h1>Request review workspace</h1>
+      <p>Review requests, agree corrections and publish to a demo list.</p>
+    </div>
+  </div>
+  <main id="main" class="container">
+    <aside class="notice" aria-label="Demo access limitations">
+      <strong>Simulation only. This is not secure authentication.</strong>
+      <p>The shared login is public. Anyone with access can view requests and assign any of the five names.
+        Names are assignees, not verified identities. Use fictional contact details only.</p>
+      <p>Requests, contact details, notes, assignments and demo list changes are saved in this browser,
+        not shared across devices. No emails, API writes, issues or pull requests are sent.
+        Official data never changes. History is illustrative, not a tamper-proof audit log.</p>
+    </aside>
+    <p id="workspace-error" class="notice has-errors" role="alert" hidden></p>
+    <noscript><p class="notice">JavaScript is required. There is no submission fallback.</p></noscript>
+    <section id="login-step" class="panel" aria-labelledby="login-title">
+      <h2 id="login-title">Demo sign-in</h2>
+      <form id="demo-login" autocomplete="off" novalidate>
+        <div class="grid">
+          <div class="field"><label for="demo-username">Demo username</label><input id="demo-username" required autocomplete="off" autocapitalize="none" spellcheck="false" aria-describedby="login-error"></div>
+          <div class="field"><label for="demo-password">Demo password</label><input id="demo-password" type="password" required autocomplete="off" aria-describedby="login-error"></div>
+        </div>
+        <p id="login-error" class="error" role="alert"></p>
+        <div class="actions"><button id="demo-sign-in" type="submit" disabled>Sign in to demo</button></div>
+      </form>
+    </section>
+    <div id="workspace" hidden>
+      <nav class="actions workspace-nav" aria-label="Workspace navigation">
+        <button id="show-tasks" type="button" class="secondary" aria-pressed="true">Active tasks</button>
+        <button id="show-archive" type="button" class="secondary" aria-pressed="false">Archive</button>
+        <button id="show-direct" type="button" class="secondary" aria-pressed="false">Edit current data</button>
+        <button id="show-list" type="button" class="secondary" aria-pressed="false">Demo code list</button>
+        <button id="reviewer-sign-out" type="button" class="secondary">Sign out</button>
+      </nav>
+      <p id="workspace-status" role="status"></p>
+      <section id="tasks-step" tabindex="-1" aria-labelledby="tasks-title">
+        <h2 id="tasks-title">Active tasks</h2>
+        <p id="tasks-help">Requests awaiting review or information. Published and rejected requests are kept in the Archive.</p>
+        <div id="task-counts" class="stats" aria-label="Request counts"></div>
+        <div class="panel grid filters">
+          <div><label for="task-search">Search requests</label><input id="task-search" type="search" placeholder="Reference, code, liner or contact"></div>
+          <div><label for="status-filter">Status</label><select id="status-filter"><option value="">All statuses</option></select></div>
+          <div><label for="assignee-filter">Assignee</label><select id="assignee-filter"><option value="">Everyone</option><option value="unassigned">Unassigned</option></select></div>
+        </div>
+        <div id="task-list" class="task-grid"></div>
+        <p id="no-tasks" class="notice" hidden>No requests match these filters.</p>
+      </section>
+      <section id="detail-step" tabindex="-1" aria-labelledby="detail-title" hidden>
+        <div class="actions">
+          <button id="back-to-tasks" type="button" class="secondary">Back to active tasks</button>
+          <button id="delete-request" type="button" class="danger" hidden>Delete request</button>
+        </div>
+        <div id="request-heading"></div>
+        <div id="conflict-notice" class="notice has-errors" role="alert" hidden></div>
+        <p id="detail-error" class="notice has-errors" role="alert" tabindex="-1" hidden></p>
+        <section class="panel">
+          <h3>Request and contact details</h3>
+          <dl id="request-info" class="review-summary"></dl>
+          <p class="hint">Contact information is retained in this local workspace only and excluded from the demo public code list. No email is sent automatically.</p>
+          <div class="grid">
+            <div><label for="task-assignee">Assigned to</label><select id="task-assignee"><option value="">Unassigned</option></select></div>
+            <div class="actions"><button id="save-assignment" type="button" class="secondary">Save assignment</button></div>
+          </div>
+        </section>
+        <form id="review-editor" novalidate autocomplete="off">
+          <section id="proposal-section" class="panel">
+            <h3>Reviewer proposal</h3>
+            <p id="editor-help" class="hint"></p>
+            <fieldset id="editor-fields" class="grid"></fieldset>
+          </section>
+          <section id="comparison-section" class="panel" hidden>
+            <h3>Compare values</h3>
+            <p class="hint">Yellow rows differ from the current demo list. Original submission is never overwritten.</p>
+            <div class="table-scroll"><table class="comparison"><caption>Current list, original submission and reviewer proposal</caption><thead><tr><th scope="col">Field</th><th scope="col">Current demo list</th><th scope="col">Originally submitted</th><th scope="col">Reviewer proposal</th></tr></thead><tbody id="comparison-body"></tbody></table></div>
+          </section>
+          <section id="deletion-section" class="panel" hidden>
+            <h3>Record to delete</h3>
+            <p id="deletion-help" class="hint"></p>
+            <dl id="deletion-record" class="review-summary"></dl>
+          </section>
+          <section class="panel">
+            <h3>Review actions</h3>
+            <label for="reviewer-note">Reviewer note / decision reason</label>
+            <textarea id="reviewer-note" rows="3" maxlength="10000" aria-describedby="note-help"></textarea>
+            <p id="note-help" class="hint">Required for clarification, rejection, a note or acknowledging a changed baseline. These actions also retain your proposal edits. No notification is sent.</p>
+            <div id="review-actions" class="actions">
+              <button type="button" data-action="save" class="secondary">Save draft</button>
+              <button type="button" data-action="note" class="secondary">Add note</button>
+              <button type="button" data-action="clarify" class="secondary">Needs information</button>
+              <button type="button" data-action="resume" class="secondary">Resume review</button>
+              <button id="rebase-request" type="button" data-action="rebase" class="secondary" hidden>Acknowledge current baseline</button>
+              <button type="button" data-action="reject" class="danger">Reject request</button>
+              <button type="submit">Approve and publish - demo</button>
+            </div>
+            <p class="hint">Assign before reviewing. A shared demo account can act for any listed assignee.
+              Approve and publish applies your edits directly; no separate draft save or second approval is needed.
+              Delete removes the record from the demo active list only; the request and history remain.</p>
+          </section>
+        </form>
+        <section class="panel">
+          <h3>Request history</h3>
+          <ol id="request-history" class="history"></ol>
+        </section>
+      </section>
+      <section id="direct-step" tabindex="-1" aria-labelledby="direct-title" hidden>
+        <h2 id="direct-title">Edit current data</h2>
+        <p>Reviewer-initiated corrections, without a submitted request or second approval. Changes affect only this browser's demo list, not the repository or public search page.</p>
+        <p id="direct-error" class="notice has-errors" role="alert" tabindex="-1" hidden></p>
+        <div id="direct-picker" class="panel">
+          <label for="direct-search">Search current data by code or liner name</label>
+          <input id="direct-search" type="search">
+          <p id="direct-count"></p>
+          <div id="direct-records" class="task-grid"></div>
+          <div class="actions">
+            <button id="direct-previous" type="button" class="secondary">Previous codes</button>
+            <button id="direct-next" type="button" class="secondary">Next codes</button>
+          </div>
+        </div>
+        <form id="direct-editor" novalidate autocomplete="off" hidden>
+          <h3 id="direct-heading"></h3>
+          <div class="panel">
+            <label for="direct-reviewer">Publishing reviewer (demo identity)</label>
+            <select id="direct-reviewer" required><option value="">Choose a reviewer</option></select>
+            <p class="hint">Assignee names are not verified identities. This remains a browser-local simulation.</p>
+          </div>
+          <div id="direct-fields"></div>
+          <section class="panel">
+            <h3>Changed fields</h3>
+            <p id="direct-changes-count"></p>
+            <div class="table-scroll"><table class="comparison">
+              <caption>Current values and your changes</caption>
+              <thead><tr><th scope="col">Field</th><th scope="col">Current value</th><th scope="col">New value</th></tr></thead>
+              <tbody id="direct-comparison"></tbody>
+            </table></div>
+            <label for="direct-reason">Reason for change</label>
+            <textarea id="direct-reason" rows="3" maxlength="10000" required></textarea>
+            <div class="actions">
+              <button id="direct-cancel" type="button" class="secondary">Cancel editing</button>
+              <button id="direct-reload" type="button" class="secondary">Reload current record</button>
+              <button type="submit">Review changes</button>
+            </div>
+          </section>
+          <section class="panel">
+            <h3>Direct-edit history</h3>
+            <p>Reviewer, date, reason and changes are retained in this browser only.</p>
+            <ol id="direct-history" class="history"></ol>
+          </section>
+        </form>
+      </section>
+      <section id="list-step" tabindex="-1" aria-labelledby="list-title" hidden>
+        <h2 id="list-title">Demo code list</h2>
+        <p>Browser-local list after simulated publication. It contains liner data only, not request contacts or reviewer notes.</p>
+        <div class="panel"><label for="list-search">Search codes or liner names</label><input id="list-search" type="search"><p id="list-count"></p><div id="demo-records" class="task-grid"></div>
+          <div class="actions"><button id="list-previous" type="button" class="secondary">Previous page</button><button id="list-next" type="button" class="secondary">Next page</button></div>
+        </div>
+        <button id="export-list" type="button">Download demo list JSON</button>
+      </section>
+    </div>
+    <dialog id="confirm-dialog" aria-labelledby="confirm-title">
+      <h2 id="confirm-title"></h2>
+      <aside id="delete-warning" class="notice has-errors" role="alert" hidden>
+        <strong><span aria-hidden="true">&#9888;</span> Warning: permanent deletion</strong>
+        <p>Deleting this request will permanently erase all associated information from the reviewer panel, including contact details, notes and review history. This action cannot be undone, and the information cannot be recovered.</p>
+      </aside>
+      <div id="confirm-body"></div>
+      <div class="actions"><button id="confirm-accept" type="button">Confirm</button><button id="confirm-cancel" type="button" class="secondary" autofocus>Cancel</button></div>
+    </dialog>
+  </main>
+  <footer class="container"><p>SMDG workflow prototype &middot; Browser-local simulation &middot; No official publication</p></footer>
+</body>
+</html>

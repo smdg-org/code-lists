@@ -2,7 +2,7 @@
 
 ## Code Lists
 
-* [Liner Codes](data/liner-codes/)
+* [Liner Codes](data/liner-codes/) ([browse the list](https://smdg-org.github.io/code-lists/liner-codes.html))
 
 ## Documentation
 

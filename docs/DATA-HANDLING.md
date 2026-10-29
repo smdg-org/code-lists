@@ -34,7 +34,9 @@ flowchart TD
 
 ## Data Release Process
 
-Once the changes are merged into the dataset, automated workflows ensure that the API is updated and a new Excel version is published under: [Releases](https://github.com/smdg-org/code-lists/releases)
+Once the changes are merged into the dataset, automated workflows ensure that the API is updated, a new Excel version is published under: [Releases](https://github.com/smdg-org/code-lists/releases), and the [liner-code list page](https://smdg-org.github.io/code-lists/liner-codes.html) is refreshed.
+
+The pages in [site/](../site/) are static and read-only. On every change to `main`, the publish workflow copies `data/liner-codes/_combined.json` next to them and deploys the result to GitHub Pages; data can only be changed through pull requests to `main`.
 
 ```mermaid
 flowchart LR
@@ -43,12 +45,15 @@ flowchart LR
     release{{GitHub Release is created}}
     upload{{Data is uploaded to Database}}
     api[BIC API for Codes]
+    pages{{Liner-code list page is published}}
 
     push --> packxls
     packxls --> release
 
     push --> upload
     upload --> api
+
+    push --> pages
 
 ```
 
