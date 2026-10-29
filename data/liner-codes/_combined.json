@@ -2167,23 +2167,23 @@
   {
     "isActive": true,
     "codeStatus": "Active",
-    "linerCodeVersion": "V1",
+    "linerCodeVersion": "V2",
     "linerSMDGCode": "BWS",
     "linerName": "Blue Wave Shipping & Logistic Pte Ltd",
     "carrierType": "NVOCC",
     "parentCompany": "BWS",
     "address": "33 UBI Avenue 3, #08-68, Vertex Tower A,Singapore\u00A0408868",
     "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
+      "UnLocode": "SIN",
+      "UnCountryCode": "SG",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
-        "postCode": null,
-        "city": null,
+        "street": "UBI Avenue 3",
+        "streetNumber": "33",
+        "floor": "Vertex Tower A, #08-68",
+        "postCode": "408868",
+        "city": "Singapore",
         "state": null,
-        "country": null
+        "country": "Singapore"
       }
     },
     "website": "https://blue-wave.sg/",
@@ -2200,6 +2200,16 @@
         "changedFields": [],
         "linkedLinerCode": null,
         "comments": ""
+      },
+      {
+        "actionCode": "Updated",
+        "linerCodeVersion": "V2",
+        "lastUpdateDate": "2026-10-29",
+        "updateRequestedBy": "Javier Moral",
+        "reason": "Fill in structured address fields from the BWS application form (#215)",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": null
       }
     ]
   },
