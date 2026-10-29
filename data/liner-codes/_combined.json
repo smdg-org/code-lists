@@ -11483,26 +11483,26 @@
   {
     "isActive": true,
     "codeStatus": "Active",
-    "linerCodeVersion": "V1",
+    "linerCodeVersion": "V2",
     "linerSMDGCode": "SFT",
     "linerName": "STRAITFORT SHIPPING LINE L.L.C",
     "carrierType": "NVOCC",
     "parentCompany": "STRAITFORT SHIPPING LINE L.L.C",
     "address": "Building Name/No : P1 / BLOCK R - 01R-SH,\nPlot no: 176-0\nLand area: Saih Shuaib2, Dubai, UAE.\nDubai Industrial City, United Arab Emirates.",
     "addressLocation": {
-      "UnLocode": null,
-      "UnCountryCode": null,
+      "UnLocode": "DXB",
+      "UnCountryCode": "AE",
       "address": {
-        "street": null,
-        "streetNumber": null,
-        "floor": null,
+        "street": "Saih Shuaib 2",
+        "streetNumber": "Plot No. 176-0",
+        "floor": "P1/ Block R - 01R - SH",
         "postCode": null,
-        "city": null,
+        "city": "Dubai",
         "state": null,
-        "country": null
+        "country": "United Arab Emirates"
       }
     },
-    "website": "www.straitfort.com",
+    "website": "https://www.straitfort.com",
     "remarks": "",
     "validFrom": "2026-10-25",
     "validTo": null,
@@ -11516,6 +11516,16 @@
         "changedFields": [],
         "linkedLinerCode": null,
         "comments": ""
+      },
+      {
+        "actionCode": "Updated",
+        "linerCodeVersion": "V2",
+        "lastUpdateDate": "2026-10-29",
+        "updateRequestedBy": "Javier Moral",
+        "reason": "Fill in structured address fields and website protocol from the SFT application form (#217)",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": null
       }
     ]
   },
