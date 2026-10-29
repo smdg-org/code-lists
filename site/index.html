@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="description" content="SMDG liner-code request form and browser-local workflow demonstration. No official submissions.">
+  <title>Liner code request preview | SMDG</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to form</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="https://smdg.org/" aria-label="SMDG website"><img src="smdg-logo.png" alt="SMDG e.V." width="400" height="95"></a>
+      <p>Electronic data interchange<br>in the maritime container business</p>
+      <span class="preview-tag">FORM PREVIEW</span>
+    </div>
+  </header>
+  <div class="title-band">
+    <div class="container">
+      <p class="eyebrow">SMDG CODE LISTS / LINER CODES</p>
+      <h1>Liner code requests</h1>
+      <p>A simpler way to prepare a new code or keep an existing entry up to date.</p>
+    </div>
+  </div>
+  <main id="main" class="container">
+    <p><a href="liner-codes.html">Browse and search the liner code list</a></p>
+    <aside id="preview-notice" class="notice" aria-label="Preview limitations">
+      <strong>Demonstration only. Nothing will be submitted.</strong>
+      <p>Explore the form and validate your entries. No codes are added, updated or deleted.
+        No issues, pull requests, files or downloads are created, and entered data is not saved or sent.
+        Contact fields are required to preview the flow; use test details only. Refreshing or changing request type clears your entries.</p>
+    </aside>
+    <section id="workflow-notice" class="notice" aria-label="Workflow demo limitations">
+      <strong>Demonstration only. Use fictional details.</strong>
+      <p id="workflow-disclosure">Complete the form, click Review request, then Submit on the summary to save your request for review.
+        Requests, including contact details, are saved in this browser only.
+        They are not sent to SMDG or shared across devices. No email, API, GitHub issue or pull request is created.
+        Review and publication change a local demo list only. Never enter real personal details.</p>
+      <button id="refresh-demo-list" type="button" class="secondary" hidden>Refresh demo list without clearing entries</button>
+    </section>
+    <p id="data-status" role="status">Loading the public code-list snapshot...</p>
+    <button id="retry" type="button" hidden>Retry loading code list</button>
+    <noscript><p class="notice">JavaScript is required for code lookup and validation. There is no submission fallback.</p></noscript>
+    <form id="request-form" novalidate autocomplete="off">
+      <p class="hint">Fields marked with a <span class="required-marker">*</span> are required.</p>
+      <fieldset id="form-controls" disabled>
+        <div id="entry-step">
+        <fieldset class="request-type">
+          <legend>1. What would you like to do?</legend>
+          <div class="mode-options">
+            <label><input type="radio" name="mode" value="add" checked><span><strong>Add a code</strong><small>Prepare a new liner entry</small></span></label>
+            <label><input type="radio" name="mode" value="update"><span><strong>Update a code</strong><small>Amend an existing entry</small></span></label>
+            <label><input type="radio" name="mode" value="delete"><span><strong>Delete a code</strong><small>Preview a deletion request</small></span></label>
+          </div>
+        </fieldset>
+        <section id="existing-section" class="panel" hidden>
+          <h2>2. Select a liner</h2>
+          <div class="grid">
+            <div>
+              <label for="existing-code">Liner Code</label>
+              <select id="existing-code" aria-describedby="existing-help code-error">
+                <option value="">----- Select a code -----</option>
+              </select>
+            </div>
+            <div>
+              <label for="existing-name">Liner Name</label>
+              <select id="existing-name" aria-describedby="existing-help code-error">
+                <option value="">----- Select a name -----</option>
+              </select>
+            </div>
+          </div>
+          <p id="existing-help" class="hint">Select either a code or a name to load its published details. The other selection updates automatically.</p>
+          <span id="code-error" class="error" aria-live="polite"></span>
+        </section>
+        <div id="details">
+          <section id="company-section" class="panel">
+            <h2 id="details-title">2. Liner details</h2>
+            <p class="hint">Location codes are optional.</p>
+            <div class="grid">
+              <div class="field"><label for="code">Liner Code</label><input id="code" name="code" maxlength="3" minlength="3" required spellcheck="false" aria-describedby="new-code-error"><span id="new-code-error" class="error" aria-live="polite"></span></div>
+              <div class="field"><label for="linerName">Liner Name</label><input id="linerName" name="linerName" maxlength="100" required></div>
+              <div class="field"><label for="carrierType">Carrier Type</label><select id="carrierType" name="carrierType" required><option value="">----- Select a carrier type -----</option><option value="NVOCC">NVOCC</option><option value="VOCC">VOCC</option></select></div>
+              <div class="field"><label for="parentCompany">Parent Company</label><input id="parentCompany" name="parentCompany" maxlength="100"></div>
+              <div class="field full"><label for="website">Website</label><input id="website" name="website" type="text" inputmode="url" placeholder="www.example.com" required></div>
+            </div>
+          </section>
+          <section id="address-section" class="panel">
+            <h2>Head-office address</h2>
+            <div class="grid">
+              <div class="field"><label for="unCountryCode">UN Country Code</label><input id="unCountryCode" name="unCountryCode" minlength="2" maxlength="2" placeholder="US" aria-describedby="country-code-help"><p id="country-code-help" class="hint">2 characters only.</p></div>
+              <div class="field"><label for="unLocode">UN/LOCODE location part</label><input id="unLocode" name="unLocode" minlength="3" maxlength="3" placeholder="NYC" aria-describedby="locode-help"><p id="locode-help" class="hint">3 characters only; enter the country separately.</p></div>
+              <div class="field"><label for="street">Street</label><input id="street" name="street" required></div>
+              <div class="field"><label for="streetNumber">Street Number</label><input id="streetNumber" name="streetNumber"></div>
+              <div class="field"><label for="floor">Building / Floor</label><input id="floor" name="floor"></div>
+              <div class="field"><label for="postCode">Postal Code</label><input id="postCode" name="postCode" required></div>
+              <div class="field"><label for="city">City</label><input id="city" name="city" required></div>
+              <div class="field"><label for="state">Area (state / region / province)</label><input id="state" name="state" required></div>
+              <div class="field full"><label for="country">Country</label><select id="country" name="country" required><option value="">----- Select a country or territory -----</option></select></div>
+            </div>
+          </section>
+          <section id="additional-section" class="panel">
+            <h2>Validity and additional information</h2>
+            <p class="hint">Validity dates are separate from processing dates. Existing values are prefilled for updates.</p>
+            <div class="grid">
+              <div class="field"><label id="valid-from-label" for="validFrom">Valid From</label><input id="validFrom" name="validFrom" type="date" required></div>
+              <div class="field"><label for="validTo">Valid To</label><input id="validTo" name="validTo" type="date"></div>
+              <div class="field full"><label for="remarks">Remarks</label><textarea id="remarks" name="remarks" rows="3"></textarea></div>
+            </div>
+          </section>
+          <section id="delete-summary" class="panel" hidden>
+            <h2>Selected liner</h2>
+            <p id="selected-liner"></p>
+            <p id="delete-help">This is a deletion-request preview only. No record will be removed or marked for deletion.</p>
+          </section>
+          <section id="reason-section" class="panel" hidden>
+            <h2>About this request</h2>
+            <div class="field"><label id="reason-label" for="reason">Change reason</label><textarea id="reason" name="reason" rows="3"></textarea></div>
+            <div class="field"><label id="comments-label" for="comments">Change comments (optional)</label><textarea id="comments" name="comments" rows="3"></textarea></div>
+          </section>
+          <section id="contact-section" class="panel">
+            <h2>Contact information</h2>
+            <p id="contact-help" class="hint">Information will not be saved and will be used only for contact purposes. This preview does not send it.</p>
+            <div class="grid">
+              <div class="field"><label for="contactName">Name</label><input id="contactName" name="contactName" required></div>
+              <div class="field"><label for="contactEmail">Email</label><input id="contactEmail" name="contactEmail" type="email" required></div>
+            </div>
+          </section>
+        </div>
+        <div id="actions" class="actions">
+          <button type="submit">Review request</button>
+          <button id="clear" type="button" class="secondary">Clear form</button>
+          <span id="submission-help">No submission or saving</span>
+        </div>
+        </div>
+        <section id="review-step" class="panel" aria-labelledby="review-title" tabindex="-1" hidden>
+          <h2 id="review-title">Review your request</h2>
+          <p id="summary-help" class="hint">Check the details below. Submitting this preview will not send or save anything.</p>
+          <dl id="review-summary" class="review-summary"></dl>
+          <div class="actions">
+            <button id="summary-submit" type="button">Submit</button>
+            <button id="back-to-form" type="button" class="secondary">Back</button>
+          </div>
+          <p id="submit-result" class="notice" role="status" hidden></p>
+        </section>
+      </fieldset>
+    </form>
+    <section id="demo-confirmation" class="panel" tabindex="-1" aria-labelledby="confirmation-title" hidden>
+      <h2 id="confirmation-title">Test request saved</h2>
+      <p id="confirmation-reference"></p>
+      <p>Status: Pending review. Unassigned. No email was sent and no official data changed.
+        The request and fictional contact details are saved in this browser only.</p>
+      <div class="actions"><button id="submit-another" type="button">Submit another test request</button></div>
+    </section>
+    <section id="validation-result" class="notice" role="status" tabindex="-1" hidden></section>
+  </main>
+  <footer class="container">
+    <p>SMDG liner-code form prototype &middot; Read-only public data &middot; No submission service</p>
+    <a href="https://smdg.org/documents/smdg-code-lists/smdg-liner-code-list/">Official SMDG Liner Code List information</a>
+  </footer>
+</body>
+</html>

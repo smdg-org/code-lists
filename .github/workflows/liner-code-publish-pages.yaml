@@ -1,0 +1,68 @@
+name: Liner Codes - Publish Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - data/liner-codes/_combined.json
+      - site/**
+      - .github/workflows/liner-code-publish-pages.yaml
+  workflow_dispatch:
+
+# The site is static and read-only: it only reads data/_combined.json. Nothing
+# in this workflow can write to the repository.
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  site_dir: site
+  combined_file: data/liner-codes/_combined.json
+  output_dir: _site
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: assemble site
+        run: |
+          mkdir -p "${{ env.output_dir }}/data"
+          cp -R "${{ env.site_dir }}/." "${{ env.output_dir }}/"
+          cp "${{ env.combined_file }}" "${{ env.output_dir }}/data/_combined.json"
+
+      - name: verify payload
+        run: |
+          file="${{ env.output_dir }}/data/_combined.json"
+          python3 -c "import json; json.load(open('$file'))"
+          echo "$file is valid JSON ($(grep -c '"linerSMDGCode"' "$file") liner codes)"
+
+      - name: configure pages
+        uses: actions/configure-pages@v5
+
+      - name: upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ env.output_dir }}
+
+  deploy:
+    # Only main publishes; manual runs from other branches build but do not deploy.
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: deploy to github pages
+        id: deployment
+        uses: actions/deploy-pages@v4
