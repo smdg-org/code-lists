@@ -2167,6 +2167,55 @@
   {
     "isActive": true,
     "codeStatus": "Active",
+    "linerCodeVersion": "V2",
+    "linerSMDGCode": "BWS",
+    "linerName": "Blue Wave Shipping & Logistic Pte Ltd",
+    "carrierType": "NVOCC",
+    "parentCompany": "BWS",
+    "address": "33 UBI Avenue 3, #08-68, Vertex Tower A,Singapore\u00A0408868",
+    "addressLocation": {
+      "UnLocode": "SIN",
+      "UnCountryCode": "SG",
+      "address": {
+        "street": "UBI Avenue 3",
+        "streetNumber": "33",
+        "floor": "Vertex Tower A, #08-68",
+        "postCode": "408868",
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore"
+      }
+    },
+    "website": "https://blue-wave.sg/",
+    "remarks": "",
+    "validFrom": "2026-10-28",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-10-28",
+        "updateRequestedBy": "Blue Wave Shipping & Logistic Pte Ltd",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      },
+      {
+        "actionCode": "Updated",
+        "linerCodeVersion": "V2",
+        "lastUpdateDate": "2026-10-29",
+        "updateRequestedBy": "Javier Moral",
+        "reason": "Fill in structured address fields from the BWS application form (#215)",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": null
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
     "linerCodeVersion": "V1",
     "linerSMDGCode": "CAE",
     "linerName": "Caerus Shipping FZCO",
@@ -11438,6 +11487,55 @@
         "changedFields": [],
         "linkedLinerCode": null,
         "comments": ""
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "codeStatus": "Active",
+    "linerCodeVersion": "V2",
+    "linerSMDGCode": "SFT",
+    "linerName": "STRAITFORT SHIPPING LINE L.L.C",
+    "carrierType": "NVOCC",
+    "parentCompany": "STRAITFORT SHIPPING LINE L.L.C",
+    "address": "Building Name/No : P1 / BLOCK R - 01R-SH,\nPlot no: 176-0\nLand area: Saih Shuaib2, Dubai, UAE.\nDubai Industrial City, United Arab Emirates.",
+    "addressLocation": {
+      "UnLocode": "DXB",
+      "UnCountryCode": "AE",
+      "address": {
+        "street": "Saih Shuaib 2",
+        "streetNumber": "Plot No. 176-0",
+        "floor": "P1/ Block R - 01R - SH",
+        "postCode": null,
+        "city": "Dubai",
+        "state": null,
+        "country": "United Arab Emirates"
+      }
+    },
+    "website": "https://www.straitfort.com",
+    "remarks": "",
+    "validFrom": "2026-10-25",
+    "validTo": null,
+    "changeLogs": [
+      {
+        "actionCode": "Added",
+        "linerCodeVersion": "V1",
+        "lastUpdateDate": "2026-10-28",
+        "updateRequestedBy": "STRAITFORT SHIPPING LINE L.L.C",
+        "reason": "",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": ""
+      },
+      {
+        "actionCode": "Updated",
+        "linerCodeVersion": "V2",
+        "lastUpdateDate": "2026-10-29",
+        "updateRequestedBy": "Javier Moral",
+        "reason": "Fill in structured address fields and website protocol from the SFT application form (#217)",
+        "changedFields": [],
+        "linkedLinerCode": null,
+        "comments": null
       }
     ]
   },
