@@ -40,6 +40,7 @@ app.Configure(config =>
             convert.AddCommand<LinerCodesConvertBulkCommand>("bulk");
             convert.AddCommand<LinerCodesConvertFormMarkdownCommand>("issue");
             convert.AddCommand<LinerCodesConvertFormExcelCommand>("excel");
+            convert.AddCommand<LinerCodesConvertFormExcelV2Command>("excel-v2");
         });
         linerCode.AddBranch("pack", pack =>
         {

@@ -9,6 +9,7 @@ env:
   output_dir: data/liner-codes
   local_bulk_file_name: smdg-liner-codes.xlsx
   local_form_file_name: smdg-liner-code-form.xlsx
+  local_form_v2_file_name: smdg-liner-code-form-v2.xlsx
 
 jobs:
   convert-issue:
@@ -105,6 +106,62 @@ jobs:
 
             ## Why
             Liner code has been changed based on the issue #${{ github.event.issue.number }} with excel form
+
+            ## What
+            ${{ github.event.issue.title }}
+
+            ## What data has been changed
+            Data:
+            - [x] Liner information has been changed
+
+  convert-excel-v2:
+    name: Convert via Excel Form (V2)
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'liner-code') && contains(github.event.issue.labels.*.name, 'data') && contains(github.event.issue.labels.*.name, 'attachment-excel-v2')
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.event.issue.number }}
+      cancel-in-progress: false
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: setup .net
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x
+
+      - name: download attachment
+        run: |
+          dotnet run --project ${{ env.convert_project }} -- download attachment \
+            -i "${{ github.event.issue.number }}" \
+            -f "${{ env.local_form_v2_file_name }}" \
+            -t "${{ github.token }}" \
+            -r "${{ github.repository }}" \
+            -o "${{ env.output_dir }}"
+
+      - name: issue processing
+        run: |
+          dotnet run --project ${{ env.convert_project }} -- liner-codes convert excel-v2 \
+            -i "${{ github.event.issue.number }}" \
+            -f "${{ env.local_form_v2_file_name }}" \
+            -t "${{ github.token }}" \
+            -r "${{ github.repository }}" \
+            -o "${{ env.output_dir }}"
+
+      - name: create pull request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ github.token }}
+          base: main
+          branch: ${{ env.branch_name }}
+          commit-message: "Fixes #${{ github.event.issue.number }} for data changes"
+          title: "Fixes #${{ github.event.issue.number }} - ${{ github.event.issue.title }}"
+          body: |
+            # Description
+
+            ## Why
+            Liner code has been changed based on the issue #${{ github.event.issue.number }} with excel form (V2)
 
             ## What
             ${{ github.event.issue.title }}

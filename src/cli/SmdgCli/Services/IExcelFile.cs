@@ -8,6 +8,11 @@ public interface IExcelFile
         IEnumerable<string> expectedHeaders,
         string dataDirectory);
 
+    Dictionary<string, string>? ReadCells(
+        string fileName,
+        string sheetName,
+        string dataDirectory);
+
     CodeDictionaries? ReadMultipleSheets(
         string fileName,
         string codesSheetName,
