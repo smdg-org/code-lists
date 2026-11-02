@@ -1,5 +1,8 @@
 namespace SmdgCli.Services;
 
+using System.Globalization;
+using ClosedXML.Excel;
+
 using OpenXML;
 using Spectre.Console;
 using Utilities;
@@ -35,6 +38,47 @@ public class ExcelFile : IExcelFile
 
             stream.Close();
             return data;
+        }
+        catch (Exception exception)
+        {
+            AnsiConsole.WriteException(exception);
+            return null;
+        }
+    }
+
+    /// <summary>
+    /// Reads every non-empty cell of a sheet keyed by its address (e.g. "A10"),
+    /// for forms that use a fixed cell layout instead of a table. Date cells are
+    /// returned as yyyy-MM-dd so the result does not depend on the current culture.
+    /// </summary>
+    public Dictionary<string, string>? ReadCells(
+        string fileName,
+        string sheetName,
+        string dataDirectory)
+    {
+        try
+        {
+            var filePath = Path.Combine(dataDirectory, fileName);
+            AnsiConsole.MarkupLine($"Converting source: [deeppink3]{filePath}[/]");
+
+            using var stream = GetStream(filePath);
+            using var xls = stream.OpenWorkbook();
+
+            var worksheet = xls.Worksheets
+                .FirstOrDefault(w => w.Name.Contains(sheetName, StringComparison.InvariantCultureIgnoreCase));
+            if (worksheet is null)
+            {
+                throw new InvalidOperationException("File does not contain the required sheet");
+            }
+
+            return worksheet
+                .CellsUsed()
+                .Where(c => !c.IsEmpty())
+                .ToDictionary(
+                    c => c.Address.ToString()!,
+                    c => c.DataType == XLDataType.DateTime
+                        ? c.GetDateTime().ToString("yyyy-MM-dd", CultureInfo.InvariantCulture)
+                        : c.GetString());
         }
         catch (Exception exception)
         {

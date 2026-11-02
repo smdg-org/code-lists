@@ -1,0 +1,47 @@
+name: Liner code data change request (Excel V2)
+description: This template is used to request liner code data changes with the V2 excel application form (structured address)
+title: 'Liner code data change request: Code'
+labels: [ "data", "liner-code", "attachment-excel-v2" ]
+assignees: 'jasmindroenner-smdg'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        :warning: *Please note that the data provided below is considered public, do not include any sensitive information.*
+
+        Fill in row 10 of the V2 application form (one liner code per form) and attach it below. Applicant name and mail address are used to process the request only and are not published.
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: "Change Type"
+      description: Type of change to be made
+      default: 0
+      options:
+        - "Add"
+        - "Update"
+    validations:
+      required: true
+  - type: input
+    id: requester
+    attributes:
+      label: "Requester"
+      description: Entity requesting the change
+      placeholder: "Example: Maersk"
+    validations:
+      required: true
+  - type: input
+    id: liner_code
+    attributes:
+      label: "Liner code"
+      description: Code of the liner, the same as in cell A10 of the form
+      placeholder: "Example: MSK"
+    validations:
+      required: true
+  - type: textarea
+    id: excel_file
+    attributes:
+      label: "Form attachment"
+      description: Form Attachment
+      placeholder: "Example: Click paperclip icon to attach the V2 application form in excel format"
+    validations:
+      required: true

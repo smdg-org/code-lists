@@ -26,9 +26,9 @@ public class DownloadAttachmentCommand(IRemoteFileReader remoteFileReader, IGitH
                 return 1;
             }
 
-            if (issue.Labels.All(l => l.Name != GitHubLabels.AttachmentExcel && l.Name != GitHubLabels.AttachmentBulk))
+            if (issue.Labels.All(l => l.Name != GitHubLabels.AttachmentExcel && l.Name != GitHubLabels.AttachmentExcelV2 && l.Name != GitHubLabels.AttachmentBulk))
             {
-                AnsiConsole.MarkupLine($"[red]Issue {settings.IssueNumber} does not have {GitHubLabels.AttachmentExcel} or {GitHubLabels.AttachmentBulk} label.[/]");
+                AnsiConsole.MarkupLine($"[red]Issue {settings.IssueNumber} does not have {GitHubLabels.AttachmentExcel}, {GitHubLabels.AttachmentExcelV2} or {GitHubLabels.AttachmentBulk} label.[/]");
                 return 1;
             }
 
