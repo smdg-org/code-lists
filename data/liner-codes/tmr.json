@@ -11,7 +11,7 @@
     "UnLocode": "CAI",
     "UnCountryCode": "EG",
     "address": {
-      "street": "Ring Road",
+      "street": null,
       "streetNumber": null,
       "floor": "Building No 10A06-5 / 3rd floor",
       "postCode": "11385",
