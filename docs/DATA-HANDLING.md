@@ -36,7 +36,7 @@ flowchart TD
 
 Once the changes are merged into the dataset, automated workflows ensure that the API is updated, a new Excel version is published under: [Releases](https://github.com/smdg-org/code-lists/releases), and the [liner-code list page](https://smdg-org.github.io/code-lists/liner-codes.html) is refreshed.
 
-The pages in [site/](../site/) are static and read-only. On every change to `main`, the publish workflow copies `data/liner-codes/_combined.json` next to them and deploys the result to GitHub Pages; data can only be changed through pull requests to `main`.
+The pages in [site/](../site/) on `main` are the source for GitHub Pages. Update the site through pull requests to `main`, rather than deploying changes from `gh-pages`. When the site, the combined data, or the publishing workflow changes on `main`, the workflow copies `data/liner-codes/_combined.json` next to the site and deploys the result. The public list is read-only; data changes go through pull requests to `main`.
 
 ```mermaid
 flowchart LR
