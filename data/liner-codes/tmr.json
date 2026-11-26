@@ -6,12 +6,12 @@
   "linerName": "Transmar International Shipping Company (Transmar)",
   "carrierType": "VOCC",
   "parentCompany": null,
-  "address": "Ring Road, Building No 10A06-5 / 3rd floor, 11385 Cairo, Egypt",
+  "address": "Building No 10A06-5 / 3rd floor, 11385 Cairo, Egypt",
   "addressLocation": {
     "UnLocode": "CAI",
     "UnCountryCode": "EG",
     "address": {
-      "street": "Ring Road",
+      "street": null,
       "streetNumber": null,
       "floor": "Building No 10A06-5 / 3rd floor",
       "postCode": "11385",

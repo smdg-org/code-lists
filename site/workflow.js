@@ -229,7 +229,7 @@ export function createWorkspace(snapshot) {
       contactName: "Demo Requester", contactEmail: "requester@example.com"
     };
     if (mode === "update") {
-      for (const key of ["carrierType", "street", "postCode", "city", "state", "country", "website"]) {
+      for (const key of ["carrierType", "postCode", "city", "state", "country", "website"]) {
         if (!values[key] || (key === "carrierType" && !["NVOCC", "VOCC"].includes(values[key]))) values[key] = sample[key];
       }
       values.remarks = "Proposed correction from a fictional requester.";

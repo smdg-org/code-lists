@@ -224,7 +224,7 @@ function renderDetail(draft, note = "") {
   }
   field("editor-fields").replaceChildren();
   const editable = request.mode === "delete" ? [] : RECORD_FIELDS;
-  const required = ["linerName", "carrierType", "street", "postCode", "city", "state", "country", "website",
+  const required = ["linerName", "carrierType", "postCode", "city", "state", "country", "website",
     ...(request.mode === "add" ? ["validFrom"] : [])];
   renderFields(field("editor-fields"), editable, draft ?? request.proposal, required, "edit");
   field("editor-fields").disabled = closed || !request.assignee;
@@ -415,7 +415,7 @@ async function openDirect(code) {
     field("direct-heading").textContent = `Edit ${code} - ${record.linerName}`;
     field("direct-editor").reset();
     field("direct-fields").replaceChildren();
-    const required = ["linerName", "carrierType", "street", "postCode", "city", "state", "country", "website", "codeStatus"];
+    const required = ["linerName", "carrierType", "postCode", "city", "state", "country", "website", "codeStatus"];
     for (const [title, keys] of [
       ["Company details", ["code", "linerName", "parentCompany"]],
       ["Website and carrier type", ["website", "carrierType"]],
