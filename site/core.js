@@ -86,7 +86,7 @@ export function validateRequest(mode, values, records, { requireContact = true }
   if (mode === "delete") return errors;
 
   for (const [field, label] of Object.entries({
-    linerName: "Liner name", street: "Street", postCode: "Postal code",
+    linerName: "Liner name", postCode: "Postal code",
     city: "City", state: "Area", country: "Country", website: "Website"
   })) {
     if (!values[field]?.trim()) errors[field] = `${label} is required.`;

@@ -42,8 +42,6 @@ public class LinerCodeFormV2Validator : AbstractValidator<LinerCodeForm>
             .WithMessage("Website (G10) is required.");
 
         RuleFor(x => x.Street)
-            .NotEmpty()
-            .WithMessage("Street (H10) is required.")
             .MaximumLength(100)
             .WithMessage("Street (H10) must be at most 100 characters long.");
 

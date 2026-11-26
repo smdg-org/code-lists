@@ -170,6 +170,20 @@ public class LinerCodesConvertFormExcelV2CommandTests : IDisposable
     }
 
     [Fact]
+    public async Task ExcelV2_ShouldAcceptForm_WhenStreetIsEmpty()
+    {
+        await WriteExisting("ZZZ");
+        PrepareForm(new() { ["A10"] = "ABC", ["N10"] = "Germany", ["H10"] = "", ["I10"] = "" });
+
+        var result = await Run("Add", "ABC");
+
+        result.Should().Be(0);
+        var added = await _fileStore.TryReadAsync<LinerCode>("ABC", _outputDirectory);
+        added!.AddressLocation.Address!.Street.Should().BeNull();
+        added.UnstructuredAddress.Should().Be("20095 Hamburg, Hamburg, Germany");
+    }
+
+    [Fact]
     public async Task ExcelV2_ShouldRequireCarrierType()
     {
         await WriteExisting("ZZZ");
